@@ -1,0 +1,977 @@
+                                                                    Sleep Medicine Reviews 76 (2024) 101951
+
+
+                                                                    Contents lists available at ScienceDirect
+
+
+                                                                  Sleep Medicine Reviews
+                                                           journal homepage: www.elsevier.com/locate/smrv
+
+
+
+
+Sleep assessment using EEG-based wearables – A systematic review
+C.J. de Gans a, b, *, 1, P. Burger b, c, d, 1, E.S. van den Ende a, b, J. Hermanides b, f,
+P.W.B. Nanayakkara a, b, R.J.B.J. Gemke b, c, d, F. Rutters b, e, D.J. Stenvers g, h
+a
+  Department of Internal Medicine, Section General Internal Medicine Unit Acute Medicine, Amsterdam University Medical Center, Amsterdam, the Netherlands
+b
+  Amsterdam Public Health Research Institute, Amsterdam University Medical Center, Vrije Universiteit Amsterdam, Amsterdam, the Netherlands
+c
+  Department of Pediatrics, Emma Children’s Hospital, Amsterdam University Medical Center, Amsterdam, the Netherlands
+d
+  Amsterdam Reproduction and Development Research Institute, Amsterdam, the Netherlands
+e
+  Department of Epidemiology and Data Science, Amsterdam University Medical Center, the Netherlands
+f
+  Department of Anesthesiology, Amsterdam University Medical Center, University of Amsterdam, Amsterdam, the Netherlands
+g
+  Department of Endocrinology and Metabolism, Amsterdam UMC, University of Amsterdam, Department Meibergdreef 9, Amsterdam, the Netherlands
+h
+  Amsterdam Gastroenterology Endocrinology and Metabolism (AGEM), Amsterdam, the Netherlands
+
+
+
+
+A R T I C L E I N F O                                     A B S T R A C T
+
+Handling Editor: M Vitiello                               Polysomnography (PSG) is the reference standard of sleep measurement, but is burdensome for the participant
+                                                          and labor intensive. Affordable electroencephalography (EEG)-based wearables are easy to use and are gaining
+Keywords:                                                 popularity, yet selecting the most suitable device is a challenge for clinicians and researchers. In this systematic
+Sleep                                                     review, we aim to provide a comprehensive overview of available EEG-based wearables to measure human sleep.
+Systematic review
+                                                          For each wearable, an overview will be provided regarding validated population and reported measurement
+Electro-encephalography
+                                                          properties. A systematic search was conducted in the databases OVID MEDLINE, Embase.com and CINAHL. A
+EEG
+Wearables                                                 machine learning algorithm (ASReview) was utilized to screen titles and abstracts for eligibility. In total, 60
+Sleep assessment                                          papers were selected, covering 34 unique EEG-based wearables. Feasibility studies indicated good tolerance, high
+                                                          compliance, and success rates. The 42 included validation studies were conducted across diverse populations and
+                                                          showed consistently high accuracy in sleep staging detection. Therefore, the recent advancements in EEG-based
+                                                          wearables show great promise as alternative for PSG and for at-home sleep monitoring. Users should consider
+                                                          factors like user-friendliness, comfort, and costs, as these devices vary in features and pricing, impacting their
+                                                          suitability for individual needs.
+
+
+                                                                                               anxiety, and on the long term, metabolic syndrome, type 2 diabetes
+                                                                                               mellitus, and cardiovascular disease [8–15]. This highlights the impor­
+1. Introduction                                                                                tance of research and clinical assessment tools that can accurately and
+                                                                                               objectively measure sleep. Additionally, reliable, and valid instruments
+    Sleep is an essential daily requirement for the development and                            may also contribute to the comparability and replicability of study
+maintenance of physical and psychological health. During sleep,                                results.
+important processes such as memory processing and consolidation,                                  Polysomnography (PSG) and wrist actigraphy are commonly used
+cellular repair, and brain development are facilitated [1–5]. There is no                      objective measures. PSG is considered the reference standard for eval­
+uniform definition of good sleep, but some scholars define good sleep as                       uating sleep stages and sleep cycles. PSG combines biometrics of
+the alternation of specific sleep stages throughout the night, initiated by                    modified electro-encephalography, ocular and submental electromyog­
+a cascade of neurochemical activity with resulting systemic benefits [6].                      raphy, and monitoring of several cardio-respiratory domains. However,
+Unfortunately, in Europe the median prevalence of insomnia with                                PSG is not routinely used as it requires specialized equipment, is un­
+night-time symptoms is around 25 % [7]. Common consequences of poor                            comfortable, labor intensive as well as expensive. Actigraphy records
+sleep are daytime sleepiness, reduced alertness, memory loss, increased
+
+
+ * Corresponding author. Department of Internal Medicine, Section General Internal Medicine unit Acute Medicine, Amsterdam University Medical Center,
+Amsterdam, The Netherlands and Amsterdam Public Health Research Institute, Amsterdam University Medical Center, Vrije Universiteit Amsterdam, Amsterdam, the
+Netherlands.
+   E-mail address: c.degans@amsterdamumc.nl (C.J. de Gans).
+ 1
+   Authors contributed equally to this work.
+
+https://doi.org/10.1016/j.smrv.2024.101951
+Received 29 December 2023; Received in revised form 26 April 2024; Accepted 6 May 2024
+Available online 7 May 2024
+1087-0792/© 2024 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+C.J. de Gans et al.                                                                                                         Sleep Medicine Reviews 76 (2024) 101951
+
+
+                                                                                  wearables were defined as follow: electronic devices worn on the
+   Abbreviations                                                                  body, that measure and record the electrical activity of the brain, and
+                                                                                  the collected data is analyzed to provide insights into various neuro­
+   EEG           electroencephalography                                           logical states.
+   PSG           polysomnography
+   EOG           electrooculography
+   EMG           electromyography                                                 2.3. Screening and data extraction
+
+                                                                                  2.3.1. Screening
+                                                                                      After the initial database search and after deduplication, ASReview
+body movement, and sleep-wake periods can be inferred by analyzing                was used to assess the eligibility of titles and abstracts [22]. This
+activity versus inactivity segments. Wrist actigraphy, however, is                open-source tool employs active learning and machine learning models
+limited by its lack of specificity as it does not measure sleep staging and       to aid researchers in making inclusion and exclusion decisions. It pre­
+lying still can be wrongly classified as sleep [16,17]. Recently, there has       sents articles one at a time for evaluation based on initial categoriza­
+been a rapid development of affordable sleep wearables [18].                      tions. Researchers’ decisions improve the algorithm’s accuracy and
+    Among the new sleep wearables, electroencephalography (EEG)-                  prompt it to reorder the remaining articles, prioritizing those deemed
+based systems appear to be the most accurate in identifying sleep stages          most relevant, thereby enhancing the review process [22]. Two re­
+[19]. Addressing the constraints of standard PSG, innovative EEG-based            searchers (CG, PB) independently screened all titles and abstracts with
+wearables have been designed with novel materials, streamlined sensing            ASReview with the following setup: TF-IDF as feature extraction tech­
+architectures, and sophisticated data analytics to offer minimized and            nique, Naive Bayes as classifier, maximum as query strategy and dy­
+less intrusive alternatives for at-home sleep monitoring. The transition          namic resampling as balance strategy. The stop criterium was 150
+from complex and cumbersome PSG equipment to user-friendly, unob­                 irrelevant records. After the first screening, an additional model was
+trusive EEG-based wearables demonstrates significant progress, making             trained in ASReview lab to search for any remaining papers, using
+sleep monitoring accessible to individuals in the comfort of their homes.         Sentence BERT with logistic regression. Previous research has demon­
+However, it remains challenging to determine which wearable is the                strated that the latter has superior performance, but is more computa­
+optimal one for use in specific settings or population. A systematic              tionally intensive (with finding 95 % of the relevant papers by screening
+overview of EEG-based wearables could assist researchers and clinicians           approximately 1.3 % of the papers). It conserves computational re­
+in the selection of a wearable for a particular purpose, and up till now          sources when run as a secondary model, while also increasing accuracy
+such a systematic review is not available. Therefore, in this systematic          [23]. Subsequently, the full text versions of the potentially eligible
+review, we aim to provide a comprehensive overview of available                   publications were retrieved (if necessary, by contacting one of the au­
+(novel) EEG-based wearables to appraise human sleep. For each wear­               thors) and assessed according to the inclusion and exclusion criteria by
+able, we will provide an overview regarding populations in which it has           two independent reviewers (CG and PB) and reasons for exclusion were
+been validated and reported measurement properties.                               recorded. There was one discrepancy between the two reviewers and
+                                                                                  this was resolved through discussion with a third reviewer (FR).
+2. Methods
+                                                                                  2.3.2. Properties of sleep assessment
+   This review is registered on PROSPERO (international prospective                  Data extraction was performed by two reviewers (CG, PB), using a
+register of systematic reviews) with registration number                          pre-approved and piloted form. In papers assessing the EEG-based
+CRD42023465973 and followed the Preferred Reporting Items for Sys­                wearables a variety of terms have been used to describe the validity of
+tematic Reviews and Meta-analysis (PRISMA) guidelines [20].                       an assessment method. In general, validity is often described in terms of
+                                                                                  accuracy (sensitivity, specificity) or agreement (intraclass correlation
+2.1. Literature search                                                            coefficient, Cohen’s Kappa, Bland Altman plots, or consistency checks
+                                                                                  using repeated measures). The measurement tools are often validated to
+    A systematic search was conducted (last update November 29th,                 the ‘reference standard’, e.g., polysomnography. If a study validated an
+2023), independently by two researchers (CG, PB) in the databases OVID            EEG-based wearable against both automatic and manual scoring of
+MEDLINE, Embase.com and CINAHL. The search included keywords and                  polysomnography, only the manual scoring was included. Uncertainties
+free text terms related to EEG sleep measurement methods combined                 in data extraction were resolved through discussion. Following the
+with (synonyms of) ‘sleep’, ‘insomnia’ or ‘sleep disorders’ (see Supple­          extraction of data, reviewers CG and PB cross-verified each other’s
+mentary content, S1). The separate search results were aggregated. No             extraction, revealing no discrepancies. To demonstrate how each EEG
+restrictions were applied regarding date or language. A grey literature           wearable is applied to the body, we have created drawings for each EEG
+and reference search was applied to capture any remaining eligible                device for which an example was available in the included papers or on
+papers [21].                                                                      the World Wide Web.
+
+2.2. Inclusion/exclusion criteria
+                                                                                  2.4. Assessing risk of bias
+    Inclusion criteria were: 1) devices developed for humans, 2) objec­
+tive assessment of sleep/insomnia/sleep disorder with the use of EEG-                 We assessed paper quality and risk of bias using the QUADAS-2
+based wearables, 3) papers focusing on the development of a specific              criteria, a widely accepted tool for evaluating articles about validity of
+EEG-wearable for sleep or evaluation of measurement properties for                measurements [24]. It consists of 14 items across four domains (patient
+existing EEG-wearables against the reference standard (from now on                selection, index test, reference standard, flow, and timing of tests)
+called validation papers), 4) electronically available in full-text format.       categorized into risk of bias and applicability judgment. Each item is
+    Exclusion criteria were: 1) literature reviews, 2) written in languages       answered as ’yes,’ ’no,’ or ’unclear,’ with ’yes’ indicating low risk of
+other than English, Dutch, or German, and 3) animal studies.                      bias or applicability concerns. Two researchers (CG, PB) independently
+    Additionally, due to the difficulty in finding validation papers, we          evaluated the included studies. Risk of bias was only assessed for
+employed a grey literature search to identify any remaining devices,              full-text papers (e.g., not for (conference) abstracts, pilot, and feasibility
+ensuring a comprehensive overview of all available options. EEG-                  studies). Disagreement was resolved through dialogue.
+
+                                                                              2
+C.J. de Gans et al.                                                                                                          Sleep Medicine Reviews 76 (2024) 101951
+
+
+3. Results                                                                          %) did not specify the location of the study. When analyzing the capa­
+                                                                                    bility of these wearables to detect sleep stages, a notable variation was
+    The search strategy initially yielded 109,115 unduplicated citations.           observed. Seventeen wearables (70 % of those studied) could differen­
+Title and abstract screening resulted in the identification of 231 poten­           tiate between the three distinct stages of non-REM sleep. However,
+tially eligible papers. After a thorough full-text screening, a total of 53         seven wearables had a more limited functionality, only able to distin­
+were included in the review (S2, Fig. 1). Seven additional articles were            guish between light and deep sleep within the non-REM category.
+identified through reference checking or snowballing. Reasons for                   Studies differed in the reported measures of validity. Reported accuracy
+exclusion after full-text screening are also listed in S2, Fig. 1. A meta-          for sleep metrics ranged between 0.48 and 0.95. Reported sensitivity
+analysis was not possible due to the heterogeneity of the data.                     ranged between 0.11 and 0.98, with the lowest percentages obtained for
+    The span of the publications extended from 1988 to 2023, revealing a            the N1 stages.
+significant increase in research activity in recent years. This trend was
+particularly pronounced from 2020 onwards, with 31 of the 60 included
+papers (52 %) in or after 2020. This surge indicates a growing interest             3.1. Wearability and feasibility
+and advancements in the field of EEG-based wearables.
+    We identified 24 distinct EEG-based wearables from 37 full-text                     Fig. 1 illustrates the attachment methods for each EEG wearable
+validation papers and five conference abstracts. Additionally, six de­              listed in Table 1, including headbands/eye masks (Fig. 1, A–E), ear-EEG
+vices were identified from thirteen feasibility studies, and four devices           (Fig. 1, F–G), single-channel EEG (Fig. 1, H–I), and portable EEG devices
+were found from grey literature without a paper validating the device               (Fig. 1, J–L), as well as forehead multiple sensor patches (Fig. 1, M − S).
+against PSG. This brings the total count to 34 unique EEG-based                     However, example images for the QUISI v 1.0 and LANMAO Sleep
+wearables.                                                                          Recorder – ×7 mini version were not available [33,37,38]. Some EEG
+    Of the 24 devices identified from the validation papers, 21 devices             wearables are solely equipped with one or multiple EEG channels [25,
+were explicitly identified with a brand name, as detailed in Table 1                26,31–33,36–44,47,49–57,70,71], while others additionally feature
+[25–58]. In contrast, there were three types of devices with validation             capabilities such as tracking of movement, body position, breathing
+papers that did not have an associated brand name, see S4 [59–69]. The              frequency, heart rate, light exposure, temperature, oxygen levels, and
+range of the EEG-based wearables was quite diverse, including head­                 monitoring of snoring and nasal pressure [27–30,45,46,48,58,72,73].
+bands, eye masks, single-channel EEG, portable PSG systems, forehead                    Fourteen feasibility studies on ten EEG-based wearable devices
+multiple sensor patches and ear-EEG channels. Focusing on the 42                    demonstrated their general effectiveness and user tolerance. These
+papers/abstracts of these 24 validated devices, 27 out of 42 (64 %)                 included three headbands (Dreem [29,73], Sleep Profiler [40,41],
+papers were conducted in a clinical setting, five papers (12 %) were                Zmachine Insight [56]), three portable PSG systems (Nox-A1 type 2 [82,
+based on studies conducted at home, and the remaining 10 papers (24                 83], Cerebra sleep system [84], Philips Alice PDx [85]), and one fore­
+                                                                                    head multiple sensor patch (Xtrodes sleep tracker [49]), and three
+
+
+
+
+Fig. 1. Overview of EEG wearables. A. Dreem, adapted from [72], B. Neuroon, adapted from [74], C. Zeo headband, adapted from [53], D. Zmax, adapted from [75],
+E. Sleep Profiler, adapted from [42], F. cEEGrid, adapted from [26], G. IDUN Guardian, adapted from [76], H. UmindSleep, adapted from [77], I. Z Machine Insight,
+adapted from [78], J. Embletta X100, adapted from [79], K. Onera STS, adapted from [35], L. SOMNO Watch plus EEG, adapted from [80], M. Prodigy sleep monitor,
+adapted from [36], N. Sleep-Graph,adapted from [71], O. Sedline Brain Function Monitor, P. trEEGrid, adapted from [47], Q. Xtrodes sleep tracker, adapted from
+[50], R. Bittium Brain-status, adapted from [25], S. Insomnograf, adapted from [81].
+
+                                                                                3
+                                                                                                                                                                                                                                         C.J. de Gans et al.
+    Table 1
+                      Electrode composition                       Sleep stages         Sleep            Validation population       Reference standard (if       Properties        Agreement %       Sensitivity/      Correlation
+     Name EEG-                                                                         classification   and setting                 known, type/name device)                       /Cohen’s kappa    specificity
+     based                                                                                                                                                       Accuracy (%)      (κ)
+     wearable.
+
+     Headbands/Eye masks
+     Dreem          Five dry EEG electrodes, providing seven      Five stages:         Auto-staging     Participants at sleep lab   PSG (manually scored) [28]   All: 0.84         κ=
+       headband     different readings. Tracks movements,         Wake, REM, N1,       algorithm        [28]                                                     Wake: 0.74        All: 0.73
+       [27–29,72,   body position, breathing frequency.           N2, N3                                                                                         N1: 0.48          Wake: 0.74
+       73]          Measures heart rate through a red-                                                                                                           N2: 0.83          N1: 0.43
+                    infrared pulse oximeter.                                                                                                                     N3: 0.83          N2: 0.75
+                                                                                                                                                                 REM: 0.85         N3: 0.74
+                                                                                                                                                                 [28]              REM: 0.79 [28]
+                                                                                       Auto-staging     Adults at sleep center      PSG (manually scored) [27]   REM: 0.88
+                                                                                       algorithm        [27]                                                     N1: 0.54
+                                                                                                                                                                 N2: 0.86
+                                                                                                                                                                 N3: 0.84
+                                                                                                                                                                 Wake: 0.83
+                                                                                                                                                                 [27]
+     Neuroon [34]     A wearable EEG eye mask. Single-            Four stages:         Auto-staging     Participants at home [34]   Portable 1-channel EEG                                                             Pearson:
+                      channel EEG signal.                         wake, light sleep,   algorithm                                    Sleep Scope (auto-staging                                                          Light sleep:
+                      According to the manufacturer, Neuroon      deep sleep and                                                    algorithm)                                                                         0.15
+                      can also track physiological parameters     REM sleep                                                                                                                                            Deep sleep:
+                      such as heart rate, body temperature, and                                                                                                                                                        0.50*
+                      body movements.                                                                                                                                                                                  REM sleep:
+                                                                                                                                                                                                                       0.05
+                                                                                                                                                                                                                       *(p ≤ 0.05)
+     Zeo headband     Three EEG electrodes                        Four stages:         Auto-scoring     Healthy adults at sleep     Polysomnography (Cadwell                       Wake: 0.64
+4      [51–55]                                                    wake, light sleep,   algorithm        lab [55]                    Easy III, manually scored)                     REM: 0.86
+                                                                  deep sleep and                                                    [55]                                           Light: 0.86
+                                                                  rapid eye                                                                                                        Deep: 0.71 [55]
+                                                                  movement sleep       Auto-scoring     Healthy students in sleep   PSG (Siesta 802 PSG                            κ=                Sensitivity:
+                                                                                       algorithm        lab [53]                    acquisition system,                            Light: 0.56       0.87
+                                                                                                                                    manually scored) [53]                          Deep: 0.70        Specificity:
+                                                                                                                                                                                   REM: 0.67         0.56 [53]
+                                                                                       Auto-scoring     Adults (primary             PSG (Semi-automatic                            Overall: 0.73     Sensitivity
+                                                                                       algorithm        insomnia vs good            Somnolyzer 24 × 7) [51]                        κ = 0.56 [51]     Wake: 0.41
+                                                                                                        sleepers) [51]                                                                               REM: 0.74
+                                                                                                                                                                                                     Light: 0.80
+                                                                                                                                                                                                     Deep: 0.62
+                                                                                                                                                                                                     [51]
+                                                                                       Auto-scoring     Healthy adults at sleep     PSG-recorded (Astro-Med      Wake: 0.87        κ=                Sensitivity:
+                                                                                       algorithm        lab [54]                    Grass Heritage Model 15      Light: 0.75       Wake: 0.62        Wake: 0.59
+                                                                                                                                    amplifiers with Grass        Deep: 0.91        Light: 0.49       Light: 0.67
+                                                                                                                                    Gamma software, manually     REM: 0.81         Deep: 0.72        Deep: 0.83
+                                                                                                                                    scored) [54]                 [54]              REM: 0.28 [54]    REM: 0.82
+
+
+
+
+                                                                                                                                                                                                                                         Sleep Medicine Reviews 76 (2024) 101951
+                                                                                                                                                                                                     [54]
+                                                                                       Auto-staging     Healthy adults at sleep     PSG (Grass Comet Plus,       Wake: 0.91                          Sensitivity:
+                                                                                       algorithm        lab [52]                    manually scored) [52]        All sleep: 0.90                     Wake: 0.40
+                                                                                                                                                                 Light: 0.73                         All Sleep: 0.97
+                                                                                                                                                                 Deep: 0.86                          Light 0.71
+                                                                                                                                                                 REM 0.86                            Deep 0.67
+                                                                                                                                                                 [52]                                REM 0.74
+                                                                                                                                                                                                     Specificity:
+                                                                                                                                                                                                     Wake: 0.98
+                                                                                                                                                                                                     All Sleep: 0.45
+                                                                                                                                                                                                     Light: 0.75
+                                                                                                                                                                                                              (continued on next page)
+                                                                                                                                                                                                                                     C.J. de Gans et al.
+    Table 1 (continued )
+                      Electrode composition                         Sleep stages     Sleep             Validation population      Reference standard (if       Properties      Agreement %       Sensitivity/      Correlation
+     Name EEG-                                                                       classification    and setting                known, type/name device)                     /Cohen’s kappa    specificity
+     based                                                                                                                                                     Accuracy (%)    (κ)
+     wearable.
+
+                                                                                                                                                                                                 Deep: 0.90
+                                                                                                                                                                                                 REM: 0.86
+                                                                                                                                                                                                 [52]
+     Sleep Profiler   Three EEG electrodes                          Five stages:     Manually scored   Adults scheduled for a     PSG (manually scored) [42]   Wake: 0.89      Overall:          Sensitivity:      Intraclass:
+       [40–44]                                                      Wake, REM, N1,                     sleep study in sleep                                    REM: 0.94       κ = 0.67 [42]     Wake: 0.78        N1: 0.66
+                                                                    N2, N3                             center [42]                                             N1: 0.90                          REM: 0.86         N2+3: 0.96
+                                                                                                                                                               N2/N3: 0.88                       N1: 0.21          REM: 0.92
+                                                                                                                                                               [42]                              N2/N3: 0.87       [42]
+                                                                                                                                                                                                 Specificity:
+                                                                                                                                                                                                 Wake: 0.91
+                                                                                                                                                                                                 REM: 0.95
+                                                                                                                                                                                                 N1: 0.96
+                                                                                                                                                                                                 N2/N3: 0.89
+                                                                                                                                                                                                 [42]
+                                                                                     Auto-staging      Adults at sleep lab [43]   PSG (Alice 5 systems,                        Wake: 0.82
+                                                                                     algorithm                                    manually scored) [43]                        N1: 0.26
+                                                                                                                                                                               N2: 0.85
+                                                                                                                                                                               N3: 0.82
+                                                                                                                                                                               REM: 0.73 [43]
+                                                                                     Auto-staging      Healthy participants at    PSG (manually scored) [44]                   Autoscoring//     Autoscoring/
+                                                                                     algorithm and     clinic [44]                                                             manually          manually
+                                                                                     manually scored                                                                           scored:           scored
+                                                                                                                                                                               Wake: 0.92/       Sensitivity:
+5                                                                                                                                                                              0.93              Wake: 0.44/
+                                                                                                                                                                               (k = 0.42/0.44)   0.40
+                                                                                                                                                                               N1: 0.89/0.93     N1: 0.27/0.27
+                                                                                                                                                                               (k = 0.07/0.13)   N2: 0.72/0.76
+                                                                                                                                                                               N2: 0.78/0.81     N3: 0.61/0.74
+                                                                                                                                                                               (k = 0.55/0.61)   REM: 0.72/
+                                                                                                                                                                               N3: 0.88/0.90     0.86
+                                                                                                                                                                               (k = 0.62/0.71)   Specificity:
+                                                                                                                                                                               REM: 0.85/0.90    Wake: 0.96/
+                                                                                                                                                                               (k = 0.58/0.73)   0.98
+                                                                                                                                                                               [44]              N1: 0.91/0.95
+                                                                                                                                                                                                 N2: 0.83/0.85
+                                                                                                                                                                                                 N3: 0.96/0.95
+                                                                                                                                                                                                 REM: 0.89/
+                                                                                                                                                                                                 0.91 [44]
+     Zmax [58]        Lite version: EEG electrodes,                 Five stages:     Auto-staging      Different datasets         PSG (manually scored)        Overall: 0.71   Overall:          Sensitivity:
+                      accelerometer, and a PPG sensor.              Wake, REM, N1,   algorithm                                                                                 κ = 0.60 [58]     Wake: 0.73
+                      Advanced version in addition: light           N2, N3                                                                                                                       N1: 0.29
+
+
+
+
+                                                                                                                                                                                                                                     Sleep Medicine Reviews 76 (2024) 101951
+                      sensor, microphone, temperature,                                                                                                                                           N2: 0.73
+                      nasal/SpO2 sensors.                                                                                                                                                        N3: 0.68
+                                                                                                                                                                                                 REM: 0.77
+     Ear-EEG
+     cEEGrid [26]     A flex-printed, ultra-thin adhesive strip     Five stages:     Manually scored   Healthy adults at sleep    wireless PSG system                          Overall 0.59,                       Pearson:
+                      designed to fit behind the ear. It contains   Wake, REM, N1,                     lab                        (SomnoHD) (manually                          κ = 0.42                            Wake: r =
+                      10 embedded electrodes, utilized for          N2, N3                                                        scored)                                                                          0.74
+                      capturing electrophysiological signals                                                                                                                                                       (p = 0.01)
+                      from the area around the ear.                                                                                                                                                                N1: r = 0.64
+                                                                                                                                                                                                                   (p = 0.01)
+                                                                                                                                                                                                                   N2: r = 0.55*
+                                                                                                                                                                                                          (continued on next page)
+                                                                                                                                                                                                                                       C.J. de Gans et al.
+    Table 1 (continued )
+                      Electrode composition                       Sleep stages         Sleep             Validation population        Reference standard (if       Properties     Agreement %      Sensitivity/      Correlation
+     Name EEG-                                                                         classification    and setting                  known, type/name device)                    /Cohen’s kappa   specificity
+     based                                                                                                                                                         Accuracy (%)   (κ)
+     wearable.
+
+                                                                                                                                                                                                                     N3: r = 0.63*
+                                                                                                                                                                                                                     REM: r = 0.59
+                                                                                                                                                                                                                     (p = 0.02)
+                                                                                                                                                                                                                     *p = 0.05
+     IDUN             A 2-channel in-ear EEG system.              Five stages:         Manually scored   Healthy adults               PSG data (SOMNOscreen                                                          Pearson:
+       Guardian                                                   Wake, REM, N1,                                                      plus, manually scored)                                                         Average: r =
+       [31]                                                       N2, N3                                                                                                                                             0.78 [31]
+                                                                                                                                                                                                                     No p-value.
+     Single channel EEG
+     QUISI v 1.0      Single-channel EEG. Uses neuronal           Five stages:         Auto-staging      Men with primary             PSG was performed (SIDAS.                                                      Spearman:
+       [37,38]        network techniques for automatic sleep      Wake, REM, N1,       Algorithm [37]    snoring or obstructive       GS, manually scored) [37]                                                      Wake: r =
+                      stage classification.                       N2, N3/N4                              sleep apnea (OSA) at                                                                                        0.33
+                                                                                                         sleep lab [37]                                                                                              (p = 0.01)
+                                                                                                                                                                                                                     N1 r = 0.25
+                                                                                                                                                                                                                     (p = 0.05)
+                                                                                                                                                                                                                     N2: r = 0.42
+                                                                                                                                                                                                                     (p = 0.002)
+                                                                                                                                                                                                                     N3/4: r =
+                                                                                                                                                                                                                     0.31
+                                                                                                                                                                                                                     (p = 0.02)
+                                                                                                                                                                                                                     REM: r = 0.25
+                                                                                                                                                                                                                     (p = 0.05)
+                                                                                                                                                                                                                     [37]
+6                                                                                      Auto-staging      Patients at sleep lab [38]   PSG (manually scored) [38]                                                     Pearson:
+                                                                                       algorithm [38]                                                                                                                Wake: 0.68 (p
+                                                                                                                                                                                                                     < 0.0001)
+                                                                                                                                                                                                                     N1: 0.19
+                                                                                                                                                                                                                     (p = 0.26)
+                                                                                                                                                                                                                     N2: 0.26
+                                                                                                                                                                                                                     (p = 0.12)
+                                                                                                                                                                                                                     N3: 0.30
+                                                                                                                                                                                                                     (p = 0.07)
+                                                                                                                                                                                                                     N4: 0.41
+                                                                                                                                                                                                                     (p = 0.01)
+                                                                                                                                                                                                                     REM: 0.58 (p
+                                                                                                                                                                                                                     < 0.0001)
+                                                                                                                                                                                                                     [38]
+     Umind-sleep      Single-channel EEG with sticker.            Four stages:         Auto-staging      Adults at sleep center       Philips Alice 6 PSG system   Wake: 0.93     κ=               Sensitivity:
+      [48]            Measures sleep, heart rate, blood oxygen,   wake, light sleep                                                   (manually scored)            Light: 0.85    Wake: 0.72       Wake: 0.80
+                      snoring, body position and frontal          (N1, N2), deep                                                                                   Deep: 0.95     Light: 0.69      Light: 0.88
+                      temperature.                                sleep (N3), REM                                                                                  REM: 0.95      Deep: 0.76       Deep: 0.79
+
+
+
+
+                                                                                                                                                                                                                                       Sleep Medicine Reviews 76 (2024) 101951
+                                                                                                                                                                                  REM: 0.79        REM: 0.83
+                                                                                                                                                                                                   Specificity:
+                                                                                                                                                                                                   Wake: 0.95
+                                                                                                                                                                                                   Light: 0.83
+                                                                                                                                                                                                   Deep: 0.97
+                                                                                                                                                                                                   REM: 0.97
+     Zmachine         Single-channel EEG. Algorithm-based         Four stages:         Auto-staging      Adults with psychiatric      PSG (PSG-1100, Nihon                                                           Intraclass:
+      Insight [56,    sleep staging.                              wake, light sleep,   algorithm         disorders or sleep           Kohden Co., and Embla                                                          Light: 0.50
+      57]                                                         deep sleep and                         disorder [57]                N7000, Natus, manually                                                         Deep: 0.32
+                                                                  rapid eye                                                           scored) [57]                                                                   REM: 0.75
+                                                                  movement sleep
+                                                                                                                                                                                                            (continued on next page)
+                                                                                                                                                                                                                                         C.J. de Gans et al.
+    Table 1 (continued )
+                       Electrode composition                      Sleep stages         Sleep             Validation population        Reference standard (if       Properties       Agreement %      Sensitivity/      Correlation
+     Name EEG-                                                                         classification    and setting                  known, type/name device)                      /Cohen’s kappa   specificity
+     based                                                                                                                                                         Accuracy (%)     (κ)
+     wearable.
+
+                                                                                                                                                                                                                       Non-REM:
+                                                                                                                                                                                                                       0.65 [57]
+     Portable EEG
+     Embletta          Two EEG channels, one EOG, chin EMG,       Five stages:         Auto-staging      Surgical adult patients in   PSG (manually scored)                                                            Pearson:
+       X100 [30]       nasal cannula (pressure), thoracic and     Wake, REM, N1,       algorithm and     sleep lab                                                                                                     Autoscoring:
+                       abdominal respiratory effort bands,        N2, N3               manually scored                                                                                                                 N1: r =
+                       body-position sensor, and pulse                                                                                                                                                                 − 0.038
+                       oximetry.                                                                                                                                                                                       (p = 0.871)
+                                                                                                                                                                                                                       N2: r = 0.298
+                                                                                                                                                                                                                       (p = 0.189)
+                                                                                                                                                                                                                       N3: r = 0.042
+                                                                                                                                                                                                                       (p = 0.858)
+                                                                                                                                                                                                                       REM: r =
+                                                                                                                                                                                                                       0.355
+                                                                                                                                                                                                                       (p = 0.103)
+                                                                                                                                                                                                                       Manually
+                                                                                                                                                                                                                       scored:
+                                                                                                                                                                                                                       N1: r = 0.444
+                                                                                                                                                                                                                       (p = 0.043)
+                                                                                                                                                                                                                       N2: r = 0.819
+                                                                                                                                                                                                                       (p < 0.001)
+                                                                                                                                                                                                                       N3: r = 0.567
+                                                                                                                                                                                                                       (p = 0.007)
+7                                                                                                                                                                                                                      REM: r =
+                                                                                                                                                                                                                       0.730
+                                                                                                                                                                                                                       (p < 0.001)
+     Onera STS         Four sensor patches with hydrogel          Five stages:         Manually scored   Adults referred for sleep    PSG (Embla S4500,            Wake: 0.94                        Sensitivity       Pearson:
+      [35]             applied to forehead, upper chest,          Wake, REM, N1,                         study                        manually scored)             REM: 0.95                         Wake: 0.62        Wake 0.64
+                       abdomen, lower leg. Measures EEG, EOG,     N2, N3                                                                                           N1: 0.90                          REM: 0.88         REM 0.91
+                       EMG, ECG, respiratory signals, nasal                                                                                                        N2: 0.85                          N1: 0.27          N1 0.67
+                       pressure, oxygen saturation, activity,                                                                                                      N3: 0.96                          N2: 0.88          N2 0.69
+                       body position, and snoring loudness.                                                                                                                                          N3: 0.77          N3 0.65
+                                                                                                                                                                                                     Specificity
+                                                                                                                                                                                                     Wake: 0.98
+                                                                                                                                                                                                     REM: 0.96
+                                                                                                                                                                                                     N1: 0.95
+                                                                                                                                                                                                     N2: 0.82
+                                                                                                                                                                                                     N3: 0.98
+     SOMNO-            Ten EEG electrodes (Ag/AgCl                Five stages:         Semi-automatic    Adults in sleep              EEG amplifier (Neuroscan     With             With             With
+       watch plus      electrodes), EOG, EMG, actigraph, body     Wake, REM, N1,       Somnolyzer and    laboratory [45]              system, sleep staging with   Somnolyzer:      Somnolyzer:      Somnolyzer:
+       EEG [45,        temperature, oximetry.                     N2, N3               auto-staging                                   semi-automatic Somnolyzer    0.97             κ = 0.78         Sens 0.98
+
+
+
+
+                                                                                                                                                                                                                                         Sleep Medicine Reviews 76 (2024) 101951
+       46]                                                                             DOMINO Light                                   24x7) [45]                   With             With DOMINO      Spec 0.87
+                                                                                                                                                                   DOMINO           Light:           With DOMINO
+                                                                                                                                                                   Light: 0.93      κ = 0.37 [45]    Light:
+                                                                                                                                                                   [45]                              Sens 0.93
+                                                                                                                                                                                                     Spec 0.81 [45]
+     Forehead multiple sensor patch
+     LANMAO           The base box: charging and processing       Four stages:         Auto-staging      Adults in sleep              PSG (Natus Embla NDx,        Overall: 84.12   k=
+       Sleep          the data. The head patch: frontal single-   wake, light sleep,   algorithm         monitoring room              manually scored)             Wake: 0.97       Overall: 0.79
+       Recorder –     channel EEG electrodes with hydrogel,       deep sleep and                                                                                   Light: 0.87      Wake: 0.91
+       ×7 mini        head movement.                              REM sleep                                                                                        Deep: 0.91       Light: 0.63
+                                                                                                                                                                   REM: 0.94
+                                                                                                                                                                                                              (continued on next page)
+                                                                                                                                                                                                                                   C.J. de Gans et al.
+    Table 1 (continued )
+                      Electrode composition                      Sleep stages     Sleep             Validation population       Reference standard (if        Properties      Agreement %      Sensitivity/      Correlation
+     Name EEG-                                                                    classification    and setting                 known, type/name device)                      /Cohen’s kappa   specificity
+     based                                                                                                                                                    Accuracy (%)    (κ)
+     wearable.
+
+       version                                                                                                                                                                Deep: 0.76
+       [33]                                                                                                                                                                   REM: 0.83
+     Prodigy sleep    EEG, EOG, EMG. The data collected is       Five stages:     Auto-staging      Patients suspected of       PSG (manually scored)                                                            Intraclass
+       monitor        scored by MSS and edited using             Wake, REM, N1,   algorithm         sleep disorder at sleep                                                                                      correlation:
+       [36]           suggestions by the Editing Helper within   N2, N3                             center                                                                                                       Wake: 0.76
+                      MSS.                                                                                                                                                                                       N1: 0.60
+                                                                                                                                                                                                                 N2: 0.83
+                                                                                                                                                                                                                 N3: 0.55
+                                                                                                                                                                                                                 REM: 0.45
+     SedLine Brain    Six channels: EEG and EMG.                 Five stages:     Manually scored   Subjects scheduled for      PSG (manually scored)                         Overall: 0.75(
+       Function                                                  Wake, REM, N1,                     sleep study at sleep lab                                                  κ = 0.62)
+       Monitor                                                   N2, N3                                                                                                       Wake: 0.67
+       [39]                                                                                                                                                                   N1: 0.29
+                                                                                                                                                                              N2: 0.99
+                                                                                                                                                                              N3: 0.06
+                                                                                                                                                                              REM: 0.89
+     Sleep-Graph      2 EEG electrodes, EOG, EMG.                Five stages:     Manually scored   Patients >16 years          digital PSG recorder (Somno   Sleep/wake:                      Sensitivity
+       [70,71]                                                   Wake, REM, N1,                     diagnosed psychiatric       HD, manually scored) [70]     0.92                             Sleep: 0.95
+                                                                 N2, N3                             disorders or sleep                                        Light: 0.80                      Light: 0.79
+                                                                                                    disorder who were                                         Deep: 0.93                       Deep: 0.69
+                                                                                                    admitted to Akita                                         REM: 0.92                        REM: 0.91
+                                                                                                    University Hospital for a                                 [70]                             Specificity
+                                                                                                    sleep study [70]                                                                           Wake: 0.76
+8                                                                                                                                                                                              Light: 0.82
+                                                                                                                                                                                               Deep: 0.97
+                                                                                                                                                                                               REM: 0.93
+                                                                                                                                                                                               [70]
+                                                                                  Manually scored   Participants with           PSG (manually scored) [71]                                                       Spearman:
+                                                                                                    Parkinson’s disease [71]                                                                                     N1: 0.64
+                                                                                                                                                                                                                 (p = 0.09)
+                                                                                                                                                                                                                 N2: 0.60
+                                                                                                                                                                                                                 (p = 0.12)
+                                                                                                                                                                                                                 N3: 0.43
+                                                                                                                                                                                                                 (p = 0.29)
+                                                                                                                                                                                                                 REM: 0.98 (p
+                                                                                                                                                                                                                 < 0.001) [71]
+     trEEGrid [47]    Seven EEG electrodes, 1 EOG, 1 EMG.        Five stages:     Manually scored   Healthy adults at home      PSG system (SOMNOscreen                       κ=
+                                                                 Wake, REM, N1,                                                 Plus, manually scored)                        All: 0.70
+                                                                 N2, N3                                                                                                       Wake: 0.75
+                                                                                                                                                                              N1: 0.46
+                                                                                                                                                                              N2: 0.66
+
+
+
+
+                                                                                                                                                                                                                                   Sleep Medicine Reviews 76 (2024) 101951
+                                                                                                                                                                              N3: 0.79
+                                                                                                                                                                              REM: 0.76
+     Xtrodes sleep    Four EEG electrodes, two EOG electrode,    Five stages:     Manually scored   Healthy adults and          Video PSG Natus (NDx)         Overall: 0.77   κ=               Sensitivity:
+       tracker [49,   and two EMG electrodes.                    Wake, REM, N1,                     patients with Parkinson’s   system (manually scored)      [50]            Overall: 0.67    Wake: 0.91
+       50]                                                       N2, N3                             disease (results/           [50]                                          Wake: 0.70       N1: 0.16
+                                                                                                    properties showed of all                                                  N1: 0.22         N2: 0.84
+                                                                                                    patients together) at                                                     N2: 0.58         N3: 0.68
+                                                                                                    sleep center [50]                                                         N3: 0.41         REM: 0.77
+                                                                                                                                                                              REM: 0.72 [50]   Specificity:
+                                                                                                                                                                                               Wake: 0.94
+                                                                                                                                                                                               N1: 0.99
+                                                                                                                                                                                                        (continued on next page)
+C.J. de Gans et al.                                                                                                                                                                              Sleep Medicine Reviews 76 (2024) 101951
+
+
+                                                                                                                                                         unnamed portable systems [86–88]. The studies assessed aspects like
+                                                                                                                                                         compliance, success rates, and comfort.
+
+                         Correlation
+                                                                                                                                                             Key feasibility finding were the following: Dreem headband had less
+                                                                                                                                                         than 20 % artifacts in most tests, with high success rates in participant
+                                                                                                                                                         recordings [29,73]. Zmachine Insight + showed a 94 % success rate
+                                                                                                                                                         among adolescents, with varying levels of comfort reported [56]. Sleep
+                                                                                                                                                         Profiler appeared to under-report N3 sleep and over-report N1 sleep but
+                                                                N2: 0.80
+                                                                N3: 0.97
+                                                                REM: 0.98
+                         Sensitivity/
+                                                                [50]
+                                                                Sensitivity:
+                                                                Wake:
+                                                                0.75–0.77                                                                                had an 86 % compliance rate [40,41]. Zmachine Insight + showed a 94
+                                                                                                                                                         % success rate among adolescents, with varying levels of comfort re­
+                         specificity
+                                                                N1: 0.51–0.64
+                                                                N2: 0.86–0.88
+                                                                N3: 0.72–0.83
+                                                                                                                                                         ported [56]. Nox-A1 type 2 was well-received by children, with a pref­
+                                                                REM:
+                                                                0.61–0.89
+                                                                                                                                                         erence for home testing [82,83]. Cerebra system had a 83 % success rate,
+                         Agreement %                                Overall:                                                                             with improved results on second-night recordings [84]. Xtrodes Sleep
+                                                                                                                                                         Tracker provided stable recordings in different settings and was
+                         /Cohen’s kappa                             0.77–0.82
+                                                                                                                                                         comfortable for all users [49]. Data from one of the unnamed devices
+                         (κ)                                        (k = 0.66–0.74)                                                                      was effectively scorable in a home setting [86], while another had issues
+                                                                                                                                                         in a pediatric study [87]. A study on critically ill patients indicated the
+                                                                                                                                                         potential of portable devices in assessing sleep quality for healthcare
+
+
+                                                 Accuracy (%)                                                   Overall: 0.91
+                                                                                                                                                         interventions [88].
+
+                         Properties
+                                                                                                                                                         3.2. EEG wearables without sleep measurement validation studies
+
+                                                                                                                                                             Four EEG-based wearables, which lack dedicated (real-life) sleep
+
+
+                         Reference standard (if                     Embla N7000 full PSG
+                                                                                                                                                         measurement validation studies, were included in our review. As these
+
+
+
+
+                                                                                                                PSG (manually scored)
+                                                                                                                                                         devices are capable of measuring sleep, their functionalities are sum­
+                                                                                                                                                         marized in this section. The Philips Smartsleep Deep Sleep headband is
+
+
+                         known, type/name device)
+                                                                                                                                                         designed to boost slow-wave activity with precise auditory stimulation,
+
+                                                                    system (manually scored)
+                                                                                                                                                         calibrated for high deep sleep detection (sensitivity ≥70 %, specificity
+                                                                                                                                                         ≥95 %) [89]. The URGOnight uses sensori-motor rhythm neurofeed­
+                                                                                                                                                         back, which may help alleviate sleep issues, as uses have reported
+                                                                                                                                                         increased sleep duration after completing the program [90]. The MUSE
+                                                                                                                                                         headband, primarily used for meditation, demonstrated sleep staging
+
+                         Validation population
+                                                                                                                                                         accuracy between 85 and 86 % and a Cohen’s kappa of 0.77–0.79 in a
+
+
+
+                                                                                                                Healthy participants
+                                                                    Adults with sleep                                                                    study comparing deep learning models [91]. Lastly, one study developed
+
+                                                                    bruxism or healthy
+                                                                                                                                                         a multi-biosignal interface, which contained EOG, EEG, and EMG, and
+
+                         and setting
+                                                                                                                                                         validated the wearable against existing datasets, with a Cohen’s k of
+                                                                    controls at sleep lab                                                                0.67–0.7 [92].
+
+                                                                                                                                                         3.3. Quality and risk of bias assessment
+
+
+
+                                                                    Manually scored                             Manually scored
+                                                                                                                                                             A quality and risk of bias assessment was conducted for 38 full-text
+                         Sleep
+                                                                                                                                                         papers (S3). In five validation papers, no quality and risk assessment
+                         classification                                                                                                                  was performed, as they were presented solely as abstracts [28,31,32,65,
+                                                                                                                                                         66]. Among the full-text papers, 21 studies were identified as having a
+                                                                                                                                                         high risk of bias in at least one of the seven assessed domains [26,27,34,
+                                                                    Five stages:                                Four stages:                             35,37,39,43,44,46,47,51–53,59–64,67,70]. Eight papers were found to
+                                                                                                                                                         have no risk of bias and were consequently rated as low risk [33,36,38,
+                         Sleep stages
+                                                                                                                Wake, N1+N2,
+                                                                    Wake, REM, N1,
+                                                                                                                N3 and REM                               45,57,58,69,71]. Nine papers were classified as having an unclear risk of
+                                                                    N2, N3                                      sleep                                    bias in at least one domain [25,30,42,48,50,54,55,68,92]. The goal was
+                                                                                                                                                         to provide a comprehensive overview of the available EEG-based
+                                                                                                                                                         wearables, regardless of the identified bias levels. Hence, studies iden­
+                                                                    Set of 3 hydrogel-coated silver ink
+                                                                                                                                                         tified with a risk of bias were not excluded from this review [93].
+
+
+
+                                                                                                                Five EEG channels, EOG, EMG, heart
+                                                                    electrodes positioned on the forehead, an
+                                                                                                                                                         4. Discussion
+
+
+                                                                    EOG electrode under the right eye, along
+                                                                                                                                                            In this systematic review, we present a comprehensive overview of
+
+
+
+
+                         Electrode composition                                                                  rate, and breathing.
+                                                                                                                                                         available (novel) EEG-based wearables to appraise human sleep. We
+
+                                                                    with two reference and two ground
+                                                                                                                                                         provide consumers, sleep researchers and somnologists the opportunity
+                                                                                                                                                         to choose their preferred method among available technologies. Our
+
+                                                                    electrodes.
+                                                                                                                                                         study identified 34 unique devices, which include headbands, eye
+                                                                                                                                                         masks, single-channel EEG, portable PSG systems, multiple sensor
+
+
+
+
+  Table 1 (continued )
+                                                                                                                                                         patches and ear-EEG channels. This diversity highlights the innovative
+                                                                                                                                                         approaches being taken to measure sleep in more user-friendly and
+                                                                    Bittium
+                                          Name EEG-                                                             Insomno-graf                             accessible ways. Notably, there has been a significant increase in rele­
+                                          based                       Brain-status                                                                       vant publications in recent years, with half of the articles published in
+                                          wearable.                   [25]                                        [32]                                   the last three years. This trend suggests a growing interest in and
+                                                                                                                                                         recognition of the importance of sleep measurement and the potential
+
+                                                                                                                                                     9
+C.J. de Gans et al.                                                                                                           Sleep Medicine Reviews 76 (2024) 101951
+
+
+for EEG wearables in this domain. The EEG-based wearables have shown                overestimate the WASO [99].
+high accuracy or sensitivity in detecting various sleep stages. The                     Our review underscored the growing interest and advancements in
+measurement properties of all EEG-based systems are similar, with most              the field of wearables, noting that over half of the included studies were
+systems capable of measuring five different sleep stages, as opposed to             published in or after 2020. This upward trend is also apparent in pre­
+four sleep stages. This variety allows users to select the most user-               vious reviews on wearables. While some of these reviews are limited to
+friendly system based on their needs, such as choosing a device they                commercially available devices [100,101], others cover wearables that
+find most comfortable and minimally intrusive, with as few wires as                 measure EEG but do not focus specifically on sleep monitoring [102,
+possible. However, for users interested in monitoring additional vari­              103]. A notable limitation in two (recent) published reviews is the
+ables, like, for example, nasal flow, selecting a device with these specific        absence of a detailed methodology section, making it non-reproducible.
+capabilities is recommended. Another consideration would be the costs               Furthermore, both failed to encompass all available devices [104,105].
+of the devices, since they vary significantly among different devices               The unique contribution of our review lies in its systematic approach to
+[94].                                                                               identify available EEG-based wearables, assess the risk of bias, and
+     Furthermore, there is a limited number of articles that specifically           distinguish between validation studies and feasibility studies. To the
+focus on the home setting. Most studies have been conducted in sleep                best of our knowledge, this systematic review is the first to offer a
+labs or clinical settings, often with a researcher present to assist par­           comprehensive overview of all EEG-based wearables, encompassing
+ticipants in operating the devices, which may overestimate the feasi­               validation data and validated populations, thereby aiding in the selec­
+bility compared to the home setting. Regarding feasibility and                      tion of suitable devices for research or clinical applications.
+acceptability, the EEG-based wearables appear to be well-tolerated, as                  However, the review faces certain limitations. The primary limita­
+indicated by high compliance and success rates. One study reports the               tion of the literature is the scarcity of published validation studies for the
+comfort level of a wearable as ranging from comfortable to mildly un­               available consumer devices. To address this, we sought additional
+comfortable [56].                                                                   studies by reference checking or through snowball sampling. Despite
+     This review primarily focuses on validating EEG-based wearables                these efforts, it is possible that some EEG-based wearables were over­
+against PSG, the reference standard in sleep monitoring. Expert scoring,            looked. Moreover, the exclusion of five papers due to language barriers
+conducted by extensively trained professionals, remains the preferred               may have led to similar omissions. To ensure a broad and inclusive
+approach to ensure the utmost accuracy in evaluating EEG-based                      overview, we decided to include all papers, despite acknowledging the
+wearables [95]. If a study validated an EEG-based wearable against                  potential risk of bias. A significant concern raised during the quality
+both automatic and manual scoring, only the manual scoring has been                 assessment was the prevalence of small sample sizes in numerous
+included in Table 1. It is important to recognize that the accuracy of              reviewed studies. It is important to recognize that small study pop­
+manual sleep stage scoring of both PSG and EEG-based wearables can                  ulations are a common occurrence in the field of objective sleep mea­
+vary, mainly due to subjective interpretation of data by technicians. The           surement. Omitting these studies from our review would limit our ability
+scores are influenced by the technicians’ experience and training,                  to offer a comprehensive overview of the current market’s wearable
+leading to potential variations in results [96]. Therefore, the results of          devices. Another challenge encountered was the ambiguity or absence of
+validation studies should be interpreted with an understanding of these             the reported device brand names. Particularly for ear-EEG wearables,
+limitations. We acknowledge that automatic scoring is also being                    many articles did not mention a brand. This led to clustering of the
+extensively researched and has already shown promising results, with                devices based on similarity in feature descriptions, although it remains
+future studies potentially matching or even surpassing the accuracy of              unclear if the devices referenced were indeed the same or merely
+human experts in scoring PSG [95]. However, there is currently no                   similar. Another topic not extensively addressed in this review is the
+consensus yet on a standard for automated scoring [95]. This lack of                aspect of costs associated with EEG-based wearables. The pricing and
+consensus highlights the need for additional validation methods. One                business models for these devices vary considerably, which is an
+promising direction is to integrate PSG with other assessment tools, such           important consideration for potential buyers. However, given the dy­
+as subjective sleep quality measures, to provide a more comprehensive               namic nature of the market, prices fluctuate over time. Therefore,
+evaluation of new sleep monitoring systems.                                         incorporating current pricing information into this review may not be
+     The selection of appropriate statistical metrics to objectively eval­          relevant for future reference, as these figures are subject to change and
+uate and compare different EEG wearables is another important topic of              could quickly become outdated. This variability in costs underscores the
+discussion. The papers reviewed here employed a variety of metrics,                 importance of conducting up-to-date research when considering the
+complicating the task of comparing their results. Commonly used met­                purchase of an EEG wearable device.
+rics include accuracy, agreement rate, sensitivity, specificity, and
+Pearson’s correlation. However, Cohen’s kappa coefficient is considered             5. Conclusion
+the most suitable for use in these evaluations. This is because it accounts
+for chance agreement in its assessment of inter-rater reliability, espe­                The recent increase in EEG-based wearables demonstrate impressive
+cially in unbalanced datasets. This ability to adjust for chance makes it a         accuracy in sleep staging, competing with the reference standard of PSG,
+more reliable measure in the context of wearable technology assess­                 while offering a more comfortable and less intrusive alternative. Thus,
+ments, where datasets can vary significantly in size and composition                EEG-based wearables have good potential as alternative for PSG and for
+[97].                                                                               at-home sleep monitoring. The measurement properties across these
+     Actigraphy and polysomnography have been mentioned as the most                 EEG-based systems are notably similar, with most being able to discern
+well-known forms of objective sleep monitors. Alongside the emerging                five different sleep stages, rather than only four. This advancement en­
+wearables mentioned in this systematic review, efforts have been made               ables users to choose the most user-friendly system according to their
+to develop non-wearable sleep monitoring systems to minimize in­                    personal needs, prioritizing factors like comfort and minimal invasive­
+terruptions to the user’s natural sleep patterns. However, these systems            ness, with fewer wires. Additionally, prospective users should consider
+often have limitations in their accuracy of sleep assessment. One                   the costs associated with these devices, as they vary significantly.
+example is a pad inflated with air and it is positioned under the mattress.         Therefore, while EEG-based wearables offer considerable potential for
+It closely aligns with PSG in estimating the apnea-hypopnea index (AHI),            home-based sleep analysis, informed choices depend on understanding
+but it tends to overestimate the total sleep time and underestimate the             their diverse capabilities, validation contexts, and cost implications.
+wake after sleep onset (WASO) [98]. Another example is a thin, flat
+sensor strip placed immediately under the bedsheet at chest level. In
+contrast to the inflated pad under the mattress, this device tends to
+
+                                                                               10
+C.J. de Gans et al.                                                                                                                             Sleep Medicine Reviews 76 (2024) 101951
+
+
+
+
+   6. Practice points
+
+    1. EEG-based wearables demonstrate impressive accuracy in sleep staging, competing with the reference standard of PSG, while offering a more
+       comfortable and less intrusive alternative.
+    2. Potential users ought to select the most user-friendly system according to their personal needs and should consider the costs associated with
+       these devices, as they vary significantly
+
+
+
+
+   7. Research agenda
+
+    1. To ensure generalizability of EEG based wearable performance beyond the controlled sleep lab environment, more research is required in
+       real-world settings, such as home or other non-clinical settings.
+    2. Considering the diverse variety of hardware, data pre-processing, and sleep staging algorithms in the field, future research may concentrate
+       on comparative analyses of these components. Such studies would facilitate the identification of the most effective and comparable materials,
+       thereby enhancing the quality and reliability of outcomes within this domain.
+
+
+
+Funding                                                                                          [14] Alvarez GG, T AN. The impact of daily sleep duration on health: a review of the
+                                                                                                      literature. Prog Cardiovasc Nurs 2004;19:56–9.
+                                                                                                 [15] Chorney DB, Detweiler MF, Morris TL, Kuhn BR. The interplay of sleep
+    This research was supported in part by an AmsterdamUMC Innova­                                    disturbance, anxiety and depression in children. Journal of Paediatric Psychology
+tion Grant, which provided funding for the salary of CG.                                              2008;33(4):339–48.
+                                                                                                 [16] Paquet J, Kawinska A, Carrier J. Wake detection capacity of actigraphy during
+                                                                                                      sleep. Sleep 2007;30(10).
+Acknowledgements                                                                                 [17] Marino M, Li Y, Rueschman MN, Winkelman JW, Ellenbogen JM, Solet JM, et al.
+                                                                                                      Measuring sleep: accuracy, sensitivity, and specificity of wrist actigraphy
+   We express our gratitude to A. Sibbes from the Department of                                       compared to polysomnography. Sleep 2013;36(11):1747–55.
+                                                                                                 [18] Zambotti M, Cellini N, Goldstone A, Colrain I, Baker F. Wearable sleep technology
+Printing and Illustrations at AmsterdamUMC for her valuable contri­                                   in clinical and research settings. Med Sci Sports Exerc 2020.
+butions in creating line drawings of all the EEG wearables.                                      [19] Imtiaz SA. A systematic review of sensing technologies for wearable sleep staging.
+                                                                                                      Sensors (Basel). 2021.
+                                                                                                 [20] PRISMA. [Checklist and flow diagram]. Available from: http://prisma-statement.
+Appendix A. Supplementary data                                                                        org/PRISMAStatement/; 2009.
+                                                                                                 [21] Guidelines for snowballing in systematic literature studies and a replication in
+   Supplementary data to this article can be found online at https://doi.                             software engineering. In: Wohlin C, editor. Proceedings of the 18th international
+                                                                                                      conference on evaluation and assessment in software engineering; 2014.
+org/10.1016/j.smrv.2024.101951.                                                                  [22] van de Schoot R, de Bruin J, Schram R, Zahedi P, de Boer J, Weijdema F, et al. An
+                                                                                                      open source machine learning framework for efficient and transparent systematic
+References                                                                                            reviews. Nat Mach Intell 2021;3(2):125–33.
+                                                                                                 [23] Teijema JJ, Hofstee L, Brouwer M, de Bruin J, Ferdinands G, de Boer J, et al.
+                                                                                                      Active learning-based systematic reviewing using switching classification models:
+  [1] Leproult R, Van Couter E. Role of sleep and sleep loss in hormonal release and
+                                                                                                      the case of the onset, maintenance, and relapse of depressive disorders. Front Res
+      metabolism. Endocr Dev 2010;17:11–21.
+                                                                                                      Metr Anal 2023;8:1178181.
+  [2] Kopasz M, Loessl B, Hornyak M. Sleep and memory in healthy children and
+                                                                                                 [24] Whiting PF, Rutjes AW, Westwood ME, Mallett S, Deeks JJ, Reitsma JB, et al.
+      adolescents - a critical review. Sleep Med Rev 2010;14:167–77.
+                                                                                                      QUADAS-2: a revised tool for the quality assessment of diagnostic accuracy
+  [3] Tononi G, Cirelli C. Sleep function and synaptic homeostasis. Sleep Med Rev
+                                                                                                      studies. Ann Intern Med 2011;155(8):529–36.
+      2006;10(1):49–62.
+                                                                                                 [25] Myllymaa S, Muraja-Murro A, Westeren-Punnonen S, Hukkanen T,
+  [4] Dinges DF. The state of sleep deprivation: from functional biology to functional
+                                                                                                      Lappalainen R, Mervaala E, et al. Assessment of the suitability of using a forehead
+      consequences. Sleep Med Rev 2006;10(5):303–5.
+                                                                                                      EEG electrode set and chin EMG electrodes for sleep staging in polysomnography.
+  [5] Stickgold R, Walker MP. Sleep-dependent memory consolidation and
+                                                                                                      J Sleep Res 2016;25(6).
+      reconsolidating. Sleep Med 2007;8(4):331–43.
+                                                                                                 [26] Sterr A, Ebajemito J, Mikkelsen K, Bonmati-Carrion M, Santhi N, Della Monica C,
+  [6] Fuller PM, Gooley JJ, Saper CB. Neurobiology of the sleep-wake cycle: sleep
+                                                                                                      et al. Sleep EEG derived from behind-the-ear electrodes (cEEGrid) compared to
+      architecture, circadian regulation, and regulatory feedback. J Biol Rhythm 2006;
+                                                                                                      standard polysomnography: a proof of concept study. Front Hum Neurosci 2018;
+      21(6):482–93.
+                                                                                                      12.
+  [7] Baglioni C, Altena E, Bjorvatn B, Blom K, Bothelius K, Devoto A, et al. The
+                                                                                                 [27] Arnal P, Thorey V, Debellemaniere E, Ballard M, Bou Hernandez A, Guillot A,
+      European academy for cognitive behavioural therapy for insomnia: an initiative
+                                                                                                      et al. The Dreem Headband compared to polysomnography for
+      of the European insomnia network to promote implementation and dissemination
+                                                                                                      electroencephalographic signal acquisition and sleep staging. Sleep 2020;43(11).
+      of treatment. J Sleep Res 2020;29(2).
+                                                                                                 [28] Thorey V, Guillot A, El Kanbi K, Harris M, Arnal P. Assessing the accuracy of a
+  [8] Sadeh A. Consequences of sleep loss or sleep disruption in children. Sleep
+                                                                                                      dry-eeg headband for measuring brain activity, heart rate, breathing and
+      Medicine Clinics. 2007;2(3):513–20.
+                                                                                                      automatic sleep staging. Sleep 2020.
+  [9] Aydin A, Selvi Y, Fau - Besiroglu L, Besiroglu L, Fau - Boysan M, Boysan M, Fau -
+                                                                                                 [29] O’Hora K, Saletin JM, Kushan-Wells L, Bearden CE. 518. Feasibility of measuring
+      Atli A, Atli A, Fau - Ozdemir O, Ozdemir O, Fau - Kilic S, et al. Mood and
+                                                                                                      sleep spindles using a wearable EEG headband in adolescents with
+      metabolic consequences of sleep deprivation as a potential endophenotype’. In:
+                                                                                                      neurodevelopmental disorders. Biol Psychiatr 2023;93(9).
+      Bipolar disorder; 2013. p. 1573–2517 (Electronic)).
+                                                                                                 [30] Chung F, Liao P, Sun Y, Amirshahi B, Fazel H, Shapiro C, et al. Perioperative
+ [10] Patrick Y., Lee A., Raha O., Pillai K., Gupta S., Sethi S., et al. Effects of sleep
+                                                                                                      practical experiences in using a level 2 portable polysomnography. Sleep &
+      deprivation on cognitive and physical performance in university students. Sleep
+                                                                                                      breathing = Schlaf & Atmung 2011;15(3).
+      Biol Rhythms.2017. p. 1446–9235. (Print)).
+                                                                                                 [31] Wälti M, Thielen M, Melnykowycz M, Gasparri E, Meier E. Preliminary validation
+ [11] Cullen T.A.-O., Thomas G.A.-O., Wadley A.A.-O., Myers T.A.-O. The effects of a
+                                                                                                      of in-ear EEG against PSG system for sleep staging. Sleep Med 2022;100:S22.
+      single night of complete and partial sleep deprivation on physical and cognitive
+                                                                                                 [32] Suzuki Y, Abe T, Kawana F, Okabe S, Kokubo T, Hoshino K, et al. Comparing the
+      performance: a Bayesian analysis. J Sports Sci.2019. (1466-447X (Electronic)).
+                                                                                                      accuracy of sleep staging data from a new wearable sleep electroencephalography
+ [12] Raymond I, Nielsen TA, Lavigne G, Manzini C, Choinière M. Quality of sleep and
+                                                                                                      device versus the Fitbit Charge 3 with polysomnography as reference. Clin
+      its daily relationship to pain intensity in hospitalized adult burn patients. Pain
+                                                                                                      Neurophysiol 2021;132(8):e67.
+      2001;92(3):381–8.
+                                                                                                 [33] Zheng X, Guannan X, Lei H, Lyu D, Zhang Y, Yuan C, et al. A wearable EEG
+ [13] Medic G, Wille M, Hemels ME. Short- and long-term health consequences of sleep
+                                                                                                      device: LANMAO Sleep Recorder compared to polysomnography in terms of EEG
+      disruption. Nat Sci Sleep 2017;9:151–61.
+                                                                                                      recording and sleep analysis - 2023.05.30.23290376v1.full.pdf [Available from:
+
+
+
+                                                                                            11
+C.J. de Gans et al.                                                                                                                                Sleep Medicine Reviews 76 (2024) 101951
+
+      https://www.medrxiv.org/content/10.1101/2023.05.30.23290376v1.full.pdf;                     [61] Jørgensen S, Kidmose P, Mikkelsen K, Blech M, Hemmsen M, Rank M, et al. Long-
+      2023.                                                                                            term ear-EEG monitoring of sleep - a case study during shift work. J Sleep Res
+ [34] Liang Z, Chapa Martell M. Validity of consumer activity wristbands and wearable                  2023;32(5).
+      EEG for measuring overall sleep parameters and sleep structure in free-living               [62] Zibrandtsen IKP, Otto M, Ibsen J, Kjaer TW. Case comparison of sleep features
+      conditions. Journal of healthcare informatics research 2018;2(1–2).                              from ear-EEG and scalp-EEG. Sleep Science. 2016;9.
+ [35] Raschellà F, Knoops-Borm M, Sekeri M, Andries D, Oloo M, Moudab I, et al.                  [63] Jørgensen S, Zibrandtsen I, Kjaer T. Ear-EEG-based sleep scoring in epilepsy: a
+      Clinical validation of a wireless patch-based polysomnography system: a pilot                    comparison with scalp-EEG. J Sleep Res 2020;29(6).
+      study. 2022.                                                                                [64] Nakamura T, Alqurashi Y, Morrell M, Mandic D. Hearables: automatic overnight
+ [36] Younes M, Soiferman M, Thompson W, Giannouli E. Performance of a new                             sleep monitoring with standardized in-ear EEG sensor. IEEE Trans Biomed Eng
+      portable wireless sleep monitor. J Clin Sleep Med : JCSM : official publication of               2020;67(1).
+      the American Academy of Sleep Medicine 2017;13(2).                                          [65] Alqurashi Y, Nakamura T, Moss J, Polkey M, Mandic D, Morrell M. The efficacy of
+ [37] Fischer Y, Junge-Hülsing B, Rettinger G, Panis A. The use of an ambulatory,                      a novel in-ear electroencephalography (EEG) sensor to measure overnight sleep in
+      automatic sleep recording device (QUISI version 1.0) in the evaluation of primary                healthy participants | D99. SRN: a look to the future of sleep. Use of novel
+      snoring and obstructive sleep apnoea. Clin Otolaryngol Allied Sci 2004;29(1).                    technologies and software analysis. American Thoracic Society International
+ [38] Ehlert I, Danker-Hopfe H, Höller L, von Rickenbach P, Baumgart-Schmitt R,                       Conference; 2019.
+      Herrmann WM. A comparison between EEG-recording and scoring by QUISI                        [66] Alqurashi Y, Moss J, Nakamura T, Goverdovsky V, Polkey M, Mandic D, et al. The
+      version 1.0 and standard PSG with visual scoring. Somnologie - Schlafforschung                   efficacy of in-ear electroencephalography (EEG) to monitor sleep latency and the
+      und Schlafmedizin 1998;2(3):104–16.                                                              impact of sleep deprivation | Cochrane Library. Am J Respir Crit Care Med 2017;
+ [39] Vacas S, McInrue E, Gropper M, Maze M, Zak R, Lim E, et al. The feasibility and                  (9).
+      utility of continuous sleep monitoring in critically ill patients using a portable          [67] Looney D, Goverdovsky V, Rosenzweig I, Morrell MJ, Mandic DP. Wearable in-ear
+      electroencephalography monitor. Anesth Analg 2016;123(1).                                        encephalography sensor for monitoring sleep. Preliminary observations from nap
+ [40] Dunn K, Finan P, Huhn A, Gamaldo C, Bergeria C, Strain E. Wireless                               studies. Annals of the American Thoracic Society 2016;13(12):2229–33.
+      electroencephalography (EEG) to monitor sleep among patients being withdrawn                [68] Hsieh T, Liu M, Kuo C, Wang Y, Liang S. Home-use and real-time sleep-staging
+      from opioids: evidence of feasibility and utility. Exp Clin Psychopharmacol 2022;                system based on eye masks and mobile devices with a deep learning model. J Med
+      30(6).                                                                                           Biol Eng 2021;41(5).
+ [41] Shprecher D, Levendowski D, Guevarra C, Lee-Lanotti J, Lazarz G. Pilot study                [69] Lin CT, Chuang CH, Cao Z, Singh AK, Hung CS, Yu YH, et al. Forehead EEG in
+      comparing home sleep profiler to in-laboratory polysomnogram for REM sleep                       support of future feasible personal healthcare solutions: sleep management,
+      behavior disorder diagnosis - MDS abstracts. In: 2019 international congress;                    headache prevention, and depression treatment. IEEE Access 2017;5:10612–21.
+      2019.                                                                                       [70] Ogasawara M, Takeshima M, Kosaka S, Imanishi A, Itoh Y, Fujiwara D, et al.
+ [42] Lucey B, Mcleland J, Toedebusch C, Boyd J, Morris J, Landsness E, et al.                         Exploratory validation of sleep-tracking devices in patients with psychiatric
+      Comparison of a single-channel EEG sleep study to polysomnography. J Sleep Res                   disorders. Nat Sci Sleep 2023;15.
+      2016;25(6).                                                                                 [71] Kataoka H, Takatani T, Sugie K. Two-Channel portable biopotential recording
+ [43] Levendowski D, Ferini-Strambi L, Gamaldo C, Cetel M, Rosenberg R,                                system can detect REM sleep behavioral disorder: validation study with a
+      Westbrook P. The accuracy, night-to-night variability, and stability of frontopolar              comparison of polysomnography. Parkinson’s Dis 2022;2022.
+      sleep electroencephalography biomarkers. J Clin Sleep Med : JCSM : official                 [72] Zambelli Z, Jakobsson C, Threadgold L, Fidalgo A, Halstead E, Dimitriou D.
+      publication of the American Academy of Sleep Medicine 2017;13(6).                                Exploring the feasibility and acceptability of a sleep wearable headband among a
+ [44] Finan P, Richards J, Gamaldo C, Han D, Leoutsakos J, Salas R, et al. Validation of               community sample of chronic pain individuals: an at-home observational study.
+      a wireless, self-application, ambulatory electroencephalographic sleep                           Digital health 2022;8.
+      monitoring device in healthy volunteers. J Clin Sleep Med : JCSM : official                 [73] Kafashan MM, Hyche O, Nguyen T, Smith SK, Guay CS, Wilson E, et al.
+      publication of the American Academy of Sleep Medicine 2016;12(11).                               Perioperative sleep in geriatric cardiac surgical patients: a feasibility study using
+ [45] Voinescu B, Wislowska M, Schabus M. Assessment of SOMNOwatch plus EEG for                        a wireless wearable device. Br J Anaesth 2021;126(6):e205–8.
+      sleep monitoring in healthy individuals. Physiol Behav 2014;132.                            [74] Neuroon. [Available from: https://www.kickstarter.com/projects/intelclinic/n
+ [46] Hof Zum Berge A, Kellmann M, Kallweit U, Mir S, Gieselmann A, Meyer T, et al.                    euroon-open-smartest-sleep-dreams-and-meditation.
+      Portable PSG for sleep stage monitoring in sports: assessment of SOMNOwatch                 [75] Zymax H. [Available from: https://hypnodynecorp.com.
+      plus EEG. Eur J Sport Sci 2020;20(6):713–21.                                                [76] Abasiubong F, Bassey EA, Udobang JA, Akinbami OS, Udoh SB, Idung AU. Self-
+ [47] da Silva Souto C, Pätzold W, Paul M, Debener S, Wolf K. Pre-gelled electrode grid               Medication: potential risks and hazards among pregnant women in Uyo, Nigeria.
+      for self-applied EEG sleep monitoring at home. Front Neurosci 2022;16.                           Pan Afr Med J. 2012;13:15.
+ [48] Chen X, Jin X, Zhang J, Ho K, Wei Y, Cheng H. Validation of a wearable forehead             [77] Smart E. [Available from: http://www.eegsmart.com/en/UMindSleep.html.
+      sleep recorder against polysomnography in sleep staging and desaturation events             [78] Sleep G. [Available from: https://www.generalsleep.com/zmachine-insight.html.
+      in a clinical sample. J Clin Sleep Med : JCSM : official publication of the American        [79] Embletta Sleep Device Setup Instructions [Available from: https://thrive.ka
+      Academy of Sleep Medicine 2023;19(4).                                                            iserpermanente.org/care-near-you/northern-california/santarosa/wp-content
+ [49] Shustak S, Inzelberg L, Steinberg S, Rand D, David Pur M, Hillel I, et al. Home                  /uploads/sites/15/2015/09/Sleep-Medicine_Embletta-Device_tcm28-896012.pdf
+      monitoring of sleep with a temporary-tattoo EEG, EOG and EMG electrode array:                    \.
+      a feasibility study. J Neural Eng 2018;16(2).                                               [80] Somnomedics. [Available from: https://somnomedics.de/en/solutions/sleep_d
+ [50] Oz S, Dagay A, Katzav S, Wasserman D, Tauman R, Gerston A, et al. Monitoring                     iagnostics/actigraphy/somnowatch-plus-actigraphy/.
+      sleep stages with a soft electrode array: comparison against vPSG and home-based            [81] Insomnograf. [Available from: https://www.suimin.co.jp.
+      detection of REM sleep without atonia. J Sleep Res 2023;32(5).                              [82] Ioan I, Weick D, Schweitzer C, Guyon A, Coutier L, Franco P. Feasibility of parent-
+ [51] Griessenberger H, Heib D, Kunz A, Hoedlmoser K, Schabus M. Assessment of a                       attended ambulatory polysomnography in children with suspected obstructive
+      wireless headband for automatic sleep scoring. Sleep & breathing = Schlaf &                      sleep apnea. J Clin Sleep Med : JCSM : official publication of the American
+      Atmung 2013;17(2).                                                                               Academy of Sleep Medicine 2020;16(7).
+ [52] Markwald R, Bessman S, Reini S, Drummond S. Performance of a portable sleep                 [83] Russo K, Greenhill J, Burgess S. Home (Level 2) polysomnography is feasible in
+      monitoring device in individuals with high versus low sleep efficiency. J Clin                   children with suspected sleep disorders. Sleep Med 2021;88.
+      Sleep Med : JCSM : official publication of the American Academy of Sleep                    [84] Tomson H, Lambing K, Bender A, Decock D. 0377 success rates of self-applied
+      Medicine 2016;12(1).                                                                             type 2 studies in 191 participants. Sleep 2023;45(Supplement_1).
+ [53] Tonetti L, Cellini N, de Zambotti M, Fabbri M, Martoni M, Fábregas S, et al.               [85] Lunsford-Avery JR, Duke University School of Medicine DoPBS, Durham NC,
+      Polysomnographic validation of a wireless dry headband technology for sleep                      Kollins SH. Duke university school of medicine DoPaBS, durham, NC, krystal AD,
+      monitoring in healthy young adults. Physiol Behav 2013;118.                                      university of California San Francisco school of medicine DoPaN, San Francisco,
+ [54] Cellini N, McDevitt E, Ricker A, Rowe K, Mednick S. Validation of an automated                   CA. 0762 sleeping at home: feasibility and tolerability of ambulatory
+      wireless system for sleep monitoring during daytime naps. Behav Sleep Med                        polysomnography for use with adolescents with attention-deficit/hyperactivity
+      2015;13(2).                                                                                      disorder. Sleep 2018;41(suppl_1).
+ [55] Shambroom J, Fábregas S, Johnstone J. Validation of an automated wireless                  [86] Kayyali H, Weimer S, Frederick C, Martin C, Basa D, Juguilon J, et al. Remotely
+      system to monitor sleep in healthy adults. J Sleep Res 2012;21(2).                               attended home monitoring of sleep disorders. Telemed J e Health : the official
+ [56] Lunsford-Avery J, Keller C, Kollins S, Krystal A, L J, Mm E. Feasibility and                     journal of the American Telemedicine Association 2008;14(4).
+      acceptability of wearable sleep electroencephalogram device use in adolescents:             [87] Duan Y, Sun S, Gao H, Chen K, Chen T, Li Y, et al. Quality analysis of pediatric
+      observational study. JMIR Mhealth Uhealth 2020.                                                  sleep testing from three hospitals in China. Sleep Med 2017.
+ [57] Miyata S, Iwamoto K, Banno M, Eguchi J, Kaneko S, Noda A, et al. Performance of             [88] Malik v, Frankel S, Harrington J, Lee-Chiong T. A pilot study to validate portable
+      an ambulatory electroencephalogram sleep monitor in patients with psychiatric                    sleep recording as a tool by which to accurately assess sleep quality in critically ill
+      disorders. J Sleep Res 2021;30(4):e13273.                                                        patients. Chest 2011;140(4):808A.
+ [58] Esfahani M, Weber F, Boon M, Anthes S, Almazova T, Hal Mv, et al. Validation of             [89] Garcia-Molina G, Tsoneva T, Jasko J, Steele B, Aquino A, Baher K, et al. Closed-
+      the sleep EEG headband ZMax. 2023.                                                               loop system to enhance slow-wave activity. J Neural Eng 2018;15(6).
+ [59] Tabar Y, Mikkelsen K, Shenton N, Kappel S, Bertelsen A, Nikbakht R, et al. At-              [90] Krepel N, Egtberts T, Touré-Cuq E, Bouny P, Arns M. Evaluation of the
+      home sleep monitoring using generic ear-EEG. Front Neurosci 2023;17.                             URGOnight tele-neurofeedback device: an open-label feasibility study with
+ [60] Tabar Y, Mikkelsen K, Rank M, Hemmsen M, Otto M, Kidmose P. Ear-EEG for                          follow-up. Appl Psychophysiol Biofeedback 2022;47(1).
+      sleep assessment: a comparison with actigraphy and PSG. Sleep & breathing =                 [91] Jaoude M, Ravi A, Niu J, Banville H, Torres N, Aimone C. Automated sleep
+      Schlaf & Atmung 2021;25(3).                                                                      staging on wearable EEG enables sleep analysis at scale. International IEEE/EMBS
+                                                                                                       Conferonce on Neural Engineering (NER) 2023.
+
+
+                                                                                             12
+C.J. de Gans et al.                                                                                                                             Sleep Medicine Reviews 76 (2024) 101951
+
+ [92] Kim SW, Lee K, Yeom J, Lee TH, Kim DH, Kim JJ. Wearable multi-biosignal                          moderate-severe sleep apnea syndrome. J Clin Sleep Med : JCSM : official
+      analysis integrated interface with direct sleep-stage classification. IEEE Access                publication of the American Academy of Sleep Medicine 2021;17(6).
+      2020;8:46131–40.                                                                            [99] Hsiou D, Gao C, Matlock R, Scullin M. Validation of a nonwearable device in
+ [93] Teijema J, Hofstee L, Brouwer M, de Bruin J, Ferdinands G, de Boer J, et al. Active              healthy adults with normal and short sleep duration. J Clin Sleep Med 2022;18.
+      learning-based systematic reviewing using switching classification models: the             [100] Ibanez V, Silva J, Navarro E, Cauli O. Sleep assessment devices: types, market
+      case of the onset, maintenance, and relapse of depressive disorders. Frontiers in                analysis, and a critical view on accuracy and validation. Expet Rev Med Dev 2019;
+      research metrics and analytics 2023;8.                                                           16(12):1041–52.
+ [94] Esfahani MJ, Sikder N, ter Horst R, Weber FD, Daraie AH, Appel K, et al. Citizen           [101] Guillodo E, Lemey C, Simonnet M, Walter M, Baca-Garcia E, Masetti V, et al.
+      neuroscience: wearable technology and open software to study the human brain                     Clinical applications of mobile health wearable-based sleep monitoring:
+      in its natural habitat. European journal of neuroscience 2023.                                   systematic review. JMIR mHealth and uHealth. 2020;8(4):e10733.
+ [95] Gaiduk M, Serrano Alarcón Á, Seepold R, Martínez Madrid N. Current status and            [102] Yin J, Xu J, Ren T-L. Recent progress in long-term sleep monitoring technology.
+      prospects of automatic sleep stages scoring: review. Biomedical Engineering                      Biosensors 2023;13(3):395.
+      Letters 2023;13(3):247–72.                                                                 [103] LaRocco J, Le MD, Paeng D-G. A systemic review of available low-cost EEG
+ [96] Lee Yun J, Lee Jae Y, Cho Jae H, Choi Ji H. Interrater reliability of sleep stage                headsets used for drowsiness detection. Front Neuroinf 2020;14.
+      scoring: a meta-analysis. J Clin Sleep Med.18(1):193-202.                                  [104] Mohamed M, Mohamed N, Kim JG. Advancements in wearable EEG technology
+ [97] Radha M, Fonseca P, Moreau A, Ross M, Cerny A, Anderer P, et al. A deep transfer                 for improved home-based sleep monitoring and assessment: a review. Biosensors
+      learning approach for wearable sleep stage classification with                                   2023;13(12):1019.
+      photoplethysmography. npj Digital Medicine 2021;4(1):135.                                  [105] De Fazio R, Mattei V, Al-Naami B, De Vittorio M, Visconti P. Methodologies and
+ [98] Edouard P, Campo D, Bartet P, Yang R, Bruyneel M, Roisman G, et al. Validation                   wearable devices to monitor biophysical parameters related to sleep dysfunctions:
+      of the Withings Sleep Analyzer, an under-the-mattress device for the detection of                an overview. Micromachines 2022;13(8).
+
+
+
+
+                                                                                            13
+

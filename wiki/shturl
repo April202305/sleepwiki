@@ -1,0 +1,58 @@
+# 操作日志
+
+| 日期 | 操作 | 涉及页面 | 来源/备注 |
+| --- | --- | --- | --- |
+| 2026-08-10 | 初始化知识库目录与索引 | `wiki/index.md` | 初始创建 |
+
+## [2026-08-11] ingest | raw/inbox（空）
+
+- 状态：completed
+- 修改页数：0（新建 0，更新 0）
+- 页面：无
+- source_id：无；`raw/inbox/` 未发现文件。
+
+## [2026-08-11] ingest | Eldele 等（2021）与 Zhou 等（2022）
+
+- 状态：completed
+- 修改页数：14（新建 12，更新 2）
+- 新建页面：[[source-pages/eldele-2021-attention-based-single-channel-eeg|Eldele 等（2021）]]、[[source-pages/zhou-2022-singlechannelnet|Zhou 等（2022）]]、[[model/AttnSleep|AttnSleep]]、[[model/SingleChannelNet|SingleChannelNet]]、[[dataset/Sleep-EDF|Sleep-EDF]]、[[dataset/SHHS|SHHS]]、[[dataset/CCSHS|CCSHS]]、[[concept/睡眠分期]]、[[concept/单通道 EEG]]、[[concept/时序上下文]]、[[concept/类别不平衡]]、[[concept/跨数据集泛化]]。
+- 更新页面：[[index]]、[[shturl]]。
+- 双向链接：新增 44 对（88 个词条页内 `[[链接]]`）；已检查，无断链或单向关联。
+- source_id：`raw/inbox/Eldele 等 - 2021 - An Attention-Based Deep Learning Approach for Sleep Stage Classification With Single-Channel EEG.pdf`；`raw/inbox/Zhou 等 - 2022 - SingleChannelNet A model for automatic sleep stage classification with raw single-channel EEG.pdf`。
+- 备注：忽略系统元数据文件 `raw/inbox/.DS_Store`；未修改 `raw/`。
+
+## [2026-08-11] configure | 可穿戴睡眠检测与闭环干预综述工作流
+
+- 状态：completed
+- 修改页数：25（新建 11，更新 14）
+- 新建页面：[[review/可穿戴睡眠检测与闭环干预综述|综述地图]]、[[review/证据矩阵|证据矩阵]]及 9 个章节写作容器。
+- 更新页面：[[index]]、12 个已有来源/模型/数据集/概念词条及 [[shturl]]；补齐综述与既有知识的反向关联。
+- 规则：`AGENTS.md` 已增加设备、干预、综述页面域，综述证据矩阵、比较边界与章节写作规则。
+- 来源：用户提供综述结构（2026-08-11）；未新增科研结论。
+
+## [2026-08-12] configure | 可穿戴 EEG-BCI 综述定位重构
+
+- 状态：completed
+- 修改页数：13（新建 0，更新 13）
+- 更新页面：[[review/可穿戴睡眠检测与闭环干预综述|综述地图]]、[[review/证据矩阵|证据矩阵]]、9 个章节容器、[[index]]、`AGENTS.md` 与 [[shturl]]。
+- 变更：将主线收紧为“可穿戴 EEG 信号可用性 → 睡眠状态估计 → 实时检测—触发—刺激控制 → 分层临床验证”；增加 EEG 形态、PSG 参考、运行模式、端到端时延、刺激剂量和验证层级的证据规则。
+- 来源：用户提供 EEG-BCI 综述定位（2026-08-12）；未新增科研结论。
+
+## [2026-08-12] configure | EEG-BCI 综述完整大纲
+
+- 状态：completed
+- 修改页数：4（新建 1，更新 3）
+- 新建页面：[[review/完整综述大纲]]。
+- 更新页面：[[review/可穿戴睡眠检测与闭环干预综述|综述地图]]、[[review/证据矩阵]]、[[index]] 与 [[shturl]]。
+- 变更：建立摘要与九章大小标题；闭环时延、刺激剂量、干电极配对验证和多模态融合均保留 `待补证据` 标记。
+- 来源：用户提供 EEG-BCI 综述定位（2026-08-12）及已收录 wiki 来源页；未新增科研结论。
+
+## [2026-08-12] ingest | Phan 和 Mikkelsen（2022）与 de Gans 等（2024）全量补完
+
+- 状态：completed
+- 修改页数：19（新建 1，更新 18）
+- 新建页面：[[concept/模型压缩与端侧部署|模型压缩与端侧部署]]（量化、剪枝、轻量结构与 NAS 用于可穿戴/IoT 端部署）。
+- 更新页面：[[index]]（补全 4 篇来源、6 个模型、4 个数据集、10 个概念的全目录）、[[source-pages/phan-mikkelsen-2022-automatic-sleep-staging|Phan 和 Mikkelsen（2022）来源页]]、[[source-pages/de-gans-2024-eeg-wearables-systematic-review|de Gans 等（2024）来源页]]、[[concept/类别不平衡]]、[[concept/跨数据集泛化]]、[[concept/可穿戴 EEG]]、[[concept/睡眠分期]]、[[concept/领域自适应]]、[[model/AttnSleep]]、[[model/SingleChannelNet]]、[[model/DeepSleepNet]]、[[model/SeqSleepNet]]、[[model/SleepEEGNet]]、[[model/SleepTransformer]]、[[dataset/Sleep-EDF]]、[[dataset/SHHS]]、[[dataset/MESA]]、[[shturl]]。
+- 双向链接：新增 14 对（约 32 个词条页内 `[[链接]]`）；主要为 模型压缩与端侧部署 与 12 个已有模型/数据集/概念页之间的双向关联，以及 类别不平衡↔de Gans 来源、跨数据集泛化↔Phan 来源 的新增双向链接。
+- source_id：`raw/inbox/Phan和Mikkelsen - 2022 - Automatic sleep staging of EEG signals recent development, challenges, and future directions.pdf`；`raw/inbox/de Gans 等 - 2024 - Sleep assessment using EEG-based wearables – A systematic review.pdf`。
+- 备注：4 篇 source page 均在历史会话中已创建；本轮主要补齐 index 目录、填充新概念页，并在已有实体页之间补充缺失的双向链接与证据细节。未修改 `raw/`；未发现重复 source_id。

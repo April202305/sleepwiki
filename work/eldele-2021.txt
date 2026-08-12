@@ -1,0 +1,665 @@
+               IEEE TRANSACTIONS ON NEURAL SYSTEMS AND REHABILITATION ENGINEERING, VOL. 29, 2021                                              809
+
+
+
+
+     An Attention-Based Deep Learning Approach
+          for Sleep Stage Classification With
+                 Single-Channel EEG
+  Emadeldeen Eldele , Zhenghua Chen , Senior Member, IEEE, Chengyu Liu , Senior Member, IEEE,
+       Min Wu , Senior Member, IEEE, Chee-Keong Kwoh , Xiaoli Li , Senior Member, IEEE,
+                                and Cuntai Guan , Fellow, IEEE
+
+
+
+   Abstract — Automatic sleep stage classification is of                       apnea [2]. In particular, sleep stages (e.g., light sleep and deep
+great importance to measure sleep quality. In this paper,                      sleep) are important for immune system, memory, metabolism,
+we propose a novel attention-based deep learning archi-                        etc. [3]–[5]. Therefore, it is highly desired to measure sleep
+tecture called AttnSleep to classify sleep stages using
+single channel EEG signals. This architecture starts with                      quality through sleep monitoring and sleep stage classification.
+the feature extraction module based on multi-resolution                           Sleep specialists usually determine the sleep stages based
+convolutional neural network (MRCNN) and adaptive fea-                         on the polysomnography (PSG), which consists of electroen-
+ture recalibration (AFR). The MRCNN can extract low and                        cephalogram (EEG), electrooculogram (EOG), anelectromyo-
+high frequency features and the AFR is able to improve                         gram (EMG) and electrocardiogram (ECG) [6]. Single-channel
+the quality of the extracted features by modeling the
+inter-dependencies between the features. The second mod-                       EEG has recently become attractive for sleep monitoring due
+ule is the temporal context encoder (TCE) that leverages                       to its ease-of-use. In particular, PSG or single-channel EEG
+a multi-head attention mechanism to capture the temporal                       recordings are usually divided into 30-second segments and
+dependencies among the extracted features. Particularly,                       each segment is manually checked by sleep specialists and
+the multi-head attention deploys causal convolutions to                        then classified into one of the six stages, i.e., wake (W),
+model the temporal relations in the input features. We eval-
+uate the performance of our proposed AttnSleep model                           rapid eye movement (REM) and four non-REM stages (N1,
+using three public datasets. The results show that our                         N2, N3 and N4) [7]. This manual process is very exhaustive,
+AttnSleep outperforms state-of-the-art techniques in terms                     tedious, and time-consuming. As such, automatic sleep stage
+of different evaluation metrics. Our source codes, experi-                     classification systems are required to assist sleep specialists.
+mental data, and supplementary materials are available at                         Many studies have adopted conventional machine learning
+https://github.com/emadeldeen24/AttnSleep.
+                                                                               methods to classify EEG signals into corresponding sleep
+   Index Terms — Sleep stage classification, multi-resolution                  stages. These methods usually consist of two steps, namely,
+convolutional neural network, adaptive feature recalibra-                      manual feature extraction and sleep stage classification. First,
+tion, temporal context encoder, multi-head attention.
+                                                                               they design and extract various features from time and fre-
+                                                                               quency domains. Feature selection algorithms are often applied
+                      I. I NTRODUCTION                                         to further select the most discriminative features. Second,
+
+S   LEEP is a vital process for humans, as it affects all the
+    aspects in their daily activities. Studies show that humans
+having good quality of sleep enjoy better health and brain
+                                                                               the selected features are then fed into conventional machine
+                                                                               learning models for sleep stage classification, such as Naive
+                                                                               Bayes [8], support vector machines (SVM) [9], [10], random
+functions [1]. On the other hand, interrupted sleep periods                    forest (RF) [7], [11], or even ensemble learning based classi-
+can cause some sleep disorders, such as insomnia or sleep                      fiers [12]. However, these methods require domain knowledge
+                                                                               to extract the best representative features.
+  Manuscript received November 10, 2020; revised March 3, 2021;
+accepted April 21, 2021. Date of publication April 28, 2021; date of current      Recently, deep learning has been employed in different areas
+version May 4, 2021. The work of Emadeldeen Eldele was supported by            and shown its superiority over conventional machine learning
+A*STAR SINGA Scholarship. (Corresponding author: Min Wu.)                      models without the need of domain knowledge. This motivates
+  Emadeldeen Eldele, Chee-Keong Kwoh, and Cuntai Guan are with
+the School of Computer Science and Engineering, Nanyang Techno-                researchers to exploit deep learning techniques for automatic
+logical University, Singapore 639798 (e-mail: emad0002@ntu.edu.sg;             sleep stages classification. Several studies have designed con-
+asckkwoh@ntu.edu.sg; ctguan@ntu.edu.sg).                                       volutional neural networks (CNNs) [13]–[18] for this task.
+  Zhenghua Chen, Min Wu, and Xiaoli Li are with the Institute for
+Infocomm Research, A*STAR, Singapore 138632 (e-mail: chen0832@                 For example, successive convolution and pooling layers with
+e.ntu.edu.sg; wumin@i2r.a-star.edu.sg; xlli@i2r.a-star.edu.sg).                fully-connected layers were used to perform this classification
+  Chengyu Liu is with the School of Instrument Science and                     task in [13]. In [14], the authors used 12 convolution layers
+Engineering, Southeast University, Nanjing 210096, China (e-mail:
+chengyu@seu.edu.cn).                                                           together with 2 fully connected layers. Additionally in [16],
+  Digital Object Identifier 10.1109/TNSRE.2021.3076234                         the authors used 2D convolution along with MaxPooling layers
+
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+810                                                  IEEE TRANSACTIONS ON NEURAL SYSTEMS AND REHABILITATION ENGINEERING, VOL. 29, 2021
+
+
+
+
+Fig. 1. Overall framework of the proposed AttnSleep model for automatic sleep stage classification.
+
+
+to classify the raw data from three channels (i.e., EEG, EOG,             recalibration (AFR). The MRCNN extracts features corre-
+and EMG). In [15], the authors designed a relatively deep                 sponding to low and high frequencies from different frequency
+CNN architecture to show that a better performance can                    bands, and the AFR models the features inter-dependencies
+be achieved by relying on network depth. In [17], authors                 to enhance the feature learning. Second, we propose a novel
+converted each raw signal into a log-power spectra and used a             temporal context encoder (TCE) that deploys a multi-head
+CNN to perform a joint classification and prediction task for             attention with causal convolutions to efficiently capture the
+identifying sleep stages. Generally, the CNN models above                 temporal dependencies in the extracted features. We also
+have achieved good performance for sleep stage classification.            design a class-aware loss function to effectively address
+However, most of them are not able to effectively model the               the data imbalance issue without additional computations.
+temporal dependencies among the EEG data.                                 We perform extensive experiments on three public datasets
+   Recurrent Neural Networks (RNNs) were proposed to cap-                 and experimental results demonstrate that our AttnSleep model
+ture temporal dependencies in time-series EEG data. For                   outperform the state-of-the-arts for sleep stage classification.
+example, [19] used a cascaded RNN architecture to classify                   Overall, the main contributions of our proposed model can
+sleep stages. Some researchers combined CNN with RNN by                   be summarized as follows.
+using CNN for features extraction and RNN for modelling                      1) We propose a novel feature extraction technique, i.e.,
+the time dependencies [20]–[23]. For example, [20] used                          a multi-resolution CNN module, to extract features cor-
+a CNN architecture to extract features from the raw data,                        responding to low and high frequencies from different
+and then exploited the long short-term memory (LSTM) to                          frequency bands, and an adaptive feature recalibration
+learn transition rules through sleep stages. Similarly, in [23],                 to learn the features interdependencies and enhance the
+the authors also used a successive blocks of CNN followed by                     representation capability of the extracted features.
+LSTM to classify raw EEG signals. In addition, [24] used an                  2) We propose a novel temporal context encoder that
+LSTM based encoder-decoder with an attention mechanism                           deploys a multi-head self-attention with causal convo-
+after the encoder to find out the most relevant parts in                         lutions to efficiently capture the temporal dependencies
+input sequences. However, RNNs also have limitations due                         in the extracted features.
+to their recurrent nature, i.e., they usually have high model                3) We design a class-aware loss function to efficiently han-
+complexity and it is thus difficult to train them in parallel.                   dle the class imbalance without introducing additional
+Some works used attention mechanism completely instead of                        computations.
+using RNN. For example, [25] segmented the EEG epochs                        4) These novel components are supported by extensive
+and used self-attention to learn both intra-epoch features, and                  experiments over three public datasets. The results
+inter-epoch temporal features.                                                   demonstrate that our proposed model outperforms state-
+   Aside from selecting classification models, sleep staging                     of-the-arts in sleep stage classification.
+also needs to address the data imbalance problem, since                      The rest of the paper is organized as follows: Section II
+humans spend different time periods in each stage. Oversam-               illustrates the details of the proposed model. In Section III,
+pling is a common strategy to address this issue. For example,            we introduce the datasets, evaluation metrics, experimental
+the studies in [13], [17], [20] replicated the minority classes for       setup and the baseline methods. We then present the com-
+model training. The authors in [24] applied Synthetic Minority            parison results against the baseline methods and the ablation
+Over-sampling TEchnique (SMOTE) [26] for oversampling to                  study of our AttnSleep model, as well as a sensitivity analysis
+balance the data. However, oversampling techniques expand                 of the choice of the number of heads in the MHA. Finally,
+the training data and thus increase the training time.                    the conclusion of the paper is presented in Section IV.
+   To address the above issues, we propose a novel architecture
+called AttnSleep for automatic sleep stages classification.                                  II. P ROPOSED M ETHOD
+First, we propose a novel feature extraction module based                   In this section, we introduce our proposed AttnSleep model
+on multi-resolution CNN (MRCNN) and adaptive feature                      for sleep stage classification from single-channel EEG data.
+ELDELE et al.: ATTENTION-BASED DEEP LEARNING APPROACH FOR SLEEP STAGE CLASSIFICATION                                               811
+
+
+
+
+A. Overview of AttnSleep Model
+   Fig. 1 illustrates the overall framework of our AttnSleep
+model. It consists of three main blocks, namely, 1) feature
+extraction, 2) temporal context encoder and 3) classification.
+   First, the MRCNN with two-branch CNN architectures is
+exploited to extract the features from a 30-second EEG signal.
+In particular, it extracts high-frequency features by the small
+kernel convolutions and low-frequency features by the wide
+kernel convolutions. Following MRCNN, we propose an AFR
+module to model the inter-dependencies among the features
+extracted by MRCNN. Moreover, AFR can adaptively select
+and highlight the most important features, which helps to
+enhance the classification performance. Second, we develop
+a TCE module to capture the long-term dependencies in the
+input features. The core component of TCE is the multi-head
+attention supported by causal convolutions. Third, the clas-
+sification decision is done by a fully connected layer with
+a softmax activation function. We also leverage a class-aware
+cost-sensitive loss function to handle the data imbalance issue.
+In the following subsections, we will introduce each block in
+details.
+                                                                    Fig. 2. The MRCNN and AFR modules for feature extraction. Each
+                                                                    convolution block is followed by a Batch Normalization.
+B. Feature Extraction
+   Fig. 2 shows the MRCNN and AFR modules for feature
+                                                                    Conv1D (64, 50, 6) in Fig. 2 refers to using 1D convolution
+extraction from raw single-channel EEG signals.
+                                                                    layer with 64 filters, a kernel size of 50 and a stride of 6.
+   1) Multi-Resolution CNN: To extract different types of fea-
+                                                                    Similarly, MaxPooling (8, 2) refers to a maxpooling layer with
+tures, we develop a multi-resolution CNN architecture as
+                                                                    a kernel size of 8 and a stride of 2. To reduce overfitting,
+shown in Fig. 2. We implement two branches of convolutional
+                                                                    we also apply dropout after the first maxpooling in both
+layers with different kernel sizes, where the choice of the
+                                                                    branches and after the concatenation of both branches as
+kernel sizes is related to the sampling rate of the EEG signals
+                                                                    shown in Fig. 2.
+and aims to explore different frequency bands. This is inspired
+                                                                       2) Adaptive Feature Recalibration (AFR): AFR aims to
+by some previous works that used multiple CNN kernel sizes
+                                                                    recalibrate the features learned by MRCNN for improv-
+to extract different frequency features (i.e., low- and high-
+                                                                    ing its performance. In particular, the AFR models the
+frequencies) such as [27], [28]. Additionally, different sleep
+                                                                    inter-dependencies between the features and adaptively selects
+stages are characterized by different frequency ranges [7], and
+                                                                    the most discriminative features through a residual squeeze
+thus, it is becoming important to address different frequency
+                                                                    and excitation (residual SE) block [30]. The SE block helps
+bands to improve the extracted features. Therefore, we use dif-
+                                                                    the lower layers of the network to exploit more contextual
+ferent kernel sizes to capture different ranges of timesteps, and
+                                                                    information outside its local receptive field by a context
+hence address features from different sleep-related frequency
+                                                                    aware mechanism. In residual SE block, we implement two
+bands. To further explain this, we consider a dataset with a
+                                                                    convolutions Conv1D (30,1,1) with both the kernel and stride
+sampling rate of 100 Hz (100 timesteps are sampled in one
+                                                                    size as 1 and ReLU as the activation function. Given a feature
+second) to justify the selection of the kernel sizes of the two
+                                                                    map I ∈ R L×d learned by MRCNN, we apply two convolution
+branches. First, the wide kernel (with a kernel of 400) captures
+                                                                    operations to I such that F = Conv2( Conv1(I ) ), where
+timesteps with 4-second windows, and thus captures a whole
+                                                                    F = {F1 , . . . , FN } ∈ R N×d , N is the total number of features,
+cycle of sinusoidal signal down to ∼0.25 Hz (T = 1/F).
+                                                                    d is the length of Fi (1 ≤ i ≤ N), and Conv1 and Conv2 are
+This range corresponds to delta band. Second, for the smaller
+                                                                    the two convolution operations in AFR module.
+kernel (with a kernel of 50), each convolution window captures
+                                                                       Next, the global spatial information is squeezed by using
+50 samples (0.5 second), thus it will be able to capture a whole
+                                                                    adaptive average pooling that shrinks F ∈ R N×d to s =
+cycle of sinusoidal signal down to ∼2 Hz, which means that
+                                                                    {s1 , . . . , s N }, where si is the average of the d data points
+data corresponds to alpha and theta bands.
+                                                                    in Fi ∈ Rd , 1 ≤ i ≤ N. Two fully connected (FC) layers
+   On the other hand, such a combination of features is
+                                                                    are then applied to make use of the aggregated information.
+important for the non-stationary characteristic of EEG signals
+                                                                    In particular, the first layer is followed by a ReLU activation
+that requires exploring different kinds of features. As shown in
+                                                                    function to perform dimensionality reduction, and the second
+Fig. 2, each branch consists of three convolutional layers and
+                                                                    layer is followed by a smoothing sigmoid activation function
+two max-pooling layers, where each convolution layer includes
+                                                                    to perform dimensionality increasing as shown in Equation 1.
+a batch normalization layer [29] and uses a Gaussian Error
+Linear Unit (GELU) as the activation function. In particular,                    e = σ (W2 (δ(W1 (s))))      ∈ R N×d ,             (1)
+812                                                   IEEE TRANSACTIONS ON NEURAL SYSTEMS AND REHABILITATION ENGINEERING, VOL. 29, 2021
+
+
+
+
+                                                                           1) Self-Attention: We use self-attention to quantify the inter-
+                                                                        dependence within input features, at which higher weights are
+                                                                        assigned to the regions of interest according to each position in
+                                                                        the input, while lower weights are assigned for less interesting
+                                                                        regions. In particular, given an input Z = {z 1 , . . . , z N } ∈
+                                                                        R N×d where N is the total number of features, and d is the
+                                                                        length of x i , 1 ≤ i ≤ N, this input is transformed into another
+                                                                        space using a transforming function φ(·). In our AttnSleep
+                                                                        model, φ(·) is a causal convolution function.
+                                                                           Next, we calculate a score αi j that indicates the weight at
+                                                                        which i -th position is attending to j -th position, as follows:
+                                                                                                              
+                                                                                                        exp si j
+                                                                                              αi j = d               ,                (4)
+                                                                                                       k=1 exp (sik )
+                                                                                              si j = φ(z i )φ(z j ).                  (5)
+Fig. 3. Structure of proposed multi-head attention.
+                                                                        Each attention output element ai is computed as weighted sum
+where σ and δ refer to sigmoid and ReLU activation functions            of the transformed input elements:
+respectively, and W1 and W2 represent the two FC layers in                                           
+                                                                                                     d
+AFR. Then, the feature map F is scaled by e as follows:                                       ai =          αi j φ(x j ).               (6)
+                                                                                                     j =1
+                     O= F ⊗e         ∈ R N×d ,                    (2)
+                                                                        The output of the attention layer is A = (a0 , a1 , . . . , ad ) ∈
+where ⊗ refers to the point-wise multiplication between F and           R N×d .
+e. We also add a shortcut connection to combine the original               2) Multi-Head Attention (MHA): MHA is inspired by the
+input I with the enhanced selected features learned from the            Transformer model [32], which shows great success in
+residual SE block. The final output of the AFR module is:               machine translation applications due to its ability to learn
+                                                                        long range relationships in sentences [33]. MHA improves the
+                     X = I +O         ∈ R N×d .                   (3)   self-attention in two main aspects. First, it expands the model’s
+   Note that we use GELU activation function in the MRCNN               capability to focus on different positions, as the encoding
+module as it allows some negative weights of the input to               of each head knows about the encodings of the other heads
+pass through. These negative weights might be important for             as well. This improves the model ability to learn temporal
+the following AFR module, leading to different decisions.               dependencies. Second, splitting the input features into
+Compared to ReLU, GELU should perform better, as ReLU                   different partitions increases the representation subspaces.
+suppresses all the negative weights to zeros, and thus the              Therefore, the generated attention weights for each subspace
+AFR module will not be able to make use of them. However,               are more representative to the importance of each partition,
+we use ReLU in the AFR module itself as ReLU aims to avoid              and concatenating these representations produces better overall
+exploding/vanishing gradient besides making the computations            representation, which enhances the classification accuracy. In
+faster and easier to converge [31]. On the other hand, GELU             our AttnSleep model, MHA leverages the causal convolutions
+can be a better choice over some other activation functions             to encode the positional information of input features and
+that also pass negative values, such as Leaky-ReLU and                  capture their temporal relations. The causal convolutions have
+PReLU. The reason is that these activation functions allow              an advantage of fast and parallel processing, which signifi-
+strong negative activations to generate undesirable impact              cantly reduces the model training time compared with RNNs.
+on the sum of activations feeding the next layers, which                Next we illustrate how MHA works in our AttnSleep model.
+generates undesirable effects. Differently, GELU shows more                The output of the AFR module, denoted as X =
+control to bound the effect of these negative activations. These        {x 1 , . . . , x N } ∈ R N×d , serves as the input of MHA as shown
+conclusions are supported with experiments in Table S.1 in the          in Fig. 3. Here, N is the total number of features, and d is
+supplementary materials.                                                the length of x i , 1 ≤ i ≤ N. More specifically, MHA takes
+                                                                        three duplicates of X as inputs. First, the causal convolutions
+                                                                        generate       X from X, i.e.,   X = φ(X). Second, we pass the
+C. Temporal Context Encoder (TCE)                                       three matrices of        X to calculate the attention in Equation 7
+   The TCE layer aims to capture temporal dependencies in               according to [32].
+the input features. As shown in Fig. 1, TCE layer consists of                                                      · 
+                                                                                                                   X  XT
+a multi-head attention (MHA) layer, a normalization layer and                   AT T (    , 
+                                                                                        X, X  X ) = So f tmax( √          )·  X,       (7)
+two FC layers. Moreover, TCE stacks two identical structures                                                          d
+to generate the final features. As attention mechanism is a key         where (·) is the multiplication operation.
+part in the TCE module, we first introduce the self-attention              We further expand the attention over H heads for each of the
+mechanism, and then we introduce each component in the TCE              three matrices. In particular, each matrix X  is split into H sub-
+layer.                                                                                                          h ∈ R N× Hd , 1 ≤ h ≤ H .
+                                                                                       = {X 1 , · · · , X H }, X
+                                                                        spaces, i.e., X
+ELDELE et al.: ATTENTION-BASED DEEP LEARNING APPROACH FOR SLEEP STAGE CLASSIFICATION                                                     813
+
+
+
+
+In each subspace h, we calculate the attention Ah similarly in
+Equation 8.
+             Ah = AT T (    h , 
+                                                d
+                         Xh, X    X h ) ∈ R N× H .            (8)
+   Finally, all the H representations are concatenated together
+to produce the final output as follows:
+    M H A(   , 
+           X, X  X) = Concat (A1, · · · , A H ) ∈ R N×d .     (9)
+   3) Add and Normalize Layer: The TCE has two Add &
+Normalize layers, which add the output of the previous layer
+to the input of that layer through a residual connection, and
+then normalize the sum. This operation can be expressed as
+Layer Nor m(x + SubLayer (x)), where Layer Nor m refers to
+applying layer normalization [34], SubLayer refer to either
+the MHA or the two FC layers as shown in Fig. 1, and x is the
+input of the SubLayer . Using the residual connections helps         Fig. 4. The amplitude of the extracted features differs among 5 classes.
+                                                                     This snapshot is from Sleep-EDF-20 dataset [36].
+the model to utilize the lower-layer features by propagating
+them to the higher layers if they are useful. Additionally,
+the normalization operation helps to speed up the training           the public sleep data, we can reach out to two conclusions.
+process.                                                             First, class N2 has a large number of samples, while classes
+   4) Feed-Forward Layer: The outputs of the MHA layer are           N1 and N3 have much fewer number of samples (i.e., N1 and
+fed into a feed-forward neural network, which is a combination       N3 are minority classes). Second, we observe that signals of
+of two FC layers. This layer employs ReLU activation function        N3 have significantly higher magnitude than other classes as
+to break the non-linearity in the model and consider the             shown in Fig. 4. Hence, the model can easily make correct
+interactions among latent dimensions. This operation can be          predictions for N3 samples. Meanwhile, N1 samples are not
+modeled as Fout = W4 ( δ(W3 (x)) ), where W3 and W4 refer            distinguishable from those in classes N2 and REM as shown in
+to the the two FC layers in the TCE module, as shown in              Fig. 4. Therefore, we assign the highest μk to N1, the lowest
+Fig. 1.                                                              to N3 and assign similar values to the other three classes W,
+                                                                     N2 and REM as follows.
+D. Class-Aware Loss Function and Optimization                                            ⎧
+                                                                                         ⎪
+                                                                                         ⎨a/K k = N3
+  Basically, we can apply the standard multi-class
+                                                                                   μk = b/K k = W, N2, R E M
+cross-entropy in Equation 10 as the loss function for                                    ⎪
+                                                                                         ⎩
+our model.                                                                                 c/K k = N1
+
+                       1  k
+                            K   M                                    where a, b, c are hyperparameters that change for each dataset.
+                L=−               yi k ),
+                           yi log(                          (10)    To fulfill the above recommendation, we chose a < b < c.
+                       M
+                           k=1 i=1                                   Note that we use μk to scale down the M/Mk value so we
+where yik  is the actual label for i -th sample and yi k is the     keep the values of μk less than 1 by dividing them by K . As
+predicted probability of i -th sample for the class k, M is the      such, the values of a, b, c are better to be kept less than K to
+total number of samples and K is the number of classes. Note         scale down the weights. Additional experiments on the effect
+that various sleep datasets are imbalanced, i.e., the amount         of the different variants of a, b, and c values are provided in
+of data for each class varies a lot. The loss function in            Section S.II the supplementary materials.
+Equation 10 equally penalizes the miss-classification of all the        Finally, we use Adam [35] as the optimizer to minimize our
+classes, and thus the trained model may be biased towards the        class-aware loss in Equation 11 and learn model parameters.
+majority classes.
+   We propose a class-aware loss function to address the above                      III. E XPERIMENTAL R ESULTS
+issue, which uses a weighted cross-entropy loss as follows:            In this section, we first introduce the experimental setup.
+                                                                     Then, we demonstrate the evaluation results of our proposed
+                       1 
+                           K    M
+               L=−          wk yik log(
+                                       yi k ),               (11)    AttnSleep.
+                       M
+                          k=1 i=1
+             wk = μk · max(1, log(μk M/Mk )),                (12)
+                                                                     A. Datasets and Evaluation Metrics
+where wk represents the weight assigned to the class k, μk              In our experiments, we used three public datasets, namely,
+is a tunable parameter, and Mk is the number of samples in           Sleep-EDF-20, Sleep-EDF-78 and Sleep Heart Health
+class k.                                                             Study (SHHS) as shown in Table I. For each dataset, we used
+   The choice of the class weight wk relies on two factors i.e.      a single EEG channel for various models in our experiments.
+the number of samples of this class (controlled by M/Mk ), and          Sleep-EDF-20 and Sleep-EDF-78 were obtained from
+the distinctness of this class (controlled by μk ). With analyzing   the PhysioBank [36]. Sleep-EDF-20 contains data files for
+814                                               IEEE TRANSACTIONS ON NEURAL SYSTEMS AND REHABILITATION ENGINEERING, VOL. 29, 2021
+
+
+
+
+                                                                TABLE I
+                   D ETAILS OF T HREE D ATASETS U SED IN O UR E XPERIMENTS (E ACH S AMPLE I S A 30-S ECOND E POCH )
+
+
+
+
+20 subjects, while Sleep-EDF-78 is an expanded version with                                     TABLE II
+78 subjects. The participants were involved in two studies. The        C ONFUSION M ATRIX OF P ROPOSED M ODEL A PPLIED ON F PZ -C Z
+                                                                                    C HANNEL F ROM EDF-20 D ATASET
+first is Sleep Cassette (SC* files), which studies age effects on
+sleep and it was conducted on healthy participants aged from
+25 to 101 years. The second is Sleep Telemetry (ST* files),
+which addressed the temazepam effects on sleep in 22 Cau-
+casian males and females without having any other medication.
+For these two datasets, each PSG file contains two EEG
+channels (Fpz-Cz, Pz-Oz) with a sampling rate of 100 Hz, one
+EOG channel and one chin EMG channel. Following previous
+studies [13], [15], [17], [18], [37], we adopted the data from                                  TABLE III
+Sleep Cassette study and used the single Fpz-Cz channel as             C ONFUSION M ATRIX OF P ROPOSED M ODEL A PPLIED ON F PZ -C Z
+the input for various models in our experiments.                                    C HANNEL F ROM EDF-78 D ATASET
+   SHHS [38], [39] is a multi-center cohort study of the
+cardiovascular and other consequences of sleep-disordered
+breathing. The subjects suffer from various diseases including
+lung diseases, cardiovascular diseases and coronary diseases.
+To minimize the impact of these diseases, we followed the
+study in [40] to select subjects, who are considered to have a
+regular sleep (e.g., Apnea Hypopnea Index or AHI less than
+5). Eventually, 329 out of 6,441 subjects were selected for our                                 TABLE IV
+experiments. Notably, we selected the C4-A1 channel with a                 C ONFUSION M ATRIX OF P ROPOSED M ODEL A PPLIED ON
+sampling rate of 125 Hz. Further details about the datasets                      C4-A1 C HANNEL F ROM SHHS D ATASET
+can be found in Section S.III in our supplementary materials.
+For the three datasets, we applied the following preprocessing
+steps. First, we excluded any UNKNOWN stages that don’t
+belong to any of the sleep stages. Second, we merged stages
+N3 and N4 into one stage (N3) according AASM standard.
+Third, we include only 30 minutes of wake periods before
+and after the sleep periods to add more focus on the sleep
+stages [20].
+                                                                                         1 
+                                                                                             K
+   We adopted four metrics to evaluate the performance of var-
+                                                                              M Gm =              Speci f i ci t yi × Recalli ,     (15)
+ious models for sleep stage classification, namely, the accuracy                         K
+                                                                                            i=1
+(ACC), macro-averaged F1-score (MF1), Cohen Kappa (κ)
+[41], and the macro-averaged G-mean (MGm). Both MF1 and              where Pr eci si on i = T PTi +F    Pi                    T Pi
+                                                                                                           Pi , Recall i = T Pi +F Ni and
+MGm are common metrics to evaluate the performance of the            Speci f i ci t yi = T NTi +F
+                                                                                               Ni
+                                                                                                  Pi . M is the total number of samples
+models on imbalanced datasets [42]. Given the True Positives         and K is the number of classes or sleep stages.
+(T Pi ), False Positives (F Pi ), True Negatives (T Ni ) and False      We also used per-class precision (PR), per-class recall
+Negatives (F Ni ) for the i -th class, the overall accuracy ACC,     (RE), per-class F1-score (F1), and per-class G-mean (GM)
+MF1 and MGm are defined as follows.                                  to evaluate each our model. They are calculated as in binary
+                                                                     classification by considering one class as the positive class and
+                   K                                                the other four classes as the negative class.
+                       i=1 T Pi
+         ACC =             ,                                 (13)
+                      M
+                                                                     B. Scoring Performance of AttnSleep
+                    1  2 × Pr eci si on i × Recalli
+                      K
+         M F1 =                                          ,   (14)      Tables II, III and IV show the confusion matrices of the
+                   K          Pr eci si on i + Recalli               proposed model applied on the Fpz-Cz channel in both
+                       i=1
+ELDELE et al.: ATTENTION-BASED DEEP LEARNING APPROACH FOR SLEEP STAGE CLASSIFICATION                                                     815
+
+
+
+
+                                                                 TABLE V
+   C OMPARISON A MONG ATTN S LEEP AND S TATE - OF - THE -A RT M ODELS . T HE B EST VALUES ON E ACH D ATASET A RE H IGHLIGHTED IN B OLD
+
+
+
+
+Sleep-EDF datasets and on C4-A1 channel in SHHS dataset.
+The confusion matrix is calculated by adding up all the scoring
+values of the testing data through the 20 folds. Each row
+represents the number of samples classified by experts, while
+each column represents the number of epochs predicted by
+our model. The tables also show the per-class precision, recall,
+F1 score and G-mean value for each class.
+  Notably, stage N1 achieves the lowest performance with the
+F1 less than 50%, where it is often misclassified to classes
+W, REM and N2. In counterpart, class N3 achieves the best
+performance for Sleep-EDF-20 and SHHS datasets, but it                Fig. 5. Training and testing accuracy and loss comparison for a random
+decreases for Sleep-EDF-78 as it is the minority class on this        fold (i.e. fold 10 on subject 16) in Sleep-EDF-20 dataset.
+dataset. Most of the misclassifications in the different datasets
+are with class N2 as it is the majority class.                        [37], and re-implemented ResnetLSTM [43]. To evaluate the
+                                                                      performance of various models, we adopted a subject-wise
+C. Baselines and Experimental Setup                                   20-fold cross-validation by dividing the subjects in each
+  In our experiments, we compared our model with five                 dataset into 20 groups. For example, subject-wise 20-fold
+baselines, namely, DeepSleepNet [20], SleepEEGNet [24],               cross-validation on Sleep-EDF-20 dataset with 20 subjects is
+ResnetLSTM [43], MultitaskCNN [17] and SeqSleepNet [37].              thus leave-one-subject-out (LOSO) cross-validation. For each
+Brief descriptions for each baseline are as follows.                  round, we selected one group of subjects as testing data and
+  • DeepSleepNet [20] exploits a custom CNN architecture              the remaining 19 groups as training data. Eventually we com-
+     followed by an LSTM with a residual connection for sleep         bined the predicted sleep stages for the testing samples from
+     stage classification.                                            all the 20 rounds to calculate various performance metrics.
+  • SleepEEGNet [24] employs the same CNN architecture                We chose the neural network hyperparameters based on the
+     as DeepSleepNet [20] followed by an encoder-decoder              performance across these folds. In addition, we noticed that
+     with attention mechanism.                                        AttnSleep performance stabilizes before reaching 100 epochs,
+  • ResnetLSTM [43] implements a ResNet architecture for              so we trained all the models for 100 epochs in each round
+     feature extraction, followed by an LSTM to classify EEG          to fairly compare their average training time. Fig. 5 shows
+     signals into different sleep stages.                             the performance graph of our model showing both the loss
+  • MultitaskCNN [17] starts by converting the raw EEG                and accuracy during AttnSleep training. Our model shows
+     signals into power spectrum images, and then applies             a stable performance during training, and we notice that
+     a joint classification and prediction technique using a          it converges quickly. Additionally, it can be seen that the
+     multi-task CNN architecture for identifying sleep stages.        validation loss stabilizes even with the continual decrement in
+  • SeqSleepNet [37] also converts the raw EEG signal into            the training loss, which reflects the robustness of our model
+     power spectrum images and then uses a hierarchical RNN           against overfitting.
+     structure to classify multiple epochs at once.                      We built our model using PyTorch 1.4 and trained it on
+  In particular, we used the published codes for DeepSleepNet         a Tesla K40 GPU. We applied a batch size of 128, and the
+[20], SleepEEGNet [24], MultitaskCNN [17] and SeqSleepNet             Adam optimizer with the learning rate starting with 1e-3 then
+816                                            IEEE TRANSACTIONS ON NEURAL SYSTEMS AND REHABILITATION ENGINEERING, VOL. 29, 2021
+
+
+
+
+reducing to 1e-4 after 10 epochs. The weight decay of Adam
+was set to 1e-3, the betas (b1, b2) were used as (0.9, 0.999)
+respectively, the epsilon value was 1e-08 and the amsgrad
+was set to true. All the convolutional layers were initialized
+using a Gaussian distribution with a mean of 0 and a variance
+of 0.02. For the TCE module, we used 5 heads in MHA
+and the dimension of each feature d was 80 for Sleep-EDF
+dataset, and 100 for SHHS dataset because of its higher
+sampling rate, and hence its longer signal length. For the
+two fully connected layers, the input dimension was d and
+the output dimension was set to 120, and vice versa for
+the second fully connected layer. A detailed description can
+also be found in Table S.3 in our supplementary materials.
+Our source codes and supplementary materials are publicly
+available at https://github.com/emadeldeen24/AttnSleep.
+
+D. Comparison With State-of-the-Art Approaches                    Fig. 6. Ablation study conducted on Sleep-EDF-20 dataset.
+   We evaluated the performance of our AttnSleep model
+against various state-of-the-art approaches. We compared their
+performance in terms of overall accuracy, macro F1-score,         E. Ablation Study
+cohen kappa, macro G-mean and the average training time              Note that our AttnSleep consists of MRCNN, AFR and
+on three datasets.                                                TCE modules together with the class-aware loss function.
+   Table V shows the comparison among DeepSleepNet                To analyze the effectiveness of each module in our AttnSleep,
+[20], SleepEEGNet [24], ResnetLSTM [43], MultitaskCNN             we present an ablation study conducted on Sleep-EDF-
+[17] and our AttnSleep. We observe that our AttnSleep             20 dataset as shown in Fig. 6. Specifically, we derive five
+achieves better classification performance than the other four    model variants as follows and the first four variants do not
+approaches, due to its powerful feature extraction module         use the class-aware loss function.
+as well as the TCE with attention mechanism. In particular,          1) MRCNN: MRCNN module only.
+our AttnSleep achieves better MF1 and MGm on Sleep-EDF-              2) MRCNN+AFR: MRCNN and AFR without TCE.
+78 and SHHS, indicating that the designed cost-sensitive loss        3) MRCNN+TCE: MRCNN and TCE without AFR.
+function is helpful to handle imbalanced data. In addition,          4) MRCNN+AFR+TCE: training MRCNN, AFR and
+we can observe that our AttnSleep achieves lower performance            TCE together, without the class-aware loss function.
+for class N1 than [20], [24]. As shown in Fig. 4, W, REM and         5) AttnSleep: training MRCNN, AFR and TCE together,
+N1 have similar features in our framework. Therefore, our               with the class-aware loss function.
+AttnSleep tends to misclassify N1 as other classes including         We can draw the following three conclusions based on
+W and REM, which is also demonstrated in the confusion            the ablation study as shown in Fig. 6. First, AFR can
+matrices in Tables II, III and IV.                                enhance the classification performance, which demonstrates
+   Note that all the five methods in Table V use a single epoch   the necessity of modeling the feature inter-dependencies. This
+(i.e., 30-second EEG signal) as the model input. Differently,     is further demonstrated by comparing the third and fourth
+SeqSleepNet [37] takes 3 epochs as input and then predicts the    variants (i.e., MRCNN+TCE vs. MRCNN+AFR+TCE). Sec-
+label for the middle epoch. For fair comparison, we compare       ond, by comparing MRCNN and MRCNN+TCE (similarly
+our AttnSleep with SeqSleepNet in Table VI by using 3 epochs      MRCNN+AFR vs. MRCNN+AFR+TCE), we conclude that
+as input. As shown in Table VI, our AttnSleep outperforms         capturing the temporal dependencies with TCE is impor-
+SeqSleepNet in terms of all the four metrics (ACC, MF1, κ and     tant for sleep stage classification. Moreover, TCE is even
+MGm). By comparing Tables V and VI, we also observe that          more important than AFR as MRCNN+TCE outperforms
+using more epochs as input includes more temporal relations       MRCNN+AFR. Third, AttnSleep achieves significantly better
+and helps our AttnSleep model to achieve better performance.      MF1 and MGm than other four variants, indicating that the
+   In addition, the training time of our method is much less      proposed class-aware cost-sensitive loss function can effec-
+than other methods as shown in Tables V and VI. First,            tively address the data imbalance issue without any added
+DeepSleepNet [20], SleepEEGNet [24] and SeqSleepNet [37]          computation overhead. We also conduct the ablation study
+all exploit LSTMs which slow down the training due to             for Sleep-EDF-78 and SHHS dataset, which can be found
+the recurrent processing in LSTM. Second, MultitaskCNN            in Fig. S.3 and S.4 in our supplementary materials.
+[17] and SeqSleepNet [37] require additional computation to
+pre-train a DNN-based filter bank before training the main
+model. Differently, our AttnSleep model captures the temporal     F. Sensitivity Analysis for the Number of Heads in MHA
+dependency among EEG data using TCE instead of LSTM,                 As MHA is one key component of our model, it is impor-
+and can thus benefit from parallel computation to achieve the     tant to study how the number of heads affects the model
+reduced training complexity.                                      performance. In particular, we fix the other parameters and
+ELDELE et al.: ATTENTION-BASED DEEP LEARNING APPROACH FOR SLEEP STAGE CLASSIFICATION                                                             817
+
+
+
+
+                                                           TABLE VI
+                 C OMPARISON OF THE P ERFORMANCE OF ATTN S LEEP AGAINST S EQ S LEEP N ET W ITH 3 E POCHS AS I NPUT
+
+
+
+
+                                                                   outperforms state-of-the-art methods under various evaluation
+                                                                   matrices. Besides, an ablation study was performed to show
+                                                                   the effectiveness of each module in the proposed method.
+                                                                   Finally, we conducted a sensitivity analysis to demonstrate the
+                                                                   impact of the number of heads in MHA. The results indicated
+                                                                   that our method is quite stable with different number of
+                                                                   heads. For future directions, we will consider transfer learning
+                                                                   and domain adaptation techniques, which adapt the model
+                                                                   trained on labeled dataset to classify the unlabeled sleep data
+                                                                   in other datasets.
+
+Fig. 7.   The performance of our AttnSleep model on Sleep-EDF-                                      R EFERENCES
+20 dataset by using different number of heads in MHA.
+                                                                    [1] F. S. Luyster, P. J. Strollo, P. C. Zee, and J. K. Walsh, “Sleep: A health
+                                                                        imperative,” Sleep, vol. 35, no. 6, pp. 727–734, Jun. 2012.
+test different number of heads in MHA. Note that the number         [2] P. H. Finan et al., “Partial sleep deprivation attenuates the positive affec-
+of heads should be dividable by the length of features d.               tive system: Effects across multiple measurement modalities,” Sleep,
+                                                                        vol. 40, no. 1, pp. 1–9, Jan. 2017.
+As d is 80 for Sleep-EDF-20 dataset, we run our model               [3] G. Rauchs, B. Desgranges, J. Foret, and F. Eustache, “The relationship
+using 1, 2, 4, 5, 8 and 10 heads. Fig. 7 shows the model                between memory systems and sleep stages,” J. Sleep Res., vol. 14, no. 2,
+performance on Sleep-EDF-20 dataset in terms of accuracy                pp. 123–140, 2005.
+                                                                    [4] S. Sharma and M. Kavuru, “Sleep and metabolism: An overview,” Int.
+and MF1 score. Overall, the model performance is quite stable           J. Endocrinol., vol. 2010, pp. 1–12, Oct. 2010.
+when we use different number of heads. With increasing the          [5] J. Tank et al., “Relationship between blood pressure, sleep K-
+number of heads from 1, 2 to 4 and 5, we can observe a                  complexes, and muscle sympathetic nerve activity in humans,” Amer. J.
+                                                                        Physiol.-Regulatory, Integrative Comparative Physiol., vol. 285, no. 1,
+slight improvement on the performance, since using more                 pp. R208–R214, Jul. 2003.
+heads allows the model to find more meaningful features and         [6] A. S. Keenan, “An overview of polysomnography,” in Handbook of
+feature interactions. Meanwhile, when the number of heads               Clinical Neurophysiology, vol. 6. Amsterdam, The Netherlands: Elsevier,
+                                                                        2005, ch. 3, pp. 33–50.
+further increases (H equals to 8 and 10), i.e., the length of       [7] P. Memar and F. Faradji, “A novel multi-class EEG-based sleep stage
+features in each head becomes smaller, which leads to a slight          classification system,” IEEE Trans. Neural Syst. Rehabil. Eng., vol. 26,
+performance decrease. In our experiments, we eventually set H           no. 1, pp. 84–95, Jan. 2018.
+                                                                    [8] S. I. Dimitriadis, C. Salis, and D. Linden, “A novel, fast and efficient
+as 5 on Sleep-EDF-20 dataset. For other two datasets, we also           single-sensor automatic sleep-stage classification based on complemen-
+set H as 5, and the detailed sensitivity analysis can be found          tary cross-frequency coupling estimates,” Clin. Neurophysiol., vol. 129,
+in Fig. S.5 and S.6 in our supplementary materials.                     no. 4, pp. 815–828, Apr. 2018.
+                                                                    [9] G. Zhu, Y. Li, and P. Wen, “Analysis and classification of sleep stages
+                                                                        based on difference visibility graphs from a single-channel EEG signal,”
+                       IV. C ONCLUSION                                  IEEE J. Biomed. Health Informat., vol. 18, no. 6, pp. 1813–1821,
+   We proposed a novel architecture for sleep stage                     Nov. 2014.
+                                                                   [10] S. Seifpour, H. Niknazar, M. Mikaeili, and A. M. Nasrabadi, “A new
+classification from single channel raw EEG signals called               automatic sleep staging system based on statistical behavior of local
+AttnSleep. The AttnSleep relies on extracting the features              extrema using single channel EEG signal,” Expert Syst. Appl., vol. 104,
+from EEG signals using two modules: the multi-resolution                pp. 277–293, Aug. 2018.
+                                                                   [11] X. Li, L. Cui, S. Tao, J. Chen, X. Zhang, and G.-Q. Zhang, “HyCLASSS:
+convolutional neural network (MRCNN) and the adaptive                   A hybrid classifier for automatic sleep stage scoring,” IEEE J. Biomed.
+feature recalibration (AFR). These two modules are followed             Health Informat., vol. 22, no. 2, pp. 375–385, Mar. 2018.
+by the temporal context encoder (TCE) module, which                [12] A. R. Hassan and M. I. H. Bhuiyan, “Computer-aided sleep staging using
+                                                                        complete ensemble empirical mode decomposition with adaptive noise
+captures the temporal dependencies among the extracted                  and bootstrap aggregating,” Biomed. Signal Process. Control, vol. 24,
+features by using a multi-head attention (MHA) mechanism.               pp. 1–10, Feb. 2016.
+We also proposed a class-aware cost-sensitive loss function        [13] O. Tsinalis, P. M. Matthews, Y. Guo, and S. Zafeiriou, “Auto-
+                                                                        matic sleep stage scoring with single-channel EEG using convolu-
+to handle the issue of data imbalance. The experimental                 tional neural networks,” 2016, arXiv:1610.01683. [Online]. Available:
+results on three public datasets demonstrated that our model            http://arxiv.org/abs/1610.01683
+818                                                        IEEE TRANSACTIONS ON NEURAL SYSTEMS AND REHABILITATION ENGINEERING, VOL. 29, 2021
+
+
+
+
+[14] A. Sors, S. Bonnet, S. Mirek, L. Vercueil, and J.-F. Payen, “A con-          [27] W. Huang, J. Cheng, Y. Yang, and G. Guo, “An improved deep
+     volutional neural network for sleep stage scoring from raw single-                convolutional neural network with multi-scale information for bearing
+     channel EEG,” Biomed. Signal Process. Control, vol. 42, pp. 107–114,              fault diagnosis,” Neurocomputing, vol. 359, pp. 77–92, Sep. 2019.
+     Apr. 2018.                                                                   [28] W. Dai, C. Dai, S. Qu, J. Li, and S. Das, “Very deep convolutional
+[15] M. Sokolovsky, F. Guerrero, S. Paisarnsrisomsuk, C. Ruiz, and                     neural networks for raw waveforms,” in Proc. IEEE Int. Conf. Acoust.,
+     S. A. Alvarez, “Deep learning for automated feature discovery and                 Speech Signal Process. (ICASSP), Mar. 2017, pp. 421–425.
+     classification of sleep stages,” IEEE/ACM Trans. Comput. Biol. Bioinf.,      [29] S. Ioffe and C. Szegedy, “Batch normalization: Accelerating deep
+     vol. 17, no. 6, pp. 1835–1845, Nov. 2020.                                         network training by reducing internal covariate shift,” in Proc. 32nd
+[16] S. Chambon, M. N. Galtier, P. J. Arnal, G. Wainrib, and A.                        Int. Conf. Mach. Learn., 2015, pp. 448–456.
+     Gramfort, “A deep learning architecture for temporal sleep stage             [30] J. Hu, L. Shen, and G. Sun, “Squeeze-and-excitation networks,” in Proc.
+     classification using multivariate and multimodal time series,” IEEE               IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), Jun. 2018,
+     Trans. Neural Syst. Rehabil. Eng., vol. 26, no. 4, pp. 758–769,                   pp. 7132–7141.
+     Apr. 2018.                                                                   [31] B. Xu, N. Wang, T. Chen, and M. Li, “Empirical evaluation of rec-
+[17] H. Phan, F. Andreotti, N. Cooray, O. Y. Chén, and M. De Vos, “Joint               tified activations in convolutional network,” 2015, arXiv:1505.00853.
+     classification and prediction CNN framework for automatic sleep stage             [Online]. Available: http://arxiv.org/abs/1505.00853
+     classification,” IEEE Trans. Biomed. Eng., vol. 66, no. 5, pp. 1285–1296,    [32] A. Vaswani et al., “Attention is all you need,” in Proc. Adv. Neural Inf.
+     May 2019.                                                                         Process. Syst., 2017, pp. 5998–6008.
+[18] F. Li et al., “End-to-end sleep staging using convolutional neural network   [33] J. Devlin, M.-W. Chang, K. Lee, and N. K. Toutanova, “Bert: Pre-
+     in raw single-channel EEG,” Biomed. Signal Process. Control, vol. 63,             training of deep bidirectional transformers for language understanding,”
+     Jan. 2021, Art. no. 102203.                                                       in Proc. Assoc. Comput. Linguistics, 2019, pp. 4171–4186.
+[19] N. Michielli, U. R. Acharya, and F. Molinari, “Cascaded LSTM                 [34] J. L. Ba, J. R. Kiros, and G. E. Hinton, “Layer normalization,” 2016,
+     recurrent neural network for automated sleep stage classification using           arXiv:1607.06450. [Online]. Available: http://arxiv.org/abs/1607.06450
+     single-channel EEG signals,” Comput. Biol. Med., vol. 106, pp. 71–81,        [35] D. P. Kingma and J. Ba, “Adam: A method for stochastic optimization,”
+     Mar. 2019.                                                                        in Proc. Int. Conf. Learn. Represent., 2015, pp. 1–15.
+[20] A. Supratak, H. Dong, C. Wu, and Y. Guo, “DeepSleepNet: A model              [36] A. L. Goldberger et al., “PhysioBank, PhysioToolkit, and PhysioNet:
+     for automatic sleep stage scoring based on raw single-channel EEG,”               Components of a new research resource for complex physiologic sig-
+     IEEE Trans. Neural Syst. Rehabil. Eng., vol. 25, no. 11, pp. 1998–2008,           nals,” Circulation, vol. 101, no. 23, pp. e215–e220, Jun. 2000.
+     Nov. 2017.                                                                   [37] H. Phan, F. Andreotti, N. Cooray, O. Y. Chen, and M. De Vos,
+[21] Z. Chen, M. Wu, W. Cui, C. Liu, and X. Li, “An attention based CNN-               “SeqSleepNet: End-to-end hierarchical recurrent neural network for
+     LSTM approach for sleep-wake detection with heterogeneous sensors,”               sequence-to-sequence automatic sleep staging,” IEEE Trans. Neural Syst.
+     IEEE J. Biomed. Health Informat., early access, Jun. 30. 2020, doi:               Rehabil. Eng., vol. 27, no. 3, pp. 400–410, Mar. 2019.
+     10.1109/JBHI.2020.3006145.                                                   [38] G.-Q. Zhang et al., “The national sleep research resource: Towards a
+[22] Z. Chen et al., “A novel ensemble deep learning approach for sleep-               sleep data commons,” J. Amer. Med. Inform. Assoc., vol. 25, no. 10,
+     wake detection using heart rate variability and acceleration,” IEEE               pp. 1351–1358, Oct. 2018.
+     Trans. Emerg. Topics Comput. Intell., early access, Jun. 8, 2020, doi:       [39] S. F. Quan et al., “The sleep heart health study: Design, rationale, and
+     10.1109/TETCI.2020.2996943.                                                       methods,” Sleep, vol. 20, no. 12, pp. 1077–1085, 1997.
+[23] A. Malafeev et al., “Automatic human sleep stage scoring using               [40] P. Fonseca, N. den Teuling, X. Long, and R. M. Aarts, “Cardiorespiratory
+     deep neural networks,” Frontiers Neurosci., vol. 12, p. 781,                      sleep stage detection using conditional random fields,” IEEE J. Biomed.
+     Nov. 2018.                                                                        Health Informat., vol. 21, no. 4, pp. 956–966, Jul. 2017.
+[24] S. Mousavi, F. Afghah, and U. R. Acharya, “SleepEEGNet: Automated            [41] J. Cohen, “A coefficient of agreement for nominal scales,” Educ.
+     sleep stage scoring with sequence to sequence deep learning approach,”            Psychol. Meas., vol. 20, no. 1, pp. 37–46, Apr. 1960.
+     PLoS ONE, vol. 14, no. 5, May 2019, Art. no. e0216456.                       [42] Y. Tang, Y.-Q. Zhang, N. V. Chawla, and S. Krasser, “SVMs modeling
+[25] T. Zhu, W. Luo, and F. Yu, “Convolution- and attention-based neural               for highly imbalanced classification,” IEEE Trans. Syst. Man, Cybern.
+     network for automated sleep stage classification,” Int. J. Environ. Res.          B, Cybern., vol. 39, no. 1, pp. 281–288, Feb. 2009.
+     Public Health, vol. 17, no. 11, p. 4152, Jun. 2020.                          [43] Y. Sun, B. Wang, J. Jin, and X. Wang, “Deep convolutional network
+[26] N. V. Chawla, K. W. Bowyer, L. O. Hall, and W. P. Kegelmeyer,                     method for automatic sleep stage classification based on neurophysio-
+     “SMOTE: Synthetic minority over-sampling technique,” J. Artif. Intell.            logical signals,” in Proc. 11th Int. Congr. Image Signal Process., Biomed.
+     Res., vol. 16, pp. 321–357, Jun. 2002.                                            Eng. Informat. (CISP-BMEI), Oct. 2018, pp. 1–5.
+

@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "67e4e41412327736",
+    "type": "split",
+    "children": [
+      {
+        "id": "2560b9fb92828297",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b94b9a3cf68fd46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ee7360763fb2d6c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9b909156ba575ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f4493b775f3b392",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "334a1b49aba1b66f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "ef3845a86a64cd1f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "71547053785a1fca",
+    "type": "split",
+    "children": [
+      {
+        "id": "3bb6dd245ed43f79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b4013ce955b46b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "wiki/review/可穿戴睡眠检测与闭环干预综述.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "73cedb198dbf9194",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "wiki/review/可穿戴睡眠检测与闭环干预综述.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "8713761354ed3a38",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "68e6ff47b8638c12",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "f8342cbae50947bd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "wiki/review/可穿戴睡眠检测与闭环干预综述.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "8b94b9a3cf68fd46",
+  "lastOpenFiles": [
+    "wiki/review/完整综述大纲.md",
+    "README.md",
+    "wiki/review/可穿戴睡眠检测与闭环干预综述.md",
+    "AGENTS.md",
+    "wiki/review/chapters/03-可穿戴睡眠信号采集硬件体系.md",
+    "wiki/review/证据矩阵.md",
+    "wiki/dataset/CCSHS.md",
+    "wiki/index.md",
+    "wiki/dataset/Sleep-EDF.md",
+    "wiki/concept/单通道 EEG.md",
+    "wiki/review/chapters/01-引言.md",
+    "wiki/review/chapters/02-基础理论与核心概念.md",
+    "wiki/model/SleepTransformer.md",
+    "wiki/model/SleepEEGNet.md",
+    "wiki/model/SingleChannelNet.md",
+    "wiki/model/SeqSleepNet.md",
+    "wiki/model/DeepSleepNet.md",
+    "wiki/model/AttnSleep.md",
+    "wiki/review/chapters/08-未来研究展望.md",
+    "wiki/review/chapters/07-当前领域共性挑战.md",
+    "wiki/review/chapters/06-现有研究对比.md",
+    "wiki/review/chapters/05-可穿戴睡眠闭环干预技术.md",
+    "wiki/review/chapters/04-多模态睡眠检测算法.md",
+    "wiki/review/chapters/09-总结.md",
+    "wiki/review/chapters",
+    "wiki/review",
+    "wiki/intervention",
+    "wiki/device",
+    "wiki/source-pages/eldele-2021-attention-based-single-channel-eeg.md",
+    "wiki/concept/睡眠分期.md",
+    "work/zhou-2022.txt",
+    "work/eldele-2021.txt",
+    "work",
+    "raw/inbox/Zhou 等 - 2022 - SingleChannelNet A model for automatic sleep stage classification with raw single-channel EEG.pdf",
+    "raw/inbox/Eldele 等 - 2021 - An Attention-Based Deep Learning Approach for Sleep Stage Classification With Single-Channel EEG.pdf",
+    "raw/papers/Zhou 等 - 2022 - SingleChannelNet A model for automatic sleep stage classification with raw single-channel EEG.pdf"
+  ]
+}

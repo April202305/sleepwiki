@@ -1,0 +1,604 @@
+                                                           Biomedical Signal Processing and Control 75 (2022) 103592
+
+
+                                                                     Contents lists available at ScienceDirect
+
+
+                                               Biomedical Signal Processing and Control
+                                                            journal homepage: www.elsevier.com/locate/bspc
+
+
+
+
+SingleChannelNet: A model for automatic sleep stage classification with
+raw single-channel EEG
+Dongdong Zhou a, b, Jian Wang a, b, Guoqiang Hu a, Jiacheng Zhang c, Fan Li a, Rui Yan a, b,
+Lauri Kettunen b, Zheng Chang b, Qi Xu d, *, Fengyu Cong a, b, d, e, *
+a
+  School of Biomedical Engineering, Faculty of Electronic and Electrical Engineering, Dalian University of Technology, Dalian, China
+b
+  Faculty of Information Technology, University of Jyväskylä, Jyväskylä, Finland
+c
+  School of Information and Communication Engineering, Faculty of Electronic and Electrical Engineering, Dalian University of Technology, Dalian, China
+d
+  School of Artifical Intelligence, Faculty of Electronic and Electrical Engineering, Dalian University of Technology, Dalian, China
+e
+  Key Laboratory of Integrated Circuit and Biomedical Electronic System, Liaoning Province, Dalian University of Technology, Dalian, China
+
+
+
+
+A R T I C L E I N F O                                       A B S T R A C T
+
+Keywords:                                                   In diagnosing sleep disorders, sleep stage classification is a very essential yet time-consuming process. Various
+Sleep stage classification                                  existing state-of-the-art approaches rely on hand-crafted features and multi-modality polysomnography (PSG)
+Raw single-channel EEG                                      data, where prior knowledge is compulsory and high computation cost can be expected. Besides, it is a big
+Contextual input
+                                                            challenge to handle the task with raw single-channel electroencephalogram (EEG). To overcome these short­
+Convolutional neural network
+                                                            comings, this paper proposes an end-to-end framework with a deep neural network, namely SingleChannelNet,
+                                                            for automatic sleep stage classification based on raw single-channel EEG. The proposed model utilizes a 90s
+                                                            epoch as the textual input and employs two multi-convolution (MC) blocks and several max-average pooling (M-
+                                                            Apooling) layers to learn different scales of feature representations. To demonstrate the efficiency of the pro­
+                                                            posed model, we evaluate our model using different raw single-channel EEGs (C4/A1 and Fpz-Cz) on two public
+                                                            PSG datasets (Cleveland children’s sleep and health study: CCSHS and Sleep-EDF database expanded: Sleep-EDF).
+                                                            Experimental results show that the proposed architecture can achieve better overall accuracy and Cohen’s kappa
+                                                            (CCSHS: 90.2%–86.5%, Sleep-EDF: 86.1%–80.5%) compared with state-of-the-art approaches. Additionally, the
+                                                            proposed model can learn features automatically for sleep stage classification using different single-channel EEGs
+                                                            with distinct sampling rates and without using any hand-engineered features.
+
+
+
+
+1. Introduction                                                                                   diagnose them with accurate sleep stage classification. Traditionally, the
+                                                                                                  sleep stage classification task is conducted by experts manually
+    Sleep occupies one-third of human life, which plays a vitally                                 following the R&K or AASM rule which is often time-consuming, labor-
+important role in restoring body and mind [1]. Whereas roughly 33% of                             intensive and prone to subjective mistakes [6]. Hence, there is an urgent
+the population in the world suffers from insomnia disorder [2].                                   need for automatic sleep stage classification approach to assist the cli­
+Correctly identifying sleep stage using whole-night PSG data is essential                         nician’s work and achieve reliable results.
+to diagnose and treat sleep-related disorders [3–6]. The PSG recordings                               Some methods based on machine learning have been proposed to
+comprise of the EEG, electrocardiogram (ECG), electrooculogram                                    identify the sleep stage. These approaches generally extract either time-
+(EOG), electromyogram (EMG) and other respiration signals [7].                                    domain features [3,10,11] or frequency-domain features [12–16] from
+    According to the guidelines of the Rechtschaffen and Kales (R&K) [8]                          the PSG signals and these pre-extracted features are then fed into the
+or American Academy of Sleep Medicine (AASM) [9], the PSG data                                    conventional classifier, such as support vector machine (SVM)
+should be first segmented into 30s epochs typically, then these                                   [4,14,17,18], k-nearest neighbors (KNN) [16,19,20], random forest
+sequential epochs are defined as different stages. Some sleep-related                             [21–24] and so on. The performance tremendously relies on the cate­
+disorders have particular sleep structure, it is therefore beneficial to                          gories and the number of features, which are extracted based on the
+
+
+
+ * Corresponding authors at: School of Biomedical Engineering, Faculty of Electronic and Electrical Engineering, Dalian University of Technology, Dalian, China (F.
+Cong).
+   E-mail addresses: xuqi@dlut.edu.cn (Q. Xu), cong@dlut.edu.cn (F. Cong).
+
+https://doi.org/10.1016/j.bspc.2022.103592
+Received 17 September 2021; Received in revised form 27 December 2021; Accepted 20 February 2022
+Available online 2 March 2022
+1746-8094/© 2022 Elsevier Ltd. All rights reserved.
+D. Zhou et al.                                                                                              Biomedical Signal Processing and Control 75 (2022) 103592
+
+
+characteristics of experimental datasets. Therefore, these approaches            • The results demonstrate that our model can obtain promising per­
+may not be robust enough to be generalized to different datasets because           formance on different raw single-channel EEGs (C4/A1, Fpz-Cz) from
+of the distinct properties between datasets.                                       CCSHS and Sleep-EDF datasets, without modifying the architecture
+    In recent years, the deep networks show great capacity for automatic           and hyper-parameters of model and training algorithm. Moreover,
+features learning from data, and it can avoid the reliance on hand-                all features are learned by the proposed model automatically.
+engineered features. Meanwhile, a series of deep learning methods are
+applied to the sleep stage classification task. Here, we categorize these       2. Experimental datasets
+approaches into multi-channel [6,25–29] versus single-channel schemes
+[30–35] based on the number of input channels. Following the multi-                 Two public datasets are employed to evaluate the performance of the
+channel scheme, Phan et al. [6] first transformed the raw signals into          proposed framework in this work, namely Cleveland Children’s Sleep
+the time-frequency image through the short-time Fourier transform as            and Health Study (CCSHS) [36,37] and Sleep-EDF Database Expanded
+the input of the proposed convolutional neural network (CNN). The               (Sleep-EDF, 2018 version) [38]. It should be noted that all hypnograms
+overall accuracy achieved was equal to 82.3%, in which there is room            of experimental datasets are manually scored according to the R&K
+for improvement. Besides, the time-frequency image relies much on               manual rather than the AASM rule.
+many preprocessing steps, it would be time-consuming and in need of
+prior knowledge of signal processing. Aiming at this, Chambon et al.            2.1. Cleveland children’s sleep and health study (CCSHS)
+[27] proposed a novel network architecture of low computational cost
+adopting multivariate and multimodal time series from EEG, EMG and                  The CCSHS dataset comprises of overnight PSG recordings from 515
+EOG, but the classification performance is not good enough with the             subjects aged 8–11 years, which is one of the largest population-based
+accuracy of 80% compared to state-of-the-art methodologies [7,30].              pediatric cohorts studied with objective sleep studies. Each 30s epoch
+One important reason is that the convolutional layers with fixed filter         is manually divided by experts into several stages: Wake (W), Rapid Eye
+size were stacked sequentially, which can not learn multiscale features         Movement (REM), Non-REM1 (N1), Non-REM2 (N2), and Non-REM3
+simultaneously. A promising approach was proposed by Zhang et al.               (N3). In this work, single-channel EEG C4/A1 sampled at 128 Hz is
+[29], who employed the CNN and recurrent neural network (RNN) to                selected.
+capture temporal and spatial information simultaneously from the PSG
+data. The architecture attained an accuracy of 87%. Although the                2.2. Sleep-EDF database expanded (Sleep-EDF)
+combination of CNNs and RNNs can enhance the model performance to
+some extent, the high computational cost of RNNs should be taken into               The Sleep-EDF dataset consists of two subsets: sleep-cassette (SC)
+consideration. To the best of our knowledge, the training speed of CNNs         contains 78 healthy Caucasians aged from 25 to 101 years and sleep-
+would be dozens of times faster than that of RNNs under the same GPU            telemetry (ST) comprises 22 Caucasians receiving temazepam treat­
+acceleration when implementing long time-series input. To sum up,               ment. In this study, we use subjects from SC for evaluating the model
+despite the fact that multi-channel PSG data can provide additional             performance. Each participant was recorded two subsequent night PSG
+referenced information compared to single-channel EEG, there is also            data except the subject 13, subject 36 and subject 52, from the SC subset
+some irrelevant information being introduced. Furthermore, multi-               who had only a one-night record. Each epoch of recordings is manually
+channel recordings can limit the practical application on account of            labelled by clinicians according to the R&K rule into W, N1, N2, N3, N4,
+more complex operation and equipment costs.                                     REM, MOVEMENT and UNKNOWN stages respectively. In addition,
+    Compared to the multi-channel scheme, the single-channel scheme             MOVEMENT and UNKNOWN are discarded, as they do not belong to the
+can reduce the related cost and be much easier for data acquisition.            six stages. The PSG data include two-channel EEGs (Fpz-Cz and Pz-Oz),
+Under the single-channel scheme, Supratak et al. [30] introduced a deep         single-channel EOG, single-channel EMG and the event marker (sampled
+learning model called DeepSleepNet. DeepSleepNet utilizes the capacity          at 1 Hz). The sampling rate fs of EEG, EOG, and EMG is 100 Hz. Single-
+of deep learning to extract time-invariant features automatically, the          channel EEG Fpz-Cz is adopted in our experiment. For the Sleep-EDF
+proposed model can be adapted to different datasets. However, the ac­           dataset, stages N3 and N4 are merged into stage N3 which is consis­
+curacy obtained from DeepSleepNet was 82%, which can not outper­                tent with the AASM manual. Additionally, resampling operation is not
+form the state-of-the-art approaches. A promising CNN model was                 applied to C4/A1 and Fpz-Cz EEGs. We also found that most previous
+proposed by Sors et al. [31], who used raw single-channel EEG to clas­          studies use the Sleep-EDF dataset of the first 20 subjects (Sleep-EDF-v1).
+sify the sleep stage without any preprocessing. The architecture attained       For a fairer comparison, we also experiment with the Sleep-EDF-v1
+an accuracy of 87%, whereas the model complexity is high with 12                dataset. We employ 30 min samples of stage W before and after other
+convolutional layers. Furthermore, the filer size was chosen among 7, 5,        sleep stages as the recommendation of [30,33].
+3, the performance of larger size filters should be compared considering
+the long length of input.                                                       2.3. Contextual input
+    To tackle these problems, this paper proposes the SingleChannelNet
+(SCNet), a model for automatic sleep stage classification based on raw              In previous works, most schemes use a single 30s epoch as the
+single-channel EEG, which can learn different scale features simulta­           classifier input [7,35,31] and then produce a single output label.
+neously. We aim to automate the sleep stage classification completely by        Although being straightforward, this classification method ignores the
+utilizing the capabilities of the proposed model. The main contributions        existing correlation and dependency between surrounding epochs. It is
+of this work are summarized as follows:                                         considered that the sleep stage classification depends not only on the
+                                                                                local epoch, but also on the prior and following temporal features [6,9].
+ • We propose a new deep learning model with low model complexity               For this reason, an extension of single 30s epoch input is conducted by
+   for sleep stage classification using 90s raw single-channel EEG.             combining it with its neighboring epochs to make a contextual input.
+ • We implement two multi-convolution (MC) blocks with different                Furthermore, we employ 90s epoch (Zm ) as contextual input of the
+   filter sizes in our model. In addition, the max-average (M-Apooling)         proposed model, and it contains three sequential epochs: prior 30s
+   layer is applied to take place of the conventional max-pooling layer.        epoch (Xm− 1 ), 30s epoch (Xm ) and subsequent 30s epoch (Xm+1 ). The
+   Two strategies are used for capturing more feature representations           ground truth label of Zm is ym which also denotes Xm ’s label. As in
+   from different scales to enhance the capacity of the feature
+                                                                                Zm = (Xm− 1 , Xm , Xm+1 ) ↦ ym .                                                 (1)
+   extraction.
+                                                                                   Details are illustrated in Fig. 1. As shown in Table 1, we summarize
+
+                                                                            2
+D. Zhou et al.                                                                                                    Biomedical Signal Processing and Control 75 (2022) 103592
+
+
+
+
+Fig. 1. Illustration of 90s epochs and labels used in this paper, n denotes the number of 30s epochs for a subject, Zm is comprised of Xm− 1 , Xm and Xm+1 , 2⩽m⩽n − 1.
+
+
+                                                                                       use the Global Average Pooling (GAP) layer to replace the traditional
+Table 1
+                                                                                       fully connected layer, and it is proved to be more robust spatial trans­
+Number of 90s Epochs for Each Sleep Stage from Experimental Datasets.
+                                                                                       lations of the input without parameter optimization[40].
+     Dataset        W         N1         N2        N3         REM       Total
+
+      CCSHS       211030     19221    249681     110188      100252    690372
+    Sleep-EDF      69518     21522     69132      13039      25835     199046          3.1. Model specification
+  Sleep-EDF-v1     10197      2804     17799      5703        7717     44220
+                                                                                           In Table 2, we relate detailed parameters of the proposed model. The
+                                                                                       size of the model’s input is (90 × fs , 1), where fs is the sampling rate. To
+the number of 90s epochs for each sleep stage from CCSHS, Sleep-EDF
+                                                                                       be specific, the fs of EEG C4 and Fpz-Cz is 128 Hz and 100 Hz, respec­
+and Sleep-EDF-v1 datasets in our experiments. The distribution of the
+                                                                                       tively. Here, the SCNet does not restrict the length of input which can be
+number of five stages is imbalanced. For all datasets, W and N2 stages
+                                                                                       applied to different datasets.
+account for more than 60% of all 90s epochs. By contrast, the proportion
+                                                                                           The first convolutional layer with 128 filters of size 128 and a stride
+of stages N1 and N3 is the smallest.
+                                                                                       of 2 is applied to obtain the feature map from raw single-channel EEG.
+                                                                                       The activation function of this layer is rectified linear unit (ReLU) which
+3. Proposed SCNet
+                                                                                       is defined as the positive part of its argument:
+    Fig. 2 shows the overall architecture of the SCNet. The convolution                f (x) = max(0, x)                                                               (2)
+block performs three operations sequentially: one-dimensional con­
+volutional layer (Conv1D), batch normalization and M-Apooling1D.                       where x is the input of a neuron. To normalize the prior layer output, we
+Similarly, each MC Block is followed by batch normalization, M-Apoo­                   apply the batch normalization technique. Besides, the M-Apooling layer
+ling1D and Dropout layer in sequence. In our model, we employ the                      can get the combination of maximum and average values from each of a
+concatenation of max-pooling and average-pooling to take place of the                  cluster of neurons at the previous layer.
+max-pooling for capturing more representable features. Similar to the                      We implement two MC blocks in our model, and the filter sizes are
+inception module [39], the MC block contains different sizes of con­                   selected among 1, 3, 16 and 64 to obtain multiscale representative
+volutional filters to capture the corresponding information. Besides, we               features. More specifically, the small filter is prone to learn temporal
+                                                                                       information (i.e., when certain EEG patterns appear for a specific sleep
+
+
+
+
+                                                        Fig. 2. An overall architecture of the proposed SCNet.
+
+                                                                                   3
+D. Zhou et al.                                                                                                                          Biomedical Signal Processing and Control 75 (2022) 103592
+
+
+Table 2                                                                                 3.3. Training setup
+Parameters of the Proposed Model.
+  Layer      Layer Type    Filters   Size   Stride   Activation      Output                 We select Adam as the network optimizer whose parameters
+                                                                   dimension            ((learning rate) lr, beta1 and beta2) are set to 10− 3 , 0.9 and 0.999
+    1          Input         –        –       –         –          (90 × fs , 1)        respectively. Moreover, ReduceLROnPlateau of Callback in Keras is
+    2         Conv1D        128      128      2        Relu       (45 × fs , 128)       implemented to reduce the lr. Specifically, when the model monitors the
+                                                                   ⌈           ⌉
+    3           M-           –        3       2         –         ( 45 × fs /2 ,        validation accuracy showing no improvement within 3 epochs, the lr
+             Apooling1D                                               256)
+                                                                   ⌈           ⌉        would drop to half of it. The minimum lr is set to 10− 7 . To find out
+    4        MC Block1                        1        Relu       ( 45 × fs /2 ,
+                                                                                        appropriate batch size of mini-batch, sizes of 32, 64, 128, and 256 are
+                             –        –
+                                                                      272)
+    5           M-                    3       2
+                                                                   ⌈           ⌉        evaluated, we select 64 as the size of mini-batch finally. The categorical
+                             –                           –        ( 45 × fs /4 ,
+             Apooling1D                                               544)              cross entropy is chosen as the loss function of the model which is always
+    6       Dropout(0.1)     –        –       –          –
+                                                                   ⌈           ⌉
+                                                                  ( 45 × fs /4 ,        used for classifying multi-class tasks. The model converges to the
+                                                                      544)              optimal solution within 40 iterations, hence the number of iteration is
+                                                                   ⌈           ⌉
+    7        MC Block2       –        –       1        Relu       ( 45 × fs /4 ,        set to 40.
+                                                                      272)                  There are two types of methods to split the training and test sets [30].
+                                                                   ⌈           ⌉
+    8           M-                    3       2                   ( 45 × fs /8 ,
+                                                                                        One is the subject-wise scheme which splits the training and test datasets
+                             –                           –
+             Apooling1D                                               544)
+    9       Dropout(0.1)
+                                                                   ⌈           ⌉        based on the subjects. Another one is the epoch-wise method in which
+                             –        –       –          –        ( 45 × fs /8 ,
+                                                                      544)              the split is conducted by epochs rather than subjects. In the epoch-wise
+   10           GAP          –        –       –          –             544              scheme, We use 20% of whole data set as the test set and the remaining
+   11       Dropout(0.5)     –        –       –          –             544              80% epochs as the training set. As for the subject-wise approach, 80%
+   12          Dense         –        –       –       Softmax           5               subjects are selected as the training set, the other 20% subjects are used
+                                                                                        as the test set. Furthermore, we use the 5-fold cross-validation (80%
+stage), while the large filter is better to capture frequency information               training set for training, 20% training set for validation) scheme to train
+[30]. Considering the long length of input (128 × 90, 100 × 90), we                     and evaluate our model for both datasets. In addition, only 90s epochs
+optimize the filter sizes from the small sizes (3, 5 and 7), medium sizes               from the CCSHS dataset are used to determine the hyper-parameters of
+(16 and 32) and big sizes (64, 128 and 256). The filter size of 1 is to                 the proposed model. Once achieving optimal hyper-parameters, they
+improve the nonlinearity of the network and reduce the dimension of                     would be used in all experiments. To be specific, when the model is
+previous layer output. It would not reduce the size of the feature map but              applied to another dataset, there would be no need to modify the ar­
+can enhance the nonlinearity of the network through the nonlinear                       chitecture and hyper-parameters of the model except for the input
+activation function. The filter sizes are chosen with 1, 3, 16 and 64 based             length which should adapt to the fs of EEG from different datasets. To
+on the optimized results. Furthermore, after concatenating the output of                show the effect of using the contextual input, we also conduct the ex­
+                                                                       ⌈                periments employing the 30s epochs with the same training setup.
+all convolutional layers, the dimension of the MC block1 output is ( 45 ×
+      ⌉                                                   ⌈          ⌉                      Graphic card Nvidia Tesla P100 with 16 Gbytes memory is used for
+ fs /2 , 272). The following M-Apooling layer can get ( 45 × fs /4 , 544)
+                                                                                        model training. The implementation is written in Keras [41] with the
+dimension feature map. Each MC block is followed by a batch normal­
+                                                                                        Tensorflow backend [42].
+ization layer, a M-Apooling layer with size of 3 and a dropout layer with
+the probability of 0.1. To find appropriate strides, we test 4 strides: 1, 2,
+                                                                                        4. Experimental results
+3 and 5. The stride of two MC blocks is set to 1, while the stride of the M-
+Apooling layer and the first convolutional layer is 2. The GAP layer is
+                                                                                        4.1. Performance metrics
+applied to flat the previous output before the final decision layer.
+Through a drop layer with drop rate of 0.5, the dense layer using softmax
+                                                                                            We evaluate the model performance (epoch-wise) using overall ac­
+as the activation function makes the final decision. Softmax function can
+                                                                                        curacy (ACC), precision (PR), recall (RE), F1 score (F1), and Cohen’s
+calculate the probabilities of five stages, the stage with maximum
+                                                                                        kappa coefficient (K). ACC is the proportion of correct predictions made
+probability is as the consequence of the predicted sleep stage.
+                                                                                        by the model to the total predications. PR calculates the ratio of correctly
+                                                                                        predicted positives to all positives. RE means the fraction between true
+3.2. Regularization
+                                                                                        positives and all predications in the actual class. F1 represents the
+                                                                                        weighted average of PR and RE. K measures the agreement between true
+     We adopt two regularization approaches to help prevent the over­
+                                                                                        labels and predicted labels. A large value of K can indicate good per­
+fitting problem. The first technique is L2 regularization that adds
+                                                                                        formance of the model.They are calculated as follows:
+squared magnitude of coefficient as penalty term to the loss function. It
+is important to choose a proper regularization rate (lambda), if lambda                 ACC =
+                                                                                                       TP + TN
+                                                                                                                    .                                                                        (3)
+is very large, it would add too much weight causing an underfitting                               TP + FN + TN + FP
+issue. By contrast, a very small lambda would make the model more
+                                                                                                 TP
+complex, then the model would learn too much about the particularities                  PR =           .                                                                                     (4)
+                                                                                               TP + FP
+of the training data, L2 regularization therefore has little effect on
+avoiding overfitting. Hence, we test four lambda values: 10− 1 , 10− 2 ,                         TP
+10− 3 and 10− 4 , the results show that 10− 3 achieves the best perfor­                 RE =           .                                                                                     (5)
+                                                                                               TP + FN
+mance. The L2 regularization is applied to all convolutional layers,
+including the MC block.                                                                            RE⋅PR
+                                                                                        F1 = 2⋅           .                                                                                  (6)
+     Another regularization method is dropout, which randomly drops                               RE + PR
+units from the model during training with a specific probability from
+                                                                                                             ∑n (∑n                     ∑n              )
+0 to 1. We evaluate two dropout rates (0.1 and 0.5) in the process of                        ∑n
+                                                                                                      xii          i=1
+                                                                                                                                  x
+                                                                                                                               j=1 ij
+                                                                                                                                                 x
+                                                                                                                                              j=1 ji
+hyper-parameters optimization. Dropout layers with a probability of 0.1                                     −
+                                                                                                i=1
+
+                                                                                        K=      N
+                                                                                                            ∑n (∑n
+                                                                                                                                N2
+                                                                                                                                 ∑n                 )       .                                (7)
+and 0.5 are employed for the MC block and GAP layer, respectively.                                           i=1
+                                                                                                                           xij
+                                                                                                                         j=1            j=1
+                                                                                                                                              xji
+                                                                                                1−                        N2
+
+
+
+
+                                                                                    4
+D. Zhou et al.                                                                                              Biomedical Signal Processing and Control 75 (2022) 103592
+
+
+where TP, TN, FN and FP stand for the true positives, true negatives, false       4.2. Performance comparison
+negatives and false positives, respectively. N is the number of 90s epochs
+of the test set, n represents the number of classes. In this work, n equals          We make a comparison between the proposed model (epoch-wise
+5, xii (1⩽i⩽5) represents the diagonal value of the confusion matrix.             and subject-wise) with some existing works using the same datasets in
+    To show the performance of each fold cross-validation from the                terms of the ACC and K in Tables 7 and 8. Table 7 reveals that the
+CCSHS and Sleep-EDF datasets, we present the normalized confusion                 proposed framework can achieve higher ACC and K using raw single-
+matrices (CM) in Fig. 3. Firstly, we use single-channel EEG C4/A1 (90s            channel C4/A1 EEG compared to approaches using multi-channel PSG
+epochs) from the CCSHS dataset to tune the hyper-parameters. Once                 data [43] or the single-channel EEG [44] on the CCSHS dataset. For the
+getting the best performance, the hyper-parameters and model archi­               Sleep-EDF and Sleep-EDF-v1 databases, the proposed model also ach­
+tecture are fixed for all experiments. Table 3 provides the mean CM of 5-         ieves comparable performance compared to state-of-the-art methods.
+fold cross-validation from the CCSHS dataset, we can see that the overall         Some studies [25,34] extract features manually or some methods adopt
+accuracy and K are respectively 90.2% and 86.5%. The proposed model               single-channel EEG [33,45,46]. Considering results of the comparison,
+shows the best ability to detect the W stage with the PR of 94.7%. By             the proposed framework can achieve promising performance on CCSHS,
+contrast, the performance of stage N1 classification is the worst which is        Sleep-EDF and Sleep-EDF-v1 datasets.
+consistent with the results of existing works. To be specific, there are
+33.0% of N1 90s epochs being recognized correctly. In addition, 27.4%             5. Discussion and conclusion
+of N1 samples are misclassified as W, 19.5% as N2 and 20.1% as REM.
+Stages N2, N3 and REM have similar classification results in terms of the             In this paper, we propose an end-to-end framework with CNNs,
+PR corresponding to 88.8%, 91.0% and 87.9% respectively.                          namely SCNet, which combines the feature learning ability and classi­
+    To demonstrate the generalization capability of the proposed archi­           fication capacity. The proposed model is applied to classify sleep stages
+tecture, we also conduct the 5-fold cross-validation using the same               automatically from raw single-channel EEG without using any hand-
+model determined by the CCSHS dataset (i.e., without any hyper-                   engineered features and any other preprocessing (e.g., signal filtering
+parameters modification except for the input length) on the Sleep-EDF             and resample implementation). There are two main advantages that we
+dataset. As can be seen from Table 1, the distribution of the numbers             train and evaluate the model with raw single-channel EEG. Comparing
+of five stages is different. Stage W has the biggest proportion and the           with those methods with hand-crafted features [4,12,47], where
+number of N3 is the smallest in Sleep-EDF dataset, whereas the largest            extracting hand-engineered features is conducted with priori knowledge
+percentage is stage N2 in the CCSHS dataset. Besides, the EEG channel             and not in a data-driven way, and it is time-consuming for the re­
+used in two datasets is also distinct, C4/A1 for the CCSHS dataset and            searchers. Moreover, the selection of types and number of features
+Fpz-Cz for the Sleep-EDF dataset. It is worthy to note that despite the           would result in different model performance, there is no gold standard
+EEG channel and the size of the input length (90 × fs , 1) are quite              about the extraction of hand-crafted features. The second advantage is
+different, the proposed model can obtain promising performance on two             that it is much easier and more comfortable to record single-channel
+different datasets by comparing Tables 3 and 4. The performance of the            EEG data compared to the multi-channel scheme [6,28] either at the
+conventional 30s input is illustrated in Table 5 and Table 6. Employing           hospital or home. Moreover, multi-channel PSG data used as input can
+with the contextual input, the ACC achieves an enhancement of 1.1%                increase the computational cost. Considering practical applications, the
+and 4.1% respectively on the CCSHS, Sleep-EDF datasets compared to                use of raw single-channel EEG can simplify the measurement scheme
+the ACC of 30s input length. Likewise, the K could be improved                    and reduce the related cost.
+respectively by 1.5% and 5.7%. We further reveal the hypnogram                        Comparing with the conventional deep neural network based on
+comparison labeled by experts and the model’s prediction for one sub­             CNNs, where the convolutional layers with the fixed filter size are
+ject of CCSHS and Sleep-EDF datasets in Fig. 4.                                   assembled in sequence. In such a case, it is not capable of capturing
+                                                                                  features representation from different scales. To address this issue, our
+                                                                                  model employs two MC blocks, which are the concatenation of several
+
+
+
+
+                    Fig. 3. The normalized confusion matrices of each fold cross-validation. (a) CCSHS dataset and (b) Sleep-EDF dataset.
+
+                                                                              5
+D. Zhou et al.                                                                                                   Biomedical Signal Processing and Control 75 (2022) 103592
+
+
+Table 3
+Mean Confusion Matrix of 5-Fold Cross-validation on Raw Single-channel EEG C4/A1 from the CCSHS Dataset.
+                                             Predicted                                                  Per-class Metrics                           Overall Metrics
+
+                  W             N1              N2             N3             REM             PR(%)          RE(%)            F1(%)            ACC(%)             K(%)
+
+   W             40450         440             934            124             392             94.7            95.5             95.1
+   N1            1039          1253            740             1              765             52.8            33.0             40.6
+   N2             766          382            45679          1739             1359            88.8            91.5             90.1              90.2              86.5
+   N3              60            0            3126           18791             8              91.0            85.5             88.1
+  REM             384          299             971             6             18358            87.9            91.7             89.8
+
+
+
+
+Table 4
+Mean Confusion Matrix of 5-Fold Cross-validation on Raw Single-channel EEG Fpz-Cz from the Sleep-EDF Dataset.
+                                             Predicted                                                 Per-class Metrics                            Overall Metrics
+
+                  W              N1             N2             N3            REM             PR(%)          RE(%)             F1(%)            ACC(%)             K(%)
+
+   W             14650           498            142             8             82              94.1           95.3             94.7
+   N1             712           2020           1214             11            330             58.4           47.1             52.1
+   N2             109            705           12255           385            383             84.9           88.6             86.7               86.1              80.5
+   N3               4             5             532           2127             4              84.0           79.6             81.7
+  REM              99            233            299             1            4573             85.1           87.9             86.5
+
+
+
+
+Table 5
+Mean Confusion Matrix of 5-Fold Cross-validation on Raw Single-channel EEG Fpz-Cz from the CCSHS Dataset with the 30s Input Length.
+                                             Predicted                                                  Per-class Metrics                           Overall Metrics
+
+                  W             N1              N2             N3             REM             PR(%)          RE(%)            F1(%)            ACC(%)             K(%)
+
+   W             40760         417             606             85             472             95.1            96.3             95.7
+   N1             742          1068            636             1              1351            46.0            28.1             34.9
+   N2             746          430            44952          1586             2211            88.2            90.0             89.2              89.1              85.0
+   N3              72            1            3665           18235             12             91.6            82.9             87.0
+  REM             520          407            1062             9             18020            81.7            90.0             85.6
+
+
+
+
+Table 6
+Mean Confusion Matrix of 5-Fold Cross-validation on Raw Single-channel EEG Fpz-Cz from the Sleep-EDF Dataset with the 30s Input Length.
+                                             Predicted                                                 Per-class Metrics                            Overall Metrics
+
+                  W              N1             N2             N3            REM             PR(%)          RE(%)             F1(%)            ACC(%)             K(%)
+
+   W             14522           443            181             11            223             91.8           94.4             93.1
+   N1             840           1370           1338             19            720             48.2           32.0             38.4
+   N2             218            644           11831           376            768             82.3           85.5             83.9               82.0              74.8
+   N3              8              7             508           2140             9              83.9           80.1             81.9
+  REM             225            380            511             5            4086             70.4           78.5             74.2
+
+
+
+convolutional layers with four distinct filer sizes, to extract different             Table 6 also demonstrate the advantage of contextual input. To validate
+scale features. Instead of using the traditional max-pooling layer, we                the generalization of the proposed architecture, different single-channel
+adopt the M-Apooling layer to add average feature representation with                 EEGs from two datasets are adopted. The length of input is not restricted
+maximum features simultaneously, which further improve the proposed                   to a fixed number, our model can be adapted to different length of input
+model’s ability of feature learning. In addition, the SCNet model is quite            relating to the fs of EEG efficiently. Experimental results show that the
+simple and compact with a total 5 × 105 parameters compared to the                    proposed model can obtain promising performance on two datasets
+methods in [45] which has 2.1 × 107 parameters and [30] in which the                  (CCSHS: ACC-90.2%, K-86.5%; Sleep-EDF: ACC-86.1%, K-80.5%),
+number of parameters of the representation learning and sequence re­                  which indicate the desirable generalization of the SCNet model.
+sidual learning parts has up to 6 × 105 and 2 × 107 respectively.                         It is challenging to train on dataset A and test on B, not only for the
+Moreover, the proposed SCNet model can achieve the comparable per­                    proposed SCNet but also for typical CNNs. CNNs are running in a data-
+formance with less computing resources occupied. Concerning online                    driven way which means the model must learn some crucial features
+and realtime applications (e.g., sleep monitoring), our model with raw                from the training samples. Otherwise, it cannot perform well on an
+single-channel EEG is more reasonable to reduce the time latency and                  unfamiliar dataset. This is also the biggest difference (generalization
+obtain reliable results.                                                              ability) between machine and human, human beings are good at
+    As the use of textual input, it is considered that the sleep stage                deducing and inducing. To further show the generalization ability of the
+classification depends not only on the local epoch, but also on prior and             proposed model, we perform two additional experiments. Firstly, we
+following temporal features [9]. For instance, the beginning of stage N2              train our model with the CCSHS database, the obtained model then is
+is decided by the occurrence of K-complex or beta-frequency spindle                   tested on the Sleep-EDF dataset without any training, the accuracy is
+activity in the early or last half of the prior 30 epoch [7]. Inspired by this,       65.9%. In reverse, The proposed model is trained on the Sleep-EDF
+we choose the 90s epoch as textual input of proposed model despite the                dataset and tested with the CCSHS database, the accuracy achieved is
+higher computable cost. The performance comparisons in Table 5 and                    70.2%. In our future work, we will try to construct a more brain-inspired
+                                                                                      model with some cognitive neural dynamic from neuroscience [48] to
+
+                                                                                  6
+D. Zhou et al.                                                                                                       Biomedical Signal Processing and Control 75 (2022) 103592
+
+
+
+
+Fig. 4. The comparison between hypnogram labeled by the clinician and the model’s prediction. The solid black line is the ground truth, the dotted red line donates
+the hypnogram labeled by the prediction of the proposed model. (a) CCSHS dataset (ccshs-trec-1800905) and (b) Sleep-EDF dataset (SC4091).
+
+
+
+Table 7
+Performance Comparison between The Proposed Method and Previous Methods on the CCSHS Dataset.
+  Study                        Database        Method              Input channel              Preprocessing         Input type        Subjects        ACC(%)          K(%)
+
+  Nakamura et al. [43]         CCSHS           HMM                 C4/A1 + C3/A2              Yes                  Spectrogram          515              -             73
+  Li et al. [44]               CCSHS           Random Forest       C4/A1                      Yes                    Features           116             86.0          80.5
+  Proposed (subject-wise)      CCSHS           Deep CNN            C4/A1                      No                   Time series          515             88.2          83.8
+  Proposed (epoch-wise)        CCSHS           Deep CNN            C4/A1                      No                   Time series          515             90.2          86.5
+
+
+
+
+Table 8
+Performance Comparison between The Proposed Method and Previous Methods on the Sleep-EDF and Sleep-EDF-v1 Datasets.
+  Study                       Database           Method            Input channel        Preprocessing              Input type            Subjects      ACC(%)         K(%)
+
+  Phan et al. [25]            Sleep-EDF          RNN               Fpz-Cz               Yes                   Time-frequency image         78            82.6          76
+  Mousavi et al. [45]         Sleep-EDF          CNN + LSTM        Fpz-Cz               No                         Time series             78            80.0          73
+  Supratak et al. [46]        Sleep-EDF          CNN + LSTM        Fpz-Cz               No                         Time series             78            83.1          77
+  Proposed (subject-wise)     Sleep-EDF          Deep CNN          Fpz-Cz               No                        Time series              78            83.9         77.8
+  Proposed (epoch-wise)       Sleep-EDF          Deep CNN          Fpz-Cz               No                        Time series              78            86.1         80.5
+  Supratak et al. [30]        Sleep-EDF-v1       CNN + LSTM        Fpz-Cz               No                         Time series             20            82.0          76
+  Seo et al. [32]             Sleep-EDF-v1       CNN + LSTM        Fpz-Cz               No                         Time series             20            83.9          78
+  Wei et al. [33]             Sleep-EDF-v1       Deep CNN          Fpz-Cz               Yes                        Time series             20            84.3          78
+  Phan et al. [34]            Sleep-EDF-v1       1-max CNN         Fpz-Cz               Yes                   Time-frequency image         20            82.6          76
+  Proposed (subject-wise)     Sleep-EDF-v1       Deep CNN          Fpz-Cz               No                        Time series              20            86.2         81.1
+  Proposed (epoch-wise)       Sleep-EDF-v1       Deep CNN          Fpz-Cz               No                        Time series              20            91.0         87.8
+
+
+
+increase the generalization ability for the sleep stage classification task.           review & editing. Fan Li: Writing – review & editing. Rui Yan: Writing –
+On the other hand, the class distribution of PSG datasets is highly                    review & editing. Lauri Kettunen: Supervision. Zheng Chang: Super­
+imbalanced, this class imbalance problem has not been solved well in                   vision. Qi Xu: Supervision. Fengyu Cong: Supervision.
+this work. As a representation of the monitory class, the recognition rate
+of N1 is still much lower than that of other stages. It is worthy of
+                                                                                       Declaration of Competing Interest
+investigating appropriate data argumentation methods to balance the
+samples of PSG datasets. Also, it is valuable to adopt clinic datasets that
+                                                                                           The authors declare that they have no known competing financial
+have rarely been explored in previous studies.
+                                                                                       interests or personal relationships that could have appeared to influence
+                                                                                       the work reported in this paper.
+CRediT authorship contribution statement
+
+   Dongdong Zhou: Conceptualization, Methodology, Software,                            Acknowledgments
+Writing – original draft. Jian Wang: Writing – review & editing. Guo­
+qiang Hu: Writing – review & editing. Jiacheng Zhang: Writing –                           This work was supported by National Natural Science Foundation of
+                                                                                       China (Grant No. 91748105), National Foundation in China (No.
+
+                                                                                   7
+D. Zhou et al.                                                                                                                    Biomedical Signal Processing and Control 75 (2022) 103592
+
+
+JCKY2019110B009, 2020-JCJQ-JJ-252) and the Fundamental Research                                   [22] M. Xiao, H. Yan, J. Song, Y. Yang, X. Yang, Sleep stages classification based on
+                                                                                                       heart rate variability and random forest, Biomed. Signal Process. Control 8 (6)
+Funds for the Central Universities [DUT20LAB303, DUT20LAB308,
+                                                                                                       (2013) 624–633.
+DUT21RC(3)091] in Dalian University of Technology in China and the                                [23] T.L. da Silveira, A.J. Kozakevicius, C.R. Rodrigues, Single-channel eeg sleep stage
+Scholarships from China Scholarship Council (No. 201806060164, No.                                     classification based on a streamlined set of statistical features in wavelet domain,
+202006060226) and CAAI-Huawei Mindspore Open Fund (No.                                                 Med. Biol. Eng. Comput. 55 (2) (2017) 343–352.
+                                                                                                  [24] P. Memar, F. Faradji, A novel multi-class eeg-based sleep stage classification
+CAAIXSJLJJ-2021-003A). This study is also to memorize Prof. Tapani                                     system, IEEE Trans. Neural Syst. Rehabil. Eng. 26 (1) (2017) 84–95.
+Ristaniemi from University of Jyväskylä for his great help to the authors.                      [25] H. Phan, F. Andreotti, N. Cooray, O.Y. Chén, M. De Vos, SeqSleepNet: end-to-end
+                                                                                                       hierarchical recurrent neural network for sequence-to-sequence automatic sleep
+                                                                                                       staging, IEEE Trans. Neural Syst. Rehabil. Eng. 27 (3) (2019) 400–410.
+References                                                                                        [26] R. Yan, F. Li, D.D. Zhou, T. Ristaniemi, F. Cong, Automatic sleep scoring: A deep
+                                                                                                       learning architecture for multi-modality time series, J. Neurosci. Methods 348
+ [1] R. Ferri, M. Manconi, G. Plazzi, O. Bruni, S. Vandi, P. Montagna, L. Ferini-Strambi,              (2021), 108971.
+     M. Zucconi, A quantitative statistical analysis of the submentalis muscle emg                [27] S. Chambon, M.N. Galtier, P.J. Arnal, G. Wainrib, A. Gramfort, A deep learning
+     amplitude during sleep in normal controls and patients with rem sleep behavior                    architecture for temporal sleep stage classification using multivariate and
+     disorder, J. Sleep Res. 17 (1) (2008) 89–100.                                                     multimodal time series, IEEE Trans. Neural Syst. Rehabil. Eng. 26 (4) (2018)
+ [2] C. Kuo, S. Liang, Automatic stage scoring of single-channel sleep eeg based on                    758–769.
+     multiscale permutation entropy, IEEE Biomed. Circuits Syst. Conf (BioCAS) (2011)             [28] K. Mikkelsen, M. De Vos, Personalizing deep learning models for automatic sleep
+     448–451.                                                                                          staging, arXiv Preprint. arXiv:1801.02645,.
+ [3] S.J. Redmond, C. Heneghan, Cardiorespiratory-based sleep staging in subjects with            [29] L. Zhang, D. Fabbri, R. Upender, D. Kent, Automated sleep stage scoring of the
+     obstructive sleep apnea, IEEE Trans. Biomed. Eng 53 (3) (2006) 485–496.                           sleep heart health study using deep neural networks, Sleep 42 (11) (2019) zsz159.
+ [4] G. Zhu, Y. Li, P. Wen, Analysis and classification of sleep stages based on difference       [30] A. Supratak, H. Dong, C. Wu, Y. Guo, DeepSleepNet: A model for automatic sleep
+     visibility graphs from a single-channel eeg signal, IEEE J. Biomed. Health. Inf. 18               stage scoring based on raw single-channel eeg, IEEE Trans. Neural Syst. Rehabil.
+     (6) (2014) 1813–1821.                                                                             Eng. 25 (11) (2017) 1998–2008.
+ [5] H.G. Jo, J.Y. Park, C.K. Lee, S.K. An, S.K. Yoo, Genetic fuzzy classifier for sleep          [31] A. Sors, S. Bonnet, S. Mirek, L. Vercueil, J.-F. Payen, A convolutional neural
+     stage identification, Comput. Biol. Med 40 (7) (2010) 629–634.                                    network for sleep stage scoring from raw single-channel eeg, Biomed. Signal
+ [6] H. Phan, F. Andreotti, N. Cooray, O.Y. Chén, M. De Vos, Joint classification and                 Process. Control 42 (2018) 107–114.
+     prediction cnn framework for automatic sleep stage classification, IEEE Trans.               [32] H. Seo, S. Back, S. Lee, D. Park, T. Kim, K. Lee, Intra-and inter-epoch temporal
+     Biomed. Eng. 66 (5) (2018) 1285–1296.                                                             context network (iitnet) using sub-epoch features for automatic sleep scoring on
+ [7] H. Dong, A. Supratak, W. Pan, C. Wu, P.M. Matthews, Y. Guo, Mixed neural                          raw single-channel eeg, Biomed. Signal Process. Control 61 (2020), 102037.
+     network approach for temporal sleep stage classification, IEEE Trans. Neural Syst.           [33] W. Qu, Z. Wang, H. Hong, Z. Chi, D.D. Feng, R. Grunstein, C. Gordon, A residual
+     Rehabil. Eng. 26 (2) (2017) 324–333.                                                              based attention model for eeg based sleep staging, IEEE J. Biomed. Health Inf.
+ [8] A. Rechtschaffen, A manual of standardized terminology and scoring system for                [34] H. Phan, F. Andreotti, N. Cooray, O.Y. Chén, M. De Vos, Dnn filter bank improves
+     sleep stages of human subjects, Electroencephalogr. Clin. Neurophysiol. 26 (6)                    1-max pooling cnn for single-channel eeg automatic sleep stage classification, IEEE
+     (1969) 644.                                                                                       Eng. Med. Biol. Soc (EMBC) (2018) 453–456.
+ [9] R.B. Berry, R. Budhiraja, D.J. Gottlieb, D. Gozal, C. Iber, V.K. Kapur, C.L. Marcus,         [35] H. Phan, F. Andreotti, N. Cooray, O.Y. Chén, M. De Vos, Automatic sleep stage
+     R. Mehra, S. Parthasarathy, S.F. Quan, et al., Rules for scoring respiratory events in            classification using single-channel eeg: Learning sequential features with attention-
+     sleep: update of the 2007 aasm manual for the scoring of sleep and associated                     based recurrent neural networks, IEEE Eng. Med. Biol. Soc (EMBC) (2018)
+     events: deliberations of the sleep apnea definitions task force of the american                   1452–1455.
+     academy of sleep medicine, J. Clin. Sleep Med. 8 (5) (2012) 597–619.                         [36] G.-Q. hang, L. Cui, R. Mueller, S. Tao, M. Kim, M. Rueschman, S. Mariani, D.
+[10] B. Koley, D. Dey, An ensemble system for automatic sleep stage classification using               Mobley, S. Redline, The national sleep research resource: towards a sleep data
+     single channel eeg signal, Comput. Biol. Med. 42 (12) (2012) 1186–1195.                           commons, J. Am. Med. Inform. Assoc. 25(10) (2018) 1351–1358.
+[11] K. Šušmáková, A. Krakovská, Discrimination ability of individual measures used in       [37] C.L. Rosen, E.K. Larkin, H.L. Kirchner, J.L. Emancipator, S.F. Bivins, S.A. Surovec,
+     sleep stages classification, Artif. Intell. Med. 44 (3) (2008) 261–277.                           R.J. Martin, S. Redline, Prevalence and risk factors for sleep-disordered breathing
+[12] F. Karimzadeh, R. Boostani, E. Seraj, R. Sameni, A distributed classification                     in 8-to 11-year-old children: association with race and prematurity, J. Pediatr. 142
+     procedure for automatic sleep stage scoring based on instantaneous                                (4) (2003) 383–389.
+     electroencephalogram phase and envelope features, IEEE Trans. Neural Syst.                   [38] B. Kemp, A.H. Zwinderman, B. Tuk, H.A. Kamphuisen, J.J. Oberye, Analysis of a
+     Rehabil. Eng. 26 (2) (2017) 362–370.                                                              sleep-dependent neuronal feedback loop: the slow-wave microcontinuity of the
+[13] O. Tsinalis, P.M. Matthews, Y. Guo, Automatic sleep stage scoring using time-                     eeg, IEEE Trans. Biomed. Eng. 47 (9) (2000) 1185–1194.
+     frequency analysis and stacked sparse autoencoders, Ann. Biomed. Eng. 44 (5)                 [39] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan,
+     (2016) 1587–1597.                                                                                 V. Vanhoucke, A. Rabinovich, Going deeper with convolutions, IEEE Comput. Soc.
+[14] M. Sharma, D. Goyal, P. Achuth, U.R. Acharya, An accurate sleep stages                            Conf. Comput. Vis. Pattern Recognit (CVPR), IEEE (2015) 1–9.
+     classification system using a new class of optimally time-frequency localized three-         [40] M. Lin, Q. Chen, S. Yan, Network in network, arXiv Preprint. arXiv:1312.4400.
+     band wavelet filter bank, Comput. Biol. Med. 98 (2018) 58–75.                                [41] F. Chollet, et al., Keras: Deep learning library for theano and tensorflow. URL:
+[15] S. Kouchaki, S. Sanei, E.L. Arbon, D.-J. Dijk, Tensor based singular spectrum                     https://keras.io/k, 7(8) (2015) T1.
+     analysis for automatic scoring of sleep eeg, IEEE Trans. Neural Syst. Rehabil. Eng.          [42] M. Abadi, A. Agarwal, P. Barham, E. Brevdo, Z. Chen, C. Citro, G.S. Corrado, A.
+     23 (1) (2014) 1–9.                                                                                Davis, J. Dean, M. Devin, et al., Tensorflow: Large-scale machine learning on
+[16] H. Phan, Q. Do, T.-L. Do, D.-L. Vu, Metric learning for automatic sleep stage                     heterogeneous distributed systems, arXiv Preprint. arXiv:1603.04467,.
+     classification, IEEE Eng. Med. Biol. Soc (EMBC) (2013) 5025–5028.                            [43] T. Nakamura, H.J. Davies, D.P. Mandic, Scalable automatic sleep staging in the era
+[17] E. Alickovic, A. Subasi, Ensemble svm method for automatic sleep stage                            of big data, IEEE Eng. Med. Biol. Soc (EMBC) (2019) 2265–2268.
+     classification, IEEE Trans. Instrum. Meas. 67 (6) (2018) 1258–1265.                          [44] X. Li, L. Cui, S. Tao, J. Chen, X. Zhang, G.-Q. Zhang, Hyclasss: a hybrid classifier for
+[18] T. Lajnef, S. Chaibi, P. Ruby, P.-E. Aguera, J.-B. Eichenlaub, M. Samet, A. Kachouri,             automatic sleep stage scoring, IEEE J. Biomed. Health Inf. 22 (2) (2017) 375–385.
+     K. Jerbi, Learning machines and sleeping brains: automatic sleep stage                       [45] S. Mousavi, F. Afghah, U.R. Acharya, Sleepeegnet: Automated sleep stage scoring
+     classification using decision-tree multi-class support vector machines, J. Neurosci.              with sequence to sequence deep learning approach, PLOS ONE 14 (5) (2019) 1–15.
+     Methods 250 (2015) 94–105.                                                                   [46] A. Supratak, Y. Guo, TinySleepNet: An efficient deep learning model for sleep stage
+[19] R. Boostani, F. Karimzadeh, M. Nami, A comparative review on sleep stage                          scoring based on raw single-channel eeg, IEEE Eng. Med. Biol. Soc (EMBC) (2020)
+     classification methods in patients and healthy individuals, Comput. Methods                       641–644.
+     Programs Biomed. 140 (2017) 77–91.                                                           [47] Y.-L. Hsu, Y.-T. Yang, J.-S. Wang, C.-Y. Hsu, Automatic sleep stage recurrent neural
+[20] S. Güneş, K. Polat, Ş. Yosunkaya, Efficient sleep stage recognition system based on             classifier using energy features of eeg signals, Neurocomputing 104 (2013)
+     eeg signal using k-means clustering based feature weighting, Expert Syst. Appl. 37                105–114.
+     (12) (2010) 7922–7928.                                                                       [48] Q. Xu, J. Peng, J. Shen, H. Tang, G. Pan, Deep CovDenseSNN: A hierarchical event-
+[21] L. Fraiwan, K. Lweesy, N. Khasawneh, H. Wenz, H. Dickhaus, Automated sleep                        driven dynamic framework with spiking neurons in noisy environment, Neural
+     stage identification system based on time–frequency analysis of a single eeg                      Netw. 121 (2020) 512–519.
+     channel and random forest classifier, Comput. Methods Programs Biomed. 108 (1)
+     (2012) 10–19.
+
+
+
+
+                                                                                              8
+
