@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/review/文献检索结果.md",
+                "file": "wiki/review/文献搜索策略_新版.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "文献检索结果"
+              "title": "文献搜索策略_新版"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "71547053785a1fca",
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/review/可穿戴睡眠检测与闭环干预综述.md",
+                "file": "wiki/review/文献搜索策略_新版.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,12 +190,15 @@
   },
   "active": "8b94b9a3cf68fd46",
   "lastOpenFiles": [
-    "wiki/review/可穿戴睡眠检测与闭环干预综述.md",
+    "wiki/review/文献搜索策略.md",
+    "wiki/review/文献搜索策略_新版.md",
+    "未命名",
+    "未命名.canvas",
+    "wiki/review/完整综述大纲.md",
     "wiki/review/文献检索结果.md",
+    "wiki/review/可穿戴睡眠检测与闭环干预综述.md",
     "raw/search-exports/2026-08-13-search-export.json",
     "raw/search-exports",
-    "wiki/review/文献搜索策略.md",
-    "wiki/review/完整综述大纲.md",
     "wiki/concept/PSG 参考标准.md",
     "wiki/index.md",
     "AGENTS.md",
@@ -217,14 +220,12 @@
     "wiki/review/chapters/07-当前领域共性挑战.md",
     "wiki/review/chapters/06-现有研究对比.md",
     "wiki/review/chapters/05-可穿戴睡眠闭环干预技术.md",
-    "wiki/review/chapters/04-多模态睡眠检测算法.md",
     "wiki/review/chapters",
     "wiki/review",
     "wiki/intervention",
     "wiki/device",
     "work/zhou-2022.txt",
     "work/eldele-2021.txt",
-    "work",
-    "raw/inbox/Zhou 等 - 2022 - SingleChannelNet A model for automatic sleep stage classification with raw single-channel EEG.pdf"
+    "work"
   ]
 }
