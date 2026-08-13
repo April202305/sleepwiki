@@ -47,6 +47,15 @@
 - 变更：建立摘要与九章大小标题；闭环时延、刺激剂量、干电极配对验证和多模态融合均保留 `待补证据` 标记。
 - 来源：用户提供 EEG-BCI 综述定位（2026-08-12）及已收录 wiki 来源页；未新增科研结论。
 
+## [2026-08-13] configure | EEG-BCI 综述文献搜索策略
+
+- 状态：completed
+- 修改页数：5（新建 1，更新 4）
+- 新建页面：[[review/文献搜索策略]]。
+- 更新页面：[[review/可穿戴睡眠检测与闭环干预综述|综述地图]]、[[review/证据矩阵]]、[[review/完整综述大纲]]、[[index]] 与 [[shturl]]。
+- 内容：定义四条检索线、数据库、检索式、纳入/排除标准、筛选提取流程及优先级；尚未执行正式数据库检索。
+- 来源：用户提出的 EEG-BCI 综述范围（2026-08-12）与 `AGENTS.md` 第 7 节。
+
 ## [2026-08-12] ingest | Phan 和 Mikkelsen（2022）与 de Gans 等（2024）全量补完
 
 - 状态：completed
@@ -56,3 +65,27 @@
 - 双向链接：新增 14 对（约 32 个词条页内 `[[链接]]`）；主要为 模型压缩与端侧部署 与 12 个已有模型/数据集/概念页之间的双向关联，以及 类别不平衡↔de Gans 来源、跨数据集泛化↔Phan 来源 的新增双向链接。
 - source_id：`raw/inbox/Phan和Mikkelsen - 2022 - Automatic sleep staging of EEG signals recent development, challenges, and future directions.pdf`；`raw/inbox/de Gans 等 - 2024 - Sleep assessment using EEG-based wearables – A systematic review.pdf`。
 - 备注：4 篇 source page 均在历史会话中已创建；本轮主要补齐 index 目录、填充新概念页，并在已有实体页之间补充缺失的双向链接与证据细节。未修改 `raw/`；未发现重复 source_id。
+
+## [2026-08-13] search | 四条检索线首轮数据库检索
+
+- 状态：completed（首轮，非“系统检索完成”）
+- 数据库/平台：PubMed（NCBI E-utilities，esearch+esummary，sort=relevance）、OpenAlex（works filter=title_and_abstract.search）、arXiv（仅算法线 4.2/4.3，export API）。
+- 检索日期：2026-08-13。时间范围：建库至今；语言：英文优先；文献类型：原始研究优先。
+- 导出文件：`raw/search-exports/2026-08-13-search-export.json`（含每线各平台命中数与去重字段：title/year/venue/doi/pmid/arxiv_id/cited_by_count/oa_status）。
+- 命中数（去重前）：
+
+| 检索线 | PubMed | OpenAlex | arXiv |
+| --- | --- | --- | --- |
+| 4.1 可穿戴 EEG 与 PSG 验证 | 44 | 103 | — |
+| 4.2 睡眠分期算法与跨域泛化 | 55 | 179 | 45 |
+| 4.3 EEG 主导多模态融合 | 4 | 23 | 6 |
+| 4.4 闭环慢波睡眠干预 | 36 | 70 | — |
+
+- 检索式（PubMed 布尔为基准；OpenAlex/arXiv 为等价结构改写，完整串见导出 JSON）：
+
+1. 4.1：`("wearable EEG"[tiab] OR "mobile EEG"[tiab] OR "ear-EEG"[tiab] OR "ear EEG"[tiab] OR "dry electrode"[tiab] OR "dry electrodes"[tiab] OR "dry-electrode"[tiab]) AND ("sleep staging"[tiab] OR "sleep assessment"[tiab] OR "sleep monitoring"[tiab]) AND (polysomnography[tiab] OR PSG[tiab] OR validation[tiab] OR agreement[tiab])`
+2. 4.2：`("sleep staging"[tiab] OR "sleep stage classification"[tiab]) AND (EEG[tiab] OR "single-channel EEG"[tiab] OR "single channel EEG"[tiab]) AND ("machine learning"[tiab] OR "deep learning"[tiab] OR "random forest"[tiab] OR SVM[tiab] OR CNN[tiab] OR RNN[tiab] OR Transformer[tiab] OR Mamba[tiab]) AND (wearable[tiab] OR mobile[tiab] OR "domain adaptation"[tiab] OR transfer[tiab] OR "cross-dataset"[tiab] OR "cross dataset"[tiab])`
+3. 4.3：`("sleep staging"[tiab] OR "sleep monitoring"[tiab]) AND EEG[tiab] AND (EOG[tiab] OR EMG[tiab] OR PPG[tiab] OR accelerometer[tiab] OR accelerometry[tiab] OR "skin temperature"[tiab]) AND ("multimodal fusion"[tiab] OR "multi-modal fusion"[tiab] OR "sensor fusion"[tiab] OR "cross-modal attention"[tiab] OR "CNN-RNN"[tiab])`
+4. 4.4：`("closed-loop"[tiab] OR "closed loop"[tiab] OR "real-time"[tiab] OR "real time"[tiab] OR "phase-locked"[tiab]) AND ("auditory stimulation"[tiab] OR "acoustic stimulation"[tiab] OR "transcranial electrical stimulation"[tiab] OR tES[tiab] OR tACS[tiab]) AND ("slow-wave sleep"[tiab] OR "slow wave sleep"[tiab] OR N3[tiab] OR "slow oscillation"[tiab] OR "slow oscillations"[tiab]) AND (EEG[tiab] OR wearable[tiab])`
+
+- 备注：未检索 Web of Science、Scopus、IEEE Xplore（无免费 API；需机构订阅或浏览器自动化/Google Scholar 需 Chrome 远程调试，当前未启用）。故此为**初步检索**，不构成“系统检索完成”；正式结论前需补齐上述数据库并做 PRISMA 筛选。本次仅完成去重与首轮摘要表，尚未进入标题/摘要与全文纳入排除。

@@ -38,4 +38,5 @@ review_due: 2027-08-12
 
 ## 综述关联
 - [[review/chapters/02-基础理论与核心概念]]、[[review/chapters/03-可穿戴睡眠信号采集硬件体系]]、[[review/chapters/06-现有研究对比]]
+- [[review/文献搜索策略]]
 - [[concept/模型压缩与端侧部署]]
