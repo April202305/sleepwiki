@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
     "id": "71547053785a1fca",
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/review/文献搜索策略_新版.md",
+                "file": "wiki/review/可穿戴睡眠检测与闭环干预综述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,10 +192,11 @@
   "lastOpenFiles": [
     "wiki/review/文献搜索策略.md",
     "wiki/review/文献搜索策略_新版.md",
-    "未命名",
-    "未命名.canvas",
     "wiki/review/完整综述大纲.md",
     "wiki/review/文献检索结果.md",
+    "文献检索结果.pdf",
+    "完整综述大纲.pdf",
+    "raw/search-exports/2026-08-14-search-export.json",
     "wiki/review/可穿戴睡眠检测与闭环干预综述.md",
     "raw/search-exports/2026-08-13-search-export.json",
     "raw/search-exports",
@@ -219,13 +220,10 @@
     "wiki/review/chapters/08-未来研究展望.md",
     "wiki/review/chapters/07-当前领域共性挑战.md",
     "wiki/review/chapters/06-现有研究对比.md",
-    "wiki/review/chapters/05-可穿戴睡眠闭环干预技术.md",
     "wiki/review/chapters",
     "wiki/review",
     "wiki/intervention",
     "wiki/device",
-    "work/zhou-2022.txt",
-    "work/eldele-2021.txt",
-    "work"
+    "work/zhou-2022.txt"
   ]
 }

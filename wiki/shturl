@@ -56,6 +56,13 @@
 - 内容：定义四条检索线、数据库、检索式、纳入/排除标准、筛选提取流程及优先级；尚未执行正式数据库检索。
 - 来源：用户提出的 EEG-BCI 综述范围（2026-08-12）与 `AGENTS.md` 第 7 节。
 
+## [2026-08-14] configure | 调整完整综述大纲标题层级
+
+- 状态：completed
+- 修改页数：2（新建 0，更新 2）
+- 更新页面：[[review/完整综述大纲]]、[[shturl]]。
+- 变更：恢复三级标题的章节数字；移除全部 `2.3.1`、`6.4.1` 等更细一级的编号前缀，保留为无编号列表项。
+
 ## [2026-08-12] ingest | Phan 和 Mikkelsen（2022）与 de Gans 等（2024）全量补完
 
 - 状态：completed
@@ -89,3 +96,37 @@
 4. 4.4：`("closed-loop"[tiab] OR "closed loop"[tiab] OR "real-time"[tiab] OR "real time"[tiab] OR "phase-locked"[tiab]) AND ("auditory stimulation"[tiab] OR "acoustic stimulation"[tiab] OR "transcranial electrical stimulation"[tiab] OR tES[tiab] OR tACS[tiab]) AND ("slow-wave sleep"[tiab] OR "slow wave sleep"[tiab] OR N3[tiab] OR "slow oscillation"[tiab] OR "slow oscillations"[tiab]) AND (EEG[tiab] OR wearable[tiab])`
 
 - 备注：未检索 Web of Science、Scopus、IEEE Xplore（无免费 API；需机构订阅或浏览器自动化/Google Scholar 需 Chrome 远程调试，当前未启用）。故此为**初步检索**，不构成“系统检索完成”；正式结论前需补齐上述数据库并做 PRISMA 筛选。本次仅完成去重与首轮摘要表，尚未进入标题/摘要与全文纳入排除。
+
+## [2026-08-14] search | 新版 11 条检索线首轮检索
+
+- 状态：completed（首轮，非“系统检索完成”）
+- 数据库/平台：PubMed（NCBI E-utilities，esearch+esummary，sort=relevance）、OpenAlex（works filter=title_and_abstract.search）、arXiv（算法线 4.2/4.3/4.4/4.5，因 429 限速本次未完成，待补）。
+- 检索日期：2026-08-14。时间范围：建库至今；语言：英文优先；文献类型：原始研究优先。
+- 检索式版本：[[review/文献搜索策略_新版]]（11 条检索线 + 每线扩展检索式）。
+- 导出文件：`raw/search-exports/2026-08-14-search-export.json`（含每线各子检索式命中数、线内去重与全局去重）。
+- 结果表：[[review/文献检索结果]] 已更新为 11 线版（一行 = 一篇 × 一条命中线；跨线文献在相关线重复出现）。
+- 命中与去重（PubMed/OpenAlex 列为各子检索式命中数之和，含重叠；以“线内去重”为准；全局去重 338 篇）：
+
+| 检索线 | 线内去重 | PubMed | OpenAlex |
+| --- | --- | --- | --- |
+| 4.1 可穿戴 EEG–PSG 配对验证 | 37 | 69 | 122 |
+| 4.2 单/双通道分期（传统+CNN/RNN/Transformer/Mamba） | 73 | 248 | 482 |
+| 4.3 EEG 主导多模态融合 | 29 | 17 | 57 |
+| 4.4 跨被试/数据集/设备与领域自适应 | 31 | 38 | 125 |
+| 4.5 在线状态估计与实时推理 | 39 | 417 | 14 |
+| 4.6 N3/慢波实时检测与事件级识别 | 51 | 71 | 256 |
+| 4.7 闭环声音刺激 | 34 | 75 | 80 |
+| 4.8 闭环经皮电刺激 | 7 | 3 | 7 |
+| 4.9 闭环端到端时延与控制链路 | 34 | 24 | 23 |
+| 4.10 刺激剂量/自适应/个体化 | 36 | 106 | 541 |
+| 4.11 安全性/舒适性/依从性/家庭部署 | 40 | 84 | 238 |
+
+- 备注：arXiv 因 429 限速未完成（4.2 Mamba、4.3 multimodal、4.4 domain-adaptation、4.5 online 四条待补）。未检索 WoS/Scopus/IEEE/Google Scholar，非“系统检索完成”。尚未进入标题/摘要与全文纳入排除。
+
+## [2026-08-14] configure | 删除旧版文献搜索策略、链接重定向至新版
+
+- 状态：completed
+- 修改页数：14（删除 1，更新 13）
+- 删除页面：`wiki/review/文献搜索策略.md`（已被 [[review/文献搜索策略_新版]] 取代）。
+- 更新页面：将 13 个页面中指向 `[[review/文献搜索策略]]` 的链接重定向至 [[review/文献搜索策略_新版]]：[[index]]、[[review/可穿戴睡眠检测与闭环干预综述|综述地图]]、[[review/证据矩阵]]、[[review/完整综述大纲]]、7 个概念页（睡眠分期、可穿戴 EEG、PSG 参考标准、临床验证、领域自适应、跨数据集泛化、模型压缩与端侧部署）、2 个来源页（phan-mikkelsen-2022、de-gans-2024）。
+- 来源：用户要求（2026-08-14）。

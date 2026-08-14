@@ -1,0 +1,4004 @@
+{
+  "date": "2026-08-14",
+  "lines": {
+    "4.1": {
+      "label": "可穿戴 EEG 与 PSG 配对验证",
+      "level": "L1/L2",
+      "hits": {
+        "pm_core": 53,
+        "oa_core": 122,
+        "pm_device": 16
+      },
+      "unique": 37,
+      "papers": [
+        {
+          "title": "Hearables: Automatic Overnight Sleep Monitoring With Standardized In-Ear EEG Sensor",
+          "year": "2019",
+          "venue": "IEEE Transactions on Biomedical Engineering",
+          "cited": 149,
+          "doi": "10.1109/tbme.2019.2911423",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Accurate whole-night sleep monitoring with dry-contact ear-EEG.",
+          "year": "2019",
+          "venue": "Scientific reports",
+          "cited": 127,
+          "doi": "10.1038/s41598-019-53115-3",
+          "pmid": "31727953",
+          "arx": ""
+        },
+        {
+          "title": "Automatic sleep staging using ear-EEG.",
+          "year": "2017",
+          "venue": "Biomedical engineering online",
+          "cited": 98,
+          "doi": "10.1186/s12938-017-0400-5",
+          "pmid": "28927417",
+          "arx": ""
+        },
+        {
+          "title": "Automatic Sleep Monitoring Using Ear-EEG.",
+          "year": "2017",
+          "venue": "IEEE journal of translational engineering in health and medicine",
+          "cited": 88,
+          "doi": "10.1109/JTEHM.2017.2702558",
+          "pmid": "29018638",
+          "arx": ""
+        },
+        {
+          "title": "Validation of a Wireless, Self-Application, Ambulatory Electroencephalographic Sleep Monitoring Device in Healthy Volunteers",
+          "year": "2016",
+          "venue": "Journal of Clinical Sleep Medicine",
+          "cited": 86,
+          "doi": "10.5664/jcsm.6262",
+          "pmid": "",
+          "arx": "",
+          "oa": "bronze"
+        },
+        {
+          "title": "L-SeqSleepNet: Whole-cycle Long Sequence Modeling for Automatic Sleep Staging",
+          "year": "2023",
+          "venue": "IEEE Journal of Biomedical and Health Informatics",
+          "cited": 79,
+          "doi": "10.1109/jbhi.2023.3303197",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Ear-EEG for sleep assessment: a comparison with actigraphy and PSG.",
+          "year": "2021",
+          "venue": "Sleep & breathing = Schlaf & Atmung",
+          "cited": 47,
+          "doi": "10.1007/s11325-020-02248-1",
+          "pmid": "33219908",
+          "arx": ""
+        },
+        {
+          "title": "Automatic sleep stage classification using ear-EEG.",
+          "year": "2016",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "cited": 41,
+          "doi": "10.1109/EMBC.2016.7591789",
+          "pmid": "28269332",
+          "arx": ""
+        },
+        {
+          "title": "Advancements in Wearable EEG Technology for Improved Home-Based Sleep Monitoring and Assessment: A Review.",
+          "year": "2023",
+          "venue": "Biosensors",
+          "cited": 41,
+          "doi": "10.3390/bios13121019",
+          "pmid": "38131779",
+          "arx": ""
+        },
+        {
+          "title": "At-home sleep monitoring using generic ear-EEG.",
+          "year": "2023",
+          "venue": "Frontiers in neuroscience",
+          "cited": 37,
+          "doi": "10.3389/fnins.2023.987578",
+          "pmid": "36816118",
+          "arx": ""
+        },
+        {
+          "title": "Flex-Printed Ear-EEG Sensors for Adequate Sleep Staging at Home",
+          "year": "2021",
+          "venue": "Frontiers in Digital Health",
+          "cited": 35,
+          "doi": "10.3389/fdgth.2021.688122",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Automatic detection of drowsiness using in-ear EEG",
+          "year": "2018",
+          "venue": "",
+          "cited": 30,
+          "doi": "10.1109/ijcnn.2018.8489723",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Ear‐EEG‐based sleep scoring in epilepsy: A comparison with scalp‐EEG",
+          "year": "2019",
+          "venue": "Journal of Sleep Research",
+          "cited": 19,
+          "doi": "10.1111/jsr.12921",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Automated Sleep Staging on Wearable EEG Enables Sleep Analysis at Scale",
+          "year": "2023",
+          "venue": "",
+          "cited": 15,
+          "doi": "10.1109/ner52421.2023.10123829",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Self-applied ear-EEG for sleep monitoring at home.",
+          "year": "2022",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "cited": 14,
+          "doi": "10.1109/EMBC48229.2022.9871076",
+          "pmid": "36085914",
+          "arx": ""
+        },
+        {
+          "title": "Repeated automatic sleep scoring based on ear-EEG is a valuable alternative to manually scored polysomnography",
+          "year": "2022",
+          "venue": "PLOS Digital Health",
+          "cited": 14,
+          "doi": "10.1371/journal.pdig.0000134",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Muscle Activity Detection during Sleep by Ear-EEG.",
+          "year": "2020",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "cited": 8,
+          "doi": "10.1109/EMBC44109.2020.9176365",
+          "pmid": "33018155",
+          "arx": ""
+        },
+        {
+          "title": "Discrimination of Sleep Spindles in Ear-EEG.",
+          "year": "2019",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "cited": 6,
+          "doi": "10.1109/EMBC.2019.8857114",
+          "pmid": "31947378",
+          "arx": ""
+        },
+        {
+          "title": "A Knowledge Distillation Framework for Enhancing Ear-EEG Based Sleep Staging with Scalp-EEG Data",
+          "year": "2023",
+          "venue": "",
+          "cited": 6,
+          "doi": "10.1109/smc53992.2023.10394011",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Preliminary validation of in-ear EEG against PSG system for sleep staging",
+          "year": "2022",
+          "venue": "Sleep Medicine",
+          "cited": 3,
+          "doi": "10.1016/j.sleep.2022.05.073",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Remote Wearable Neuroimaging Devices for Health Monitoring and Neurophenotyping: A Scoping Review.",
+          "year": "2024",
+          "venue": "Biomimetics (Basel, Switzerland)",
+          "cited": 0,
+          "doi": "10.3390/biomimetics9040237",
+          "pmid": "38667247",
+          "arx": ""
+        },
+        {
+          "title": "Hearables: Automatic Sleep Scoring from Single-Channel Ear-EEG in Older Adults.",
+          "year": "2023",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "cited": 0,
+          "doi": "10.1109/EMBC40787.2023.10340253",
+          "pmid": "38083340",
+          "arx": ""
+        },
+        {
+          "title": "An Autonomous Sleep-Stage Detection Technique in Disruptive Technology Environment.",
+          "year": "2024",
+          "venue": "Sensors (Basel, Switzerland)",
+          "cited": 0,
+          "doi": "10.3390/s24041197",
+          "pmid": "38400354",
+          "arx": ""
+        },
+        {
+          "title": "Long-term ear-EEG monitoring of sleep - A case study during shift work.",
+          "year": "2023",
+          "venue": "Journal of sleep research",
+          "cited": 0,
+          "doi": "10.1111/jsr.13853",
+          "pmid": "36889935",
+          "arx": ""
+        },
+        {
+          "title": "Evaluating the Electroencephalographic Signal Quality of an In-Ear Wearable Device.",
+          "year": "2024",
+          "venue": "Sensors (Basel, Switzerland)",
+          "cited": 0,
+          "doi": "10.3390/s24123973",
+          "pmid": "38931756",
+          "arx": ""
+        },
+        {
+          "title": "Comparison analysis between standard polysomnographic data and in-ear-electroencephalography signals: a preliminary study.",
+          "year": "2024",
+          "venue": "Sleep advances : a journal of the Sleep Research Society",
+          "cited": 0,
+          "doi": "10.1093/sleepadvances/zpae087",
+          "pmid": "39735738",
+          "arx": ""
+        },
+        {
+          "title": "Deep Learning in Automatic Sleep Staging With a Single Channel Electroencephalography.",
+          "year": "2021",
+          "venue": "Frontiers in physiology",
+          "cited": 0,
+          "doi": "10.3389/fphys.2021.628502",
+          "pmid": "33746774",
+          "arx": ""
+        },
+        {
+          "title": "Deep transfer learning for automated single-lead EEG sleep staging with channel and population mismatches.",
+          "year": "2023",
+          "venue": "Frontiers in physiology",
+          "cited": 0,
+          "doi": "10.3389/fphys.2023.1287342",
+          "pmid": "38250654",
+          "arx": ""
+        },
+        {
+          "title": "Automatic sleep stage classification based on subcutaneous EEG in patients with epilepsy.",
+          "year": "2019",
+          "venue": "Biomedical engineering online",
+          "cited": 0,
+          "doi": "10.1186/s12938-019-0725-3",
+          "pmid": "31666082",
+          "arx": ""
+        },
+        {
+          "title": "Optimizing wearable single-channel electroencephalography sleep staging in a heterogeneous sleep-disordered population using transfer learning.",
+          "year": "2025",
+          "venue": "Journal of clinical sleep medicine : JCSM : official publication of the American Academy of Sleep Medicine",
+          "cited": 0,
+          "doi": "10.5664/jcsm.11380",
+          "pmid": "39347545",
+          "arx": ""
+        },
+        {
+          "title": "Design and Implementation of an IoT-Based Low-Power Wearable EEG Sensing System for Home-Based Sleep Monitoring.",
+          "year": "2026",
+          "venue": "Sensors (Basel, Switzerland)",
+          "cited": 0,
+          "doi": "10.3390/s26061803",
+          "pmid": "41901973",
+          "arx": ""
+        },
+        {
+          "title": "Automatic Sleep Staging of Single-Channel Ear-EEG Signals With a Probabilistic Ensemble Learning Approach.",
+          "year": "2026",
+          "venue": "IEEE journal of biomedical and health informatics",
+          "cited": 0,
+          "doi": "10.1109/JBHI.2025.3599874",
+          "pmid": "40828728",
+          "arx": ""
+        },
+        {
+          "title": "Validation of a sleep staging classification model for healthy adults based on two combinations of a single-channel EEG headband and wrist actigraphy.",
+          "year": "2024",
+          "venue": "Journal of clinical sleep medicine : JCSM : official publication of the American Academy of Sleep Medicine",
+          "cited": 0,
+          "doi": "10.5664/jcsm.11082",
+          "pmid": "38427322",
+          "arx": ""
+        },
+        {
+          "title": "Automatic Sleep Stage Scoring Using Time-Frequency Analysis and Stacked Sparse Autoencoders.",
+          "year": "2016",
+          "venue": "Annals of biomedical engineering",
+          "cited": 0,
+          "doi": "10.1007/s10439-015-1444-y",
+          "pmid": "26464268",
+          "arx": ""
+        },
+        {
+          "title": "A custom-built single-channel in-ear electroencephalography sensor for sleep phase detection: an interdependent solution for at-home sleep studies.",
+          "year": "2025",
+          "venue": "Journal of sleep research",
+          "cited": 0,
+          "doi": "10.1111/jsr.14368",
+          "pmid": "39363577",
+          "arx": ""
+        },
+        {
+          "title": "A Feasibility Study on a Single-Unit Wireless EEG Sensor.",
+          "year": "2014",
+          "venue": "International conference on signal processing proceedings. International Conference on Signal Processing",
+          "cited": 0,
+          "doi": "10.1109/ICOSP.2014.7015401",
+          "pmid": "26213719",
+          "arx": ""
+        },
+        {
+          "title": "SleepPACNet: new convolutional neural network considering phase-amplitude coupling for automatic sleep stage classification using single-channel electroencephalogram.",
+          "year": "2026",
+          "venue": "Scientific reports",
+          "cited": 0,
+          "doi": "10.1038/s41598-026-48881-w",
+          "pmid": "41974873",
+          "arx": ""
+        }
+      ]
+    },
+    "4.2": {
+      "label": "单/双通道 EEG 睡眠分期：传统方法与深度学习",
+      "level": "L2",
+      "hits": {
+        "pm_core": 115,
+        "oa_core": 465,
+        "pm_traditional": 56,
+        "pm_cnn_crnn": 42,
+        "pm_transformer": 30,
+        "pm_mamba": 5,
+        "oa_mamba": 17,
+        "ax_mamba": "ERR:HTTP Error 429: Unknown Error"
+      },
+      "unique": 73,
+      "papers": [
+        {
+          "title": "An Attention-Based Deep Learning Approach for Sleep Stage Classification With Single-Channel EEG",
+          "year": "2021",
+          "venue": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+          "cited": 673,
+          "doi": "10.1109/tnsre.2021.3076234",
+          "pmid": "",
+          "arx": "",
+          "oa": "diamond"
+        },
+        {
+          "title": "Cascaded LSTM recurrent neural network for automated sleep stage classification using single-channel EEG signals",
+          "year": "2019",
+          "venue": "Computers in Biology and Medicine",
+          "cited": 388,
+          "doi": "10.1016/j.compbiomed.2019.01.013",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "A comparative review on sleep stage classification methods in patients and healthy individuals.",
+          "year": "2017",
+          "venue": "Computer methods and programs in biomedicine",
+          "cited": 320,
+          "doi": "10.1016/j.cmpb.2016.12.004",
+          "pmid": "28254093",
+          "arx": ""
+        },
+        {
+          "title": "Ensemble SVM Method for Automatic Sleep Stage Classification",
+          "year": "2018",
+          "venue": "IEEE Transactions on Instrumentation and Measurement",
+          "cited": 317,
+          "doi": "10.1109/tim.2018.2799059",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "An ensemble system for automatic sleep stage classification using single channel EEG signal",
+          "year": "2012",
+          "venue": "Computers in Biology and Medicine",
+          "cited": 294,
+          "doi": "10.1016/j.compbiomed.2012.09.012",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Sleep stage classification using single-channel EOG.",
+          "year": "2018",
+          "venue": "Computers in biology and medicine",
+          "cited": 179,
+          "doi": "10.1016/j.compbiomed.2018.08.022",
+          "pmid": "30170769",
+          "arx": ""
+        },
+        {
+          "title": "Automatic Sleep Stage Classification Using Single-Channel EEG: Learning Sequential Features with Attention-Based Recurrent Neural Networks",
+          "year": "2018",
+          "venue": "",
+          "cited": 143,
+          "doi": "10.1109/embc.2018.8512480",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Single-channel EEG sleep stage classification based on a streamlined set of statistical features in wavelet domain",
+          "year": "2016",
+          "venue": "Medical & Biological Engineering & Computing",
+          "cited": 131,
+          "doi": "10.1007/s11517-016-1519-4",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Automatic Sleep Stage Classification Using Temporal Convolutional Neural Network and New Data Augmentation Technique from Raw Single-Channel EEG",
+          "year": "2021",
+          "venue": "Computer Methods and Programs in Biomedicine",
+          "cited": 125,
+          "doi": "10.1016/j.cmpb.2021.106063",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "A new automatic sleep staging system based on statistical behavior of local extrema using single channel EEG signal",
+          "year": "2018",
+          "venue": "Expert Systems with Applications",
+          "cited": 100,
+          "doi": "10.1016/j.eswa.2018.03.020",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Recurrent Deep Neural Networks for Real-Time Sleep Stage Classification From Single Channel EEG",
+          "year": "2018",
+          "venue": "Frontiers in Computational Neuroscience",
+          "cited": 98,
+          "doi": "10.3389/fncom.2018.00085",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Orthogonal convolutional neural networks for automatic sleep stage classification based on single-channel EEG",
+          "year": "2019",
+          "venue": "Computer Methods and Programs in Biomedicine",
+          "cited": 97,
+          "doi": "10.1016/j.cmpb.2019.105089",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "DNN Filter Bank Improves 1-Max Pooling CNN for Single-Channel EEG Automatic Sleep Stage Classification",
+          "year": "2018",
+          "venue": "",
+          "cited": 93,
+          "doi": "10.1109/embc.2018.8512286",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "SleepFCN: A Fully Convolutional Deep Learning Framework for Sleep Stage Classification Using Single-Channel Electroencephalograms",
+          "year": "2022",
+          "venue": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+          "cited": 91,
+          "doi": "10.1109/tnsre.2022.3192988",
+          "pmid": "",
+          "arx": "",
+          "oa": "diamond"
+        },
+        {
+          "title": "A single-channel EEG based automatic sleep stage classification method leveraging deep one-dimensional convolutional neural network and hidden Markov model",
+          "year": "2021",
+          "venue": "Biomedical Signal Processing and Control",
+          "cited": 89,
+          "doi": "10.1016/j.bspc.2021.102581",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "SleepContextNet: A temporal context network for automatic sleep staging based single-channel EEG",
+          "year": "2022",
+          "venue": "Computer Methods and Programs in Biomedicine",
+          "cited": 82,
+          "doi": "10.1016/j.cmpb.2022.106806",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "EOGNET: A Novel Deep Learning Model for Sleep Stage Classification Based on Single-Channel EOG Signal",
+          "year": "2021",
+          "venue": "Frontiers in Neuroscience",
+          "cited": 78,
+          "doi": "10.3389/fnins.2021.573194",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Deep Learning in Automatic Sleep Staging With a Single Channel Electroencephalography",
+          "year": "2021",
+          "venue": "Frontiers in Physiology",
+          "cited": 70,
+          "doi": "10.3389/fphys.2021.628502",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Machine learning with ensemble stacking model for automated sleep staging using dual-channel EEG signal",
+          "year": "2021",
+          "venue": "Biomedical Signal Processing and Control",
+          "cited": 66,
+          "doi": "10.1016/j.bspc.2021.102898",
+          "pmid": "",
+          "arx": "",
+          "oa": "hybrid"
+        },
+        {
+          "title": "Automatic Sleep Stage Classification With Single Channel EEG Signal Based on Two-Layer Stacked Ensemble Model",
+          "year": "2020",
+          "venue": "IEEE Access",
+          "cited": 64,
+          "doi": "10.1109/access.2020.2982434",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "An Automatic Sleep Stage Classification Algorithm Using Improved Model Based Essence Features.",
+          "year": "2020",
+          "venue": "Sensors (Basel, Switzerland)",
+          "cited": 39,
+          "doi": "10.3390/s20174677",
+          "pmid": "32825024",
+          "arx": ""
+        },
+        {
+          "title": "A Novel State Space Model with Dynamic Graphic Neural Network for EEG Event Detection.",
+          "year": "2025",
+          "venue": "International journal of neural systems",
+          "cited": 12,
+          "doi": "10.1142/S012906572550008X",
+          "pmid": "39962836",
+          "arx": ""
+        },
+        {
+          "title": "Toward Foundational Model for Sleep Analysis Using a Multimodal Hybrid-Self-Supervised Learning Framework.",
+          "year": "2025",
+          "venue": "IEEE transactions on cybernetics",
+          "cited": 7,
+          "doi": "10.1109/TCYB.2025.3603608",
+          "pmid": "40924530",
+          "arx": ""
+        },
+        {
+          "title": "Adaptive long-range modeling of EEG and ECG with Mamba and dynamic graph learning.",
+          "year": "2025",
+          "venue": "Scientific reports",
+          "cited": 2,
+          "doi": "10.1038/s41598-025-22684-x",
+          "pmid": "41193642",
+          "arx": ""
+        },
+        {
+          "title": "BiT-MamSleep: Bidirectional Temporal Mamba for EEG Sleep Staging",
+          "year": "2024",
+          "venue": "arXiv (Cornell University)",
+          "cited": 2,
+          "doi": "10.48550/arxiv.2411.01589",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "EEGCMCNet: A Hybrid Network for Sleep-Stage Classification",
+          "year": "2025",
+          "venue": "IEEE Sensors Journal",
+          "cited": 2,
+          "doi": "10.1109/jsen.2025.3574141",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "NeuroNet: A Novel Hybrid Self-Supervised Learning Framework for Sleep Stage Classification Using Single-Channel EEG",
+          "year": "2024",
+          "venue": "arXiv (Cornell University)",
+          "cited": 2,
+          "doi": "10.48550/arxiv.2404.17585",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "EEGMamba: Bidirectional State Space Model with Mixture of Experts for EEG Multi-task Classification",
+          "year": "2024",
+          "venue": "arXiv (Cornell University)",
+          "cited": 1,
+          "doi": "10.48550/arxiv.2407.20254",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Evaluation of a Single-Channel EEG-Based Sleep Staging Algorithm.",
+          "year": "2022",
+          "venue": "International journal of environmental research and public health",
+          "cited": 0,
+          "doi": "10.3390/ijerph19052845",
+          "pmid": "35270548",
+          "arx": ""
+        },
+        {
+          "title": "GRU-powered sleep stage classification with permutation-based EEG channel selection.",
+          "year": "2024",
+          "venue": "Scientific reports",
+          "cited": 0,
+          "doi": "10.1038/s41598-024-68978-4",
+          "pmid": "39095608",
+          "arx": ""
+        },
+        {
+          "title": "Multimodal sleep staging network based on obstructive sleep apnea.",
+          "year": "2024",
+          "venue": "Frontiers in computational neuroscience",
+          "cited": 0,
+          "doi": "10.3389/fncom.2024.1505746",
+          "pmid": "39744723",
+          "arx": ""
+        },
+        {
+          "title": "Staging study of single-channel sleep EEG signals based on data augmentation.",
+          "year": "2022",
+          "venue": "Frontiers in public health",
+          "cited": 0,
+          "doi": "10.3389/fpubh.2022.1038742",
+          "pmid": "36504972",
+          "arx": ""
+        },
+        {
+          "title": "Single-channel EEG sleep staging based on data augmentation and cross-subject discrepancy alleviation.",
+          "year": "2022",
+          "venue": "Computers in biology and medicine",
+          "cited": 0,
+          "doi": "10.1016/j.compbiomed.2022.106044",
+          "pmid": "36084381",
+          "arx": ""
+        },
+        {
+          "title": "Sleep staging based on single-channel EEG and EOG with Tiny U-Net.",
+          "year": "2023",
+          "venue": "Computers in biology and medicine",
+          "cited": 0,
+          "doi": "10.1016/j.compbiomed.2023.107127",
+          "pmid": "37311382",
+          "arx": ""
+        },
+        {
+          "title": "Single-channel EEG based insomnia detection with domain adaptation.",
+          "year": "2021",
+          "venue": "Computers in biology and medicine",
+          "cited": 0,
+          "doi": "10.1016/j.compbiomed.2021.104989",
+          "pmid": "34739969",
+          "arx": ""
+        },
+        {
+          "title": "Automatic sleep stage classification based on a two-channel electrooculogram and one-channel electromyogram.",
+          "year": "2022",
+          "venue": "Physiological measurement",
+          "cited": 0,
+          "doi": "10.1088/1361-6579/ac6bdb",
+          "pmid": "35487205",
+          "arx": ""
+        },
+        {
+          "title": "Fully automatic REM sleep stage-specific intervention systems using single EEG in mice.",
+          "year": "2023",
+          "venue": "Neuroscience research",
+          "cited": 0,
+          "doi": "10.1016/j.neures.2022.10.001",
+          "pmid": "36206953",
+          "arx": ""
+        },
+        {
+          "title": "Automatic classification of sleep stages using EEG signals and convolutional neural networks.",
+          "year": "2024",
+          "venue": "PloS one",
+          "cited": 0,
+          "doi": "10.1371/journal.pone.0297582",
+          "pmid": "38277364",
+          "arx": ""
+        },
+        {
+          "title": "Generalizable Deep Learning-Based Sleep Staging Approach for Ambulatory Textile Electrode Headband Recordings.",
+          "year": "2023",
+          "venue": "IEEE journal of biomedical and health informatics",
+          "cited": 0,
+          "doi": "10.1109/JBHI.2023.3240437",
+          "pmid": "37022272",
+          "arx": ""
+        },
+        {
+          "title": "Multi-task learning for arousal and sleep stage detection using fully convolutional networks.",
+          "year": "2023",
+          "venue": "Journal of neural engineering",
+          "cited": 0,
+          "doi": "10.1088/1741-2552/acfe3a",
+          "pmid": "37769664",
+          "arx": ""
+        },
+        {
+          "title": "Mixed-Input Deep Learning Approach to Sleep/Wake State Classification by Using EEG Signals.",
+          "year": "2023",
+          "venue": "Diagnostics (Basel, Switzerland)",
+          "cited": 0,
+          "doi": "10.3390/diagnostics13142358",
+          "pmid": "37510104",
+          "arx": ""
+        },
+        {
+          "title": "[Automatic sleep staging model based on single channel electroencephalogram signal].",
+          "year": "2023",
+          "venue": "Sheng wu yi xue gong cheng xue za zhi = Journal of biomedical engineering = Shengwu yixue gongchengxue zazhi",
+          "cited": 0,
+          "doi": "10.7507/1001-5515.202210072",
+          "pmid": "37380384",
+          "arx": ""
+        },
+        {
+          "title": "Single-channel EEG classification of sleep stages based on REM microstructure.",
+          "year": "2021",
+          "venue": "Healthcare technology letters",
+          "cited": 0,
+          "doi": "10.1049/htl2.12007",
+          "pmid": "34035926",
+          "arx": ""
+        },
+        {
+          "title": "A Temporal-Spectral Fused and Attention-Based Deep Model for Automatic Sleep Staging.",
+          "year": "2023",
+          "venue": "IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society",
+          "cited": 0,
+          "doi": "10.1109/TNSRE.2023.3238852",
+          "pmid": "37022069",
+          "arx": ""
+        },
+        {
+          "title": "Hearables: Automatic Overnight Sleep Monitoring With Standardized In-Ear EEG Sensor.",
+          "year": "2020",
+          "venue": "IEEE transactions on bio-medical engineering",
+          "cited": 0,
+          "doi": "10.1109/TBME.2019.2911423",
+          "pmid": "31021747",
+          "arx": ""
+        },
+        {
+          "title": "Fast Sleep Stage Classification Using Cascaded Support Vector Machines with Single-Channel EEG Signals.",
+          "year": "2022",
+          "venue": "Sensors (Basel, Switzerland)",
+          "cited": 0,
+          "doi": "10.3390/s22249914",
+          "pmid": "36560286",
+          "arx": ""
+        },
+        {
+          "title": "Automatic Wake and Deep-Sleep Stage Classification Based on Wigner-Ville Distribution Using a Single Electroencephalogram Signal.",
+          "year": "2024",
+          "venue": "Diagnostics (Basel, Switzerland)",
+          "cited": 0,
+          "doi": "10.3390/diagnostics14060580",
+          "pmid": "38535001",
+          "arx": ""
+        },
+        {
+          "title": "Self-Supervised Electroencephalogram Representation Learning for Automatic Sleep Staging: Model Development and Evaluation Study.",
+          "year": "2023",
+          "venue": "JMIR AI",
+          "cited": 0,
+          "doi": "10.2196/46769",
+          "pmid": "38090533",
+          "arx": ""
+        },
+        {
+          "title": "An Autonomous Sleep-Stage Detection Technique in Disruptive Technology Environment.",
+          "year": "2024",
+          "venue": "Sensors (Basel, Switzerland)",
+          "cited": 0,
+          "doi": "10.3390/s24041197",
+          "pmid": "38400354",
+          "arx": ""
+        },
+        {
+          "title": "DistillSleep: real-time, on-device, interpretable sleep staging from single-channel electroencephalogram.",
+          "year": "2025",
+          "venue": "Sleep",
+          "cited": 0,
+          "doi": "10.1093/sleep/zsaf240",
+          "pmid": "40844034",
+          "arx": ""
+        },
+        {
+          "title": "CAttSleepNet: Automatic End-to-End Sleep Staging Using Attention-Based Deep Neural Networks on Single-Channel EEG.",
+          "year": "2022",
+          "venue": "International journal of environmental research and public health",
+          "cited": 0,
+          "doi": "10.3390/ijerph19095199",
+          "pmid": "35564593",
+          "arx": ""
+        },
+        {
+          "title": "Comparative Analysis of Single-Channel and Multi-Channel Classification of Sleep Stages Across Four Different Data Sets.",
+          "year": "2024",
+          "venue": "Brain sciences",
+          "cited": 0,
+          "doi": "10.3390/brainsci14121201",
+          "pmid": "39766400",
+          "arx": ""
+        },
+        {
+          "title": "A Feature Fusion Model Based on Temporal Convolutional Network for Automatic Sleep Staging Using Single-Channel EEG.",
+          "year": "2024",
+          "venue": "IEEE journal of biomedical and health informatics",
+          "cited": 0,
+          "doi": "10.1109/JBHI.2024.3457969",
+          "pmid": "39504300",
+          "arx": ""
+        },
+        {
+          "title": "A Novel Sleep Staging Network Based on Data Adaptation and Multimodal Fusion.",
+          "year": "2021",
+          "venue": "Frontiers in human neuroscience",
+          "cited": 0,
+          "doi": "10.3389/fnhum.2021.727139",
+          "pmid": "34690720",
+          "arx": ""
+        },
+        {
+          "title": "Automatic Sleep Staging Based on Contextual Scalograms and Attention Convolution Neural Network Using Single-Channel EEG.",
+          "year": "2024",
+          "venue": "IEEE journal of biomedical and health informatics",
+          "cited": 0,
+          "doi": "10.1109/JBHI.2023.3332503",
+          "pmid": "37955995",
+          "arx": ""
+        },
+        {
+          "title": "MaskSleepNet: A Cross-Modality Adaptation Neural Network for Heterogeneous Signals Processing in Sleep Staging.",
+          "year": "2023",
+          "venue": "IEEE journal of biomedical and health informatics",
+          "cited": 0,
+          "doi": "10.1109/JBHI.2023.3253728",
+          "pmid": "37028323",
+          "arx": ""
+        },
+        {
+          "title": "Automated Sleep Stages Classification Using Convolutional Neural Network From Raw and Time-Frequency Electroencephalogram Signals: Systematic Evaluation Study.",
+          "year": "2023",
+          "venue": "Journal of medical Internet research",
+          "cited": 0,
+          "doi": "10.2196/40211",
+          "pmid": "36763454",
+          "arx": ""
+        },
+        {
+          "title": "SSC-SleepNet: A Siamese-Based Automatic Sleep Staging Model With Improved N1 Sleep Detection.",
+          "year": "2025",
+          "venue": "IEEE journal of biomedical and health informatics",
+          "cited": 0,
+          "doi": "10.1109/JBHI.2025.3572886",
+          "pmid": "40408218",
+          "arx": ""
+        },
+        {
+          "title": "Automatic sleep stage classification of single-channel EEG by using complex-valued convolutional neural network.",
+          "year": "2018",
+          "venue": "Biomedizinische Technik. Biomedical engineering",
+          "cited": 0,
+          "doi": "10.1515/bmt-2016-0156",
+          "pmid": "28222011",
+          "arx": ""
+        },
+        {
+          "title": "MRASleepNet: a multi-resolution attention network for sleep stage classification using single-channel EEG.",
+          "year": "2022",
+          "venue": "Journal of neural engineering",
+          "cited": 0,
+          "doi": "10.1088/1741-2552/aca2de",
+          "pmid": "36379059",
+          "arx": ""
+        },
+        {
+          "title": "Automatic sleep staging of single-channel EEG based on domain adversarial neural networks and domain self-attention.",
+          "year": "2023",
+          "venue": "Frontiers in neuroscience",
+          "cited": 0,
+          "doi": "10.3389/fnins.2023.1143495",
+          "pmid": "37090812",
+          "arx": ""
+        },
+        {
+          "title": "Exploration of an intrinsically explainable self-attention based model for prototype generation on single-channel EEG sleep stage classification.",
+          "year": "2024",
+          "venue": "Scientific reports",
+          "cited": 0,
+          "doi": "10.1038/s41598-024-79139-y",
+          "pmid": "39528813",
+          "arx": ""
+        },
+        {
+          "title": "MultiScaleSleepNet: A Hybrid CNN-BiLSTM-Transformer Architecture with Multi-Scale Feature Representation for Single-Channel EEG Sleep Stage Classification.",
+          "year": "2025",
+          "venue": "Sensors (Basel, Switzerland)",
+          "cited": 0,
+          "doi": "10.3390/s25206328",
+          "pmid": "41157382",
+          "arx": ""
+        },
+        {
+          "title": "Extracting Multi-Scale and Salient Features by MSE Based U-Structure and CBAM for Sleep Staging.",
+          "year": "2023",
+          "venue": "IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society",
+          "cited": 0,
+          "doi": "10.1109/TNSRE.2022.3216111",
+          "pmid": "36260576",
+          "arx": ""
+        },
+        {
+          "title": "Enhancing Neonatal Sleep Analysis with Multi-resolution CNN and Mamba Integration.",
+          "year": "2025",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "cited": 0,
+          "doi": "10.1109/EMBC58623.2025.11254152",
+          "pmid": "41336323",
+          "arx": ""
+        },
+        {
+          "title": "WaveMamba: Efficient Full-Night Sleep Staging via Wavelets and State Space Models",
+          "year": "2025",
+          "venue": "",
+          "cited": 0,
+          "doi": "10.36227/techrxiv.175086730.05160218/v1",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Lightweight ML-Based Automatic Sleep Staging Framework with Constrained CNN and Mamba for Small-Sample EEG Datasets",
+          "year": "2026",
+          "venue": "arXiv (Cornell University)",
+          "cited": 0,
+          "doi": "",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Lightweight ML-Based Automatic Sleep Staging Framework with Constrained CNN and Mamba for Small-Sample EEG Datasets",
+          "year": "2026",
+          "venue": "arXiv (Cornell University)",
+          "cited": 0,
+          "doi": "10.48550/arxiv.2607.04934",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "LA-Mamba Net, An Automatic Sleep Staging Model with Temporal Feature Extraction Ability",
+          "year": "2025",
+          "venue": "",
+          "cited": 0,
+          "doi": "10.1109/icbip66535.2025.11284426",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "An electroencephalography sleep staging model based on bidirectional Mamba combining synergistic attention with interactive convolution",
+          "year": "2026",
+          "venue": "Sleep research.",
+          "cited": 0,
+          "doi": "10.1002/slp2.70034",
+          "pmid": "",
+          "arx": "",
+          "oa": "diamond"
+        },
+        {
+          "title": "MambaIDCTSleepNet: An Extended Mamba Model with IDCT via Multi-Dependency Learning for Single-Channel Sleep Staging",
+          "year": "2026",
+          "venue": "",
+          "cited": 0,
+          "doi": "10.1109/icassp55912.2026.11461630",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "S$$^{3}$$D-Net: Learning Disentangled Subject-Invariant Representations for EEG Sleep Staging via Spectral-Spatial-Sequential Feature Fusion",
+          "year": "2026",
+          "venue": "Lecture notes in computer science",
+          "cited": 0,
+          "doi": "10.1007/978-981-92-0369-7_16",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Asynchronous Hierarchical Multi-View SleepNet",
+          "year": "2026",
+          "venue": "IEEE Access",
+          "cited": 0,
+          "doi": "10.1109/access.2026.3710225",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        }
+      ]
+    },
+    "4.3": {
+      "label": "多模态融合：EEG 主导",
+      "level": "L2",
+      "hits": {
+        "pm_core": 14,
+        "oa_core": 57,
+        "ax_core": "ERR:HTTP Error 429: Unknown Error",
+        "pm_eeg_ppg_accel": 3
+      },
+      "unique": 29,
+      "papers": [
+        {
+          "title": "Multi-Modal Physiological Signals Based Squeeze-and-Excitation Network With Domain Adversarial Learning for Sleep Staging",
+          "year": "2022",
+          "venue": "IEEE Sensors Journal",
+          "cited": 100,
+          "doi": "10.1109/jsen.2022.3140383",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "MaskSleepNet: A Cross-Modality Adaptation Neural Network for Heterogeneous Signals Processing in Sleep Staging.",
+          "year": "2023",
+          "venue": "IEEE journal of biomedical and health informatics",
+          "cited": 48,
+          "doi": "10.1109/JBHI.2023.3253728",
+          "pmid": "37028323",
+          "arx": ""
+        },
+        {
+          "title": "Intelligent automatic sleep staging model based on CNN and LSTM.",
+          "year": "2022",
+          "venue": "Frontiers in public health",
+          "cited": 37,
+          "doi": "10.3389/fpubh.2022.946833",
+          "pmid": "35968483",
+          "arx": ""
+        },
+        {
+          "title": "A hierarchical sequential neural network with feature fusion for sleep staging based on EOG and RR signals.",
+          "year": "2019",
+          "venue": "Journal of neural engineering",
+          "cited": 32,
+          "doi": "10.1088/1741-2552/ab39ca",
+          "pmid": "31394522",
+          "arx": ""
+        },
+        {
+          "title": "CareSleepNet: A Hybrid Deep Learning Network for Automatic Sleep Staging.",
+          "year": "2024",
+          "venue": "IEEE journal of biomedical and health informatics",
+          "cited": 22,
+          "doi": "10.1109/JBHI.2024.3426939",
+          "pmid": "38990749",
+          "arx": ""
+        },
+        {
+          "title": "A Novel Sleep Staging Network Based on Data Adaptation and Multimodal Fusion.",
+          "year": "2021",
+          "venue": "Frontiers in human neuroscience",
+          "cited": 15,
+          "doi": "10.3389/fnhum.2021.727139",
+          "pmid": "34690720",
+          "arx": ""
+        },
+        {
+          "title": "Sleep stages classification by fusing the time-related synchronization analysis and brain activations.",
+          "year": "2024",
+          "venue": "Brain research bulletin",
+          "cited": 5,
+          "doi": "10.1016/j.brainresbull.2024.111017",
+          "pmid": "38914295",
+          "arx": ""
+        },
+        {
+          "title": "AFSleepNet: Attention-Based Multi-View Feature Fusion Framework for Pediatric Sleep Staging.",
+          "year": "2024",
+          "venue": "IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society",
+          "cited": 4,
+          "doi": "10.1109/TNSRE.2024.3490757",
+          "pmid": "39495693",
+          "arx": ""
+        },
+        {
+          "title": "CASleepNet: A Cross Attention-based multimodal fusion approach for sleep staging with EEG and EOG",
+          "year": "2025",
+          "venue": "",
+          "cited": 3,
+          "doi": "10.1109/icassp49660.2025.10889570",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "PPG-Based Sleep Stage Classification Using Pulse Wave Feature Fusion and Explainable AI",
+          "year": "2025",
+          "venue": "Engineering Technology & Applied Science Research",
+          "cited": 3,
+          "doi": "10.48084/etasr.13077",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "eNeuroLingua: A language–inspired hierarchical framework for multimodal sleep stage classification using EEG and EOG",
+          "year": "2026",
+          "venue": "Biomedical Signal Processing and Control",
+          "cited": 2,
+          "doi": "10.1016/j.bspc.2026.110333",
+          "pmid": "",
+          "arx": "",
+          "oa": "hybrid"
+        },
+        {
+          "title": "START: Automatic Sleep Staging with Attention-based Cross-modal Learning Transformer",
+          "year": "2023",
+          "venue": "",
+          "cited": 2,
+          "doi": "10.1109/bibm58861.2023.10385393",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "A multi-interactive learning model for sleep staging based on polysomnography signals",
+          "year": "2025",
+          "venue": "Discover Computing",
+          "cited": 2,
+          "doi": "10.1007/s10791-025-09768-y",
+          "pmid": "",
+          "arx": "",
+          "oa": "diamond"
+        },
+        {
+          "title": "Two-Stream Squeeze-and-Excitation Network for Multi-modal Sleep Staging",
+          "year": "2021",
+          "venue": "2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
+          "cited": 2,
+          "doi": "10.1109/bibm52615.2021.9669375",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "sDREAMER: Self-distilled Mixture-of-Modality-Experts Transformer for Automatic Sleep Staging",
+          "year": "2023",
+          "venue": "",
+          "cited": 1,
+          "doi": "10.1109/icdh60066.2023.00028",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Volatility-aware multimodal sleep modeling with latent State inference and Pareto-optimized sensor fusion",
+          "year": "2025",
+          "venue": "Array",
+          "cited": 1,
+          "doi": "10.1016/j.array.2025.100549",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Multi-Modal Sleep Stage Classification With Two-Stream Encoder-Decoder.",
+          "year": "2024",
+          "venue": "IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society",
+          "cited": 0,
+          "doi": "10.1109/TNSRE.2024.3394738",
+          "pmid": "38848223",
+          "arx": ""
+        },
+        {
+          "title": "MFSleepNet: An Interactive Multimodal Fusion Framework for Automatic Sleep Staging.",
+          "year": "2026",
+          "venue": "Sensors (Basel, Switzerland)",
+          "cited": 0,
+          "doi": "10.3390/s26103085",
+          "pmid": "42197894",
+          "arx": ""
+        },
+        {
+          "title": "WaveCrossNet: interpretable cross-modal automatic sleep staging for OSA patients.",
+          "year": "2026",
+          "venue": "Biomedical physics & engineering express",
+          "cited": 0,
+          "doi": "10.1088/2057-1976/ae93bb",
+          "pmid": "42546752",
+          "arx": ""
+        },
+        {
+          "title": "Automated sleep staging model for older adults based on CWT and deep learning.",
+          "year": "2025",
+          "venue": "Scientific reports",
+          "cited": 0,
+          "doi": "10.1038/s41598-025-07630-1",
+          "pmid": "40593120",
+          "arx": ""
+        },
+        {
+          "title": "Smart Wearable EEG Devices: A Review of Lightweight, Multi-Sensor Systems for Sleep and Everyday Neurophysiology.",
+          "year": "2026",
+          "venue": "Biosensors",
+          "cited": 0,
+          "doi": "10.3390/bios16070374",
+          "pmid": "42505450",
+          "arx": ""
+        },
+        {
+          "title": "MMFNet: A multi-branch multi-scale framework with adaptive sparse self-attention and cross-modal fusion for sleep stage assessment.",
+          "year": "2026",
+          "venue": "PloS one",
+          "cited": 0,
+          "doi": "10.1371/journal.pone.0353930",
+          "pmid": "42467718",
+          "arx": ""
+        },
+        {
+          "title": "BrainFusion: a Low-Code, Reproducible, and Deployable Software Framework for Multimodal Brain‒Computer Interface and Brain‒Body Interaction Research.",
+          "year": "2025",
+          "venue": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+          "cited": 0,
+          "doi": "10.1002/advs.202417408",
+          "pmid": "40470749",
+          "arx": ""
+        },
+        {
+          "title": "CAT-Sleep: Cross-modal attention for single-epoch EEG and EOG sleep staging",
+          "year": "2026",
+          "venue": "Biomedical Signal Processing and Control",
+          "cited": 0,
+          "doi": "10.1016/j.bspc.2026.110510",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "A LoRA-Adapted Cross-Modal Transformer for Robust Sleep Stage Classification",
+          "year": "2025",
+          "venue": "",
+          "cited": 0,
+          "doi": "10.1109/urtc68753.2025.11533098",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "NeuroLingua: A Language-Inspired Hierarchical Framework for Multimodal Sleep Stage Classification Using EEG and EOG",
+          "year": "2025",
+          "venue": "arXiv (Cornell University)",
+          "cited": 0,
+          "doi": "10.48550/arxiv.2511.09773",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Wavelet-Based Feature Extraction and Autoencoder Compression for EEG–EOG–Snoring Sleep Stage Classification",
+          "year": "2026",
+          "venue": "SN Computer Science",
+          "cited": 0,
+          "doi": "10.1007/s42979-026-05143-w",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "AI-Driven Hybrid Detection and Classification Framework for Secure Sleep Health IoT Networks.",
+          "year": "2026",
+          "venue": "Clocks & sleep",
+          "cited": 0,
+          "doi": "10.3390/clockssleep8020023",
+          "pmid": "42200970",
+          "arx": ""
+        },
+        {
+          "title": "Wearable sleep recording augmented by artificial intelligence for Alzheimer's disease screening.",
+          "year": "2025",
+          "venue": "npj aging",
+          "cited": 0,
+          "doi": "10.1038/s41514-025-00219-y",
+          "pmid": "40346113",
+          "arx": ""
+        }
+      ]
+    },
+    "4.4": {
+      "label": "跨被试/跨数据集/跨设备与领域自适应",
+      "level": "L2",
+      "hits": {
+        "pm_core": 34,
+        "oa_core": 125,
+        "ax_core": "ERR:The read operation timed out",
+        "pm_wearable_ext": 4
+      },
+      "unique": 31,
+      "papers": [
+        {
+          "title": "Automatic sleep stage classification using time–frequency images of CWT and transfer learning using convolution neural network",
+          "year": "2020",
+          "venue": "Journal of Applied Biomedicine",
+          "cited": 182,
+          "doi": "10.1016/j.bbe.2020.01.010",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Multichannel Sleep Stage Classification and Transfer Learning using Convolutional Neural Networks.",
+          "year": "2018",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "cited": 90,
+          "doi": "10.1109/EMBC.2018.8512214",
+          "pmid": "30440365",
+          "arx": ""
+        },
+        {
+          "title": "Expert-level automated sleep staging of long-term scalp electroencephalography recordings using deep learning.",
+          "year": "2020",
+          "venue": "Sleep",
+          "cited": 73,
+          "doi": "10.1093/sleep/zsaa112",
+          "pmid": "32478820",
+          "arx": ""
+        },
+        {
+          "title": "Transfer Learning Convolutional Neural Network for Sleep Stage Classification Using Two-Stage Data Fusion Framework",
+          "year": "2020",
+          "venue": "IEEE Access",
+          "cited": 40,
+          "doi": "10.1109/access.2020.3027289",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Automatic sleep staging method of EEG signal based on transfer learning and fusion network",
+          "year": "2022",
+          "venue": "Neurocomputing",
+          "cited": 38,
+          "doi": "10.1016/j.neucom.2022.02.049",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "A Deep Transfer Learning Framework for Sleep Stage Classification with Single-Channel EEG Signals.",
+          "year": "2022",
+          "venue": "Sensors (Basel, Switzerland)",
+          "cited": 35,
+          "doi": "10.3390/s22228826",
+          "pmid": "36433422",
+          "arx": ""
+        },
+        {
+          "title": "Single-channel EEG based insomnia detection with domain adaptation.",
+          "year": "2021",
+          "venue": "Computers in biology and medicine",
+          "cited": 31,
+          "doi": "10.1016/j.compbiomed.2021.104989",
+          "pmid": "34739969",
+          "arx": ""
+        },
+        {
+          "title": "Single-channel EEG sleep staging based on data augmentation and cross-subject discrepancy alleviation.",
+          "year": "2022",
+          "venue": "Computers in biology and medicine",
+          "cited": 25,
+          "doi": "10.1016/j.compbiomed.2022.106044",
+          "pmid": "36084381",
+          "arx": ""
+        },
+        {
+          "title": "LightSleepNet: Design of a Personalized Portable Sleep Staging System Based on Single-Channel EEG",
+          "year": "2021",
+          "venue": "IEEE Transactions on Circuits & Systems II Express Briefs",
+          "cited": 24,
+          "doi": "10.1109/tcsii.2021.3086981",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Adaptive automatic sleep stage classification under covariate shift.",
+          "year": "2012",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "cited": 22,
+          "doi": "10.1109/EMBC.2012.6346412",
+          "pmid": "23366373",
+          "arx": ""
+        },
+        {
+          "title": "Cross-scenario automatic sleep stage classification using transfer learning and single-channel EEG",
+          "year": "2022",
+          "venue": "Biomedical Signal Processing and Control",
+          "cited": 22,
+          "doi": "10.1016/j.bspc.2022.104501",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Deep transfer learning for automated single-lead EEG sleep staging with channel and population mismatches.",
+          "year": "2023",
+          "venue": "Frontiers in physiology",
+          "cited": 19,
+          "doi": "10.3389/fphys.2023.1287342",
+          "pmid": "38250654",
+          "arx": ""
+        },
+        {
+          "title": "Domain adaptation with optimal transport improves EEG sleep stage classifiers",
+          "year": "2018",
+          "venue": "",
+          "cited": 19,
+          "doi": "10.1109/prni.2018.8423957",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Comparison of deep transfer learning algorithms and transferability measures for wearable sleep staging",
+          "year": "2022",
+          "venue": "BioMedical Engineering OnLine",
+          "cited": 10,
+          "doi": "10.1186/s12938-022-01033-3",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Semi-Supervised Domain Adaptation for Eeg-Based Sleep Stage Classification",
+          "year": "2024",
+          "venue": "",
+          "cited": 9,
+          "doi": "10.1109/icassp48485.2024.10448352",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "An EEG-based single-channel dual-stream automatic sleep staging network with transfer learning",
+          "year": "2025",
+          "venue": "Applied Soft Computing",
+          "cited": 6,
+          "doi": "10.1016/j.asoc.2025.112722",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Optimizing EEG-Based Sleep Staging: Adversarial Deep Learning Joint Domain Adaptation",
+          "year": "2024",
+          "venue": "IEEE Access",
+          "cited": 5,
+          "doi": "10.1109/access.2024.3428435",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Adversarial Domain Adaptation with Self-Training for EEG-based Sleep Stage Classification.",
+          "year": "2021",
+          "venue": "arXiv (Cornell University)",
+          "cited": 4,
+          "doi": "",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Data augmentation in semi-supervised adversarial domain adaptation for EEG-based sleep staging",
+          "year": "2022",
+          "venue": "",
+          "cited": 4,
+          "doi": "10.1109/bhi56158.2022.9926942",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Deep Transfer Learning for Sleep Stages Classification by EEG Data",
+          "year": "2023",
+          "venue": "",
+          "cited": 3,
+          "doi": "10.1109/dmest60476.2023.10339609",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Physics-Informed Transfer Learning to Enhance Sleep Staging.",
+          "year": "2024",
+          "venue": "IEEE transactions on bio-medical engineering",
+          "cited": 0,
+          "doi": "10.1109/TBME.2023.3345888",
+          "pmid": "38133969",
+          "arx": ""
+        },
+        {
+          "title": "Multi-channel EEG-based sleep staging using brain functional connectivity and domain adaptation.",
+          "year": "2023",
+          "venue": "Physiological measurement",
+          "cited": 0,
+          "doi": "10.1088/1361-6579/ad02db",
+          "pmid": "37827169",
+          "arx": ""
+        },
+        {
+          "title": "Deep learning for EEG-based sleep stage classification: a review.",
+          "year": "2026",
+          "venue": "Medical & biological engineering & computing",
+          "cited": 0,
+          "doi": "10.1007/s11517-026-03583-3",
+          "pmid": "42062687",
+          "arx": ""
+        },
+        {
+          "title": "Cross-Domain Transfer of EEG to EEG or ECG Learning for CNN Classification Models.",
+          "year": "2023",
+          "venue": "Sensors (Basel, Switzerland)",
+          "cited": 0,
+          "doi": "10.3390/s23052458",
+          "pmid": "36904661",
+          "arx": ""
+        },
+        {
+          "title": "Transfer Learning for Automatic Sleep Staging Using a Pre-Gelled Electrode Grid.",
+          "year": "2024",
+          "venue": "Diagnostics (Basel, Switzerland)",
+          "cited": 0,
+          "doi": "10.3390/diagnostics14090909",
+          "pmid": "38732323",
+          "arx": ""
+        },
+        {
+          "title": "Mixture of Experts for EEG-Based Seizure Subtype Classification.",
+          "year": "2023",
+          "venue": "IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society",
+          "cited": 0,
+          "doi": "10.1109/TNSRE.2023.3337802",
+          "pmid": "38032784",
+          "arx": ""
+        },
+        {
+          "title": "Deep subdomain adaptation subject-specific sleep staging framework with iterative self-training.",
+          "year": "2025",
+          "venue": "Computer methods and programs in biomedicine",
+          "cited": 0,
+          "doi": "10.1016/j.cmpb.2025.108996",
+          "pmid": "40752460",
+          "arx": ""
+        },
+        {
+          "title": "Automatic sleep staging of single-channel EEG based on domain adversarial neural networks and domain self-attention.",
+          "year": "2023",
+          "venue": "Frontiers in neuroscience",
+          "cited": 0,
+          "doi": "10.3389/fnins.2023.1143495",
+          "pmid": "37090812",
+          "arx": ""
+        },
+        {
+          "title": "Learning individual autonomic representations of sleep stages to improve photoplethysmography based sleep monitoring.",
+          "year": "2025",
+          "venue": "Physiological measurement",
+          "cited": 0,
+          "doi": "10.1088/1361-6579/ae0119",
+          "pmid": "40882681",
+          "arx": ""
+        },
+        {
+          "title": "From Scalp to Ear-EEG: A Generalizable Transfer Learning Model for Automatic Sleep Scoring in Older People.",
+          "year": "2024",
+          "venue": "IEEE journal of translational engineering in health and medicine",
+          "cited": 0,
+          "doi": "10.1109/JTEHM.2024.3388852",
+          "pmid": "38765887",
+          "arx": ""
+        },
+        {
+          "title": "Optimizing wearable single-channel electroencephalography sleep staging in a heterogeneous sleep-disordered population using transfer learning.",
+          "year": "2025",
+          "venue": "Journal of clinical sleep medicine : JCSM : official publication of the American Academy of Sleep Medicine",
+          "cited": 0,
+          "doi": "10.5664/jcsm.11380",
+          "pmid": "39347545",
+          "arx": ""
+        }
+      ]
+    },
+    "4.5": {
+      "label": "在线睡眠状态估计与实时推理",
+      "level": "L3",
+      "hits": {
+        "pm_core": 4,
+        "oa_core": 14,
+        "ax_core": "ERR:The read operation timed out",
+        "pm_causal_lowlatency": 14,
+        "pm_edge_inference": 399
+      },
+      "unique": 39,
+      "papers": [
+        {
+          "title": "Real-time Smartphone-based Sleep Staging using 1-Channel EEG",
+          "year": "2019",
+          "venue": "",
+          "cited": 31,
+          "doi": "10.1109/bsn.2019.8771091",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Development and Study of Ezzence: A Modular Scent Wearable to Improve Wellbeing in Home Sleep Environments.",
+          "year": "2022",
+          "venue": "Frontiers in psychology",
+          "cited": 27,
+          "doi": "10.3389/fpsyg.2022.791768",
+          "pmid": "35369196",
+          "arx": ""
+        },
+        {
+          "title": "LightSleepNet: Design of a Personalized Portable Sleep Staging System Based on Single-Channel EEG",
+          "year": "2021",
+          "venue": "IEEE Transactions on Circuits & Systems II Express Briefs",
+          "cited": 24,
+          "doi": "10.1109/tcsii.2021.3086981",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Home-Use and Real-Time Sleep-Staging System Based on Eye Masks and Mobile Devices with a Deep Learning Model.",
+          "year": "2021",
+          "venue": "Journal of medical and biological engineering",
+          "cited": 23,
+          "doi": "10.1007/s40846-021-00649-5",
+          "pmid": "34512223",
+          "arx": ""
+        },
+        {
+          "title": "Micro SleepNet: efficient deep learning model for mobile terminal real-time sleep staging.",
+          "year": "2023",
+          "venue": "Frontiers in neuroscience",
+          "cited": 12,
+          "doi": "10.3389/fnins.2023.1218072",
+          "pmid": "37575302",
+          "arx": ""
+        },
+        {
+          "title": "Real-time automated neural-network sleep classifier using single channel EEG recording for detection of narcolepsy episodes.",
+          "year": "2008",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "cited": 12,
+          "doi": "10.1109/IEMBS.2008.4649361",
+          "pmid": "19162864",
+          "arx": ""
+        },
+        {
+          "title": "Wireless EEG monitoring system with wearable self-powered flexible sensors",
+          "year": "2025",
+          "venue": "Chemical Engineering Journal",
+          "cited": 9,
+          "doi": "10.1016/j.cej.2025.165446",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Real-Time Sleep Staging using Deep Learning on a Smartphone for a Wearable EEG",
+          "year": "2018",
+          "venue": "arXiv (Cornell University)",
+          "cited": 8,
+          "doi": "10.48550/arxiv.1811.10111",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "An Autonomous Sleep-Stage Detection Technique in Disruptive Technology Environment",
+          "year": "2024",
+          "venue": "Sensors",
+          "cited": 8,
+          "doi": "10.3390/s24041197",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "EfficientSleepNet: A Novel Lightweight End-to-End Model for Automated Sleep Staging on Single-Channel EEG",
+          "year": "2025",
+          "venue": "",
+          "cited": 7,
+          "doi": "10.1109/icassp49660.2025.10889937",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "OSDEE: Open Source Dream Engineering Engine – A Bidirectional Edge-AI Brain-Computer Interface for In-Situ Sleep Cybernetics and EOG-Syntax Communication",
+          "year": "2026",
+          "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+          "cited": 0,
+          "doi": "10.5281/zenodo.20922746",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "OSDEE: Open Source Dream Engineering Engine – A Bidirectional Edge-AI Brain-Computer Interface for In-Situ Sleep Cybernetics and EOG-Syntax Communication",
+          "year": "2026",
+          "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+          "cited": 0,
+          "doi": "10.5281/zenodo.20922745",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Smells, Well-being, and the Built Environment",
+          "year": "2022",
+          "venue": "Frontiers research topics",
+          "cited": 0,
+          "doi": "10.3389/978-2-88976-160-9",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Clinician-Focused Overview and Developments in Polysomnography.",
+          "year": "2020",
+          "venue": "Current sleep medicine reports",
+          "cited": 0,
+          "doi": "10.1007/s40675-020-00197-5",
+          "pmid": "33251088",
+          "arx": ""
+        },
+        {
+          "title": "MultiScaleSleepNet: A Hybrid CNN-BiLSTM-Transformer Architecture with Multi-Scale Feature Representation for Single-Channel EEG Sleep Stage Classification.",
+          "year": "2025",
+          "venue": "Sensors (Basel, Switzerland)",
+          "cited": 0,
+          "doi": "10.3390/s25206328",
+          "pmid": "41157382",
+          "arx": ""
+        },
+        {
+          "title": "DistillSleep: real-time, on-device, interpretable sleep staging from single-channel electroencephalogram.",
+          "year": "2025",
+          "venue": "Sleep",
+          "cited": 0,
+          "doi": "10.1093/sleep/zsaf240",
+          "pmid": "40844034",
+          "arx": ""
+        },
+        {
+          "title": "Selecting a sleep tracker from EEG-based, iteratively improved, low-cost multisensor, and actigraphy-only devices.",
+          "year": "2024",
+          "venue": "Sleep health",
+          "cited": 0,
+          "doi": "10.1016/j.sleh.2023.11.005",
+          "pmid": "38087674",
+          "arx": ""
+        },
+        {
+          "title": "Causal-aware reliability assessment of single-channel EEG for transformer-based sleep staging.",
+          "year": "2025",
+          "venue": "Frontiers in neuroscience",
+          "cited": 0,
+          "doi": "10.3389/fnins.2025.1670124",
+          "pmid": "41132593",
+          "arx": ""
+        },
+        {
+          "title": "SeizFt: Interpretable Machine Learning for Seizure Detection Using Wearables.",
+          "year": "2023",
+          "venue": "Bioengineering (Basel, Switzerland)",
+          "cited": 0,
+          "doi": "10.3390/bioengineering10080918",
+          "pmid": "37627803",
+          "arx": ""
+        },
+        {
+          "title": "A novel, wearable, in-ear EEG technology to assess sleep and daytime sleepiness.",
+          "year": "2026",
+          "venue": "Bioelectronic medicine",
+          "cited": 0,
+          "doi": "10.1186/s42234-026-00207-x",
+          "pmid": "42169202",
+          "arx": ""
+        },
+        {
+          "title": "AI-Driven Hybrid Detection and Classification Framework for Secure Sleep Health IoT Networks.",
+          "year": "2026",
+          "venue": "Clocks & sleep",
+          "cited": 0,
+          "doi": "10.3390/clockssleep8020023",
+          "pmid": "42200970",
+          "arx": ""
+        },
+        {
+          "title": "A Lightweight Neural Network Based on Memory and Transition Probability for Accurate Real-Time Sleep Stage Classification.",
+          "year": "2025",
+          "venue": "Brain sciences",
+          "cited": 0,
+          "doi": "10.3390/brainsci15080789",
+          "pmid": "40867122",
+          "arx": ""
+        },
+        {
+          "title": "Performance of an Ambulatory Dry-EEG Device for Auditory Closed-Loop Stimulation of Sleep Slow Oscillations in the Home Environment.",
+          "year": "2018",
+          "venue": "Frontiers in human neuroscience",
+          "cited": 0,
+          "doi": "10.3389/fnhum.2018.00088",
+          "pmid": "29568267",
+          "arx": ""
+        },
+        {
+          "title": "PicoSleepNet: An Ultra Lightweight Sleep Stage Classification by Spike Neural Network Using Single-Channel EEG Signal.",
+          "year": "2026",
+          "venue": "IEEE journal of biomedical and health informatics",
+          "cited": 0,
+          "doi": "10.1109/JBHI.2025.3602502",
+          "pmid": "40853814",
+          "arx": ""
+        },
+        {
+          "title": "36th International Symposium on Intensive Care and Emergency Medicine : Brussels, Belgium. 15-18 March 2016.",
+          "year": "2016",
+          "venue": "Critical care (London, England)",
+          "cited": 0,
+          "doi": "10.1186/s13054-016-1208-6",
+          "pmid": "27885969",
+          "arx": ""
+        },
+        {
+          "title": "Edge AI-Brain-Computer Interfaces System: A Survey.",
+          "year": "2025",
+          "venue": "IEEE transactions on neural systems and rehabilitation engineering : a publication of the IEEE Engineering in Medicine and Biology Society",
+          "cited": 0,
+          "doi": "10.1109/TNSRE.2025.3618688",
+          "pmid": "41060851",
+          "arx": ""
+        },
+        {
+          "title": "Energy-Efficient Tree-Based EEG Artifact Detection.",
+          "year": "2022",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "cited": 0,
+          "doi": "10.1109/EMBC48229.2022.9871413",
+          "pmid": "36086434",
+          "arx": ""
+        },
+        {
+          "title": "Spiking neural networks for biomedical signal analysis.",
+          "year": "2024",
+          "venue": "Biomedical engineering letters",
+          "cited": 0,
+          "doi": "10.1007/s13534-024-00405-z",
+          "pmid": "39220024",
+          "arx": ""
+        },
+        {
+          "title": "Real-Time EEG-Based Cognitive Workload Monitoring on Wearable Devices.",
+          "year": "2022",
+          "venue": "IEEE transactions on bio-medical engineering",
+          "cited": 0,
+          "doi": "10.1109/TBME.2021.3092206",
+          "pmid": "34166183",
+          "arx": ""
+        },
+        {
+          "title": "Real-time edge computing design for physiological signal analysis and classification.",
+          "year": "2024",
+          "venue": "Biomedical physics & engineering express",
+          "cited": 0,
+          "doi": "10.1088/2057-1976/ad4f8d",
+          "pmid": "38781938",
+          "arx": ""
+        },
+        {
+          "title": "Energy-Efficient Neural Network for Epileptic Seizure Prediction.",
+          "year": "2022",
+          "venue": "IEEE transactions on bio-medical engineering",
+          "cited": 0,
+          "doi": "10.1109/TBME.2021.3095848",
+          "pmid": "34242159",
+          "arx": ""
+        },
+        {
+          "title": "EKFNet: edge-based Kalman filter network for real-time EEG signal denoising.",
+          "year": "2024",
+          "venue": "Journal of neural engineering",
+          "cited": 0,
+          "doi": "10.1088/1741-2552/ad995a",
+          "pmid": "39622170",
+          "arx": ""
+        },
+        {
+          "title": "Time-frequency microstructure and statistical significance of ERD and ERS.",
+          "year": "2006",
+          "venue": "Progress in brain research",
+          "cited": 0,
+          "doi": "10.1016/S0079-6123(06)59008-9",
+          "pmid": "17071227",
+          "arx": ""
+        },
+        {
+          "title": "Hearables: Bioelectronics technological challenges and opportunities.",
+          "year": "2025",
+          "venue": "Wearable technologies",
+          "cited": 0,
+          "doi": "10.1017/wtc.2025.10030",
+          "pmid": "41114004",
+          "arx": ""
+        },
+        {
+          "title": "Tactical-Grade Wearables and Authentication Biometrics.",
+          "year": "2026",
+          "venue": "Sensors (Basel, Switzerland)",
+          "cited": 0,
+          "doi": "10.3390/s26030759",
+          "pmid": "41682275",
+          "arx": ""
+        },
+        {
+          "title": "Estimating and detecting slow wave events in EEG.",
+          "year": "2024",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "cited": 0,
+          "doi": "10.1109/EMBC53108.2024.10782352",
+          "pmid": "40039115",
+          "arx": ""
+        },
+        {
+          "title": "Ternary spike-based neuromorphic signal processing system.",
+          "year": "2025",
+          "venue": "Neural networks : the official journal of the International Neural Network Society",
+          "cited": 0,
+          "doi": "10.1016/j.neunet.2025.107333",
+          "pmid": "40081275",
+          "arx": ""
+        },
+        {
+          "title": "Energy-efficient real-time 4-stage sleep classification at 10-second resolution.",
+          "year": "2026",
+          "venue": "Medical & biological engineering & computing",
+          "cited": 0,
+          "doi": "10.1007/s11517-026-03616-x",
+          "pmid": "42371348",
+          "arx": ""
+        },
+        {
+          "title": "Embedded Brain Computer Interface: State-of-the-Art in Research.",
+          "year": "2021",
+          "venue": "Sensors (Basel, Switzerland)",
+          "cited": 0,
+          "doi": "10.3390/s21134293",
+          "pmid": "34201788",
+          "arx": ""
+        }
+      ]
+    },
+    "4.6": {
+      "label": "N3/慢波实时检测与事件级识别",
+      "level": "L3",
+      "hits": {
+        "pm_stage_level": 16,
+        "oa_stage_level": 65,
+        "pm_event_level": 55,
+        "oa_event_level": 191
+      },
+      "unique": 51,
+      "papers": [
+        {
+          "title": "Sleep-Dependent Improvement in Visuomotor Learning: A Causal Role for Slow Waves",
+          "year": "2009",
+          "venue": "SLEEP",
+          "cited": 228,
+          "doi": "10.1093/sleep/32.10.1273",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "EEG-Guided Transcranial Magnetic Stimulation Reveals Rapid Shifts in Motor Cortical Excitability during the Human Sleep Slow Oscillation",
+          "year": "2012",
+          "venue": "Journal of Neuroscience",
+          "cited": 226,
+          "doi": "10.1523/jneurosci.4792-11.2012",
+          "pmid": "",
+          "arx": "",
+          "oa": "bronze"
+        },
+        {
+          "title": "Driving sleep slow oscillations by auditory closed-loop stimulation-a self-limiting process.",
+          "year": "2015",
+          "venue": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+          "cited": 223,
+          "doi": "10.1523/JNEUROSCI.3133-14.2015",
+          "pmid": "25926443",
+          "arx": ""
+        },
+        {
+          "title": "Closed-Loop Slow-Wave tACS Improves Sleep-Dependent Long-Term Memory Generalization by Modulating Endogenous Oscillations.",
+          "year": "2018",
+          "venue": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+          "cited": 162,
+          "doi": "10.1523/JNEUROSCI.0273-18.2018",
+          "pmid": "30037830",
+          "arx": ""
+        },
+        {
+          "title": "Clinical application of compressed spectral array in long-term EEG monitoring of comatose patients",
+          "year": "1978",
+          "venue": "Electroencephalography and Clinical Neurophysiology",
+          "cited": 160,
+          "doi": "10.1016/0013-4694(78)90005-6",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Performance of an Ambulatory Dry-EEG Device for Auditory Closed-Loop Stimulation of Sleep Slow Oscillations in the Home Environment",
+          "year": "2018",
+          "venue": "Frontiers in Human Neuroscience",
+          "cited": 120,
+          "doi": "10.3389/fnhum.2018.00088",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Phase-locked loop for precisely timed acoustic stimulation during sleep.",
+          "year": "2016",
+          "venue": "Journal of neuroscience methods",
+          "cited": 107,
+          "doi": "10.1016/j.jneumeth.2015.11.007",
+          "pmid": "26617321",
+          "arx": ""
+        },
+        {
+          "title": "Acoustic slow wave sleep enhancement via a novel, automated device improves executive function in middle-aged men",
+          "year": "2019",
+          "venue": "SLEEP",
+          "cited": 74,
+          "doi": "10.1093/sleep/zsz197",
+          "pmid": "",
+          "arx": "",
+          "oa": "bronze"
+        },
+        {
+          "title": "Configurable Mobile System for Autonomous High-Quality Sleep Monitoring and Closed-Loop Acoustic Stimulation",
+          "year": "2019",
+          "venue": "IEEE Sensors Letters",
+          "cited": 57,
+          "doi": "10.1109/lsens.2019.2914425",
+          "pmid": "",
+          "arx": "",
+          "oa": "hybrid"
+        },
+        {
+          "title": "Cortico-cerebellar coherence and causal connectivity during slow-wave activity.",
+          "year": "2010",
+          "venue": "Neuroscience",
+          "cited": 53,
+          "doi": "10.1016/j.neuroscience.2009.12.048",
+          "pmid": "20036719",
+          "arx": ""
+        },
+        {
+          "title": "Dose-Dependent Effects of Closed-Loop tACS Delivered During Slow-Wave Oscillations on Memory Consolidation.",
+          "year": "2018",
+          "venue": "Frontiers in neuroscience",
+          "cited": 51,
+          "doi": "10.3389/fnins.2018.00867",
+          "pmid": "30538617",
+          "arx": ""
+        },
+        {
+          "title": "Visual and computer-based analysis of 24 h sleep-waking patterns in the dog.",
+          "year": "1979",
+          "venue": "Electroencephalography and clinical neurophysiology",
+          "cited": 51,
+          "doi": "10.1016/0013-4694(79)90047-6",
+          "pmid": "88329",
+          "arx": ""
+        },
+        {
+          "title": "Simple statistical regularities presented during sleep are detected but not retained.",
+          "year": "2022",
+          "venue": "Neuropsychologia",
+          "cited": 40,
+          "doi": "10.1016/j.neuropsychologia.2021.108106",
+          "pmid": "34864052",
+          "arx": ""
+        },
+        {
+          "title": "A New Method for Human Mental Fatigue Detection with Several EEG Channels",
+          "year": "2017",
+          "venue": "Journal of Medical and Biological Engineering",
+          "cited": 40,
+          "doi": "10.1007/s40846-017-0224-6",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Benchmarking Real-Time Algorithms for In-Phase Auditory Stimulation of Low Amplitude Slow Waves With Wearable EEG Devices During Sleep.",
+          "year": "2022",
+          "venue": "IEEE transactions on bio-medical engineering",
+          "cited": 36,
+          "doi": "10.1109/TBME.2022.3157468",
+          "pmid": "35259094",
+          "arx": ""
+        },
+        {
+          "title": "Cortical visual areas process intestinal information during slow‐wave sleep",
+          "year": "2012",
+          "venue": "Neurogastroenterology & Motility",
+          "cited": 34,
+          "doi": "10.1111/nmo.12052",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Closed-Loop Acoustic Stimulation During Sleep in Children With Epilepsy: A Hypothesis-Driven Novel Approach to Interact With Spike-Wave Activity and Pilot Data Assessing Feasibility.",
+          "year": "2019",
+          "venue": "Frontiers in human neuroscience",
+          "cited": 32,
+          "doi": "10.3389/fnhum.2019.00166",
+          "pmid": "31164813",
+          "arx": ""
+        },
+        {
+          "title": "Real-time Smartphone-based Sleep Staging using 1-Channel EEG",
+          "year": "2019",
+          "venue": "",
+          "cited": 31,
+          "doi": "10.1109/bsn.2019.8771091",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Automatic detection of slow wave sleep using two channel electro-oculography.",
+          "year": "2007",
+          "venue": "Journal of neuroscience methods",
+          "cited": 25,
+          "doi": "10.1016/j.jneumeth.2006.08.002",
+          "pmid": "16965823",
+          "arx": ""
+        },
+        {
+          "title": "Intensive care unit depth of sleep: proof of concept of a simple electroencephalography index in the non-sedated.",
+          "year": "2014",
+          "venue": "Critical care (London, England)",
+          "cited": 23,
+          "doi": "10.1186/cc13823",
+          "pmid": "24716479",
+          "arx": ""
+        },
+        {
+          "title": "A real-time classification algorithm for emotion detection using portable EEG",
+          "year": "2013",
+          "venue": "",
+          "cited": 19,
+          "doi": "10.1109/iri.2013.6642541",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "A CNN-Transformer Deep Learning Model for Real-time Sleep Stage Classification in an Energy-Constrained Wireless Device<sup>*</sup>",
+          "year": "2023",
+          "venue": "",
+          "cited": 18,
+          "doi": "10.1109/ner52421.2023.10123825",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Hypoglycemia-Associated EEG Changes in Prepubertal Children With Type 1 Diabetes.",
+          "year": "2016",
+          "venue": "Journal of diabetes science and technology",
+          "cited": 16,
+          "doi": "10.1177/1932296816634357",
+          "pmid": "26920641",
+          "arx": ""
+        },
+        {
+          "title": "Ongoing neural oscillations predict the post-stimulus outcome of closed loop auditory stimulation during slow-wave sleep.",
+          "year": "2022",
+          "venue": "NeuroImage",
+          "cited": 14,
+          "doi": "10.1016/j.neuroimage.2022.119055",
+          "pmid": "35276365",
+          "arx": ""
+        },
+        {
+          "title": "Hybrid in-phase and continuous auditory stimulation significantly enhances slow wave activity during sleep",
+          "year": "2019",
+          "venue": "",
+          "cited": 14,
+          "doi": "10.1109/embc.2019.8857678",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "A wearable EEG system for closed-loop neuromodulation of sleep-related oscillations.",
+          "year": "2023",
+          "venue": "Journal of neural engineering",
+          "cited": 13,
+          "doi": "10.1088/1741-2552/acfb3b",
+          "pmid": "37726002",
+          "arx": ""
+        },
+        {
+          "title": "Real-Time Excitation of Slow Oscillations during Deep Sleep Using Acoustic Stimulation.",
+          "year": "2021",
+          "venue": "Sensors (Basel, Switzerland)",
+          "cited": 13,
+          "doi": "10.3390/s21155169",
+          "pmid": "34372405",
+          "arx": ""
+        },
+        {
+          "title": "A Takagi-Sugeno fuzzy neural network-based algorithm with single-channel EEG signal for the discrimination between light and deep sleep stages",
+          "year": "2016",
+          "venue": "",
+          "cited": 6,
+          "doi": "10.1109/biocas.2016.7833849",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "ezscore-f: A Set of Freely Available, Validated Sleep Stage Classifiers for Forehead EEG",
+          "year": "2025",
+          "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "cited": 6,
+          "doi": "10.1101/2025.06.02.657451",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "0085 SleepInceptionNet: A Deep Learning Algorithm for Real-Time Sleep Stages Scoring Using Single-channel EEG",
+          "year": "2022",
+          "venue": "SLEEP",
+          "cited": 3,
+          "doi": "10.1093/sleep/zsac079.083",
+          "pmid": "",
+          "arx": "",
+          "oa": "bronze"
+        },
+        {
+          "title": "A CNN-Transformer Deep Learning Model for Real-time Sleep Stage Classification in an Energy-Constrained Wireless Device",
+          "year": "2022",
+          "venue": "medRxiv",
+          "cited": 3,
+          "doi": "10.1101/2022.11.21.22282544",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "MultiScaleSleepNet: A Hybrid CNN-BiLSTM-Transformer Architecture with Multi-Scale Feature Representation for Single-Channel EEG Sleep Stage Classification.",
+          "year": "2025",
+          "venue": "Sensors (Basel, Switzerland)",
+          "cited": 2,
+          "doi": "10.3390/s25206328",
+          "pmid": "41157382",
+          "arx": ""
+        },
+        {
+          "title": "Analysis of EEG signals using complex brain networks",
+          "year": "2026",
+          "venue": "",
+          "cited": 2,
+          "doi": "10.26192/q31vw",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Real-Time Classification of Deep and Non-Deep Sleep With Comparative Intervention Experiments",
+          "year": "2024",
+          "venue": "IEEE Access",
+          "cited": 1,
+          "doi": "10.1109/access.2024.3514890",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "A hybrid deep learning framework for sleep stage classification using single channel EEG signals",
+          "year": "2026",
+          "venue": "Discover Artificial Intelligence",
+          "cited": 1,
+          "doi": "10.1007/s44163-026-01092-8",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Multiscalesleepnet: A Hybrid Cnn-Bilstm-Transformer Architecture with Multi-Scale Feature Representation for Single-Channel Eeg Sleep Stage Classification",
+          "year": "2025",
+          "venue": "SSRN Electronic Journal",
+          "cited": 1,
+          "doi": "10.2139/ssrn.5297934",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "CLAS-hdEEG: high-density EEG software platform for real-time delta wave detection and closed-loop auditory stimulation.",
+          "year": "2026",
+          "venue": "Journal of neural engineering",
+          "cited": 0,
+          "doi": "10.1088/1741-2552/ae4e5b",
+          "pmid": "41791124",
+          "arx": ""
+        },
+        {
+          "title": "Predictive Modeling of Sleep Slow Oscillation Emergence on the electrode manifold: Toward Personalized Closed-Loop Brain Stimulation.",
+          "year": "2024",
+          "venue": "bioRxiv : the preprint server for biology",
+          "cited": 0,
+          "doi": "10.1101/2024.09.03.611113",
+          "pmid": "39282426",
+          "arx": ""
+        },
+        {
+          "title": "Exploring the local field potential signal from the subthalamic nucleus for phase-targeted auditory stimulation in Parkinson's disease.",
+          "year": "2024",
+          "venue": "Brain stimulation",
+          "cited": 0,
+          "doi": "10.1016/j.brs.2024.06.007",
+          "pmid": "38906529",
+          "arx": ""
+        },
+        {
+          "title": "A Blind Module Identification Approach for Predicting Effective Connectivity Within Brain Dynamical Subnetworks.",
+          "year": "2019",
+          "venue": "Brain topography",
+          "cited": 0,
+          "doi": "10.1007/s10548-018-0666-3",
+          "pmid": "30076488",
+          "arx": ""
+        },
+        {
+          "title": "An EEG averaging technique for automated sleep-wake stage identification in the rat.",
+          "year": "1984",
+          "venue": "Physiology & behavior",
+          "cited": 0,
+          "doi": "10.1016/0031-9384(84)90056-8",
+          "pmid": "6522504",
+          "arx": ""
+        },
+        {
+          "title": "Development of a computer program classifying rat sleep stages.",
+          "year": "1990",
+          "venue": "Journal of neuroscience methods",
+          "cited": 0,
+          "doi": "10.1016/0165-0270(90)90158-c",
+          "pmid": "2319814",
+          "arx": ""
+        },
+        {
+          "title": "Convergent and divergent effects of REM and slow-wave sleep on glucose metabolism and hedonic food intake",
+          "year": "2026",
+          "venue": "OSF Preprints (OSF Preprints)",
+          "cited": 0,
+          "doi": "",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Sounding It Out: Auditory Stimulation and Overnight Memory Processing.",
+          "year": "2021",
+          "venue": "Current sleep medicine reports",
+          "cited": 0,
+          "doi": "10.1007/s40675-021-00207-0",
+          "pmid": "34722123",
+          "arx": ""
+        },
+        {
+          "title": "Protocol for modulating anesthesia delta oscillations using closed loop auditory stimulation.",
+          "year": "2026",
+          "venue": "Frontiers in human neuroscience",
+          "cited": 0,
+          "doi": "10.3389/fnhum.2026.1748528",
+          "pmid": "41877763",
+          "arx": ""
+        },
+        {
+          "title": "Closed-Loop Auditory Stimulation (CLAS) During Sleep Augments Language and Discovery Learning.",
+          "year": "2024",
+          "venue": "Brain sciences",
+          "cited": 0,
+          "doi": "10.3390/brainsci14111138",
+          "pmid": "39595901",
+          "arx": ""
+        },
+        {
+          "title": "A system based on machine learning for improving sleep.",
+          "year": "2023",
+          "venue": "Journal of neuroscience methods",
+          "cited": 0,
+          "doi": "10.1016/j.jneumeth.2023.109936",
+          "pmid": "37524247",
+          "arx": ""
+        },
+        {
+          "title": "EEG-LLAMAS: A low-latency neurofeedback platform for artifact reduction in EEG-fMRI.",
+          "year": "2023",
+          "venue": "NeuroImage",
+          "cited": 0,
+          "doi": "10.1016/j.neuroimage.2023.120092",
+          "pmid": "37028736",
+          "arx": ""
+        },
+        {
+          "title": "The neurophysiology of closed-loop auditory stimulation in sleep: A magnetoencephalography study.",
+          "year": "2024",
+          "venue": "The European journal of neuroscience",
+          "cited": 0,
+          "doi": "10.1111/ejn.16132",
+          "pmid": "37675803",
+          "arx": ""
+        },
+        {
+          "title": "Neurophysiological Markers of Internet Gaming Disorder: A Literature Review of Electroencephalography Studies.",
+          "year": "2021",
+          "venue": "Cureus",
+          "cited": 0,
+          "doi": "10.7759/cureus.17866",
+          "pmid": "34660067",
+          "arx": ""
+        },
+        {
+          "title": "Absence Seizure Detection Algorithm for Portable EEG Devices.",
+          "year": "2021",
+          "venue": "Frontiers in neurology",
+          "cited": 0,
+          "doi": "10.3389/fneur.2021.685814",
+          "pmid": "34267723",
+          "arx": ""
+        }
+      ]
+    },
+    "4.7": {
+      "label": "闭环声音刺激",
+      "level": "L4/L5",
+      "hits": {
+        "pm_core": 38,
+        "oa_core": 80,
+        "pm_phase_locked": 37
+      },
+      "unique": 34,
+      "papers": [
+        {
+          "title": "Enhancement of sleep slow waves: underlying mechanisms and practical consequences",
+          "year": "2014",
+          "venue": "Frontiers in Systems Neuroscience",
+          "cited": 259,
+          "doi": "10.3389/fnsys.2014.00208",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Driving sleep slow oscillations by auditory closed-loop stimulation-a self-limiting process.",
+          "year": "2015",
+          "venue": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+          "cited": 223,
+          "doi": "10.1523/JNEUROSCI.3133-14.2015",
+          "pmid": "25926443",
+          "arx": ""
+        },
+        {
+          "title": "Effects of phase-locked acoustic stimulation during a nap on EEG spectra and declarative memory consolidation",
+          "year": "2015",
+          "venue": "Sleep Medicine",
+          "cited": 175,
+          "doi": "10.1016/j.sleep.2015.10.016",
+          "pmid": "",
+          "arx": "",
+          "oa": "hybrid"
+        },
+        {
+          "title": "Performance of an Ambulatory Dry-EEG Device for Auditory Closed-Loop Stimulation of Sleep Slow Oscillations in the Home Environment",
+          "year": "2018",
+          "venue": "Frontiers in Human Neuroscience",
+          "cited": 120,
+          "doi": "10.3389/fnhum.2018.00088",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Phase-locked loop for precisely timed acoustic stimulation during sleep.",
+          "year": "2016",
+          "venue": "Journal of neuroscience methods",
+          "cited": 107,
+          "doi": "10.1016/j.jneumeth.2015.11.007",
+          "pmid": "26617321",
+          "arx": ""
+        },
+        {
+          "title": "Closed-loop system to enhance slow-wave activity.",
+          "year": "2018",
+          "venue": "Journal of neural engineering",
+          "cited": 80,
+          "doi": "10.1088/1741-2552/aae18f",
+          "pmid": "30215604",
+          "arx": ""
+        },
+        {
+          "title": "Acoustic slow wave sleep enhancement via a novel, automated device improves executive function in middle-aged men",
+          "year": "2019",
+          "venue": "SLEEP",
+          "cited": 74,
+          "doi": "10.1093/sleep/zsz197",
+          "pmid": "",
+          "arx": "",
+          "oa": "bronze"
+        },
+        {
+          "title": "Configurable Mobile System for Autonomous High-Quality Sleep Monitoring and Closed-Loop Acoustic Stimulation",
+          "year": "2019",
+          "venue": "IEEE Sensors Letters",
+          "cited": 57,
+          "doi": "10.1109/lsens.2019.2914425",
+          "pmid": "",
+          "arx": "",
+          "oa": "hybrid"
+        },
+        {
+          "title": "A Thalamocortical Neural Mass Model of the EEG during NREM Sleep and Its Response to Auditory Stimulation",
+          "year": "2016",
+          "venue": "PLoS Computational Biology",
+          "cited": 47,
+          "doi": "10.1371/journal.pcbi.1005022",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Phase-locked auditory stimulation of theta oscillations during rapid eye movement sleep.",
+          "year": "2021",
+          "venue": "Sleep",
+          "cited": 37,
+          "doi": "10.1093/sleep/zsaa227",
+          "pmid": "33159523",
+          "arx": ""
+        },
+        {
+          "title": "Benchmarking Real-Time Algorithms for In-Phase Auditory Stimulation of Low Amplitude Slow Waves With Wearable EEG Devices During Sleep",
+          "year": "2022",
+          "venue": "IEEE Transactions on Biomedical Engineering",
+          "cited": 36,
+          "doi": "10.1109/tbme.2022.3157468",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Closed-loop modulation of local slow oscillations in human NREM sleep.",
+          "year": "2022",
+          "venue": "NeuroImage",
+          "cited": 35,
+          "doi": "10.1016/j.neuroimage.2022.119682",
+          "pmid": "36240988",
+          "arx": ""
+        },
+        {
+          "title": "Closed-Loop Acoustic Stimulation During Sleep in Children With Epilepsy: A Hypothesis-Driven Novel Approach to Interact With Spike-Wave Activity and Pilot Data Assessing Feasibility",
+          "year": "2019",
+          "venue": "Frontiers in Human Neuroscience",
+          "cited": 32,
+          "doi": "10.3389/fnhum.2019.00166",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "The neurophysiology of closed-loop auditory stimulation in sleep: A magnetoencephalography study.",
+          "year": "2024",
+          "venue": "The European journal of neuroscience",
+          "cited": 20,
+          "doi": "10.1111/ejn.16132",
+          "pmid": "37675803",
+          "arx": ""
+        },
+        {
+          "title": "Auditory closed-loop stimulation on sleep slow oscillations using in-ear EEG sensors.",
+          "year": "2022",
+          "venue": "Journal of sleep research",
+          "cited": 15,
+          "doi": "10.1111/jsr.13555",
+          "pmid": "35124848",
+          "arx": ""
+        },
+        {
+          "title": "Ongoing neural oscillations predict the post-stimulus outcome of closed loop auditory stimulation during slow-wave sleep.",
+          "year": "2022",
+          "venue": "NeuroImage",
+          "cited": 14,
+          "doi": "10.1016/j.neuroimage.2022.119055",
+          "pmid": "35276365",
+          "arx": ""
+        },
+        {
+          "title": "A wearable EEG system for closed-loop neuromodulation of sleep-related oscillations.",
+          "year": "2023",
+          "venue": "Journal of neural engineering",
+          "cited": 13,
+          "doi": "10.1088/1741-2552/acfb3b",
+          "pmid": "37726002",
+          "arx": ""
+        },
+        {
+          "title": "Real-Time Excitation of Slow Oscillations during Deep Sleep Using Acoustic Stimulation.",
+          "year": "2021",
+          "venue": "Sensors (Basel, Switzerland)",
+          "cited": 13,
+          "doi": "10.3390/s21155169",
+          "pmid": "34372405",
+          "arx": ""
+        },
+        {
+          "title": "Daytime dexmedetomidine sedation with closed-loop acoustic stimulation alters slow wave sleep homeostasis in healthy adults",
+          "year": "2024",
+          "venue": "BJA Open",
+          "cited": 10,
+          "doi": "10.1016/j.bjao.2024.100276",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Possible mechanisms to improve sleep spindles via closed loop stimulation during slow wave sleep: A computational study",
+          "year": "2024",
+          "venue": "PLoS ONE",
+          "cited": 7,
+          "doi": "10.1371/journal.pone.0306218",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Sounding It Out: Auditory Stimulation and Overnight Memory Processing.",
+          "year": "2021",
+          "venue": "Current sleep medicine reports",
+          "cited": 0,
+          "doi": "10.1007/s40675-021-00207-0",
+          "pmid": "34722123",
+          "arx": ""
+        },
+        {
+          "title": "Closed-Loop Auditory Stimulation (CLAS) During Sleep Augments Language and Discovery Learning.",
+          "year": "2024",
+          "venue": "Brain sciences",
+          "cited": 0,
+          "doi": "10.3390/brainsci14111138",
+          "pmid": "39595901",
+          "arx": ""
+        },
+        {
+          "title": "Protocol for modulating anesthesia delta oscillations using closed loop auditory stimulation.",
+          "year": "2026",
+          "venue": "Frontiers in human neuroscience",
+          "cited": 0,
+          "doi": "10.3389/fnhum.2026.1748528",
+          "pmid": "41877763",
+          "arx": ""
+        },
+        {
+          "title": "Slow-wave sleep as a key player in offline memory processing: insights from human EEG studies.",
+          "year": "2025",
+          "venue": "Frontiers in behavioral neuroscience",
+          "cited": 0,
+          "doi": "10.3389/fnbeh.2025.1620544",
+          "pmid": "40842704",
+          "arx": ""
+        },
+        {
+          "title": "A system based on machine learning for improving sleep.",
+          "year": "2023",
+          "venue": "Journal of neuroscience methods",
+          "cited": 0,
+          "doi": "10.1016/j.jneumeth.2023.109936",
+          "pmid": "37524247",
+          "arx": ""
+        },
+        {
+          "title": "Boosting Recovery During Sleep by Means of Auditory Stimulation.",
+          "year": "2022",
+          "venue": "Frontiers in neuroscience",
+          "cited": 0,
+          "doi": "10.3389/fnins.2022.755958",
+          "pmid": "35185455",
+          "arx": ""
+        },
+        {
+          "title": "Insights on auditory closed-loop stimulation targeting sleep spindles in slow oscillation up-states.",
+          "year": "2019",
+          "venue": "Journal of neuroscience methods",
+          "cited": 0,
+          "doi": "10.1016/j.jneumeth.2018.09.006",
+          "pmid": "30194953",
+          "arx": ""
+        },
+        {
+          "title": "A closed-loop auditory stimulation approach selectively modulates alpha oscillations and sleep onset dynamics in humans.",
+          "year": "2024",
+          "venue": "PLoS biology",
+          "cited": 0,
+          "doi": "10.1371/journal.pbio.3002651",
+          "pmid": "38889194",
+          "arx": ""
+        },
+        {
+          "title": "Sound asleep: processing and retention of slow oscillation phase-targeted stimuli.",
+          "year": "2014",
+          "venue": "PloS one",
+          "cited": 0,
+          "doi": "10.1371/journal.pone.0101567",
+          "pmid": "24999803",
+          "arx": ""
+        },
+        {
+          "title": "Local modulation of sleep slow waves depends on timing between auditory stimuli.",
+          "year": "2025",
+          "venue": "NeuroImage",
+          "cited": 0,
+          "doi": "10.1016/j.neuroimage.2025.121561",
+          "pmid": "41167492",
+          "arx": ""
+        },
+        {
+          "title": "Modulation of phase-locked neural responses to speech during different arousal states is age-dependent.",
+          "year": "2019",
+          "venue": "NeuroImage",
+          "cited": 0,
+          "doi": "10.1016/j.neuroimage.2019.01.049",
+          "pmid": "30703520",
+          "arx": ""
+        },
+        {
+          "title": "Multi-night acoustic stimulation is associated with better sleep, amyloid dynamics, and memory in older adults with cognitive impairment.",
+          "year": "2024",
+          "venue": "GeroScience",
+          "cited": 0,
+          "doi": "10.1007/s11357-024-01195-z",
+          "pmid": "38744792",
+          "arx": ""
+        },
+        {
+          "title": "Exploring the local field potential signal from the subthalamic nucleus for phase-targeted auditory stimulation in Parkinson's disease.",
+          "year": "2024",
+          "venue": "Brain stimulation",
+          "cited": 0,
+          "doi": "10.1016/j.brs.2024.06.007",
+          "pmid": "38906529",
+          "arx": ""
+        },
+        {
+          "title": "A randomized controlled trial of alpha phase-locked auditory stimulation to treat symptoms of sleep onset insomnia.",
+          "year": "2024",
+          "venue": "Scientific reports",
+          "cited": 0,
+          "doi": "10.1038/s41598-024-63385-1",
+          "pmid": "38844793",
+          "arx": ""
+        }
+      ]
+    },
+    "4.8": {
+      "label": "闭环经皮电刺激",
+      "level": "L4/L5",
+      "hits": {
+        "pm_core": 3,
+        "oa_core": 7
+      },
+      "unique": 7,
+      "papers": [
+        {
+          "title": "Closed-Loop Slow-Wave tACS Improves Sleep-Dependent Long-Term Memory Generalization by Modulating Endogenous Oscillations.",
+          "year": "2018",
+          "venue": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+          "cited": 162,
+          "doi": "10.1523/JNEUROSCI.0273-18.2018",
+          "pmid": "30037830",
+          "arx": ""
+        },
+        {
+          "title": "Dose-Dependent Effects of Closed-Loop tACS Delivered During Slow-Wave Oscillations on Memory Consolidation.",
+          "year": "2018",
+          "venue": "Frontiers in neuroscience",
+          "cited": 51,
+          "doi": "10.3389/fnins.2018.00867",
+          "pmid": "30538617",
+          "arx": ""
+        },
+        {
+          "title": "Feasibility of home-based automated transcranial electrical stimulation during slow wave sleep",
+          "year": "2019",
+          "venue": "Brain stimulation",
+          "cited": 6,
+          "doi": "10.1016/j.brs.2019.02.014",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Brain connectivity alterations during sleep by closed-loop transcranial neurostimulation predict metamemory sensitivity.",
+          "year": "2021",
+          "venue": "Network neuroscience (Cambridge, Mass.)",
+          "cited": 4,
+          "doi": "10.1162/netn_a_00201",
+          "pmid": "34746625",
+          "arx": ""
+        },
+        {
+          "title": "Efficacy and parameter selection of transcranial alternating current stimulation in sleep regulation",
+          "year": "2026",
+          "venue": "Chinese Medical Journal",
+          "cited": 0,
+          "doi": "10.1097/cm9.0000000000003997",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "0245 CLOSED-LOOP TACS DURING SWS BOOSTS SLOW-WAVE AND DELTA POWER AND POST-SLEEP MEMORY FOR THREAT DETECTION ON NOVEL STIMULI",
+          "year": "2017",
+          "venue": "SLEEP",
+          "cited": 0,
+          "doi": "10.1093/sleepj/zsx050.244",
+          "pmid": "",
+          "arx": "",
+          "oa": "bronze"
+        },
+        {
+          "title": "0060 A Classification Based Generative Approach to Selective Targeting of Global Slow Oscillations during Sleep",
+          "year": "2023",
+          "venue": "SLEEP",
+          "cited": 0,
+          "doi": "10.1093/sleep/zsad077.0060",
+          "pmid": "",
+          "arx": "",
+          "oa": "bronze"
+        }
+      ]
+    },
+    "4.9": {
+      "label": "闭环端到端时延与控制链路",
+      "level": "L4",
+      "hits": {
+        "pm_core": 12,
+        "oa_core": 23,
+        "pm_system": 12
+      },
+      "unique": 34,
+      "papers": [
+        {
+          "title": "Early Seizure Detection Algorithm Based on Intracranial EEG and Random Forest Classification",
+          "year": "2015",
+          "venue": "International Journal of Neural Systems",
+          "cited": 162,
+          "doi": "10.1142/s0129065715500239",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "EEG and MEG primers for tracking DBS network effects",
+          "year": "2020",
+          "venue": "NeuroImage",
+          "cited": 42,
+          "doi": "10.1016/j.neuroimage.2020.117447",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "[\"ConnectToBrain\" : Synergy project for therapeutic closed-loop stimulation of brain network disorders].",
+          "year": "2019",
+          "venue": "Der Nervenarzt",
+          "cited": 8,
+          "doi": "10.1007/s00115-019-0747-x",
+          "pmid": "31236628",
+          "arx": ""
+        },
+        {
+          "title": "Accurate detection of spontaneous seizures using a generalized linear model with external validation.",
+          "year": "2020",
+          "venue": "Epilepsia",
+          "cited": 8,
+          "doi": "10.1111/epi.16628",
+          "pmid": "32761902",
+          "arx": ""
+        },
+        {
+          "title": "Possible mechanisms to improve sleep spindles via closed loop stimulation during slow wave sleep: A computational study.",
+          "year": "2024",
+          "venue": "PloS one",
+          "cited": 7,
+          "doi": "10.1371/journal.pone.0306218",
+          "pmid": "38924001",
+          "arx": ""
+        },
+        {
+          "title": "Epilepsy Surgery and the Evolution of Clinical and Translational Science",
+          "year": "2014",
+          "venue": "Neurosurgery",
+          "cited": 7,
+          "doi": "10.1227/neu.0000000000000399",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Deep learning-based early detection of absence seizures in children",
+          "year": "2024",
+          "venue": "Biomedical Signal Processing and Control",
+          "cited": 6,
+          "doi": "10.1016/j.bspc.2024.106845",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Vagus nerve electroneurogram-based detection of acute kainic acid induced seizures.",
+          "year": "2024",
+          "venue": "Frontiers in neuroscience",
+          "cited": 4,
+          "doi": "10.3389/fnins.2024.1427308",
+          "pmid": "39170680",
+          "arx": ""
+        },
+        {
+          "title": "FPGA-based LSTM Acceleration for Real-Time EEG Signal Processing",
+          "year": "2018",
+          "venue": "",
+          "cited": 3,
+          "doi": "10.1145/3174243.3174969",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "A High-Precision Timing Method and Digital Interface for Closed-Loop TMS",
+          "year": "2025",
+          "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "cited": 2,
+          "doi": "10.1101/2025.04.05.647340",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Abatement of epileptic spike-wave discharges through single pulse stimulation",
+          "year": "2013",
+          "venue": "BMC Neuroscience",
+          "cited": 2,
+          "doi": "10.1186/1471-2202-14-s1-p13",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Closed-loop stimulation modulates attention shifting in children",
+          "year": "2026",
+          "venue": "Nature Neuroscience",
+          "cited": 1,
+          "doi": "10.1038/s41593-026-02294-0",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Selection of stimulus parameters for enhancing slow wave sleep events with a Neural-field theory thalamocortical computational model",
+          "year": "2021",
+          "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "cited": 1,
+          "doi": "10.1101/2021.02.03.429528",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "The neurophysiology of closed-loop auditory stimulation in sleep: A magnetoencephalography study.",
+          "year": "2024",
+          "venue": "The European journal of neuroscience",
+          "cited": 0,
+          "doi": "10.1111/ejn.16132",
+          "pmid": "37675803",
+          "arx": ""
+        },
+        {
+          "title": "CLoSES: A platform for closed-loop intracranial stimulation in humans.",
+          "year": "2020",
+          "venue": "NeuroImage",
+          "cited": 0,
+          "doi": "10.1016/j.neuroimage.2020.117314",
+          "pmid": "32882382",
+          "arx": ""
+        },
+        {
+          "title": "Personalized real-time inference of momentary excitability from human EEG.",
+          "year": "2025",
+          "venue": "NeuroImage",
+          "cited": 0,
+          "doi": "10.1016/j.neuroimage.2025.121547",
+          "pmid": "41135744",
+          "arx": ""
+        },
+        {
+          "title": "Delayed closed-loop neurostimulation for the treatment of pathological brain rhythms in mental disorders: a computational study.",
+          "year": "2023",
+          "venue": "Frontiers in neuroscience",
+          "cited": 0,
+          "doi": "10.3389/fnins.2023.1183670",
+          "pmid": "37476837",
+          "arx": ""
+        },
+        {
+          "title": "Predictive Modeling of Sleep Slow Oscillation Emergence on the electrode manifold: Toward Personalized Closed-Loop Brain Stimulation.",
+          "year": "2024",
+          "venue": "bioRxiv : the preprint server for biology",
+          "cited": 0,
+          "doi": "10.1101/2024.09.03.611113",
+          "pmid": "39282426",
+          "arx": ""
+        },
+        {
+          "title": "Latencies from intracranial seizure onset to ictal tachycardia: A comparison to surface EEG patterns and other clinical signs.",
+          "year": "2015",
+          "venue": "Epilepsia",
+          "cited": 0,
+          "doi": "10.1111/epi.13117",
+          "pmid": "26282577",
+          "arx": ""
+        },
+        {
+          "title": "Structural and Functional Connectivity Predict the Effects of Direct Brain Stimulation on Memory.",
+          "year": "2026",
+          "venue": "bioRxiv : the preprint server for biology",
+          "cited": 0,
+          "doi": "10.64898/2026.03.17.712408",
+          "pmid": "41890041",
+          "arx": ""
+        },
+        {
+          "title": "Cortical Activation Elicited by Subthalamic Deep Brain Stimulation Predicts Postoperative Motor Side Effects.",
+          "year": "2019",
+          "venue": "Neuromodulation : journal of the International Neuromodulation Society",
+          "cited": 0,
+          "doi": "10.1111/ner.12901",
+          "pmid": "30844131",
+          "arx": ""
+        },
+        {
+          "title": "Closed-loop Stimulation and Control of Epileptic Seizures in an Implantable Neural-Prosthetic Device",
+          "year": "2015",
+          "venue": "Brain stimulation",
+          "cited": 0,
+          "doi": "10.1016/j.brs.2015.01.235",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Reaaliaikainen takaisinkytketty TMS–EEG-järjestelmä",
+          "year": "2023",
+          "venue": "Aaltodoc (Aalto University)",
+          "cited": 0,
+          "doi": "",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Brain State and its Impact on MEP and TEP Features: A TMS-EEG Study",
+          "year": "2023",
+          "venue": "Brain stimulation",
+          "cited": 0,
+          "doi": "10.1016/j.brs.2023.01.381",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Basic mechanisms underlying the plasticity and its induction methods",
+          "year": "2019",
+          "venue": "Journal of the Neurological Sciences",
+          "cited": 0,
+          "doi": "10.1016/j.jns.2019.10.104",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "0286 Predictive Model of Sleep Slow Oscillations Emergence on the Electrode Manifold",
+          "year": "2024",
+          "venue": "SLEEP",
+          "cited": 0,
+          "doi": "10.1093/sleep/zsae067.0286",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "A system based on machine learning for improving sleep.",
+          "year": "2023",
+          "venue": "Journal of neuroscience methods",
+          "cited": 0,
+          "doi": "10.1016/j.jneumeth.2023.109936",
+          "pmid": "37524247",
+          "arx": ""
+        },
+        {
+          "title": "Closed-loop system to enhance slow-wave activity.",
+          "year": "2018",
+          "venue": "Journal of neural engineering",
+          "cited": 0,
+          "doi": "10.1088/1741-2552/aae18f",
+          "pmid": "30215604",
+          "arx": ""
+        },
+        {
+          "title": "Validation of a closed-loop sensory stimulation technique for selective sleep restriction in mice.",
+          "year": "2014",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "cited": 0,
+          "doi": "10.1109/EMBC.2014.6944444",
+          "pmid": "25570812",
+          "arx": ""
+        },
+        {
+          "title": "Dose-Dependent Effects of Closed-Loop tACS Delivered During Slow-Wave Oscillations on Memory Consolidation.",
+          "year": "2018",
+          "venue": "Frontiers in neuroscience",
+          "cited": 0,
+          "doi": "10.3389/fnins.2018.00867",
+          "pmid": "30538617",
+          "arx": ""
+        },
+        {
+          "title": "CLAS-hdEEG: high-density EEG software platform for real-time delta wave detection and closed-loop auditory stimulation.",
+          "year": "2026",
+          "venue": "Journal of neural engineering",
+          "cited": 0,
+          "doi": "10.1088/1741-2552/ae4e5b",
+          "pmid": "41791124",
+          "arx": ""
+        },
+        {
+          "title": "Enhancement of sleep slow waves: underlying mechanisms and practical consequences.",
+          "year": "2014",
+          "venue": "Frontiers in systems neuroscience",
+          "cited": 0,
+          "doi": "10.3389/fnsys.2014.00208",
+          "pmid": "25389394",
+          "arx": ""
+        },
+        {
+          "title": "Optimizing auditory stimulation timing in NREM sleep using brain-heart rhythms: continuous phase analysis and multidimensional phase-locking.",
+          "year": "2026",
+          "venue": "Sleep",
+          "cited": 0,
+          "doi": "10.1093/sleep/zsag017",
+          "pmid": "41593748",
+          "arx": ""
+        },
+        {
+          "title": "Local modulation of sleep slow waves depends on timing between auditory stimuli.",
+          "year": "2025",
+          "venue": "NeuroImage",
+          "cited": 0,
+          "doi": "10.1016/j.neuroimage.2025.121561",
+          "pmid": "41167492",
+          "arx": ""
+        }
+      ]
+    },
+    "4.10": {
+      "label": "刺激剂量、自适应控制与个体化响应",
+      "level": "L5",
+      "hits": {
+        "pm_core": 104,
+        "oa_core": 541,
+        "pm_individual": 2
+      },
+      "unique": 36,
+      "papers": [
+        {
+          "title": "Consolidation during sleep of perceptual learning of spoken language",
+          "year": "2003",
+          "venue": "Nature",
+          "cited": 465,
+          "doi": "10.1038/nature01951",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Song Replay During Sleep and Computational Rules for Sensorimotor Vocal Learning",
+          "year": "2000",
+          "venue": "Science",
+          "cited": 462,
+          "doi": "10.1126/science.290.5492.812",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Mechano-acoustic sensing of physiological processes and body motions via a soft wireless device placed at the suprasternal notch",
+          "year": "2019",
+          "venue": "Nature Biomedical Engineering",
+          "cited": 348,
+          "doi": "10.1038/s41551-019-0480-6",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Acoustic Enhancement of Sleep Slow Oscillations and Concomitant Memory Improvement in Older Adults",
+          "year": "2017",
+          "venue": "Frontiers in Human Neuroscience",
+          "cited": 264,
+          "doi": "10.3389/fnhum.2017.00109",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Enhancement of sleep slow waves: underlying mechanisms and practical consequences",
+          "year": "2014",
+          "venue": "Frontiers in Systems Neuroscience",
+          "cited": 259,
+          "doi": "10.3389/fnsys.2014.00208",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Sleep and sensorimotor integration during early vocal learning in a songbird",
+          "year": "2008",
+          "venue": "Nature",
+          "cited": 180,
+          "doi": "10.1038/nature07615",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Auditory closed-loop stimulation of EEG slow oscillations strengthens sleep and signs of its immune-supportive function",
+          "year": "2017",
+          "venue": "Nature Communications",
+          "cited": 149,
+          "doi": "10.1038/s41467-017-02170-3",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Acoustic sleepiness detection: Framework and validation of a speech-adapted pattern recognition approach",
+          "year": "2009",
+          "venue": "Behavior Research Methods",
+          "cited": 85,
+          "doi": "10.3758/brm.41.3.795",
+          "pmid": "",
+          "arx": "",
+          "oa": "bronze"
+        },
+        {
+          "title": "Strengthening sleep-autonomic interaction via acoustic enhancement of slow oscillations.",
+          "year": "2019",
+          "venue": "Sleep",
+          "cited": 80,
+          "doi": "10.1093/sleep/zsz036",
+          "pmid": "30753650",
+          "arx": ""
+        },
+        {
+          "title": "Correlative Learning: A Basis for Brain and Adaptive Systems",
+          "year": "2007",
+          "venue": "Medical Entomology and Zoology",
+          "cited": 70,
+          "doi": "",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Covert Waking Brain Activity Reveals Instantaneous Sleep Depth",
+          "year": "2011",
+          "venue": "PLoS ONE",
+          "cited": 61,
+          "doi": "10.1371/journal.pone.0017351",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Neuroticism in the sleep laboratory: Implications for representational and adaptive properties of dreaming.",
+          "year": "1975",
+          "venue": "Journal of Abnormal Psychology",
+          "cited": 60,
+          "doi": "10.1037/h0076938",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Dose-Dependent Effects of Closed-Loop tACS Delivered During Slow-Wave Oscillations on Memory Consolidation",
+          "year": "2018",
+          "venue": "Frontiers in Neuroscience",
+          "cited": 51,
+          "doi": "10.3389/fnins.2018.00867",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Air and Bone Conduction Click and Tone-Burst Auditory Brainstem Thresholds Using Kalman Adaptive Processing in Nonsedated Normal-Hearing Infants",
+          "year": "2015",
+          "venue": "Ear and Hearing",
+          "cited": 40,
+          "doi": "10.1097/aud.0000000000000155",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Closed-Loop Acoustic Stimulation During Sleep in Children With Epilepsy: A Hypothesis-Driven Novel Approach to Interact With Spike-Wave Activity and Pilot Data Assessing Feasibility",
+          "year": "2019",
+          "venue": "Frontiers in Human Neuroscience",
+          "cited": 32,
+          "doi": "10.3389/fnhum.2019.00166",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Closed-Loop Transcranial Alternating Current Stimulation: Towards Personalized Non-invasive Brain Stimulation for the Treatment of Psychiatric Illnesses",
+          "year": "2021",
+          "venue": "Current Behavioral Neuroscience Reports",
+          "cited": 32,
+          "doi": "10.1007/s40473-021-00227-8",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Adaptively Responsive Self-Powered Bionic Auditory Device for Sleep Health Monitoring",
+          "year": "2023",
+          "venue": "IEEE Electron Device Letters",
+          "cited": 14,
+          "doi": "10.1109/led.2023.3290990",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Adaptive segmentation and normalization of breathing acoustic data of subjects with obstructive sleep apnea",
+          "year": "2009",
+          "venue": "",
+          "cited": 11,
+          "doi": "10.1109/tic-sth.2009.5444489",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Daytime dexmedetomidine sedation with closed-loop acoustic stimulation alters slow wave sleep homeostasis in healthy adults",
+          "year": "2024",
+          "venue": "BJA Open",
+          "cited": 10,
+          "doi": "10.1016/j.bjao.2024.100276",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "A Large-Scale Study of a Sleep Tracking and Improving Device with Closed-loop and Personalized Real-time Acoustic Stimulation",
+          "year": "2022",
+          "venue": "arXiv (Cornell University)",
+          "cited": 5,
+          "doi": "10.48550/arxiv.2211.02592",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "The Future of Non-Invasive Brain Stimulation in Sleep Medicine.",
+          "year": "2025",
+          "venue": "Journal of sleep research",
+          "cited": 0,
+          "doi": "10.1111/jsr.70071",
+          "pmid": "40370279",
+          "arx": ""
+        },
+        {
+          "title": "25th Annual Computational Neuroscience Meeting: CNS-2016.",
+          "year": "2016",
+          "venue": "BMC neuroscience",
+          "cited": 0,
+          "doi": "10.1186/s12868-016-0283-6",
+          "pmid": "27534393",
+          "arx": ""
+        },
+        {
+          "title": "Brain Stimulation for Improving Sleep and Memory.",
+          "year": "2022",
+          "venue": "Sleep medicine clinics",
+          "cited": 0,
+          "doi": "10.1016/j.jsmc.2022.06.013",
+          "pmid": "36150810",
+          "arx": ""
+        },
+        {
+          "title": "Sleep, learning, and birdsong.",
+          "year": "2010",
+          "venue": "ILAR journal",
+          "cited": 0,
+          "doi": "10.1093/ilar.51.4.378",
+          "pmid": "21131714",
+          "arx": ""
+        },
+        {
+          "title": "Low-cost EEG-based sleep detection.",
+          "year": "2014",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "cited": 0,
+          "doi": "10.1109/EMBC.2014.6944641",
+          "pmid": "25571009",
+          "arx": ""
+        },
+        {
+          "title": "Efficacy and mechanisms of repeated closed-loop auditory exposure during slow-wave sleep for internet gaming disorder.",
+          "year": "2025",
+          "venue": "Molecular psychiatry",
+          "cited": 0,
+          "doi": "10.1038/s41380-025-02995-1",
+          "pmid": "40425853",
+          "arx": ""
+        },
+        {
+          "title": "Can Slow-Wave Sleep Enhancement Improve Memory? A Review of Current Approaches and Cognitive Outcomes.",
+          "year": "2019",
+          "venue": "The Yale journal of biology and medicine",
+          "cited": 0,
+          "doi": "",
+          "pmid": "30923474",
+          "arx": ""
+        },
+        {
+          "title": "Closed-loop auditory stimulation of slow-wave sleep in chronic insomnia: a pilot study.",
+          "year": "2024",
+          "venue": "Journal of sleep research",
+          "cited": 0,
+          "doi": "10.1111/jsr.14179",
+          "pmid": "38467353",
+          "arx": ""
+        },
+        {
+          "title": "Closed-Loop Auditory Stimulation (CLAS) During Sleep Augments Language and Discovery Learning.",
+          "year": "2024",
+          "venue": "Brain sciences",
+          "cited": 0,
+          "doi": "10.3390/brainsci14111138",
+          "pmid": "39595901",
+          "arx": ""
+        },
+        {
+          "title": "Protocol for spike-triggered closed-loop auditory stimulation during sleep in patients with epilepsy.",
+          "year": "2022",
+          "venue": "STAR protocols",
+          "cited": 0,
+          "doi": "10.1016/j.xpro.2022.101505",
+          "pmid": "35942345",
+          "arx": ""
+        },
+        {
+          "title": "Heart rate variability increases following automated acoustic slow wave sleep enhancement.",
+          "year": "2022",
+          "venue": "Journal of sleep research",
+          "cited": 0,
+          "doi": "10.1111/jsr.13545",
+          "pmid": "35080060",
+          "arx": ""
+        },
+        {
+          "title": "Response of sleep slow oscillations to acoustic stimulation is evidenced by distinctive synchronization processes.",
+          "year": "2023",
+          "venue": "Sleep",
+          "cited": 0,
+          "doi": "10.1093/sleep/zsad110",
+          "pmid": "37039660",
+          "arx": ""
+        },
+        {
+          "title": "The promise of portable remote auditory stimulation tools to enhance slow-wave sleep and prevent cognitive decline.",
+          "year": "2023",
+          "venue": "Journal of sleep research",
+          "cited": 0,
+          "doi": "10.1111/jsr.13818",
+          "pmid": "36631001",
+          "arx": ""
+        },
+        {
+          "title": "Optimising sounds for the driving of sleep oscillations by closed-loop auditory stimulation.",
+          "year": "2022",
+          "venue": "Journal of sleep research",
+          "cited": 0,
+          "doi": "10.1111/jsr.13676",
+          "pmid": "35762085",
+          "arx": ""
+        },
+        {
+          "title": "Micro SleepNet: efficient deep learning model for mobile terminal real-time sleep staging.",
+          "year": "2023",
+          "venue": "Frontiers in neuroscience",
+          "cited": 0,
+          "doi": "10.3389/fnins.2023.1218072",
+          "pmid": "37575302",
+          "arx": ""
+        },
+        {
+          "title": "End of Apnea Event Prediction Leveraging EEG Signals and Interpretable Machine Learning.",
+          "year": "2025",
+          "venue": "Biosensors",
+          "cited": 0,
+          "doi": "10.3390/bios15110732",
+          "pmid": "41294743",
+          "arx": ""
+        }
+      ]
+    },
+    "4.11": {
+      "label": "安全性、舒适性、依从性与家庭长期部署",
+      "level": "L6",
+      "hits": {
+        "pm_core": 72,
+        "oa_core": 238,
+        "pm_closed_loop_ext": 12
+      },
+      "unique": 40,
+      "papers": [
+        {
+          "title": "Automatic Sleep Stage Scoring Using Time-Frequency Analysis and Stacked Sparse Autoencoders",
+          "year": "2015",
+          "venue": "Annals of Biomedical Engineering",
+          "cited": 326,
+          "doi": "10.1007/s10439-015-1444-y",
+          "pmid": "",
+          "arx": "",
+          "oa": "hybrid"
+        },
+        {
+          "title": "Hearables: Automatic Overnight Sleep Monitoring With Standardized In-Ear EEG Sensor",
+          "year": "2019",
+          "venue": "IEEE Transactions on Biomedical Engineering",
+          "cited": 149,
+          "doi": "10.1109/tbme.2019.2911423",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Accurate whole-night sleep monitoring with dry-contact ear-EEG.",
+          "year": "2019",
+          "venue": "Scientific reports",
+          "cited": 127,
+          "doi": "10.1038/s41598-019-53115-3",
+          "pmid": "31727953",
+          "arx": ""
+        },
+        {
+          "title": "Validity of Consumer Activity Wristbands and Wearable EEG for Measuring Overall Sleep Parameters and Sleep Structure in Free-Living Conditions",
+          "year": "2018",
+          "venue": "Journal of Healthcare Informatics Research",
+          "cited": 119,
+          "doi": "10.1007/s41666-018-0013-1",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Automatic sleep staging using ear-EEG",
+          "year": "2017",
+          "venue": "BioMedical Engineering OnLine",
+          "cited": 98,
+          "doi": "10.1186/s12938-017-0400-5",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Automatic Sleep Monitoring Using Ear-EEG.",
+          "year": "2017",
+          "venue": "IEEE journal of translational engineering in health and medicine",
+          "cited": 88,
+          "doi": "10.1109/JTEHM.2017.2702558",
+          "pmid": "29018638",
+          "arx": ""
+        },
+        {
+          "title": "Case comparison of sleep features from ear-EEG and scalp-EEG",
+          "year": "2016",
+          "venue": "Sleep Science",
+          "cited": 70,
+          "doi": "10.1016/j.slsci.2016.05.006",
+          "pmid": "",
+          "arx": "",
+          "oa": "diamond"
+        },
+        {
+          "title": "Ear-EEG for sleep assessment: a comparison with actigraphy and PSG.",
+          "year": "2021",
+          "venue": "Sleep & breathing = Schlaf & Atmung",
+          "cited": 47,
+          "doi": "10.1007/s11325-020-02248-1",
+          "pmid": "33219908",
+          "arx": ""
+        },
+        {
+          "title": "Advancements in Wearable EEG Technology for Improved Home-Based Sleep Monitoring and Assessment: A Review.",
+          "year": "2023",
+          "venue": "Biosensors",
+          "cited": 41,
+          "doi": "10.3390/bios13121019",
+          "pmid": "38131779",
+          "arx": ""
+        },
+        {
+          "title": "Automatic sleep stage classification using ear-EEG",
+          "year": "2016",
+          "venue": "",
+          "cited": 41,
+          "doi": "10.1109/embc.2016.7591789",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "At-home sleep monitoring using generic ear-EEG.",
+          "year": "2023",
+          "venue": "Frontiers in neuroscience",
+          "cited": 37,
+          "doi": "10.3389/fnins.2023.987578",
+          "pmid": "36816118",
+          "arx": ""
+        },
+        {
+          "title": "Benchmarking Real-Time Algorithms for In-Phase Auditory Stimulation of Low Amplitude Slow Waves With Wearable EEG Devices During Sleep",
+          "year": "2022",
+          "venue": "IEEE Transactions on Biomedical Engineering",
+          "cited": 36,
+          "doi": "10.1109/tbme.2022.3157468",
+          "pmid": "",
+          "arx": "",
+          "oa": "green"
+        },
+        {
+          "title": "Flex-Printed Ear-EEG Sensors for Adequate Sleep Staging at Home",
+          "year": "2021",
+          "venue": "Frontiers in Digital Health",
+          "cited": 35,
+          "doi": "10.3389/fdgth.2021.688122",
+          "pmid": "",
+          "arx": "",
+          "oa": "gold"
+        },
+        {
+          "title": "Automatic detection of drowsiness using in-ear EEG",
+          "year": "2018",
+          "venue": "",
+          "cited": 30,
+          "doi": "10.1109/ijcnn.2018.8489723",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Interictal spike quantification in continuous spike–wave of sleep (CSWS): Clinical usefulness of a wearable EEG device",
+          "year": "2020",
+          "venue": "Epilepsy & Behavior",
+          "cited": 26,
+          "doi": "10.1016/j.yebeh.2020.106902",
+          "pmid": "",
+          "arx": "",
+          "oa": "bronze"
+        },
+        {
+          "title": "Ear‐EEG‐based sleep scoring in epilepsy: A comparison with scalp‐EEG",
+          "year": "2019",
+          "venue": "Journal of Sleep Research",
+          "cited": 19,
+          "doi": "10.1111/jsr.12921",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Automatic sleep scoring using patient-specific ensemble models and knowledge distillation for ear-EEG data",
+          "year": "2022",
+          "venue": "Biomedical Signal Processing and Control",
+          "cited": 18,
+          "doi": "10.1016/j.bspc.2022.104496",
+          "pmid": "",
+          "arx": "",
+          "oa": "hybrid"
+        },
+        {
+          "title": "Automated Sleep Staging on Wearable EEG Enables Sleep Analysis at Scale",
+          "year": "2023",
+          "venue": "",
+          "cited": 15,
+          "doi": "10.1109/ner52421.2023.10123829",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Auditory closed‐loop stimulation on sleep slow oscillations using in‐ear EEG sensors",
+          "year": "2022",
+          "venue": "Journal of Sleep Research",
+          "cited": 15,
+          "doi": "10.1111/jsr.13555",
+          "pmid": "",
+          "arx": "",
+          "oa": "closed"
+        },
+        {
+          "title": "Self-applied ear-EEG for sleep monitoring at home.",
+          "year": "2022",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "cited": 14,
+          "doi": "10.1109/EMBC48229.2022.9871076",
+          "pmid": "36085914",
+          "arx": ""
+        },
+        {
+          "title": "Ear-EEG sleep monitoring data sets.",
+          "year": "2025",
+          "venue": "Scientific data",
+          "cited": 0,
+          "doi": "10.1038/s41597-025-04579-8",
+          "pmid": "39971957",
+          "arx": ""
+        },
+        {
+          "title": "Photoplethysmography in Normal and Pathological Sleep.",
+          "year": "2021",
+          "venue": "Sensors (Basel, Switzerland)",
+          "cited": 0,
+          "doi": "10.3390/s21092928",
+          "pmid": "33922042",
+          "arx": ""
+        },
+        {
+          "title": "Long-term ear-EEG monitoring of sleep - A case study during shift work.",
+          "year": "2023",
+          "venue": "Journal of sleep research",
+          "cited": 0,
+          "doi": "10.1111/jsr.13853",
+          "pmid": "36889935",
+          "arx": ""
+        },
+        {
+          "title": "Recent Progress in In-Ear EEG Technology and Its Emerging Real-World Applications: A Review.",
+          "year": "2026",
+          "venue": "Micromachines",
+          "cited": 0,
+          "doi": "10.3390/mi17070764",
+          "pmid": "42512975",
+          "arx": ""
+        },
+        {
+          "title": "A wearable EEG system for closed-loop neuromodulation of sleep-related oscillations.",
+          "year": "2023",
+          "venue": "Journal of neural engineering",
+          "cited": 0,
+          "doi": "10.1088/1741-2552/acfb3b",
+          "pmid": "37726002",
+          "arx": ""
+        },
+        {
+          "title": "HRV and EEG correlates of well-being using ultra-short, portable, and low-cost measurements.",
+          "year": "2024",
+          "venue": "Progress in brain research",
+          "cited": 0,
+          "doi": "10.1016/bs.pbr.2024.04.004",
+          "pmid": "39097360",
+          "arx": ""
+        },
+        {
+          "title": "Remote Wearable Neuroimaging Devices for Health Monitoring and Neurophenotyping: A Scoping Review.",
+          "year": "2024",
+          "venue": "Biomimetics (Basel, Switzerland)",
+          "cited": 0,
+          "doi": "10.3390/biomimetics9040237",
+          "pmid": "38667247",
+          "arx": ""
+        },
+        {
+          "title": "Pre-gelled Electrode Grid for Self-Applied EEG Sleep Monitoring at Home.",
+          "year": "2022",
+          "venue": "Frontiers in neuroscience",
+          "cited": 0,
+          "doi": "10.3389/fnins.2022.883966",
+          "pmid": "35812225",
+          "arx": ""
+        },
+        {
+          "title": "In-hospital and home-based long-term monitoring of focal epilepsy with a wearable electroencephalographic device: Diagnostic yield and user experience.",
+          "year": "2023",
+          "venue": "Epilepsia",
+          "cited": 0,
+          "doi": "10.1111/epi.17517",
+          "pmid": "36681896",
+          "arx": ""
+        },
+        {
+          "title": "CLoSES: A platform for closed-loop intracranial stimulation in humans.",
+          "year": "2020",
+          "venue": "NeuroImage",
+          "cited": 0,
+          "doi": "10.1016/j.neuroimage.2020.117314",
+          "pmid": "32882382",
+          "arx": ""
+        },
+        {
+          "title": "Neuromodulation in Obstructive Sleep Apnea.",
+          "year": "2020",
+          "venue": "Neurology India",
+          "cited": 0,
+          "doi": "10.4103/0028-3886.302456",
+          "pmid": "33318366",
+          "arx": ""
+        },
+        {
+          "title": "Deep brain stimulation for Alzheimer's disease - current status and next steps.",
+          "year": "2024",
+          "venue": "Expert review of medical devices",
+          "cited": 0,
+          "doi": "10.1080/17434440.2024.2337298",
+          "pmid": "38573133",
+          "arx": ""
+        },
+        {
+          "title": "The Design of Brainstem Interfaces: Characterisation of Physiological Artefacts and Implications for Closed-loop Algorithms.",
+          "year": "2023",
+          "venue": "International IEEE/EMBS Conference on Neural Engineering : [proceedings]. International IEEE EMBS Conference on Neural Engineering",
+          "cited": 0,
+          "doi": "10.1109/NER52421.2023.10123850",
+          "pmid": "37249946",
+          "arx": ""
+        },
+        {
+          "title": "The Glymphatic-Venous Axis in Brain Clearance Failure: Aquaporin-4 Dysfunction, Biomarker Imaging, and Precision Therapeutic Frontiers.",
+          "year": "2025",
+          "venue": "International journal of molecular sciences",
+          "cited": 0,
+          "doi": "10.3390/ijms262110546",
+          "pmid": "41226584",
+          "arx": ""
+        },
+        {
+          "title": "Optogenetic Locus Coeruleus Stimulation Improves Pupil Size Tracking of Cortical State.",
+          "year": "2024",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "cited": 0,
+          "doi": "10.1109/EMBC53108.2024.10781851",
+          "pmid": "40039165",
+          "arx": ""
+        },
+        {
+          "title": "Sleep Analysis in Adult C. elegans Reveals State-Dependent Alteration of Neural and Behavioral Responses.",
+          "year": "2021",
+          "venue": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+          "cited": 0,
+          "doi": "10.1523/JNEUROSCI.1701-20.2020",
+          "pmid": "33446520",
+          "arx": ""
+        },
+        {
+          "title": "End of Apnea Event Prediction Leveraging EEG Signals and Interpretable Machine Learning.",
+          "year": "2025",
+          "venue": "Biosensors",
+          "cited": 0,
+          "doi": "10.3390/bios15110732",
+          "pmid": "41294743",
+          "arx": ""
+        },
+        {
+          "title": "A sleep state in Drosophila larvae required for neural stem cell proliferation.",
+          "year": "2018",
+          "venue": "eLife",
+          "cited": 0,
+          "doi": "10.7554/eLife.33220",
+          "pmid": "29424688",
+          "arx": ""
+        },
+        {
+          "title": "Multicenter, Randomized, Double-Blind Study Protocol Using Human Spinal Cord Recording Comparing Safety, Efficacy, and Neurophysiological Responses Between Patients Being Treated With Evoked Compound Action Potential-Controlled Closed-Loop Spinal Cord Stimulation or Open-Loop Spinal Cord Stimulation (the Evoke Study).",
+          "year": "2019",
+          "venue": "Neuromodulation : journal of the International Neuromodulation Society",
+          "cited": 0,
+          "doi": "10.1111/ner.12932",
+          "pmid": "30828946",
+          "arx": ""
+        },
+        {
+          "title": "Performance of an Ambulatory Dry-EEG Device for Auditory Closed-Loop Stimulation of Sleep Slow Oscillations in the Home Environment.",
+          "year": "2018",
+          "venue": "Frontiers in human neuroscience",
+          "cited": 0,
+          "doi": "10.3389/fnhum.2018.00088",
+          "pmid": "29568267",
+          "arx": ""
+        }
+      ]
+    }
+  },
+  "global_unique": 338,
+  "line_entry_total": 411
+}

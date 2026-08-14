@@ -38,4 +38,4 @@ PSG 为 [[concept/可穿戴 EEG]] 和自动 [[concept/睡眠分期]] 提供标�
 ## 综述关联
 - [[review/chapters/02-基础理论与核心概念]]、[[review/chapters/03-可穿戴睡眠信号采集硬件体系]]、[[review/chapters/06-现有研究对比]]
 - [[concept/临床验证]]
-- [[review/文献搜索策略]]
+- [[review/文献搜索策略_新版]]
