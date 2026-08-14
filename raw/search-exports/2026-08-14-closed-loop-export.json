@@ -1,0 +1,1307 @@
+{
+  "date": "2026-08-14",
+  "global_unique": 136,
+  "lines": {
+    "4.1": {
+      "label": "通用闭环架构、实时状态估计与时延",
+      "chapter": "第2章",
+      "hits": {
+        "pm_core": 78
+      },
+      "unique": 25,
+      "papers": [
+        {
+          "title": "Stimulating at the right time: phase-specific deep brain stimulation.",
+          "year": "2017",
+          "venue": "Brain : a journal of neurology",
+          "doi": "10.1093/brain/aww286",
+          "pmid": "28007997",
+          "cited": 259
+        },
+        {
+          "title": "Driving sleep slow oscillations by auditory closed-loop stimulation-a self-limiting process.",
+          "year": "2015",
+          "venue": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+          "doi": "10.1523/JNEUROSCI.3133-14.2015",
+          "pmid": "25926443",
+          "cited": 203
+        },
+        {
+          "title": "Closed-Loop Brain Stimulation.",
+          "year": "2024",
+          "venue": "Biological psychiatry",
+          "doi": "10.1016/j.biopsych.2023.09.014",
+          "pmid": "37743002",
+          "cited": 135
+        },
+        {
+          "title": "Closed-loop cortical neuromodulation in Parkinson's disease: An alternative to deep brain stimulation?",
+          "year": "2014",
+          "venue": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+          "doi": "10.1016/j.clinph.2014.01.006",
+          "pmid": "24555921",
+          "cited": 100
+        },
+        {
+          "title": "Shaping overnight consolidation via slow-oscillation closed-loop targeted memory reactivation.",
+          "year": "2022",
+          "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+          "doi": "10.1073/pnas.2123428119",
+          "pmid": "36279449",
+          "cited": 61
+        },
+        {
+          "title": "Closed-loop optogenetic control of the dynamics of neural activity in non-human primates.",
+          "year": "2023",
+          "venue": "Nature biomedical engineering",
+          "doi": "10.1038/s41551-022-00945-8",
+          "pmid": "36266536",
+          "cited": 53
+        },
+        {
+          "title": "CLoSES: A platform for closed-loop intracranial stimulation in humans.",
+          "year": "2020",
+          "venue": "NeuroImage",
+          "doi": "10.1016/j.neuroimage.2020.117314",
+          "pmid": "32882382",
+          "cited": 44
+        },
+        {
+          "title": "Stable, interactive modulation of neuronal oscillations produced through brain-machine equilibrium.",
+          "year": "2022",
+          "venue": "Cell reports",
+          "doi": "10.1016/j.celrep.2022.111616",
+          "pmid": "36351413",
+          "cited": 41
+        },
+        {
+          "title": "Brain Network Oscillations During Gait in Parkinson's Disease.",
+          "year": "2020",
+          "venue": "Frontiers in human neuroscience",
+          "doi": "10.3389/fnhum.2020.568703",
+          "pmid": "33192399",
+          "cited": 33
+        },
+        {
+          "title": "Closed-loop modulation of local slow oscillations in human NREM sleep.",
+          "year": "2022",
+          "venue": "NeuroImage",
+          "doi": "10.1016/j.neuroimage.2022.119682",
+          "pmid": "36240988",
+          "cited": 29
+        },
+        {
+          "title": "The Portiloop: A deep learning-based open science tool for closed-loop brain stimulation.",
+          "year": "2022",
+          "venue": "PloS one",
+          "doi": "10.1371/journal.pone.0270696",
+          "pmid": "35994482",
+          "cited": 23
+        },
+        {
+          "title": "The neurophysiology of closed-loop auditory stimulation in sleep: A magnetoencephalography study.",
+          "year": "2024",
+          "venue": "The European journal of neuroscience",
+          "doi": "10.1111/ejn.16132",
+          "pmid": "37675803",
+          "cited": 22
+        },
+        {
+          "title": "Closed-Loop Wearable Device Network of Intrinsically-Controlled, Bilateral Coordinated Functional Electrical Stimulation for Stroke.",
+          "year": "2024",
+          "venue": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+          "doi": "10.1002/advs.202304763",
+          "pmid": "38429890",
+          "cited": 20
+        },
+        {
+          "title": "Cortical stimulation in aphasia following ischemic stroke: toward model-guided electrical neuromodulation.",
+          "year": "2020",
+          "venue": "Biological cybernetics",
+          "doi": "10.1007/s00422-020-00818-w",
+          "pmid": "32020368",
+          "cited": 20
+        },
+        {
+          "title": "Auditory closed-loop stimulation on sleep slow oscillations using in-ear EEG sensors.",
+          "year": "2022",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.13555",
+          "pmid": "35124848",
+          "cited": 14
+        },
+        {
+          "title": "A wearable EEG system for closed-loop neuromodulation of sleep-related oscillations.",
+          "year": "2023",
+          "venue": "Journal of neural engineering",
+          "doi": "10.1088/1741-2552/acfb3b",
+          "pmid": "37726002",
+          "cited": 13
+        },
+        {
+          "title": "Micro SleepNet: efficient deep learning model for mobile terminal real-time sleep staging.",
+          "year": "2023",
+          "venue": "Frontiers in neuroscience",
+          "doi": "10.3389/fnins.2023.1218072",
+          "pmid": "37575302",
+          "cited": 12
+        },
+        {
+          "title": "Neuronal-spiking-based closed-loop stimulation during cortical ON- and OFF-states in freely moving mice.",
+          "year": "2022",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.13603",
+          "pmid": "35665551",
+          "cited": 11
+        },
+        {
+          "title": "Closed-loop intracranial stimulation alters movement timing in humans.",
+          "year": "2018",
+          "venue": "Brain stimulation",
+          "doi": "10.1016/j.brs.2018.03.003",
+          "pmid": "29598890",
+          "cited": 10
+        },
+        {
+          "title": "[\"ConnectToBrain\" : Synergy project for therapeutic closed-loop stimulation of brain network disorders].",
+          "year": "2019",
+          "venue": "Der Nervenarzt",
+          "doi": "10.1007/s00115-019-0747-x",
+          "pmid": "31236628",
+          "cited": 8
+        },
+        {
+          "title": "Modulation of motor excitability reflects traveling waves of neural oscillations.",
+          "year": "2025",
+          "venue": "Cell reports",
+          "doi": "10.1016/j.celrep.2025.115864",
+          "pmid": "40517384",
+          "cited": 7
+        },
+        {
+          "title": "A real-time sleep scoring framework for closed-loop sleep manipulation in mice.",
+          "year": "2021",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.13262",
+          "pmid": "33403714",
+          "cited": 4
+        },
+        {
+          "title": "Phase-adaptive brain stimulation of striatal D1 medium spiny neurons in dopamine-depleted mice.",
+          "year": "2022",
+          "venue": "Scientific reports",
+          "doi": "10.1038/s41598-022-26347-z",
+          "pmid": "36526822",
+          "cited": 3
+        },
+        {
+          "title": "Closed-loop stimulation modulates attention shifting in children.",
+          "year": "2026",
+          "venue": "Nature neuroscience",
+          "doi": "10.1038/s41593-026-02294-0",
+          "pmid": "42129522",
+          "cited": 1
+        },
+        {
+          "title": "Personalized real-time inference of momentary excitability from human EEG.",
+          "year": "2025",
+          "venue": "NeuroImage",
+          "doi": "10.1016/j.neuroimage.2025.121547",
+          "pmid": "41135744",
+          "cited": 1
+        }
+      ]
+    },
+    "4.2": {
+      "label": "慢波睡眠与锁相听觉刺激",
+      "chapter": "第3章",
+      "hits": {
+        "pm_core": 89,
+        "pm_clinical": 317
+      },
+      "unique": 43,
+      "papers": [
+        {
+          "title": "Auditory closed-loop stimulation of the sleep slow oscillation enhances memory.",
+          "year": "2013",
+          "venue": "Neuron",
+          "doi": "10.1016/j.neuron.2013.03.006",
+          "pmid": "23583623",
+          "cited": 860
+        },
+        {
+          "title": "Circadian disruption and human health.",
+          "year": "2021",
+          "venue": "The Journal of clinical investigation",
+          "doi": "10.1172/JCI148286",
+          "pmid": "34596053",
+          "cited": 440
+        },
+        {
+          "title": "Pharmacological and non-pharmacological interventions to enhance sleep in mild cognitive impairment and mild Alzheimer's disease: A systematic review.",
+          "year": "2021",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.13229",
+          "pmid": "33289311",
+          "cited": 118
+        },
+        {
+          "title": "Acoustic enhancement of sleep slow oscillations in mild cognitive impairment.",
+          "year": "2019",
+          "venue": "Annals of clinical and translational neurology",
+          "doi": "10.1002/acn3.796",
+          "pmid": "31353857",
+          "cited": 112
+        },
+        {
+          "title": "Closed-loop system to enhance slow-wave activity.",
+          "year": "2018",
+          "venue": "Journal of neural engineering",
+          "doi": "10.1088/1741-2552/aae18f",
+          "pmid": "30215604",
+          "cited": 73
+        },
+        {
+          "title": "Strengthening sleep-autonomic interaction via acoustic enhancement of slow oscillations.",
+          "year": "2019",
+          "venue": "Sleep",
+          "doi": "10.1093/sleep/zsz036",
+          "pmid": "30753650",
+          "cited": 72
+        },
+        {
+          "title": "Neurostimulation techniques to enhance sleep and improve cognition in aging.",
+          "year": "2020",
+          "venue": "Neurobiology of disease",
+          "doi": "10.1016/j.nbd.2020.104865",
+          "pmid": "32251840",
+          "cited": 71
+        },
+        {
+          "title": "Deepening sleep by hypnotic suggestion.",
+          "year": "2014",
+          "venue": "Sleep",
+          "doi": "10.5665/sleep.3778",
+          "pmid": "24882909",
+          "cited": 69
+        },
+        {
+          "title": "Brain Stimulation for Improving Sleep and Memory.",
+          "year": "2020",
+          "venue": "Sleep medicine clinics",
+          "doi": "10.1016/j.jsmc.2019.11.002",
+          "pmid": "32005347",
+          "cited": 66
+        },
+        {
+          "title": "Modulating overnight memory consolidation by acoustic stimulation during slow-wave sleep: a systematic review and meta-analysis.",
+          "year": "2021",
+          "venue": "Sleep",
+          "doi": "10.1093/sleep/zsaa296",
+          "pmid": "33406249",
+          "cited": 63
+        },
+        {
+          "title": "Shaping overnight consolidation via slow-oscillation closed-loop targeted memory reactivation.",
+          "year": "2022",
+          "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+          "doi": "10.1073/pnas.2123428119",
+          "pmid": "36279449",
+          "cited": 61
+        },
+        {
+          "title": "Systematic review: auditory stimulation and sleep.",
+          "year": "2022",
+          "venue": "Journal of clinical sleep medicine : JCSM : official publication of the American Academy of Sleep Medicine",
+          "doi": "10.5664/jcsm.9860",
+          "pmid": "34964434",
+          "cited": 54
+        },
+        {
+          "title": "Nightmares and schizotypy.",
+          "year": "1998",
+          "venue": "Psychiatry",
+          "doi": "10.1080/00332747.1998.11024832",
+          "pmid": "9823030",
+          "cited": 50
+        },
+        {
+          "title": "Scale-free music of the brain.",
+          "year": "2009",
+          "venue": "PloS one",
+          "doi": "10.1371/journal.pone.0005915",
+          "pmid": "19526057",
+          "cited": 46
+        },
+        {
+          "title": "Gamma oscillations and application of 40-Hz audiovisual stimulation to improve brain function.",
+          "year": "2022",
+          "venue": "Brain and behavior",
+          "doi": "10.1002/brb3.2811",
+          "pmid": "36374520",
+          "cited": 40
+        },
+        {
+          "title": "Auditory stimulation and deep learning predict awakening from coma after cardiac arrest.",
+          "year": "2023",
+          "venue": "Brain : a journal of neurology",
+          "doi": "10.1093/brain/awac340",
+          "pmid": "36637902",
+          "cited": 39
+        },
+        {
+          "title": "External Auditory Stimulation as a Non-Pharmacological Sleep Aid.",
+          "year": "2022",
+          "venue": "Sensors (Basel, Switzerland)",
+          "doi": "10.3390/s22031264",
+          "pmid": "35162009",
+          "cited": 32
+        },
+        {
+          "title": "Sleep deprivation affects gait control.",
+          "year": "2021",
+          "venue": "Scientific reports",
+          "doi": "10.1038/s41598-021-00705-9",
+          "pmid": "34702960",
+          "cited": 32
+        },
+        {
+          "title": "Targeting Arousal and Sleep through Noninvasive Brain Stimulation to Improve Mental Health.",
+          "year": "2020",
+          "venue": "Neuropsychobiology",
+          "doi": "10.1159/000507372",
+          "pmid": "32408296",
+          "cited": 30
+        },
+        {
+          "title": "Closed-loop modulation of local slow oscillations in human NREM sleep.",
+          "year": "2022",
+          "venue": "NeuroImage",
+          "doi": "10.1016/j.neuroimage.2022.119682",
+          "pmid": "36240988",
+          "cited": 29
+        },
+        {
+          "title": "Sounding It Out: Auditory Stimulation and Overnight Memory Processing.",
+          "year": "2021",
+          "venue": "Current sleep medicine reports",
+          "doi": "10.1007/s40675-021-00207-0",
+          "pmid": "34722123",
+          "cited": 27
+        },
+        {
+          "title": "Open-Loop Audio-Visual Stimulation (AVS): A Useful Tool for Management of Insomnia?",
+          "year": "2016",
+          "venue": "Applied psychophysiology and biofeedback",
+          "doi": "10.1007/s10484-015-9308-7",
+          "pmid": "26294268",
+          "cited": 26
+        },
+        {
+          "title": "Pain and sleep: from reaction to action.",
+          "year": "2012",
+          "venue": "Neurophysiologie clinique = Clinical neurophysiology",
+          "doi": "10.1016/j.neucli.2012.05.003",
+          "pmid": "23040704",
+          "cited": 23
+        },
+        {
+          "title": "The neurophysiology of closed-loop auditory stimulation in sleep: A magnetoencephalography study.",
+          "year": "2024",
+          "venue": "The European journal of neuroscience",
+          "doi": "10.1111/ejn.16132",
+          "pmid": "37675803",
+          "cited": 22
+        },
+        {
+          "title": "The impact of acoustic stimulation during sleep on memory and sleep architecture: A meta-analysis.",
+          "year": "2022",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.13385",
+          "pmid": "34850995",
+          "cited": 21
+        },
+        {
+          "title": "Modulation of sleep using noninvasive stimulations during sleep.",
+          "year": "2023",
+          "venue": "Biomedical engineering letters",
+          "doi": "10.1007/s13534-023-00298-4",
+          "pmid": "37519871",
+          "cited": 17
+        },
+        {
+          "title": "The Future of Non-Invasive Brain Stimulation in Sleep Medicine.",
+          "year": "2025",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.70071",
+          "pmid": "40370279",
+          "cited": 16
+        },
+        {
+          "title": "Gamma sensory stimulation in mild Alzheimer's dementia: An open-label extension study.",
+          "year": "2025",
+          "venue": "Alzheimer's & dementia : the journal of the Alzheimer's Association",
+          "doi": "10.1002/alz.70792",
+          "pmid": "41137616",
+          "cited": 16
+        },
+        {
+          "title": "Auditory closed-loop stimulation on sleep slow oscillations using in-ear EEG sensors.",
+          "year": "2022",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.13555",
+          "pmid": "35124848",
+          "cited": 14
+        },
+        {
+          "title": "Can Neuromodulation Improve Sleep and Psychiatric Symptoms?",
+          "year": "2024",
+          "venue": "Current psychiatry reports",
+          "doi": "10.1007/s11920-024-01540-1",
+          "pmid": "39352645",
+          "cited": 13
+        },
+        {
+          "title": "A wearable EEG system for closed-loop neuromodulation of sleep-related oscillations.",
+          "year": "2023",
+          "venue": "Journal of neural engineering",
+          "doi": "10.1088/1741-2552/acfb3b",
+          "pmid": "37726002",
+          "cited": 13
+        },
+        {
+          "title": "Response of sleep slow oscillations to acoustic stimulation is evidenced by distinctive synchronization processes.",
+          "year": "2023",
+          "venue": "Sleep",
+          "doi": "10.1093/sleep/zsad110",
+          "pmid": "37039660",
+          "cited": 12
+        },
+        {
+          "title": "Brain Stimulation for Improving Sleep and Memory.",
+          "year": "2022",
+          "venue": "Sleep medicine clinics",
+          "doi": "10.1016/j.jsmc.2022.06.013",
+          "pmid": "36150810",
+          "cited": 12
+        },
+        {
+          "title": "Closed-loop acoustic stimulation during an afternoon nap to modulate subsequent encoding.",
+          "year": "2022",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.13734",
+          "pmid": "36123957",
+          "cited": 12
+        },
+        {
+          "title": "Spindle-targeted acoustic stimulation may stabilize an ongoing nap.",
+          "year": "2022",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.13583",
+          "pmid": "35289006",
+          "cited": 11
+        },
+        {
+          "title": "Heart rate variability increases following automated acoustic slow wave sleep enhancement.",
+          "year": "2022",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.13545",
+          "pmid": "35080060",
+          "cited": 11
+        },
+        {
+          "title": "Closed-loop auditory stimulation of slow-wave sleep in chronic insomnia: a pilot study.",
+          "year": "2024",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.14179",
+          "pmid": "38467353",
+          "cited": 8
+        },
+        {
+          "title": "Modulation of Slow-Wave Sleep: Implications for Psychiatry.",
+          "year": "2020",
+          "venue": "Current psychiatry reports",
+          "doi": "10.1007/s11920-020-01175-y",
+          "pmid": "32710222",
+          "cited": 8
+        },
+        {
+          "title": "Updated Review of the Acoustic Modulation of Sleep: Current Perspectives and Emerging Concepts.",
+          "year": "2021",
+          "venue": "Nature and science of sleep",
+          "doi": "10.2147/NSS.S284805",
+          "pmid": "34335067",
+          "cited": 7
+        },
+        {
+          "title": "Closed-Loop Auditory Stimulation (CLAS) During Sleep Augments Language and Discovery Learning.",
+          "year": "2024",
+          "venue": "Brain sciences",
+          "doi": "10.3390/brainsci14111138",
+          "pmid": "39595901",
+          "cited": 5
+        },
+        {
+          "title": "Efficacy and mechanisms of repeated closed-loop auditory exposure during slow-wave sleep for internet gaming disorder.",
+          "year": "2025",
+          "venue": "Molecular psychiatry",
+          "doi": "10.1038/s41380-025-02995-1",
+          "pmid": "40425853",
+          "cited": 4
+        },
+        {
+          "title": "Closed-loop modulation of sleep in children undergoing intracranial recordings.",
+          "year": "2026",
+          "venue": "Cell reports. Medicine",
+          "doi": "10.1016/j.xcrm.2025.102538",
+          "pmid": "41512876",
+          "cited": 1
+        },
+        {
+          "title": "Can Slow-Wave Sleep Enhancement Improve Memory? A Review of Current Approaches and Cognitive Outcomes.",
+          "year": "2019",
+          "venue": "The Yale journal of biology and medicine",
+          "doi": "",
+          "pmid": "30923474",
+          "cited": null
+        }
+      ]
+    },
+    "4.3": {
+      "label": "入睡、纺锤波、REM、记忆与梦境",
+      "chapter": "第4章",
+      "hits": {
+        "pm_core": 1658
+      },
+      "unique": 25,
+      "papers": [
+        {
+          "title": "Restless REM Sleep Impedes Overnight Amygdala Adaptation.",
+          "year": "2019",
+          "venue": "Current biology : CB",
+          "doi": "10.1016/j.cub.2019.06.034",
+          "pmid": "31303489",
+          "cited": 166
+        },
+        {
+          "title": "GABA and l-theanine mixture decreases sleep latency and improves NREM sleep.",
+          "year": "2019",
+          "venue": "Pharmaceutical biology",
+          "doi": "10.1080/13880209.2018.1557698",
+          "pmid": "30707852",
+          "cited": 148
+        },
+        {
+          "title": "Pharmacological and non-pharmacological interventions to enhance sleep in mild cognitive impairment and mild Alzheimer's disease: A systematic review.",
+          "year": "2021",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.13229",
+          "pmid": "33289311",
+          "cited": 118
+        },
+        {
+          "title": "Experimental sleep fragmentation.",
+          "year": "1994",
+          "venue": "Sleep",
+          "doi": "10.1093/sleep/17.5.438",
+          "pmid": "7991955",
+          "cited": 102
+        },
+        {
+          "title": "Brain Stimulation for Improving Sleep and Memory.",
+          "year": "2020",
+          "venue": "Sleep medicine clinics",
+          "doi": "10.1016/j.jsmc.2019.11.002",
+          "pmid": "32005347",
+          "cited": 66
+        },
+        {
+          "title": "Sleep and Dreaming in Posttraumatic Stress Disorder.",
+          "year": "2017",
+          "venue": "Current psychiatry reports",
+          "doi": "10.1007/s11920-017-0827-1",
+          "pmid": "28828641",
+          "cited": 61
+        },
+        {
+          "title": "Shaping memory consolidation via targeted memory reactivation during sleep.",
+          "year": "2018",
+          "venue": "Annals of the New York Academy of Sciences",
+          "doi": "10.1111/nyas.13855",
+          "pmid": "29762867",
+          "cited": 54
+        },
+        {
+          "title": "Pathological pallidal beta activity in Parkinson's disease is sustained during sleep and associated with sleep disturbance.",
+          "year": "2023",
+          "venue": "Nature communications",
+          "doi": "10.1038/s41467-023-41128-6",
+          "pmid": "37669927",
+          "cited": 38
+        },
+        {
+          "title": "Targeted memory reactivation to augment treatment in post-traumatic stress disorder.",
+          "year": "2024",
+          "venue": "Current biology : CB",
+          "doi": "10.1016/j.cub.2024.07.019",
+          "pmid": "39116885",
+          "cited": 27
+        },
+        {
+          "title": "Sounding It Out: Auditory Stimulation and Overnight Memory Processing.",
+          "year": "2021",
+          "venue": "Current sleep medicine reports",
+          "doi": "10.1007/s40675-021-00207-0",
+          "pmid": "34722123",
+          "cited": 27
+        },
+        {
+          "title": "RNA sensing induced by chromosome missegregation augments anti-tumor immunity.",
+          "year": "2025",
+          "venue": "Molecular cell",
+          "doi": "10.1016/j.molcel.2024.11.025",
+          "pmid": "39706184",
+          "cited": 23
+        },
+        {
+          "title": "Infralimbic activity during REM sleep facilitates fear extinction memory.",
+          "year": "2024",
+          "venue": "Current biology : CB",
+          "doi": "10.1016/j.cub.2024.04.018",
+          "pmid": "38714199",
+          "cited": 20
+        },
+        {
+          "title": "Automated real-time EEG sleep spindle detection for brain-state-dependent brain stimulation.",
+          "year": "2022",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.13733",
+          "pmid": "36130730",
+          "cited": 19
+        },
+        {
+          "title": "Real-time, closed-loop, or open-loop stimulation? Navigating a terminological jungle.",
+          "year": "2022",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.13755",
+          "pmid": "36285430",
+          "cited": 18
+        },
+        {
+          "title": "Physiology and psychology of dreams.",
+          "year": "2005",
+          "venue": "Seminars in neurology",
+          "doi": "10.1055/s-2005-867078",
+          "pmid": "15798942",
+          "cited": 18
+        },
+        {
+          "title": "Modulation of sleep using noninvasive stimulations during sleep.",
+          "year": "2023",
+          "venue": "Biomedical engineering letters",
+          "doi": "10.1007/s13534-023-00298-4",
+          "pmid": "37519871",
+          "cited": 17
+        },
+        {
+          "title": "The Future of Non-Invasive Brain Stimulation in Sleep Medicine.",
+          "year": "2025",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.70071",
+          "pmid": "40370279",
+          "cited": 16
+        },
+        {
+          "title": "Sleep's role in updating aversive autobiographical memories.",
+          "year": "2022",
+          "venue": "Translational psychiatry",
+          "doi": "10.1038/s41398-022-01878-1",
+          "pmid": "35332136",
+          "cited": 16
+        },
+        {
+          "title": "The Impact of Kiwifruit Consumption on the Sleep and Recovery of Elite Athletes.",
+          "year": "2023",
+          "venue": "Nutrients",
+          "doi": "10.3390/nu15102274",
+          "pmid": "37242157",
+          "cited": 15
+        },
+        {
+          "title": "An overview of reviews for preventing and treating sleep problems in infants.",
+          "year": "2022",
+          "venue": "Acta paediatrica (Oslo, Norway : 1992)",
+          "doi": "10.1111/apa.16475",
+          "pmid": "35778903",
+          "cited": 14
+        },
+        {
+          "title": "Memory Reactivation during Sleep Does Not Act Holistically on Object Memory.",
+          "year": "2024",
+          "venue": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+          "doi": "10.1523/JNEUROSCI.0022-24.2024",
+          "pmid": "38604779",
+          "cited": 13
+        },
+        {
+          "title": "Brain Stimulation for Improving Sleep and Memory.",
+          "year": "2022",
+          "venue": "Sleep medicine clinics",
+          "doi": "10.1016/j.jsmc.2022.06.013",
+          "pmid": "36150810",
+          "cited": 12
+        },
+        {
+          "title": "Hacking the functions of sleep: noninvasive approaches to stimulate sleep neurophysiology.",
+          "year": "2026",
+          "venue": "Physiological reviews",
+          "doi": "10.1152/physrev.00007.2025",
+          "pmid": "41263765",
+          "cited": 11
+        },
+        {
+          "title": "Spindle-targeted acoustic stimulation may stabilize an ongoing nap.",
+          "year": "2022",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.13583",
+          "pmid": "35289006",
+          "cited": 11
+        },
+        {
+          "title": "Efficacy and mechanisms of repeated closed-loop auditory exposure during slow-wave sleep for internet gaming disorder.",
+          "year": "2025",
+          "venue": "Molecular psychiatry",
+          "doi": "10.1038/s41380-025-02995-1",
+          "pmid": "40425853",
+          "cited": 4
+        }
+      ]
+    },
+    "4.4": {
+      "label": "刺激模态与系统形态",
+      "chapter": "第5章",
+      "hits": {
+        "pm_core": 31
+      },
+      "unique": 25,
+      "papers": [
+        {
+          "title": "Enhancement of sleep slow waves: underlying mechanisms and practical consequences.",
+          "year": "2014",
+          "venue": "Frontiers in systems neuroscience",
+          "doi": "10.3389/fnsys.2014.00208",
+          "pmid": "25389394",
+          "cited": 216
+        },
+        {
+          "title": "Performance of an Ambulatory Dry-EEG Device for Auditory Closed-Loop Stimulation of Sleep Slow Oscillations in the Home Environment.",
+          "year": "2018",
+          "venue": "Frontiers in human neuroscience",
+          "doi": "10.3389/fnhum.2018.00088",
+          "pmid": "29568267",
+          "cited": 112
+        },
+        {
+          "title": "Absence Seizure Control by a Brain Computer Interface.",
+          "year": "2017",
+          "venue": "Scientific reports",
+          "doi": "10.1038/s41598-017-02626-y",
+          "pmid": "28555070",
+          "cited": 110
+        },
+        {
+          "title": "Covert waking brain activity reveals instantaneous sleep depth.",
+          "year": "2011",
+          "venue": "PloS one",
+          "doi": "10.1371/journal.pone.0017351",
+          "pmid": "21408616",
+          "cited": 53
+        },
+        {
+          "title": "Home-based self-administered transcranial direct current stimulation in older adults with knee osteoarthritis pain: An open-label study.",
+          "year": "2019",
+          "venue": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+          "doi": "10.1016/j.jocn.2019.05.023",
+          "pmid": "31153751",
+          "cited": 49
+        },
+        {
+          "title": "Benchmarking Real-Time Algorithms for In-Phase Auditory Stimulation of Low Amplitude Slow Waves With Wearable EEG Devices During Sleep.",
+          "year": "2022",
+          "venue": "IEEE transactions on bio-medical engineering",
+          "doi": "10.1109/TBME.2022.3157468",
+          "pmid": "35259094",
+          "cited": 34
+        },
+        {
+          "title": "The Barcelona Brain Health Initiative: Cohort description and first follow-up.",
+          "year": "2020",
+          "venue": "PloS one",
+          "doi": "10.1371/journal.pone.0228754",
+          "pmid": "32045448",
+          "cited": 33
+        },
+        {
+          "title": "Real-Time Microscale Temperature Imaging by Stimulated Raman Scattering.",
+          "year": "2020",
+          "venue": "The journal of physical chemistry letters",
+          "doi": "10.1021/acs.jpclett.0c02029",
+          "pmid": "32786960",
+          "cited": 27
+        },
+        {
+          "title": "The Portiloop: A deep learning-based open science tool for closed-loop brain stimulation.",
+          "year": "2022",
+          "venue": "PloS one",
+          "doi": "10.1371/journal.pone.0270696",
+          "pmid": "35994482",
+          "cited": 23
+        },
+        {
+          "title": "A comprehensive study on the efficacy of a wearable sleep aid device featuring closed-loop real-time acoustic stimulation.",
+          "year": "2023",
+          "venue": "Scientific reports",
+          "doi": "10.1038/s41598-023-43975-1",
+          "pmid": "37845236",
+          "cited": 15
+        },
+        {
+          "title": "A wearable EEG system for closed-loop neuromodulation of sleep-related oscillations.",
+          "year": "2023",
+          "venue": "Journal of neural engineering",
+          "doi": "10.1088/1741-2552/acfb3b",
+          "pmid": "37726002",
+          "cited": 13
+        },
+        {
+          "title": "BDNF Val66Met gene polymorphism modulates brain activity following rTMS-induced memory impairment.",
+          "year": "2022",
+          "venue": "Scientific reports",
+          "doi": "10.1038/s41598-021-04175-x",
+          "pmid": "34997117",
+          "cited": 13
+        },
+        {
+          "title": "Adenosinergic regulation of striatal clock gene expression and ethanol intake during constant light.",
+          "year": "2014",
+          "venue": "Neuropsychopharmacology : official publication of the American College of Neuropsychopharmacology",
+          "doi": "10.1038/npp.2014.94",
+          "pmid": "24755889",
+          "cited": 13
+        },
+        {
+          "title": "Pulsed inhibition of corticospinal excitability by the thalamocortical sleep spindle.",
+          "year": "2025",
+          "venue": "Brain stimulation",
+          "doi": "10.1016/j.brs.2025.02.015",
+          "pmid": "39986374",
+          "cited": 11
+        },
+        {
+          "title": "Auditory stimulation during deep sleep enhances total slow-wave activity in a young cohort: A feasibility trial.",
+          "year": "2025",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.14404",
+          "pmid": "39653656",
+          "cited": 5
+        },
+        {
+          "title": "Design of a Sleep Modulation System with FPGA-Accelerated Deep Learning for Closed-loop Stage-Specific In-Phase Auditory Stimulation.",
+          "year": "2023",
+          "venue": "IEEE International Symposium on Circuits and Systems proceedings. IEEE International Symposium on Circuits and Systems",
+          "doi": "10.1109/ISCAS46773.2023.10181356",
+          "pmid": "38623583",
+          "cited": 5
+        },
+        {
+          "title": "Novel design of smart sleep-lighting system for improving the sleep environment of children.",
+          "year": "2019",
+          "venue": "Technology and health care : official journal of the European Society for Engineering and Medicine",
+          "doi": "10.3233/THC-199002",
+          "pmid": "31045522",
+          "cited": 5
+        },
+        {
+          "title": "Selective REM sleep restriction in mice using a device designed for tunable somatosensory stimulation.",
+          "year": "2024",
+          "venue": "Journal of neuroscience methods",
+          "doi": "10.1016/j.jneumeth.2024.110063",
+          "pmid": "38301833",
+          "cited": 4
+        },
+        {
+          "title": "A system based on machine learning for improving sleep.",
+          "year": "2023",
+          "venue": "Journal of neuroscience methods",
+          "doi": "10.1016/j.jneumeth.2023.109936",
+          "pmid": "37524247",
+          "cited": 4
+        },
+        {
+          "title": "Emergent technologies in clinical neurophysiology to study the central nervous system: IFCN handbook chapter.",
+          "year": "2025",
+          "venue": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+          "doi": "10.1016/j.clinph.2025.2110942",
+          "pmid": "40769034",
+          "cited": 2
+        },
+        {
+          "title": "Closed-loop modulation of sleep in children undergoing intracranial recordings.",
+          "year": "2026",
+          "venue": "Cell reports. Medicine",
+          "doi": "10.1016/j.xcrm.2025.102538",
+          "pmid": "41512876",
+          "cited": 1
+        },
+        {
+          "title": "Modulating sleep: slow oscillation and spindle stimulation effects on physiology and memory.",
+          "year": "2026",
+          "venue": "NPJ science of learning",
+          "doi": "10.1038/s41539-025-00383-6",
+          "pmid": "41559130",
+          "cited": 1
+        },
+        {
+          "title": "Protocol for modulating anesthesia delta oscillations using closed loop auditory stimulation.",
+          "year": "2026",
+          "venue": "Frontiers in human neuroscience",
+          "doi": "10.3389/fnhum.2026.1748528",
+          "pmid": "41877763",
+          "cited": 1
+        },
+        {
+          "title": "CLAS-hdEEG: high-density EEG software platform for real-time delta wave detection and closed-loop auditory stimulation.",
+          "year": "2026",
+          "venue": "Journal of neural engineering",
+          "doi": "10.1088/1741-2552/ae4e5b",
+          "pmid": "41791124",
+          "cited": 0
+        },
+        {
+          "title": "Acoustic stimulation and other emerging approaches to enhance sleep: design notes for the next generation of closed-loop neurostimulation technology.",
+          "year": "2025",
+          "venue": "Frontiers in neuroscience",
+          "doi": "10.3389/fnins.2025.1682450",
+          "pmid": "41716911",
+          "cited": 0
+        }
+      ]
+    },
+    "4.5": {
+      "label": "个体化、觉醒保护与长期安全",
+      "chapter": "第6章",
+      "hits": {
+        "pm_core": 12
+      },
+      "unique": 12,
+      "papers": [
+        {
+          "title": "Auditory deep sleep stimulation in older adults at home: a randomized crossover trial.",
+          "year": "2022",
+          "venue": "Communications medicine",
+          "doi": "10.1038/s43856-022-00096-6",
+          "pmid": "35603302",
+          "cited": 65
+        },
+        {
+          "title": "A sleep state in Drosophila larvae required for neural stem cell proliferation.",
+          "year": "2018",
+          "venue": "eLife",
+          "doi": "10.7554/eLife.33220",
+          "pmid": "29424688",
+          "cited": 52
+        },
+        {
+          "title": "Sleep Analysis in Adult C. elegans Reveals State-Dependent Alteration of Neural and Behavioral Responses.",
+          "year": "2021",
+          "venue": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+          "doi": "10.1523/JNEUROSCI.1701-20.2020",
+          "pmid": "33446520",
+          "cited": 27
+        },
+        {
+          "title": "The Glymphatic-Venous Axis in Brain Clearance Failure: Aquaporin-4 Dysfunction, Biomarker Imaging, and Precision Therapeutic Frontiers.",
+          "year": "2025",
+          "venue": "International journal of molecular sciences",
+          "doi": "10.3390/ijms262110546",
+          "pmid": "41226584",
+          "cited": 22
+        },
+        {
+          "title": "Respiratory responses to tracheobronchial stimulation during sleep and wakefulness in the adult cat.",
+          "year": "1996",
+          "venue": "Sleep",
+          "doi": "10.1093/sleep/19.6.472",
+          "pmid": "8865504",
+          "cited": 17
+        },
+        {
+          "title": "Distinct lateral hypothalamic CaMKIIα neuronal populations regulate wakefulness and locomotor activity.",
+          "year": "2024",
+          "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+          "doi": "10.1073/pnas.2316150121",
+          "pmid": "38593074",
+          "cited": 14
+        },
+        {
+          "title": "Effects of a 3-week dehydroepiandrosterone administration on sleep, sex steroids and multiple 24-h hormonal profiles in postmenopausal women: a pilot study.",
+          "year": "2013",
+          "venue": "Clinical endocrinology",
+          "doi": "10.1111/cen.12201",
+          "pmid": "23488643",
+          "cited": 14
+        },
+        {
+          "title": "Micro SleepNet: efficient deep learning model for mobile terminal real-time sleep staging.",
+          "year": "2023",
+          "venue": "Frontiers in neuroscience",
+          "doi": "10.3389/fnins.2023.1218072",
+          "pmid": "37575302",
+          "cited": 12
+        },
+        {
+          "title": "Performance of an open machine learning model to classify sleep/wake from actigraphy across ∼24-hour intervals without knowledge of rest timing.",
+          "year": "2023",
+          "venue": "Sleep health",
+          "doi": "10.1016/j.sleh.2023.07.001",
+          "pmid": "37573208",
+          "cited": 9
+        },
+        {
+          "title": "A real-time sleep scoring framework for closed-loop sleep manipulation in mice.",
+          "year": "2021",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.13262",
+          "pmid": "33403714",
+          "cited": 4
+        },
+        {
+          "title": "End of Apnea Event Prediction Leveraging EEG Signals and Interpretable Machine Learning.",
+          "year": "2025",
+          "venue": "Biosensors",
+          "doi": "10.3390/bios15110732",
+          "pmid": "41294743",
+          "cited": 1
+        },
+        {
+          "title": "Visuoaffective day residue in hypnagogia involves sequential bihemispheric interactions between cortical, subcortical, and cerebellar structures.",
+          "year": "2025",
+          "venue": "Communications biology",
+          "doi": "10.1038/s42003-025-08429-6",
+          "pmid": "40610726",
+          "cited": 1
+        }
+      ]
+    },
+    "4.6": {
+      "label": "可穿戴 EEG 与 PSG/实时触发验证",
+      "chapter": "第2/5/6章",
+      "hits": {
+        "pm_core": 87
+      },
+      "unique": 25,
+      "papers": [
+        {
+          "title": "Hearables: Automatic Overnight Sleep Monitoring With Standardized In-Ear EEG Sensor.",
+          "year": "2020",
+          "venue": "IEEE transactions on bio-medical engineering",
+          "doi": "10.1109/TBME.2019.2911423",
+          "pmid": "31021747",
+          "cited": 140
+        },
+        {
+          "title": "Accurate whole-night sleep monitoring with dry-contact ear-EEG.",
+          "year": "2019",
+          "venue": "Scientific reports",
+          "doi": "10.1038/s41598-019-53115-3",
+          "pmid": "31727953",
+          "cited": 115
+        },
+        {
+          "title": "Automatic sleep staging using ear-EEG.",
+          "year": "2017",
+          "venue": "Biomedical engineering online",
+          "doi": "10.1186/s12938-017-0400-5",
+          "pmid": "28927417",
+          "cited": 82
+        },
+        {
+          "title": "Automatic Sleep Monitoring Using Ear-EEG.",
+          "year": "2017",
+          "venue": "IEEE journal of translational engineering in health and medicine",
+          "doi": "10.1109/JTEHM.2017.2702558",
+          "pmid": "29018638",
+          "cited": 81
+        },
+        {
+          "title": "L-SeqSleepNet: Whole-cycle Long Sequence Modeling for Automatic Sleep Staging.",
+          "year": "2023",
+          "venue": "IEEE journal of biomedical and health informatics",
+          "doi": "10.1109/JBHI.2023.3303197",
+          "pmid": "37552591",
+          "cited": 79
+        },
+        {
+          "title": "Objective sleep quality predicts subjective sleep ratings.",
+          "year": "2024",
+          "venue": "Scientific reports",
+          "doi": "10.1038/s41598-024-56668-0",
+          "pmid": "38467694",
+          "cited": 58
+        },
+        {
+          "title": "2020 International brain-computer interface competition: A review.",
+          "year": "2022",
+          "venue": "Frontiers in human neuroscience",
+          "doi": "10.3389/fnhum.2022.898300",
+          "pmid": "35937679",
+          "cited": 47
+        },
+        {
+          "title": "Advancements in Wearable EEG Technology for Improved Home-Based Sleep Monitoring and Assessment: A Review.",
+          "year": "2023",
+          "venue": "Biosensors",
+          "doi": "10.3390/bios13121019",
+          "pmid": "38131779",
+          "cited": 43
+        },
+        {
+          "title": "Ear-EEG for sleep assessment: a comparison with actigraphy and PSG.",
+          "year": "2021",
+          "venue": "Sleep & breathing = Schlaf & Atmung",
+          "doi": "10.1007/s11325-020-02248-1",
+          "pmid": "33219908",
+          "cited": 43
+        },
+        {
+          "title": "At-home sleep monitoring using generic ear-EEG.",
+          "year": "2023",
+          "venue": "Frontiers in neuroscience",
+          "doi": "10.3389/fnins.2023.987578",
+          "pmid": "36816118",
+          "cited": 39
+        },
+        {
+          "title": "Automatic sleep stage classification using ear-EEG.",
+          "year": "2016",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "doi": "10.1109/EMBC.2016.7591789",
+          "pmid": "28269332",
+          "cited": 35
+        },
+        {
+          "title": "Photoplethysmography in Normal and Pathological Sleep.",
+          "year": "2021",
+          "venue": "Sensors (Basel, Switzerland)",
+          "doi": "10.3390/s21092928",
+          "pmid": "33922042",
+          "cited": 34
+        },
+        {
+          "title": "Flex-Printed Ear-EEG Sensors for Adequate Sleep Staging at Home.",
+          "year": "2021",
+          "venue": "Frontiers in digital health",
+          "doi": "10.3389/fdgth.2021.688122",
+          "pmid": "34713159",
+          "cited": 29
+        },
+        {
+          "title": "Remote Wearable Neuroimaging Devices for Health Monitoring and Neurophenotyping: A Scoping Review.",
+          "year": "2024",
+          "venue": "Biomimetics (Basel, Switzerland)",
+          "doi": "10.3390/biomimetics9040237",
+          "pmid": "38667247",
+          "cited": 27
+        },
+        {
+          "title": "Pre-gelled Electrode Grid for Self-Applied EEG Sleep Monitoring at Home.",
+          "year": "2022",
+          "venue": "Frontiers in neuroscience",
+          "doi": "10.3389/fnins.2022.883966",
+          "pmid": "35812225",
+          "cited": 22
+        },
+        {
+          "title": "An 800MΩ-Input-Impedance 95.3dB-DR Δ-ΔΣ AFE for Dry-Electrode Wearable EEG Recording.",
+          "year": "2024",
+          "venue": "IEEE transactions on biomedical circuits and systems",
+          "doi": "10.1109/TBCAS.2024.3374891",
+          "pmid": "38457320",
+          "cited": 18
+        },
+        {
+          "title": "Ear-EEG-based sleep scoring in epilepsy: A comparison with scalp-EEG.",
+          "year": "2020",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.12921",
+          "pmid": "31621976",
+          "cited": 17
+        },
+        {
+          "title": "A wearable EEG system for closed-loop neuromodulation of sleep-related oscillations.",
+          "year": "2023",
+          "venue": "Journal of neural engineering",
+          "doi": "10.1088/1741-2552/acfb3b",
+          "pmid": "37726002",
+          "cited": 13
+        },
+        {
+          "title": "Self-applied ear-EEG for sleep monitoring at home.",
+          "year": "2022",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "doi": "10.1109/EMBC48229.2022.9871076",
+          "pmid": "36085914",
+          "cited": 12
+        },
+        {
+          "title": "Muscle Activity Detection during Sleep by Ear-EEG.",
+          "year": "2020",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "doi": "10.1109/EMBC44109.2020.9176365",
+          "pmid": "33018155",
+          "cited": 8
+        },
+        {
+          "title": "Long-term ear-EEG monitoring of sleep - A case study during shift work.",
+          "year": "2023",
+          "venue": "Journal of sleep research",
+          "doi": "10.1111/jsr.13853",
+          "pmid": "36889935",
+          "cited": 7
+        },
+        {
+          "title": "Validation of spectral sleep scoring with polysomnography using forehead EEG device.",
+          "year": "2024",
+          "venue": "Frontiers in sleep",
+          "doi": "10.3389/frsle.2024.1349537",
+          "pmid": "41424496",
+          "cited": 6
+        },
+        {
+          "title": "Discrimination of Sleep Spindles in Ear-EEG.",
+          "year": "2019",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "doi": "10.1109/EMBC.2019.8857114",
+          "pmid": "31947378",
+          "cited": 6
+        },
+        {
+          "title": "Hearables: Automatic Sleep Scoring from Single-Channel Ear-EEG in Older Adults.",
+          "year": "2023",
+          "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference",
+          "doi": "10.1109/EMBC40787.2023.10340253",
+          "pmid": "38083340",
+          "cited": 5
+        },
+        {
+          "title": "The evaluation of cEEGrids for fatigue detection in aviation.",
+          "year": "2024",
+          "venue": "Sleep advances : a journal of the Sleep Research Society",
+          "doi": "10.1093/sleepadvances/zpae009",
+          "pmid": "38420258",
+          "cited": 3
+        }
+      ]
+    }
+  }
+}

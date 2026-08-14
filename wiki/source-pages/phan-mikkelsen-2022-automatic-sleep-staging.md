@@ -47,5 +47,6 @@ review_due: 2027-08-12
 
 ## 综述关联
 - [[review/证据矩阵]]
+- [[review/chapters/02-基础理论与核心概念]]
 - [[review/完整综述大纲]]
 - [[review/文献搜索策略_新版]]
