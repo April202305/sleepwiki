@@ -158,3 +158,58 @@
 | 4.6 可穿戴 EEG 与 PSG/实时触发验证 | 25 | 87 |
 
 - 备注：本版以闭环链路（感知—实时识别—刺激—反馈）为组织主线，取代旧的 11 线“可穿戴 EEG-BCI 睡眠分期”范围；旧检索导出 `raw/search-exports/2026-08-14-search-export.json` 与旧 shturl 记录保留备查。4.4 检索式组合偏严（“closed-loop sleep”/“real-time sleep stimulation” + 模态 + 系统形态），命中偏少，建议复核是否放宽。
+
+## [2026-08-15] search | 多平台系统检索（PubMed + OpenAlex + ClinicalTrials.gov）
+
+- 状态：completed（多平台首轮检索，仍非“PRISMA 完成”）
+- 数据库/平台：PubMed（NCBI E-utilities，esearch+esummary，sort=relevance）、OpenAlex（works filter=title_and_abstract.search）、ClinicalTrials.gov（v2 API，nextPageToken 分页）；引用数经 Crossref 回填。
+- 检索日期：2026-08-15。检索式版本：[[review/文献搜索策略_新版]]（6 条检索线，其中 4.2 含 core + clinical 两式）。
+- 导出文件：`raw/search-exports/2026-08-15-systematic-export.json`（含 merged 明细、各线 PubMed/OpenAlex 命中数、全局去重与 223 项注册试验）。
+- 结果表：[[review/文献检索结果]] 已更新为多平台 6 线版（一行 = 一篇 × 一条命中线）；线内去重共 266 条目，**全局去重 229 篇**；另登记 **223 项 ClinicalTrials.gov 注册试验**。
+
+| 检索线 | 线内去重 | PubMed | OpenAlex |
+| --- | --- | --- | --- |
+| 4.1 通用闭环架构、实时状态估计与时延 | 45 | 78 | 125 |
+| 4.2 慢波睡眠与锁相听觉刺激 | 79 | 89 + 317 | 208 + 92 |
+| 4.3 入睡、纺锤波、REM、记忆与梦境 | 49 | 1658 | 1247 |
+| 4.4 刺激模态与系统形态 | 30 | 31 | 6 |
+| 4.5 个体化、觉醒保护与长期安全 | 27 | 12 | 26 |
+| 4.6 可穿戴 EEG 与 PSG/实时触发验证 | 36 | 87 | 188 |
+
+- 备注：补齐上次 PubMed-only 的缺口（OpenAlex 前次因 429 限速未完成，ClinicalTrials.gov 前次未检索）。仍缺 Web of Science Core Collection / Scopus / IEEE Xplore / PsycINFO（需机构订阅，无免费 API），WHO ICTRP 需经其搜索门户手动复核；故本表为“初步系统检索”而非完整系统综述，下一步为标题/摘要 → 全文的 PRISMA 筛选与排除理由登记。4.4 命中偏少的问题依旧存在（OpenAlex 仅 6 篇），保留放宽复核建议。
+
+## [2026-08-15] search | 补录 Scopus（机构 API）
+
+- 状态：completed
+- 数据库/平台：Scopus（Elsevier Search API，`X-ELS-APIKey` 机构订阅 key，TITLE-ABS-KEY 检索，sort=relevance，每线取前 50）。
+- 检索日期：2026-08-15。检索式版本：[[review/文献搜索策略_新版]]（6 条检索线 + 4.2 clinical 子式，布尔式原样映射为 `TITLE-ABS-KEY(...)`）。
+- 结果表：[[review/文献检索结果]] 已更新为三平台版（PubMed + OpenAlex + Scopus）；线内去重共 466 条目，**全局去重 406 篇**（自 229 增至 406）；ClinicalTrials.gov 223 项试验不变。
+
+| 检索线 | 线内去重 | PubMed | OpenAlex | Scopus |
+| --- | --- | --- | --- | --- |
+| 4.1 通用闭环架构、实时状态估计与时延 | 77 | 78 | 125 | 74 |
+| 4.2 慢波睡眠与锁相听觉刺激 | 148 | 89 + 317 | 208 + 92 | 118 + 372 |
+| 4.3 入睡、纺锤波、REM、记忆与梦境 | 98 | 1658 | 1247 | 466 |
+| 4.4 刺激模态与系统形态 | 32 | 31 | 6 | 4 |
+| 4.5 个体化、觉醒保护与长期安全 | 28 | 12 | 26 | 14 |
+| 4.6 可穿戴 EEG 与 PSG/实时触发验证 | 83 | 87 | 188 | 120 |
+
+- 备注：Scopus 补齐后覆盖边界更新为“已检索 PubMed / OpenAlex / Scopus / ClinicalTrials.gov”；仍缺 Web of Science Core Collection / IEEE Xplore / PsycINFO（可经 OpenAlex/Crossref/Semantic Scholar 部分交叉覆盖）。4.4 命中偏少仍存在（Scopus 仅 4 篇），保留放宽建议。导出文件同步更新为 `raw/search-exports/2026-08-15-systematic-export.json`。
+
+## [2026-08-15] search | 补录 Semantic Scholar（Graph API）
+
+- 状态：completed
+- 数据库/平台：Semantic Scholar（Graph API `/paper/search`，`x-api-key` 免费 key；4.1/4.2/4.6 用短语关键词检索，4.3/4.4/4.5 因长查询命中为零改为多个子检索式合并，每线保留相关性排序前 50）。
+- 检索日期：2026-08-15。检索式版本：[[review/文献搜索策略_新版]]（6 条检索线，映射为 S2 关键词/短语查询，非严格布尔）。
+- 结果表：[[review/文献检索结果]] 已更新为四平台版（PubMed + OpenAlex + Scopus + Semantic Scholar）；线内去重共 786 条目，**全局去重 647 篇**（自 406 增至 647）；ClinicalTrials.gov 223 项试验不变。
+
+| 检索线 | 线内去重 | PubMed | OpenAlex | Scopus | S2 |
+| --- | --- | --- | --- | --- | --- |
+| 4.1 通用闭环架构、实时状态估计与时延 | 166 | 78 | 125 | 74 | 100 |
+| 4.2 慢波睡眠与锁相听觉刺激 | 203 | 89 + 317 | 208 + 92 | 118 + 372 | 100 |
+| 4.3 入睡、纺锤波、REM、记忆与梦境 | 141 | 1658 | 1247 | 466 | 50 |
+| 4.4 刺激模态与系统形态 | 82 | 31 | 6 | 4 | 50 |
+| 4.5 个体化、觉醒保护与长期安全 | 73 | 12 | 26 | 14 | 50 |
+| 4.6 可穿戴 EEG 与 PSG/实时触发验证 | 121 | 87 | 188 | 120 | 53 |
+
+- 备注：S2 列均为“实际采集并入的篇数”（相关性排序，非布尔命中总数）。覆盖边界更新为“已检索 PubMed / OpenAlex / Scopus / Semantic Scholar / ClinicalTrials.gov”；WoS / IEEE Xplore / PsycINFO 仍经 OpenAlex/Crossref/Semantic Scholar 交叉覆盖但未直接检索。导出文件同步更新为 `raw/search-exports/2026-08-15-systematic-export.json`。
