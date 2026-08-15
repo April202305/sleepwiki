@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/review/文献检索结果.md",
+                "file": "wiki/review/完整综述大纲.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "文献检索结果"
+              "title": "完整综述大纲"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#传统方法",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,11 +79,13 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "71547053785a1fca",
@@ -190,8 +192,8 @@
   },
   "active": "8b94b9a3cf68fd46",
   "lastOpenFiles": [
-    "wiki/review/文献搜索策略_新版.md",
     "wiki/review/文献检索结果.md",
+    "wiki/review/文献搜索策略_新版.md",
     "raw/search-exports/2026-08-15-systematic-export.json",
     "wiki/review/完整综述大纲.md",
     "raw/search-exports/2026-08-14-closed-loop-export.json",
