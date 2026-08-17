@@ -6,7 +6,12 @@
     "dl": "DL-1.1-001",
     "label": "Cao et al. 2017, PLoS ONE",
     "title": "The prevalence of insomnia in the general population in China: A meta-analysis",
-    "authors": ["Cao", "Wang", "Zhong", "et al."],
+    "authors": [
+      "Cao",
+      "Wang",
+      "Zhong",
+      "et al."
+    ],
     "year": 2017,
     "journal": "PLOS ONE",
     "status": "downloaded",
@@ -24,7 +29,12 @@
     "dl": "DL-1.1-001",
     "label": "van Straten et al. 2025, J Sleep Res",
     "title": "The Prevalence of Insomnia Disorder in the General Population: A Meta-Analysis",
-    "authors": ["van Straten", "Weinreich", "Fábián", "et al."],
+    "authors": [
+      "van Straten",
+      "Weinreich",
+      "Fábián",
+      "et al."
+    ],
     "year": 2025,
     "journal": "Journal of Sleep Research",
     "status": "downloaded",
@@ -42,7 +52,12 @@
     "dl": "DL-1.1-001",
     "label": "Benjafield et al. 2025, Sleep Med Rev",
     "title": "Estimation of the global prevalence and burden of insomnia: a systematic literature review-based analysis",
-    "authors": ["Benjafield", "Sert Kuniyoshi", "Malhotra", "et al."],
+    "authors": [
+      "Benjafield",
+      "Sert Kuniyoshi",
+      "Malhotra",
+      "et al."
+    ],
     "year": 2025,
     "journal": "Sleep Medicine Reviews",
     "status": "downloaded",
@@ -59,7 +74,12 @@
     "dl": "DL-1.1-001",
     "label": "Morin et al. 2015, Nat Rev Dis Primers",
     "title": "Insomnia disorder",
-    "authors": ["Morin", "Drake", "Harvey", "et al."],
+    "authors": [
+      "Morin",
+      "Drake",
+      "Harvey",
+      "et al."
+    ],
     "year": 2015,
     "journal": "Nature Reviews Disease Primers",
     "status": "needs_institution",
@@ -76,7 +96,12 @@
     "dl": "DL-1.1-002",
     "label": "Riemann et al. 2017, J Sleep Res",
     "title": "European guideline for the diagnosis and treatment of insomnia",
-    "authors": ["Riemann", "Baglioni", "Bassetti", "et al."],
+    "authors": [
+      "Riemann",
+      "Baglioni",
+      "Bassetti",
+      "et al."
+    ],
     "year": 2017,
     "journal": "Journal of Sleep Research",
     "status": "needs_institution",
@@ -93,7 +118,12 @@
     "dl": "DL-1.1-002",
     "label": "Qaseem et al. 2016, Ann Intern Med",
     "title": "Management of Chronic Insomnia Disorder in Adults: A Clinical Practice Guideline From the American College of Physicians",
-    "authors": ["Qaseem", "Kansagara", "Forciea", "et al."],
+    "authors": [
+      "Qaseem",
+      "Kansagara",
+      "Forciea",
+      "et al."
+    ],
     "year": 2016,
     "journal": "Annals of Internal Medicine",
     "status": "needs_institution",
@@ -111,7 +141,12 @@
     "dl": "DL-1.1-002",
     "label": "Schutte-Rodin et al. 2008, J Clin Sleep Med",
     "title": "Clinical Guideline for the Evaluation and Management of Chronic Insomnia in Adults",
-    "authors": ["Schutte-Rodin", "Broch", "Buysse", "et al."],
+    "authors": [
+      "Schutte-Rodin",
+      "Broch",
+      "Buysse",
+      "et al."
+    ],
     "year": 2008,
     "journal": "Journal of Clinical Sleep Medicine",
     "status": "downloaded",
@@ -129,7 +164,12 @@
     "dl": "DL-1.1-002",
     "label": "Edinger et al. 2021, J Clin Sleep Med",
     "title": "Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline",
-    "authors": ["Edinger", "Arnedt", "Bertisch", "et al."],
+    "authors": [
+      "Edinger",
+      "Arnedt",
+      "Bertisch",
+      "et al."
+    ],
     "year": 2021,
     "journal": "Journal of Clinical Sleep Medicine",
     "status": "downloaded",
@@ -147,7 +187,12 @@
     "dl": "DL-1.1-003",
     "label": "Dudysová et al. 2024, J Sleep Res",
     "title": "Closed-loop auditory stimulation of slow-wave sleep in chronic insomnia: a pilot study",
-    "authors": ["Dudysová", "Janků", "Piorecký", "et al."],
+    "authors": [
+      "Dudysová",
+      "Janků",
+      "Piorecký",
+      "et al."
+    ],
     "year": 2024,
     "journal": "Journal of Sleep Research",
     "status": "downloaded",
@@ -164,7 +209,12 @@
     "dl": "DL-1.1-004",
     "label": "Van den Bulcke et al. 2025, Am J Geriatr Psychiatry",
     "title": "Acoustic Stimulation to Improve Slow-Wave Sleep in Alzheimer's Disease: A Multiple Night At-Home Intervention",
-    "authors": ["Van den Bulcke", "Davidoff", "Heremans", "et al."],
+    "authors": [
+      "Van den Bulcke",
+      "Davidoff",
+      "Heremans",
+      "et al."
+    ],
     "year": 2025,
     "journal": "The American Journal of Geriatric Psychiatry",
     "status": "needs_institution",
@@ -173,5 +223,201 @@
     "source": null,
     "bytes": null,
     "note": "临床应用示例/AD 居家声刺激（作者已核验：Van den Bulcke 等）。无 OA 全文，需机构订阅。链接 https://doi.org/10.1016/j.jagp.2024.07.002"
+  },
+  {
+    "slug": "streatfeild-2021-cost-sleep-disorders",
+    "doi": "10.1093/sleep/zsab132",
+    "pmid": "34015136",
+    "pmcid": null,
+    "dl": "DL-1.1-005a",
+    "label": "Streatfeild et al. 2021, Sleep",
+    "title": "The social and economic cost of sleep disorders",
+    "authors": [
+      "Streatfeild",
+      "et al."
+    ],
+    "year": 2021,
+    "journal": "Sleep",
+    "status": "needs_institution",
+    "pdf": null,
+    "version": null,
+    "source": null,
+    "bytes": null,
+    "note": "总体疾病负担/社会成本（跨失眠/OSA/RLS/发作性睡病）。订阅（Crossref standard publication model），无合法 OA。链接 https://doi.org/10.1093/sleep/zsab132"
+  },
+  {
+    "slug": "senaratna-2017-osa-prevalence-review",
+    "doi": "10.1016/j.smrv.2016.07.002",
+    "pmid": "27568340",
+    "pmcid": null,
+    "dl": "DL-1.1-005b-1",
+    "label": "Senaratna et al. 2017, Sleep Med Rev",
+    "title": "Prevalence of obstructive sleep apnea in the general population: A systematic review",
+    "authors": [
+      "Senaratna",
+      "et al."
+    ],
+    "year": 2017,
+    "journal": "Sleep Medicine Reviews",
+    "status": "needs_institution",
+    "pdf": null,
+    "version": null,
+    "source": null,
+    "bytes": null,
+    "note": "一般人群 OSA 患病率系统综述。订阅（Elsevier），无合法 OA。链接 https://doi.org/10.1016/j.smrv.2016.07.002"
+  },
+  {
+    "slug": "benjafield-2019-global-osa-burden",
+    "doi": "10.1016/S2213-2600(19)30198-5",
+    "pmid": "31300334",
+    "pmcid": "PMC7007763",
+    "dl": "DL-1.1-005b-2",
+    "label": "Benjafield et al. 2019, Lancet Respir Med",
+    "title": "Estimation of the global prevalence and burden of obstructive sleep apnoea: a literature-based analysis",
+    "authors": [
+      "Benjafield",
+      "et al."
+    ],
+    "year": 2019,
+    "journal": "The Lancet Respiratory Medicine",
+    "status": "needs_institution",
+    "pdf": null,
+    "version": null,
+    "source": null,
+    "bytes": null,
+    "note": "全球 OSA 患病率/负担。用户确认 Lancet 免费全文仍需机构登录（订阅），已平替为 Chang 2023 国际共识（005b-4，免费 HTML 全文）+ Borsoi 2022 成本综述（005b-5）"
+  },
+  {
+    "slug": "niu-2025-china-osa-prevalence",
+    "doi": "10.2147/NSS.S525547",
+    "pmid": "40370656",
+    "pmcid": "PMC12075409",
+    "dl": "DL-1.1-005c",
+    "label": "Niu et al. 2025, Nat Sci Sleep",
+    "title": "Spatiotemporal Trends in the Prevalence of Obstructive Sleep Apnoea Across China: A Multilevel Meta-Analysis",
+    "authors": [
+      "Niu",
+      "et al."
+    ],
+    "year": 2025,
+    "journal": "Nature and Science of Sleep",
+    "status": "downloaded",
+    "pdf": "niu-2025-china-osa-prevalence.pdf",
+    "version": "publisher",
+    "source": "Europe PMC (PMC12075409)",
+    "bytes": 11613313,
+    "note": "中国 OSA 患病率多层次 meta（Dove OA）。中国人群 OSA 患病率可直接用"
+  },
+  {
+    "slug": "song-2024-global-rls-prevalence",
+    "doi": "10.7189/jogh.14.04113",
+    "pmid": "38843039",
+    "pmcid": "PMC11156251",
+    "dl": "DL-1.1-005d",
+    "label": "Song et al. 2024, J Glob Health",
+    "title": "The global and regional prevalence of restless legs syndrome among adults: A systematic review and meta-analysis",
+    "authors": [
+      "Song",
+      "et al."
+    ],
+    "year": 2024,
+    "journal": "Journal of Global Health",
+    "status": "downloaded",
+    "pdf": "song-2024-global-rls-prevalence.pdf",
+    "version": "publisher",
+    "source": "Europe PMC (PMC11156251)",
+    "bytes": 2186199,
+    "note": "RLS 成人全球/区域患病率系统综述（J Glob Health OA）。发作性睡病/昼夜节律仅在正文点名时再补"
+  },
+  {
+    "slug": "franklin-2015-osa-epidemiology-review",
+    "doi": "10.3978/j.issn.2072-1439.2015.06.11",
+    "pmid": null,
+    "pmcid": "PMC4561280",
+    "dl": "DL-1.1-005b-3",
+    "label": "Franklin & Lindberg 2015, J Thorac Dis",
+    "title": "Obstructive sleep apnea is a common disorder in the population—a review on the epidemiology of sleep apnea",
+    "authors": [
+      "Franklin",
+      "Lindberg"
+    ],
+    "year": 2015,
+    "journal": "Journal of Thoracic Disease",
+    "status": "downloaded",
+    "pdf": "franklin-2015-osa-epidemiology-review.pdf",
+    "version": "publisher",
+    "source": "Europe PMC (PMC4561280)",
+    "bytes": 338340,
+    "note": "OSA 流行病学综述（免费），作为 Senaratna 2017 的 OA 平替"
+  },
+  {
+    "slug": "chang-2023-international-consensus-osa",
+    "doi": "10.1002/alr.23079",
+    "pmid": null,
+    "pmcid": "PMC10359192",
+    "dl": "DL-1.1-005b-4",
+    "label": "Chang et al. 2023, Int Forum Allergy Rhinol",
+    "title": "International Consensus Statement on Obstructive Sleep Apnea",
+    "authors": [
+      "Chang",
+      "Goldberg",
+      "Alt",
+      "et al."
+    ],
+    "year": 2023,
+    "journal": "International Forum of Allergy & Rhinology",
+    "status": "downloaded",
+    "pdf": "chang-2023-international-consensus-osa.html",
+    "version": "HTML 全文（出版社版）",
+    "source": "Europe PMC (PMC10359192) HTML 全文",
+    "bytes": 4930121,
+    "note": "国际 OSA 权威共识（150+ 作者），正文给'全球近 10 亿人患 OSA'并引 Benjafield 2019 936M。PDF 无法自动下载（欧洲 PMC render 500 + Wiley 403），PMC 免费 HTML 全文已存盘；平替 Benjafield 2019 的全球 OSA 负担首选"
+  },
+  {
+    "slug": "borsoi-2022-osa-cost-of-illness",
+    "doi": "10.1371/journal.pone.0268677",
+    "pmid": null,
+    "pmcid": "PMC9122203",
+    "dl": "DL-1.1-005b-5",
+    "label": "Borsoi et al. 2022, PLoS ONE",
+    "title": "The invisible costs of obstructive sleep apnea (OSA): Systematic review and cost-of-illness analysis",
+    "authors": [
+      "Borsoi",
+      "Armeni",
+      "Donin",
+      "Costa",
+      "Ferini-Strambi"
+    ],
+    "year": 2022,
+    "journal": "PLOS ONE",
+    "status": "downloaded",
+    "pdf": "borsoi-2022-osa-cost-of-illness.pdf",
+    "version": "publisher",
+    "source": "Europe PMC (PMC9122203)",
+    "bytes": 1253427,
+    "note": "OSA 经济负担/疾病成本系统综述（全球 cost-of-illness），PLoS 金 OA；补 Benjafield 的'负担'维度"
+  },
+  {
+    "slug": "bassetti-2026-sleep-disorders-europe-burden",
+    "doi": "10.1111/ene.70463",
+    "pmid": null,
+    "pmcid": "PMC12905625",
+    "dl": "DL-1.1-005a-2",
+    "label": "Bassetti et al. 2026, Eur J Neurol",
+    "title": "Epidemiology and Economic Burden of Sleep Disorders in Europe",
+    "authors": [
+      "Bassetti",
+      "Welter",
+      "Montes-Martinez",
+      "et al."
+    ],
+    "year": 2026,
+    "journal": "European Journal of Neurology",
+    "status": "downloaded",
+    "pdf": "bassetti-2026-sleep-disorders-europe-burden.pdf",
+    "version": "publisher",
+    "source": "Europe PMC (PMC12905625)",
+    "bytes": 437748,
+    "note": "多睡眠障碍流行病学+经济负担（欧洲），Eur J Neurol 金 OA；平替 Streatfeild 2021（总体多障碍负担，欧洲口径）"
   }
 ]

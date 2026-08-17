@@ -4,6 +4,22 @@
 | --- | --- | --- | --- |
 | 2026-08-10 | 初始化知识库目录与索引 | `wiki/index.md` | 初始创建 |
 
+## [2026-08-17] ingest | 第 1.1 节广义睡眠障碍负担补充资料
+
+- 状态：completed
+- 修改页数：18（新建 10，更新 8）
+- 新建页面：5 份来源页（[[source-pages/bassetti-2026-sleep-disorders-europe-burden]]、[[source-pages/borsoi-2022-osa-cost-of-illness]]、[[source-pages/franklin-2015-osa-epidemiology-review]]、[[source-pages/niu-2025-china-osa-prevalence]]、[[source-pages/song-2024-global-rls-prevalence]]）及 5 个概念页（[[concept/睡眠障碍]]、[[concept/阻塞性睡眠呼吸暂停]]、[[concept/不宁腿综合征]]、[[concept/发作性睡病]]、[[concept/REM 睡眠行为障碍]]）。
+- 更新页面：[[concept/睡眠障碍疾病负担]]、[[review/01-引言-1.1-P1-证据包]]、[[review/证据矩阵]]、[[review/chapters/01-引言]]、[[review/文献下载清单]]、[[review/综述写作看板]]、[[index]]、[[shturl]]。
+- source_id：`raw/inbox/bassetti-2026-sleep-disorders-europe-burden.pdf`；`raw/inbox/borsoi-2022-osa-cost-of-illness.pdf`；`raw/inbox/franklin-2015-osa-epidemiology-review.pdf`；`raw/inbox/niu-2025-china-osa-prevalence.pdf`；`raw/inbox/song-2024-global-rls-prevalence.pdf`。
+- 备注：已将 5 篇资料关联至第 1.1 节；所有患病率和成本均保留疾病、地域、时间与诊断口径限制。未修改 `raw/`。
+
+## [2026-08-17] review | 第 1.1-P1 v2 广义范围单段草案
+
+- 状态：completed（待校准；未并入正文草案）
+- 修改页数：3（新建 0，更新 3）
+- 更新页面：[[review/01-引言-1.1-P1-证据包]]、[[review/综述写作看板]]、[[shturl]]。
+- 内容：生成 1 个按疾病/地区分列的段落、核验清单与 5 行逐句证据矩阵；CBT-I 明确限于成人慢性失眠。
+
 ## [2026-08-17] review | 第 1.1 节阶段 4 证据包
 
 - 状态：completed（待校准确认）
@@ -20,6 +36,14 @@
 - 更新页面：[[review/01-引言-1.1-P1-证据包]]、[[review/综述写作看板]]、[[shturl]]。
 - 内容：生成 1 个受限段落、段落核验清单与 6 行逐句文献证据矩阵；未新增事实来源。
 - 来源：[[source-pages/schutte-rodin-2008-aasm-insomnia-guideline]]、[[source-pages/van-straten-2025-insomnia-prevalence-meta]]、[[source-pages/benjafield-2025-global-insomnia-burden]]、[[source-pages/riemann-2017-european-insomnia-guideline]]、[[source-pages/edinger-2021-aasm-behavioral-insomnia]]。
+
+## [2026-08-17] review | 第 1.1 节广义睡眠障碍范围缺口与下载任务
+
+- 状态：completed（补充资料前阻塞）
+- 修改页数：5（新建 0，更新 5）
+- 更新页面：[[review/文献下载清单]]、[[review/01-引言-1.1-P1-证据包]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[shturl]]。
+- 结论：既有检索结果中未发现可直接采用的非失眠睡眠障碍患病/疾病负担题录；已有 OSA 命中多为设备或干预研究，不能替代流行病学证据。
+- 新增任务：`DL-1.1-005a`（多类别负担）、`005b`（一般人群 OSA）、`005c`（中国 OSA）为扩展广义表述的核心补项；`005d` 仅在正文点名其他类别时补充。
 
 ## [2026-08-11] ingest | raw/inbox（空）
 
@@ -314,3 +338,11 @@
 - 更新页面：[[review/分段综述写作规则与工作流]]、[[review/双人协作操作手册]]、[[review/综述写作看板]]、[[review/可穿戴睡眠检测与闭环干预综述|综述地图]]、[[review/证据矩阵]]、[[index]] 与 [[shturl]]。
 - 变更：建立候选文献的精确题录、优先级、所需字段、质量依据、下载版本与准入状态清单；下载代理仅按清单交付，用户负责放入 `raw/inbox/`，Ingest 后才可进入证据与正文。
 - 来源：用户要求（2026-08-17）。
+
+## [2026-08-17] review-outline | 补充第 1.1 节写作思路
+
+- 状态：completed
+- 修改页数：2（新建 0，更新 2）
+- 更新页面：[[review/完整综述大纲]]、[[shturl]]。
+- 变更：将第 1.1 节明确为“疾病规模 → 诊断口径差异 → 规范治疗背景 → 闭环技术的待验证价值”的论证链；补充分段方式、证据边界及与第 1.2 节的衔接，并移除已过时的全节 `gap` 描述。
+- 来源：用户确认的写作结构（2026-08-17）。

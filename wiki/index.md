@@ -17,6 +17,11 @@
 - [[source-pages/edinger-2021-aasm-behavioral-insomnia|Edinger 等（2021）]]：AASM 成人慢性失眠行为与心理治疗指南。`source`｜2026-08-17｜1 来源
 - [[source-pages/schutte-rodin-2008-aasm-insomnia-guideline|Schutte-Rodin 等（2008）]]：AASM 成人慢性失眠评估与管理历史性指南。`source`｜2026-08-17｜1 来源
 - [[source-pages/dudysova-2024-closed-loop-insomnia-pilot|Dudysová 等（2024）]]：慢性失眠患者中的闭环听觉刺激试点研究。`source`｜2026-08-17｜1 来源
+- [[source-pages/bassetti-2026-sleep-disorders-europe-burden|Bassetti 等（2026）]]：欧洲 5 类主要睡眠障碍的流行病学与经济负担。`source`｜2026-08-17｜1 来源
+- [[source-pages/borsoi-2022-osa-cost-of-illness|Borsoi 等（2022）]]：意大利 OSA 的社会视角成本—疾病分析。`source`｜2026-08-17｜1 来源
+- [[source-pages/franklin-2015-osa-epidemiology-review|Franklin 和 Lindberg（2015）]]：OSA 流行病学与诊断口径综述。`source`｜2026-08-17｜1 来源
+- [[source-pages/niu-2025-china-osa-prevalence|Niu 等（2025）]]：中国 OSA 患病率的多层次 Meta 分析。`source`｜2026-08-17｜1 来源
+- [[source-pages/song-2024-global-rls-prevalence|Song 等（2024）]]：成人 RLS 的全球与区域患病率模型化分析。`source`｜2026-08-17｜1 来源
 
 ### 模型词条
 
@@ -49,6 +54,11 @@
 - [[concept/失眠障碍]]：慢性失眠的定义、诊断口径、临床需求与闭环研究边界。`concept`｜2026-08-17｜7 来源
 - [[concept/睡眠障碍疾病负担]]：失眠患病率与受影响人群规模，须保留诊断与地域口径。`concept`｜2026-08-17｜3 来源
 - [[concept/失眠认知行为治疗]]：成人慢性失眠的指南推荐治疗背景（CBT-I）。`concept`｜2026-08-17｜3 来源
+- [[concept/睡眠障碍]]：第 1.1 节采用的疾病导向睡眠障碍范围与分疾病呈现边界。`concept`｜2026-08-17｜1 来源
+- [[concept/阻塞性睡眠呼吸暂停]]：OSA 的定义、患病率口径及国家/区域负担边界。`concept`｜2026-08-17｜4 来源
+- [[concept/不宁腿综合征]]：RLS 的诊断标准与全球成人患病率资料。`concept`｜2026-08-17｜2 来源
+- [[concept/发作性睡病]]：当前仅有欧洲疾病负担范围资料的睡眠障碍类别。`concept`｜2026-08-17｜1 来源
+- [[concept/REM 睡眠行为障碍]]：当前仅有欧洲疾病负担范围资料的睡眠障碍类别。`concept`｜2026-08-17｜1 来源
 
 ### 闭环干预词条
 
