@@ -191,9 +191,10 @@
   "active": "8b94b9a3cf68fd46",
   "lastOpenFiles": [
     "wiki/review/分段综述写作规则与工作流.md",
-    "wiki/review/双人协作操作手册.md",
-    "wiki/review/综述正文草案.md",
     "wiki/review/完整综述大纲.md",
+    "wiki/review/双人协作操作手册.md",
+    "wiki/review/文献下载清单.md",
+    "wiki/review/综述正文草案.md",
     "wiki/review/综述写作看板.md",
     "wiki/review/可穿戴睡眠检测与闭环干预综述.md",
     "wiki/review/文献搜索策略_华师学报.md",
@@ -222,7 +223,6 @@
     "wiki/model/SleepEEGNet.md",
     "wiki/model/SingleChannelNet.md",
     "wiki/model/SeqSleepNet.md",
-    "wiki/model/DeepSleepNet.md",
     "wiki/review/chapters",
     "wiki/review",
     "wiki/intervention"
