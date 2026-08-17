@@ -4,19 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "59f94c3816ce2ace",
+        "id": "6fda7a963e52454b",
         "type": "tabs",
         "children": [
           {
-            "id": "a6b05b0f3ce9a23c",
+            "id": "2b5d03b3adf29dbc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "wiki/review/downloads/esfahani-2023-closed-loop-auditory-principles.pdf"
+                "file": "wiki/review/01-引言-1.1-P1-证据包.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "esfahani-2023-closed-loop-auditory-principles"
+              "icon": "lucide-file",
+              "title": "01-引言-1.1-P1-证据包"
+            }
+          },
+          {
+            "id": "07aaeec5b7292d82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/review/完整综述大纲.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "完整综述大纲"
+            }
+          },
+          {
+            "id": "27257f2a6d0bd65d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/review/文献搜索策略_新版.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "文献搜索策略_新版"
             }
           }
         ]
@@ -40,7 +70,7 @@
               "state": {
                 "sortOrder": "alphabetical",
                 "autoReveal": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
@@ -81,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "71547053785a1fca",
@@ -186,26 +217,33 @@
       "bases:新建数据库": false
     }
   },
-  "active": "a6b05b0f3ce9a23c",
+  "active": "2b5d03b3adf29dbc",
   "lastOpenFiles": [
-    "wiki/review/downloads/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.pdf",
-    "wiki/concept/睡眠纺锤波.md",
-    "wiki/device/Portiloop.md",
-    "wiki/device/Wireless Dreem Device.md",
-    "wiki/source-pages/schmidig-2024-phase-targeted-sleep-learning.md",
-    "wiki/source-pages/valenchon-2022-portiloop.md",
-    "wiki/source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.md",
-    "raw/inbox/valenchon-2022-portiloop.pdf",
-    "raw/inbox/esfahani-2023-closed-loop-auditory-principles.pdf",
-    "raw/inbox/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.pdf",
-    "wiki/review/downloads/esfahani-2023-closed-loop-auditory-principles.pdf",
-    "wiki/review/downloads/valenchon-2022-portiloop.pdf",
-    "wiki/review/downloads/ferster-2022-benchmarking-real-time-algorithms.pdf",
-    "wiki/review/文献下载清单.md",
-    "wiki/review/文献检索结果.md",
-    "wiki/review/01-引言-1.2-文献需求单.md",
+    "wiki/review/完整综述大纲.md",
     "wiki/review/01-引言-1.1-P1-证据包.md",
-    "wiki/review/downloads/bressler-2023-wearable-eeg-closed-loop.pdf",
+    "wiki/review/文献搜索策略_新版.md",
+    "wiki/review/分段综述写作规则与工作流.md",
+    "wiki/review/01-引言-1.2-文献需求单.md",
+    "wiki/source-pages/valenchon-2022-portiloop.md",
+    "wiki/source-pages/schmidig-2024-phase-targeted-sleep-learning.md",
+    "wiki/source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.md",
+    "wiki/device/Wireless Dreem Device.md",
+    "wiki/device/Portiloop.md",
+    "wiki/device",
+    "wiki/concept/睡眠纺锤波.md",
+    "wiki/review/文献检索结果.md",
+    "wiki/review/睡眠BCI闭环干预综述_逐节写作逻辑大纲 (1).md",
+    "plan/progress.md",
+    "plan/task-packets/rewrite-1.1.md",
+    "plan/review/evidence-coverage.md",
+    "plan/chapter-blueprints/1.1-blueprint.md",
+    "plan/evidence-map.md",
+    "plan/project-overview.md",
+    "plan/task-packets",
+    "plan/review",
+    "plan/chapter-blueprints",
+    "plan",
+    "wiki/review/未确认 714076.crdownload",
     "wiki/concept/REM 睡眠行为障碍.md",
     "wiki/concept/发作性睡病.md",
     "wiki/concept/不宁腿综合征.md",
@@ -213,15 +251,9 @@
     "wiki/concept/睡眠障碍.md",
     "wiki/source-pages/song-2024-global-rls-prevalence.md",
     "wiki/source-pages/niu-2025-china-osa-prevalence.md",
-    "wiki/source-pages/franklin-2015-osa-epidemiology-review.md",
-    "wiki/source-pages/borsoi-2022-osa-cost-of-illness.md",
-    "wiki/source-pages/bassetti-2026-sleep-disorders-europe-burden.md",
     "raw/inbox/song-2024-global-rls-prevalence.pdf",
     "raw/inbox/niu-2025-china-osa-prevalence.pdf",
-    "wiki/review/可穿戴睡眠检测与闭环干预综述.md",
-    "wiki/review/分段综述写作规则与工作流.md",
-    "wiki/review/双人协作操作手册.md",
-    "wiki/source-pages/edinger-2021-aasm-behavioral-insomnia.md",
-    "wiki/review/综述写作看板.md"
+    "raw/inbox/franklin-2015-osa-epidemiology-review.pdf",
+    "raw/inbox/borsoi-2022-osa-cost-of-illness.pdf"
   ]
 }
