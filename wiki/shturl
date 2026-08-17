@@ -4,6 +4,22 @@
 | --- | --- | --- | --- |
 | 2026-08-10 | 初始化知识库目录与索引 | `wiki/index.md` | 初始创建 |
 
+## [2026-08-17] ingest | 第 1.2 节闭环系统资料
+
+- 状态：completed（部分准入）
+- 修改页数：13（新建 6，更新 7）
+- 新建页面：[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/valenchon-2022-portiloop]]、[[source-pages/schmidig-2024-phase-targeted-sleep-learning]]、[[device/Wireless Dreem Device]]、[[device/Portiloop]]、[[concept/睡眠纺锤波]]。
+- 更新页面：[[intervention/闭环听觉刺激]]、[[review/证据矩阵]]、[[review/文献下载清单]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[index]]、[[shturl]]。
+- 备注：`esfahani-2023...pdf` 与 DL-1.2-001 题录不符，已作为 Schmidig 等独立来源记录；DL-1.2-003 未在 inbox 发现。未修改 `raw/`。
+
+## [2026-08-17] review | 第 1.2 节阶段 0 文献需求单
+
+- 状态：completed
+- 修改页数：7（新建 1，更新 6）
+- 新建页面：[[review/01-引言-1.2-文献需求单]]。
+- 更新页面：[[review/文献检索结果]]、[[review/文献下载清单]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[index]]、[[shturl]]。
+- 候选：3 篇必需（闭环原则综述、居家干 EEG 人体系统、可穿戴实时算法基准）及 2 篇推荐工程/系统补充；全部待下载与作者核验。
+
 ## [2026-08-17] ingest | 第 1.1 节广义睡眠障碍负担补充资料
 
 - 状态：completed

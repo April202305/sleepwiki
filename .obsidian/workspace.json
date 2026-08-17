@@ -11,14 +11,12 @@
             "id": "a6b05b0f3ce9a23c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "wiki/review/01-引言-1.1-P1-证据包.md",
-                "mode": "source",
-                "source": false
+                "file": "wiki/review/downloads/esfahani-2023-closed-loop-auditory-principles.pdf"
               },
-              "icon": "lucide-file",
-              "title": "01-引言-1.1-P1-证据包"
+              "icon": "lucide-file-text",
+              "title": "esfahani-2023-closed-loop-auditory-principles"
             }
           }
         ]
@@ -190,6 +188,24 @@
   },
   "active": "a6b05b0f3ce9a23c",
   "lastOpenFiles": [
+    "wiki/review/downloads/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.pdf",
+    "wiki/concept/睡眠纺锤波.md",
+    "wiki/device/Portiloop.md",
+    "wiki/device/Wireless Dreem Device.md",
+    "wiki/source-pages/schmidig-2024-phase-targeted-sleep-learning.md",
+    "wiki/source-pages/valenchon-2022-portiloop.md",
+    "wiki/source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.md",
+    "raw/inbox/valenchon-2022-portiloop.pdf",
+    "raw/inbox/esfahani-2023-closed-loop-auditory-principles.pdf",
+    "raw/inbox/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.pdf",
+    "wiki/review/downloads/esfahani-2023-closed-loop-auditory-principles.pdf",
+    "wiki/review/downloads/valenchon-2022-portiloop.pdf",
+    "wiki/review/downloads/ferster-2022-benchmarking-real-time-algorithms.pdf",
+    "wiki/review/文献下载清单.md",
+    "wiki/review/文献检索结果.md",
+    "wiki/review/01-引言-1.2-文献需求单.md",
+    "wiki/review/01-引言-1.1-P1-证据包.md",
+    "wiki/review/downloads/bressler-2023-wearable-eeg-closed-loop.pdf",
     "wiki/concept/REM 睡眠行为障碍.md",
     "wiki/concept/发作性睡病.md",
     "wiki/concept/不宁腿综合征.md",
@@ -200,31 +216,12 @@
     "wiki/source-pages/franklin-2015-osa-epidemiology-review.md",
     "wiki/source-pages/borsoi-2022-osa-cost-of-illness.md",
     "wiki/source-pages/bassetti-2026-sleep-disorders-europe-burden.md",
-    "wiki/review/文献下载清单.md",
     "raw/inbox/song-2024-global-rls-prevalence.pdf",
     "raw/inbox/niu-2025-china-osa-prevalence.pdf",
-    "raw/inbox/franklin-2015-osa-epidemiology-review.pdf",
-    "raw/inbox/borsoi-2022-osa-cost-of-illness.pdf",
-    "raw/inbox/bassetti-2026-sleep-disorders-europe-burden.pdf",
-    "wiki/review/downloads/chang-2023-international-consensus-osa.html",
-    "wiki/review/downloads/bassetti-2026-sleep-disorders-europe-burden.pdf",
-    "wiki/review/downloads/borsoi-2022-osa-cost-of-illness.pdf",
-    "wiki/review/downloads/chang-2023-international-consensus-osa.pdf",
-    "wiki/review/downloads/franklin-2015-osa-epidemiology-review.pdf",
-    "wiki/review/01-引言-1.1-P1-证据包.md",
     "wiki/review/可穿戴睡眠检测与闭环干预综述.md",
     "wiki/review/分段综述写作规则与工作流.md",
     "wiki/review/双人协作操作手册.md",
-    "wiki/review/文献检索结果.md",
     "wiki/source-pages/edinger-2021-aasm-behavioral-insomnia.md",
-    "wiki/review/综述写作看板.md",
-    "wiki/review/综述正文草案.md",
-    "wiki/review/证据矩阵.md",
-    "wiki/review/文献搜索策略_新版.md",
-    "wiki/review/完整综述大纲.md",
-    "wiki/index.md",
-    "wiki/intervention/闭环听觉刺激.md",
-    "wiki/concept/失眠认知行为治疗.md",
-    "wiki/concept/睡眠障碍疾病负担.md"
+    "wiki/review/综述写作看板.md"
   ]
 }

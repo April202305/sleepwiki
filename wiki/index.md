@@ -22,6 +22,9 @@
 - [[source-pages/franklin-2015-osa-epidemiology-review|Franklin 和 Lindberg（2015）]]：OSA 流行病学与诊断口径综述。`source`｜2026-08-17｜1 来源
 - [[source-pages/niu-2025-china-osa-prevalence|Niu 等（2025）]]：中国 OSA 患病率的多层次 Meta 分析。`source`｜2026-08-17｜1 来源
 - [[source-pages/song-2024-global-rls-prevalence|Song 等（2024）]]：成人 RLS 的全球与区域患病率模型化分析。`source`｜2026-08-17｜1 来源
+- [[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop|Debellemaniere 等（2018）]]：居家干 EEG 的实时 N3 检测与闭环听觉刺激。`source`｜2026-08-17｜1 来源
+- [[source-pages/valenchon-2022-portiloop|Valenchon 等（2022）]]：Portiloop 的实时 EEG 事件检测与闭环工程实现。`source`｜2026-08-17｜1 来源
+- [[source-pages/schmidig-2024-phase-targeted-sleep-learning|Schmidig 等（2024）]]：慢波期相靶向词汇刺激；文件与下载题录不符。`source`｜2026-08-17｜1 来源
 
 ### 模型词条
 
@@ -59,6 +62,12 @@
 - [[concept/不宁腿综合征]]：RLS 的诊断标准与全球成人患病率资料。`concept`｜2026-08-17｜2 来源
 - [[concept/发作性睡病]]：当前仅有欧洲疾病负担范围资料的睡眠障碍类别。`concept`｜2026-08-17｜1 来源
 - [[concept/REM 睡眠行为障碍]]：当前仅有欧洲疾病负担范围资料的睡眠障碍类别。`concept`｜2026-08-17｜1 来源
+- [[concept/睡眠纺锤波]]：Portiloop 实时事件检测案例中的睡眠 EEG 事件。`concept`｜2026-08-17｜1 来源
+
+### 可穿戴设备
+
+- [[device/Wireless Dreem Device|Wireless Dreem Device]]：干 EEG 居家实时 N3 检测与慢振荡听觉触发。`device`｜2026-08-17｜1 来源
+- [[device/Portiloop|Portiloop]]：开源、可携带的实时 EEG 事件检测与刺激工程系统。`device`｜2026-08-17｜1 来源
 
 ### 闭环干预词条
 
@@ -75,7 +84,8 @@
 - [[review/综述写作看板|综述写作看板]]：生成—校准协作状态、下一步和修改历史。`review`｜2026-08-17｜用户约束
 - [[review/双人协作操作手册|双人协作操作手册]]：按角色、命令和放行门槛执行双人写作。`review`｜2026-08-17｜用户约束
 - [[review/文献下载清单|文献下载清单]]：下载代理的唯一交接单，记录候选、版本和准入状态。`review`｜2026-08-17｜用户约束
-- [[review/01-引言-1.1-P1-证据包|第 1.1 节证据包]]：失眠障碍负担与 CBT-I 规范治疗定位的可写主张及边界。`review`｜2026-08-17｜6 份准入来源
+- [[review/01-引言-1.1-P1-证据包|第 1.1 节证据包]]：主要睡眠障碍的分疾病负担与失眠 CBT-I 规范治疗定位。`review`｜2026-08-17｜11 份准入来源
+- [[review/01-引言-1.2-文献需求单|第 1.2 节文献需求单]]：闭环链路与实时人体睡眠系统的下载任务。`review`｜2026-08-17｜既有检索候选
 - [[review/chapters/01-引言|第 1 章：引言]]：疾病需求、范式转变与系统架构。`review`｜2026-08-14｜用户框架
 - [[review/chapters/02-基础理论与核心概念|第 2 章：技术基础]]：实时感知、状态/相位估计与时延。`review`｜2026-08-14｜用户框架
 - [[review/chapters/03-可穿戴睡眠信号采集硬件体系|第 3 章：慢波睡眠闭环干预]]：锁相听觉刺激、生理/功能终点与临床队列。`review`｜2026-08-14｜用户框架
