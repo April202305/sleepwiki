@@ -4,6 +4,23 @@
 | --- | --- | --- | --- |
 | 2026-08-10 | 初始化知识库目录与索引 | `wiki/index.md` | 初始创建 |
 
+## [2026-08-17] review | 第 1.1 节阶段 4 证据包
+
+- 状态：completed（待校准确认）
+- 修改页数：12（新建 1，更新 11）
+- 新建页面：[[review/01-引言-1.1-P1-证据包]]。
+- 更新页面：[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[index]]，以及 6 份已准入来源页。
+- 范围：仅限失眠障碍的患病/疾病负担口径与 CBT-I 等规范治疗定位；未生成正文。
+- 来源：[[source-pages/benjafield-2025-global-insomnia-burden]]、[[source-pages/van-straten-2025-insomnia-prevalence-meta]]、[[source-pages/cao-2017-insomnia-prevalence-china]]、[[source-pages/riemann-2017-european-insomnia-guideline]]、[[source-pages/edinger-2021-aasm-behavioral-insomnia]]、[[source-pages/schutte-rodin-2008-aasm-insomnia-guideline]]。
+
+## [2026-08-17] review | 第 1.1-P1 v1 单段草案
+
+- 状态：completed（待校准；未并入正文草案）
+- 修改页数：3（新建 0，更新 3）
+- 更新页面：[[review/01-引言-1.1-P1-证据包]]、[[review/综述写作看板]]、[[shturl]]。
+- 内容：生成 1 个受限段落、段落核验清单与 6 行逐句文献证据矩阵；未新增事实来源。
+- 来源：[[source-pages/schutte-rodin-2008-aasm-insomnia-guideline]]、[[source-pages/van-straten-2025-insomnia-prevalence-meta]]、[[source-pages/benjafield-2025-global-insomnia-burden]]、[[source-pages/riemann-2017-european-insomnia-guideline]]、[[source-pages/edinger-2021-aasm-behavioral-insomnia]]。
+
 ## [2026-08-11] ingest | raw/inbox（空）
 
 - 状态：completed
@@ -222,6 +239,29 @@
 - 更新页面：[[review/可穿戴睡眠检测与闭环干预综述|综述地图]]、[[review/完整综述大纲]]、[[review/证据矩阵]]、[[review/文献搜索策略_新版]]、[[review/文献检索结果]]、[[index]] 与 [[shturl]]。
 - 变更：设定“仅用户提供、已录入且可定位的全文证据可写入正文”的边界；将写作拆为文献准入、证据包、单段受限草拟、段落核验、小节整合及全文核验。
 - 来源：用户要求（2026-08-17）。
+
+## [2026-08-17] ingest | 第 1.1 节疾病负担、临床指南与慢性失眠闭环试点资料
+
+- 状态：completed
+- 修改页数：19（新建 11，更新 8）
+- 新建页面：7 个来源页——[[source-pages/riemann-2017-european-insomnia-guideline]]、[[source-pages/benjafield-2025-global-insomnia-burden]]、[[source-pages/cao-2017-insomnia-prevalence-china]]、[[source-pages/edinger-2021-aasm-behavioral-insomnia]]、[[source-pages/dudysova-2024-closed-loop-insomnia-pilot]]、[[source-pages/schutte-rodin-2008-aasm-insomnia-guideline]]、[[source-pages/van-straten-2025-insomnia-prevalence-meta]]；3 个概念页——[[concept/失眠障碍]]、[[concept/睡眠障碍疾病负担]]、[[concept/失眠认知行为治疗]]；1 个干预页——[[intervention/闭环听觉刺激]]。
+- 更新页面：[[review/证据矩阵]]、[[review/chapters/01-引言]]、[[review/chapters/03-可穿戴睡眠信号采集硬件体系]]、[[review/可穿戴睡眠检测与闭环干预综述|综述地图]]、[[review/文献下载清单]]、[[review/综述写作看板]]、[[index]] 与 [[shturl]]。
+- 双向链接：新增 34 对（来源页↔概念/干预/综述章节/证据矩阵，以及概念↔干预之间的关联）。
+- source_id：`raw/inbox/Journal of Sleep Research - 2017 - Riemann - European guideline for the diagnosis and treatment of insomnia.pdf`；`raw/inbox/benjafield-2025-global-insomnia-burden.pdf`；`raw/inbox/cao-2017-insomnia-prevalence-china.pdf`；`raw/inbox/edinger-2021-aasm-behavioral-insomnia.pdf`；`raw/inbox/jsr-2024-closed-loop-insomnia-pilot.pdf`；`raw/inbox/schutte-rodin-2008-aasm-insomnia-guideline.pdf`；`raw/inbox/vanstraten-2025-insomnia-prevalence-meta.pdf`。
+- 关键证据：全球负担估计、一般/中国人群患病率、欧洲与 AASM 指南的 CBT-I 推荐，以及慢性失眠中的 CLAS 小样本假刺激对照试点，均已定位至来源页页码。
+- ⚠️限制：患病率口径异质；旧指南仅作历史背景；CLAS 研究只支持可行性与即时生理效应，不能写为临床疗效。
+- 跳过：4 份已有 `source_id` 的 PDF 未重复录入；`.DS_Store` 为系统文件，未纳入知识库。
+- 未修改 `raw/`。
+
+## [2026-08-17] review-plan | 第 1.1 节文献需求单
+
+- 状态：pending
+- 修改页数：3（新建 0，更新 3）
+- 更新页面：[[review/文献下载清单]]、[[review/综述写作看板]]、[[shturl]]。
+- 目标：第 1.1 节“睡眠障碍的疾病负担与睡眠干预的临床需求”（250–300 字）；本轮未生成正文。
+- 文献需求：必需补充近期人口/疾病负担研究及权威临床指南/共识；推荐下载两篇已在检索结果中出现的临床闭环研究，作为临床转化场景而非疾病负担证据。
+- 下载 ID：DL-1.1-001 至 DL-1.1-004；详见 [[review/文献下载清单]]。
+- 来源：用户指令（2026-08-17）与 [[review/文献检索结果]]。
 
 ## [2026-08-17] configure | 补充双人协作操作手册的可复制发送示例
 

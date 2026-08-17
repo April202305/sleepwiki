@@ -10,6 +10,13 @@
 - [[source-pages/zhou-2022-singlechannelnet|Zhou 等（2022）]]：SingleChannelNet 的上下文输入与跨数据集评估摘要。`source`｜2026-08-11｜1 来源
 - [[source-pages/phan-mikkelsen-2022-automatic-sleep-staging|Phan 和 Mikkelsen（2022）]]：EEG 自动睡眠分期的进展、挑战与未来方向综述。`source`｜2026-08-12｜1 来源
 - [[source-pages/de-gans-2024-eeg-wearables-systematic-review|de Gans 等（2024）]]：EEG 可穿戴设备睡眠评估系统综述（60 篇论文、34 种设备）。`source`｜2026-08-12｜1 来源
+- [[source-pages/benjafield-2025-global-insomnia-burden|Benjafield 等（2025）]]：基于 18 项研究的全球失眠患病率与负担估计。`source`｜2026-08-17｜1 来源
+- [[source-pages/van-straten-2025-insomnia-prevalence-meta|van Straten 等（2025）]]：一般人群失眠障碍患病率 Meta 分析。`source`｜2026-08-17｜1 来源
+- [[source-pages/cao-2017-insomnia-prevalence-china|Cao 等（2017）]]：中国一般人群失眠患病率 Meta 分析。`source`｜2026-08-17｜1 来源
+- [[source-pages/riemann-2017-european-insomnia-guideline|Riemann 等（2017）]]：欧洲成人慢性失眠诊断与治疗指南。`source`｜2026-08-17｜1 来源
+- [[source-pages/edinger-2021-aasm-behavioral-insomnia|Edinger 等（2021）]]：AASM 成人慢性失眠行为与心理治疗指南。`source`｜2026-08-17｜1 来源
+- [[source-pages/schutte-rodin-2008-aasm-insomnia-guideline|Schutte-Rodin 等（2008）]]：AASM 成人慢性失眠评估与管理历史性指南。`source`｜2026-08-17｜1 来源
+- [[source-pages/dudysova-2024-closed-loop-insomnia-pilot|Dudysová 等（2024）]]：慢性失眠患者中的闭环听觉刺激试点研究。`source`｜2026-08-17｜1 来源
 
 ### 模型词条
 
@@ -39,6 +46,13 @@
 - [[concept/临床验证]]：分期一致性→生理效应→主观终点→安全性/依从性的分层验证体系。`concept`｜2026-08-12｜2 来源
 - [[concept/领域自适应]]：监督/半监督/无监督适应以应对分布偏移。`concept`｜2026-08-12｜1 来源
 - [[concept/模型压缩与端侧部署]]：量化、剪枝、轻量结构与 NAS 用于可穿戴/IoT 端部署。`concept`｜2026-08-12｜1 来源
+- [[concept/失眠障碍]]：慢性失眠的定义、诊断口径、临床需求与闭环研究边界。`concept`｜2026-08-17｜7 来源
+- [[concept/睡眠障碍疾病负担]]：失眠患病率与受影响人群规模，须保留诊断与地域口径。`concept`｜2026-08-17｜3 来源
+- [[concept/失眠认知行为治疗]]：成人慢性失眠的指南推荐治疗背景（CBT-I）。`concept`｜2026-08-17｜3 来源
+
+### 闭环干预词条
+
+- [[intervention/闭环听觉刺激]]：慢性失眠随机交叉假刺激对照试点中的生理效应与可行性证据。`intervention`｜2026-08-17｜1 来源
 
 ### 专题综述
 
@@ -51,6 +65,7 @@
 - [[review/综述写作看板|综述写作看板]]：生成—校准协作状态、下一步和修改历史。`review`｜2026-08-17｜用户约束
 - [[review/双人协作操作手册|双人协作操作手册]]：按角色、命令和放行门槛执行双人写作。`review`｜2026-08-17｜用户约束
 - [[review/文献下载清单|文献下载清单]]：下载代理的唯一交接单，记录候选、版本和准入状态。`review`｜2026-08-17｜用户约束
+- [[review/01-引言-1.1-P1-证据包|第 1.1 节证据包]]：失眠障碍负担与 CBT-I 规范治疗定位的可写主张及边界。`review`｜2026-08-17｜6 份准入来源
 - [[review/chapters/01-引言|第 1 章：引言]]：疾病需求、范式转变与系统架构。`review`｜2026-08-14｜用户框架
 - [[review/chapters/02-基础理论与核心概念|第 2 章：技术基础]]：实时感知、状态/相位估计与时延。`review`｜2026-08-14｜用户框架
 - [[review/chapters/03-可穿戴睡眠信号采集硬件体系|第 3 章：慢波睡眠闭环干预]]：锁相听觉刺激、生理/功能终点与临床队列。`review`｜2026-08-14｜用户框架
