@@ -424,7 +424,7 @@
     "slug": "esfahani-2023-closed-loop-auditory-principles",
     "doi": "10.1016/j.neubiorev.2023.105379",
     "pmid": "37660843",
-    "pmcid": "PMC11045222",
+    "pmcid": null,
     "dl": "DL-1.2-001",
     "label": "Esfahani et al. 2023, Neurosci Biobehav Rev",
     "title": "Closed-loop auditory stimulation of sleep slow oscillations: Basic principles and best practices",
@@ -442,9 +442,9 @@
     "status": "downloaded",
     "pdf": "esfahani-2023-closed-loop-auditory-principles.pdf",
     "version": "publisher",
-    "source": "Europe PMC (PMC11045222)",
-    "bytes": 1849948,
-    "note": "闭环定义/实时触发/反馈/失败保护的权威综述（CC BY 4.0）。作者已核验：Esfahani 等"
+    "source": "UvA-DARE repository (pure.uva.nl, CC BY 4.0 出版社版)",
+    "bytes": 2379210,
+    "note": "闭环定义/实时触发/反馈/失败保护的权威综述（CC BY 4.0）。作者已核验：Esfahani 等。无 PMC 收录（早期误用 PMC11045222 实为 Schmidig 2024，已纠正）"
   },
   {
     "slug": "debellemaniere-2018-ambulatory-dry-eeg-closed-loop",
@@ -497,8 +497,8 @@
     "pdf": "ferster-2022-benchmarking-real-time-algorithms.pdf",
     "version": "预印本（arXiv 作者接受稿）",
     "source": "arXiv:2203.02354（IEEE 出版版订阅）",
-    "bytes": 1649345,
-    "note": "实时算法边界/相位触发/误漏触发/时延。IEEE 出版版订阅，绿 OA 预印本。作者已核验：Ferster 等"
+    "bytes": 3186111,
+    "note": "实时算法边界/相位触发/误漏触发/时延。IEEE 出版版订阅，绿 OA 预印本（arXiv:2203.02354，10 页完整版）。作者已核验：Ferster 等。已放入 raw/inbox"
   },
   {
     "slug": "bressler-2023-wearable-eeg-closed-loop",

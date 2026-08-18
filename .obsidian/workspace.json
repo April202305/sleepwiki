@@ -11,12 +11,14 @@
             "id": "a6b05b0f3ce9a23c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "wiki/review/downloads/esfahani-2023-closed-loop-auditory-principles.pdf"
+                "file": "wiki/review/01-引言-1.2-P1-证据包.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "esfahani-2023-closed-loop-auditory-principles"
+              "icon": "lucide-file",
+              "title": "01-引言-1.2-P1-证据包"
             }
           }
         ]
@@ -188,40 +190,41 @@
   },
   "active": "a6b05b0f3ce9a23c",
   "lastOpenFiles": [
+    "wiki/review/双人协作操作手册.md",
+    "wiki/review/01-引言-1.2-P1-证据包.md",
+    "wiki/review/01-引言-1.1-P1-证据包.md",
+    "wiki/concept/实时相位估计.md",
+    "wiki/source-pages/ferster-2022-real-time-phase-algorithms.md",
+    "wiki/source-pages/esfahani-2023-closed-loop-auditory-principles.md",
+    "raw/inbox/ferster-2022-benchmarking-real-time-algorithms.pdf",
+    "wiki/review/downloads/ferster-2022-benchmarking-real-time-algorithms.pdf",
+    "wiki/review/downloads/chang-2023-international-consensus-osa.html",
+    "wiki/review/downloads/esfahani-2023-closed-loop-auditory-principles.pdf",
+    "wiki/review/downloads/valenchon-2022-portiloop.pdf",
     "wiki/review/downloads/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.pdf",
+    "wiki/review/睡眠BCI闭环干预综述_逐节写作逻辑大纲 (1).md",
+    "plan/task-packets/rewrite-1.1.md",
+    "plan/review/evidence-coverage.md",
+    "plan/chapter-blueprints/1.1-blueprint.md",
+    "plan/task-packets",
+    "plan/review",
+    "plan/project-overview.md",
+    "plan/progress.md",
+    "plan/evidence-map.md",
+    "plan/chapter-blueprints",
+    "plan",
     "wiki/concept/睡眠纺锤波.md",
     "wiki/device/Portiloop.md",
     "wiki/device/Wireless Dreem Device.md",
     "wiki/source-pages/schmidig-2024-phase-targeted-sleep-learning.md",
     "wiki/source-pages/valenchon-2022-portiloop.md",
     "wiki/source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.md",
-    "raw/inbox/valenchon-2022-portiloop.pdf",
-    "raw/inbox/esfahani-2023-closed-loop-auditory-principles.pdf",
-    "raw/inbox/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.pdf",
-    "wiki/review/downloads/esfahani-2023-closed-loop-auditory-principles.pdf",
-    "wiki/review/downloads/valenchon-2022-portiloop.pdf",
-    "wiki/review/downloads/ferster-2022-benchmarking-real-time-algorithms.pdf",
     "wiki/review/文献下载清单.md",
     "wiki/review/文献检索结果.md",
     "wiki/review/01-引言-1.2-文献需求单.md",
-    "wiki/review/01-引言-1.1-P1-证据包.md",
-    "wiki/review/downloads/bressler-2023-wearable-eeg-closed-loop.pdf",
     "wiki/concept/REM 睡眠行为障碍.md",
     "wiki/concept/发作性睡病.md",
     "wiki/concept/不宁腿综合征.md",
-    "wiki/concept/阻塞性睡眠呼吸暂停.md",
-    "wiki/concept/睡眠障碍.md",
-    "wiki/source-pages/song-2024-global-rls-prevalence.md",
-    "wiki/source-pages/niu-2025-china-osa-prevalence.md",
-    "wiki/source-pages/franklin-2015-osa-epidemiology-review.md",
-    "wiki/source-pages/borsoi-2022-osa-cost-of-illness.md",
-    "wiki/source-pages/bassetti-2026-sleep-disorders-europe-burden.md",
-    "raw/inbox/song-2024-global-rls-prevalence.pdf",
-    "raw/inbox/niu-2025-china-osa-prevalence.pdf",
-    "wiki/review/可穿戴睡眠检测与闭环干预综述.md",
-    "wiki/review/分段综述写作规则与工作流.md",
-    "wiki/review/双人协作操作手册.md",
-    "wiki/source-pages/edinger-2021-aasm-behavioral-insomnia.md",
-    "wiki/review/综述写作看板.md"
+    "wiki/concept/阻塞性睡眠呼吸暂停.md"
   ]
 }

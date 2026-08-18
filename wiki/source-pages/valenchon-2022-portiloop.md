@@ -2,7 +2,7 @@
 type: source
 aliases: ["Valenchon 2022", "Portiloop paper"]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-18
 sources: ["raw/inbox/valenchon-2022-portiloop.pdf"]
 review_sections: ["1.2", "2.2", "2.3"]
 status: active
@@ -28,7 +28,7 @@ review_due: 2027-08-17
 ## 关联词条
 - 设备：[[device/Portiloop]]
 - 概念：[[concept/睡眠纺锤波]]
-- 综述：[[review/chapters/01-引言]]、[[review/01-引言-1.2-文献需求单]]、[[review/证据矩阵]]
+- 综述：[[review/chapters/01-引言]]、[[review/01-引言-1.2-文献需求单]]、[[review/01-引言-1.2-P1-证据包]]、[[review/证据矩阵]]
 
 ## ⚠️局限与待核实
 - ⚠️需在阶段 3 核对其报告的具体检测阈值、端到端延迟和刺激执行条件。

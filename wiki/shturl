@@ -362,3 +362,33 @@
 - 更新页面：[[review/完整综述大纲]]、[[shturl]]。
 - 变更：将第 1.1 节明确为“疾病规模 → 诊断口径差异 → 规范治疗背景 → 闭环技术的待验证价值”的论证链；补充分段方式、证据边界及与第 1.2 节的衔接，并移除已过时的全节 `gap` 描述。
 - 来源：用户确认的写作结构（2026-08-17）。
+
+## [2026-08-17] ingest | 第 1.2 节闭环基本原则与实时相位算法资料
+
+- 状态：completed
+- 修改页数：13（新建 3，更新 10）
+- 新建页面：[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[concept/实时相位估计]]。
+- 更新页面：[[source-pages/schmidig-2024-phase-targeted-sleep-learning]]、[[intervention/闭环听觉刺激]]、[[concept/可穿戴 EEG]]、[[review/01-引言-1.2-文献需求单]]、[[review/文献下载清单]]、[[review/证据矩阵]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[index]] 与 [[shturl]]。
+- source_id：`raw/inbox/esfahani-2023-closed-loop-auditory-principles.pdf`；`raw/inbox/ferster-2022-benchmarking-real-time-algorithms.pdf`。
+- 变更：确认 `DL-1.2-001` 为 Esfahani 等（2023）的正确全文；确认 `DL-1.2-003` 为 Ferster 等（2022）的绿色 OA 预印本。前者支持闭环链路、延迟拆分与觉醒保护原则；后者支持 AT/PLL/PV 实时相位算法在特定低振幅慢波样本中的基准。历史误题录页已标记为 `superseded`，不再可引用。
+- 双向链接：新增 18 对（来源页↔实时相位估计/可穿戴 EEG/闭环听觉刺激/综述入口/证据矩阵，以及实体页反向关联）。
+- ⚠️限制：Ferster 文件为预印本；两篇均不能证明临床疗效。跨系统可比的总时延、误/漏触发和统一停止条件仍为 `gap`，下一步为第 1.2 节阶段 3 缺口检查。
+- 未修改 `raw/`。
+
+## [2026-08-18] configure | 简化综述写作与确认流程
+
+- 状态：completed
+- 修改页数：5（新建 0，更新 5）
+- 更新页面：[[review/分段综述写作规则与工作流]]、[[review/双人协作操作手册]]、[[review/综述写作看板]]、[[index]] 与 [[shturl]]。
+- 变更：将“缺口检查—证据包—受限草拟—人工校准”合并为“证据核对与生成 + 单人确认”；同一人可兼任撰写与确认，但确认必须逐句回查原文和证据矩阵。
+- 来源：用户要求（2026-08-18）。
+
+## [2026-08-18] review-draft | 第 1.2-P1 证据核对与生成
+
+- 状态：completed（待一人确认）
+- 修改页数：9（新建 1，更新 8）
+- 新建页面：[[review/01-引言-1.2-P1-证据包]]。
+- 更新页面：[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[source-pages/valenchon-2022-portiloop]]、[[index]] 与 [[shturl]]。
+- 变更：基于 4 份已准入全文，完成 1.2-P1 的全文核对、待补资料、可写主张表、单段草案、核验清单和逐句矩阵。
+- ⚠️限制：总时延、误/漏触发和停止条件无跨系统统一口径；Portiloop 为 MODA 纺锤波工程案例，Ferster 为预印本，均不与 WDD 的人体慢振荡系统性能或临床疗效混同。
+- 来源：用户指令（2026-08-18）。

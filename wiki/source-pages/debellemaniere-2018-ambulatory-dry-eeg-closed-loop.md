@@ -2,7 +2,7 @@
 type: source
 aliases: ["Debellemaniere 2018", "WDD closed-loop study"]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-18
 sources: ["raw/inbox/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.pdf"]
 review_sections: ["1.2", "3.1"]
 status: active
@@ -28,7 +28,7 @@ review_due: 2027-08-17
 ## 关联词条
 - 设备：[[device/Wireless Dreem Device]]
 - 干预：[[intervention/闭环听觉刺激]]
-- 综述：[[review/chapters/01-引言]]、[[review/01-引言-1.2-文献需求单]]、[[review/证据矩阵]]
+- 综述：[[review/chapters/01-引言]]、[[review/01-引言-1.2-文献需求单]]、[[review/01-引言-1.2-P1-证据包]]、[[review/证据矩阵]]
 
 ## ⚠️局限与待核实
 - ⚠️总时延、误/漏触发和刺激剂量的完整拆分仍须在阶段 3 从全文逐项提取。
