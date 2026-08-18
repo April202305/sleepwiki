@@ -43,8 +43,8 @@ review_due: 2027-08-12
 
 ## 新增综述需求入口
 
-- [[review/05-系统形态-5.4-文献需求单]]
-- [[review/06-挑战展望-6.5-文献需求单]]
+- [[review/文献清单/05-系统形态-5.4-文献需求单]]
+- [[review/文献清单/06-挑战展望-6.5-文献需求单]]
 
 ## 来源
 - `raw/inbox/de Gans 等 - 2024 - Sleep assessment using EEG-based wearables – A systematic review.pdf`
@@ -54,5 +54,5 @@ review_due: 2027-08-12
 - [[review/chapters/02-基础理论与核心概念]]
 - [[review/完整综述大纲]]
 - [[review/文献搜索策略_新版]]
-- [[review/02-技术基础-2.1-文献需求单]]
-- [[review/02-技术基础-2.1-P1-证据包]]
+- [[review/文献清单/02-技术基础-2.1-文献需求单]]
+- [[review/证据包/02-技术基础-2.1-P1-证据包]]

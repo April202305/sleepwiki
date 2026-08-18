@@ -37,7 +37,7 @@ review_due: 2027-08-18
 - 模型：[[model/SpindleNet]]
 - 数据集：[[dataset/MASS]]、[[dataset/DREAMS]]
 - 概念：[[concept/睡眠纺锤波]]
-- 综述：[[review/02-技术基础-2.2-文献需求单]]、[[review/02-技术基础-2.2-P1-证据包]]、[[review/02-技术基础-2.3-文献需求单]]、[[review/02-技术基础-2.3-P1-证据包]]、[[review/chapters/02-基础理论与核心概念]]、[[review/证据矩阵]]
+- 综述：[[review/文献清单/02-技术基础-2.2-文献需求单]]、[[review/证据包/02-技术基础-2.2-P1-证据包]]、[[review/文献清单/02-技术基础-2.3-文献需求单]]、[[review/证据包/02-技术基础-2.3-P1-证据包]]、[[review/chapters/02-基础理论与核心概念]]、[[review/证据矩阵]]
 
 ## 局限与待核实
 - ⚠️ 这是事件级检测，不是睡眠阶段分类、慢波相位估计或刺激疗效验证。
@@ -47,7 +47,7 @@ review_due: 2027-08-18
 
 ## 新增综述需求入口
 
-- [[review/04-全周期-4.2-文献需求单]]
+- [[review/文献清单/04-全周期-4.2-文献需求单]]
 
 ## 来源
 - `raw/inbox/kulkarni-2019-real-time-spindle-detection.html`

@@ -35,7 +35,7 @@ review_due: 2027-08-18
 
 - 概念：[[concept/闭环控制]]、[[concept/实时相位估计]]
 - 干预：[[intervention/闭环听觉刺激]]
-- 综述：[[review/chapters/01-引言]]、[[review/01-引言-1.3-文献需求单]]、[[review/01-引言-1.3-P1-证据包]]、[[review/证据矩阵]]
+- 综述：[[review/chapters/01-引言]]、[[review/文献清单/01-引言-1.3-文献需求单]]、[[review/证据包/01-引言-1.3-P1-证据包]]、[[review/证据矩阵]]
 
 ## ⚠️局限与待核实
 

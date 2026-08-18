@@ -36,7 +36,7 @@ review_due: 2027-08-18
 ## 关联词条
 
 - 概念：[[concept/失眠认知行为治疗]]、[[concept/临床验证]]
-- 综述：[[review/chapters/01-引言]]、[[review/01-引言-1.1-P1-证据包]]、[[review/证据矩阵]]
+- 综述：[[review/chapters/01-引言]]、[[review/证据包/01-引言-1.1-P1-证据包]]、[[review/证据矩阵]]
 
 ## 局限与待核实
 

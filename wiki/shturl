@@ -9,15 +9,15 @@
 - 状态：completed（部分准入）
 - 修改页数：13（新建 6，更新 7）
 - 新建页面：[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/valenchon-2022-portiloop]]、[[source-pages/schmidig-2024-phase-targeted-sleep-learning]]、[[device/Wireless Dreem Device]]、[[device/Portiloop]]、[[concept/睡眠纺锤波]]。
-- 更新页面：[[intervention/闭环听觉刺激]]、[[review/证据矩阵]]、[[review/文献下载清单]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[index]]、[[shturl]]。
+- 更新页面：[[intervention/闭环听觉刺激]]、[[review/证据矩阵]]、[[review/文献清单/文献下载清单]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[index]]、[[shturl]]。
 - 备注：`esfahani-2023...pdf` 与 DL-1.2-001 题录不符，已作为 Schmidig 等独立来源记录；DL-1.2-003 未在 inbox 发现。未修改 `raw/`。
 
 ## [2026-08-17] review | 第 1.2 节阶段 0 文献需求单
 
 - 状态：completed
 - 修改页数：7（新建 1，更新 6）
-- 新建页面：[[review/01-引言-1.2-文献需求单]]。
-- 更新页面：[[review/文献检索结果]]、[[review/文献下载清单]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[index]]、[[shturl]]。
+- 新建页面：[[review/文献清单/01-引言-1.2-文献需求单]]。
+- 更新页面：[[review/文献检索结果]]、[[review/文献清单/文献下载清单]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[index]]、[[shturl]]。
 - 候选：3 篇必需（闭环原则综述、居家干 EEG 人体系统、可穿戴实时算法基准）及 2 篇推荐工程/系统补充；全部待下载与作者核验。
 
 ## [2026-08-17] ingest | 第 1.1 节广义睡眠障碍负担补充资料
@@ -25,7 +25,7 @@
 - 状态：completed
 - 修改页数：18（新建 10，更新 8）
 - 新建页面：5 份来源页（[[source-pages/bassetti-2026-sleep-disorders-europe-burden]]、[[source-pages/borsoi-2022-osa-cost-of-illness]]、[[source-pages/franklin-2015-osa-epidemiology-review]]、[[source-pages/niu-2025-china-osa-prevalence]]、[[source-pages/song-2024-global-rls-prevalence]]）及 5 个概念页（[[concept/睡眠障碍]]、[[concept/阻塞性睡眠呼吸暂停]]、[[concept/不宁腿综合征]]、[[concept/发作性睡病]]、[[concept/REM 睡眠行为障碍]]）。
-- 更新页面：[[concept/睡眠障碍疾病负担]]、[[review/01-引言-1.1-P1-证据包]]、[[review/证据矩阵]]、[[review/chapters/01-引言]]、[[review/文献下载清单]]、[[review/综述写作看板]]、[[index]]、[[shturl]]。
+- 更新页面：[[concept/睡眠障碍疾病负担]]、[[review/证据包/01-引言-1.1-P1-证据包]]、[[review/证据矩阵]]、[[review/chapters/01-引言]]、[[review/文献清单/文献下载清单]]、[[review/综述写作看板]]、[[index]]、[[shturl]]。
 - source_id：`raw/inbox/bassetti-2026-sleep-disorders-europe-burden.pdf`；`raw/inbox/borsoi-2022-osa-cost-of-illness.pdf`；`raw/inbox/franklin-2015-osa-epidemiology-review.pdf`；`raw/inbox/niu-2025-china-osa-prevalence.pdf`；`raw/inbox/song-2024-global-rls-prevalence.pdf`。
 - 备注：已将 5 篇资料关联至第 1.1 节；所有患病率和成本均保留疾病、地域、时间与诊断口径限制。未修改 `raw/`。
 
@@ -33,14 +33,14 @@
 
 - 状态：completed（待校准；未并入正文草案）
 - 修改页数：3（新建 0，更新 3）
-- 更新页面：[[review/01-引言-1.1-P1-证据包]]、[[review/综述写作看板]]、[[shturl]]。
+- 更新页面：[[review/证据包/01-引言-1.1-P1-证据包]]、[[review/综述写作看板]]、[[shturl]]。
 - 内容：生成 1 个按疾病/地区分列的段落、核验清单与 5 行逐句证据矩阵；CBT-I 明确限于成人慢性失眠。
 
 ## [2026-08-17] review | 第 1.1 节阶段 4 证据包
 
 - 状态：completed（待校准确认）
 - 修改页数：12（新建 1，更新 11）
-- 新建页面：[[review/01-引言-1.1-P1-证据包]]。
+- 新建页面：[[review/证据包/01-引言-1.1-P1-证据包]]。
 - 更新页面：[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[index]]，以及 6 份已准入来源页。
 - 范围：仅限失眠障碍的患病/疾病负担口径与 CBT-I 等规范治疗定位；未生成正文。
 - 来源：[[source-pages/benjafield-2025-global-insomnia-burden]]、[[source-pages/van-straten-2025-insomnia-prevalence-meta]]、[[source-pages/cao-2017-insomnia-prevalence-china]]、[[source-pages/riemann-2017-european-insomnia-guideline]]、[[source-pages/edinger-2021-aasm-behavioral-insomnia]]、[[source-pages/schutte-rodin-2008-aasm-insomnia-guideline]]。
@@ -49,7 +49,7 @@
 
 - 状态：completed（待校准；未并入正文草案）
 - 修改页数：3（新建 0，更新 3）
-- 更新页面：[[review/01-引言-1.1-P1-证据包]]、[[review/综述写作看板]]、[[shturl]]。
+- 更新页面：[[review/证据包/01-引言-1.1-P1-证据包]]、[[review/综述写作看板]]、[[shturl]]。
 - 内容：生成 1 个受限段落、段落核验清单与 6 行逐句文献证据矩阵；未新增事实来源。
 - 来源：[[source-pages/schutte-rodin-2008-aasm-insomnia-guideline]]、[[source-pages/van-straten-2025-insomnia-prevalence-meta]]、[[source-pages/benjafield-2025-global-insomnia-burden]]、[[source-pages/riemann-2017-european-insomnia-guideline]]、[[source-pages/edinger-2021-aasm-behavioral-insomnia]]。
 
@@ -57,7 +57,7 @@
 
 - 状态：completed（补充资料前阻塞）
 - 修改页数：5（新建 0，更新 5）
-- 更新页面：[[review/文献下载清单]]、[[review/01-引言-1.1-P1-证据包]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[shturl]]。
+- 更新页面：[[review/文献清单/文献下载清单]]、[[review/证据包/01-引言-1.1-P1-证据包]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[shturl]]。
 - 结论：既有检索结果中未发现可直接采用的非失眠睡眠障碍患病/疾病负担题录；已有 OSA 命中多为设备或干预研究，不能替代流行病学证据。
 - 新增任务：`DL-1.1-005a`（多类别负担）、`005b`（一般人群 OSA）、`005c`（中国 OSA）为扩展广义表述的核心补项；`005d` 仅在正文点名其他类别时补充。
 
@@ -285,7 +285,7 @@
 - 状态：completed
 - 修改页数：19（新建 11，更新 8）
 - 新建页面：7 个来源页——[[source-pages/riemann-2017-european-insomnia-guideline]]、[[source-pages/benjafield-2025-global-insomnia-burden]]、[[source-pages/cao-2017-insomnia-prevalence-china]]、[[source-pages/edinger-2021-aasm-behavioral-insomnia]]、[[source-pages/dudysova-2024-closed-loop-insomnia-pilot]]、[[source-pages/schutte-rodin-2008-aasm-insomnia-guideline]]、[[source-pages/van-straten-2025-insomnia-prevalence-meta]]；3 个概念页——[[concept/失眠障碍]]、[[concept/睡眠障碍疾病负担]]、[[concept/失眠认知行为治疗]]；1 个干预页——[[intervention/闭环听觉刺激]]。
-- 更新页面：[[review/证据矩阵]]、[[review/chapters/01-引言]]、[[review/chapters/03-可穿戴睡眠信号采集硬件体系]]、[[review/可穿戴睡眠检测与闭环干预综述|综述地图]]、[[review/文献下载清单]]、[[review/综述写作看板]]、[[index]] 与 [[shturl]]。
+- 更新页面：[[review/证据矩阵]]、[[review/chapters/01-引言]]、[[review/chapters/03-可穿戴睡眠信号采集硬件体系]]、[[review/可穿戴睡眠检测与闭环干预综述|综述地图]]、[[review/文献清单/文献下载清单]]、[[review/综述写作看板]]、[[index]] 与 [[shturl]]。
 - 双向链接：新增 34 对（来源页↔概念/干预/综述章节/证据矩阵，以及概念↔干预之间的关联）。
 - source_id：`raw/inbox/Journal of Sleep Research - 2017 - Riemann - European guideline for the diagnosis and treatment of insomnia.pdf`；`raw/inbox/benjafield-2025-global-insomnia-burden.pdf`；`raw/inbox/cao-2017-insomnia-prevalence-china.pdf`；`raw/inbox/edinger-2021-aasm-behavioral-insomnia.pdf`；`raw/inbox/jsr-2024-closed-loop-insomnia-pilot.pdf`；`raw/inbox/schutte-rodin-2008-aasm-insomnia-guideline.pdf`；`raw/inbox/vanstraten-2025-insomnia-prevalence-meta.pdf`。
 - 关键证据：全球负担估计、一般/中国人群患病率、欧洲与 AASM 指南的 CBT-I 推荐，以及慢性失眠中的 CLAS 小样本假刺激对照试点，均已定位至来源页页码。
@@ -297,18 +297,26 @@
 
 - 状态：completed（7 个小标题已生成待确认/受限证据稿；10 个小标题阻塞并返回补充清单）
 - 原始素材：经用户在本对话明确授权，将 `wiki/review/downloads/` 中 22 份全文按原文件名复制至 `raw/inbox/`；未删除或改写下载源文件。
-- 新建来源页：22；新建实体页：6；新建证据包：7；新建汇总清单：[[review/新增素材证据闭合与补充清单-2026-08-18]]。
-- 已生成：[[review/04-全周期-4.1-P1-证据包]]、[[review/04-全周期-4.2-P1-证据包]]、[[review/05-系统形态-5.2-P1-证据包]]、[[review/05-系统形态-5.4-P1-证据包]]、[[review/06-挑战展望-6.3-P1-证据包]]、[[review/06-挑战展望-6.4-P1-证据包]]、[[review/06-挑战展望-6.5-P1-证据包]]。
+- 新建来源页：22；新建实体页：6；新建证据包：7；新建汇总清单：[[review/文献清单/新增素材证据闭合与补充清单-2026-08-18]]。
+- 已生成：[[review/证据包/04-全周期-4.1-P1-证据包]]、[[review/证据包/04-全周期-4.2-P1-证据包]]、[[review/证据包/05-系统形态-5.2-P1-证据包]]、[[review/证据包/05-系统形态-5.4-P1-证据包]]、[[review/证据包/06-挑战展望-6.3-P1-证据包]]、[[review/证据包/06-挑战展望-6.4-P1-证据包]]、[[review/证据包/06-挑战展望-6.5-P1-证据包]]。
 - 证据矩阵：新增 22 条 direct 记录；监测、机制、生理、行为、临床与安全层级分别保留，不作跨层替代。
 - ⚠️阻塞：3.2、3.3、3.4、4.3、4.4、4.5、5.1、5.3、6.1、6.2 的缺失必需全文见汇总清单；未据题名或摘要生成结论。
 - source_id：本轮 22 份 `raw/inbox/` 路径逐一记录在对应来源页。
+
+## [2026-08-18] maintenance | 文献清单与证据包归档整理
+
+- 状态：completed
+- 移动：28 份文献清单类页面归入 [[review/文献清单/README|文献清单目录]]；14 份证据包归入 [[review/证据包/README|证据包目录]]。
+- 新建：2 个目录索引页。
+- 更新：全库对应 Wiki 链接、来源页反链、章节导航、[[index]] 与 [[shturl]]。
+- 内容边界：只调整目录结构与链接，不修改论文事实、证据结论或确认状态。
 
 ## [2026-08-18] review-plan | 第 2.2 节实时睡眠分期与瞬时相位估计文献需求单
 
 - 状态：pending
 - 修改页数：10（新建 1，更新 9）
-- 新建页面：[[review/02-技术基础-2.2-文献需求单]]。
-- 更新页面：[[review/文献下载清单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[source-pages/valenchon-2022-portiloop]]、[[source-pages/bressler-2023-wearable-eeg-closed-loop]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[index]] 与 [[shturl]]。
+- 新建页面：[[review/文献清单/02-技术基础-2.2-文献需求单]]。
+- 更新页面：[[review/文献清单/文献下载清单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[source-pages/valenchon-2022-portiloop]]、[[source-pages/bressler-2023-wearable-eeg-closed-loop]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[index]] 与 [[shturl]]。
 - 变更：以阶段级状态、事件级检测和相位级估计的严格区分建立 1 项必需、1 项推荐全文任务；既有实时事件/相位资料不替代阶段级因果分期全文。
 - 双向链接：新增 8 对（需求单↔章节、下载清单、看板、索引和 4 个已准入来源）。
 - ⚠️题录中的作者待 PDF 首页核验；候选下载、放入 `raw/inbox/` 并完成 Ingest 前不得进入证据包或正文。
@@ -318,10 +326,10 @@
 
 - 状态：pending
 - 修改页数：3（新建 0，更新 3）
-- 更新页面：[[review/文献下载清单]]、[[review/综述写作看板]]、[[shturl]]。
+- 更新页面：[[review/文献清单/文献下载清单]]、[[review/综述写作看板]]、[[shturl]]。
 - 目标：第 1.1 节“睡眠障碍的疾病负担与睡眠干预的临床需求”（250–300 字）；本轮未生成正文。
 - 文献需求：必需补充近期人口/疾病负担研究及权威临床指南/共识；推荐下载两篇已在检索结果中出现的临床闭环研究，作为临床转化场景而非疾病负担证据。
-- 下载 ID：DL-1.1-001 至 DL-1.1-004；详见 [[review/文献下载清单]]。
+- 下载 ID：DL-1.1-001 至 DL-1.1-004；详见 [[review/文献清单/文献下载清单]]。
 - 来源：用户指令（2026-08-17）与 [[review/文献检索结果]]。
 
 ## [2026-08-17] configure | 补充双人协作操作手册的可复制发送示例
@@ -371,7 +379,7 @@
 
 - 状态：completed
 - 修改页数：8（新建 1，更新 7）
-- 新建页面：[[review/文献下载清单]]。
+- 新建页面：[[review/文献清单/文献下载清单]]。
 - 更新页面：[[review/分段综述写作规则与工作流]]、[[review/双人协作操作手册]]、[[review/综述写作看板]]、[[review/可穿戴睡眠检测与闭环干预综述|综述地图]]、[[review/证据矩阵]]、[[index]] 与 [[shturl]]。
 - 变更：建立候选文献的精确题录、优先级、所需字段、质量依据、下载版本与准入状态清单；下载代理仅按清单交付，用户负责放入 `raw/inbox/`，Ingest 后才可进入证据与正文。
 - 来源：用户要求（2026-08-17）。
@@ -389,7 +397,7 @@
 - 状态：completed
 - 修改页数：13（新建 3，更新 10）
 - 新建页面：[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[concept/实时相位估计]]。
-- 更新页面：[[source-pages/schmidig-2024-phase-targeted-sleep-learning]]、[[intervention/闭环听觉刺激]]、[[concept/可穿戴 EEG]]、[[review/01-引言-1.2-文献需求单]]、[[review/文献下载清单]]、[[review/证据矩阵]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[index]] 与 [[shturl]]。
+- 更新页面：[[source-pages/schmidig-2024-phase-targeted-sleep-learning]]、[[intervention/闭环听觉刺激]]、[[concept/可穿戴 EEG]]、[[review/文献清单/01-引言-1.2-文献需求单]]、[[review/文献清单/文献下载清单]]、[[review/证据矩阵]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[index]] 与 [[shturl]]。
 - source_id：`raw/inbox/esfahani-2023-closed-loop-auditory-principles.pdf`；`raw/inbox/ferster-2022-benchmarking-real-time-algorithms.pdf`。
 - 变更：确认 `DL-1.2-001` 为 Esfahani 等（2023）的正确全文；确认 `DL-1.2-003` 为 Ferster 等（2022）的绿色 OA 预印本。前者支持闭环链路、延迟拆分与觉醒保护原则；后者支持 AT/PLL/PV 实时相位算法在特定低振幅慢波样本中的基准。历史误题录页已标记为 `superseded`，不再可引用。
 - 双向链接：新增 18 对（来源页↔实时相位估计/可穿戴 EEG/闭环听觉刺激/综述入口/证据矩阵，以及实体页反向关联）。
@@ -408,7 +416,7 @@
 
 - 状态：completed（待一人确认）
 - 修改页数：9（新建 1，更新 8）
-- 新建页面：[[review/01-引言-1.2-P1-证据包]]。
+- 新建页面：[[review/证据包/01-引言-1.2-P1-证据包]]。
 - 更新页面：[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[source-pages/valenchon-2022-portiloop]]、[[index]] 与 [[shturl]]。
 - 变更：基于 4 份已准入全文，完成 1.2-P1 的全文核对、待补资料、可写主张表、单段草案、核验清单和逐句矩阵。
 - ⚠️限制：总时延、误/漏触发和停止条件无跨系统统一口径；Portiloop 为 MODA 纺锤波工程案例，Ferster 为预印本，均不与 WDD 的人体慢振荡系统性能或临床疗效混同。
@@ -418,8 +426,8 @@
 
 - 状态：pending
 - 修改页数：11（新建 1，更新 10）
-- 新建页面：[[review/01-引言-1.3-文献需求单]]。
-- 更新页面：[[review/文献下载清单]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[review/01-引言-1.2-P1-证据包]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[source-pages/valenchon-2022-portiloop]]、[[index]] 与 [[shturl]]。
+- 新建页面：[[review/文献清单/01-引言-1.3-文献需求单]]。
+- 更新页面：[[review/文献清单/文献下载清单]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[review/证据包/01-引言-1.2-P1-证据包]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[source-pages/valenchon-2022-portiloop]]、[[index]] 与 [[shturl]]。
 - 变更：复用 4 份已准入架构来源；新增 2 项必需和 3 项推荐全文任务，重点补闭环术语/反馈边界、可穿戴端到端实现、事件级识别和不同感知形态。
 - ⚠️题录中的“作者待核验”必须由下载代理在 PDF 首页确认；候选未完成 Ingest 前不得写入正文。
 - 来源：用户指令（2026-08-18）与 [[review/文献检索结果]]。
@@ -437,7 +445,7 @@
 - 状态：completed
 - 修改页数：15（新建 5，更新 10）
 - 新建页面：[[source-pages/bressler-2023-wearable-eeg-closed-loop]]、[[source-pages/bergmann-2018-brain-state-dependent-stimulation]]、[[source-pages/zrenner-2024-closed-loop-brain-stimulation]]、[[device/Elemind Neuromodulation Device]]、[[concept/闭环控制]]。
-- 更新页面：[[concept/可穿戴 EEG]]、[[concept/实时相位估计]]、[[intervention/闭环听觉刺激]]、[[review/证据矩阵]]、[[review/01-引言-1.3-文献需求单]]、[[review/文献下载清单]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[index]] 与 [[shturl]]。
+- 更新页面：[[concept/可穿戴 EEG]]、[[concept/实时相位估计]]、[[intervention/闭环听觉刺激]]、[[review/证据矩阵]]、[[review/文献清单/01-引言-1.3-文献需求单]]、[[review/文献清单/文献下载清单]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[index]] 与 [[shturl]]。
 - source_id：`raw/inbox/bressler-2023-wearable-eeg-closed-loop.pdf`；`raw/inbox/bergmann-2018-brain-state-dependent-stimulation.pdf`；`raw/inbox/zrenner-2024-closed-loop-brain-stimulation.html`。
 - 变更：Bressler 等（2023）为可穿戴睡眠端到端系统全文，记录其三额区干电极、250 Hz 采样、ecHT 相位估计、骨传导声音输出、全体入睡潜伏期阴性结果及居家数据质量限制。Bergmann（2018）与 Zrenner 和 Ziemann（2024）作为原定 Antony 等（2022）未取得时的通用术语平替，仅用于状态依赖触发、严格反馈闭环及一级/二级更新边界。
 - 双向链接：新增 23 对（新来源页↔设备/概念/干预/综述入口/证据矩阵，以及相应反向关联）。
@@ -449,8 +457,8 @@
 
 - 状态：pending
 - 修改页数：9（新建 1，更新 8）
-- 新建页面：[[review/02-技术基础-2.1-文献需求单]]。
-- 更新页面：[[review/文献下载清单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[source-pages/de-gans-2024-eeg-wearables-systematic-review]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/bressler-2023-wearable-eeg-closed-loop]]、[[index]] 与 [[shturl]]。
+- 新建页面：[[review/文献清单/02-技术基础-2.1-文献需求单]]。
+- 更新页面：[[review/文献清单/文献下载清单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[source-pages/de-gans-2024-eeg-wearables-systematic-review]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/bressler-2023-wearable-eeg-closed-loop]]、[[index]] 与 [[shturl]]。
 - 变更：围绕传感形态、PSG 参考、居家接触/伪影与质量控制建立 2 项必需、2 项推荐全文任务；明确排除仅离线分期性能、产品宣传、清醒态或动物研究。
 - 双向链接：新增 7 对（需求单↔章节、已准入来源、下载清单、看板与索引）。
 - 来源：用户指令（2026-08-18）与 [[review/文献检索结果]]。
@@ -459,8 +467,8 @@
 
 - 状态：completed（待一人确认）
 - 修改页数：14（新建 1，更新 13）
-- 新建页面：[[review/01-引言-1.3-P1-证据包]]。
-- 更新页面：[[review/01-引言-1.3-文献需求单]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[source-pages/valenchon-2022-portiloop]]、[[source-pages/bressler-2023-wearable-eeg-closed-loop]]、[[source-pages/bergmann-2018-brain-state-dependent-stimulation]]、[[source-pages/zrenner-2024-closed-loop-brain-stimulation]]、[[index]] 与 [[shturl]]。
+- 新建页面：[[review/证据包/01-引言-1.3-P1-证据包]]。
+- 更新页面：[[review/文献清单/01-引言-1.3-文献需求单]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[source-pages/valenchon-2022-portiloop]]、[[source-pages/bressler-2023-wearable-eeg-closed-loop]]、[[source-pages/bergmann-2018-brain-state-dependent-stimulation]]、[[source-pages/zrenner-2024-closed-loop-brain-stimulation]]、[[index]] 与 [[shturl]]。
 - 变更：基于 5 篇睡眠架构资料与 2 篇通用脑刺激术语资料，完成全文核对、缺口清单、可写主张表、一个段落草案、核验清单和逐句证据矩阵。
 - 双向链接：新增 12 对（证据包↔章节、需求单、看板、证据矩阵、索引和 7 个来源页）。
 - ⚠️限制：睡眠资料尚未直接验证刺激后输出驱动的参数自适应；严格反馈定义来自非睡眠 EEG-TMS 文献。无统一总时延、误/漏触发或跨系统性能结论。
@@ -471,7 +479,7 @@
 - 状态：completed
 - 修改页数：19（新建 10，更新 9）
 - 新建页面：[[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]、[[source-pages/pazuelo-2024-in-ear-signal-quality]]、[[source-pages/mohamed-2023-wearable-eeg-review]]、[[source-pages/mascia-2023-parylene-tattoo-eeg]]、[[source-pages/bareket-2016-temporary-tattoo-biopotential]]、[[concept/耳内 EEG]]、[[concept/柔性贴附电极]]、[[device/干接触耳内 EEG 系统]]、[[device/Naox 耳内 EEG 设备]]、[[device/Parylene C 纹身 EEG 系统]]。
-- 更新页面：[[concept/可穿戴 EEG]]、[[concept/PSG 参考标准]]、[[review/02-技术基础-2.1-文献需求单]]、[[review/文献下载清单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[index]] 与 [[shturl]]。
+- 更新页面：[[concept/可穿戴 EEG]]、[[concept/PSG 参考标准]]、[[review/文献清单/02-技术基础-2.1-文献需求单]]、[[review/文献清单/文献下载清单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[index]] 与 [[shturl]]。
 - source_id：`raw/inbox/mikkelsen-2019-ear-eeg-whole-night-sleep.pdf`；`raw/inbox/pazuelo-2024-in-ear-signal-quality.pdf`；`raw/inbox/mohamed-2023-wearable-eeg-review.pdf`；`raw/inbox/mascia-2023-parylene-tattoo-eeg.pdf`；`raw/inbox/bareket-2016-temporary-tattoo-biopotential.pdf`。
 - 变更：准入 3 篇直接支撑第 2.1 节的耳内 EEG/居家睡眠资料；Bareket（2016）为 EMG、Mascia（2023）为清醒态 EEG，均只登记为柔性贴附电极硬件背景。原定 DL-2.1-002（睡眠多模态纹身 EEG/EOG/EMG）全文仍缺，两个背景材料不得替代。
 - 双向链接：新增 36 对（新来源页↔设备/概念/综述入口/证据矩阵，以及相应反向关联）。
@@ -483,7 +491,7 @@
 - 状态：completed（1.1 v4 待一人确认）
 - 修改页数：15（新建 4，更新 11）
 - 新建页面：[[source-pages/matthews-2013-cbti-adherence-systematic-review]]、[[source-pages/koffel-2018-cbti-access-utilization]]、[[source-pages/aziz-2025-wearable-ai-sleep-disorders]]、[[concept/可穿戴人工智能]]。
-- 更新页面：[[concept/失眠认知行为治疗]]、[[concept/睡眠障碍]]、[[concept/临床验证]]、[[concept/可穿戴 EEG]]、[[review/01-引言-1.1-P1-证据包]]、[[review/chapters/01-引言]]、[[review/chapters/02-基础理论与核心概念]]、[[review/证据矩阵]]、[[review/综述写作看板]]、[[index]] 与 [[shturl]]。
+- 更新页面：[[concept/失眠认知行为治疗]]、[[concept/睡眠障碍]]、[[concept/临床验证]]、[[concept/可穿戴 EEG]]、[[review/证据包/01-引言-1.1-P1-证据包]]、[[review/chapters/01-引言]]、[[review/chapters/02-基础理论与核心概念]]、[[review/证据矩阵]]、[[review/综述写作看板]]、[[index]] 与 [[shturl]]。
 - source_id：`raw/inbox/依从性不足.pdf`；`raw/inbox/可及性.pdf`；`raw/inbox/第一句.pdf`。
 - 变更：Matthews 等（2013）支持 CBT-I 退出与依从性不足的受限表述；Koffel 等（2018）支持服务和转诊资源可及性障碍；Aziz 等（2025）报告其纳入的 46 项可穿戴人工智能睡眠障碍研究均未用于治疗。1.1 v4 已将无直接证据的“评估与治疗相互割裂”改为受范围综述限定的诊断—治疗转化缺口。
 - 双向链接：新增来源页与 CBT-I、睡眠障碍、临床验证、可穿戴人工智能、章节页及证据矩阵之间的关联与反向链接。
@@ -496,7 +504,7 @@
 - 状态：completed（可进入阶段 3“证据核对与生成”）
 - 修改页数：15（新建 6，更新 9）
 - 新建页面：[[source-pages/patanaik-2018-end-to-end-real-time-sleep-staging]]、[[source-pages/kulkarni-2019-real-time-spindle-detection]]、[[model/Patanaik 实时睡眠分期框架]]、[[model/SpindleNet]]、[[dataset/MASS]]、[[dataset/DREAMS]]。
-- 更新页面：[[concept/睡眠分期]]、[[concept/睡眠纺锤波]]、[[review/02-技术基础-2.2-文献需求单]]、[[review/文献下载清单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[index]] 与 [[shturl]]。
+- 更新页面：[[concept/睡眠分期]]、[[concept/睡眠纺锤波]]、[[review/文献清单/02-技术基础-2.2-文献需求单]]、[[review/文献清单/文献下载清单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[index]] 与 [[shturl]]。
 - source_id：`raw/inbox/patanaik-2018-end-to-end-real-time-sleep-staging.pdf`；`raw/inbox/kulkarni-2019-real-time-spindle-detection.html`。
 - 变更：Patanaik 等（2018）补足阶段级在线自动分期，记录四组 PSG 队列、准确率/κ、计算速度与在线上下文替代；Kulkarni 等（2019）补强事件级在线纺锤波检测，记录 MASS/DREAMS 标注、250 ms 窗口、约 6 ms 执行时间和 150–350 ms 检测延迟。
 - 双向链接：新增两份来源页与模型、数据集、概念、章节需求单及证据矩阵之间的关联与反向链接。
@@ -508,8 +516,8 @@
 
 - 状态：pending（阻塞：缺证据）
 - 修改页数：14（新建 1，更新 13）
-- 新建页面：[[review/02-技术基础-2.3-文献需求单]]。
-- 更新页面：[[review/文献下载清单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[review/文献检索结果]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[source-pages/valenchon-2022-portiloop]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[source-pages/patanaik-2018-end-to-end-real-time-sleep-staging]]、[[source-pages/kulkarni-2019-real-time-spindle-detection]]、[[source-pages/bressler-2023-wearable-eeg-closed-loop]]、[[index]] 与 [[shturl]]。
+- 新建页面：[[review/文献清单/02-技术基础-2.3-文献需求单]]。
+- 更新页面：[[review/文献清单/文献下载清单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[review/文献检索结果]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[source-pages/valenchon-2022-portiloop]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[source-pages/patanaik-2018-end-to-end-real-time-sleep-staging]]、[[source-pages/kulkarni-2019-real-time-spindle-detection]]、[[source-pages/bressler-2023-wearable-eeg-closed-loop]]、[[index]] 与 [[shturl]]。
 - 变更：按采集、缓冲、预处理、推理、决策、通信、刺激执行与总时延建立统一提取框架；同步要求阶段/事件/相位精度、误/漏/拒绝触发、停止条件、时钟同步、抖动与验证模式。基于既有检索结果建立 3 篇必需、2 篇推荐全文任务。
 - 最低放行门槛：至少一篇报告可核验的分段或端到端时延测量及数值；至少一篇报告与在线真值相连的误/漏触发或 precision/recall；必须区分在线人体、在线回放、离线仿真与台架测试。
 - ⚠️限制：现有 Portiloop 64 ms 常数延迟、SpindleNet 执行/检测延迟、Patanaik 计算时间和 Bressler ERP 潜伏期口径不同，不可直接比较，也不能互相替代为系统总时延。
@@ -520,8 +528,8 @@
 
 - 状态：completed（待一人确认）
 - 修改页数：14（新建 1，更新 13）
-- 新建页面：[[review/02-技术基础-2.1-P1-证据包]]。
-- 更新页面：[[review/02-技术基础-2.1-文献需求单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[review/分段综述写作规则与工作流]]、[[source-pages/de-gans-2024-eeg-wearables-systematic-review]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/bressler-2023-wearable-eeg-closed-loop]]、[[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]、[[source-pages/pazuelo-2024-in-ear-signal-quality]]、[[source-pages/mohamed-2023-wearable-eeg-review]]、[[index]] 与 [[shturl]]。
+- 新建页面：[[review/证据包/02-技术基础-2.1-P1-证据包]]。
+- 更新页面：[[review/文献清单/02-技术基础-2.1-文献需求单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[review/分段综述写作规则与工作流]]、[[source-pages/de-gans-2024-eeg-wearables-systematic-review]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/bressler-2023-wearable-eeg-closed-loop]]、[[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]、[[source-pages/pazuelo-2024-in-ear-signal-quality]]、[[source-pages/mohamed-2023-wearable-eeg-review]]、[[index]] 与 [[shturl]]。
 - 变更：基于 6 份已准入来源完成全文/版本核对、缺口清单、6 条可写主张、`2.1-P1 v1` 单段草案、核验清单和逐句证据矩阵；叙事限定为传感形态—PSG 参照—居家接触/伪影—实时质量控制—下游输入边界。
 - 双向链接：新增证据包与 6 个来源页、章节、需求单、证据矩阵、看板及流程页的关联入口。
 - ⚠️限制：`DL-2.1-002` 临时纹身 EEG/EOG/EMG 居家睡眠全文仍缺；Bareket（2016）仅为 EMG 材料背景，Mascia（2023）仅为清醒 EEG 原型，均未进入正文草案。额区干 EEG 与耳内 EEG 不作性能排行，信号可用性不外推为触发或疗效。
@@ -532,8 +540,8 @@
 
 - 状态：completed（待一人确认）
 - 修改页数：15（新建 1，更新 14）
-- 新建页面：[[review/02-技术基础-2.2-P1-证据包]]。
-- 更新页面：[[review/02-技术基础-2.2-文献需求单]]、[[review/02-技术基础-2.1-P1-证据包]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[review/分段综述写作规则与工作流]]、[[source-pages/patanaik-2018-end-to-end-real-time-sleep-staging]]、[[source-pages/kulkarni-2019-real-time-spindle-detection]]、[[source-pages/valenchon-2022-portiloop]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[source-pages/bressler-2023-wearable-eeg-closed-loop]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[index]] 与 [[shturl]]。
+- 新建页面：[[review/证据包/02-技术基础-2.2-P1-证据包]]。
+- 更新页面：[[review/文献清单/02-技术基础-2.2-文献需求单]]、[[review/证据包/02-技术基础-2.1-P1-证据包]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[review/分段综述写作规则与工作流]]、[[source-pages/patanaik-2018-end-to-end-real-time-sleep-staging]]、[[source-pages/kulkarni-2019-real-time-spindle-detection]]、[[source-pages/valenchon-2022-portiloop]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[source-pages/bressler-2023-wearable-eeg-closed-loop]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[index]] 与 [[shturl]]。
 - 变更：基于 6 份已准入来源完成全文/版本核对、缺口清单、7 条可写主张、`2.2-P1 v1` 单段草案、核验清单和逐句证据矩阵；按阶段级状态、事件级检测和相位级估计组织，不以统一实时准确率互相替代。
 - 双向链接：新增证据包与 6 个来源页、前一段、章节、需求单、证据矩阵、看板及流程页的关联入口。
 - ⚠️限制：Patanaik 的在线上下文替代和刺激示例双向滤波不支持全链路严格零前视；Kulkarni 的专家事件起点与 Portiloop 工程条件不同；Ferster 为特定人群预印本，Bressler 仅为入睡前 α 相位系统。跨系统总时延、误/漏触发和刺激疗效均未写入本段结论。
@@ -545,7 +553,7 @@
 - 状态：completed（2.3 仍为阻塞：缺完整总时延证据）
 - 修改页数：19（新建 8，更新 11）
 - 新建页面：[[source-pages/ferster-2019-mobile-closed-loop-acoustic]]、[[source-pages/hassan-2022-real-time-spindle-detection]]、[[source-pages/sun-2023-fpga-sleep-modulation]]、[[source-pages/piorecky-2021-real-time-slow-oscillation]]、[[concept/闭环系统时延]]、[[device/MHSL-SB]]、[[model/RTSD]]、[[model/Sun FPGA 睡眠分期模型]]。
-- 更新页面：[[concept/实时相位估计]]、[[concept/睡眠纺锤波]]、[[intervention/闭环听觉刺激]]、[[dataset/MASS]]、[[review/02-技术基础-2.3-文献需求单]]、[[review/文献下载清单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[index]] 与 [[shturl]]。
+- 更新页面：[[concept/实时相位估计]]、[[concept/睡眠纺锤波]]、[[intervention/闭环听觉刺激]]、[[dataset/MASS]]、[[review/文献清单/02-技术基础-2.3-文献需求单]]、[[review/文献清单/文献下载清单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[index]] 与 [[shturl]]。
 - source_id：`raw/inbox/ferster-2019-mobile-closed-loop-acoustic.pdf`；`raw/inbox/hassan-2022-real-time-spindle-detection.pdf`；`raw/inbox/sun-2023-fpga-sleep-modulation.html`；`raw/inbox/piorecky-2021-real-time-slow-oscillation.pdf`。
 - 变更：准入移动居家触发、FPGA 台架、RTSD 实时回放及固定步长/PLL 比较资料；分别记录相位/NREM 触发精度、FPGA 吞吐量、5–15 ms 局部接口延迟及 350 ms 预设刺激间隔。
 - ⚠️限制：四篇均未报告统一时钟下采集至声音抵达的完整分段、总时延与抖动；Ferster 居家夜未播放声音，Sun 仅台架，Hassan 为预录 EEG 回放，Piorecky 的算法比较主要为回放。因此 2.3 不解除阻塞。
@@ -556,8 +564,8 @@
 
 - 状态：completed（段落 `待确认`；完整端到端时延/抖动缺口继续保留）
 - 修改页数：16（新建 1，更新 15）
-- 新建页面：[[review/02-技术基础-2.3-P1-证据包]]。
-- 更新页面：[[review/02-技术基础-2.3-文献需求单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[concept/闭环系统时延]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[source-pages/patanaik-2018-end-to-end-real-time-sleep-staging]]、[[source-pages/valenchon-2022-portiloop]]、[[source-pages/kulkarni-2019-real-time-spindle-detection]]、[[source-pages/hassan-2022-real-time-spindle-detection]]、[[source-pages/ferster-2019-mobile-closed-loop-acoustic]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/piorecky-2021-real-time-slow-oscillation]]、[[index]] 与 [[shturl]]。
+- 新建页面：[[review/证据包/02-技术基础-2.3-P1-证据包]]。
+- 更新页面：[[review/文献清单/02-技术基础-2.3-文献需求单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[concept/闭环系统时延]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[source-pages/patanaik-2018-end-to-end-real-time-sleep-staging]]、[[source-pages/valenchon-2022-portiloop]]、[[source-pages/kulkarni-2019-real-time-spindle-detection]]、[[source-pages/hassan-2022-real-time-spindle-detection]]、[[source-pages/ferster-2019-mobile-closed-loop-acoustic]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/piorecky-2021-real-time-slow-oscillation]]、[[index]] 与 [[shturl]]。
 - 变更：完成 8 份已准入来源的版本、时间参数、触发指标与运行模式核对；建立 8 条可写主张、`2.3-P1 v1` 受限草案、核验清单和逐句证据矩阵。
 - 核心边界：Portiloop 的约 314 ms 总值含估计的 250±100 ms 可变检测延迟；Hassan 的 5–15 ms 为接口延迟；Piorecky 的 350 ms 为预设间隔；Ferster 居家夜未播放声音；Patanaik 的 <5 ms 为局部计算耗时。上述字段不得互换或形成跨系统排行。
 - ⚠️缺口：统一时钟下采集至声音抵达的完整分段、总时延、抖动及同协议人体在线误/漏触发与停止条件仍未取得；草案不据此声称满足统一实时标准，也不推断刺激疗效。
@@ -568,7 +576,7 @@
 - 状态：completed（`1.2-P1 v1` 仍待确认）
 - 修改页数：9（新建 1，更新 8）
 - 新建页面：[[source-pages/weigenand-2016-open-loop-timing]]。
-- 更新页面：[[review/01-引言-1.2-P1-证据包]]、[[review/chapters/01-引言]]、[[review/证据矩阵]]、[[concept/闭环控制]]、[[concept/实时相位估计]]、[[intervention/闭环听觉刺激]]、[[index]] 与 [[shturl]]。
+- 更新页面：[[review/证据包/01-引言-1.2-P1-证据包]]、[[review/chapters/01-引言]]、[[review/证据矩阵]]、[[concept/闭环控制]]、[[concept/实时相位估计]]、[[intervention/闭环听觉刺激]]、[[index]] 与 [[shturl]]。
 - source_id：`user-file:/Users/april/Desktop/Eur J of Neuroscience - 2016 - Weigenand - Timing matters  open‐loop stimulation does not improve overnight consolidation.pdf`。
 - 变更：将 1.2 v1 的开放环表述限定为“从随机慢振荡相位启动、随后按预设间隔递送刺激”，新增 Weigenand 等（2016）原文定位、主张 C6 与逐句矩阵 S6。
 - ⚠️边界：该研究为开放环与假刺激交叉实验，并非开放环—闭环头对头比较；只用于界定刺激时机机制，不据阴性记忆结果断言闭环疗效更优。
@@ -578,18 +586,18 @@
 
 - 状态：completed
 - 修改页数：3（更新 3）
-- 更新页面：[[source-pages/weigenand-2016-open-loop-timing]]、[[review/文献下载清单]] 与 [[shturl]]。
+- 更新页面：[[source-pages/weigenand-2016-open-loop-timing]]、[[review/文献清单/文献下载清单]] 与 [[shturl]]。
 - source_id：`raw/inbox/Eur J of Neuroscience - 2016 - Weigenand - Timing matters  open‐loop stimulation does not improve overnight consolidation.pdf`。
 - 变更：确认 inbox PDF 为 12 页出版社版、题名与 DOI 一致；将来源页由工作区外临时路径切换至稳定 `raw/inbox` 路径，并在第 1.2 节下载清单登记为 `DL-1.2-006`、状态 `已准入`。
-- 索引核对：[[review/01-引言-1.2-P1-证据包]]、[[review/chapters/01-引言]]、[[review/证据矩阵]]、[[concept/闭环控制]]、[[concept/实时相位估计]]、[[intervention/闭环听觉刺激]] 与 [[index]] 已存在双向入口，无需重复新增页面。
+- 索引核对：[[review/证据包/01-引言-1.2-P1-证据包]]、[[review/chapters/01-引言]]、[[review/证据矩阵]]、[[concept/闭环控制]]、[[concept/实时相位估计]]、[[intervention/闭环听觉刺激]] 与 [[index]] 已存在双向入口，无需重复新增页面。
 - 未修改 `raw/`。
 
 ## [2026-08-18] review-plan | 第 3.1 节锁相听觉刺激原理与范式演进文献需求单
 
 - 状态：pending（文献准备）
 - 修改页数：13（新建 1，更新 12）
-- 新建页面：[[review/03-慢波干预-3.1-文献需求单]]。
-- 更新页面：[[review/文献下载清单]]、[[review/chapters/03-可穿戴睡眠信号采集硬件体系]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[source-pages/weigenand-2016-open-loop-timing]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[source-pages/ferster-2019-mobile-closed-loop-acoustic]]、[[source-pages/piorecky-2021-real-time-slow-oscillation]]、[[index]] 与 [[shturl]]。
+- 新建页面：[[review/文献清单/03-慢波干预-3.1-文献需求单]]。
+- 更新页面：[[review/文献清单/文献下载清单]]、[[review/chapters/03-可穿戴睡眠信号采集硬件体系]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[source-pages/weigenand-2016-open-loop-timing]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[source-pages/ferster-2019-mobile-closed-loop-acoustic]]、[[source-pages/piorecky-2021-real-time-slow-oscillation]]、[[index]] 与 [[shturl]]。
 - 变更：围绕“开放环基线—经典锁相闭环—自限性/响应依赖—跨年龄时机—PLL/声音参数—可穿戴迁移”建立 3 篇必需、3 篇推荐下载任务；逐项规定相位、声音剂量、序列/间隔、不应期、停止规则与验证层级字段。
 - 最低放行门槛：`DL-3.1-001 + DL-3.1-002 + DL-3.1-003` 完整全文均完成 Ingest；推荐项不阻塞额区/干 EEG 范围的受限草案。
 - ⚠️限制：现有 6 份来源只能支撑开放环、方法框架、局部相位算法及居家系统，不替代经典闭环协议、自限性或跨年龄时机原始研究；本轮未生成正文。
@@ -599,8 +607,8 @@
 
 - 状态：completed（各小标题分别处于待确认、待开始或文献准备）
 - 修改页数：44（新建 20，更新 24）
-- 新建页面：[[review/全章节文献需求总览]]，以及 1.1、1.4、3.2–3.4、4.1–4.5、5.1–5.4、6.1–6.5 共 19 份独立文献需求单。
-- 更新范围：[[review/文献下载清单]]、第 1/3/4/5/6 章章节页、[[review/综述写作看板]]、[[review/证据矩阵]]、[[review/完整综述大纲]]、13 份既有来源页、[[index]] 与 [[shturl]]。
+- 新建页面：[[review/文献清单/全章节文献需求总览]]，以及 1.1、1.4、3.2–3.4、4.1–4.5、5.1–5.4、6.1–6.5 共 19 份独立文献需求单。
+- 更新范围：[[review/文献清单/文献下载清单]]、第 1/3/4/5/6 章章节页、[[review/综述写作看板]]、[[review/证据矩阵]]、[[review/完整综述大纲]]、13 份既有来源页、[[index]] 与 [[shturl]]。
 - 下载任务：统一新增 32 个下载 ID；复用任务不重复编号。第 1.4 节不新增论文，第 6 章概况/挑战仅在前述直接证据基础上综合。
 - 变更：每个小标题均独立记录目标问题、已有证据、必需/推荐或复用任务、统一全文提取字段、放行条件和不可写边界；所有未 Ingest 题录同步登记为 `gap`。
 - ⚠️限制：题录作者仍须在完整全文首页核验；检索结果、摘要、预印本和动物研究的证据边界分别保留，未生成任何正文结论。
@@ -610,7 +618,7 @@
 - 状态：completed
 - 修改页数：12（新建 4，更新 8）
 - 新建：[[source-pages/ngo-2015-self-limiting-auditory-closed-loop]]、[[source-pages/navarrete-2019-optimal-timing-closed-loop]]、[[source-pages/debellemaniere-2022-optimising-sounds]]、[[source-pages/santostasi-2015-pll-acoustic-stimulation]]
-- 更新：[[intervention/闭环听觉刺激]]、[[concept/实时相位估计]]、[[review/03-慢波干预-3.1-文献需求单]]、[[review/证据矩阵]]、[[review/文献下载清单]]、[[review/综述写作看板]]、[[index]]、[[shturl]]
+- 更新：[[intervention/闭环听觉刺激]]、[[concept/实时相位估计]]、[[review/文献清单/03-慢波干预-3.1-文献需求单]]、[[review/证据矩阵]]、[[review/文献清单/文献下载清单]]、[[review/综述写作看板]]、[[index]]、[[shturl]]
 - source_id：`raw/inbox/ngo-2015-self-limiting-auditory-closed-loop.pdf`；`raw/inbox/navarrete-2019-optimal-timing-closed-loop.pdf`；`raw/inbox/debellemaniere-2022-optimising-sounds.pdf`；`raw/inbox/santostasi-2015-pll-acoustic-stimulation.html`
 - 说明：其余 inbox 文件已由 source_id、路径或来源页去重；`raw/` 未修改。DL-3.1-001 与 DL-3.1-006 仍缺全文。
 
@@ -618,8 +626,8 @@
 
 - 状态：completed（待一人确认；未并入正文草案）
 - 修改页数：17（新建 1，更新 16）
-- 新建：[[review/03-慢波干预-3.1-P1-证据包]]。
-- 更新：[[review/03-慢波干预-3.1-文献需求单]]、[[review/chapters/03-可穿戴睡眠信号采集硬件体系]]、[[review/综述写作看板]]、[[review/证据矩阵]]、10 份来源页、[[index]] 与 [[shturl]]。
+- 新建：[[review/证据包/03-慢波干预-3.1-P1-证据包]]。
+- 更新：[[review/文献清单/03-慢波干预-3.1-文献需求单]]、[[review/chapters/03-可穿戴睡眠信号采集硬件体系]]、[[review/综述写作看板]]、[[review/证据矩阵]]、10 份来源页、[[index]] 与 [[shturl]]。
 - 变更：核对 10 份已准入来源，建立 7 条可写主张、`3.1-P1 v1` 受限草案、核验清单和逐句证据矩阵；叙事按开放环基线—状态/事件/相位门控—序列自限性—年龄差异—相位算法—声音设计—居家迁移组织。
 - ⚠️限制：Ngo 2013 经典成对声音原始全文和耳内 EEG 闭环全文仍缺；不重建缺失协议，不比较生理/认知/临床疗效，不作跨系统最佳算法、声音或相位排名。
 - 未修改 `raw/`。

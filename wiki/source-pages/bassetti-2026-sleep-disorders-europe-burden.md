@@ -36,7 +36,7 @@ review_due: 2027-08-17
 ## 关联词条
 
 - 概念：[[concept/睡眠障碍]]、[[concept/睡眠障碍疾病负担]]、[[concept/阻塞性睡眠呼吸暂停]]、[[concept/不宁腿综合征]]、[[concept/发作性睡病]]、[[concept/REM 睡眠行为障碍]]、[[concept/失眠障碍]]
-- 综述：[[review/chapters/01-引言]]、[[review/01-引言-1.1-P1-证据包]]、[[review/证据矩阵]]
+- 综述：[[review/chapters/01-引言]]、[[review/证据包/01-引言-1.1-P1-证据包]]、[[review/证据矩阵]]
 
 ## 局限与待核实
 

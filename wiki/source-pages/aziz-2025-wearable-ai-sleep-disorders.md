@@ -37,7 +37,7 @@ review_due: 2027-08-18
 ## 关联词条
 
 - 概念：[[concept/可穿戴人工智能]]、[[concept/睡眠障碍]]、[[concept/临床验证]]
-- 综述：[[review/chapters/01-引言]]、[[review/chapters/02-基础理论与核心概念]]、[[review/01-引言-1.1-P1-证据包]]、[[review/证据矩阵]]
+- 综述：[[review/chapters/01-引言]]、[[review/chapters/02-基础理论与核心概念]]、[[review/证据包/01-引言-1.1-P1-证据包]]、[[review/证据矩阵]]
 
 ## 局限与待核实
 
