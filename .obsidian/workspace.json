@@ -4,21 +4,57 @@
     "type": "split",
     "children": [
       {
-        "id": "59f94c3816ce2ace",
+        "id": "6fda7a963e52454b",
         "type": "tabs",
         "children": [
           {
-            "id": "a6b05b0f3ce9a23c",
+            "id": "2b5d03b3adf29dbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "wiki/review/01-引言-1.2-P1-证据包.md",
+=======
+                "file": "wiki/review/01-引言-1.1-P1-证据包.md",
+>>>>>>> 8235d6cac77a05f2bbfbd318b4539edc2dd26fae
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "01-引言-1.2-P1-证据包"
+=======
+              "title": "01-引言-1.1-P1-证据包"
+            }
+          },
+          {
+            "id": "07aaeec5b7292d82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/review/完整综述大纲.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "完整综述大纲"
+            }
+          },
+          {
+            "id": "27257f2a6d0bd65d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/review/文献搜索策略_新版.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "文献搜索策略_新版"
+>>>>>>> 8235d6cac77a05f2bbfbd318b4539edc2dd26fae
             }
           }
         ]
@@ -42,7 +78,7 @@
               "state": {
                 "sortOrder": "alphabetical",
                 "autoReveal": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
@@ -83,7 +119,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "71547053785a1fca",
@@ -188,8 +225,9 @@
       "bases:新建数据库": false
     }
   },
-  "active": "a6b05b0f3ce9a23c",
+  "active": "2b5d03b3adf29dbc",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "wiki/review/双人协作操作手册.md",
     "wiki/review/01-引言-1.2-P1-证据包.md",
     "wiki/review/01-引言-1.1-P1-证据包.md",
@@ -226,5 +264,43 @@
     "wiki/concept/发作性睡病.md",
     "wiki/concept/不宁腿综合征.md",
     "wiki/concept/阻塞性睡眠呼吸暂停.md"
+=======
+    "wiki/review/完整综述大纲.md",
+    "wiki/review/01-引言-1.1-P1-证据包.md",
+    "wiki/review/文献搜索策略_新版.md",
+    "wiki/review/分段综述写作规则与工作流.md",
+    "wiki/review/01-引言-1.2-文献需求单.md",
+    "wiki/source-pages/valenchon-2022-portiloop.md",
+    "wiki/source-pages/schmidig-2024-phase-targeted-sleep-learning.md",
+    "wiki/source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.md",
+    "wiki/device/Wireless Dreem Device.md",
+    "wiki/device/Portiloop.md",
+    "wiki/device",
+    "wiki/concept/睡眠纺锤波.md",
+    "wiki/review/文献检索结果.md",
+    "wiki/review/睡眠BCI闭环干预综述_逐节写作逻辑大纲 (1).md",
+    "plan/progress.md",
+    "plan/task-packets/rewrite-1.1.md",
+    "plan/review/evidence-coverage.md",
+    "plan/chapter-blueprints/1.1-blueprint.md",
+    "plan/evidence-map.md",
+    "plan/project-overview.md",
+    "plan/task-packets",
+    "plan/review",
+    "plan/chapter-blueprints",
+    "plan",
+    "wiki/review/未确认 714076.crdownload",
+    "wiki/concept/REM 睡眠行为障碍.md",
+    "wiki/concept/发作性睡病.md",
+    "wiki/concept/不宁腿综合征.md",
+    "wiki/concept/阻塞性睡眠呼吸暂停.md",
+    "wiki/concept/睡眠障碍.md",
+    "wiki/source-pages/song-2024-global-rls-prevalence.md",
+    "wiki/source-pages/niu-2025-china-osa-prevalence.md",
+    "raw/inbox/song-2024-global-rls-prevalence.pdf",
+    "raw/inbox/niu-2025-china-osa-prevalence.pdf",
+    "raw/inbox/franklin-2015-osa-epidemiology-review.pdf",
+    "raw/inbox/borsoi-2022-osa-cost-of-illness.pdf"
+>>>>>>> 8235d6cac77a05f2bbfbd318b4539edc2dd26fae
   ]
 }

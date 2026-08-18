@@ -37,3 +37,11 @@ Verification run: `rg -n "用户指定结构版 v4|系统性社会健康挑战|�
 Updated `wiki/review/01-引言-1.1-P1-证据包.md` again so `1.1 用户指定结构版 v4` is now a citation-supported version rather than a "待补" version. Removed unsupported manuscript claims about symptom-level 30%-50%, sleep-insufficiency cross-system outcomes and dose-response, PSG one-night laboratory limitation, and CBT/drug/CPAP detached monitoring. Added a v4 checklist and paragraph evidence matrix with source-page pointers for each sentence-level claim.
 
 Verification run: inspected the v4 block; `rg` confirmed the v4 title, source links, and evidence matrix are present. Unsupported terms only remain in the checklist sentence explaining removed content. Style forbidden-expression `rg` returned no matches.
+
+### Follow-up polish with research-writing-skill
+
+Used `research-writing-skill` to polish `1.1 用户指定结构版 v4` while preserving evidence-supported claims, citations, and section logic. Added full forms for abbreviations at first use in the polished text, including OSA, RLS, REM, DSM, AHI, CBT-I, and AASM. Updated the v4 checklist and evidence matrix accordingly.
+
+Added a new writing rule to `wiki/review/文献搜索策略_新版.md`: every abbreviation must be expanded at first occurrence in manuscript text, figure/table titles, notes, and the evidence matrix; updated the file date to 2026-08-17.
+
+Verification run: `rg` confirmed the polished v4 block contains abbreviation full forms and source links; `rg` confirmed the new "术语与缩写" rule and `updated: 2026-08-17`; style forbidden-expression `rg` returned no matches.
