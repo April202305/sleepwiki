@@ -4,7 +4,7 @@ aliases: ["Bressler 2023", "ENMod wearable EEG"]
 created: 2026-08-18
 updated: 2026-08-18
 sources: ["raw/inbox/bressler-2023-wearable-eeg-closed-loop.pdf"]
-review_sections: ["1.3", "2.1", "2.2", "4.1", "5.1"]
+review_sections: ["1.3", "2.1", "2.2", "2.3", "4.1", "5.1"]
 status: active
 review_due: 2027-08-18
 ---
@@ -19,7 +19,7 @@ review_due: 2027-08-18
 - 作者/年份：Scott Bressler、Ryan Neely、Ryan M. Yost、David Wang、Heather L. Read；2023
 - 英文原题：A wearable EEG system for closed-loop neuromodulation of sleep-related oscillations
 - DOI：10.1088/1741-2552/acfb3b
-- review_sections：["1.3", "2.1", "2.2", "4.1", "5.1"]
+- review_sections：["1.3", "2.1", "2.2", "2.3", "4.1", "5.1"]
 
 ## 核心摘要
 
@@ -38,7 +38,7 @@ review_due: 2027-08-18
 - 设备：[[device/Elemind Neuromodulation Device]]
 - 概念：[[concept/可穿戴 EEG]]、[[concept/实时相位估计]]、[[concept/闭环控制]]
 - 干预：[[intervention/闭环听觉刺激]]
-- 综述：[[review/chapters/01-引言]]、[[review/01-引言-1.3-文献需求单]]、[[review/01-引言-1.3-P1-证据包]]、[[review/02-技术基础-2.1-文献需求单]]、[[review/02-技术基础-2.2-文献需求单]]、[[review/证据矩阵]]
+- 综述：[[review/chapters/01-引言]]、[[review/01-引言-1.3-文献需求单]]、[[review/01-引言-1.3-P1-证据包]]、[[review/02-技术基础-2.1-文献需求单]]、[[review/02-技术基础-2.1-P1-证据包]]、[[review/02-技术基础-2.2-文献需求单]]、[[review/02-技术基础-2.2-P1-证据包]]、[[review/02-技术基础-2.3-文献需求单]]、[[review/证据矩阵]]
 
 ## 局限与待核实
 

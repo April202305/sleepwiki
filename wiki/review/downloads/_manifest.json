@@ -620,20 +620,22 @@
     "doi": "10.1111/jsr.13733",
     "pmid": "36130730",
     "pmcid": null,
-    "dl": "DL-1.3-003",
+    "dl": "DL-1.3-003 / DL-2.3-003",
     "label": "Hassan et al. 2022, J Sleep Res",
     "title": "Automated real-time EEG sleep spindle detection for brain state-dependent brain stimulation",
     "authors": [
-      "待核验"
+      "Hassan",
+      "Feld",
+      "Bergmann"
     ],
     "year": 2022,
     "journal": "Journal of Sleep Research",
-    "status": "free_bot_blocked",
-    "pdf": null,
-    "version": null,
-    "source": null,
-    "bytes": null,
-    "note": "推荐项。hybrid CC BY-NC-ND（S2 确认），Wiley pdfdirect 403（Cloudflare），PUBLISSO 绿 OA 亦 bot captcha。推荐项可选，跳过"
+    "status": "downloaded",
+    "pdf": "hassan-2022-real-time-spindle-detection.pdf",
+    "version": "预印本（bioRxiv 作者稿）",
+    "source": "bioRxiv 10.1101/2022.06.05.494865",
+    "bytes": 7635023,
+    "note": "2.3 必需（兼 1.3 推荐）：事件检测进入刺激决策的人体睡眠案例（RTSD，Simulink Real-Time，5–15 ms 回路延迟）。J Sleep Res 出版社版 Wiley 403 bot 拦截 + PUBLISSO captcha；bioRxiv 预印本（32 页）合法 OA 已下载。作者已核验：Hassan/Feld/Bergmann"
   },
   {
     "slug": "henao-2022-in-ear-eeg-closed-loop",
@@ -868,5 +870,77 @@
     "source": "PubMed Central (PMC6527330) HTML 全文",
     "bytes": 299738,
     "note": "事件级在线纺锤波检测（推荐）。IOP 订阅，PMC 作者稿免费；PDF 在 NCBI JS 下载墙后无法自动取，存 HTML 全文。作者已核验：Kulkarni 等"
+  },
+  {
+    "slug": "ferster-2019-mobile-closed-loop-acoustic",
+    "doi": "10.1109/LSENS.2019.2914425",
+    "pmid": null,
+    "pmcid": null,
+    "dl": "DL-2.3-001",
+    "label": "Ferster et al. 2019, IEEE Sensors Lett",
+    "title": "Configurable Mobile System for Autonomous High-Quality Sleep Monitoring and Closed-Loop Acoustic Stimulation",
+    "authors": [
+      "Ferster",
+      "Lustenberger",
+      "Karlen"
+    ],
+    "year": 2019,
+    "journal": "IEEE Sensors Letters",
+    "status": "downloaded",
+    "pdf": "ferster-2019-mobile-closed-loop-acoustic.pdf",
+    "version": "publisher",
+    "source": "IEEE Xplore ielx7 直连（OA 文章）",
+    "bytes": 1619218,
+    "note": "2.3 必需：移动采集+实时处理+闭环声刺激完整系统（4 页）。作者已核验：Ferster/Lustenberger/Karlen（ETH Zurich）"
+  },
+  {
+    "slug": "sun-2023-fpga-sleep-modulation",
+    "doi": "10.1109/ISCAS46773.2023.10181356",
+    "pmid": "38623583",
+    "pmcid": "PMC11018328",
+    "dl": "DL-2.3-002",
+    "label": "Sun et al. 2023, IEEE ISCAS",
+    "title": "Design of a Sleep Modulation System with FPGA-Accelerated Deep Learning for Closed-loop Stage-Specific In-Phase Auditory Stimulation",
+    "authors": [
+      "Sun",
+      "Zhou",
+      "Yang",
+      "Xu",
+      "Hou",
+      "Richardson",
+      "Liu"
+    ],
+    "year": 2023,
+    "journal": "IEEE ISCAS",
+    "status": "downloaded",
+    "pdf": "sun-2023-fpga-sleep-modulation.html",
+    "version": "HTML 全文（PMC 作者稿 NIHMS1983967）",
+    "source": "PubMed Central (PMC11018328) HTML 全文",
+    "bytes": 152671,
+    "note": "2.3 必需：阶段门控+相位触发+FPGA 加速同一链路。IEEE 出版版订阅，PMC 作者稿免费；PDF 在 NCBI JS 下载墙后无法自动取，存 HTML 全文。作者已核验：Sun 等"
+  },
+  {
+    "slug": "piorecky-2021-real-time-slow-oscillation",
+    "doi": "10.3390/s21155169",
+    "pmid": "34372405",
+    "pmcid": "PMC8347755",
+    "dl": "DL-2.3-005",
+    "label": "Piorecky et al. 2021, Sensors",
+    "title": "Real-Time Excitation of Slow Oscillations during Deep Sleep Using Acoustic Stimulation",
+    "authors": [
+      "Piorecky",
+      "Koudelka",
+      "Piorecka",
+      "Strobl",
+      "Koprivova"
+    ],
+    "year": 2021,
+    "journal": "Sensors",
+    "status": "downloaded",
+    "pdf": "piorecky-2021-real-time-slow-oscillation.pdf",
+    "version": "publisher",
+    "source": "Europe PMC (PMC8347755)",
+    "bytes": 1792350,
+    "note": "2.3 推荐：慢振荡相位级实时声刺激实现（26 页，MDPI 金 OA）。作者已核验：Piorecky 等"
   }
 ]

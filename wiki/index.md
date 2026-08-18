@@ -38,6 +38,12 @@
 - [[source-pages/matthews-2013-cbti-adherence-systematic-review|Matthews 等（2013）]]：成人 CBT-I 退出、依从性及测量异质性的系统综述。`source`｜2026-08-18｜1 来源
 - [[source-pages/koffel-2018-cbti-access-utilization|Koffel 等（2018）]]：CBT-I 系统、临床医生与患者层面的实施和可及性障碍。`source`｜2026-08-18｜1 来源
 - [[source-pages/aziz-2025-wearable-ai-sleep-disorders|Aziz 等（2025）]]：46 项睡眠障碍可穿戴人工智能研究的筛查、诊断与治疗缺口范围综述。`source`｜2026-08-18｜1 来源
+- [[source-pages/patanaik-2018-end-to-end-real-time-sleep-staging|Patanaik 等（2018）]]：四组 PSG 队列上的阶段级在线自动睡眠分期及因果性限制。`source`｜2026-08-18｜1 来源
+- [[source-pages/kulkarni-2019-real-time-spindle-detection|Kulkarni 等（2019）]]：SpindleNet 单通道 EEG 在线纺锤波检测、执行时间与检测延迟。`source`｜2026-08-18｜1 来源
+- [[source-pages/ferster-2019-mobile-closed-loop-acoustic|Ferster 等（2019）]]：移动系统的居家慢波相位/NREM 触发精度及总时延缺口。`source`｜2026-08-18｜1 来源
+- [[source-pages/hassan-2022-real-time-spindle-detection|Hassan 等（2022）]]：RTSD 预录 EEG 实时回放、检测指标及 5–15 ms 局部延迟。`source`｜2026-08-18｜1 来源
+- [[source-pages/sun-2023-fpga-sleep-modulation|Sun 等（2023）]]：FPGA 睡眠分期、相位声刺激台架系统与吞吐量边界。`source`｜2026-08-18｜1 来源
+- [[source-pages/piorecky-2021-real-time-slow-oscillation|Piorecky 等（2021）]]：固定步长与 PLL 慢波声刺激时点比较。`source`｜2026-08-18｜1 来源
 
 ### 模型词条
 
@@ -47,6 +53,10 @@
 - [[model/SeqSleepNet|SeqSleepNet]]：RNN epoch 编码 + RNN 序列编码的序列到序列系统。`model`｜2026-08-12｜1 来源
 - [[model/SleepEEGNet|SleepEEGNet]]：原始 EEG 输入的 CNN+RNN 传统深度时序路线。`model`｜2026-08-12｜1 来源
 - [[model/SleepTransformer|SleepTransformer]]：Transformer epoch 编码 + Transformer 序列编码的非递归注意力路线。`model`｜2026-08-12｜1 来源
+- [[model/Patanaik 实时睡眠分期框架]]：频谱图 CNN 与上下文修正组成的客户端—服务器在线五分类框架。`model`｜2026-08-18｜1 来源
+- [[model/SpindleNet]]：CNN、LSTM 与功率特征结合的在线纺锤波检测模型。`model`｜2026-08-18｜1 来源
+- [[model/RTSD]]：多通道实时纺锤波检测与相位预测算法。`model`｜2026-08-18｜1 来源
+- [[model/Sun FPGA 睡眠分期模型]]：双 CNN、双向 LSTM 与 8 位量化的 FPGA 分期模型。`model`｜2026-08-18｜1 来源
 
 ### 数据集词条
 
@@ -54,10 +64,12 @@
 - [[dataset/SHHS|SHHS]]：多中心队列，Eldele 等按 AHI<5 筛选 329 人用于实验。`dataset`｜2026-08-11｜2 来源
 - [[dataset/CCSHS|CCSHS]]：Zhou 等使用的 515 名儿童睡眠队列（C4/A1, 128 Hz）。`dataset`｜2026-08-11｜1 来源
 - [[dataset/MESA|MESA]]：多民族动脉粥样硬化研究队列，Phan 和 Mikkelsen 模型比较表中列为多模型评估数据集。`dataset`｜2026-08-12｜1 来源
+- [[dataset/MASS]]：SpindleNet 使用的 19 名健康受试者纺锤波标注子集。`dataset`｜2026-08-18｜1 来源
+- [[dataset/DREAMS]]：8 名睡眠问题患者的 30 分钟 PSG 纺锤波标注片段。`dataset`｜2026-08-18｜1 来源
 
 ### 概念词条
 
-- [[concept/睡眠分期]]：自动睡眠阶段分类任务（五分类：W/N1/N2/N3/REM）。`concept`｜2026-08-11｜3 来源
+- [[concept/睡眠分期]]：离线与在线自动睡眠阶段分类任务及其状态级输出边界。`concept`｜2026-08-18｜4 来源
 - [[concept/单通道 EEG]]：单导联 EEG 输入设置（Fpz-Cz、C4-A1 等）。`concept`｜2026-08-11｜3 来源
 - [[concept/时序上下文]]：相邻 epoch/连续时段的信息建模机制。`concept`｜2026-08-11｜2 来源
 - [[concept/类别不平衡]]：睡眠阶段样本数量不均及其评估影响（κ 推荐用于不平衡一致性评估）。`concept`｜2026-08-11｜3 来源
@@ -75,14 +87,17 @@
 - [[concept/不宁腿综合征]]：RLS 的诊断标准与全球成人患病率资料。`concept`｜2026-08-17｜2 来源
 - [[concept/发作性睡病]]：当前仅有欧洲疾病负担范围资料的睡眠障碍类别。`concept`｜2026-08-17｜1 来源
 - [[concept/REM 睡眠行为障碍]]：当前仅有欧洲疾病负担范围资料的睡眠障碍类别。`concept`｜2026-08-17｜1 来源
-- [[concept/睡眠纺锤波]]：Portiloop 实时事件检测案例中的睡眠 EEG 事件。`concept`｜2026-08-17｜1 来源
+- [[concept/睡眠纺锤波]]：实时事件级检测目标及专家起点标注差异。`concept`｜2026-08-18｜2 来源
 - [[concept/实时相位估计]]：因果 EEG 相位估计、触发逻辑与时延边界。`concept`｜2026-08-18｜3 来源
 - [[concept/闭环控制]]：状态依赖触发、反馈测量与参数更新的严格术语边界。`concept`｜2026-08-18｜3 来源
 - [[concept/耳内 EEG]]：耳道、耳甲腔或耳周 EEG 的居家睡眠监测形态及质量边界。`concept`｜2026-08-18｜3 来源
 - [[concept/柔性贴附电极]]：纹身等柔性干电极的材料背景；当前缺直接睡眠验证。`concept`｜2026-08-18｜3 来源
 - [[concept/可穿戴人工智能]]：面向睡眠障碍筛查、诊断与预测的可穿戴 AI；治疗应用仍缺直接证据。`concept`｜2026-08-18｜1 来源
+- [[concept/闭环系统时延]]：区分端到端时延、局部执行时间、检测延迟和预设刺激间隔。`concept`｜2026-08-18｜4 来源
 
 ### 可穿戴设备
+
+- [[device/MHSL-SB]]：8 通道、250 Hz 的移动睡眠 EEG 与实时触发研究系统。`device`｜2026-08-18｜1 来源
 
 - [[device/Wireless Dreem Device|Wireless Dreem Device]]：干 EEG 居家实时 N3 检测与慢振荡听觉触发。`device`｜2026-08-17｜1 来源
 - [[device/Portiloop|Portiloop]]：开源、可携带的实时 EEG 事件检测与刺激工程系统。`device`｜2026-08-17｜1 来源
@@ -112,7 +127,11 @@
 - [[review/01-引言-1.3-文献需求单|第 1.3 节文献需求包]]：闭环系统架构、反馈边界和端到端验证的下载任务。`review`｜2026-08-18｜5 项候选
 - [[review/01-引言-1.3-P1-证据包|第 1.3-P1 证据包]]：闭环系统模块、术语边界、失败保护与逐句草案核验。`review`｜2026-08-18｜7 份准入来源
 - [[review/02-技术基础-2.1-文献需求单|第 2.1 节文献需求单]]：可穿戴传感、PSG 参考、伪影/质量控制与居家可用性的下载任务。`review`｜2026-08-18｜4 项候选
-- [[review/02-技术基础-2.2-文献需求单|第 2.2 节文献需求单]]：阶段级实时分期、事件级检测与相位级估计的证据边界及下载任务。`review`｜2026-08-18｜2 项候选
+- [[review/02-技术基础-2.1-P1-证据包|第 2.1-P1 证据包]]：头带/干 EEG 与耳内 EEG 的质量控制、居家限制、受限草案及逐句矩阵。`review`｜2026-08-18｜6 份准入来源
+- [[review/02-技术基础-2.2-文献需求单|第 2.2 节文献需求单]]：阶段级实时分期、事件级检测与相位级估计的证据边界；两份新增全文已准入。`review`｜2026-08-18｜6 份准入来源
+- [[review/02-技术基础-2.2-P1-证据包|第 2.2-P1 证据包]]：阶段、事件、相位三层在线输出的因果边界、受限草案及逐句矩阵。`review`｜2026-08-18｜6 份准入来源
+- [[review/02-技术基础-2.3-文献需求单|第 2.3 节文献需求单]]：端到端时延、触发精度及误/漏触发的字段规范与 5 项下载任务。`review`｜2026-08-18｜7 份准入背景来源
+- [[review/02-技术基础-2.3-P1-证据包|第 2.3-P1 证据包]]：阶段、事件与相位层级的时延口径、触发精度、受限草案及逐句矩阵。`review`｜2026-08-18｜8 份准入来源
 - [[review/chapters/01-引言|第 1 章：引言]]：疾病需求、范式转变与系统架构。`review`｜2026-08-14｜用户框架
 - [[review/chapters/02-基础理论与核心概念|第 2 章：技术基础]]：实时感知、状态/相位估计与时延。`review`｜2026-08-14｜用户框架
 - [[review/chapters/03-可穿戴睡眠信号采集硬件体系|第 3 章：慢波睡眠闭环干预]]：锁相听觉刺激、生理/功能终点与临床队列。`review`｜2026-08-14｜用户框架

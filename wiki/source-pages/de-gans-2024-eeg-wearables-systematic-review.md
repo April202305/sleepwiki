@@ -4,7 +4,7 @@ aliases: ["de Gans 2024", "EEG wearables systematic review"]
 created: 2026-08-12
 updated: 2026-08-18
 sources: ["raw/inbox/de Gans 等 - 2024 - Sleep assessment using EEG-based wearables – A systematic review.pdf"]
-review_sections: ["1", "3", "6", "7", "8"]
+review_sections: ["1", "2.1", "3", "6", "7", "8"]
 status: active
 review_due: 2027-08-12
 ---
@@ -20,7 +20,7 @@ review_due: 2027-08-12
 - 英文原题：Sleep assessment using EEG-based wearables – A systematic review
 - DOI：10.1016/j.smrv.2024.101951
 - 录入日期：2026-08-12
-- review_sections：["1", "3", "6", "7", "8"]
+- review_sections：["1", "2.1", "3", "6", "7", "8"]
 
 ## 核心摘要
 
@@ -50,3 +50,4 @@ review_due: 2027-08-12
 - [[review/完整综述大纲]]
 - [[review/文献搜索策略_新版]]
 - [[review/02-技术基础-2.1-文献需求单]]
+- [[review/02-技术基础-2.1-P1-证据包]]

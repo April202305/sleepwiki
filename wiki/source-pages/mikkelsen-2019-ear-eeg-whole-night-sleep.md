@@ -36,7 +36,7 @@ review_due: 2027-08-18
 
 - 设备：[[device/干接触耳内 EEG 系统]]
 - 概念：[[concept/耳内 EEG]]、[[concept/可穿戴 EEG]]、[[concept/PSG 参考标准]]
-- 综述：[[review/02-技术基础-2.1-文献需求单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/证据矩阵]]
+- 综述：[[review/02-技术基础-2.1-文献需求单]]、[[review/02-技术基础-2.1-P1-证据包]]、[[review/chapters/02-基础理论与核心概念]]、[[review/证据矩阵]]
 
 ## ⚠️局限与待核实
 
