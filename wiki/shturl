@@ -573,3 +573,43 @@
 - 变更：确认 inbox PDF 为 12 页出版社版、题名与 DOI 一致；将来源页由工作区外临时路径切换至稳定 `raw/inbox` 路径，并在第 1.2 节下载清单登记为 `DL-1.2-006`、状态 `已准入`。
 - 索引核对：[[review/01-引言-1.2-P1-证据包]]、[[review/chapters/01-引言]]、[[review/证据矩阵]]、[[concept/闭环控制]]、[[concept/实时相位估计]]、[[intervention/闭环听觉刺激]] 与 [[index]] 已存在双向入口，无需重复新增页面。
 - 未修改 `raw/`。
+
+## [2026-08-18] review-plan | 第 3.1 节锁相听觉刺激原理与范式演进文献需求单
+
+- 状态：pending（文献准备）
+- 修改页数：13（新建 1，更新 12）
+- 新建页面：[[review/03-慢波干预-3.1-文献需求单]]。
+- 更新页面：[[review/文献下载清单]]、[[review/chapters/03-可穿戴睡眠信号采集硬件体系]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[source-pages/weigenand-2016-open-loop-timing]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[source-pages/ferster-2019-mobile-closed-loop-acoustic]]、[[source-pages/piorecky-2021-real-time-slow-oscillation]]、[[index]] 与 [[shturl]]。
+- 变更：围绕“开放环基线—经典锁相闭环—自限性/响应依赖—跨年龄时机—PLL/声音参数—可穿戴迁移”建立 3 篇必需、3 篇推荐下载任务；逐项规定相位、声音剂量、序列/间隔、不应期、停止规则与验证层级字段。
+- 最低放行门槛：`DL-3.1-001 + DL-3.1-002 + DL-3.1-003` 完整全文均完成 Ingest；推荐项不阻塞额区/干 EEG 范围的受限草案。
+- ⚠️限制：现有 6 份来源只能支撑开放环、方法框架、局部相位算法及居家系统，不替代经典闭环协议、自限性或跨年龄时机原始研究；本轮未生成正文。
+- 未修改 `raw/`。
+
+## [2026-08-18] review-plan | 全部小标题文献需求单
+
+- 状态：completed（各小标题分别处于待确认、待开始或文献准备）
+- 修改页数：44（新建 20，更新 24）
+- 新建页面：[[review/全章节文献需求总览]]，以及 1.1、1.4、3.2–3.4、4.1–4.5、5.1–5.4、6.1–6.5 共 19 份独立文献需求单。
+- 更新范围：[[review/文献下载清单]]、第 1/3/4/5/6 章章节页、[[review/综述写作看板]]、[[review/证据矩阵]]、[[review/完整综述大纲]]、13 份既有来源页、[[index]] 与 [[shturl]]。
+- 下载任务：统一新增 32 个下载 ID；复用任务不重复编号。第 1.4 节不新增论文，第 6 章概况/挑战仅在前述直接证据基础上综合。
+- 变更：每个小标题均独立记录目标问题、已有证据、必需/推荐或复用任务、统一全文提取字段、放行条件和不可写边界；所有未 Ingest 题录同步登记为 `gap`。
+- ⚠️限制：题录作者仍须在完整全文首页核验；检索结果、摘要、预印本和动物研究的证据边界分别保留，未生成任何正文结论。
+- 未修改 `raw/`。
+## [2026-08-18] ingest | 第 3.1 节新增素材
+
+- 状态：completed
+- 修改页数：12（新建 4，更新 8）
+- 新建：[[source-pages/ngo-2015-self-limiting-auditory-closed-loop]]、[[source-pages/navarrete-2019-optimal-timing-closed-loop]]、[[source-pages/debellemaniere-2022-optimising-sounds]]、[[source-pages/santostasi-2015-pll-acoustic-stimulation]]
+- 更新：[[intervention/闭环听觉刺激]]、[[concept/实时相位估计]]、[[review/03-慢波干预-3.1-文献需求单]]、[[review/证据矩阵]]、[[review/文献下载清单]]、[[review/综述写作看板]]、[[index]]、[[shturl]]
+- source_id：`raw/inbox/ngo-2015-self-limiting-auditory-closed-loop.pdf`；`raw/inbox/navarrete-2019-optimal-timing-closed-loop.pdf`；`raw/inbox/debellemaniere-2022-optimising-sounds.pdf`；`raw/inbox/santostasi-2015-pll-acoustic-stimulation.html`
+- 说明：其余 inbox 文件已由 source_id、路径或来源页去重；`raw/` 未修改。DL-3.1-001 与 DL-3.1-006 仍缺全文。
+
+## [2026-08-18] review-draft | 第 3.1-P1 证据核对与受限生成
+
+- 状态：completed（待一人确认；未并入正文草案）
+- 修改页数：17（新建 1，更新 16）
+- 新建：[[review/03-慢波干预-3.1-P1-证据包]]。
+- 更新：[[review/03-慢波干预-3.1-文献需求单]]、[[review/chapters/03-可穿戴睡眠信号采集硬件体系]]、[[review/综述写作看板]]、[[review/证据矩阵]]、10 份来源页、[[index]] 与 [[shturl]]。
+- 变更：核对 10 份已准入来源，建立 7 条可写主张、`3.1-P1 v1` 受限草案、核验清单和逐句证据矩阵；叙事按开放环基线—状态/事件/相位门控—序列自限性—年龄差异—相位算法—声音设计—居家迁移组织。
+- ⚠️限制：Ngo 2013 经典成对声音原始全文和耳内 EEG 闭环全文仍缺；不重建缺失协议，不比较生理/认知/临床疗效，不作跨系统最佳算法、声音或相位排名。
+- 未修改 `raw/`。

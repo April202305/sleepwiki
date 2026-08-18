@@ -41,6 +41,11 @@ review_due: 2027-08-12
 - ⚠️ 本文汇总不同设备、算法与场景，不能据此建立无条件的设备性能排行。
 - ⚠️ 未提供可直接支撑闭环声音/电刺激时延与刺激剂量控制的证据。
 
+## 新增综述需求入口
+
+- [[review/05-系统形态-5.4-文献需求单]]
+- [[review/06-挑战展望-6.5-文献需求单]]
+
 ## 来源
 - `raw/inbox/de Gans 等 - 2024 - Sleep assessment using EEG-based wearables – A systematic review.pdf`
 

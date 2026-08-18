@@ -1,0 +1,42 @@
+---
+type: source
+aliases: ["Debellemanière 2022", "Optimising sounds for CLAS"]
+created: 2026-08-18
+updated: 2026-08-18
+sources: ["raw/inbox/debellemaniere-2022-optimising-sounds.pdf"]
+review_sections: ["3.1", "3.2"]
+status: active
+review_due: 2027-08-18
+---
+
+# Debellemanière 等（2022）：闭环听觉刺激的声音类型与长序列
+
+## 基本信息
+- 类型：人体实验室闭环听觉刺激研究
+- 原始文件：`raw/inbox/debellemaniere-2022-optimising-sounds.pdf`
+- source_id：`raw/inbox/debellemaniere-2022-optimising-sounds.pdf`
+- 作者/年份：Eden Debellemanière 等；2022
+- 英文原题：Optimising sounds for the driving of sleep oscillations by closed-loop auditory stimulation
+- DOI：10.1111/jsr.13676
+- review_sections：["3.1", "3.2"]
+
+## 核心摘要
+
+12 名健康年轻参与者接受六类 10 次序列条件。三类被检验的声音均能诱发慢振荡响应，粉噪的反应更强；改变声音可能部分抵消习惯化。[[intervention/闭环听觉刺激]]（PDF 第 1、4–7 页）
+
+## 方法与发现
+- 14 导 EEG、双乳突平均参考、200 Hz；Fpz 信号经 0.25–4 Hz 滤波，默认 −80 μV阈值检测负半波，首次与后续延迟按个体慢振荡周期估计。[[concept/实时相位估计]]（PDF 第 2–3 页）
+- 每次声音 50 ms、40 dB、5 ms 起落沿；每列 10 次，列后暂停 10 s。仅首个声音由闭环检测触发，后续声音按个体化固定间隔播放；离开 N3 或出现觉醒即停止。[[intervention/闭环听觉刺激]]（PDF 第 3 页，Figure 1）
+- 条件包括 sham、粉噪、247 Hz B 音、元音“a”、固定变化序列和 oddball 序列；粉噪相对窄频声音产生更广泛、更强的响应。[[intervention/闭环听觉刺激]]（PDF 第 3–6 页）
+
+## 关联词条
+- 干预：[[intervention/闭环听觉刺激]]
+- 概念：[[concept/实时相位估计]]
+- 综述：[[review/03-慢波干预-3.1-文献需求单]]、[[review/03-慢波干预-3.1-P1-证据包]]、[[review/证据矩阵]]
+
+## 局限与待核实
+- ⚠️最终样本仅 12 人；原始数据丢失，部分统计由图中测量值重建（PDF 第 4 页），应降低定量证据权重。
+- ⚠️后九次声音为固定间隔，不能把整个 10 次序列描述为逐次相位闭环。
+
+## 来源
+- `raw/inbox/debellemaniere-2022-optimising-sounds.pdf`
