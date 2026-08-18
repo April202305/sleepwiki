@@ -27,6 +27,9 @@
 - [[source-pages/schmidig-2024-phase-targeted-sleep-learning|Schmidig 等（2024）]]：慢波期相靶向词汇刺激；文件与下载题录不符。`source`｜2026-08-18｜1 来源
 - [[source-pages/esfahani-2023-closed-loop-auditory-principles|Esfahani 等（2023）]]：闭环听觉刺激慢振荡的基本原理、链路与实施建议。`source`｜2026-08-18｜1 来源
 - [[source-pages/ferster-2022-real-time-phase-algorithms|Ferster 等（2022）]]：可穿戴 EEG 慢波实时相位算法基准（绿色 OA 预印本）。`source`｜2026-08-18｜1 来源
+- [[source-pages/bressler-2023-wearable-eeg-closed-loop|Bressler 等（2023）]]：可穿戴 EEG、因果 α 相位估计与骨传导声音输出的居家系统可行性研究。`source`｜2026-08-18｜1 来源
+- [[source-pages/bergmann-2018-brain-state-dependent-stimulation|Bergmann（2018）]]：状态依赖触发与严格反馈闭环的通用术语边界。`source`｜2026-08-18｜1 来源
+- [[source-pages/zrenner-2024-closed-loop-brain-stimulation|Zrenner 与 Ziemann（2024）]]：一级触发和二级参数更新的通用闭环治疗架构。`source`｜2026-08-18｜1 来源
 
 ### 模型词条
 
@@ -51,7 +54,7 @@
 - [[concept/时序上下文]]：相邻 epoch/连续时段的信息建模机制。`concept`｜2026-08-11｜2 来源
 - [[concept/类别不平衡]]：睡眠阶段样本数量不均及其评估影响（κ 推荐用于不平衡一致性评估）。`concept`｜2026-08-11｜3 来源
 - [[concept/跨数据集泛化]]：跨人群、机构、设备与采集协议的直接测试能力。`concept`｜2026-08-11｜2 来源
-- [[concept/可穿戴 EEG]]：头带、眼罩、贴片、耳内 EEG 等非传统 PSG 形态，涵盖 34 种设备。`concept`｜2026-08-17｜3 来源
+- [[concept/可穿戴 EEG]]：头带、眼罩、贴片、耳内 EEG 等非传统 PSG 形态；新增居家干电极接触质量限制。`concept`｜2026-08-18｜4 来源
 - [[concept/PSG 参考标准]]：多导睡眠图作为睡眠评估对照来源与人工评分变异。`concept`｜2026-08-12｜2 来源
 - [[concept/临床验证]]：分期一致性→生理效应→主观终点→安全性/依从性的分层验证体系。`concept`｜2026-08-12｜2 来源
 - [[concept/领域自适应]]：监督/半监督/无监督适应以应对分布偏移。`concept`｜2026-08-12｜1 来源
@@ -65,16 +68,18 @@
 - [[concept/发作性睡病]]：当前仅有欧洲疾病负担范围资料的睡眠障碍类别。`concept`｜2026-08-17｜1 来源
 - [[concept/REM 睡眠行为障碍]]：当前仅有欧洲疾病负担范围资料的睡眠障碍类别。`concept`｜2026-08-17｜1 来源
 - [[concept/睡眠纺锤波]]：Portiloop 实时事件检测案例中的睡眠 EEG 事件。`concept`｜2026-08-17｜1 来源
-- [[concept/实时相位估计]]：因果 EEG 相位估计、触发逻辑与时延边界。`concept`｜2026-08-17｜2 来源
+- [[concept/实时相位估计]]：因果 EEG 相位估计、触发逻辑与时延边界。`concept`｜2026-08-18｜3 来源
+- [[concept/闭环控制]]：状态依赖触发、反馈测量与参数更新的严格术语边界。`concept`｜2026-08-18｜3 来源
 
 ### 可穿戴设备
 
 - [[device/Wireless Dreem Device|Wireless Dreem Device]]：干 EEG 居家实时 N3 检测与慢振荡听觉触发。`device`｜2026-08-17｜1 来源
 - [[device/Portiloop|Portiloop]]：开源、可携带的实时 EEG 事件检测与刺激工程系统。`device`｜2026-08-17｜1 来源
+- [[device/Elemind Neuromodulation Device|Elemind Neuromodulation Device]]：三额区干电极、端侧 α 相位估计与骨传导声音刺激原型。`device`｜2026-08-18｜1 来源
 
 ### 闭环干预词条
 
-- [[intervention/闭环听觉刺激]]：实时脑信号访问、事件/相位检测与声音刺激的闭环范式；疗效证据须单独核验。`intervention`｜2026-08-17｜4 来源
+- [[intervention/闭环听觉刺激]]：实时脑信号访问、事件/相位检测与声音刺激的闭环范式；疗效证据须单独核验。`intervention`｜2026-08-18｜5 来源
 
 ### 专题综述
 
@@ -91,6 +96,8 @@
 - [[review/01-引言-1.2-文献需求单|第 1.2 节文献需求单]]：闭环链路与实时人体睡眠系统的下载任务。`review`｜2026-08-17｜既有检索候选
 - [[review/01-引言-1.2-P1-证据包|第 1.2-P1 证据包]]：监测到调控的链路定义、系统实例与逐句草案核验。`review`｜2026-08-18｜4 份准入来源
 - [[review/01-引言-1.3-文献需求单|第 1.3 节文献需求包]]：闭环系统架构、反馈边界和端到端验证的下载任务。`review`｜2026-08-18｜5 项候选
+- [[review/01-引言-1.3-P1-证据包|第 1.3-P1 证据包]]：闭环系统模块、术语边界、失败保护与逐句草案核验。`review`｜2026-08-18｜7 份准入来源
+- [[review/02-技术基础-2.1-文献需求单|第 2.1 节文献需求单]]：可穿戴传感、PSG 参考、伪影/质量控制与居家可用性的下载任务。`review`｜2026-08-18｜4 项候选
 - [[review/chapters/01-引言|第 1 章：引言]]：疾病需求、范式转变与系统架构。`review`｜2026-08-14｜用户框架
 - [[review/chapters/02-基础理论与核心概念|第 2 章：技术基础]]：实时感知、状态/相位估计与时延。`review`｜2026-08-14｜用户框架
 - [[review/chapters/03-可穿戴睡眠信号采集硬件体系|第 3 章：慢波睡眠闭环干预]]：锁相听觉刺激、生理/功能终点与临床队列。`review`｜2026-08-14｜用户框架

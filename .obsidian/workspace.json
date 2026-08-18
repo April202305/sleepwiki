@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGENTS.md",
+                "file": "wiki/review/01-引言-1.3-P1-证据包.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AGENTS"
+              "title": "01-引言-1.3-P1-证据包"
             }
           }
         ]
@@ -190,41 +190,41 @@
   },
   "active": "a6b05b0f3ce9a23c",
   "lastOpenFiles": [
+    "wiki/review/downloads/mohamed-2023-wearable-eeg-review.pdf",
+    "wiki/review/downloads/pazuelo-2024-in-ear-signal-quality.pdf",
+    "wiki/review/downloads/mascia-2023-parylene-tattoo-eeg.pdf",
+    "wiki/review/downloads/bareket-2016-temporary-tattoo-biopotential.pdf",
+    "wiki/review/downloads/mikkelsen-2019-ear-eeg-whole-night-sleep.pdf",
+    "wiki/review/完整综述大纲.md",
+    "wiki/review/01-引言-1.3-P1-证据包.md",
+    "wiki/review/02-技术基础-2.1-文献需求单.md",
+    "wiki/review/01-引言-1.3-文献需求单.md",
+    "wiki/concept/闭环控制.md",
+    "wiki/device/Elemind Neuromodulation Device.md",
+    "wiki/source-pages/zrenner-2024-closed-loop-brain-stimulation.md",
+    "wiki/source-pages/bergmann-2018-brain-state-dependent-stimulation.md",
+    "wiki/source-pages/bressler-2023-wearable-eeg-closed-loop.md",
+    "raw/inbox/zrenner-2024-closed-loop-brain-stimulation.html",
+    "raw/inbox/bressler-2023-wearable-eeg-closed-loop.pdf",
+    "raw/inbox/bergmann-2018-brain-state-dependent-stimulation.pdf",
+    "wiki/review/downloads/zrenner-2024-closed-loop-brain-stimulation.html",
+    "wiki/review/downloads/bergmann-2018-brain-state-dependent-stimulation.pdf",
+    "wiki/review/downloads/bressler-2023-wearable-eeg-closed-loop.pdf",
+    "AGENTS.md",
     "wiki/source-pages/esfahani-2023-closed-loop-auditory-principles.md",
     "wiki/review/01-引言-1.2-P1-证据包.md",
     "wiki/review/01-引言-1.2-文献需求单.md",
-    "wiki/review/01-引言-1.3-文献需求单.md",
     "wiki/review/01-引言-1.1-P1-证据包.md",
     "wiki/review/双人协作操作手册.md",
     "wiki/concept/实时相位估计.md",
     "wiki/source-pages/ferster-2022-real-time-phase-algorithms.md",
-    "raw/inbox/ferster-2022-benchmarking-real-time-algorithms.pdf",
-    "wiki/review/downloads/ferster-2022-benchmarking-real-time-algorithms.pdf",
-    "wiki/review/downloads/chang-2023-international-consensus-osa.html",
-    "wiki/review/downloads/esfahani-2023-closed-loop-auditory-principles.pdf",
-    "wiki/review/downloads/valenchon-2022-portiloop.pdf",
-    "wiki/review/downloads/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.pdf",
     "wiki/review/睡眠BCI闭环干预综述_逐节写作逻辑大纲 (1).md",
     "plan/task-packets/rewrite-1.1.md",
     "plan/review/evidence-coverage.md",
     "plan/chapter-blueprints/1.1-blueprint.md",
-    "plan/task-packets",
-    "plan/review",
     "plan/project-overview.md",
     "plan/progress.md",
     "plan/evidence-map.md",
-    "plan/chapter-blueprints",
-    "plan",
-    "wiki/concept/睡眠纺锤波.md",
-    "wiki/device/Portiloop.md",
-    "wiki/device/Wireless Dreem Device.md",
-    "wiki/source-pages/schmidig-2024-phase-targeted-sleep-learning.md",
-    "wiki/source-pages/valenchon-2022-portiloop.md",
-    "wiki/source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.md",
-    "wiki/review/文献下载清单.md",
-    "wiki/review/文献检索结果.md",
-    "wiki/concept/REM 睡眠行为障碍.md",
-    "wiki/concept/发作性睡病.md",
-    "wiki/concept/不宁腿综合征.md"
+    "wiki/concept/睡眠纺锤波.md"
   ]
 }

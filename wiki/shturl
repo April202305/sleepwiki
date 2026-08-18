@@ -410,3 +410,37 @@
 - 更新页面：21 个 [[source-pages]] 词条、[[index]] 与 [[shturl]]。
 - 变更：在每个来源词条的“基本信息”加入 `英文原题`，均从当前对应 PDF 首页提取；历史误题录 [[source-pages/schmidig-2024-phase-targeted-sleep-learning]] 因原 PDF 已不存在，明确标为 `待核实`。
 - 来源：用户要求（2026-08-18）与各对应 `raw/inbox/` PDF 首页。
+
+## [2026-08-18] ingest | 第 1.3 节可穿戴系统与闭环术语资料
+
+- 状态：completed
+- 修改页数：15（新建 5，更新 10）
+- 新建页面：[[source-pages/bressler-2023-wearable-eeg-closed-loop]]、[[source-pages/bergmann-2018-brain-state-dependent-stimulation]]、[[source-pages/zrenner-2024-closed-loop-brain-stimulation]]、[[device/Elemind Neuromodulation Device]]、[[concept/闭环控制]]。
+- 更新页面：[[concept/可穿戴 EEG]]、[[concept/实时相位估计]]、[[intervention/闭环听觉刺激]]、[[review/证据矩阵]]、[[review/01-引言-1.3-文献需求单]]、[[review/文献下载清单]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[index]] 与 [[shturl]]。
+- source_id：`raw/inbox/bressler-2023-wearable-eeg-closed-loop.pdf`；`raw/inbox/bergmann-2018-brain-state-dependent-stimulation.pdf`；`raw/inbox/zrenner-2024-closed-loop-brain-stimulation.html`。
+- 变更：Bressler 等（2023）为可穿戴睡眠端到端系统全文，记录其三额区干电极、250 Hz 采样、ecHT 相位估计、骨传导声音输出、全体入睡潜伏期阴性结果及居家数据质量限制。Bergmann（2018）与 Zrenner 和 Ziemann（2024）作为原定 Antony 等（2022）未取得时的通用术语平替，仅用于状态依赖触发、严格反馈闭环及一级/二级更新边界。
+- 双向链接：新增 23 对（新来源页↔设备/概念/干预/综述入口/证据矩阵，以及相应反向关联）。
+- ⚠️限制：两篇通用脑刺激文献不是睡眠人体研究；Bressler 全体可评分样本的入睡潜伏期未见条件差异，且未报告统一端到端总时延。不得将上述内容写为睡眠临床疗效或完整自适应反馈验证。
+- 跳过：20 份既有素材已按 `source_id` 准入，未重复录入。
+- 未修改 `raw/`。
+
+## [2026-08-18] review-plan | 第 2.1 节可穿戴传感与实时信号处理文献需求单
+
+- 状态：pending
+- 修改页数：9（新建 1，更新 8）
+- 新建页面：[[review/02-技术基础-2.1-文献需求单]]。
+- 更新页面：[[review/文献下载清单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[source-pages/de-gans-2024-eeg-wearables-systematic-review]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/bressler-2023-wearable-eeg-closed-loop]]、[[index]] 与 [[shturl]]。
+- 变更：围绕传感形态、PSG 参考、居家接触/伪影与质量控制建立 2 项必需、2 项推荐全文任务；明确排除仅离线分期性能、产品宣传、清醒态或动物研究。
+- 双向链接：新增 7 对（需求单↔章节、已准入来源、下载清单、看板与索引）。
+- 来源：用户指令（2026-08-18）与 [[review/文献检索结果]]。
+
+## [2026-08-18] review-draft | 第 1.3-P1 证据核对与生成
+
+- 状态：completed（待一人确认）
+- 修改页数：14（新建 1，更新 13）
+- 新建页面：[[review/01-引言-1.3-P1-证据包]]。
+- 更新页面：[[review/01-引言-1.3-文献需求单]]、[[review/chapters/01-引言]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[source-pages/valenchon-2022-portiloop]]、[[source-pages/bressler-2023-wearable-eeg-closed-loop]]、[[source-pages/bergmann-2018-brain-state-dependent-stimulation]]、[[source-pages/zrenner-2024-closed-loop-brain-stimulation]]、[[index]] 与 [[shturl]]。
+- 变更：基于 5 篇睡眠架构资料与 2 篇通用脑刺激术语资料，完成全文核对、缺口清单、可写主张表、一个段落草案、核验清单和逐句证据矩阵。
+- 双向链接：新增 12 对（证据包↔章节、需求单、看板、证据矩阵、索引和 7 个来源页）。
+- ⚠️限制：睡眠资料尚未直接验证刺激后输出驱动的参数自适应；严格反馈定义来自非睡眠 EEG-TMS 文献。无统一总时延、误/漏触发或跨系统性能结论。
+- 来源：用户指令（2026-08-18）与 7 份已准入全文。
