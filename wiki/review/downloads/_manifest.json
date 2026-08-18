@@ -820,5 +820,53 @@
     "source": "Europe PMC (PMC10741861)",
     "bytes": 4764920,
     "note": "居家可穿戴 EEG 形态/工程障碍综述（MDPI 金 OA）。作者已核验：Mohamed 等"
+  },
+  {
+    "slug": "patanaik-2018-end-to-end-real-time-sleep-staging",
+    "doi": "10.1093/sleep/zsy041",
+    "pmid": "29590492",
+    "pmcid": "PMC5946920",
+    "dl": "DL-2.2-001",
+    "label": "Patanaik et al. 2018, SLEEP",
+    "title": "An end-to-end framework for real-time automatic sleep stage classification",
+    "authors": [
+      "Patanaik",
+      "Ong",
+      "Gooley",
+      "Ancoli-Israel",
+      "Chee"
+    ],
+    "year": 2018,
+    "journal": "SLEEP",
+    "status": "downloaded",
+    "pdf": "patanaik-2018-end-to-end-real-time-sleep-staging.pdf",
+    "version": "publisher",
+    "source": "Europe PMC (PMC5946920)",
+    "bytes": 12312271,
+    "note": "阶段级实时/因果自动睡眠分期必需。SLEEP 原始研究，端到端实时分期框架。作者已核验：Patanaik 等"
+  },
+  {
+    "slug": "kulkarni-2019-real-time-spindle-detection",
+    "doi": "10.1088/1741-2552/ab0933",
+    "pmid": "30790769",
+    "pmcid": "PMC6527330",
+    "dl": "DL-2.2-002",
+    "label": "Kulkarni et al. 2019, J Neural Eng",
+    "title": "A deep learning approach for real-time detection of sleep spindles",
+    "authors": [
+      "Kulkarni",
+      "Xiao",
+      "Robinson",
+      "Jami",
+      "Zhang"
+    ],
+    "year": 2019,
+    "journal": "Journal of Neural Engineering",
+    "status": "downloaded",
+    "pdf": "kulkarni-2019-real-time-spindle-detection.html",
+    "version": "HTML 全文（PMC 作者稿 NIHMS1023717）",
+    "source": "PubMed Central (PMC6527330) HTML 全文",
+    "bytes": 299738,
+    "note": "事件级在线纺锤波检测（推荐）。IOP 订阅，PMC 作者稿免费；PDF 在 NCBI JS 下载墙后无法自动取，存 HTML 全文。作者已核验：Kulkarni 等"
   }
 ]

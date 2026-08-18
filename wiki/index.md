@@ -30,6 +30,14 @@
 - [[source-pages/bressler-2023-wearable-eeg-closed-loop|Bressler 等（2023）]]：可穿戴 EEG、因果 α 相位估计与骨传导声音输出的居家系统可行性研究。`source`｜2026-08-18｜1 来源
 - [[source-pages/bergmann-2018-brain-state-dependent-stimulation|Bergmann（2018）]]：状态依赖触发与严格反馈闭环的通用术语边界。`source`｜2026-08-18｜1 来源
 - [[source-pages/zrenner-2024-closed-loop-brain-stimulation|Zrenner 与 Ziemann（2024）]]：一级触发和二级参数更新的通用闭环治疗架构。`source`｜2026-08-18｜1 来源
+- [[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep|Mikkelsen 等（2019）]]：干接触耳内 EEG 的 80 次居家整夜记录与 PSG 配对。`source`｜2026-08-18｜1 来源
+- [[source-pages/pazuelo-2024-in-ear-signal-quality|Pazuelo 等（2024）]]：Naox 耳内 EEG 的阻抗、伪影和睡眠信号质量比较。`source`｜2026-08-18｜1 来源
+- [[source-pages/mohamed-2023-wearable-eeg-review|Mohamed 等（2023）]]：居家睡眠可穿戴 EEG 形态与评测维度综述。`source`｜2026-08-18｜1 来源
+- [[source-pages/mascia-2023-parylene-tattoo-eeg|Mascia 等（2023）]]：超薄 Parylene C 纹身电极的清醒态 EEG 原型。`source`｜2026-08-18｜1 来源
+- [[source-pages/bareket-2016-temporary-tattoo-biopotential|Bareket 等（2016）]]：临时纹身干电极的表面肌电与材料背景研究。`source`｜2026-08-18｜1 来源
+- [[source-pages/matthews-2013-cbti-adherence-systematic-review|Matthews 等（2013）]]：成人 CBT-I 退出、依从性及测量异质性的系统综述。`source`｜2026-08-18｜1 来源
+- [[source-pages/koffel-2018-cbti-access-utilization|Koffel 等（2018）]]：CBT-I 系统、临床医生与患者层面的实施和可及性障碍。`source`｜2026-08-18｜1 来源
+- [[source-pages/aziz-2025-wearable-ai-sleep-disorders|Aziz 等（2025）]]：46 项睡眠障碍可穿戴人工智能研究的筛查、诊断与治疗缺口范围综述。`source`｜2026-08-18｜1 来源
 
 ### 模型词条
 
@@ -56,13 +64,13 @@
 - [[concept/跨数据集泛化]]：跨人群、机构、设备与采集协议的直接测试能力。`concept`｜2026-08-11｜2 来源
 - [[concept/可穿戴 EEG]]：头带、眼罩、贴片、耳内 EEG 等非传统 PSG 形态；新增居家干电极接触质量限制。`concept`｜2026-08-18｜4 来源
 - [[concept/PSG 参考标准]]：多导睡眠图作为睡眠评估对照来源与人工评分变异。`concept`｜2026-08-12｜2 来源
-- [[concept/临床验证]]：分期一致性→生理效应→主观终点→安全性/依从性的分层验证体系。`concept`｜2026-08-12｜2 来源
+- [[concept/临床验证]]：分期一致性→生理效应→主观终点→安全性/依从性的分层验证体系。`concept`｜2026-08-18｜5 来源
 - [[concept/领域自适应]]：监督/半监督/无监督适应以应对分布偏移。`concept`｜2026-08-12｜1 来源
 - [[concept/模型压缩与端侧部署]]：量化、剪枝、轻量结构与 NAS 用于可穿戴/IoT 端部署。`concept`｜2026-08-12｜1 来源
 - [[concept/失眠障碍]]：慢性失眠的定义、诊断口径、临床需求与闭环研究边界。`concept`｜2026-08-17｜7 来源
 - [[concept/睡眠障碍疾病负担]]：失眠患病率与受影响人群规模，须保留诊断与地域口径。`concept`｜2026-08-17｜3 来源
-- [[concept/失眠认知行为治疗]]：成人慢性失眠的指南推荐治疗背景（CBT-I）。`concept`｜2026-08-17｜3 来源
-- [[concept/睡眠障碍]]：第 1.1 节采用的疾病导向睡眠障碍范围与分疾病呈现边界。`concept`｜2026-08-17｜1 来源
+- [[concept/失眠认知行为治疗]]：成人慢性失眠的指南推荐、服务可及性与依从性边界。`concept`｜2026-08-18｜5 来源
+- [[concept/睡眠障碍]]：疾病导向睡眠障碍范围及可穿戴人工智能研究边界。`concept`｜2026-08-18｜2 来源
 - [[concept/阻塞性睡眠呼吸暂停]]：OSA 的定义、患病率口径及国家/区域负担边界。`concept`｜2026-08-17｜4 来源
 - [[concept/不宁腿综合征]]：RLS 的诊断标准与全球成人患病率资料。`concept`｜2026-08-17｜2 来源
 - [[concept/发作性睡病]]：当前仅有欧洲疾病负担范围资料的睡眠障碍类别。`concept`｜2026-08-17｜1 来源
@@ -70,12 +78,18 @@
 - [[concept/睡眠纺锤波]]：Portiloop 实时事件检测案例中的睡眠 EEG 事件。`concept`｜2026-08-17｜1 来源
 - [[concept/实时相位估计]]：因果 EEG 相位估计、触发逻辑与时延边界。`concept`｜2026-08-18｜3 来源
 - [[concept/闭环控制]]：状态依赖触发、反馈测量与参数更新的严格术语边界。`concept`｜2026-08-18｜3 来源
+- [[concept/耳内 EEG]]：耳道、耳甲腔或耳周 EEG 的居家睡眠监测形态及质量边界。`concept`｜2026-08-18｜3 来源
+- [[concept/柔性贴附电极]]：纹身等柔性干电极的材料背景；当前缺直接睡眠验证。`concept`｜2026-08-18｜3 来源
+- [[concept/可穿戴人工智能]]：面向睡眠障碍筛查、诊断与预测的可穿戴 AI；治疗应用仍缺直接证据。`concept`｜2026-08-18｜1 来源
 
 ### 可穿戴设备
 
 - [[device/Wireless Dreem Device|Wireless Dreem Device]]：干 EEG 居家实时 N3 检测与慢振荡听觉触发。`device`｜2026-08-17｜1 来源
 - [[device/Portiloop|Portiloop]]：开源、可携带的实时 EEG 事件检测与刺激工程系统。`device`｜2026-08-17｜1 来源
 - [[device/Elemind Neuromodulation Device|Elemind Neuromodulation Device]]：三额区干电极、端侧 α 相位估计与骨传导声音刺激原型。`device`｜2026-08-18｜1 来源
+- [[device/干接触耳内 EEG 系统]]：定制双耳塞、6 电极/耳的居家整夜耳内 EEG 系统。`device`｜2026-08-18｜1 来源
+- [[device/Naox 耳内 EEG 设备]]：250 Hz、24 位采样的移动耳内 EEG 信号质量验证设备。`device`｜2026-08-18｜1 来源
+- [[device/Parylene C 纹身 EEG 系统]]：超薄纹身电极与便携 PCB 的清醒态 EEG 原型。`device`｜2026-08-18｜1 来源
 
 ### 闭环干预词条
 
@@ -92,12 +106,13 @@
 - [[review/综述写作看板|综述写作看板]]：生成—校准协作状态、下一步和修改历史。`review`｜2026-08-17｜用户约束
 - [[review/双人协作操作手册|简化综述协作操作手册]]：以“证据核对与生成 + 单人确认”执行段落写作。`review`｜2026-08-18｜用户约束
 - [[review/文献下载清单|文献下载清单]]：下载代理的唯一交接单，记录候选、版本和准入状态。`review`｜2026-08-17｜用户约束
-- [[review/01-引言-1.1-P1-证据包|第 1.1 节证据包]]：主要睡眠障碍的分疾病负担与失眠 CBT-I 规范治疗定位。`review`｜2026-08-17｜11 份准入来源
+- [[review/01-引言-1.1-P1-证据包|第 1.1 节证据包]]：疾病负担、CBT-I 实施障碍与可穿戴人工智能诊断—治疗缺口。`review`｜2026-08-18｜15 份准入来源
 - [[review/01-引言-1.2-文献需求单|第 1.2 节文献需求单]]：闭环链路与实时人体睡眠系统的下载任务。`review`｜2026-08-17｜既有检索候选
 - [[review/01-引言-1.2-P1-证据包|第 1.2-P1 证据包]]：监测到调控的链路定义、系统实例与逐句草案核验。`review`｜2026-08-18｜4 份准入来源
 - [[review/01-引言-1.3-文献需求单|第 1.3 节文献需求包]]：闭环系统架构、反馈边界和端到端验证的下载任务。`review`｜2026-08-18｜5 项候选
 - [[review/01-引言-1.3-P1-证据包|第 1.3-P1 证据包]]：闭环系统模块、术语边界、失败保护与逐句草案核验。`review`｜2026-08-18｜7 份准入来源
 - [[review/02-技术基础-2.1-文献需求单|第 2.1 节文献需求单]]：可穿戴传感、PSG 参考、伪影/质量控制与居家可用性的下载任务。`review`｜2026-08-18｜4 项候选
+- [[review/02-技术基础-2.2-文献需求单|第 2.2 节文献需求单]]：阶段级实时分期、事件级检测与相位级估计的证据边界及下载任务。`review`｜2026-08-18｜2 项候选
 - [[review/chapters/01-引言|第 1 章：引言]]：疾病需求、范式转变与系统架构。`review`｜2026-08-14｜用户框架
 - [[review/chapters/02-基础理论与核心概念|第 2 章：技术基础]]：实时感知、状态/相位估计与时延。`review`｜2026-08-14｜用户框架
 - [[review/chapters/03-可穿戴睡眠信号采集硬件体系|第 3 章：慢波睡眠闭环干预]]：锁相听觉刺激、生理/功能终点与临床队列。`review`｜2026-08-14｜用户框架

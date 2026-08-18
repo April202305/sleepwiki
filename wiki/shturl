@@ -293,6 +293,17 @@
 - 跳过：4 份已有 `source_id` 的 PDF 未重复录入；`.DS_Store` 为系统文件，未纳入知识库。
 - 未修改 `raw/`。
 
+## [2026-08-18] review-plan | 第 2.2 节实时睡眠分期与瞬时相位估计文献需求单
+
+- 状态：pending
+- 修改页数：10（新建 1，更新 9）
+- 新建页面：[[review/02-技术基础-2.2-文献需求单]]。
+- 更新页面：[[review/文献下载清单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[source-pages/ferster-2022-real-time-phase-algorithms]]、[[source-pages/valenchon-2022-portiloop]]、[[source-pages/bressler-2023-wearable-eeg-closed-loop]]、[[source-pages/esfahani-2023-closed-loop-auditory-principles]]、[[index]] 与 [[shturl]]。
+- 变更：以阶段级状态、事件级检测和相位级估计的严格区分建立 1 项必需、1 项推荐全文任务；既有实时事件/相位资料不替代阶段级因果分期全文。
+- 双向链接：新增 8 对（需求单↔章节、下载清单、看板、索引和 4 个已准入来源）。
+- ⚠️题录中的作者待 PDF 首页核验；候选下载、放入 `raw/inbox/` 并完成 Ingest 前不得进入证据包或正文。
+- 来源：用户指令（2026-08-18）与 [[review/文献检索结果]]。
+
 ## [2026-08-17] review-plan | 第 1.1 节文献需求单
 
 - 状态：pending
@@ -444,3 +455,28 @@
 - 双向链接：新增 12 对（证据包↔章节、需求单、看板、证据矩阵、索引和 7 个来源页）。
 - ⚠️限制：睡眠资料尚未直接验证刺激后输出驱动的参数自适应；严格反馈定义来自非睡眠 EEG-TMS 文献。无统一总时延、误/漏触发或跨系统性能结论。
 - 来源：用户指令（2026-08-18）与 7 份已准入全文。
+
+## [2026-08-18] ingest | 第 2.1 节耳内 EEG 与柔性贴附电极资料
+
+- 状态：completed
+- 修改页数：19（新建 10，更新 9）
+- 新建页面：[[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]、[[source-pages/pazuelo-2024-in-ear-signal-quality]]、[[source-pages/mohamed-2023-wearable-eeg-review]]、[[source-pages/mascia-2023-parylene-tattoo-eeg]]、[[source-pages/bareket-2016-temporary-tattoo-biopotential]]、[[concept/耳内 EEG]]、[[concept/柔性贴附电极]]、[[device/干接触耳内 EEG 系统]]、[[device/Naox 耳内 EEG 设备]]、[[device/Parylene C 纹身 EEG 系统]]。
+- 更新页面：[[concept/可穿戴 EEG]]、[[concept/PSG 参考标准]]、[[review/02-技术基础-2.1-文献需求单]]、[[review/文献下载清单]]、[[review/chapters/02-基础理论与核心概念]]、[[review/综述写作看板]]、[[review/证据矩阵]]、[[index]] 与 [[shturl]]。
+- source_id：`raw/inbox/mikkelsen-2019-ear-eeg-whole-night-sleep.pdf`；`raw/inbox/pazuelo-2024-in-ear-signal-quality.pdf`；`raw/inbox/mohamed-2023-wearable-eeg-review.pdf`；`raw/inbox/mascia-2023-parylene-tattoo-eeg.pdf`；`raw/inbox/bareket-2016-temporary-tattoo-biopotential.pdf`。
+- 变更：准入 3 篇直接支撑第 2.1 节的耳内 EEG/居家睡眠资料；Bareket（2016）为 EMG、Mascia（2023）为清醒态 EEG，均只登记为柔性贴附电极硬件背景。原定 DL-2.1-002（睡眠多模态纹身 EEG/EOG/EMG）全文仍缺，两个背景材料不得替代。
+- 双向链接：新增 36 对（新来源页↔设备/概念/综述入口/证据矩阵，以及相应反向关联）。
+- 跳过：23 份既有素材已按 `source_id` 准入，未重复录入。
+- 未修改 `raw/`。
+
+## [2026-08-18] ingest | 第 1.1 节 CBT-I 实施障碍与可穿戴人工智能转化缺口
+
+- 状态：completed（1.1 v4 待一人确认）
+- 修改页数：15（新建 4，更新 11）
+- 新建页面：[[source-pages/matthews-2013-cbti-adherence-systematic-review]]、[[source-pages/koffel-2018-cbti-access-utilization]]、[[source-pages/aziz-2025-wearable-ai-sleep-disorders]]、[[concept/可穿戴人工智能]]。
+- 更新页面：[[concept/失眠认知行为治疗]]、[[concept/睡眠障碍]]、[[concept/临床验证]]、[[concept/可穿戴 EEG]]、[[review/01-引言-1.1-P1-证据包]]、[[review/chapters/01-引言]]、[[review/chapters/02-基础理论与核心概念]]、[[review/证据矩阵]]、[[review/综述写作看板]]、[[index]] 与 [[shturl]]。
+- source_id：`raw/inbox/依从性不足.pdf`；`raw/inbox/可及性.pdf`；`raw/inbox/第一句.pdf`。
+- 变更：Matthews 等（2013）支持 CBT-I 退出与依从性不足的受限表述；Koffel 等（2018）支持服务和转诊资源可及性障碍；Aziz 等（2025）报告其纳入的 46 项可穿戴人工智能睡眠障碍研究均未用于治疗。1.1 v4 已将无直接证据的“评估与治疗相互割裂”改为受范围综述限定的诊断—治疗转化缺口。
+- 双向链接：新增来源页与 CBT-I、睡眠障碍、临床验证、可穿戴人工智能、章节页及证据矩阵之间的关联与反向链接。
+- ⚠️限制：Koffel 的实施证据受地域和医疗系统限制；Matthews 检索截至 2012 年且依从性测量异质；Aziz 的“无治疗研究”只适用于其检索截止时间与纳入标准，不能外推为全部可穿戴睡眠或闭环干预研究。
+- 跳过：27 份既有素材已按 `source_id`/原始路径准入，未重复录入；`.DS_Store` 不作为素材处理。
+- 未修改 `raw/`。

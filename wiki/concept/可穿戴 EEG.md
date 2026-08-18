@@ -3,7 +3,7 @@ type: concept
 aliases: ["wearable EEG", "mobile EEG", "EEG-based wearable"]
 created: 2026-08-12
 updated: 2026-08-18
-sources: ["[[source-pages/phan-mikkelsen-2022-automatic-sleep-staging]]", "[[source-pages/de-gans-2024-eeg-wearables-systematic-review]]", "[[source-pages/ferster-2022-real-time-phase-algorithms]]", "[[source-pages/bressler-2023-wearable-eeg-closed-loop]]"]
+sources: ["[[source-pages/phan-mikkelsen-2022-automatic-sleep-staging]]", "[[source-pages/de-gans-2024-eeg-wearables-systematic-review]]", "[[source-pages/ferster-2022-real-time-phase-algorithms]]", "[[source-pages/bressler-2023-wearable-eeg-closed-loop]]", "[[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]", "[[source-pages/pazuelo-2024-in-ear-signal-quality]]", "[[source-pages/mohamed-2023-wearable-eeg-review]]", "[[source-pages/mascia-2023-parylene-tattoo-eeg]]"]
 review_sections: ["1", "2", "3", "6", "7", "8"]
 status: active
 review_due: 2027-08-12
@@ -23,6 +23,8 @@ review_due: 2027-08-12
 
 相对 [[concept/PSG 参考标准]] 的验证需注明设备形态、电极类型、通道/导联、同步、自动或人工评分、人群与场景。指标异质时不可直接比较。[[source-pages/de-gans-2024-eeg-wearables-systematic-review|de Gans 等（2024）]]（PDF 第 9–10 页）
 
+耳内与贴附式系统进一步表明，质量控制需进入设备层：Mikkelsen 等报告耳内电极的连接丢失与湿气相关失败，Pazuelo 等以运动/面部伪影条件检验耳内—头皮信号相关；超薄纹身 EEG 目前只完成清醒态验证。[[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]（PDF 第 3–4 页）；[[source-pages/pazuelo-2024-in-ear-signal-quality]]（PDF 第 6–8 页）；[[source-pages/mascia-2023-parylene-tattoo-eeg]]（PDF 第 1、7–8 页）
+
 ## 相关模型与数据集
 - [[model/AttnSleep]]、[[model/SingleChannelNet]]
 - [[dataset/Sleep-EDF]]、[[dataset/SHHS]]
@@ -33,12 +35,17 @@ review_due: 2027-08-12
 - ⚠️ 干/湿电极、单/双通道、具体导联与接触质量必须由原始设备研究单独记录；两篇综述不足以作统一结论。
 - ⚠️Ferster 等的 Fpz–M2 单导联系统可支持特定实时相位算法基准，但不能由此推断所有可穿戴 EEG 均具备相同触发精度或闭环能力。[[source-pages/ferster-2022-real-time-phase-algorithms]]（PDF 第 2、7 页）
 - ⚠️Bressler 等的三额区干电极原型在居家研究中约 30% 数据集没有可用 EEG，且未测量电极阻抗；这提示接触质量会直接限制闭环运行，不能由少数可评分记录概括所有可穿戴设备。[[source-pages/bressler-2023-wearable-eeg-closed-loop]]（PDF 第 5、13–14 页）
+- ⚠️Mikkelsen 等的干接触耳内 EEG、Pazuelo 等的 Naox 设备和 Bressler 等的额区头带在人群、导联、参考标准、质量指标和任务上不同；不能以 κ、相关性、可用数据比例或主观舒适性构建统一性能排行。[[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]（PDF 第 1、3–7 页）；[[source-pages/pazuelo-2024-in-ear-signal-quality]]（PDF 第 1、9–12 页）
 
 ## 来源
 - [[source-pages/phan-mikkelsen-2022-automatic-sleep-staging|Phan 和 Mikkelsen（2022）]]
 - [[source-pages/de-gans-2024-eeg-wearables-systematic-review|de Gans 等（2024）]]
 - [[source-pages/ferster-2022-real-time-phase-algorithms|Ferster 等（2022）]]
 - [[source-pages/bressler-2023-wearable-eeg-closed-loop|Bressler 等（2023）]]
+- [[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep|Mikkelsen 等（2019）]]
+- [[source-pages/pazuelo-2024-in-ear-signal-quality|Pazuelo 等（2024）]]
+- [[source-pages/mohamed-2023-wearable-eeg-review|Mohamed 等（2023）]]
+- [[source-pages/mascia-2023-parylene-tattoo-eeg|Mascia 等（2023）]]
 
 ## 综述关联
 - [[review/chapters/02-基础理论与核心概念]]、[[review/chapters/03-可穿戴睡眠信号采集硬件体系]]、[[review/chapters/06-现有研究对比]]
@@ -47,3 +54,6 @@ review_due: 2027-08-12
 - [[concept/实时相位估计]]
 - [[concept/闭环控制]]
 - [[device/Elemind Neuromodulation Device]]
+- [[device/干接触耳内 EEG 系统]]、[[device/Naox 耳内 EEG 设备]]、[[device/Parylene C 纹身 EEG 系统]]
+- [[concept/耳内 EEG]]、[[concept/柔性贴附电极]]
+- [[concept/可穿戴人工智能]]
