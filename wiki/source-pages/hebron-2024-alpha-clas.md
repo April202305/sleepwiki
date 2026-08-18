@@ -1,0 +1,39 @@
+---
+type: source
+aliases: ["Hebron 2024", "alpha CLAS"]
+created: 2026-08-18
+updated: 2026-08-18
+sources: ["raw/inbox/hebron-2024-alpha-clas.pdf"]
+review_sections: ["4.1"]
+status: active
+review_due: 2027-08-18
+---
+
+# Hebron 等（2024）：alpha 闭环听觉刺激与入睡动力学
+
+## 基本信息
+- 类型：多实验人体机制研究
+- 原始文件：`raw/inbox/hebron-2024-alpha-clas.pdf`
+- source_id：`raw/inbox/hebron-2024-alpha-clas.pdf`
+- 作者/年份：Henry Hebron 等；2024
+- 英文原题：A closed-loop auditory stimulation approach selectively modulates alpha oscillations and sleep onset dynamics in humans
+- DOI：10.1371/journal.pbio.3002651
+- review_sections：["4.1"]
+
+## 核心摘要
+
+研究以端点校正 Hilbert 变换实时估计 alpha 相位，显示声音对 alpha 功率、频率和连接的影响依赖相位、振幅与拓扑。入睡实验中，特定相位刺激反而形成更“浅”的睡眠表现，包括 N2+ 减少与 N2+ 潜伏期延长。[[device/Elemind Neuromodulation Device]]（PDF 第 1–2、19–23 页，Figure 6）
+
+## 方法与发现
+- 结果说明 alpha 相位刺激方向很重要；不能把“相位锁定”本身等同于促进入睡。
+- 本文为机制与参数研究，不是慢性失眠治疗试验。
+
+## 关联词条
+- 设备：[[device/Elemind Neuromodulation Device]]
+- 综述：[[review/04-全周期-4.1-文献需求单]]、[[review/04-全周期-4.1-P1-证据包]]、[[review/证据矩阵]]
+
+## 局限与待核实
+- ⚠️多个实验的对象与任务不同；入睡实验结果不能与清醒 alpha 实验混为同一终点。
+
+## 来源
+- `raw/inbox/hebron-2024-alpha-clas.pdf`

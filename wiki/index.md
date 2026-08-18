@@ -175,4 +175,16 @@
 
 ## 使用说明
 
+### 2026-08-18 新增闭环证据批次
+
+- [[review/新增素材证据闭合与补充清单-2026-08-18]]：本轮按小标题记录放行、受限放行与缺失全文。`review`｜2026-08-18｜2 个索引来源
+- [[review/04-全周期-4.1-P1-证据包]]、[[review/04-全周期-4.2-P1-证据包]]：入睡期与纺锤波闭环证据稿。`review`｜2026-08-18｜各 3 个来源
+- [[review/05-系统形态-5.2-P1-证据包]]、[[review/05-系统形态-5.4-P1-证据包]]：闭环电刺激与一体化系统证据稿。`review`｜2026-08-18｜3/2 个来源
+- [[review/06-挑战展望-6.3-P1-证据包]]、[[review/06-挑战展望-6.4-P1-证据包]]、[[review/06-挑战展望-6.5-P1-证据包]]：实时性、安全性与真实世界评测证据稿。`review`｜2026-08-18｜3/2/2 个来源
+- [[source-pages/besedovsky-2017-auditory-clas-immune]]、[[source-pages/aksamaz-2023-clas-memory-ripple]]、[[source-pages/henin-2019-clas-oscillations-not-memory]]、[[source-pages/papalambros-2019-acoustic-mci]]、[[source-pages/vandenbulcke-2023-acoustic-ad-jcsm]]：第 3 章新增来源。`source`｜2026-08-18｜各 1 个原始来源
+- [[source-pages/hebron-2024-alpha-clas]]、[[source-pages/bressler-2024-alpha-phase-insomnia-rct]]、[[source-pages/lustenberger-2016-feedback-tacs-spindle]]、[[source-pages/sobral-2025-continual-learning-spindle]]、[[source-pages/jaramillo-2024-alpha-theta-rem-clas]]、[[source-pages/horowitz-2023-dream-incubation-creativity]]、[[source-pages/pathak-2021-looping-lullaby]]：第 4 章新增来源。`source`｜2026-08-18｜各 1 个原始来源
+- [[source-pages/ketz-2018-closed-loop-tacs-memory-generalization]]、[[source-pages/jones-2018-dose-dependent-tacs]]、[[source-pages/lafon-2017-tes-no-entrain]]、[[source-pages/danilenko-2020-visual-vs-acoustic]]、[[source-pages/dozer-2023-closed-loop-wearables]]、[[source-pages/nguyen-2023-wearable-sleep-aid]]：第 5 章新增来源。`source`｜2026-08-18｜各 1 个原始来源
+- [[source-pages/schneider-2020-clas-susceptibility-age]]、[[source-pages/lustenberger-2022-clas-older-adults-home]]、[[source-pages/kjaer-2022-ear-eeg-repeated-scoring]]、[[source-pages/markov-2025-wearable-eeg-meta-analysis]]：第 6 章新增来源。`source`｜2026-08-18｜各 1 个原始来源
+- [[concept/轻度认知障碍]]、[[concept/阿尔茨海默病]]、[[intervention/闭环经颅交流电刺激]]、[[device/Dozer]]、[[device/Earable]]、[[device/耳内 EEG]]：本轮新增实体词条。`concept/intervention/device`｜2026-08-18｜来源数见页面
+
 原始素材请放入 `raw/` 对应子目录；AI 将把可验证的知识整理至本目录。无法确定归属或需人工确认的内容放入 `pending/`。
