@@ -8,21 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2b5d03b3adf29dbc",
+            "id": "1fb7150c848a439a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/review/01-引言-1.2-P1-证据包.md",
+                "file": "wiki/review/02-技术基础-2.1-P1-证据包.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-引言-1.1-P1-证据包"
+              "title": "02-技术基础-2.1-P1-证据包"
             }
           },
           {
-            "id": "07aaeec5b7292d82",
+            "id": "177d0f9375dbc145",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/review/综述正文草案.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "综述正文草案"
+            }
+          },
+          {
+            "id": "f128ab7ee6e7ac6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,20 +47,6 @@
               },
               "icon": "lucide-file",
               "title": "完整综述大纲"
-            }
-          },
-          {
-            "id": "27257f2a6d0bd65d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/review/文献搜索策略_新版.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "文献搜索策略_新版"
             }
           }
         ]
@@ -111,8 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "71547053785a1fca",
@@ -217,79 +216,43 @@
       "bases:新建数据库": false
     }
   },
-  "active": "2b5d03b3adf29dbc",
+  "active": "1fb7150c848a439a",
   "lastOpenFiles": [
-    "wiki/review/双人协作操作手册.md",
-    "wiki/review/01-引言-1.2-P1-证据包.md",
-    "wiki/review/01-引言-1.1-P1-证据包.md",
-    "wiki/concept/实时相位估计.md",
-    "wiki/source-pages/ferster-2022-real-time-phase-algorithms.md",
-    "wiki/source-pages/esfahani-2023-closed-loop-auditory-principles.md",
-    "raw/inbox/ferster-2022-benchmarking-real-time-algorithms.pdf",
-    "wiki/review/downloads/ferster-2022-benchmarking-real-time-algorithms.pdf",
-    "wiki/review/downloads/chang-2023-international-consensus-osa.html",
+    "wiki/source-pages/santostasi-2015-pll-acoustic-stimulation.md",
+    "wiki/source-pages/ngo-2015-self-limiting-auditory-closed-loop.md",
+    "wiki/source-pages/navarrete-2019-optimal-timing-closed-loop.md",
+    "wiki/source-pages/debellemaniere-2022-optimising-sounds.md",
+    "wiki/review/全章节文献需求总览.md",
+    "wiki/review/06-挑战展望-6.5-文献需求单.md",
+    "wiki/review/06-挑战展望-6.4-文献需求单.md",
+    "wiki/review/06-挑战展望-6.3-文献需求单.md",
+    "wiki/review/06-挑战展望-6.2-文献需求单.md",
+    "wiki/review/06-挑战展望-6.1-文献需求单.md",
+    "wiki/review/05-系统形态-5.4-文献需求单.md",
+    "wiki/review/05-系统形态-5.3-文献需求单.md",
+    "wiki/review/05-系统形态-5.2-文献需求单.md",
+    "wiki/review/05-系统形态-5.1-文献需求单.md",
+    "wiki/review/04-全周期-4.5-文献需求单.md",
+    "wiki/review/04-全周期-4.4-文献需求单.md",
+    "wiki/review/04-全周期-4.3-文献需求单.md",
+    "wiki/review/04-全周期-4.2-文献需求单.md",
+    "wiki/review/04-全周期-4.1-文献需求单.md",
+    "wiki/review/03-慢波干预-3.4-文献需求单.md",
+    "wiki/review/03-慢波干预-3.3-文献需求单.md",
+    "wiki/review/03-慢波干预-3.2-文献需求单.md",
+    "wiki/review/03-慢波干预-3.1-文献需求单.md",
+    "wiki/review/03-慢波干预-3.1-P1-证据包.md",
+    "wiki/review/01-引言-1.4-文献需求单.md",
+    "wiki/review/01-引言-1.1-文献需求单.md",
+    "wiki/review/downloads/patanaik-2018-end-to-end-real-time-sleep-staging.pdf",
+    "wiki/review/downloads/kulkarni-2019-real-time-spindle-detection.html",
     "wiki/review/downloads/esfahani-2023-closed-loop-auditory-principles.pdf",
     "wiki/review/downloads/valenchon-2022-portiloop.pdf",
+    "wiki/review/downloads/ferster-2022-benchmarking-real-time-algorithms.pdf",
     "wiki/review/downloads/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.pdf",
-    "wiki/review/睡眠BCI闭环干预综述_逐节写作逻辑大纲 (1).md",
-    "plan/task-packets/rewrite-1.1.md",
-    "plan/review/evidence-coverage.md",
-    "plan/chapter-blueprints/1.1-blueprint.md",
-    "plan/task-packets",
-    "plan/review",
-    "plan/project-overview.md",
-    "plan/progress.md",
-    "plan/evidence-map.md",
-    "plan/chapter-blueprints",
-    "plan",
-    "wiki/concept/睡眠纺锤波.md",
-    "wiki/device/Portiloop.md",
-    "wiki/device/Wireless Dreem Device.md",
-    "wiki/source-pages/schmidig-2024-phase-targeted-sleep-learning.md",
-    "wiki/source-pages/valenchon-2022-portiloop.md",
-    "wiki/source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.md",
-    "wiki/review/文献下载清单.md",
-    "wiki/review/文献检索结果.md",
-    "wiki/review/01-引言-1.2-文献需求单.md",
-    "wiki/concept/REM 睡眠行为障碍.md",
-    "wiki/concept/发作性睡病.md",
-    "wiki/concept/不宁腿综合征.md",
-    "wiki/concept/阻塞性睡眠呼吸暂停.md",
-    "wiki/review/完整综述大纲.md",
-    "wiki/review/01-引言-1.1-P1-证据包.md",
-    "wiki/review/文献搜索策略_新版.md",
-    "wiki/review/分段综述写作规则与工作流.md",
-    "wiki/review/01-引言-1.2-文献需求单.md",
-    "wiki/source-pages/valenchon-2022-portiloop.md",
-    "wiki/source-pages/schmidig-2024-phase-targeted-sleep-learning.md",
-    "wiki/source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.md",
-    "wiki/device/Wireless Dreem Device.md",
-    "wiki/device/Portiloop.md",
+    "wiki/review/downloads/chang-2023-international-consensus-osa.html",
     "wiki/device",
-    "wiki/concept/睡眠纺锤波.md",
-    "wiki/review/文献检索结果.md",
-    "wiki/review/睡眠BCI闭环干预综述_逐节写作逻辑大纲 (1).md",
-    "plan/progress.md",
-    "plan/task-packets/rewrite-1.1.md",
-    "plan/review/evidence-coverage.md",
-    "plan/chapter-blueprints/1.1-blueprint.md",
-    "plan/evidence-map.md",
-    "plan/project-overview.md",
     "plan/task-packets",
-    "plan/review",
-    "plan/chapter-blueprints",
-    "plan",
-    "wiki/review/未确认 714076.crdownload",
-    "wiki/concept/REM 睡眠行为障碍.md",
-    "wiki/concept/发作性睡病.md",
-    "wiki/concept/不宁腿综合征.md",
-    "wiki/concept/阻塞性睡眠呼吸暂停.md",
-    "wiki/concept/睡眠障碍.md",
-    "wiki/source-pages/song-2024-global-rls-prevalence.md",
-    "wiki/source-pages/niu-2025-china-osa-prevalence.md",
-    "raw/inbox/song-2024-global-rls-prevalence.pdf",
-    "raw/inbox/niu-2025-china-osa-prevalence.pdf",
-    "raw/inbox/franklin-2015-osa-epidemiology-review.pdf",
-    "raw/inbox/borsoi-2022-osa-cost-of-illness.pdf"
+    "plan/review"
   ]
 }
