@@ -17,6 +17,7 @@ review_due: 2027-08-17
 - 原始文件：`raw/inbox/esfahani-2023-closed-loop-auditory-principles.pdf`
 - source_id：`raw/inbox/esfahani-2023-closed-loop-auditory-principles.pdf`
 - 作者/年份：Mahdad Jafarzadeh Esfahani 等；2023
+- 英文原题：Closed-loop auditory stimulation of sleep slow oscillations: Basic principles and best practices
 - DOI：10.1016/j.neubiorev.2023.105379
 - review_sections：["1.2", "2.2", "2.3", "3.1", "6.3", "6.4"]
 
@@ -36,7 +37,7 @@ review_due: 2027-08-17
 
 - 概念：[[concept/实时相位估计]]、[[concept/可穿戴 EEG]]
 - 干预：[[intervention/闭环听觉刺激]]
-- 综述：[[review/chapters/01-引言]]、[[review/01-引言-1.2-文献需求单]]、[[review/01-引言-1.2-P1-证据包]]、[[review/证据矩阵]]
+- 综述：[[review/chapters/01-引言]]、[[review/01-引言-1.2-文献需求单]]、[[review/01-引言-1.2-P1-证据包]]、[[review/01-引言-1.3-文献需求单]]、[[review/证据矩阵]]
 
 ## ⚠️局限与待核实
 

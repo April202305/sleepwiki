@@ -2,7 +2,7 @@
 type: source
 aliases: ["Dudysová 2024", "closed-loop insomnia pilot"]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-18
 sources: ["raw/inbox/jsr-2024-closed-loop-insomnia-pilot.pdf"]
 review_sections: ["1", "3"]
 status: active
@@ -18,6 +18,7 @@ review_due: 2027-08-17
 - source_id：`raw/inbox/jsr-2024-closed-loop-insomnia-pilot.pdf`
 - 作者/机构：Daniela Dudysová 等
 - 年份：2024
+- 英文原题：Closed-loop auditory stimulation of slow-wave sleep in chronic insomnia: a pilot study
 - DOI：10.1111/jsr.14179
 - 录入日期：2026-08-17
 - review_sections：["1", "3"]

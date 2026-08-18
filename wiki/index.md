@@ -6,27 +6,27 @@
 
 ### 原始资料摘要
 
-- [[source-pages/eldele-2021-attention-based-single-channel-eeg|Eldele 等（2021）]]：AttnSleep 的架构、数据集与实验摘要。`source`｜2026-08-11｜1 来源
-- [[source-pages/zhou-2022-singlechannelnet|Zhou 等（2022）]]：SingleChannelNet 的上下文输入与跨数据集评估摘要。`source`｜2026-08-11｜1 来源
-- [[source-pages/phan-mikkelsen-2022-automatic-sleep-staging|Phan 和 Mikkelsen（2022）]]：EEG 自动睡眠分期的进展、挑战与未来方向综述。`source`｜2026-08-12｜1 来源
-- [[source-pages/de-gans-2024-eeg-wearables-systematic-review|de Gans 等（2024）]]：EEG 可穿戴设备睡眠评估系统综述（60 篇论文、34 种设备）。`source`｜2026-08-12｜1 来源
-- [[source-pages/benjafield-2025-global-insomnia-burden|Benjafield 等（2025）]]：基于 18 项研究的全球失眠患病率与负担估计。`source`｜2026-08-17｜1 来源
-- [[source-pages/van-straten-2025-insomnia-prevalence-meta|van Straten 等（2025）]]：一般人群失眠障碍患病率 Meta 分析。`source`｜2026-08-17｜1 来源
-- [[source-pages/cao-2017-insomnia-prevalence-china|Cao 等（2017）]]：中国一般人群失眠患病率 Meta 分析。`source`｜2026-08-17｜1 来源
-- [[source-pages/riemann-2017-european-insomnia-guideline|Riemann 等（2017）]]：欧洲成人慢性失眠诊断与治疗指南。`source`｜2026-08-17｜1 来源
-- [[source-pages/edinger-2021-aasm-behavioral-insomnia|Edinger 等（2021）]]：AASM 成人慢性失眠行为与心理治疗指南。`source`｜2026-08-17｜1 来源
-- [[source-pages/schutte-rodin-2008-aasm-insomnia-guideline|Schutte-Rodin 等（2008）]]：AASM 成人慢性失眠评估与管理历史性指南。`source`｜2026-08-17｜1 来源
-- [[source-pages/dudysova-2024-closed-loop-insomnia-pilot|Dudysová 等（2024）]]：慢性失眠患者中的闭环听觉刺激试点研究。`source`｜2026-08-17｜1 来源
-- [[source-pages/bassetti-2026-sleep-disorders-europe-burden|Bassetti 等（2026）]]：欧洲 5 类主要睡眠障碍的流行病学与经济负担。`source`｜2026-08-17｜1 来源
-- [[source-pages/borsoi-2022-osa-cost-of-illness|Borsoi 等（2022）]]：意大利 OSA 的社会视角成本—疾病分析。`source`｜2026-08-17｜1 来源
-- [[source-pages/franklin-2015-osa-epidemiology-review|Franklin 和 Lindberg（2015）]]：OSA 流行病学与诊断口径综述。`source`｜2026-08-17｜1 来源
-- [[source-pages/niu-2025-china-osa-prevalence|Niu 等（2025）]]：中国 OSA 患病率的多层次 Meta 分析。`source`｜2026-08-17｜1 来源
-- [[source-pages/song-2024-global-rls-prevalence|Song 等（2024）]]：成人 RLS 的全球与区域患病率模型化分析。`source`｜2026-08-17｜1 来源
-- [[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop|Debellemaniere 等（2018）]]：居家干 EEG 的实时 N3 检测与闭环听觉刺激。`source`｜2026-08-17｜1 来源
-- [[source-pages/valenchon-2022-portiloop|Valenchon 等（2022）]]：Portiloop 的实时 EEG 事件检测与闭环工程实现。`source`｜2026-08-17｜1 来源
-- [[source-pages/schmidig-2024-phase-targeted-sleep-learning|Schmidig 等（2024）]]：慢波期相靶向词汇刺激；文件与下载题录不符。`source`｜2026-08-17｜1 来源
-- [[source-pages/esfahani-2023-closed-loop-auditory-principles|Esfahani 等（2023）]]：闭环听觉刺激慢振荡的基本原理、链路与实施建议。`source`｜2026-08-17｜1 来源
-- [[source-pages/ferster-2022-real-time-phase-algorithms|Ferster 等（2022）]]：可穿戴 EEG 慢波实时相位算法基准（绿色 OA 预印本）。`source`｜2026-08-17｜1 来源
+- [[source-pages/eldele-2021-attention-based-single-channel-eeg|Eldele 等（2021）]]：AttnSleep 的架构、数据集与实验摘要。`source`｜2026-08-18｜1 来源
+- [[source-pages/zhou-2022-singlechannelnet|Zhou 等（2022）]]：SingleChannelNet 的上下文输入与跨数据集评估摘要。`source`｜2026-08-18｜1 来源
+- [[source-pages/phan-mikkelsen-2022-automatic-sleep-staging|Phan 和 Mikkelsen（2022）]]：EEG 自动睡眠分期的进展、挑战与未来方向综述。`source`｜2026-08-18｜1 来源
+- [[source-pages/de-gans-2024-eeg-wearables-systematic-review|de Gans 等（2024）]]：EEG 可穿戴设备睡眠评估系统综述（60 篇论文、34 种设备）。`source`｜2026-08-18｜1 来源
+- [[source-pages/benjafield-2025-global-insomnia-burden|Benjafield 等（2025）]]：基于 18 项研究的全球失眠患病率与负担估计。`source`｜2026-08-18｜1 来源
+- [[source-pages/van-straten-2025-insomnia-prevalence-meta|van Straten 等（2025）]]：一般人群失眠障碍患病率 Meta 分析。`source`｜2026-08-18｜1 来源
+- [[source-pages/cao-2017-insomnia-prevalence-china|Cao 等（2017）]]：中国一般人群失眠患病率 Meta 分析。`source`｜2026-08-18｜1 来源
+- [[source-pages/riemann-2017-european-insomnia-guideline|Riemann 等（2017）]]：欧洲成人慢性失眠诊断与治疗指南。`source`｜2026-08-18｜1 来源
+- [[source-pages/edinger-2021-aasm-behavioral-insomnia|Edinger 等（2021）]]：AASM 成人慢性失眠行为与心理治疗指南。`source`｜2026-08-18｜1 来源
+- [[source-pages/schutte-rodin-2008-aasm-insomnia-guideline|Schutte-Rodin 等（2008）]]：AASM 成人慢性失眠评估与管理历史性指南。`source`｜2026-08-18｜1 来源
+- [[source-pages/dudysova-2024-closed-loop-insomnia-pilot|Dudysová 等（2024）]]：慢性失眠患者中的闭环听觉刺激试点研究。`source`｜2026-08-18｜1 来源
+- [[source-pages/bassetti-2026-sleep-disorders-europe-burden|Bassetti 等（2026）]]：欧洲 5 类主要睡眠障碍的流行病学与经济负担。`source`｜2026-08-18｜1 来源
+- [[source-pages/borsoi-2022-osa-cost-of-illness|Borsoi 等（2022）]]：意大利 OSA 的社会视角成本—疾病分析。`source`｜2026-08-18｜1 来源
+- [[source-pages/franklin-2015-osa-epidemiology-review|Franklin 和 Lindberg（2015）]]：OSA 流行病学与诊断口径综述。`source`｜2026-08-18｜1 来源
+- [[source-pages/niu-2025-china-osa-prevalence|Niu 等（2025）]]：中国 OSA 患病率的多层次 Meta 分析。`source`｜2026-08-18｜1 来源
+- [[source-pages/song-2024-global-rls-prevalence|Song 等（2024）]]：成人 RLS 的全球与区域患病率模型化分析。`source`｜2026-08-18｜1 来源
+- [[source-pages/debellemaniere-2018-ambulatory-dry-eeg-closed-loop|Debellemaniere 等（2018）]]：居家干 EEG 的实时 N3 检测与闭环听觉刺激。`source`｜2026-08-18｜1 来源
+- [[source-pages/valenchon-2022-portiloop|Valenchon 等（2022）]]：Portiloop 的实时 EEG 事件检测与闭环工程实现。`source`｜2026-08-18｜1 来源
+- [[source-pages/schmidig-2024-phase-targeted-sleep-learning|Schmidig 等（2024）]]：慢波期相靶向词汇刺激；文件与下载题录不符。`source`｜2026-08-18｜1 来源
+- [[source-pages/esfahani-2023-closed-loop-auditory-principles|Esfahani 等（2023）]]：闭环听觉刺激慢振荡的基本原理、链路与实施建议。`source`｜2026-08-18｜1 来源
+- [[source-pages/ferster-2022-real-time-phase-algorithms|Ferster 等（2022）]]：可穿戴 EEG 慢波实时相位算法基准（绿色 OA 预印本）。`source`｜2026-08-18｜1 来源
 
 ### 模型词条
 
@@ -90,6 +90,7 @@
 - [[review/01-引言-1.1-P1-证据包|第 1.1 节证据包]]：主要睡眠障碍的分疾病负担与失眠 CBT-I 规范治疗定位。`review`｜2026-08-17｜11 份准入来源
 - [[review/01-引言-1.2-文献需求单|第 1.2 节文献需求单]]：闭环链路与实时人体睡眠系统的下载任务。`review`｜2026-08-17｜既有检索候选
 - [[review/01-引言-1.2-P1-证据包|第 1.2-P1 证据包]]：监测到调控的链路定义、系统实例与逐句草案核验。`review`｜2026-08-18｜4 份准入来源
+- [[review/01-引言-1.3-文献需求单|第 1.3 节文献需求包]]：闭环系统架构、反馈边界和端到端验证的下载任务。`review`｜2026-08-18｜5 项候选
 - [[review/chapters/01-引言|第 1 章：引言]]：疾病需求、范式转变与系统架构。`review`｜2026-08-14｜用户框架
 - [[review/chapters/02-基础理论与核心概念|第 2 章：技术基础]]：实时感知、状态/相位估计与时延。`review`｜2026-08-14｜用户框架
 - [[review/chapters/03-可穿戴睡眠信号采集硬件体系|第 3 章：慢波睡眠闭环干预]]：锁相听觉刺激、生理/功能终点与临床队列。`review`｜2026-08-14｜用户框架

@@ -2,7 +2,7 @@
 type: source
 aliases: ["Franklin 2015", "OSA epidemiology review"]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-18
 sources: ["raw/inbox/franklin-2015-osa-epidemiology-review.pdf"]
 review_sections: ["1.1"]
 status: active
@@ -18,6 +18,7 @@ review_due: 2027-08-17
 - source_id：`raw/inbox/franklin-2015-osa-epidemiology-review.pdf`
 - 作者/机构：Karl A. Franklin、Eva Lindberg
 - 年份：2015
+- 英文原题：Obstructive sleep apnea is a common disorder in the population—a review on the epidemiology of sleep apnea
 - DOI：10.3978/j.issn.2072-1439.2015.06.11
 - review_sections：["1.1"]
 

@@ -2,7 +2,7 @@
 type: source
 aliases: ["Eldele 2021", "AttnSleep paper"]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-08-18
 sources: ["raw/inbox/Eldele 等 - 2021 - An Attention-Based Deep Learning Approach for Sleep Stage Classification With Single-Channel EEG.pdf"]
 status: active
 review_due: 2027-08-11
@@ -16,6 +16,7 @@ review_due: 2027-08-11
 - source_id：`raw/inbox/Eldele 等 - 2021 - An Attention-Based Deep Learning Approach for Sleep Stage Classification With Single-Channel EEG.pdf`
 - 作者/机构：Emadeldeen Eldele 等
 - 年份：2021
+- 英文原题：An Attention-Based Deep Learning Approach for Sleep Stage Classification With Single-Channel EEG
 - DOI：10.1109/TNSRE.2021.3076234
 - 录入日期：2026-08-11
 

@@ -16,6 +16,7 @@ review_due: 2027-08-17
 - 原始文件：`raw/inbox/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.pdf`
 - source_id：`raw/inbox/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.pdf`
 - DOI：10.3389/fnhum.2018.00088
+- 英文原题：Performance of an Ambulatory Dry-EEG Device for Auditory Closed-Loop Stimulation of Sleep Slow Oscillations in the Home Environment
 - review_sections：["1.2", "3.1"]
 
 ## 核心摘要
@@ -28,7 +29,7 @@ review_due: 2027-08-17
 ## 关联词条
 - 设备：[[device/Wireless Dreem Device]]
 - 干预：[[intervention/闭环听觉刺激]]
-- 综述：[[review/chapters/01-引言]]、[[review/01-引言-1.2-文献需求单]]、[[review/01-引言-1.2-P1-证据包]]、[[review/证据矩阵]]
+- 综述：[[review/chapters/01-引言]]、[[review/01-引言-1.2-文献需求单]]、[[review/01-引言-1.2-P1-证据包]]、[[review/01-引言-1.3-文献需求单]]、[[review/证据矩阵]]
 
 ## ⚠️局限与待核实
 - ⚠️总时延、误/漏触发和刺激剂量的完整拆分仍须在阶段 3 从全文逐项提取。

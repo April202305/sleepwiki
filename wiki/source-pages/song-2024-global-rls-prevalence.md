@@ -2,7 +2,7 @@
 type: source
 aliases: ["Song 2024", "global RLS prevalence"]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-18
 sources: ["raw/inbox/song-2024-global-rls-prevalence.pdf"]
 review_sections: ["1.1"]
 status: active
@@ -18,6 +18,7 @@ review_due: 2027-08-17
 - source_id：`raw/inbox/song-2024-global-rls-prevalence.pdf`
 - 作者/机构：Peige Song 等
 - 年份：2024
+- 英文原题：The global and regional prevalence of restless legs syndrome among adults: A systematic review and modelling analysis
 - DOI：10.7189/jogh.14.04113
 - review_sections：["1.1"]
 

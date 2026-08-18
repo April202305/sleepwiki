@@ -2,7 +2,7 @@
 type: source
 aliases: ["Schutte-Rodin 2008", "AASM chronic insomnia guideline"]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-18
 sources: ["raw/inbox/schutte-rodin-2008-aasm-insomnia-guideline.pdf"]
 review_sections: ["1"]
 status: active
@@ -18,6 +18,7 @@ review_due: 2027-08-17
 - source_id：`raw/inbox/schutte-rodin-2008-aasm-insomnia-guideline.pdf`
 - 作者/机构：Sharon Schutte-Rodin 等；American Academy of Sleep Medicine
 - 年份：2008
+- 英文原题：Clinical Guideline for the Evaluation and Management of Chronic Insomnia in Adults
 - 录入日期：2026-08-17
 - review_sections：["1"]
 

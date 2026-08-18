@@ -2,7 +2,7 @@
 type: source
 aliases: ["van Straten 2025", "insomnia prevalence meta-analysis"]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-18
 sources: ["raw/inbox/vanstraten-2025-insomnia-prevalence-meta.pdf"]
 review_sections: ["1"]
 status: active
@@ -18,6 +18,7 @@ review_due: 2027-08-17
 - source_id：`raw/inbox/vanstraten-2025-insomnia-prevalence-meta.pdf`
 - 作者/机构：Annemieke van Straten 等
 - 年份：2025
+- 英文原题：The Prevalence of Insomnia Disorder in the General Population: A Meta-Analysis
 - DOI：10.1111/jsr.70089
 - 录入日期：2026-08-17
 - review_sections：["1"]

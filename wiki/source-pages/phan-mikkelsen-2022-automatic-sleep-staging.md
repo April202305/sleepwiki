@@ -2,7 +2,7 @@
 type: source
 aliases: ["Phan & Mikkelsen 2022"]
 created: 2026-08-12
-updated: 2026-08-12
+updated: 2026-08-18
 sources: ["raw/inbox/Phan和Mikkelsen - 2022 - Automatic sleep staging of EEG signals recent development, challenges, and future directions.pdf"]
 review_sections: ["1", "2", "4", "6", "7", "8"]
 status: active
@@ -17,6 +17,7 @@ review_due: 2027-08-12
 - source_id：`raw/inbox/Phan和Mikkelsen - 2022 - Automatic sleep staging of EEG signals recent development, challenges, and future directions.pdf`
 - 作者/机构：Huy Phan、Kaare Mikkelsen
 - 年份：2022
+- 英文原题：Automatic Sleep Staging of EEG Signals: Recent Development, Challenges, and Future Directions
 - 录入日期：2026-08-12
 - review_sections：["1", "2", "4", "6", "7", "8"]
 

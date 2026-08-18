@@ -2,7 +2,7 @@
 type: source
 aliases: ["Cao 2017", "China insomnia prevalence meta-analysis"]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-18
 sources: ["raw/inbox/cao-2017-insomnia-prevalence-china.pdf"]
 review_sections: ["1"]
 status: active
@@ -18,6 +18,7 @@ review_due: 2027-08-17
 - source_id：`raw/inbox/cao-2017-insomnia-prevalence-china.pdf`
 - 作者/机构：Xiao-Lan Cao 等
 - 年份：2017
+- 英文原题：The prevalence of insomnia in the general population in China: A meta-analysis
 - DOI：10.1371/journal.pone.0170772
 - 录入日期：2026-08-17
 - review_sections：["1"]

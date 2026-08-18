@@ -2,7 +2,7 @@
 type: source
 aliases: ["Edinger 2021", "AASM behavioral insomnia guideline"]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-18
 sources: ["raw/inbox/edinger-2021-aasm-behavioral-insomnia.pdf"]
 review_sections: ["1"]
 status: active
@@ -18,6 +18,7 @@ review_due: 2027-08-17
 - source_id：`raw/inbox/edinger-2021-aasm-behavioral-insomnia.pdf`
 - 作者/机构：Jack D. Edinger 等；American Academy of Sleep Medicine
 - 年份：2021
+- 英文原题：Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline
 - DOI：10.5664/jcsm.8986
 - 录入日期：2026-08-17
 - review_sections：["1"]

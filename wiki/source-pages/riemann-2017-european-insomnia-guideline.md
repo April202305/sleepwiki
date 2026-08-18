@@ -2,7 +2,7 @@
 type: source
 aliases: ["Riemann 2017", "European insomnia guideline"]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-18
 sources: ["raw/inbox/Journal of Sleep Research - 2017 - Riemann - European guideline for the diagnosis and treatment of insomnia.pdf"]
 review_sections: ["1"]
 status: active
@@ -18,6 +18,7 @@ review_due: 2027-08-17
 - source_id：`raw/inbox/Journal of Sleep Research - 2017 - Riemann - European guideline for the diagnosis and treatment of insomnia.pdf`
 - 作者/机构：Dieter Riemann 等；European Sleep Research Society 工作组
 - 年份：2017
+- 英文原题：European guideline for the diagnosis and treatment of insomnia
 - DOI：10.1111/jsr.12594
 - 录入日期：2026-08-17
 - review_sections：["1"]

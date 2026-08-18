@@ -2,7 +2,7 @@
 type: source
 aliases: ["Borsoi 2022", "Italy OSA cost-of-illness"]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-18
 sources: ["raw/inbox/borsoi-2022-osa-cost-of-illness.pdf"]
 review_sections: ["1.1"]
 status: active
@@ -18,6 +18,7 @@ review_due: 2027-08-17
 - source_id：`raw/inbox/borsoi-2022-osa-cost-of-illness.pdf`
 - 作者/机构：Ludovica Borsoi 等
 - 年份：2022
+- 英文原题：The invisible costs of obstructive sleep apnea (OSA): Systematic review and cost-of-illness analysis
 - DOI：10.1371/journal.pone.0268677
 - review_sections：["1.1"]
 

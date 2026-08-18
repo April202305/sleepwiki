@@ -2,7 +2,7 @@
 type: source
 aliases: ["Benjafield 2025", "global insomnia burden"]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-18
 sources: ["raw/inbox/benjafield-2025-global-insomnia-burden.pdf"]
 review_sections: ["1"]
 status: active
@@ -18,6 +18,7 @@ review_due: 2027-08-17
 - source_id：`raw/inbox/benjafield-2025-global-insomnia-burden.pdf`
 - 作者/机构：Adam V. Benjafield 等，medXcloud group
 - 年份：2025
+- 英文原题：Estimation of the global prevalence and burden of insomnia: a systematic literature review-based analysis
 - DOI：10.1016/j.smrv.2025.102121
 - 录入日期：2026-08-17
 - review_sections：["1"]

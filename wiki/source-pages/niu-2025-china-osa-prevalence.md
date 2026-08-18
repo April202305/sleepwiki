@@ -2,7 +2,7 @@
 type: source
 aliases: ["Niu 2025", "China OSA prevalence meta-analysis"]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-18
 sources: ["raw/inbox/niu-2025-china-osa-prevalence.pdf"]
 review_sections: ["1.1"]
 status: active
@@ -18,6 +18,7 @@ review_due: 2027-08-17
 - source_id：`raw/inbox/niu-2025-china-osa-prevalence.pdf`
 - 作者/机构：Yuqi Niu 等
 - 年份：2025
+- 英文原题：Spatiotemporal Trends in the Prevalence of Obstructive Sleep Apnoea Across China: A Multilevel Meta-Analysis Incorporating Geographic and Demographic Stratification (2000–2024)
 - DOI：10.2147/NSS.S525547
 - review_sections：["1.1"]
 

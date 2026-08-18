@@ -2,7 +2,7 @@
 type: source
 aliases: ["Zhou 2022", "SCNet paper"]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-08-18
 sources: ["raw/inbox/Zhou 等 - 2022 - SingleChannelNet A model for automatic sleep stage classification with raw single-channel EEG.pdf"]
 status: active
 review_due: 2027-08-11
@@ -16,6 +16,7 @@ review_due: 2027-08-11
 - source_id：`raw/inbox/Zhou 等 - 2022 - SingleChannelNet A model for automatic sleep stage classification with raw single-channel EEG.pdf`
 - 作者/机构：Dongdong Zhou 等
 - 年份：2022
+- 英文原题：SingleChannelNet: A model for automatic sleep stage classification with raw single-channel EEG
 - DOI：10.1016/j.bspc.2022.103592
 - 录入日期：2026-08-11
 

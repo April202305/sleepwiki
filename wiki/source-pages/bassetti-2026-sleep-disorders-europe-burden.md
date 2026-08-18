@@ -2,7 +2,7 @@
 type: source
 aliases: ["Bassetti 2026", "欧洲睡眠障碍负担"]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-18
 sources: ["raw/inbox/bassetti-2026-sleep-disorders-europe-burden.pdf"]
 review_sections: ["1.1"]
 status: active
@@ -18,6 +18,7 @@ review_due: 2027-08-17
 - source_id：`raw/inbox/bassetti-2026-sleep-disorders-europe-burden.pdf`
 - 作者/机构：Claudio L. A. Bassetti 等
 - 年份：2026
+- 英文原题：Epidemiology and Economic Burden of Sleep Disorders in Europe
 - DOI：10.1111/ene.70463
 - 录入日期：2026-08-17
 - review_sections：["1.1"]

@@ -2,7 +2,7 @@
 type: source
 aliases: ["Schmidig 2024", "phase-targeted sleep learning"]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-18
 sources: ["历史录入文件：曾位于 raw/inbox/esfahani-2023-closed-loop-auditory-principles.pdf；该路径现已替换为 Esfahani 等（2023）正确全文，原 Schmidig 文件无法复核"]
 review_sections: []
 status: superseded
@@ -16,6 +16,7 @@ review_due: 2027-08-17
 - 原始文件：原文件曾位于 `raw/inbox/esfahani-2023-closed-loop-auditory-principles.pdf`，现已被用户以正确的 Esfahani 等（2023）全文替换
 - source_id：`historical-mismatch/esfahani-2023-closed-loop-auditory-principles.pdf`
 - 作者/年份：此前记录为 Flavio J. Schmidig 等；版本记录于 2024-04-25，当前无法由 `raw/` 复核
+- 英文原题：待核实（历史记录为：Episodic long-term memory formation during slow-wave sleep）
 - DOI：10.7554/eLife.89601（历史记录）
 - review_sections：[]
 
