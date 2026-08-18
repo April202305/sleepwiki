@@ -180,6 +180,15 @@
 
 ### 2026-08-18 新增闭环证据批次
 
+- [[source-pages/clark-2024-clas-language-discovery-learning]]、[[source-pages/harlow-2023-memory-acoustic-stimulation-meta-review]]、[[source-pages/jourde-2026-so-spindle-stimulation]]、[[source-pages/kwon-2024-closed-loop-vibration-poor-sleepers]]、[[source-pages/baldassarri-2026-clas-memory-ecological]]、[[source-pages/radke-2024-transfer-learning-sleep-staging]]：四次排查新增 OA 平替来源。`source`｜2026-08-18｜各 1 个原始来源
+- [[intervention/闭环振动刺激]]：以生理状态触发的振动睡眠调节范式。`intervention`｜2026-08-18｜1 个来源
+- [[review/证据包/03-慢波干预-3.3-P1-证据包]]、[[review/证据包/05-系统形态-5.1-P1-证据包]]、[[review/证据包/05-系统形态-5.3-P1-证据包]]、[[review/证据包/06-挑战展望-6.1-P1-证据包]]：原缺证据章节的新证据稿。`review`｜2026-08-18｜来源数见页面
+
+- [[concept/域偏移]]：训练与测试人群、设备和数据构成差异导致的模型性能变化。`concept`｜2026-08-18｜1 个来源
+
+- [[source-pages/navarrete-2022-ongoing-oscillations-outcome]]、[[source-pages/thamizhmani-2024-acoustic-stimulation-ad-scoping-review]]、[[source-pages/zeller-2024-multi-night-acoustic-cognitive-impairment]]、[[source-pages/jung-2025-automated-rem-detection-rbd]]、[[source-pages/wijesinghe-2025-real-time-sleep-staging-lightweight]]、[[source-pages/haar-horowitz-2020-dormio]]、[[source-pages/canton-2026-wearable-staging-personalization]]：本轮新增下载素材来源页。`source`｜2026-08-18｜各 1 个原始来源
+- [[review/证据包/03-慢波干预-3.2-P1-证据包]]、[[review/证据包/03-慢波干预-3.4-P1-证据包]]、[[review/证据包/04-全周期-4.3-P1-证据包]]、[[review/证据包/04-全周期-4.4-P1-证据包]]、[[review/证据包/04-全周期-4.5-P1-证据包]]、[[review/证据包/06-挑战展望-6.2-P1-证据包]]：新增待确认/受限证据包。`review`｜2026-08-18｜来源数见页面
+
 - [[review/文献清单/新增素材证据闭合与补充清单-2026-08-18]]：本轮按小标题记录放行、受限放行与缺失全文。`review`｜2026-08-18｜2 个索引来源
 - [[review/证据包/04-全周期-4.1-P1-证据包]]、[[review/证据包/04-全周期-4.2-P1-证据包]]：入睡期与纺锤波闭环证据稿。`review`｜2026-08-18｜各 3 个来源
 - [[review/证据包/05-系统形态-5.2-P1-证据包]]、[[review/证据包/05-系统形态-5.4-P1-证据包]]：闭环电刺激与一体化系统证据稿。`review`｜2026-08-18｜3/2 个来源
