@@ -552,3 +552,24 @@
 - 核心边界：Portiloop 的约 314 ms 总值含估计的 250±100 ms 可变检测延迟；Hassan 的 5–15 ms 为接口延迟；Piorecky 的 350 ms 为预设间隔；Ferster 居家夜未播放声音；Patanaik 的 <5 ms 为局部计算耗时。上述字段不得互换或形成跨系统排行。
 - ⚠️缺口：统一时钟下采集至声音抵达的完整分段、总时延、抖动及同协议人体在线误/漏触发与停止条件仍未取得；草案不据此声称满足统一实时标准，也不推断刺激疗效。
 - 未修改 `raw/`。
+
+## [2026-08-18] review-update | 1.2-P1 开放环与闭环时机引用
+
+- 状态：completed（`1.2-P1 v1` 仍待确认）
+- 修改页数：9（新建 1，更新 8）
+- 新建页面：[[source-pages/weigenand-2016-open-loop-timing]]。
+- 更新页面：[[review/01-引言-1.2-P1-证据包]]、[[review/chapters/01-引言]]、[[review/证据矩阵]]、[[concept/闭环控制]]、[[concept/实时相位估计]]、[[intervention/闭环听觉刺激]]、[[index]] 与 [[shturl]]。
+- source_id：`user-file:/Users/april/Desktop/Eur J of Neuroscience - 2016 - Weigenand - Timing matters  open‐loop stimulation does not improve overnight consolidation.pdf`。
+- 变更：将 1.2 v1 的开放环表述限定为“从随机慢振荡相位启动、随后按预设间隔递送刺激”，新增 Weigenand 等（2016）原文定位、主张 C6 与逐句矩阵 S6。
+- ⚠️边界：该研究为开放环与假刺激交叉实验，并非开放环—闭环头对头比较；只用于界定刺激时机机制，不据阴性记忆结果断言闭环疗效更优。
+- 未移动或修改用户提供的工作区外 PDF；未修改 `raw/`。
+
+## [2026-08-18] ingest-update | Weigenand 2016 inbox 稳定索引
+
+- 状态：completed
+- 修改页数：3（更新 3）
+- 更新页面：[[source-pages/weigenand-2016-open-loop-timing]]、[[review/文献下载清单]] 与 [[shturl]]。
+- source_id：`raw/inbox/Eur J of Neuroscience - 2016 - Weigenand - Timing matters  open‐loop stimulation does not improve overnight consolidation.pdf`。
+- 变更：确认 inbox PDF 为 12 页出版社版、题名与 DOI 一致；将来源页由工作区外临时路径切换至稳定 `raw/inbox` 路径，并在第 1.2 节下载清单登记为 `DL-1.2-006`、状态 `已准入`。
+- 索引核对：[[review/01-引言-1.2-P1-证据包]]、[[review/chapters/01-引言]]、[[review/证据矩阵]]、[[concept/闭环控制]]、[[concept/实时相位估计]]、[[intervention/闭环听觉刺激]] 与 [[index]] 已存在双向入口，无需重复新增页面。
+- 未修改 `raw/`。

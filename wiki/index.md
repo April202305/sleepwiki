@@ -41,6 +41,7 @@
 - [[source-pages/patanaik-2018-end-to-end-real-time-sleep-staging|Patanaik 等（2018）]]：四组 PSG 队列上的阶段级在线自动睡眠分期及因果性限制。`source`｜2026-08-18｜1 来源
 - [[source-pages/kulkarni-2019-real-time-spindle-detection|Kulkarni 等（2019）]]：SpindleNet 单通道 EEG 在线纺锤波检测、执行时间与检测延迟。`source`｜2026-08-18｜1 来源
 - [[source-pages/ferster-2019-mobile-closed-loop-acoustic|Ferster 等（2019）]]：移动系统的居家慢波相位/NREM 触发精度及总时延缺口。`source`｜2026-08-18｜1 来源
+- [[source-pages/weigenand-2016-open-loop-timing|Weigenand 等（2016）]]：随机初始相位、预设序列间隔的开放环声刺激及其证据边界。`source`｜2026-08-18｜1 来源
 - [[source-pages/hassan-2022-real-time-spindle-detection|Hassan 等（2022）]]：RTSD 预录 EEG 实时回放、检测指标及 5–15 ms 局部延迟。`source`｜2026-08-18｜1 来源
 - [[source-pages/sun-2023-fpga-sleep-modulation|Sun 等（2023）]]：FPGA 睡眠分期、相位声刺激台架系统与吞吐量边界。`source`｜2026-08-18｜1 来源
 - [[source-pages/piorecky-2021-real-time-slow-oscillation|Piorecky 等（2021）]]：固定步长与 PLL 慢波声刺激时点比较。`source`｜2026-08-18｜1 来源
