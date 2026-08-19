@@ -24,6 +24,8 @@ review_due: 2027-08-11
 
 ## 已关联模型
 - [[model/AttnSleep|AttnSleep]]
+- [[model/Hong 置信度选择性睡眠分期框架]]
+- [[model/Micro SleepNet]]
 
 ## 数据质量、偏差与局限
 
@@ -31,6 +33,8 @@ review_due: 2027-08-11
 
 ## 来源
 - [[source-pages/eldele-2021-attention-based-single-channel-eeg|Eldele 等（2021）]]
+- [[source-pages/hong-2021-confidence-based-scoring]]
+- [[source-pages/liu-2023-micro-sleepnet]]
 
 ## 综述关联
 - [[review/证据矩阵|证据矩阵]]

@@ -51,6 +51,7 @@ review_due: 2027-08-12
 - [[source-pages/tabar-2021-ear-eeg-sleep-assessment|Tabar 等（2021）]]
 - [[source-pages/shustak-2019-temporary-tattoo-sleep-monitoring|Shustak 等（2019）]]
 - [[source-pages/melo-2024-single-channel-eeg-actigraphy|Melo 等（2024）]]
+- [[source-pages/hsieh-2021-eyemask-real-time-staging]]
 
 ## 综述关联
 - [[review/chapters/02-基础理论与核心概念]]、[[review/chapters/03-可穿戴睡眠信号采集硬件体系]]、[[review/chapters/06-现有研究对比]]

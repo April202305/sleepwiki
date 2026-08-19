@@ -6,6 +6,37 @@
 
 ### 原始资料摘要
 
+- [[source-pages/park-2025-distillsleep|Park等（2025）]]：DistillSleep单导EEG端侧实时分期。`source`｜2026-08-19｜1来源
+- [[source-pages/esparza-iaizzo-2026-real-time-scoring|Esparza-Iaizzo等（2026）]]：OSA与非OSA人群实时自动睡眠评分。`source`｜2026-08-19｜1来源
+- [[source-pages/supratak-2020-tinysleepnet|Supratak和Guo（2020）]]：TinySleepNet轻量单导EEG分期。`source`｜2026-08-19｜1来源
+- [[source-pages/danker-hopfe-2009-rk-aasm-reliability|Danker-Hopfe等（2009）]]：R&K与AASM评分者一致性。`source`｜2026-08-19｜1来源
+- [[source-pages/danker-hopfe-2004-eight-labs-reliability|Danker-Hopfe等（2004）]]：八个欧洲实验室跨评分者一致性。`source`｜2026-08-19｜1来源
+- [[source-pages/van-der-donckt-2023-traditional-ml|Van Der Donckt等（2023）]]：传统机器学习与深度学习标准化benchmark。`source`｜2026-08-19｜1来源
+- [[source-pages/warby-2014-spindle-benchmark|Warby等（2014）]]：纺锤波专家共识与自动检测统一benchmark。`source`｜2026-08-19｜1来源
+- [[source-pages/zrenner-2020-real-time-eeg-tms-phase|Zrenner等（2020）]]：实时EEG相位预测触发TMS的邻近方法证据。`source`｜2026-08-19｜1来源
+- [[source-pages/zhu-2024-swsleepnet-online-calibration|Zhu等（2024）]]：SwSleepNet短片段在线预测与上下文重判。`source`｜2026-08-19｜1来源
+- [[source-pages/heremans-2024-upass|Heremans等（2024）]]：U-PASS不确定性引导人机协作分期。`source`｜2026-08-19｜1来源
+- [[source-pages/fan-2020-eeg-augmentation-imbalance|Fan等（2020）]]：EEG增强与睡眠阶段类别不平衡。`source`｜2026-08-19｜1来源
+- [[source-pages/fiorillo-2021-deepsleepnet-lite|Fiorillo等（2021）]]：DeepSleepNet-Lite与MC dropout不确定性。`source`｜2026-08-19｜1来源
+- [[source-pages/berry-2015-aasm-v2-2-updates|Berry等（2015）]]：AASM评分手册Version 2.2更新说明。`source`｜2026-08-19｜1来源
+- [[source-pages/van-gorp-2022-uncertainty-framework|van Gorp等（2022）]]：睡眠分期偶然与认知不确定性框架。`source`｜2026-08-19｜1来源
+- [[source-pages/jin-2021-hybrid-attention-staging|金峥等（2021）]]：混合注意力时序网络睡眠分期。`source`｜2026-08-19｜1来源
+- [[source-pages/liang-2022-wkcnn-lstm|梁进等（2022）]]：WKCNN-LSTM单导EEG识别与重采样。`source`｜2026-08-19｜1来源
+- [[source-pages/li-2023-arousal-detection|李凡等（2023）]]：多尺度卷积与自注意力觉醒检测。`source`｜2026-08-19｜1来源
+- [[source-pages/liu-2023-psg-bigru-attention|刘颖等（2023）]]：临床多导PSG BiGRU注意力分期。`source`｜2026-08-19｜1来源
+- [[source-pages/gao-2023-psd-random-forest|高群霞和吴凯（2023）]]：PSD与随机森林五分类。`source`｜2026-08-19｜1来源
+- [[source-pages/tian-2023-transfer-sdresnet|田蕴郅等（2023）]]：迁移学习随机深度ResNet分期。`source`｜2026-08-19｜1来源
+- [[source-pages/zhang-2023-single-channel-dcnn-bilstm|章浩伟等（2023）]]：单导DCNN-BiLSTM分期。`source`｜2026-08-19｜1来源
+- [[source-pages/hu-2024-mtff-net|胡凯蕾等（2024）]]：多模态时频特征MTFF-Net。`source`｜2026-08-19｜1来源
+- [[source-pages/wu-2023-dual-channel-online-staging|吴礼祝等（2023）]]：双通道EEG在线实时睡眠分期系统。`source`｜2026-08-19｜1来源
+- [[source-pages/jin-2025-physiological-signal-staging-review|金峥等（2025）]]：生理电信号自动睡眠分期算法中文综述。`source`｜2026-08-19｜1来源
+- [[source-pages/kang-2024-wireless-wearable-eeg-system|康富豪等（2024）]]：无线可穿戴EEG睡眠监测系统。`source`｜2026-08-19｜1来源
+- [[source-pages/bresch-2018-real-time-rnn-staging|Bresch 等（2018）]]：单通道EEG因果CNN-LSTM、按受试者验证与跨库泛化。`source`｜2026-08-19｜1 来源
+- [[source-pages/hsieh-2021-eyemask-real-time-staging|Hsieh 等（2021）]]：EEG/EOG眼罩、BLE和移动端实时四分类链路。`source`｜2026-08-19｜1 来源
+- [[source-pages/gao-2023-domain-adversarial-staging|Gao 等（2023）]]：跨数据集无监督域适应单通道EEG分期。`source`｜2026-08-19｜1 来源
+- [[source-pages/hong-2021-confidence-based-scoring|Hong 等（2021）]]：EEG选择性分期、拒绝输出与人工复核。`source`｜2026-08-19｜1 来源
+- [[source-pages/liu-2023-micro-sleepnet|Liu 等（2023）]]：Micro SleepNet轻量EEG分期与Android推理实测。`source`｜2026-08-19｜1 来源
+- [[source-pages/nam-2024-insightsleepnet|Nam 等（2024）]]：PPG因果上下文和能量阈值拒绝的邻近技术证据。`source`｜2026-08-19｜1 来源
 - [[source-pages/tabar-2021-ear-eeg-sleep-assessment|Tabar 等（2021）]]：三种 ear-EEG 参考配置与同步 PSG 的整夜分期比较。`source`｜2026-08-19｜1 来源
 - [[source-pages/shustak-2019-temporary-tattoo-sleep-monitoring|Shustak 等（2019）]]：临时纹身 EEG/EOG/EMG 阵列的医院与居家睡眠可行性。`source`｜2026-08-19｜1 来源
 - [[source-pages/melo-2024-single-channel-eeg-actigraphy|Melo 等（2024）]]：单通道 EEG 头带联合腕部体动的分期验证及 N1 边际增益。`source`｜2026-08-19｜1 来源
@@ -56,6 +87,18 @@
 
 ### 模型词条
 
+- [[model/DistillSleep]]：知识蒸馏单导EEG端侧分期模型。`model`｜2026-08-19｜1来源
+- [[model/Esparza-Iaizzo 实时睡眠评分模型]]：OSA与非OSA人群实时评分模型。`model`｜2026-08-19｜1来源
+- [[model/TinySleepNet]]：轻量CNN与时序单导EEG分期模型。`model`｜2026-08-19｜2来源
+- [[model/SwSleepNet]]：离线序列分期与短片段在线重判模型。`model`｜2026-08-19｜1来源
+- [[model/U-PASS]]：不确定性引导人机协作分期流程。`model`｜2026-08-19｜1来源
+- [[model/DeepSleepNet-Lite]]：90 s单导EEG与MC dropout不确定性模型。`model`｜2026-08-19｜1来源
+- [[model/Bresch 因果 CNN-LSTM 睡眠分期模型]]：约9万参数的单向CNN-LSTM逐epoch分期模型。`model`｜2026-08-19｜1 来源
+- [[model/Hsieh MobileNetV2 睡眠分期模型]]：眼罩特征经BLE送至移动端的四分类模型。`model`｜2026-08-19｜1 来源
+- [[model/TDSAN]]：域对抗与域自注意力跨数据集分期模型。`model`｜2026-08-19｜1 来源
+- [[model/Hong 置信度选择性睡眠分期框架]]：分类、置信度、拒绝与人工复核框架。`model`｜2026-08-19｜1 来源
+- [[model/Micro SleepNet]]：面向手机端的轻量单epoch EEG分期模型。`model`｜2026-08-19｜1 来源
+- [[model/InsightSleepNet]]：连续PPG因果上下文与能量阈值拒绝模型。`model`｜2026-08-19｜1 来源
 - [[model/Melo 单通道 EEG-体动睡眠分期模型]]：18 特征与 bagged decision trees 的五分类模型。`model`｜2026-08-19｜1 来源
 - [[model/AttnSleep|AttnSleep]]：多分辨率 CNN、特征重校准与注意力时序编码。`model`｜2026-08-11｜1 来源
 - [[model/SingleChannelNet|SingleChannelNet]]：基于 90 秒原始单通道 EEG 输入的深层 CNN。`model`｜2026-08-11｜1 来源
@@ -73,6 +116,7 @@
 
 ### 数据集词条
 
+- [[dataset/SIESTA]]：294名受试者、588夜PSG的R&K共识评分数据库。`dataset`｜2026-08-19｜1 来源
 - [[dataset/Sleep-EDF|Sleep-EDF]]：文献中使用最广的 Sleep Cassette/扩展版本（Fpz-Cz, 100 Hz）。`dataset`｜2026-08-11｜3 来源
 - [[dataset/SHHS|SHHS]]：多中心队列，Eldele 等按 AHI<5 筛选 329 人用于实验。`dataset`｜2026-08-11｜2 来源
 - [[dataset/CCSHS|CCSHS]]：Zhou 等使用的 515 名儿童睡眠队列（C4/A1, 128 Hz）。`dataset`｜2026-08-11｜1 来源
@@ -82,6 +126,7 @@
 
 ### 概念词条
 
+- [[concept/不确定性与拒绝输出]]：区分概率校准、错误排序、选择性拒绝和人工复核。`concept`｜2026-08-19｜2 来源
 - [[concept/多模态融合]]：EEG、EOG、EMG 与体动等模态的任务特异融合和边际增益。`concept`｜2026-08-19｜2 来源
 - [[concept/睡眠分期]]：离线与在线自动睡眠阶段分类任务及其状态级输出边界。`concept`｜2026-08-18｜4 来源
 - [[concept/单通道 EEG]]：单导联 EEG 输入设置（Fpz-Cz、C4-A1 等）。`concept`｜2026-08-11｜3 来源
@@ -111,6 +156,7 @@
 
 ### 可穿戴设备
 
+- [[device/Hsieh EEG-EOG 眼罩移动分期系统]]：额部EEG/EOG眼罩、边缘特征提取、BLE与移动端分期。`device`｜2026-08-19｜1 来源
 - [[device/临时纹身多模态睡眠电极阵列]]：4 EEG、2 EOG、2 sEMG 的柔性无线贴附式阵列。`device`｜2026-08-19｜1 来源
 - [[device/MHSL-SB]]：8 通道、250 Hz 的移动睡眠 EEG 与实时触发研究系统。`device`｜2026-08-18｜1 来源
 
@@ -147,6 +193,7 @@
 - [[review/证据包/02-技术基础-2.1-P1-证据包|第 2.1-P1 证据包]]：头带/干 EEG 与耳内 EEG 的质量控制、居家限制、受限草案及逐句矩阵。`review`｜2026-08-18｜6 份准入来源
 - [[review/文献清单/02-技术基础-2.2-文献需求单|第 2.2 节文献需求单]]：阶段级实时分期、事件级检测与相位级估计的证据边界；两份新增全文已准入。`review`｜2026-08-18｜6 份准入来源
 - [[review/证据包/02-技术基础-2.2-P1-证据包|第 2.2-P1 证据包]]：阶段、事件、相位三层在线输出的因果边界、受限草案及逐句矩阵。`review`｜2026-08-18｜6 份准入来源
+- [[review/文献清单/02-技术基础-2.2-算法功能链补充文献需求包]]：2.2 功能链重构所需的14–16篇新增全文、质量分级、统一提取字段及放行条件。`review`｜2026-08-19｜现有需求单、证据包与总矩阵
 - [[review/文献清单/02-技术基础-2.3-文献需求单|第 2.3 节文献需求单]]：端到端时延、触发精度及误/漏触发的字段规范与 5 项下载任务。`review`｜2026-08-18｜7 份准入背景来源
 - [[review/证据包/02-技术基础-2.3-P1-证据包|第 2.3-P1 证据包]]：阶段、事件与相位层级的时延口径、触发精度、受限草案及逐句矩阵。`review`｜2026-08-18｜8 份准入来源
 - [[review/文献清单/03-慢波干预-3.1-文献需求单|第 3.1 节文献需求单]]：锁相听觉刺激从开放环到相位/响应依赖控制的证据需求与 6 项下载任务。`review`｜2026-08-18｜6 份准入背景来源
@@ -190,6 +237,9 @@
 - [[review/综述正文v3草案-2.2至6.5]]：依逐节写作逻辑大纲扩写并完成分节字数核验的 2.2–6.5 待确认 v3。`review`｜2026-08-18｜全部相关证据包
 - [[review/综述正文v4草案-2.2至6.5]]：吸收 v3 下载批次全文、更新证据包后生成的 2.2–6.5 待确认 v4。`review`｜2026-08-19｜全部相关证据包
 - [[review/综述正文v5草案-2.2至6.5]]：继承 v4 全部要求，并实施研究主归属、跨章节去重和邻近技术证据分层的待确认草案。`review`｜2026-08-19｜总矩阵、24 个证据包与归属控制表
+- [[review/2.2正式证据池与统一算法比较表]]：34 篇正式证据及输入、标签、上下文、因果性、划分、逐类指标、不确定性和资源统一比较。`review`｜2026-08-19｜34 份来源
+- [[review/2.2逐句证据审计与放行报告]]：2.2 的 21 项拟写主张、不可比边界、保留缺口和放行结论。`review`｜2026-08-19｜正式证据池与来源页
+- [[review/综述正文v6草案-2.2至6.5]]：完整继承 v5，并按算法功能链重构 2.2 的待确认草案。`review`｜2026-08-19｜34 篇正式证据池、审计报告与 v5
 - [[review/研究主归属与跨章节重复控制表]]：登记 87 项研究的主归属章节、证据角色及高频跨章研究的允许保留信息。`review`｜2026-08-19｜总证据矩阵与 v4 引用位置
 
 - [[review/文献清单/README|文献清单目录]]：按章节集中管理全部文献需求、下载登记和补充清单。`review`｜2026-08-18｜2 个索引来源

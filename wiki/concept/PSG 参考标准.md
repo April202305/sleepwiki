@@ -34,6 +34,10 @@ PSG 为 [[concept/可穿戴 EEG]] 和自动 [[concept/睡眠分期]] 提供标�
 - ⚠️ 相对 PSG 的分期一致性不是闭环触发正确性、生理效应或临床获益的替代指标。
 
 ## 来源
+- [[source-pages/danker-hopfe-2009-rk-aasm-reliability]]
+- [[source-pages/danker-hopfe-2004-eight-labs-reliability]]
+- [[source-pages/berry-2015-aasm-v2-2-updates]]
+- [[source-pages/van-gorp-2022-uncertainty-framework]]
 - [[source-pages/phan-mikkelsen-2022-automatic-sleep-staging|Phan 和 Mikkelsen（2022）]]
 - [[source-pages/de-gans-2024-eeg-wearables-systematic-review|de Gans 等（2024）]]
 - [[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep|Mikkelsen 等（2019）]]

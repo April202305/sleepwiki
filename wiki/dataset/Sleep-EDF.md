@@ -34,6 +34,7 @@ review_due: 2027-08-11
 ## 来源
 - [[source-pages/eldele-2021-attention-based-single-channel-eeg|Eldele 等（2021）]]
 - [[source-pages/zhou-2022-singlechannelnet|Zhou 等（2022）]]
+- [[source-pages/liu-2023-micro-sleepnet]]
 
 ## 综述关联
 - [[review/证据矩阵|证据矩阵]]
