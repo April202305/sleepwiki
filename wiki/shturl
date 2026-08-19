@@ -674,6 +674,16 @@
 - ⚠️限制：Ngo 2013 经典成对声音原始全文和耳内 EEG 闭环全文仍缺；不重建缺失协议，不比较生理/认知/临床疗效，不作跨系统最佳算法、声音或相位排名。
 - 未修改 `raw/`。
 
+## [2026-08-19] ingest + review-draft | v3 缺口批次与 v4 草案
+
+- 状态：completed（v4 待用户确认）
+- 新建页面：17（10 个来源页、3 个模型页、1 个设备页、2 个干预页、1 个 v4 草案）。
+- 更新页面：22（3 个既有模型、6 个概念页、8 个证据包、[[review/证据矩阵]]、[[review/文献清单/文献下载清单]]、[[review/文献清单/新增素材证据闭合与补充清单-2026-08-18]]、[[index]]、[[shturl]]）。
+- source_id：`raw/inbox/mousavi-2019-sleepeegnet.pdf`；`raw/inbox/phan-2019-seqsleepnet.pdf`；`raw/inbox/phan-2022-sleeptransformer.pdf`；`raw/inbox/flexsleeptransformer-2024-sci-rep.pdf`；`raw/inbox/mikkelsen-2019-ear-eeg-ml-staging.pdf`；`raw/inbox/multisess-2025-ssm-staging.pdf`；`raw/inbox/zhang-2026-mamba-wearable-staging.pdf`；`raw/inbox/haggerty-2026-thalamus-closed-loop-system.pdf`；`raw/inbox/takahashi-2026-phase-sync-rtms-tacs-sleep.pdf`；`raw/inbox/stevenson-2025-temperature-mattress-sleep.pdf`。
+- 证据结论：2.2 算法演进受限闭合；2.3/6.3 完整睡眠刺激总时延、5.2 EEG 反馈闭环 TMS、5.3 睡眠状态反馈温控继续为 `gap`。
+- 草案：[[review/综述正文v4草案-2.2至6.5]]，未并入 [[review/综述正文草案]]。
+- raw 操作：按用户本轮临时授权，从 `wiki/review/downloads/` 复制 10 份全文到 `raw/inbox/`；未删除或改写既有 raw 文件。
+
 ## [2026-08-18] review-plan | v3 证据缺口与下载任务更新
 
 - 状态：completed（4 篇可直接下载，5 项待补全唯一题录）

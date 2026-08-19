@@ -56,13 +56,16 @@
 - [[model/AttnSleep|AttnSleep]]：多分辨率 CNN、特征重校准与注意力时序编码。`model`｜2026-08-11｜1 来源
 - [[model/SingleChannelNet|SingleChannelNet]]：基于 90 秒原始单通道 EEG 输入的深层 CNN。`model`｜2026-08-11｜1 来源
 - [[model/DeepSleepNet|DeepSleepNet]]：CNN epoch 编码 + RNN 序列编码的代表路线。`model`｜2026-08-12｜1 来源
-- [[model/SeqSleepNet|SeqSleepNet]]：RNN epoch 编码 + RNN 序列编码的序列到序列系统。`model`｜2026-08-12｜1 来源
-- [[model/SleepEEGNet|SleepEEGNet]]：原始 EEG 输入的 CNN+RNN 传统深度时序路线。`model`｜2026-08-12｜1 来源
-- [[model/SleepTransformer|SleepTransformer]]：Transformer epoch 编码 + Transformer 序列编码的非递归注意力路线。`model`｜2026-08-12｜1 来源
+- [[model/SeqSleepNet|SeqSleepNet]]：分层双向 RNN 序列到序列系统；离线性能与因果边界已由原文核验。`model`｜2026-08-19｜2 来源
+- [[model/SleepEEGNet|SleepEEGNet]]：CNN、双向 RNN 与注意力构成的传统深度时序路线。`model`｜2026-08-19｜2 来源
+- [[model/SleepTransformer|SleepTransformer]]：长序列自注意力、解释性与不确定性睡眠评分模型。`model`｜2026-08-19｜2 来源
 - [[model/Patanaik 实时睡眠分期框架]]：频谱图 CNN 与上下文修正组成的客户端—服务器在线五分类框架。`model`｜2026-08-18｜1 来源
 - [[model/SpindleNet]]：CNN、LSTM 与功率特征结合的在线纺锤波检测模型。`model`｜2026-08-18｜1 来源
 - [[model/RTSD]]：多通道实时纺锤波检测与相位预测算法。`model`｜2026-08-18｜1 来源
 - [[model/Sun FPGA 睡眠分期模型]]：双 CNN、双向 LSTM 与 8 位量化的 FPGA 分期模型。`model`｜2026-08-18｜1 来源
+- [[model/FlexSleepTransformer]]：支持不同 PSG 通道组合和混合数据训练的 Transformer。`model`｜2026-08-19｜1 来源
+- [[model/MultiSEss]]：多尺度卷积、SE 注意力与状态空间模型组合的 EEG 分期网络。`model`｜2026-08-19｜1 来源
+- [[model/可穿戴多模态Mamba睡眠分期]]：基于 ECG、PPG、加速度和温度的双向 Mamba 分期模型。`model`｜2026-08-19｜1 来源
 
 ### 数据集词条
 
@@ -177,6 +180,7 @@
 
 - [[review/综述正文v2草案-2.2至6.5]]：按完整大纲和证据包生成的 2.2–6.5 待确认 v2 汇总稿。`review`｜2026-08-18｜全部相关证据包
 - [[review/综述正文v3草案-2.2至6.5]]：依逐节写作逻辑大纲扩写并完成分节字数核验的 2.2–6.5 待确认 v3。`review`｜2026-08-18｜全部相关证据包
+- [[review/综述正文v4草案-2.2至6.5]]：吸收 v3 下载批次全文、更新证据包后生成的 2.2–6.5 待确认 v4。`review`｜2026-08-19｜全部相关证据包
 
 - [[review/文献清单/README|文献清单目录]]：按章节集中管理全部文献需求、下载登记和补充清单。`review`｜2026-08-18｜2 个索引来源
 - [[review/证据包/README|证据包目录]]：按章节集中管理全部待确认与受限证据包。`review`｜2026-08-18｜2 个索引来源
@@ -188,6 +192,13 @@
 - [[review/证据包/03-慢波干预-3.3-P1-证据包]]、[[review/证据包/05-系统形态-5.1-P1-证据包]]、[[review/证据包/05-系统形态-5.3-P1-证据包]]、[[review/证据包/06-挑战展望-6.1-P1-证据包]]：原缺证据章节的新证据稿。`review`｜2026-08-18｜来源数见页面
 
 - [[concept/域偏移]]：训练与测试人群、设备和数据构成差异导致的模型性能变化。`concept`｜2026-08-18｜1 个来源
+
+### 2026-08-19 v3 缺口补充批次
+
+- [[source-pages/mousavi-2019-sleepeegnet]]、[[source-pages/phan-2019-seqsleepnet]]、[[source-pages/phan-2022-sleeptransformer]]、[[source-pages/guo-2024-flexsleeptransformer]]：CNN-RNN 与 Transformer 原始算法、未来上下文和跨数据集边界。`source`｜2026-08-19｜各 1 个原始来源
+- [[source-pages/mikkelsen-2019-around-ear-rf-staging]]、[[source-pages/huang-2025-multisess]]、[[source-pages/zhang-2026-mamba-wearable-staging]]：耳周 EEG 随机森林、EEG SSM 和无 EEG 可穿戴 Mamba。`source`｜2026-08-19｜各 1 个原始来源
+- [[source-pages/haggerty-2026-thalamus]]、[[source-pages/takahashi-2026-phase-synchronized-rtms-tacs]]、[[source-pages/stevenson-2025-temperature-mattress]]：同步平台、睡眠相位同步磁—电刺激和开放环温控参照。`source`｜2026-08-19｜各 1 个原始来源
+- [[device/cEEGrid耳周EEG]]、[[intervention/睡眠相位同步rTMS-tACS]]、[[intervention/开放环温控床罩]]：本批新增设备与干预实体。`device/intervention`｜2026-08-19｜各 1 个来源
 
 - [[source-pages/navarrete-2022-ongoing-oscillations-outcome]]、[[source-pages/thamizhmani-2024-acoustic-stimulation-ad-scoping-review]]、[[source-pages/zeller-2024-multi-night-acoustic-cognitive-impairment]]、[[source-pages/jung-2025-automated-rem-detection-rbd]]、[[source-pages/wijesinghe-2025-real-time-sleep-staging-lightweight]]、[[source-pages/haar-horowitz-2020-dormio]]、[[source-pages/canton-2026-wearable-staging-personalization]]：本轮新增下载素材来源页。`source`｜2026-08-18｜各 1 个原始来源
 - [[review/证据包/03-慢波干预-3.2-P1-证据包]]、[[review/证据包/03-慢波干预-3.4-P1-证据包]]、[[review/证据包/04-全周期-4.3-P1-证据包]]、[[review/证据包/04-全周期-4.4-P1-证据包]]、[[review/证据包/04-全周期-4.5-P1-证据包]]、[[review/证据包/06-挑战展望-6.2-P1-证据包]]：新增待确认/受限证据包。`review`｜2026-08-18｜来源数见页面

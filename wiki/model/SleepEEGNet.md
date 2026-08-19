@@ -2,9 +2,9 @@
 type: model
 aliases: []
 created: 2026-08-12
-updated: 2026-08-12
-sources: ["source-pages/phan-mikkelsen-2022-automatic-sleep-staging"]
-review_sections: ["4"]
+updated: 2026-08-19
+sources: ["source-pages/phan-mikkelsen-2022-automatic-sleep-staging", "source-pages/mousavi-2019-sleepeegnet"]
+review_sections: ["2.2", "4"]
 status: active
 review_due: 2027-08-12
 ---
@@ -13,12 +13,14 @@ review_due: 2027-08-12
 
 ## 基本信息
 - 任务：[[concept/睡眠分期]]
-- 提出者/年份：综述表中列为 2019
+- 提出者/年份：Mousavi 等，2019
 - 模型类别：CNN + RNN 时序模型
 
 ## 架构与输入输出
 
 Phan 和 Mikkelsen 的汇总表将其列为原始 EEG 输入、CNN epoch 编码与 RNN 序列编码。[[source-pages/phan-mikkelsen-2022-automatic-sleep-staging|Phan 和 Mikkelsen（2022）]]（PDF 第 6–7 页，Table 1）
+
+原始论文显示模型在 CNN 后连接双向 RNN 和注意力层，同时利用先前与未来输入。[[source-pages/mousavi-2019-sleepeegnet]]（PDF 第 4–5 页）
 
 ## 训练与实验设置
 - 数据集：[[dataset/Sleep-EDF]]
@@ -31,9 +33,11 @@ Phan 和 Mikkelsen 的汇总表将其列为原始 EEG 输入、CNN epoch 编码�
 ## 优点与局限
 - 作为传统深度时序睡眠分期路线的代表模型。
 - ⚠️ 干电极、跨设备与实时闭环应用未由当前来源直接验证。
+- ⚠️ 双向 RNN 使用未来 epoch，不满足严格因果在线刺激条件。
 
 ## 来源
 - [[source-pages/phan-mikkelsen-2022-automatic-sleep-staging|Phan 和 Mikkelsen（2022）]]
+- [[source-pages/mousavi-2019-sleepeegnet]]
 
 ## 综述关联
 - [[review/chapters/04-多模态睡眠检测算法]]
