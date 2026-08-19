@@ -2,8 +2,8 @@
 type: concept
 aliases: ["wearable EEG", "mobile EEG", "EEG-based wearable"]
 created: 2026-08-12
-updated: 2026-08-18
-sources: ["[[source-pages/phan-mikkelsen-2022-automatic-sleep-staging]]", "[[source-pages/de-gans-2024-eeg-wearables-systematic-review]]", "[[source-pages/ferster-2022-real-time-phase-algorithms]]", "[[source-pages/bressler-2023-wearable-eeg-closed-loop]]", "[[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]", "[[source-pages/pazuelo-2024-in-ear-signal-quality]]", "[[source-pages/mohamed-2023-wearable-eeg-review]]", "[[source-pages/mascia-2023-parylene-tattoo-eeg]]"]
+updated: 2026-08-19
+sources: ["[[source-pages/phan-mikkelsen-2022-automatic-sleep-staging]]", "[[source-pages/de-gans-2024-eeg-wearables-systematic-review]]", "[[source-pages/ferster-2022-real-time-phase-algorithms]]", "[[source-pages/bressler-2023-wearable-eeg-closed-loop]]", "[[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]", "[[source-pages/pazuelo-2024-in-ear-signal-quality]]", "[[source-pages/mohamed-2023-wearable-eeg-review]]", "[[source-pages/mascia-2023-parylene-tattoo-eeg]]", "[[source-pages/tabar-2021-ear-eeg-sleep-assessment]]", "[[source-pages/shustak-2019-temporary-tattoo-sleep-monitoring]]", "[[source-pages/melo-2024-single-channel-eeg-actigraphy]]"]
 review_sections: ["1", "2", "3", "6", "7", "8"]
 status: active
 review_due: 2027-08-12
@@ -24,6 +24,8 @@ review_due: 2027-08-12
 相对 [[concept/PSG 参考标准]] 的验证需注明设备形态、电极类型、通道/导联、同步、自动或人工评分、人群与场景。指标异质时不可直接比较。[[source-pages/de-gans-2024-eeg-wearables-systematic-review|de Gans 等（2024）]]（PDF 第 9–10 页）
 
 耳内与贴附式系统进一步表明，质量控制需进入设备层：Mikkelsen 等报告耳内电极的连接丢失与湿气相关失败，Pazuelo 等以运动/面部伪影条件检验耳内—头皮信号相关；超薄纹身 EEG 目前只完成清醒态验证。[[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]（PDF 第 3–4 页）；[[source-pages/pazuelo-2024-in-ear-signal-quality]]（PDF 第 6–8 页）；[[source-pages/mascia-2023-parylene-tattoo-eeg]]（PDF 第 1、7–8 页）
+
+新增直接证据显示，ear-EEG 的参考配置可使五分类 κ 从 0.36 变化至 0.72；临时纹身阵列可在小样本中同步采集 EEG/EOG/EMG；单通道头带加入体动后对总体 F1 增益较小，但可降低 N1 错误率。三类结果对应导联配置、多模态可行性和任务特异边际增益，不能合并为统一设备排名。[[source-pages/tabar-2021-ear-eeg-sleep-assessment]]（PDF 第 1、6–8 页）；[[source-pages/shustak-2019-temporary-tattoo-sleep-monitoring]]（PDF 第 2–7 页）；[[source-pages/melo-2024-single-channel-eeg-actigraphy]]（PDF 第 1、5–6 页）
 
 ## 相关模型与数据集
 - [[model/AttnSleep]]、[[model/SingleChannelNet]]
@@ -46,6 +48,9 @@ review_due: 2027-08-12
 - [[source-pages/pazuelo-2024-in-ear-signal-quality|Pazuelo 等（2024）]]
 - [[source-pages/mohamed-2023-wearable-eeg-review|Mohamed 等（2023）]]
 - [[source-pages/mascia-2023-parylene-tattoo-eeg|Mascia 等（2023）]]
+- [[source-pages/tabar-2021-ear-eeg-sleep-assessment|Tabar 等（2021）]]
+- [[source-pages/shustak-2019-temporary-tattoo-sleep-monitoring|Shustak 等（2019）]]
+- [[source-pages/melo-2024-single-channel-eeg-actigraphy|Melo 等（2024）]]
 
 ## 综述关联
 - [[review/chapters/02-基础理论与核心概念]]、[[review/chapters/03-可穿戴睡眠信号采集硬件体系]]、[[review/chapters/06-现有研究对比]]
@@ -55,5 +60,6 @@ review_due: 2027-08-12
 - [[concept/闭环控制]]
 - [[device/Elemind Neuromodulation Device]]
 - [[device/干接触耳内 EEG 系统]]、[[device/Naox 耳内 EEG 设备]]、[[device/Parylene C 纹身 EEG 系统]]
+- [[device/临时纹身多模态睡眠电极阵列]]、[[concept/多模态融合]]
 - [[concept/耳内 EEG]]、[[concept/柔性贴附电极]]
 - [[concept/可穿戴人工智能]]

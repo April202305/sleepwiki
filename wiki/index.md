@@ -6,6 +6,9 @@
 
 ### 原始资料摘要
 
+- [[source-pages/tabar-2021-ear-eeg-sleep-assessment|Tabar 等（2021）]]：三种 ear-EEG 参考配置与同步 PSG 的整夜分期比较。`source`｜2026-08-19｜1 来源
+- [[source-pages/shustak-2019-temporary-tattoo-sleep-monitoring|Shustak 等（2019）]]：临时纹身 EEG/EOG/EMG 阵列的医院与居家睡眠可行性。`source`｜2026-08-19｜1 来源
+- [[source-pages/melo-2024-single-channel-eeg-actigraphy|Melo 等（2024）]]：单通道 EEG 头带联合腕部体动的分期验证及 N1 边际增益。`source`｜2026-08-19｜1 来源
 - [[source-pages/eldele-2021-attention-based-single-channel-eeg|Eldele 等（2021）]]：AttnSleep 的架构、数据集与实验摘要。`source`｜2026-08-18｜1 来源
 - [[source-pages/zhou-2022-singlechannelnet|Zhou 等（2022）]]：SingleChannelNet 的上下文输入与跨数据集评估摘要。`source`｜2026-08-18｜1 来源
 - [[source-pages/phan-mikkelsen-2022-automatic-sleep-staging|Phan 和 Mikkelsen（2022）]]：EEG 自动睡眠分期的进展、挑战与未来方向综述。`source`｜2026-08-18｜1 来源
@@ -53,6 +56,7 @@
 
 ### 模型词条
 
+- [[model/Melo 单通道 EEG-体动睡眠分期模型]]：18 特征与 bagged decision trees 的五分类模型。`model`｜2026-08-19｜1 来源
 - [[model/AttnSleep|AttnSleep]]：多分辨率 CNN、特征重校准与注意力时序编码。`model`｜2026-08-11｜1 来源
 - [[model/SingleChannelNet|SingleChannelNet]]：基于 90 秒原始单通道 EEG 输入的深层 CNN。`model`｜2026-08-11｜1 来源
 - [[model/DeepSleepNet|DeepSleepNet]]：CNN epoch 编码 + RNN 序列编码的代表路线。`model`｜2026-08-12｜1 来源
@@ -78,6 +82,7 @@
 
 ### 概念词条
 
+- [[concept/多模态融合]]：EEG、EOG、EMG 与体动等模态的任务特异融合和边际增益。`concept`｜2026-08-19｜2 来源
 - [[concept/睡眠分期]]：离线与在线自动睡眠阶段分类任务及其状态级输出边界。`concept`｜2026-08-18｜4 来源
 - [[concept/单通道 EEG]]：单导联 EEG 输入设置（Fpz-Cz、C4-A1 等）。`concept`｜2026-08-11｜3 来源
 - [[concept/时序上下文]]：相邻 epoch/连续时段的信息建模机制。`concept`｜2026-08-11｜2 来源
@@ -106,6 +111,7 @@
 
 ### 可穿戴设备
 
+- [[device/临时纹身多模态睡眠电极阵列]]：4 EEG、2 EOG、2 sEMG 的柔性无线贴附式阵列。`device`｜2026-08-19｜1 来源
 - [[device/MHSL-SB]]：8 通道、250 Hz 的移动睡眠 EEG 与实时触发研究系统。`device`｜2026-08-18｜1 来源
 
 - [[device/Wireless Dreem Device|Wireless Dreem Device]]：干 EEG 居家实时 N3 检测与慢振荡听觉触发。`device`｜2026-08-17｜1 来源
@@ -123,8 +129,10 @@
 
 - [[review/可穿戴睡眠检测与闭环干预综述|从监测到调控——闭环睡眠干预技术]]：以感知—识别—干预—反馈为主线的六章入口。`review`｜2026-08-14｜用户框架
 - [[review/证据矩阵|证据矩阵]]：状态/相位、触发、时延、剂量和验证层级的唯一登记表。`review`｜2026-08-14｜规则与结构来源
+- [[review/章节证据矩阵/README|章级证据矩阵目录]]：按第 1—6 章合并展示全部小节证据包；总证据矩阵仍为唯一登记源。`review`｜2026-08-19｜24 个证据包与总矩阵
 - [[review/完整综述大纲|完整综述大纲]]：闭环睡眠干预的六章层级写作框架。`review`｜2026-08-14｜用户框架
 - [[review/文献搜索策略_新版|文献搜索策略]]：按闭环链路、慢波、全周期、刺激形态及挑战分模块检索。`review`｜2026-08-14｜待执行正式检索
+- [[review/中文文献专项检索策略]]：以约 20% 中文参考文献为目标的中文数据库检索、质量分级与证据准入方案。`review`｜2026-08-19｜1 规则来源
 - [[review/分段综述写作规则与工作流|分段综述写作规则与工作流]]：仅引用用户提供且可定位文献的段落级证据核验协议。`review`｜2026-08-17｜用户约束
 - [[review/综述正文草案|综述正文草案]]：唯一跨章节整合页，仅收录已确认的段落。`review`｜2026-08-17｜用户约束
 - [[review/综述写作看板|综述写作看板]]：生成—校准协作状态、下一步和修改历史。`review`｜2026-08-17｜用户约束
@@ -181,6 +189,8 @@
 - [[review/综述正文v2草案-2.2至6.5]]：按完整大纲和证据包生成的 2.2–6.5 待确认 v2 汇总稿。`review`｜2026-08-18｜全部相关证据包
 - [[review/综述正文v3草案-2.2至6.5]]：依逐节写作逻辑大纲扩写并完成分节字数核验的 2.2–6.5 待确认 v3。`review`｜2026-08-18｜全部相关证据包
 - [[review/综述正文v4草案-2.2至6.5]]：吸收 v3 下载批次全文、更新证据包后生成的 2.2–6.5 待确认 v4。`review`｜2026-08-19｜全部相关证据包
+- [[review/综述正文v5草案-2.2至6.5]]：继承 v4 全部要求，并实施研究主归属、跨章节去重和邻近技术证据分层的待确认草案。`review`｜2026-08-19｜总矩阵、24 个证据包与归属控制表
+- [[review/研究主归属与跨章节重复控制表]]：登记 87 项研究的主归属章节、证据角色及高频跨章研究的允许保留信息。`review`｜2026-08-19｜总证据矩阵与 v4 引用位置
 
 - [[review/文献清单/README|文献清单目录]]：按章节集中管理全部文献需求、下载登记和补充清单。`review`｜2026-08-18｜2 个索引来源
 - [[review/证据包/README|证据包目录]]：按章节集中管理全部待确认与受限证据包。`review`｜2026-08-18｜2 个索引来源

@@ -2,8 +2,8 @@
 type: concept
 aliases: ["ear-EEG", "in-ear EEG", "耳 EEG"]
 created: 2026-08-18
-updated: 2026-08-18
-sources: ["[[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]", "[[source-pages/pazuelo-2024-in-ear-signal-quality]]", "[[source-pages/mohamed-2023-wearable-eeg-review]]"]
+updated: 2026-08-19
+sources: ["[[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]", "[[source-pages/pazuelo-2024-in-ear-signal-quality]]", "[[source-pages/mohamed-2023-wearable-eeg-review]]", "[[source-pages/tabar-2021-ear-eeg-sleep-assessment]]"]
 review_sections: ["2.1"]
 status: active
 review_due: 2027-08-18
@@ -18,6 +18,8 @@ review_due: 2027-08-18
 ## 在睡眠分期中的作用
 
 Mikkelsen 等在 20 名健康参与者的 80 次整夜居家记录中，同步使用干接触耳内 EEG 与部分 PSG；Pazuelo 等则在 8 名受试者、超过 70 小时 PSG 睡眠记录中比较耳内与头皮的慢波、纺锤波和分期相关性。[[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]（PDF 第 1、3、8 页）；[[source-pages/pazuelo-2024-in-ear-signal-quality]]（PDF 第 9–12 页）
+
+Tabar 等进一步表明，单耳、同侧乳突参考和跨耳配置的五分类 κ 分别为 0.36、0.63 和 0.72，说明导联与参考配置本身会显著改变低通道系统保留的分期信息。[[source-pages/tabar-2021-ear-eeg-sleep-assessment]]（PDF 第 1、6–8 页）
 
 ## 方法、参数或判定标准
 
@@ -34,6 +36,7 @@ Mikkelsen 等在 20 名健康参与者的 80 次整夜居家记录中，同步�
 - [[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]
 - [[source-pages/pazuelo-2024-in-ear-signal-quality]]
 - [[source-pages/mohamed-2023-wearable-eeg-review]]
+- [[source-pages/tabar-2021-ear-eeg-sleep-assessment]]
 
 ## ⚠️争议与待核实
 
@@ -44,3 +47,4 @@ Mikkelsen 等在 20 名健康参与者的 80 次整夜居家记录中，同步�
 - [[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]
 - [[source-pages/pazuelo-2024-in-ear-signal-quality]]
 - [[source-pages/mohamed-2023-wearable-eeg-review]]
+- [[source-pages/tabar-2021-ear-eeg-sleep-assessment]]

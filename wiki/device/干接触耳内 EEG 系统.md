@@ -2,8 +2,8 @@
 type: device
 aliases: ["dry-contact ear-EEG", "Mikkelsen 2019 ear-EEG"]
 created: 2026-08-18
-updated: 2026-08-18
-sources: ["[[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]"]
+updated: 2026-08-19
+sources: ["[[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]", "[[source-pages/tabar-2021-ear-eeg-sleep-assessment]]"]
 review_sections: ["2.1"]
 status: active
 review_due: 2027-08-18
@@ -26,6 +26,7 @@ review_due: 2027-08-18
 ## 可用于的睡眠任务
 
 - 整夜居家睡眠记录与自动分期；相对部分 PSG 的平均 Cohen’s κ 为 0.73。[[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]（PDF 第 1、5–7 页）
+- Tabar 等在同步 PSG 条件下比较三种 ear-EEG 配置，五分类 κ 为 0.36、0.63 和 0.72，说明参考配置对性能影响显著。[[source-pages/tabar-2021-ear-eeg-sleep-assessment]]（PDF 第 1、6–8 页）
 
 ## 性能与比较条件
 
@@ -34,6 +35,7 @@ review_due: 2027-08-18
 ## 关联来源
 
 - [[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]
+- [[source-pages/tabar-2021-ear-eeg-sleep-assessment]]
 - [[concept/耳内 EEG]]、[[concept/可穿戴 EEG]]、[[concept/PSG 参考标准]]
 
 ## ⚠️局限与待核实
@@ -43,3 +45,4 @@ review_due: 2027-08-18
 ## 来源
 
 - [[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep]]
+- [[source-pages/tabar-2021-ear-eeg-sleep-assessment]]
