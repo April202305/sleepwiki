@@ -72,6 +72,8 @@
 - [[source-pages/coon-2026-closed-loop-design-notes|Coon 等（2026）]]：下一代模块化闭环睡眠刺激设计框架。`source`｜2026-08-20｜1 来源
 - [[source-pages/grimaldi-2019-sleep-autonomic-acoustic|Grimaldi 等（2019）]]：慢振荡声增强与睡眠自主神经响应。`source`｜2026-08-20｜1 来源
 - [[source-pages/papalambros-2017-acoustic-enhancement-older|Papalambros 等（2017）]]：老年人自适应 PLL 闭环声刺激与记忆。`source`｜2026-08-20｜1 来源
+- [[source-pages/ngo-2019-spindle-upstate-clas|Ngo 等（2019）]]：SO上状态纺锤节律刺激的短窗响应与持续效应边界。`source`｜2026-08-20｜1 来源
+- [[source-pages/navarrete-2022-ongoing-oscillations-outcome-formal|Navarrete 等（2022）正式版]]：持续振荡预测刺激后SO与纺锤响应，含正式效应量和CI。`source`｜2026-08-20｜1 来源
 - [[source-pages/mohamed-2023-wearable-eeg-review|Mohamed 等（2023）]]：居家睡眠可穿戴 EEG 形态与评测维度综述。`source`｜2026-08-18｜1 来源
 - [[source-pages/mascia-2023-parylene-tattoo-eeg|Mascia 等（2023）]]：超薄 Parylene C 纹身电极的清醒态 EEG 原型。`source`｜2026-08-18｜1 来源
 - [[source-pages/bareket-2016-temporary-tattoo-biopotential|Bareket 等（2016）]]：临时纹身干电极的表面肌电与材料背景研究。`source`｜2026-08-18｜1 来源
@@ -262,6 +264,12 @@
 - [[review/5.4-v10新证据再审计报告]]：定位Portiloop与耳内EEG在v10中的过时主张并给出v11放行边界。`review`｜2026-08-20｜2份新增直接来源
 - [[review/5.4-v11新增数字四点回查报告]]：核验新增数字在v11、系统表、总矩阵和来源页四点一致。`review`｜2026-08-20｜Henao与Jourde
 - [[review/综述正文v11草案-2.2至6.5]]：完整继承v10，仅用Henao与Jourde新证据更新5.4。`review`｜2026-08-20｜5.4受限更新
+- [[review/3.2人体慢波-纺锤-耦合统一比较表]]：统一登记11项人体研究的慢波、纺锤、耦合、时间尺度、对照及效应量字段。`review`｜2026-08-20｜11项人体来源
+- [[review/文献清单/03-慢波干预-3.2-精准补充文献需求包]]：只补人体纺锤事件、SO—纺锤耦合、短窗—整夜及效应量/CI硬字段。`review`｜2026-08-20｜精准需求
+- [[review/3.2现有证据审计与标题放行报告]]：确认精准补证完成，放行按时间尺度和指标边界受限改写。`review`｜2026-08-20｜标题与放行审计
+- [[review/3.2逐句证据审计与正文准入表]]：逐项确定3.2数字、综合结论及禁止外推边界。`review`｜2026-08-20｜14项候选主张
+- [[review/综述正文v12草案-2.2至6.5]]：完整继承v11，仅按四层结构重写3.2并采用准确标题。`review`｜2026-08-20｜3.2受限更新
+- [[review/3.2-v12新增数字四点回查报告]]：核验v12新增数字在正文、比较表、总矩阵和来源页四点一致。`review`｜2026-08-20｜3.2数字审计
 - [[review/2.2公开数据集、标签体系与验证协议比较表]]：阶段、微结构和闭环刺激数据的标签、评分、划分、偏倚及在线因果评测边界。`review`｜2026-08-20｜8个数据集页与正式证据池
 - [[review/综述正文v7草案-2.2至6.5]]：完整继承v6并将2.2重排为任务、数据集、阶段模型、事件/相位及在线泛化五部分。`review`｜2026-08-20｜v6、数据集比较表与2.2证据池
 - [[review/文献清单/02-技术基础-2.3-精准补充文献需求包]]：只针对物理端到端时延、尾部分位数、时钟同步、逐机会结局和Pareto关系的精准补证任务。`review`｜2026-08-20｜2.3比较表与证据包

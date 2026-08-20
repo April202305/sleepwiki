@@ -2,7 +2,7 @@
 type: source
 aliases: ["Besedovsky 2017"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-20
 sources: ["raw/inbox/besedovsky-2017-auditory-clas-immune.pdf"]
 review_sections: ["3.2", "6.1"]
 status: active
@@ -26,6 +26,7 @@ review_due: 2027-08-18
 
 ## 方法与发现
 - 声音为双耳 50 ms、50 dB SPL 粉噪，5 ms 起落沿；两声间隔 1.075 s，离开 NREM2/SWS 或出现觉醒时停止。[[intervention/闭环听觉刺激]]（PDF 第 6–7 页）
+- 120 min刺激期内，0.8–1.1 Hz功率和SO振幅相对sham分别增加（p=0.006、Cohen's d=0.71；p=0.047、d=0.42）；刺激后时段及整夜睡眠结构未改变，其他频率未见显著变化。（PDF第2–3页，Figure 1、Table 1）
 - 该研究的终点为即时 EEG、激素与外周淋巴细胞指标，不是感染率、疫苗保护或长期临床结局。
 
 ## 关联词条
