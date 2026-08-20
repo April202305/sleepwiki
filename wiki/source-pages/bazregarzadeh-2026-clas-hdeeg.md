@@ -4,7 +4,7 @@ aliases: ["CLAS-hdEEG"]
 created: 2026-08-20
 updated: 2026-08-20
 sources: ["raw/inbox/bazregarzadeh-2026-clas-hdeeg.pdf"]
-review_sections: ["2.3", "6.3"]
+review_sections: ["2.3", "5.4", "6.3"]
 status: active
 review_due: 2026-09-20
 ---
@@ -35,4 +35,5 @@ CLAS-hdEEG在EGI 128通道系统中实时使用Fz移动平均信号检测delta�
 - ⚠️ 未报告麦克风/人工耳物理输出、P95/P99或逐机会完整失败分类；固定EGI平台限制跨平台外推。
 
 ## 来源
+- 系统比较：[[review/5.4典型闭环系统横向比较表]]
 - `raw/inbox/bazregarzadeh-2026-clas-hdeeg.pdf`

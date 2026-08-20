@@ -24,6 +24,10 @@ review_due: 2027-08-18
 ## 核心摘要
 16 名 62–78 岁健康成人完成两周刺激、两周 sham 与两周洗脱。组水平慢波活动增强，但睡眠结构与日间功能影响较小，且存在明显个体间和个体内跨夜差异。[[intervention/闭环听觉刺激]]（PDF 第 1、6–12 页，Figures 2–5）
 
+## 系统与居家字段
+- 研究使用MHSL-SB，刺激和sham各14夜并以两周洗脱分隔；夜间配置包括Fpz-A2、双EOG和颏EMG，系统在线识别稳定NREM并以PLL实施上相位刺激。[[source-pages/lustenberger-2022-clas-older-adults-home|本来源]]（PDF第3–5页，Figure 1）
+- 33人入组筛查，本文报告16名完成相同干预且数据充足者；睡眠结构分析排除部分记录、未及时连接电极或坏EEG超过20 min的夜晚，但现有正文未给出统一逐条件失败夜总数。[[source-pages/lustenberger-2022-clas-older-adults-home|本来源]]（PDF第1、4–6页）
+
 ## 关联词条
 - 干预：[[intervention/闭环听觉刺激]]
 - 综述：[[review/文献清单/06-挑战展望-6.4-文献需求单]]、[[review/证据包/06-挑战展望-6.4-P1-证据包]]、[[review/证据矩阵]]
@@ -32,4 +36,5 @@ review_due: 2027-08-18
 - ⚠️33 人入组筛查，仅报告 16 名接受相同干预且数据充足者；试验因 COVID-19 提前终止。
 
 ## 来源
+- 系统比较：[[review/5.4典型闭环系统横向比较表]]
 - `raw/inbox/lustenberger-2022-clas-older-adults-home.pdf`

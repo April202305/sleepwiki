@@ -66,6 +66,12 @@
 - [[source-pages/zrenner-2024-closed-loop-brain-stimulation|Zrenner 与 Ziemann（2024）]]：一级触发和二级参数更新的通用闭环治疗架构。`source`｜2026-08-18｜1 来源
 - [[source-pages/mikkelsen-2019-ear-eeg-whole-night-sleep|Mikkelsen 等（2019）]]：干接触耳内 EEG 的 80 次居家整夜记录与 PSG 配对。`source`｜2026-08-18｜1 来源
 - [[source-pages/pazuelo-2024-in-ear-signal-quality|Pazuelo 等（2024）]]：Naox 耳内 EEG 的阻抗、伪影和睡眠信号质量比较。`source`｜2026-08-18｜1 来源
+- [[source-pages/henao-2022-in-ear-eeg-clas|Henao 等（2022）]]：耳内 EEG 在线慢振荡检测、实际声音刺激及生理响应。`source`｜2026-08-20｜1 来源
+- [[source-pages/jourde-2025-spindle-clas|Jourde 等（2025）]]：Portiloop v2 多夜居家纺锤闭环及数据损失。`source`｜2026-08-20｜1 来源
+- [[source-pages/channa-2026-in-ear-eeg-review|Channa 等（2026）]]：耳内 EEG 可穿戴研究图景与闭环标准化缺口。`source`｜2026-08-20｜1 来源
+- [[source-pages/coon-2026-closed-loop-design-notes|Coon 等（2026）]]：下一代模块化闭环睡眠刺激设计框架。`source`｜2026-08-20｜1 来源
+- [[source-pages/grimaldi-2019-sleep-autonomic-acoustic|Grimaldi 等（2019）]]：慢振荡声增强与睡眠自主神经响应。`source`｜2026-08-20｜1 来源
+- [[source-pages/papalambros-2017-acoustic-enhancement-older|Papalambros 等（2017）]]：老年人自适应 PLL 闭环声刺激与记忆。`source`｜2026-08-20｜1 来源
 - [[source-pages/mohamed-2023-wearable-eeg-review|Mohamed 等（2023）]]：居家睡眠可穿戴 EEG 形态与评测维度综述。`source`｜2026-08-18｜1 来源
 - [[source-pages/mascia-2023-parylene-tattoo-eeg|Mascia 等（2023）]]：超薄 Parylene C 纹身电极的清醒态 EEG 原型。`source`｜2026-08-18｜1 来源
 - [[source-pages/bareket-2016-temporary-tattoo-biopotential|Bareket 等（2016）]]：临时纹身干电极的表面肌电与材料背景研究。`source`｜2026-08-18｜1 来源
@@ -168,6 +174,7 @@
 - [[device/Elemind Neuromodulation Device|Elemind Neuromodulation Device]]：三额区干电极、端侧 α 相位估计与骨传导声音刺激原型。`device`｜2026-08-18｜1 来源
 - [[device/干接触耳内 EEG 系统]]：定制双耳塞、6 电极/耳的居家整夜耳内 EEG 系统。`device`｜2026-08-18｜1 来源
 - [[device/Naox 耳内 EEG 设备]]：250 Hz、24 位采样的移动耳内 EEG 信号质量验证设备。`device`｜2026-08-18｜1 来源
+- [[device/耳内EEG慢波闭环刺激系统（Henao）]]：跨耳双极耳内 EEG 的实验室午睡慢振荡闭环原型。`device`｜2026-08-20｜1 来源
 - [[device/Parylene C 纹身 EEG 系统]]：超薄纹身电极与便携 PCB 的清醒态 EEG 原型。`device`｜2026-08-18｜1 来源
 
 ### 闭环干预词条
@@ -247,6 +254,14 @@
 - [[review/综述正文v8草案-2.2至6.5]]：完整继承v7，仅对2.3进行形式化与受限改写。`review`｜2026-08-20｜2.3审计与精准补充证据
 - [[review/4.3标题与REM-TMR证据链审计]]：核验学习线索、REM识别、提示递送、觉醒保护和记忆终点，放行路径B标题。`review`｜2026-08-20｜4.3三项来源与证据矩阵
 - [[review/综述正文v9草案-2.2至6.5]]：完整继承v8，仅将4.3改为REM实时检测与相位刺激的探索性研究。`review`｜2026-08-20｜4.3审计与证据包
+- [[review/5.4典型闭环系统横向比较表]]：按分期、事件、相位、时延、响应、终点、居家夜、失败与停止统一比较9类系统/候选。`review`｜2026-08-20｜11份系统来源
+- [[review/文献清单/05-系统形态-5.4-精准补充文献需求包]]：只补真实耳内闭环、失败夜、多夜居家与同设备版本配对。`review`｜2026-08-20｜系统比较表与证据矩阵
+- [[review/5.4逐句证据审计与受限放行报告]]：审计系统核心准入、设备族去重和数字使用边界。`review`｜2026-08-20｜系统表、证据包与v9
+- [[review/5.4数字三点回查报告]]：逐系统核验数字在系统表、总矩阵与直接来源页的三点可追溯性。`review`｜2026-08-20｜9类系统
+- [[review/综述正文v10草案-2.2至6.5]]：完整继承v9，只强化5.4典型系统横向比较。`review`｜2026-08-20｜5.4系统表与审计报告
+- [[review/5.4-v10新证据再审计报告]]：定位Portiloop与耳内EEG在v10中的过时主张并给出v11放行边界。`review`｜2026-08-20｜2份新增直接来源
+- [[review/5.4-v11新增数字四点回查报告]]：核验新增数字在v11、系统表、总矩阵和来源页四点一致。`review`｜2026-08-20｜Henao与Jourde
+- [[review/综述正文v11草案-2.2至6.5]]：完整继承v10，仅用Henao与Jourde新证据更新5.4。`review`｜2026-08-20｜5.4受限更新
 - [[review/2.2公开数据集、标签体系与验证协议比较表]]：阶段、微结构和闭环刺激数据的标签、评分、划分、偏倚及在线因果评测边界。`review`｜2026-08-20｜8个数据集页与正式证据池
 - [[review/综述正文v7草案-2.2至6.5]]：完整继承v6并将2.2重排为任务、数据集、阶段模型、事件/相位及在线泛化五部分。`review`｜2026-08-20｜v6、数据集比较表与2.2证据池
 - [[review/文献清单/02-技术基础-2.3-精准补充文献需求包]]：只针对物理端到端时延、尾部分位数、时钟同步、逐机会结局和Pareto关系的精准补证任务。`review`｜2026-08-20｜2.3比较表与证据包

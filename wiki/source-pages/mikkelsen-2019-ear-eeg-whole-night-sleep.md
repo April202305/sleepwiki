@@ -4,7 +4,7 @@ aliases: ["Mikkelsen 2019", "dry-contact ear-EEG sleep monitoring"]
 created: 2026-08-18
 updated: 2026-08-18
 sources: ["raw/inbox/mikkelsen-2019-ear-eeg-whole-night-sleep.pdf"]
-review_sections: ["2.1"]
+review_sections: ["2.1", "5.4"]
 status: active
 review_due: 2027-08-18
 ---
@@ -49,4 +49,5 @@ review_due: 2027-08-18
 
 ## 来源
 
+- 系统比较：[[review/5.4典型闭环系统横向比较表]]
 - `raw/inbox/mikkelsen-2019-ear-eeg-whole-night-sleep.pdf`

@@ -4,7 +4,7 @@ aliases: ["Bressler 2023", "ENMod wearable EEG"]
 created: 2026-08-18
 updated: 2026-08-18
 sources: ["raw/inbox/bressler-2023-wearable-eeg-closed-loop.pdf"]
-review_sections: ["1.3", "2.1", "2.2", "2.3", "4.1", "5.1"]
+review_sections: ["1.3", "2.1", "2.2", "2.3", "4.1", "5.1", "5.4"]
 status: active
 review_due: 2027-08-18
 ---
@@ -32,6 +32,7 @@ review_due: 2027-08-18
 - 居家可行性研究将声音限于熄灯后首个 30 分钟、瞄准约 10 Hz α 振荡峰或谷；对可评分数据的全体参与者（n=24），三种条件的 N2 入睡潜伏期差异不显著（ANOVA p=0.3756）。[[intervention/闭环听觉刺激]]（PDF 第 11–13 页）
 - ⚠️作者报告约 30% 居家数据集没有可用 EEG，主要归因于电极—头皮接触差或电极材料退化；原型不能测量阻抗，且其 2.5 Hz 高通设置限制慢波检测。[[device/Elemind Neuromodulation Device]]（PDF 第 13–14 页）
 - ⚠️客观入睡潜伏期较长的探索性子组仅 n=7；该子组的差异不能替代全体样本的阴性主要结果，也不能作为失眠治疗证据。[[intervention/闭环听觉刺激]]（PDF 第 12、15 页）
+- 居家研究计划288个采集夜，获得257个数据集，其中77个没有可用EEG；该约30%失败比例主要与电极接触或材料退化有关。[[source-pages/bressler-2023-wearable-eeg-closed-loop|本来源]]（PDF第11、13–14页，Table 1）
 
 ## 关联词条
 
@@ -53,4 +54,5 @@ review_due: 2027-08-18
 
 ## 来源
 
+- 系统比较：[[review/5.4典型闭环系统横向比较表]]
 - `raw/inbox/bressler-2023-wearable-eeg-closed-loop.pdf`

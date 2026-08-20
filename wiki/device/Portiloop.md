@@ -2,9 +2,9 @@
 type: device
 aliases: ["Portiloop system"]
 created: 2026-08-17
-updated: 2026-08-17
-sources: ["[[source-pages/valenchon-2022-portiloop]]"]
-review_sections: ["1.2", "2.2", "2.3"]
+updated: 2026-08-20
+sources: ["[[source-pages/valenchon-2022-portiloop]]", "[[source-pages/jourde-2025-spindle-clas]]"]
+review_sections: ["1.2", "2.2", "2.3", "4.2", "5.4"]
 status: active
 review_due: 2027-08-17
 ---
@@ -23,12 +23,15 @@ review_due: 2027-08-17
 
 ## 可用于的睡眠任务
 - EEG 获取、实时事件检测与精确定时刺激的工程链路。
+- Portiloop v2 已用于10名健康成人、每人计划6夜的居家纺锤闭环听觉刺激；平均保留刺激2.6±0.5夜和假刺激2.2±0.6夜，约20%数据因电极放置、脱落或信号质量丢失。[[source-pages/jourde-2025-spindle-clas]]（PDF第4–5页）
 
 ## 关联来源
 - [[source-pages/valenchon-2022-portiloop]]
+- [[source-pages/jourde-2025-spindle-clas]]
 
 ## ⚠️局限与待核实
-- ⚠️不是人体睡眠刺激疗效验证；时延和刺激参数需逐项提取。
+- ⚠️Valenchon工程系统与Jourde所用Portiloop v2属于同一系统族，但现有全文不能证明完全相同硬件版本；在线睡眠分期和声音到耳总时延仍未报告。
 
 ## 来源
 - [[source-pages/valenchon-2022-portiloop]]
+- [[source-pages/jourde-2025-spindle-clas]]

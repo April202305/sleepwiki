@@ -25,6 +25,9 @@ Earable 集成 8 个干式生物电电极、加速度、PPG 与双骨传导扬�
 
 ## 方法与发现
 - 多个协议、样本子集和终点不可合并成单一临床效应；必须按 PSG 对照、算法验证和干预试验分别引用。
+- 155份同步PSG整夜研究中，106份用于交叉验证、49份独立测试；独立测试accuracy为87.8±5.3%、κ为0.83。最佳动态参考方案之一有98.42% epoch至少一个通道可评分；各通道epoch失败率为4.59%–24.96%。[[source-pages/nguyen-2023-wearable-sleep-aid|本来源]]（PDF第5–7页，Figures 4–5）
+- 闭环居家全夜子协议为18人连续3夜：第1夜无刺激，第2–3夜刺激；SOL分别为41.3±15.8、22.3±19.1和26.8±21.7 min。该非随机顺序子协议不得与其他午睡协议合并成单一RCT。[[source-pages/nguyen-2023-wearable-sleep-aid|本来源]]（PDF第8–10页，Figure 7）
+- 系统在检测到SOL后关闭声音；全文未统一报告物理端到端时延、完整失败夜分母或觉醒相关停止统计。[[source-pages/nguyen-2023-wearable-sleep-aid|本来源]]（PDF第8–10页）
 
 ## 关联词条
 - 设备：[[device/Earable]]
@@ -34,4 +37,5 @@ Earable 集成 8 个干式生物电电极、加速度、PPG 与双骨传导扬�
 - ⚠️作者与产品开发存在关联；“883 sessions”不等于 883 个独立受试者或随机对照疗效样本。
 
 ## 来源
+- 系统比较：[[review/5.4典型闭环系统横向比较表]]
 - `raw/inbox/nguyen-2023-wearable-sleep-aid.pdf`

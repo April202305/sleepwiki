@@ -906,3 +906,39 @@
 - gap：REM-TMR需至少2项人体研究直接连接睡前线索配对、REM判定、提示递送和记忆终点后，才重新评估原标题。
 - 同步更新：[[review/证据包/04-全周期-4.3-P1-证据包]]、[[review/文献清单/04-全周期-4.3-文献需求单]]、[[review/完整综述大纲]]、[[review/证据矩阵]]、[[review/章节证据矩阵/第4章-全睡眠周期闭环干预证据矩阵]]、[[index]]、[[shturl]]。
 - 正文边界：未修改[[review/综述正文草案]]或TeX格式稿。
+
+## [2026-08-20] review-release | 5.4系统横向比较、精准补证、审计与v10
+
+- 状态：completed（受限强化放行）
+- 新建：[[review/5.4典型闭环系统横向比较表]]，覆盖WDD、Portiloop、ENMod、Earable、MHSL-SB、TSB Axo、CLAS-hdEEG、耳内候选和Dozer，并另列真实耳内闭环`gap`。
+- 设备族核验：ENMod=Bressler；Ferster 2019与Lustenberger 2022组成MHSL-SB工程—人体系统族；TSB Axo与MHSL-SB关系未证实；Debellemanière 2022不自动并入WDD。
+- 精准补证：[[review/文献清单/05-系统形态-5.4-精准补充文献需求包]]只要求真实耳内闭环、失败夜/退出、多夜居家、同设备版本配对及安全停止，不再补普通算法论文。
+- 逐句审计：[[review/5.4逐句证据审计与受限放行报告]]放行7个核心系统/系统族，耳内EEG仅候选、Dozer仅设计参照。
+- 新版本：[[review/综述正文v10草案-2.2至6.5]]完整继承v9，只强化5.4并加入统一横向表；其他正文保持继承。
+- 数字核验：[[review/5.4数字三点回查报告]]确认v10系统数字可同时在系统表、总矩阵和直接来源页找到。
+- 保留缺口：真实耳内检测—刺激闭环、统一失败夜分母、声音到耳与尾部时延、TSB Axo—MHSL-SB版本关系。
+- 同步更新：5.4证据包、第5章矩阵、相关来源页、[[review/证据矩阵]]、[[index]]、[[shturl]]。
+- 正文边界：未修改[[review/综述正文草案]]或TeX格式稿。
+
+## [2026-08-20] ingest | 5.4精准补充下载批次
+
+- 状态：completed（6项新增；2项完全重复跳过）
+- raw操作：依用户本批临时授权，将6份新PDF从`wiki/review/downloads/5.4/`复制至`raw/inbox`；未删除或改写既有raw文件。
+- 去重：Baldassarri 2026与Papalambros 2019下载件经SHA-256核验分别与既有raw来源完全一致，未重复Ingest。
+- 新建来源页：[[source-pages/henao-2022-in-ear-eeg-clas]]、[[source-pages/jourde-2025-spindle-clas]]、[[source-pages/channa-2026-in-ear-eeg-review]]、[[source-pages/coon-2026-closed-loop-design-notes]]、[[source-pages/grimaldi-2019-sleep-autonomic-acoustic]]、[[source-pages/papalambros-2017-acoustic-enhancement-older]]。
+- 新建设备页：[[device/耳内EEG慢波闭环刺激系统（Henao）]]；更新[[device/Portiloop]]与[[concept/耳内 EEG]]。
+- 证据结论：Henao关闭实验室耳内EEG检测—实际刺激硬缺口，但不支持居家多夜成熟度；Jourde将Portiloop系统族推进到10人×计划6夜的居家人体闭环，并报告约20%数据损失。
+- 更新：[[review/5.4典型闭环系统横向比较表]]、[[review/文献清单/05-系统形态-5.4-精准补充文献需求包]]、[[review/证据矩阵]]、第5章矩阵、审计与数字回查、[[index]]、[[shturl]]。
+- 保留缺口：居家多夜耳内闭环、同版本Portiloop工程—人体配对、声音到耳物理时延、逐系统统一失败夜分母。
+- 正文边界：未修改v10、[[review/综述正文草案]]或TeX格式稿。
+
+## [2026-08-20] review-release | v10的5.4再审计、v11受限更新与四点回查
+
+- 状态：completed（受限放行）
+- 新建审计：[[review/5.4-v10新证据再审计报告]]；定位Portiloop“仅工程案例”、耳内闭环“无直接证据”及对应缺口结论等过时表述。
+- 新版本：[[review/综述正文v11草案-2.2至6.5]]完整继承v10；只修改5.4正文及与5.4直接对应的版本继承说明，其他章节正文未改。
+- Portiloop：更新为Valenchon工程标定—Jourde Portiloop v2居家人体研究的系统族；新增10人×计划6夜、2.6±0.5/2.2±0.6保留夜、约20%数据损失和97.6%刺激时机；不同版本不拼接总性能。
+- 耳内EEG：新增Henao实验室午睡人体闭环；保留Mikkelsen/Naox为监测候选，不外推为居家多夜成熟系统。
+- 四点回查：[[review/5.4-v11新增数字四点回查报告]]确认新增数字同时存在于v11、系统表、总矩阵和直接来源页。
+- 下载冻结：不再下载普通系统或算法论文；只为居家多夜耳内闭环、Portiloop同版本配对、声音到耳物理时延和统一夜级分母恢复补证。
+- 正文边界：未修改[[review/综述正文草案]]或TeX格式稿。

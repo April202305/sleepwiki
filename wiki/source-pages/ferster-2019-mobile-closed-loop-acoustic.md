@@ -4,7 +4,7 @@ aliases: ["Ferster 2019 MHSL-SB"]
 created: 2026-08-18
 updated: 2026-08-20
 sources: []
-review_sections: ["2.1", "2.3", "3.1"]
+review_sections: ["2.1", "2.3", "3.1", "5.4"]
 status: active
 review_due: 2027-08-18
 ---
@@ -46,4 +46,5 @@ review_due: 2027-08-18
 
 ## 来源
 - 专项比较：[[review/2.3形式化指标与系统比较表]]
+- 系统比较：[[review/5.4典型闭环系统横向比较表]]
 - `raw/inbox/ferster-2019-mobile-closed-loop-acoustic.pdf`
