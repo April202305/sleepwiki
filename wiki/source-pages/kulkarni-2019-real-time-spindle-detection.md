@@ -2,7 +2,7 @@
 type: source
 aliases: ["Kulkarni 2019 SpindleNet"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-20
 sources: []
 review_sections: ["2.2", "2.3", "4.2"]
 status: active
@@ -50,4 +50,5 @@ review_due: 2027-08-18
 - [[review/文献清单/04-全周期-4.2-文献需求单]]
 
 ## 来源
+- 专项比较：[[review/2.3形式化指标与系统比较表]]
 - `raw/inbox/kulkarni-2019-real-time-spindle-detection.html`

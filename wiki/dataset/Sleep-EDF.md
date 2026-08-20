@@ -2,7 +2,7 @@
 type: dataset
 aliases: ["Sleep-EDF Expanded", "Sleep-EDF-20", "Sleep-EDF-78", "Sleep-EDF-v1"]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-08-20
 sources: ["source-pages/eldele-2021-attention-based-single-channel-eeg", "source-pages/zhou-2022-singlechannelnet"]
 status: active
 review_due: 2027-08-11
@@ -42,3 +42,4 @@ review_due: 2027-08-11
 - [[model/DeepSleepNet]]、[[model/SeqSleepNet]]、[[model/SleepEEGNet]]、[[model/SleepTransformer]]
 - [[source-pages/phan-mikkelsen-2022-automatic-sleep-staging]]
 - [[review/完整综述大纲]]
+- [[review/2.2公开数据集、标签体系与验证协议比较表]]

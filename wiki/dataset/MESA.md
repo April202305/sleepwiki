@@ -2,7 +2,7 @@
 type: dataset
 aliases: ["Multi-Ethnic Study of Atherosclerosis"]
 created: 2026-08-12
-updated: 2026-08-12
+updated: 2026-08-20
 sources: ["source-pages/phan-mikkelsen-2022-automatic-sleep-staging"]
 review_sections: ["4", "6", "7"]
 status: active
@@ -39,3 +39,4 @@ Phan 和 Mikkelsen 的自动睡眠分期系统比较表中列有 MESA；当前�
 - [[review/chapters/04-多模态睡眠检测算法]]、[[review/chapters/06-现有研究对比]]
 - [[concept/领域自适应]]、[[concept/模型压缩与端侧部署]]
 - [[review/完整综述大纲]]
+- [[review/2.2公开数据集、标签体系与验证协议比较表]]

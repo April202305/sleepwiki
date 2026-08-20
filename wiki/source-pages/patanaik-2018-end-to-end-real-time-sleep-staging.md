@@ -2,7 +2,7 @@
 type: source
 aliases: ["Patanaik 2018 real-time sleep staging"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-20
 sources: []
 review_sections: ["2.2", "2.3"]
 status: active
@@ -46,4 +46,5 @@ review_due: 2027-08-18
 - ⚠️ 未完整报告采集、缓冲、预处理、通信、决策和刺激执行的分段及统一总时延。
 
 ## 来源
+- 专项比较：[[review/2.3形式化指标与系统比较表]]
 - `raw/inbox/patanaik-2018-end-to-end-real-time-sleep-staging.pdf`

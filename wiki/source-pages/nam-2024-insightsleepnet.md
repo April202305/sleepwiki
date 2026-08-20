@@ -2,7 +2,7 @@
 type: source
 aliases: ["InsightSleepNet 2024"]
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-20
 sources: []
 review_sections: ["2.2", "6.2"]
 status: active
@@ -33,7 +33,8 @@ InsightSleepNet使用连续PPG而非EEG，以因果TCN和局部注意力结合�
 
 ## 关联词条
 - 模型：[[model/InsightSleepNet]]
-- 数据集：[[dataset/MESA]]
+- 数据集：[[dataset/MESA]]、[[dataset/CAP Sleep]]
+- 数据集比较：[[review/2.2公开数据集、标签体系与验证协议比较表]]
 - 概念：[[concept/不确定性与拒绝输出]]、[[concept/时序上下文]]
 
 ## 局限与待核实

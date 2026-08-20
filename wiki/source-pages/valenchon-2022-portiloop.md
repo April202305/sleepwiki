@@ -2,7 +2,7 @@
 type: source
 aliases: ["Valenchon 2022", "Portiloop paper"]
 created: 2026-08-17
-updated: 2026-08-18
+updated: 2026-08-20
 sources: ["raw/inbox/valenchon-2022-portiloop.pdf"]
 review_sections: ["1.2", "2.2", "2.3"]
 status: active
@@ -40,4 +40,6 @@ review_due: 2027-08-17
 - [[review/文献清单/04-全周期-4.2-文献需求单]]
 
 ## 来源
+- 专项比较：[[review/2.3形式化指标与系统比较表]]
+- 数据集：[[dataset/MODA]]；数据集比较：[[review/2.2公开数据集、标签体系与验证协议比较表]]
 - `raw/inbox/valenchon-2022-portiloop.pdf`

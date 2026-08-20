@@ -2,7 +2,7 @@
 type: source
 aliases: ["Piorecky 2021 real-time slow oscillation"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-20
 sources: []
 review_sections: ["2.3", "3.1", "6.3"]
 status: active
@@ -43,4 +43,5 @@ review_due: 2027-08-18
 - [[review/文献清单/06-挑战展望-6.3-文献需求单]]
 
 ## 来源
+- 专项比较：[[review/2.3形式化指标与系统比较表]]
 - `raw/inbox/piorecky-2021-real-time-slow-oscillation.pdf`

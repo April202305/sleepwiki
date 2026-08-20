@@ -2,7 +2,7 @@
 type: review
 aliases: ["文献清单目录"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-20
 sources: ["[[review/文献清单/全章节文献需求总览]]", "[[review/文献清单/文献下载清单]]"]
 review_sections: []
 status: active
@@ -25,6 +25,7 @@ review_due: 2026-09-18
 - [[review/文献清单/02-技术基础-2.1-文献需求单]]
 - [[review/文献清单/02-技术基础-2.2-文献需求单]]
 - [[review/文献清单/02-技术基础-2.3-文献需求单]]
+- [[review/文献清单/02-技术基础-2.3-精准补充文献需求包]]
 
 ## 第 3 章
 - [[review/文献清单/03-慢波干预-3.1-文献需求单]]

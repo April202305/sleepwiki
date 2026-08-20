@@ -2,7 +2,7 @@
 type: source
 aliases: ["MTFF-Net"]
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-20
 sources: []
 review_sections: ["2.2"]
 status: active
@@ -25,4 +25,5 @@ EEG、ECG、EOG和EMG经STFT后进入多尺度EEGNet与BiGRU，在ISRUC-S3五分
 ## 局限与待核实
 - ⚠️多模态、双向离线模型，不能代表可穿戴单导EEG实时性能。
 ## 来源
+- 数据集：[[dataset/ISRUC-Sleep]]；比较：[[review/2.2公开数据集、标签体系与验证协议比较表]]
 - `raw/inbox/cn-08-38403601.pdf`

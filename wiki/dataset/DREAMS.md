@@ -2,7 +2,7 @@
 type: dataset
 aliases: ["DREAMS Sleep Spindles Database"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-20
 sources: ["source-pages/kulkarni-2019-real-time-spindle-detection"]
 review_sections: ["2.2"]
 status: needs_review
@@ -37,3 +37,4 @@ review_due: 2027-08-18
 
 ## 来源
 - [[source-pages/kulkarni-2019-real-time-spindle-detection]]
+- [[review/2.2公开数据集、标签体系与验证协议比较表]]

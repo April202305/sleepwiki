@@ -2,7 +2,7 @@
 type: source
 aliases: ["Esfahani 2023", "CLAS best practices"]
 created: 2026-08-17
-updated: 2026-08-18
+updated: 2026-08-20
 sources: ["raw/inbox/esfahani-2023-closed-loop-auditory-principles.pdf"]
 review_sections: ["1.2", "2.2", "2.3", "3.1", "6.3", "6.4"]
 status: active
@@ -50,4 +50,5 @@ review_due: 2027-08-17
 
 ## 来源
 
+- 专项比较：[[review/2.3形式化指标与系统比较表]]
 - `raw/inbox/esfahani-2023-closed-loop-auditory-principles.pdf`
