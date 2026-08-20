@@ -2,7 +2,7 @@
 type: source
 aliases: ["Lustenberger 2016", "spindle FB-tACS"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-20
 sources: ["raw/inbox/lustenberger-2016-feedback-tacs-spindle.html"]
 review_sections: ["4.2", "5.2"]
 status: active
@@ -31,6 +31,7 @@ review_due: 2027-08-18
 ## 关联词条
 - 干预：[[intervention/闭环经颅交流电刺激]]
 - 综述：[[review/文献清单/04-全周期-4.2-文献需求单]]、[[review/证据包/04-全周期-4.2-P1-证据包]]、[[review/证据矩阵]]
+- 控制类型：[[review/5.2电磁刺激闭环控制类型比较表]]
 
 ## 局限与待核实
 - ⚠️只纳入男性；运动记忆速度、准确性和陈述性记忆终点不可合并。

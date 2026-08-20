@@ -2,7 +2,7 @@
 type: source
 aliases: ["Danilenko 2020"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-20
 sources: ["raw/inbox/danilenko-2020-visual-vs-acoustic.pdf"]
 review_sections: ["5.3"]
 status: active
@@ -29,6 +29,7 @@ review_due: 2027-08-18
 ## 关联词条
 - 干预：[[intervention/闭环听觉刺激]]
 - 综述：[[review/文献清单/05-系统形态-5.3-文献需求单]]、[[review/证据矩阵]]
+- 控制属性：[[review/5.3非听觉刺激状态触发比较表]]
 
 ## 局限与待核实
 - ⚠️样本仅 9 人；无振动或温度干预，不能代表所有非听觉模态。

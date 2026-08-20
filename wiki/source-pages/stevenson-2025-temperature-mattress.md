@@ -2,7 +2,7 @@
 type: source
 aliases: ["Stevenson 2025 temperature mattress cover"]
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-20
 sources: []
 review_sections: ["5.3", "6.5"]
 status: active
@@ -32,6 +32,7 @@ review_due: 2027-08-19
 
 ## 关联词条
 - 干预：[[intervention/开放环温控床罩]]
+- 控制属性：[[review/5.3非听觉刺激状态触发比较表]]
 - 概念：[[concept/闭环控制]]
 
 ## 局限与待核实
