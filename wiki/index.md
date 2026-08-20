@@ -262,6 +262,12 @@
 
 ### 2026-08-19 v3 缺口补充批次
 
+### 2026-08-20 2.3精准补充Ingest批次
+
+- [[source-pages/bazregarzadeh-2026-clas-hdeeg]]、[[source-pages/wong-2026-intracranial-closed-loop]]、[[source-pages/kasties-2025-home-ptas-isi]]：2.3新增系统、临床链路与居家剂量证据。`source`｜2026-08-20｜各1个原始来源
+- [[source-pages/fattinger-2017-deep-sleep-learning]]、[[source-pages/fattinger-2019-epilepsy-clas]]、[[source-pages/leach-2025-local-modulation-timing]]、[[source-pages/sardooeinasab-2026-brain-heart-timing]]：慢波操控、安全、ISI及脑心时机边界。`source`｜2026-08-20｜各1个原始来源
+- [[source-pages/kothe-2025-lsl-sync]]：多设备时钟同步与setup offset的邻近工程参考。`source`｜2026-08-20｜1个原始来源
+
 - [[source-pages/mousavi-2019-sleepeegnet]]、[[source-pages/phan-2019-seqsleepnet]]、[[source-pages/phan-2022-sleeptransformer]]、[[source-pages/guo-2024-flexsleeptransformer]]：CNN-RNN 与 Transformer 原始算法、未来上下文和跨数据集边界。`source`｜2026-08-19｜各 1 个原始来源
 - [[source-pages/mikkelsen-2019-around-ear-rf-staging]]、[[source-pages/huang-2025-multisess]]、[[source-pages/zhang-2026-mamba-wearable-staging]]：耳周 EEG 随机森林、EEG SSM 和无 EEG 可穿戴 Mamba。`source`｜2026-08-19｜各 1 个原始来源
 - [[source-pages/haggerty-2026-thalamus]]、[[source-pages/takahashi-2026-phase-synchronized-rtms-tacs]]、[[source-pages/stevenson-2025-temperature-mattress]]：同步平台、睡眠相位同步磁—电刺激和开放环温控参照。`source`｜2026-08-19｜各 1 个原始来源

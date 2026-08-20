@@ -873,3 +873,13 @@
 - 新版本：[[review/综述正文v7草案-2.2至6.5]]完整继承v6，只重排2.2；2.3—6.5保持继承一致。
 - 同步更新：[[review/证据包/02-技术基础-2.2-P1-证据包]]、[[review/章节证据矩阵/第2章-技术基础证据矩阵]]、相关数据集/来源页、[[index]]和[[shturl]]。
 - 正文边界：未修改v6、[[review/综述正文草案]]或TeX格式稿。
+
+## [2026-08-20] ingest | 2.3精准补充下载批次
+
+- 状态：completed（8项新增；2项完全重复跳过）
+- raw操作：依用户本批临时授权，将8份新PDF从`wiki/review/downloads/2.3/`复制至`raw/inbox`；未删除或改写既有raw文件。
+- 去重：Navarrete与Debellemanière下载件经SHA-256核验分别与既有raw来源完全一致，未重复Ingest。
+- 新建来源页：[[source-pages/bazregarzadeh-2026-clas-hdeeg]]、[[source-pages/wong-2026-intracranial-closed-loop]]、[[source-pages/kasties-2025-home-ptas-isi]]、[[source-pages/fattinger-2017-deep-sleep-learning]]、[[source-pages/fattinger-2019-epilepsy-clas]]、[[source-pages/leach-2025-local-modulation-timing]]、[[source-pages/sardooeinasab-2026-brain-heart-timing]]、[[source-pages/kothe-2025-lsl-sync]]。
+- 证据结论：CLAS-hdEEG补充20.03±0.5 ms检测至刺激标记和0.913相位窗命中，但仍非声音到耳物理总时延；Kothe仅为6.3邻近同步工程参考。
+- 更新：[[review/2.3形式化指标与系统比较表]]、[[review/证据包/02-技术基础-2.3-P1-证据包]]、[[review/文献清单/02-技术基础-2.3-精准补充文献需求包]]、[[index]]、[[shturl]]。
+- 保留缺口：声音真正到耳、P95/P99和逐机会完整结局仍未闭合；正文与TeX均未修改。
