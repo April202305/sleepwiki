@@ -1,13 +1,14 @@
 % !TEX program = xelatex
-% 由 20140521141822tgmb.dot 等版转换；使用 XeLaTeX 编译。
+% 版式参照 20260008-潘家辉-AI-final_temp.docx；使用 XeLaTeX 编译。
 \documentclass[UTF8,zihao=5,fontset=none]{ctexart}
-\usepackage[a4paper,top=1.35cm,bottom=1.55cm,left=1.75cm,right=1.75cm]{geometry}
-\usepackage{fontspec,array,tabularx,graphicx}
+\usepackage[a4paper,top=2.20cm,bottom=2.20cm,left=1.951cm,right=1.951cm,
+  headheight=0pt,headsep=0pt,footskip=1.25cm]{geometry}
+\usepackage{fontspec,array,tabularx,graphicx,multicol}
 \usepackage[normalem]{ulem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{xurl}
 \usepackage{setspace}
-\pagestyle{empty}
+\pagestyle{plain}
 \setmainfont{Times New Roman}
 \setCJKmainfont[BoldFont=Songti SC Bold]{Songti SC}
 \setCJKfamilyfont{song}{Songti SC}
@@ -21,20 +22,19 @@
 \setlength{\parindent}{2em}
 \setlength{\parskip}{0pt}
 \setlength{\tabcolsep}{4pt}
-\linespread{1.03}
-\newcommand{\levelone}[1]{\par\vspace{4pt}{\centering\hei\zihao{-4}#1\par}\vspace{2pt}}
-\newcommand{\leveltwo}[1]{\par\vspace{2pt}{\noindent\fs\zihao{5}#1\par}}
-\newcommand{\levelthree}[1]{\par\noindent{\kai\zihao{5}#1}}
-\newcommand{\journalhead}{%
-  \noindent\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r@{}}
-  \song\zihao{5}2006 年第 1 期 & \song\zihao{5}华 南 师 范 大 学 学 报（社会科学版） & \song\zihao{5}2006 年 1 月\\[-1pt]
-  \song\zihao{5}No.1,2006 & \zihao{5}JOURNAL OF SOUTH CHINA NORMAL UNIVERSITY & \zihao{5}Jan.，2006\\[-2pt]
-  & \zihao{5}（SOCIAL SCIENCE EDITION） &
-  \end{tabular*}\par\vspace{2pt}\hrule height 1.2pt\vspace{1.2pt}\hrule height .35pt\vspace{14pt}}
+\setlength{\columnsep}{0.68cm}
+\AtBeginDocument{\fontsize{10pt}{16pt}\selectfont\song}
+\newcommand{\levelone}[1]{%
+  \par\vspace{8pt}\noindent{\hei\fontsize{12pt}{16pt}\selectfont\bfseries #1\par}\vspace{4pt}}
+\newcommand{\leveltwo}[1]{%
+  \par\vspace{6pt}\noindent{\hei\fontsize{10pt}{16pt}\selectfont\bfseries #1\par}\vspace{2pt}}
+\newcommand{\levelthree}[1]{%
+  \par\vspace{2pt}\noindent{\hei\fontsize{10pt}{16pt}\selectfont\bfseries #1}}
+\newcommand{\journalhead}{}
 \newcommand{\titleblock}{%
   \begin{center}
-  {\song\zihao{2}从监测到调控——闭环睡眠干预技术的研究进展与挑战\par}
-  \end{center}\vspace{7pt}}
+  {\song\fontsize{16pt}{22pt}\selectfont 从监测到调控——闭环睡眠干预技术的研究进展与挑战\par}
+  \end{center}\vspace{14pt}}
 \newcommand{\cnabstract}{%
   {\fs\zihao{-5}\noindent 摘要：介绍了论文格式和书写，作者可以按此短文的格式排版。\hfill（小五仿）\par
   \noindent 关键词：论文；修改；格式\hfill（小五仿）\par}
@@ -90,8 +90,9 @@ PSG 通过多导 EEG 描述脑电活动的空间分布，EOG 和颏肌 EMG 分�
 
 辅助模态的选择应对应低通道 EEG 的具体信息缺口：EOG 有助于识别快速眼动，EMG 提供肌张力与觉醒信息，光电容积描记（photoplethysmography，PPG）反映脉搏及自主神经变化，加速度计（accelerometer，ACC）用于识别体动和姿势。Shustak 等开发的柔性临时纹身电极阵列能够同步采集 EEG、EOG 和 EMG，并在医院及家庭环境获得稳定记录；其 6 小时睡眠记录呈现出可区分的睡眠阶段，但研究定位仍属于多模态居家监测的可行性验证\textsuperscript{[25]}。多模态的增益还需结合具体任务判断。Melo 等在 23 名健康参与者的同步 PSG 研究中比较单通道 EEG 头带单独使用及联合腕部体动记录的结果：加入体动信息后，两种设备组合的 N1 错误率分别由 15.7\% 降至 9.8\%、由 27.7\% 降至 17.0\%，但研究者认为体动信息对整体模型的贡献较小\textsuperscript{[26]}。因此，多模态方案应报告其对难分阶段、伪影拒绝和觉醒保护的边际贡献，并同时评价同步误差、功耗、佩戴负担和模态缺失成本。对于闭环系统而言，多模态的核心价值在于提高高风险状态下的拒绝触发能力，并在局部 EEG 质量下降时维持更稳健的安全状态估计。
 
-\vspace{3pt}\noindent{\hei 参考文献：}\par
-{\song\zihao{-5}\setlength{\parindent}{0pt}\setlength{\parskip}{1pt}
+\vspace{8pt}\noindent{\hei\fontsize{10pt}{16pt}\selectfont\bfseries 参考文献}\par\vspace{2pt}
+\begin{multicols}{2}
+{\song\fontsize{9pt}{15pt}\selectfont\setlength{\parindent}{0pt}\setlength{\parskip}{1pt}
 [1]\quad BASSETTI C L A, WELTER L S, MONTES-MARTINEZ M, et al. Epidemiology and economic burden of sleep disorders in Europe. European Journal of Neurology, 2026, 33(2): e70463.\par
 [2]\quad VAN STRATEN A, WEINREICH K J, F\'ABIAN B, et al. The prevalence of insomnia disorder in the general population: A meta-analysis. Journal of Sleep Research, 2025, 34(5): e70089.\par
 [3]\quad BENJAFIELD A V, SERT KUNIYOSHI F H, MALHOTRA A, et al. Estimation of the global prevalence and burden of insomnia in adults: A systematic review and modelling study. Sleep Medicine Reviews, 2025, 82: 102121.\par
@@ -118,6 +119,7 @@ PSG 通过多导 EEG 描述脑电活动的空间分布，EOG 和颏肌 EMG 分�
 [24]\quad PAZUELO L, et al. Evaluating the electroencephalographic signal quality of an in-ear wearable device. Sensors, 2024, 24(12): 3973.\par
 [25]\quad SHUSTAK S, INZELBERG L, STEINBERG S, et al. Home monitoring of sleep with a temporary-tattoo EEG, EOG and EMG electrode array: A feasibility study. Journal of Neural Engineering, 2019, 16: 026024.\par
 [26]\quad MELO M C, VALLIM J R S, GARBUIO S, et al. Validation of a sleep staging classification model for healthy adults based on two combinations of a single-channel EEG headband and wrist actigraphy. Journal of Clinical Sleep Medicine, 2024, 20(6): 983--990.\par}
+\end{multicols}
 % END REVIEW BODY
 
 \end{document}
