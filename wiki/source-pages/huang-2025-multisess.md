@@ -2,7 +2,7 @@
 type: source
 aliases: ["Huang 2025 MultiSEss"]
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-22
 sources: []
 review_sections: ["2.2"]
 status: active
@@ -20,6 +20,33 @@ review_due: 2027-08-19
 - 英文原题：MultiSEss: Automatic Sleep Staging Model Based on SE Attention Mechanism and State Space Model
 - 录入日期：2026-08-19
 - review_sections：["2.2"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.3390/biomimetics10050288），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Zhentao Huang; Yuyao Yang; Zhiyuan Wang; Yuan Li; Zuowen Chen; Yahong Ma; Shanwen Zhang
+- 原始题名：MultiSEss: Automatic Sleep Staging Model Based on SE Attention Mechanism and State Space Model
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Biomimetics
+- 出版年：2025
+- 卷：10
+- 期：5
+- 起止页码：
+- 文章号：288
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.3390/biomimetics10050288
+- URL：https://doi.org/10.3390/biomimetics10050288
+- 发表或更新日期：2025-05-03
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：HUANG Z, YANG Y, WANG Z, 等. MultiSEss: Automatic Sleep Staging Model Based on SE Attention Mechanism and State Space Model[J/OL]. Biomimetics, 2025, 10(5): 288. DOI:10.3390/biomimetics10050288.
 
 ## 核心摘要
 

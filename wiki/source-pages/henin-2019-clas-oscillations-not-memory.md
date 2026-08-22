@@ -2,7 +2,7 @@
 type: source
 aliases: ["Henin 2019"]
 created: 2026-08-18
-updated: 2026-08-20
+updated: 2026-08-22
 sources: ["raw/inbox/henin-2019-clas-oscillations-not-memory.pdf"]
 review_sections: ["3.2", "3.3", "6.1"]
 status: active
@@ -19,6 +19,33 @@ review_due: 2027-08-18
 - 英文原题：Closed-Loop Acoustic Stimulation Enhances Sleep Oscillations But Not Memory Performance
 - DOI：10.1523/ENEURO.0306-19.2019
 - review_sections：["3.2", "3.3", "6.1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1523/eneuro.0306-19.2019），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Simon Henin; Helen Borges; Anita Shankar; Cansu Sarac; Lucia Melloni; Daniel Friedman; Adeen Flinker; Lucas C. Parra; Gyorgy Buzsaki; Orrin Devinsky; Anli Liu
+- 原始题名：Closed-Loop Acoustic Stimulation Enhances Sleep Oscillations But Not Memory Performance
+- 文献类型标识：[J/OL]
+- 载体或容器题名：eneuro
+- 出版年：2019
+- 卷：6
+- 期：6
+- 起止页码：
+- 文章号：ENEURO.0306-19.2019
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1523/eneuro.0306-19.2019
+- URL：https://doi.org/10.1523/eneuro.0306-19.2019
+- 发表或更新日期：2019-10-11
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：HENIN S, BORGES H, SHANKAR A, 等. Closed-Loop Acoustic Stimulation Enhances Sleep Oscillations But Not Memory Performance[J/OL]. eneuro, 2019, 6(6): ENEURO.0306-19.2019. DOI:10.1523/eneuro.0306-19.2019.
 
 ## 核心摘要
 

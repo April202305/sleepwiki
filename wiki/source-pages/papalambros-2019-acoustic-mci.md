@@ -2,7 +2,7 @@
 type: source
 aliases: ["Papalambros 2019", "aMCI acoustic stimulation"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/papalambros-2019-acoustic-mci.pdf"]
 review_sections: ["3.2", "3.3", "3.4"]
 status: active
@@ -19,6 +19,33 @@ review_due: 2027-08-18
 - 英文原题：Acoustic enhancement of sleep slow oscillations in mild cognitive impairment
 - DOI：10.1002/acn3.796
 - review_sections：["3.2", "3.3", "3.4"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1002/acn3.796），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Nelly A. Papalambros; Sandra Weintraub; Tammy Chen; Daniela Grimaldi; Giovanni Santostasi; Ken A. Paller; Phyllis C. Zee; Roneil G. Malkani
+- 原始题名：Acoustic enhancement of sleep slow oscillations in mild cognitive impairment
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Annals of Clinical and Translational Neurology
+- 出版年：2019
+- 卷：6
+- 期：7
+- 起止页码：1191-1201
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1002/acn3.796
+- URL：https://doi.org/10.1002/acn3.796
+- 发表或更新日期：2019-07
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：PAPALAMBROS N A, WEINTRAUB S, CHEN T, 等. Acoustic enhancement of sleep slow oscillations in mild cognitive impairment[J/OL]. Annals of Clinical and Translational Neurology, 2019, 6(7): 1191-1201. DOI:10.1002/acn3.796.
 
 ## 核心摘要
 

@@ -2,7 +2,7 @@
 type: source
 aliases: ["Piorecky 2021 real-time slow oscillation"]
 created: 2026-08-18
-updated: 2026-08-20
+updated: 2026-08-22
 sources: []
 review_sections: ["2.3", "3.1", "6.3"]
 status: active
@@ -21,6 +21,33 @@ review_due: 2027-08-18
 - DOI：10.3390/s21155169
 - 录入日期：2026-08-18
 - review_sections：["2.3", "3.1", "6.3"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.3390/s21155169），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Marek Piorecky; Vlastimil Koudelka; Vaclava Piorecka; Jan Strobl; Daniela Dudysova; Jana Koprivova
+- 原始题名：Real-Time Excitation of Slow Oscillations during Deep Sleep Using Acoustic Stimulation
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Sensors
+- 出版年：2021
+- 卷：21
+- 期：15
+- 起止页码：
+- 文章号：5169
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.3390/s21155169
+- URL：https://doi.org/10.3390/s21155169
+- 发表或更新日期：2021-07-30
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：PIORECKY M, KOUDELKA V, PIORECKA V, 等. Real-Time Excitation of Slow Oscillations during Deep Sleep Using Acoustic Stimulation[J/OL]. Sensors, 2021, 21(15): 5169. DOI:10.3390/s21155169.
 
 ## 核心摘要
 研究基于慢性失眠实验记录比较固定步长与 PLL 慢波声刺激。测试集为 9 名受试者的 18 份记录；算法比较主要通过离线 EEG 实时回放完成。固定步长在检测后预设 350 ms 发出第一次刺激，1.075 s 后第二次刺激，再暂停 2.5 s。[[source-pages/piorecky-2021-real-time-slow-oscillation|本来源]]（PDF 第 4–7 页）

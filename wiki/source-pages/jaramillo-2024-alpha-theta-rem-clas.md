@@ -2,7 +2,7 @@
 type: source
 aliases: ["Jaramillo 2024", "REM alpha theta CLAS"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/jaramillo-2024-alpha-theta-rem-clas.pdf"]
 review_sections: ["4.3"]
 status: needs_review
@@ -19,6 +19,33 @@ review_due: 2027-02-18
 - 英文原题：Closed-loop auditory stimulation targeting alpha and theta oscillations during REM sleep induces phase-dependent power and frequency changes
 - DOI：10.1101/2024.03.03.582907
 - review_sections：["4.3"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1101/2024.03.03.582907），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Valeria Jaramillo; Henry Hebron; Sara Wong; Giuseppe Atzori; Ullrich Bartsch; Derk-Jan Dijk; Ines R. Violante
+- 原始题名：Closed-loop auditory stimulation targeting alpha and theta oscillations during REM sleep induces phase-dependent power and frequency changes
+- 文献类型标识：[A/OL]
+- 载体或容器题名：bioRxiv
+- 出版年：2024
+- 卷：
+- 期：
+- 起止页码：
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1101/2024.03.03.582907
+- URL：https://doi.org/10.1101/2024.03.03.582907
+- 发表或更新日期：2024-03-06
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：JARAMILLO V, HEBRON H, WONG S, 等. Closed-loop auditory stimulation targeting alpha and theta oscillations during REM sleep induces phase-dependent power and frequency changes[A/OL]. bioRxiv, 2024[2026-08-22]. https://doi.org/10.1101/2024.03.03.582907. DOI:10.1101/2024.03.03.582907.
 
 ## 核心摘要
 

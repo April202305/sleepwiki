@@ -2,7 +2,7 @@
 type: source
 aliases: ["Patanaik 2018 real-time sleep staging"]
 created: 2026-08-18
-updated: 2026-08-20
+updated: 2026-08-22
 sources: []
 review_sections: ["2.2", "2.3"]
 status: active
@@ -21,6 +21,33 @@ review_due: 2027-08-18
 - 期刊/DOI：SLEEP；10.1093/sleep/zsy041
 - 录入日期：2026-08-18
 - review_sections：["2.2", "2.3"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1093/sleep/zsy041），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Amiya Patanaik; Ju Lynn Ong; Joshua J Gooley; Sonia Ancoli-Israel; Michael W L Chee
+- 原始题名：An end-to-end framework for real-time automatic sleep stage classification
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Sleep
+- 出版年：2018
+- 卷：41
+- 期：5
+- 起止页码：
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1093/sleep/zsy041
+- URL：https://doi.org/10.1093/sleep/zsy041
+- 发表或更新日期：2018-03-26
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：PATANAIK A, ONG J L, GOOLEY J J, 等. An end-to-end framework for real-time automatic sleep stage classification[J/OL]. Sleep, 2018, 41(5). DOI:10.1093/sleep/zsy041.
 
 ## 核心摘要
 

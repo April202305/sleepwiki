@@ -2,7 +2,7 @@
 type: source
 aliases: ["Sobral 2025", "continual spindle learning"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/sobral-2023-continual-learning-spindle.pdf"]
 review_sections: ["4.2", "6.2"]
 status: active
@@ -19,6 +19,33 @@ review_due: 2027-08-18
 - 英文原题：Personalizing brain stimulation: continual learning for sleep spindle detection
 - DOI：10.1088/1741-2552/adebb1
 - review_sections：["4.2", "6.2"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1088/1741-2552/adebb1），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Milo Sobral; Hugo R Jourde; S Ehsan M Bajestani; Emily B J Coffey; Giovanni Beltrame
+- 原始题名：Personalizing brain stimulation: continual learning for sleep spindle detection
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Neural Engineering
+- 出版年：2025
+- 卷：22
+- 期：4
+- 起止页码：
+- 文章号：046016
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1088/1741-2552/adebb1
+- URL：https://doi.org/10.1088/1741-2552/adebb1
+- 发表或更新日期：2025-07-15
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：SOBRAL M, JOURDE H R, EHSAN M BAJESTANI S, 等. Personalizing brain stimulation: continual learning for sleep spindle detection[J/OL]. Journal of Neural Engineering, 2025, 22(4): 046016. DOI:10.1088/1741-2552/adebb1.
 
 ## 核心摘要
 

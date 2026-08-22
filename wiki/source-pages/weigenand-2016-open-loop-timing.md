@@ -2,7 +2,7 @@
 type: source
 aliases: ["Weigenand 2016", "Timing matters"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/Eur J of Neuroscience - 2016 - Weigenand - Timing matters  open‐loop stimulation does not improve overnight consolidation.pdf"]
 review_sections: ["1.2", "3.1"]
 status: active
@@ -22,6 +22,33 @@ review_due: 2027-08-18
 - 期刊/DOI：European Journal of Neuroscience 44:2357–2368；10.1111/ejn.13334
 - 录入日期：2026-08-18
 - review_sections：["1.2", "3.1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1111/ejn.13334），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Arne Weigenand; Matthias Mölle; Friederike Werner; Thomas Martinetz; Lisa Marshall
+- 原始题名：Timing matters: open-loop stimulation does not improve overnight consolidation of word pairs in humans
+- 文献类型标识：[J/OL]
+- 载体或容器题名：European Journal of Neuroscience
+- 出版年：2016
+- 卷：44
+- 期：6
+- 起止页码：2357-2368
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1111/ejn.13334
+- URL：https://doi.org/10.1111/ejn.13334
+- 发表或更新日期：2016-08-10
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：WEIGENAND A, MÖLLE M, WERNER F, 等. Timing matters: open-loop stimulation does not improve overnight consolidation of word pairs in humans[J/OL]. European Journal of Neuroscience, 2016, 44(6): 2357-2368. DOI:10.1111/ejn.13334.
 
 ## 核心摘要
 

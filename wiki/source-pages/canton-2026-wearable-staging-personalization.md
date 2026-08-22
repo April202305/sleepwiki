@@ -2,7 +2,7 @@
 type: source
 aliases: ["Canton 2026 wearable personalization"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/canton-2026-wearable-staging-personalization.pdf"]
 review_sections: ["6.2", "6.5"]
 status: active
@@ -18,6 +18,33 @@ review_due: 2027-08-18
 - 英文原题：What matters beyond model choice for wearable sleep staging? How personalization, evaluation choices, and easy-to-classify wake impact performance
 - DOI：10.1093/sleepadvances/zpag051
 - review_sections：["6.2", "6.5"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1093/sleepadvances/zpag051），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Eric Canton; Franco Tavella; Christopher Drake; Olivia Walch; Philip Cheng
+- 原始题名：What matters beyond model choice for wearable sleep staging? How personalization, evaluation choices, and easy-to-classify wake impact performance
+- 文献类型标识：[J/OL]
+- 载体或容器题名：SLEEP Advances
+- 出版年：2026
+- 卷：7
+- 期：2
+- 起止页码：
+- 文章号：zpag051
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1093/sleepadvances/zpag051
+- URL：https://doi.org/10.1093/sleepadvances/zpag051
+- 发表或更新日期：2026
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：CANTON E, TAVELLA F, DRAKE C, 等. What matters beyond model choice for wearable sleep staging? How personalization, evaluation choices, and easy-to-classify wake impact performance[J/OL]. SLEEP Advances, 2026, 7(2): zpag051. DOI:10.1093/sleepadvances/zpag051.
 
 ## 核心摘要
 新增 SleepAccel-Clinical（28 名 OSA 参与者的 Apple Watch 加速度与同步 PSG），并与 SleepAccel（31 人）、DREAMT（100 人）等比较；训练集中纳入 OSA 人群可改善在疑似睡眠障碍数据上的表现，简单“易分类清醒”结构会显著影响指标。[[concept/域偏移]]（PDF 第 1–4 页）

@@ -2,7 +2,7 @@
 type: source
 aliases: ["Navarrete CLAS outcome prediction"]
 created: 2026-08-18
-updated: 2026-08-20
+updated: 2026-08-22
 sources: ["raw/inbox/navarrete-2022-ongoing-oscillations-outcome.pdf"]
 review_sections: ["3.2", "4.5"]
 status: superseded
@@ -18,6 +18,33 @@ review_due: 2027-08-18
 - 英文原题：Ongoing neural oscillations predict the post-stimulus outcome of closed loop auditory stimulation during slow-wave sleep
 - DOI：10.1101/2021.05.06.443016（预印本）
 - review_sections：["3.2", "4.5"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1101/2021.05.06.443016），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Miguel Navarrete; Steven Arthur; Matthias S. Treder; Penelope A. Lewis
+- 原始题名：Ongoing neural oscillations predict the post-stimulus outcome of closed loop auditory stimulation during slow-wave sleep
+- 文献类型标识：[A/OL]
+- 载体或容器题名：bioRxiv
+- 出版年：2021
+- 卷：
+- 期：
+- 起止页码：
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1101/2021.05.06.443016
+- URL：https://doi.org/10.1101/2021.05.06.443016
+- 发表或更新日期：2021-05-07
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：NAVARRETE M, ARTHUR S, TREDER M S, 等. Ongoing neural oscillations predict the post-stimulus outcome of closed loop auditory stimulation during slow-wave sleep[A/OL]. bioRxiv, 2021[2026-08-22]. https://doi.org/10.1101/2021.05.06.443016. DOI:10.1101/2021.05.06.443016.
 
 ## 核心摘要
 基于 21 名健康青年两夜平衡 STIM/SHAM 数据，随机森林利用当前慢振荡形态预测后续慢振荡幅度的准确率约 70%，预测刺激后纺锤活动约 60%。[[concept/实时相位估计]]（PDF 第 2、5 页）

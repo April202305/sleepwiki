@@ -2,7 +2,7 @@
 type: source
 aliases: ["Pathak 2021", "Looping Lullaby"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/pathak-2021-looping-lullaby.pdf"]
 review_sections: ["4.5", "6.4"]
 status: needs_review
@@ -19,6 +19,33 @@ review_due: 2027-02-18
 - 英文原题：The looping lullaby: closed-loop neurostimulation decreases sleepers’ sensitivity to environmental noise
 - DOI：10.1101/2021.08.07.455505
 - review_sections：["4.5", "6.4"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1101/2021.08.07.455505），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Vidushi Pathak; Elsa Juan; Reina van der Goot; Lucia M. Talamini
+- 原始题名：The looping lullaby: closed-loop neurostimulation decreases sleepers’ sensitivity to environmental noise
+- 文献类型标识：[A/OL]
+- 载体或容器题名：bioRxiv
+- 出版年：2021
+- 卷：
+- 期：
+- 起止页码：
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1101/2021.08.07.455505
+- URL：https://doi.org/10.1101/2021.08.07.455505
+- 发表或更新日期：2021-08-08
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：PATHAK V, JUAN E, VAN DER GOOT R, 等. The looping lullaby: closed-loop neurostimulation decreases sleepers’ sensitivity to environmental noise[A/OL]. bioRxiv, 2021[2026-08-22]. https://doi.org/10.1101/2021.08.07.455505. DOI:10.1101/2021.08.07.455505.
 
 ## 核心摘要
 

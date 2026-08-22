@@ -2,7 +2,7 @@
 type: source
 aliases: ["Sun 2023 FPGA sleep modulation"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: []
 review_sections: ["2.2", "2.3"]
 status: active
@@ -21,6 +21,33 @@ review_due: 2027-08-18
 - DOI：10.1109/ISCAS46773.2023.10181356
 - 录入日期：2026-08-18
 - review_sections：["2.2", "2.3"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1109/iscas46773.2023.10181356），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Mingzhe Sun; Aaron Zhou; Naize Yang; Yaqian Xu; Yuhan Hou; Andrew G. Richardson; Xilin Liu
+- 原始题名：Design of a Sleep Modulation System with FPGA-Accelerated Deep Learning for Closed-loop Stage-Specific In-Phase Auditory Stimulation
+- 文献类型标识：[C/OL]
+- 载体或容器题名：2023 IEEE International Symposium on Circuits and Systems (ISCAS)
+- 出版年：2023
+- 卷：
+- 期：
+- 起止页码：1-5
+- 文章号：
+- 出版地：Monterey, CA, USA
+- 出版者：IEEE
+- 编辑：
+- 会议名称：2023 IEEE International Symposium on Circuits and Systems (ISCAS)
+- 会议地点：Monterey, CA, USA
+- 会议日期：2023-5-21 至 2023-5-25
+- DOI：10.1109/iscas46773.2023.10181356
+- URL：https://doi.org/10.1109/iscas46773.2023.10181356
+- 发表或更新日期：2023-05-21
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：SUN M, ZHOU A, YANG N, 等. Design of a Sleep Modulation System with FPGA-Accelerated Deep Learning for Closed-loop Stage-Specific In-Phase Auditory Stimulation[C/OL]//2023 IEEE International Symposium on Circuits and Systems (ISCAS). 2023: 1-5. DOI:10.1109/iscas46773.2023.10181356.
 
 ## 核心摘要
 研究将单通道 [[model/Sun FPGA 睡眠分期模型]]、慢波零交叉检测、可编程延迟与粉噪输出集成到 FPGA 系统。模型在 [[dataset/MASS]] SS2/SS3 共 81 名受试者上平均准确率 85.8%、F1 79%；模拟引擎在 20 MHz 下处理 20 秒输入少于 1 秒。[[source-pages/sun-2023-fpga-sleep-modulation|本来源]]（HTML Abstract、§III–IV）

@@ -2,7 +2,7 @@
 type: source
 aliases: ["Ketz 2018"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/ketz-2018-closed-loop-tacs-memory-generalization.pdf"]
 review_sections: ["5.2", "6.1"]
 status: active
@@ -19,6 +19,33 @@ review_due: 2027-08-18
 - 英文原题：Closed-Loop Slow-Wave tACS Improves Sleep-Dependent Long-Term Memory Generalization by Modulating Endogenous Oscillations
 - DOI：10.1523/JNEUROSCI.0273-18.2018
 - review_sections：["5.2", "6.1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1523/jneurosci.0273-18.2018），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Nicholas Ketz; Aaron P. Jones; Natalie B. Bryant; Vincent P. Clark; Praveen K. Pilly
+- 原始题名：Closed-Loop Slow-Wave tACS Improves Sleep-Dependent Long-Term Memory Generalization by Modulating Endogenous Oscillations
+- 文献类型标识：[J/OL]
+- 载体或容器题名：The Journal of Neuroscience
+- 出版年：2018
+- 卷：38
+- 期：33
+- 起止页码：7314-7326
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1523/jneurosci.0273-18.2018
+- URL：https://doi.org/10.1523/jneurosci.0273-18.2018
+- 发表或更新日期：2018-07-23
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：KETZ N, JONES A P, BRYANT N B, 等. Closed-Loop Slow-Wave tACS Improves Sleep-Dependent Long-Term Memory Generalization by Modulating Endogenous Oscillations[J/OL]. The Journal of Neuroscience, 2018, 38(33): 7314-7326. DOI:10.1523/jneurosci.0273-18.2018.
 
 ## 核心摘要
 16 名参与者的闭环 tACS 匹配 0.5–1.2 Hz 内源慢波的相位与频率。相对 sham，刺激改善新视角“泛化”图片的睡后目标检测，但未改善重复图片。[[intervention/闭环经颅交流电刺激]]（PDF 第 1–2、8–12 页）

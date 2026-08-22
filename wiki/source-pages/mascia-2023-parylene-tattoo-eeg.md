@@ -2,7 +2,7 @@
 type: source
 aliases: ["Mascia 2023", "Parylene C tattoo EEG"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/mascia-2023-parylene-tattoo-eeg.pdf"]
 review_sections: []
 status: active
@@ -20,6 +20,33 @@ review_due: 2027-08-18
 - 英文原题：Wearable System Based on Ultra-Thin Parylene C Tattoo Electrodes for EEG Recording
 - DOI：10.3390/s23020766
 - review_sections：[]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.3390/s23020766），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Antonello Mascia; Riccardo Collu; Andrea Spanu; Matteo Fraschini; Massimo Barbaro; Piero Cosseddu
+- 原始题名：Wearable System Based on Ultra-Thin Parylene C Tattoo Electrodes for EEG Recording
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Sensors
+- 出版年：2023
+- 卷：23
+- 期：2
+- 起止页码：
+- 文章号：766
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.3390/s23020766
+- URL：https://doi.org/10.3390/s23020766
+- 发表或更新日期：2023-01-09
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：MASCIA A, COLLU R, SPANU A, 等. Wearable System Based on Ultra-Thin Parylene C Tattoo Electrodes for EEG Recording[J/OL]. Sensors, 2023, 23(2): 766. DOI:10.3390/s23020766.
 
 ## 核心摘要
 

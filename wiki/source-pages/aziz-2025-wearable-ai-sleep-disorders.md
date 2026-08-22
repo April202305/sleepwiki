@@ -2,7 +2,7 @@
 type: source
 aliases: ["Aziz 2025", "wearable AI sleep disorders scoping review"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/第一句.pdf"]
 review_sections: ["1.1", "2.1", "2.2", "6.5"]
 status: active
@@ -22,6 +22,33 @@ review_due: 2027-08-18
 - DOI：10.2196/65272
 - 录入日期：2026-08-18
 - review_sections：["1.1", "2.1", "2.2", "6.5"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.2196/65272），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Sarah Aziz; Amal A M Ali; Hania Aslam; Alaa A  Abd-alrazaq; Rawan AlSaad; Mohannad Alajlani; Reham Ahmad; Laila Khalil; Arfan Ahmed; Javaid Sheikh
+- 原始题名：Wearable Artificial Intelligence for Sleep Disorders: Scoping Review
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Medical Internet Research
+- 出版年：2025
+- 卷：27
+- 期：
+- 起止页码：
+- 文章号：e65272
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.2196/65272
+- URL：https://doi.org/10.2196/65272
+- 发表或更新日期：2025-05-06
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：AZIZ S, A M ALI A, ASLAM H, 等. Wearable Artificial Intelligence for Sleep Disorders: Scoping Review[J/OL]. Journal of Medical Internet Research, 2025, 27: e65272. DOI:10.2196/65272.
 
 ## 核心摘要
 

@@ -2,7 +2,7 @@
 type: source
 aliases: ["Zhou 2022", "SCNet paper"]
 created: 2026-08-11
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/Zhou 等 - 2022 - SingleChannelNet A model for automatic sleep stage classification with raw single-channel EEG.pdf"]
 status: active
 review_due: 2027-08-11
@@ -19,6 +19,33 @@ review_due: 2027-08-11
 - 英文原题：SingleChannelNet: A model for automatic sleep stage classification with raw single-channel EEG
 - DOI：10.1016/j.bspc.2022.103592
 - 录入日期：2026-08-11
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1016/j.bspc.2022.103592），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Dongdong Zhou; Jian Wang; Guoqiang Hu; Jiacheng Zhang; Fan Li; Rui Yan; Lauri Kettunen; Zheng Chang; Qi Xu; Fengyu Cong
+- 原始题名：SingleChannelNet: A model for automatic sleep stage classification with raw single-channel EEG
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Biomedical Signal Processing and Control
+- 出版年：2022
+- 卷：75
+- 期：
+- 起止页码：
+- 文章号：103592
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1016/j.bspc.2022.103592
+- URL：https://doi.org/10.1016/j.bspc.2022.103592
+- 发表或更新日期：2022-05
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：ZHOU D, WANG J, HU G, 等. SingleChannelNet: A model for automatic sleep stage classification with raw single-channel EEG[J/OL]. Biomedical Signal Processing and Control, 2022, 75: 103592. DOI:10.1016/j.bspc.2022.103592.
 
 ## 核心摘要
 

@@ -2,7 +2,7 @@
 type: source
 aliases: ["Borsoi 2022", "Italy OSA cost-of-illness"]
 created: 2026-08-17
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/borsoi-2022-osa-cost-of-illness.pdf"]
 review_sections: ["1.1"]
 status: active
@@ -21,6 +21,33 @@ review_due: 2027-08-17
 - 英文原题：The invisible costs of obstructive sleep apnea (OSA): Systematic review and cost-of-illness analysis
 - DOI：10.1371/journal.pone.0268677
 - review_sections：["1.1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1371/journal.pone.0268677），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Ludovica Borsoi; Patrizio Armeni; Gleb Donin; Francesco Costa; Luigi Ferini-Strambi
+- 原始题名：The invisible costs of obstructive sleep apnea (OSA): Systematic review and cost-of-illness analysis
+- 文献类型标识：[J/OL]
+- 载体或容器题名：PLOS ONE
+- 出版年：2022
+- 卷：17
+- 期：5
+- 起止页码：
+- 文章号：e0268677
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1371/journal.pone.0268677
+- URL：https://doi.org/10.1371/journal.pone.0268677
+- 发表或更新日期：2022-05-20
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：BORSOI L, ARMENI P, DONIN G, 等. The invisible costs of obstructive sleep apnea (OSA): Systematic review and cost-of-illness analysis[J/OL]. PLOS ONE, 2022, 17(5): e0268677. DOI:10.1371/journal.pone.0268677.
 
 ## 核心摘要
 

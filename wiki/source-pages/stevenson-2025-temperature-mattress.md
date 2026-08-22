@@ -2,7 +2,7 @@
 type: source
 aliases: ["Stevenson 2025 temperature mattress cover"]
 created: 2026-08-19
-updated: 2026-08-20
+updated: 2026-08-22
 sources: []
 review_sections: ["5.3", "6.5"]
 status: active
@@ -20,6 +20,33 @@ review_due: 2027-08-19
 - 英文原题：Under the Covers: The Effect of a Temperature-Controlled Mattress Cover on Sleep and Perceptual Measures in Healthy Adults
 - 录入日期：2026-08-19
 - review_sections：["5.3", "6.5"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.3390/clockssleep7040055），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Shauna Stevenson; Haresh Suppiah; Toby Mündel; Matthew Driller
+- 原始题名：Under the Covers: The Effect of a Temperature-Controlled Mattress Cover on Sleep and Perceptual Measures in Healthy Adults
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Clocks & Sleep
+- 出版年：2025
+- 卷：7
+- 期：4
+- 起止页码：
+- 文章号：55
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.3390/clockssleep7040055
+- URL：https://doi.org/10.3390/clockssleep7040055
+- 发表或更新日期：2025-10-01
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：STEVENSON S, SUPPIAH H, MÜNDEL T, 等. Under the Covers: The Effect of a Temperature-Controlled Mattress Cover on Sleep and Perceptual Measures in Healthy Adults[J/OL]. Clocks & Sleep, 2025, 7(4): 55. DOI:10.3390/clockssleep7040055.
 
 ## 核心摘要
 

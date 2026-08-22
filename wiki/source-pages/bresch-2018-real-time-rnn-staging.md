@@ -2,7 +2,7 @@
 type: source
 aliases: ["Bresch 2018 causal sleep staging"]
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-22
 sources: []
 review_sections: ["2.2"]
 status: active
@@ -20,6 +20,33 @@ review_due: 2026-09-19
 - 英文原题：Recurrent Deep Neural Networks for Real-Time Sleep Stage Classification From Single Channel EEG
 - 录入日期：2026-08-19
 - review_sections：[`2.2`]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.3389/fncom.2018.00085），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Erik Bresch; Ulf Großekathöfer; Gary Garcia-Molina
+- 原始题名：Recurrent Deep Neural Networks for Real-Time Sleep Stage Classification From Single Channel EEG
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Frontiers in Computational Neuroscience
+- 出版年：2018
+- 卷：12
+- 期：
+- 起止页码：
+- 文章号：85
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.3389/fncom.2018.00085
+- URL：https://doi.org/10.3389/fncom.2018.00085
+- 发表或更新日期：2018-10-16
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：BRESCH E, GROSSEKATHÖFER U, GARCIA-MOLINA G. Recurrent Deep Neural Networks for Real-Time Sleep Stage Classification From Single Channel EEG[J/OL]. Frontiers in Computational Neuroscience, 2018, 12: 85. DOI:10.3389/fncom.2018.00085.
 
 ## 核心摘要
 

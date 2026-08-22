@@ -2,7 +2,7 @@
 type: source
 aliases: ["Zhang 2026 wearable Mamba staging"]
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-22
 sources: []
 review_sections: ["2.2", "6.2"]
 status: active
@@ -20,6 +20,33 @@ review_due: 2027-08-19
 - 英文原题：Mamba-based deep learning approach for sleep staging on a wireless multimodal wearable system without electroencephalography
 - 录入日期：2026-08-19
 - review_sections：["2.2", "6.2"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1093/sleep/zsag022），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Andrew H Zhang; Alex He-Mo; Richard Fei Yin; Chunlin Li; Yuzhi Tang; Dharmendra Gurve; Veronique van der Horst; Aron S Buchman; Nasim Montazeri Ghahjaverestan; Maged Goubran; Bo Wang; Andrew S P Lim
+- 原始题名：Mamba-based deep learning approach for sleep staging on a wireless multimodal wearable system without electroencephalography
+- 文献类型标识：[J/OL]
+- 载体或容器题名：SLEEP
+- 出版年：2026
+- 卷：49
+- 期：4
+- 起止页码：
+- 文章号：zsag022
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1093/sleep/zsag022
+- URL：https://doi.org/10.1093/sleep/zsag022
+- 发表或更新日期：2026-02-06
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：ZHANG A H, HE-MO A, YIN R F, 等. Mamba-based deep learning approach for sleep staging on a wireless multimodal wearable system without electroencephalography[J/OL]. SLEEP, 2026, 49(4): zsag022. DOI:10.1093/sleep/zsag022.
 
 ## 核心摘要
 

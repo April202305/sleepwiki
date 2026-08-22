@@ -2,7 +2,7 @@
 type: source
 aliases: ["Kulkarni 2019 SpindleNet"]
 created: 2026-08-18
-updated: 2026-08-20
+updated: 2026-08-22
 sources: []
 review_sections: ["2.2", "2.3", "4.2"]
 status: active
@@ -21,6 +21,33 @@ review_due: 2027-08-18
 - 期刊/DOI：Journal of Neural Engineering 16(3):036004；10.1088/1741-2552/ab0933
 - 录入日期：2026-08-18
 - review_sections：["2.2", "2.3", "4.2"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1088/1741-2552/ab0933），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Prathamesh M Kulkarni; Zhengdong Xiao; Eric J Robinson; Apoorva Sagarwal Jami; Jianping Zhang; Haocheng Zhou; Simon E Henin; Anli A Liu; Ricardo S Osorio; Jing Wang; Zhe Chen
+- 原始题名：A deep learning approach for real-time detection of sleep spindles
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Neural Engineering
+- 出版年：2019
+- 卷：16
+- 期：3
+- 起止页码：
+- 文章号：036004
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1088/1741-2552/ab0933
+- URL：https://doi.org/10.1088/1741-2552/ab0933
+- 发表或更新日期：2019-03-19
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：KULKARNI P M, XIAO Z, ROBINSON E J, 等. A deep learning approach for real-time detection of sleep spindles[J/OL]. Journal of Neural Engineering, 2019, 16(3): 036004. DOI:10.1088/1741-2552/ab0933.
 
 ## 核心摘要
 

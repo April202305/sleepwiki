@@ -2,7 +2,7 @@
 type: source
 aliases: ["Navarrete 2020", "CLAS optimal timing"]
 created: 2026-08-18
-updated: 2026-08-20
+updated: 2026-08-22
 sources: ["raw/inbox/navarrete-2019-optimal-timing-closed-loop.pdf"]
 review_sections: ["3.1", "3.2"]
 status: active
@@ -19,6 +19,33 @@ review_due: 2027-08-18
 - 英文原题：Examining the optimal timing for closed-loop auditory stimulation of slow-wave sleep in young and older adults
 - DOI：10.1093/sleep/zsz315
 - review_sections：["3.1", "3.2"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1093/sleep/zsz315），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Miguel Navarrete; Jules Schneider; Hong-Viet V Ngo; Mario Valderrama; Alexander J Casson; Penelope A Lewis
+- 原始题名：Examining the optimal timing for closed-loop auditory stimulation of slow-wave sleep in young and older adults
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Sleep
+- 出版年：2019
+- 卷：43
+- 期：6
+- 起止页码：
+- 文章号：zsz315
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1093/sleep/zsz315
+- URL：https://doi.org/10.1093/sleep/zsz315
+- 发表或更新日期：2019-12-24
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：NAVARRETE M, SCHNEIDER J, NGO H V, 等. Examining the optimal timing for closed-loop auditory stimulation of slow-wave sleep in young and older adults[J/OL]. Sleep, 2019, 43(6): zsz315. DOI:10.1093/sleep/zsz315.
 
 ## 核心摘要
 

@@ -2,7 +2,7 @@
 type: source
 aliases: ["Phan 2019 SeqSleepNet"]
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-22
 sources: []
 review_sections: ["2.2"]
 status: active
@@ -20,6 +20,33 @@ review_due: 2027-08-19
 - 英文原题：SeqSleepNet: End-to-End Hierarchical Recurrent Neural Network for Sequence-to-Sequence Automatic Sleep Staging
 - 录入日期：2026-08-19
 - review_sections：["2.2"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1109/tnsre.2019.2896659），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Huy Phan; Fernando Andreotti; Navin Cooray; Oliver Y. Chen; Maarten De Vos
+- 原始题名：SeqSleepNet: End-to-End Hierarchical Recurrent Neural Network for Sequence-to-Sequence Automatic Sleep Staging
+- 文献类型标识：[J/OL]
+- 载体或容器题名：IEEE Transactions on Neural Systems and Rehabilitation Engineering
+- 出版年：2019
+- 卷：27
+- 期：3
+- 起止页码：400-410
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1109/tnsre.2019.2896659
+- URL：https://doi.org/10.1109/tnsre.2019.2896659
+- 发表或更新日期：2019-03
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：PHAN H, ANDREOTTI F, COORAY N, 等. SeqSleepNet: End-to-End Hierarchical Recurrent Neural Network for Sequence-to-Sequence Automatic Sleep Staging[J/OL]. IEEE Transactions on Neural Systems and Rehabilitation Engineering, 2019, 27(3): 400-410. DOI:10.1109/tnsre.2019.2896659.
 
 ## 核心摘要
 

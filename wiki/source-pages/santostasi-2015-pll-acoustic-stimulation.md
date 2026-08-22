@@ -2,7 +2,7 @@
 type: source
 aliases: ["Santostasi 2015", "sleep PLL"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/santostasi-2015-pll-acoustic-stimulation.html"]
 review_sections: ["3.1", "3.2", "6.3"]
 status: active
@@ -19,6 +19,33 @@ review_due: 2027-08-18
 - 英文原题：Phase-Locked Loop for Precisely Timed Acoustic Stimulation during Sleep
 - DOI：10.1016/j.jneumeth.2015.11.007
 - review_sections：["3.1", "3.2", "6.3"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1016/j.jneumeth.2015.11.007），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Giovanni Santostasi; Roneil Malkani; Brady Riedner; Michele Bellesi; Giulio Tononi; Ken A. Paller; Phyllis C. Zee
+- 原始题名：Phase-locked loop for precisely timed acoustic stimulation during sleep
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Neuroscience Methods
+- 出版年：2016
+- 卷：259
+- 期：
+- 起止页码：101-114
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1016/j.jneumeth.2015.11.007
+- URL：https://doi.org/10.1016/j.jneumeth.2015.11.007
+- 发表或更新日期：2016-02
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：SANTOSTASI G, MALKANI R, RIEDNER B, 等. Phase-locked loop for precisely timed acoustic stimulation during sleep[J/OL]. Journal of Neuroscience Methods, 2016, 259: 101-114. DOI:10.1016/j.jneumeth.2015.11.007.
 
 ## 核心摘要
 

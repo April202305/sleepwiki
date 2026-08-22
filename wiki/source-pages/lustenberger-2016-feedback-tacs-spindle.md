@@ -2,7 +2,7 @@
 type: source
 aliases: ["Lustenberger 2016", "spindle FB-tACS"]
 created: 2026-08-18
-updated: 2026-08-20
+updated: 2026-08-22
 sources: ["raw/inbox/lustenberger-2016-feedback-tacs-spindle.html"]
 review_sections: ["4.2", "5.2"]
 status: active
@@ -19,6 +19,33 @@ review_due: 2027-08-18
 - 英文原题：Feedback-Controlled Transcranial Alternating Current Stimulation Reveals a Functional Role of Sleep Spindles in Motor Memory Consolidation
 - DOI：10.1016/j.cub.2016.06.044
 - review_sections：["4.2", "5.2"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1016/j.cub.2016.06.044），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Caroline Lustenberger; Michael R. Boyle; Sankaraleengam Alagapan; Juliann M. Mellin; Bradley V. Vaughn; Flavio Fröhlich
+- 原始题名：Feedback-Controlled Transcranial Alternating Current Stimulation Reveals a Functional Role of Sleep Spindles in Motor Memory Consolidation
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Current Biology
+- 出版年：2016
+- 卷：26
+- 期：16
+- 起止页码：2127-2136
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1016/j.cub.2016.06.044
+- URL：https://doi.org/10.1016/j.cub.2016.06.044
+- 发表或更新日期：2016-08
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：LUSTENBERGER C, BOYLE M R, ALAGAPAN S, 等. Feedback-Controlled Transcranial Alternating Current Stimulation Reveals a Functional Role of Sleep Spindles in Motor Memory Consolidation[J/OL]. Current Biology, 2016, 26(16): 2127-2136. DOI:10.1016/j.cub.2016.06.044.
 
 ## 核心摘要
 

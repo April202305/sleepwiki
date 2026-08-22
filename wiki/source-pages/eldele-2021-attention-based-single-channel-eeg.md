@@ -2,7 +2,7 @@
 type: source
 aliases: ["Eldele 2021", "AttnSleep paper"]
 created: 2026-08-11
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/Eldele 等 - 2021 - An Attention-Based Deep Learning Approach for Sleep Stage Classification With Single-Channel EEG.pdf"]
 status: active
 review_due: 2027-08-11
@@ -19,6 +19,33 @@ review_due: 2027-08-11
 - 英文原题：An Attention-Based Deep Learning Approach for Sleep Stage Classification With Single-Channel EEG
 - DOI：10.1109/TNSRE.2021.3076234
 - 录入日期：2026-08-11
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1109/tnsre.2021.3076234），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Emadeldeen Eldele; Zhenghua Chen; Chengyu Liu; Min Wu; Chee-Keong Kwoh; Xiaoli Li; Cuntai Guan
+- 原始题名：An Attention-Based Deep Learning Approach for Sleep Stage Classification With Single-Channel EEG
+- 文献类型标识：[J/OL]
+- 载体或容器题名：IEEE Transactions on Neural Systems and Rehabilitation Engineering
+- 出版年：2021
+- 卷：29
+- 期：
+- 起止页码：809-818
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1109/tnsre.2021.3076234
+- URL：https://doi.org/10.1109/tnsre.2021.3076234
+- 发表或更新日期：2021
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：ELDELE E, CHEN Z, LIU C, 等. An Attention-Based Deep Learning Approach for Sleep Stage Classification With Single-Channel EEG[J/OL]. IEEE Transactions on Neural Systems and Rehabilitation Engineering, 2021, 29: 809-818. DOI:10.1109/tnsre.2021.3076234.
 
 ## 核心摘要
 

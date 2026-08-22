@@ -2,7 +2,7 @@
 type: source
 aliases: ["Aksamaz 2023", "single CLAS mouse study"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/aksamaz-2023-clas-memory-ripple.html"]
 review_sections: ["3.2", "3.3"]
 status: active
@@ -19,6 +19,33 @@ review_due: 2027-08-18
 - 英文原题：Single closed-loop acoustic stimulation targeting memory consolidation suppressed hippocampal ripple and thalamocortical spindle activity in mice
 - DOI：10.1111/ejn.16116
 - review_sections：["3.2", "3.3"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1111/ejn.16116），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Sonat Aksamaz; Matthias Mölle; Esther Olubukola Akinola; Erik Gromodka; Maxim Bazhenov; Lisa Marshall
+- 原始题名：Single closed-loop acoustic stimulation targeting memory consolidation suppressed hippocampal ripple and thalamo-cortical spindle activity in mice
+- 文献类型标识：[J/OL]
+- 载体或容器题名：European Journal of Neuroscience
+- 出版年：2023
+- 卷：59
+- 期：4
+- 起止页码：595-612
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1111/ejn.16116
+- URL：https://doi.org/10.1111/ejn.16116
+- 发表或更新日期：2023-08-21
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：AKSAMAZ S, MÖLLE M, AKINOLA E O, 等. Single closed-loop acoustic stimulation targeting memory consolidation suppressed hippocampal ripple and thalamo-cortical spindle activity in mice[J/OL]. European Journal of Neuroscience, 2023, 59(4): 595-612. DOI:10.1111/ejn.16116.
 
 ## 核心摘要
 

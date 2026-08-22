@@ -2,7 +2,7 @@
 type: source
 aliases: ["Haggerty 2026 Thalamus"]
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-22
 sources: []
 review_sections: ["2.3", "6.3"]
 status: needs_review
@@ -20,6 +20,33 @@ review_due: 2027-02-19
 - 英文原题：Thalamus: a real-time system for synchronized, closed-loop multimodal behavioral and electrophysiological data capture
 - 录入日期：2026-08-19
 - review_sections：["2.3", "6.3"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1038/s44172-026-00646-z），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Jarl Haggerty; Qasim Qureshi; Ellie D. Gabriel; Pedro GLB Borges; Pierce Davis; Katie Wingel; Jerry Cai; Krishna Sargur; Min Jae Kim; Agrita Dubey; Indie Garwood; Alex Vaz; Andrew G. Richardson; Han-Chiao Isaac Chen; Lauren H. Hammer; Joshua Gold; Brian Litt; Daniel Yoshor; Michael Beauchamp; Casey Halpern; Bijan Pesaran; Iahn Cajigas
+- 原始题名：Thalamus: a real-time system for synchronized, closed-loop multimodal behavioral and electrophysiological data capture
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Communications Engineering
+- 出版年：2026
+- 卷：5
+- 期：1
+- 起止页码：
+- 文章号：93
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1038/s44172-026-00646-z
+- URL：https://doi.org/10.1038/s44172-026-00646-z
+- 发表或更新日期：2026-03-26
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：HAGGERTY J, QURESHI Q, GABRIEL E D, 等. Thalamus: a real-time system for synchronized, closed-loop multimodal behavioral and electrophysiological data capture[J/OL]. Communications Engineering, 2026, 5(1): 93. DOI:10.1038/s44172-026-00646-z.
 
 ## 核心摘要
 

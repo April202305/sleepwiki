@@ -2,7 +2,7 @@
 type: source
 aliases: ["Niu 2025", "China OSA prevalence meta-analysis"]
 created: 2026-08-17
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/niu-2025-china-osa-prevalence.pdf"]
 review_sections: ["1.1"]
 status: active
@@ -21,6 +21,33 @@ review_due: 2027-08-17
 - 英文原题：Spatiotemporal Trends in the Prevalence of Obstructive Sleep Apnoea Across China: A Multilevel Meta-Analysis Incorporating Geographic and Demographic Stratification (2000–2024)
 - DOI：10.2147/NSS.S525547
 - review_sections：["1.1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.2147/nss.s525547），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Yuqi Niu; Shanwen Sun; Yali Wang; Linlin Chen; Yefan Shao; Xiaochun Zhang
+- 原始题名：Spatiotemporal Trends in the Prevalence of Obstructive Sleep Apnoea Across China: A Multilevel Meta-Analysis Incorporating Geographic and Demographic Stratification (2000-2024)
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Nature and Science of Sleep
+- 出版年：2025
+- 卷：Volume 17
+- 期：
+- 起止页码：879-903
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.2147/nss.s525547
+- URL：https://doi.org/10.2147/nss.s525547
+- 发表或更新日期：2025-05
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：NIU Y, SUN S, WANG Y, 等. Spatiotemporal Trends in the Prevalence of Obstructive Sleep Apnoea Across China: A Multilevel Meta-Analysis Incorporating Geographic and Demographic Stratification (2000-2024)[J/OL]. Nature and Science of Sleep, 2025, Volume 17: 879-903. DOI:10.2147/nss.s525547.
 
 ## 核心摘要
 

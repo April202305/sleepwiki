@@ -2,7 +2,7 @@
 type: source
 aliases: ["Shustak 等（2019）临时纹身睡眠监测"]
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-22
 sources: []
 review_sections: ["2.1"]
 status: active
@@ -22,6 +22,33 @@ review_due: 2027-08-19
 - DOI：10.1088/1741-2552/aafa05
 - 录入日期：2026-08-19
 - review_sections：["2.1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1088/1741-2552/aafa05），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Shiran Shustak; Lilah Inzelberg; Stanislav Steinberg; David Rand; Moshe David Pur; Inbar Hillel; Shlomit Katzav; Firas Fahoum; Maarten De Vos; Anat Mirelman; Yael Hanein
+- 原始题名：Home monitoring of sleep with a temporary-tattoo EEG, EOG and EMG electrode array: a feasibility study
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Neural Engineering
+- 出版年：2019
+- 卷：16
+- 期：2
+- 起止页码：
+- 文章号：026024
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1088/1741-2552/aafa05
+- URL：https://doi.org/10.1088/1741-2552/aafa05
+- 发表或更新日期：2019-02-12
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：SHUSTAK S, INZELBERG L, STEINBERG S, 等. Home monitoring of sleep with a temporary-tattoo EEG, EOG and EMG electrode array: a feasibility study[J/OL]. Journal of Neural Engineering, 2019, 16(2): 026024. DOI:10.1088/1741-2552/aafa05.
 
 ## 核心摘要
 

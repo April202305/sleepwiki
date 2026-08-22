@@ -2,7 +2,7 @@
 type: source
 aliases: ["Hebron 2024", "alpha CLAS"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/hebron-2024-alpha-clas.pdf"]
 review_sections: ["4.1"]
 status: active
@@ -19,6 +19,33 @@ review_due: 2027-08-18
 - 英文原题：A closed-loop auditory stimulation approach selectively modulates alpha oscillations and sleep onset dynamics in humans
 - DOI：10.1371/journal.pbio.3002651
 - review_sections：["4.1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1371/journal.pbio.3002651），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Henry Hebron; Beatrice Lugli; Radost Dimitrova; Valeria Jaramillo; Lisa R. Yeh; Edward Rhodes; Nir Grossman; Derk-Jan Dijk; Ines R. Violante
+- 原始题名：A closed-loop auditory stimulation approach selectively modulates alpha oscillations and sleep onset dynamics in humans
+- 文献类型标识：[J/OL]
+- 载体或容器题名：PLOS Biology
+- 出版年：2024
+- 卷：22
+- 期：6
+- 起止页码：
+- 文章号：e3002651
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1371/journal.pbio.3002651
+- URL：https://doi.org/10.1371/journal.pbio.3002651
+- 发表或更新日期：2024-06-18
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：HEBRON H, LUGLI B, DIMITROVA R, 等. A closed-loop auditory stimulation approach selectively modulates alpha oscillations and sleep onset dynamics in humans[J/OL]. PLOS Biology, 2024, 22(6): e3002651. DOI:10.1371/journal.pbio.3002651.
 
 ## 核心摘要
 

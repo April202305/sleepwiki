@@ -2,7 +2,7 @@
 type: source
 aliases: ["Papalambros 2017 older adults CLAS"]
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-08-22
 sources: ["raw/inbox/papalambros-2017-acoustic-enhancement-older.pdf"]
 review_sections: ["3.2", "3.3", "5.4", "6.1", "6.4"]
 status: active
@@ -17,6 +17,33 @@ review_due: 2027-08-20
 - 作者/年份：Nelly A. Papalambros 等；2017
 - 英文原题：Acoustic Enhancement of Sleep Slow Oscillations and Concomitant Memory Improvement in Older Adults
 - DOI：10.3389/fnhum.2017.00109
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.3389/fnhum.2017.00109），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Nelly A. Papalambros; Giovanni Santostasi; Roneil G. Malkani; Rosemary Braun; Sandra Weintraub; Ken A. Paller; Phyllis C. Zee
+- 原始题名：Acoustic Enhancement of Sleep Slow Oscillations and Concomitant Memory Improvement in Older Adults
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Frontiers in Human Neuroscience
+- 出版年：2017
+- 卷：11
+- 期：
+- 起止页码：
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.3389/fnhum.2017.00109
+- URL：https://doi.org/10.3389/fnhum.2017.00109
+- 发表或更新日期：2017-03-08
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：PAPALAMBROS N A, SANTOSTASI G, MALKANI R G, 等. Acoustic Enhancement of Sleep Slow Oscillations and Concomitant Memory Improvement in Older Adults[J/OL]. Frontiers in Human Neuroscience, 2017, 11. DOI:10.3389/fnhum.2017.00109.
 
 ## 核心摘要
 13 名 60–84 岁健康老年人各完成一夜刺激和一夜假刺激。自适应 PLL 以 50 ms 粉噪瞄准上升相位，并在觉醒或阶段改变时停止；刺激增强慢振荡/纺锤活动并伴随记忆改善。（PDF 第 1–8 页）

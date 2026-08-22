@@ -2,7 +2,7 @@
 type: source
 aliases: ["Zrenner and Ziemann 2024", "closed-loop brain stimulation"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/zrenner-2024-closed-loop-brain-stimulation.html"]
 review_sections: ["1.3"]
 status: active
@@ -20,6 +20,33 @@ review_due: 2027-08-18
 - 英文原题：Closed-Loop Brain Stimulation
 - DOI：10.1016/j.biopsych.2023.09.014
 - review_sections：["1.3"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1016/j.biopsych.2023.09.014），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Christoph Zrenner; Ulf Ziemann
+- 原始题名：Closed-Loop Brain Stimulation
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Biological Psychiatry
+- 出版年：2024
+- 卷：95
+- 期：6
+- 起止页码：545-552
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1016/j.biopsych.2023.09.014
+- URL：https://doi.org/10.1016/j.biopsych.2023.09.014
+- 发表或更新日期：2024-03
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：ZRENNER C, ZIEMANN U. Closed-Loop Brain Stimulation[J/OL]. Biological Psychiatry, 2024, 95(6): 545-552. DOI:10.1016/j.biopsych.2023.09.014.
 
 ## 核心摘要
 

@@ -2,7 +2,7 @@
 type: source
 aliases: ["Gao 2023 TDSAN"]
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-22
 sources: []
 review_sections: ["2.2", "6.2"]
 status: active
@@ -20,6 +20,33 @@ review_due: 2026-09-19
 - 英文原题：Automatic sleep staging of single-channel EEG based on domain adversarial neural networks and domain self-attention
 - 录入日期：2026-08-19
 - review_sections：[`2.2`, `6.2`]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.3389/fnins.2023.1143495），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Dong-Rui Gao; Jing Li; Man-Qing Wang; Lu-Tao Wang; Yong-Qing Zhang
+- 原始题名：Automatic sleep staging of single-channel EEG based on domain adversarial neural networks and domain self-attention
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Frontiers in Neuroscience
+- 出版年：2023
+- 卷：17
+- 期：
+- 起止页码：
+- 文章号：1143495
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.3389/fnins.2023.1143495
+- URL：https://doi.org/10.3389/fnins.2023.1143495
+- 发表或更新日期：2023-04-06
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：GAO D, LI J, WANG M, 等. Automatic sleep staging of single-channel EEG based on domain adversarial neural networks and domain self-attention[J/OL]. Frontiers in Neuroscience, 2023, 17: 1143495. DOI:10.3389/fnins.2023.1143495.
 
 ## 核心摘要
 

@@ -2,7 +2,7 @@
 type: source
 aliases: ["Bressler 2023", "ENMod wearable EEG"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/bressler-2023-wearable-eeg-closed-loop.pdf"]
 review_sections: ["1.3", "2.1", "2.2", "2.3", "4.1", "5.1", "5.4"]
 status: active
@@ -20,6 +20,33 @@ review_due: 2027-08-18
 - 英文原题：A wearable EEG system for closed-loop neuromodulation of sleep-related oscillations
 - DOI：10.1088/1741-2552/acfb3b
 - review_sections：["1.3", "2.1", "2.2", "2.3", "4.1", "5.1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1088/1741-2552/acfb3b），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Scott Bressler; Ryan Neely; Ryan M Yost; David Wang; Heather L Read
+- 原始题名：A wearable EEG system for closed-loop neuromodulation of sleep-related oscillations
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Neural Engineering
+- 出版年：2023
+- 卷：20
+- 期：5
+- 起止页码：
+- 文章号：056030
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1088/1741-2552/acfb3b
+- URL：https://doi.org/10.1088/1741-2552/acfb3b
+- 发表或更新日期：2023-10-01
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：BRESSLER S, NEELY R, YOST R M, 等. A wearable EEG system for closed-loop neuromodulation of sleep-related oscillations[J/OL]. Journal of Neural Engineering, 2023, 20(5): 056030. DOI:10.1088/1741-2552/acfb3b.
 
 ## 核心摘要
 

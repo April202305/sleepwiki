@@ -2,7 +2,7 @@
 type: source
 aliases: ["de Gans 2024", "EEG wearables systematic review"]
 created: 2026-08-12
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/de Gans 等 - 2024 - Sleep assessment using EEG-based wearables – A systematic review.pdf"]
 review_sections: ["1", "2.1", "3", "6", "7", "8"]
 status: active
@@ -21,6 +21,33 @@ review_due: 2027-08-12
 - DOI：10.1016/j.smrv.2024.101951
 - 录入日期：2026-08-12
 - review_sections：["1", "2.1", "3", "6", "7", "8"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1016/j.smrv.2024.101951），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：C.J. de Gans; P. Burger; E.S. van den Ende; J. Hermanides; P.W.B. Nanayakkara; R.J.B.J. Gemke; F. Rutters; D.J. Stenvers
+- 原始题名：Sleep assessment using EEG-based wearables – A systematic review
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Sleep Medicine Reviews
+- 出版年：2024
+- 卷：76
+- 期：
+- 起止页码：
+- 文章号：101951
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1016/j.smrv.2024.101951
+- URL：https://doi.org/10.1016/j.smrv.2024.101951
+- 发表或更新日期：2024-08
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：DE GANS C, BURGER P, VAN DEN ENDE E, 等. Sleep assessment using EEG-based wearables – A systematic review[J/OL]. Sleep Medicine Reviews, 2024, 76: 101951. DOI:10.1016/j.smrv.2024.101951.
 
 ## 核心摘要
 

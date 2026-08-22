@@ -2,7 +2,7 @@
 type: source
 aliases: ["Takahashi 2026 phase-synchronized rTMS tACS"]
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-22
 sources: []
 review_sections: ["5.2", "6.1", "6.4"]
 status: active
@@ -20,6 +20,33 @@ review_due: 2027-08-19
 - 英文原题：Sleep stage-specific effects of 0.75 Hz phase-synchronized rTMS and tACS on delta frequency activity during sleep
 - 录入日期：2026-08-19
 - review_sections：["5.2", "6.1", "6.4"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1101/2025.05.09.653171），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Kuri Takahashi; Min-Fang Kuo; Michael A. Nitsche
+- 原始题名：Sleep stage-specific effects of 0.75 Hz phase-synchronized rTMS and tACS on delta frequency activity during sleep
+- 文献类型标识：[A/OL]
+- 载体或容器题名：bioRxiv
+- 出版年：2025
+- 卷：
+- 期：
+- 起止页码：
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1101/2025.05.09.653171
+- URL：https://doi.org/10.1101/2025.05.09.653171
+- 发表或更新日期：2025-05-11
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：TAKAHASHI K, KUO M, NITSCHE M A. Sleep stage-specific effects of 0.75 Hz phase-synchronized rTMS and tACS on delta frequency activity during sleep[A/OL]. bioRxiv, 2025[2026-08-22]. https://doi.org/10.1101/2025.05.09.653171. DOI:10.1101/2025.05.09.653171.
 
 ## 核心摘要
 

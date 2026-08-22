@@ -2,7 +2,7 @@
 type: source
 aliases: ["Koffel 2018", "CBT-I access narrative review"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/可及性.pdf"]
 review_sections: ["1.1"]
 status: active
@@ -22,6 +22,33 @@ review_due: 2027-08-18
 - DOI：10.1007/s11606-018-4390-1
 - 录入日期：2026-08-18
 - review_sections：["1.1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1007/s11606-018-4390-1），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Erin Koffel; Adam D. Bramoweth; Christi S. Ulmer
+- 原始题名：Increasing access to and utilization of cognitive behavioral therapy for insomnia (CBT-I): a narrative review
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of General Internal Medicine
+- 出版年：2018
+- 卷：33
+- 期：6
+- 起止页码：955-962
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1007/s11606-018-4390-1
+- URL：https://doi.org/10.1007/s11606-018-4390-1
+- 发表或更新日期：2018-04-04
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：KOFFEL E, BRAMOWETH A D, ULMER C S. Increasing access to and utilization of cognitive behavioral therapy for insomnia (CBT-I): a narrative review[J/OL]. Journal of General Internal Medicine, 2018, 33(6): 955-962. DOI:10.1007/s11606-018-4390-1.
 
 ## 核心摘要
 

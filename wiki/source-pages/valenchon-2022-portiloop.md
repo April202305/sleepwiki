@@ -2,7 +2,7 @@
 type: source
 aliases: ["Valenchon 2022", "Portiloop paper"]
 created: 2026-08-17
-updated: 2026-08-20
+updated: 2026-08-22
 sources: ["raw/inbox/valenchon-2022-portiloop.pdf"]
 review_sections: ["1.2", "2.2", "2.3", "5.4"]
 status: active
@@ -18,6 +18,33 @@ review_due: 2027-08-17
 - DOI：10.1371/journal.pone.0270696
 - 英文原题：The Portiloop: A deep learning-based open science tool for closed-loop brain stimulation
 - review_sections：["1.2", "2.2", "2.3"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1371/journal.pone.0270696），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Nicolas Valenchon; Yann Bouteiller; Hugo R. Jourde; Xavier L’Heureux; Milo Sobral; Emily B. J. Coffey; Giovanni Beltrame
+- 原始题名：The Portiloop: A deep learning-based open science tool for closed-loop brain stimulation
+- 文献类型标识：[J/OL]
+- 载体或容器题名：PLOS ONE
+- 出版年：2022
+- 卷：17
+- 期：8
+- 起止页码：
+- 文章号：e0270696
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1371/journal.pone.0270696
+- URL：https://doi.org/10.1371/journal.pone.0270696
+- 发表或更新日期：2022-08-22
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：VALENCHON N, BOUTEILLER Y, JOURDE H R, 等. The Portiloop: A deep learning-based open science tool for closed-loop brain stimulation[J/OL]. PLOS ONE, 2022, 17(8): e0270696. DOI:10.1371/journal.pone.0270696.
 
 ## 核心摘要
 [[device/Portiloop]] 将 EEG 获取、神经事件实时识别和精确定时刺激整合为可携带、低成本的闭环系统；其案例为实时睡眠纺锤波检测，并在 MODA 数据集上与离线专家表现比较。 （PDF 第 1–2 页）

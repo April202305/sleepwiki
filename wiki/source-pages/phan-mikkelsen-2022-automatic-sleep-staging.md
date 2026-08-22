@@ -2,7 +2,7 @@
 type: source
 aliases: ["Phan & Mikkelsen 2022"]
 created: 2026-08-12
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/Phan和Mikkelsen - 2022 - Automatic sleep staging of EEG signals recent development, challenges, and future directions.pdf"]
 review_sections: ["1", "2", "4", "6", "7", "8"]
 status: active
@@ -20,6 +20,33 @@ review_due: 2027-08-12
 - 英文原题：Automatic Sleep Staging of EEG Signals: Recent Development, Challenges, and Future Directions
 - 录入日期：2026-08-12
 - review_sections：["1", "2", "4", "6", "7", "8"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1088/1361-6579/ac6049），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Huy Phan; Kaare Mikkelsen
+- 原始题名：Automatic sleep staging of EEG signals: recent development, challenges, and future directions
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Physiological Measurement
+- 出版年：2022
+- 卷：43
+- 期：4
+- 起止页码：
+- 文章号：04TR01
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1088/1361-6579/ac6049
+- URL：https://doi.org/10.1088/1361-6579/ac6049
+- 发表或更新日期：2022-04-28
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：PHAN H, MIKKELSEN K. Automatic sleep staging of EEG signals: recent development, challenges, and future directions[J/OL]. Physiological Measurement, 2022, 43(4): 04TR01. DOI:10.1088/1361-6579/ac6049.
 
 ## 核心摘要
 

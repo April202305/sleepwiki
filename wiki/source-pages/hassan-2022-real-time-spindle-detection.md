@@ -2,7 +2,7 @@
 type: source
 aliases: ["Hassan 2022 RTSD"]
 created: 2026-08-18
-updated: 2026-08-20
+updated: 2026-08-22
 sources: []
 review_sections: ["2.2", "2.3", "4.2"]
 status: active
@@ -21,6 +21,33 @@ review_due: 2027-08-18
 - DOI：预印本 10.1101/2022.06.05.494865；出版社版 10.1111/jsr.13733
 - 录入日期：2026-08-18
 - review_sections：["2.2", "2.3", "4.2"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1101/2022.06.05.494865），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Umair Hassan; Gordon Feld; Til Ole Bergmann
+- 原始题名：Automated real-time EEG sleep spindle detection for brain state-dependent brain stimulation
+- 文献类型标识：[A/OL]
+- 载体或容器题名：bioRxiv
+- 出版年：2022
+- 卷：
+- 期：
+- 起止页码：
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1101/2022.06.05.494865
+- URL：https://doi.org/10.1101/2022.06.05.494865
+- 发表或更新日期：2022-06-05
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：HASSAN U, FELD G, BERGMANN T O. Automated real-time EEG sleep spindle detection for brain state-dependent brain stimulation[A/OL]. bioRxiv, 2022[2026-08-22]. https://doi.org/10.1101/2022.06.05.494865. DOI:10.1101/2022.06.05.494865.
 
 ## 核心摘要
 [[model/RTSD]] 在专用 Simulink Real-Time 系统上流式回放预录睡眠 EEG，验证多通道纺锤波检测和相位触发。两个数据集分别含 20 名午睡与 10 名整夜记录受试者；相对三种离线算法总体约有 83% sensitivity、78% precision 和 0.81 F1。[[source-pages/hassan-2022-real-time-spindle-detection|本来源]]（PDF 第 1、6–10 页，Figure 4）

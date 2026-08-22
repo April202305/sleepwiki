@@ -2,7 +2,7 @@
 type: source
 aliases: ["Edinger 2021", "AASM behavioral insomnia guideline"]
 created: 2026-08-17
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/edinger-2021-aasm-behavioral-insomnia.pdf"]
 review_sections: ["1"]
 status: active
@@ -22,6 +22,33 @@ review_due: 2027-08-17
 - DOI：10.5664/jcsm.8986
 - 录入日期：2026-08-17
 - review_sections：["1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.5664/jcsm.8986），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Jack D. Edinger; J. Todd Arnedt; Suzanne M. Bertisch; Colleen E. Carney; John J. Harrington; Kenneth L. Lichstein; Michael J. Sateia; Wendy M. Troxel; Eric S. Zhou; Uzma Kazmi; Jonathan L. Heald; Jennifer L. Martin
+- 原始题名：Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Clinical Sleep Medicine
+- 出版年：2021
+- 卷：17
+- 期：2
+- 起止页码：255-262
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.5664/jcsm.8986
+- URL：https://doi.org/10.5664/jcsm.8986
+- 发表或更新日期：2021-02
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：EDINGER J D, ARNEDT J T, BERTISCH S M, 等. Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline[J/OL]. Journal of Clinical Sleep Medicine, 2021, 17(2): 255-262. DOI:10.5664/jcsm.8986.
 
 ## 核心摘要
 

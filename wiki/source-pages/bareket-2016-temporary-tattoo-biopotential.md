@@ -2,7 +2,7 @@
 type: source
 aliases: ["Bareket 2016", "temporary-tattoo biopotential recordings"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/bareket-2016-temporary-tattoo-biopotential.pdf"]
 review_sections: []
 status: active
@@ -20,6 +20,33 @@ review_due: 2027-08-18
 - 英文原题：Temporary-tattoo for long-term high fidelity biopotential recordings
 - DOI：10.1038/srep25727
 - review_sections：[]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1038/srep25727），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Lilach Bareket; Lilah Inzelberg; David Rand; Moshe David-Pur; David Rabinovich; Barak Brandes; Yael Hanein
+- 原始题名：Temporary-tattoo for long-term high fidelity biopotential recordings
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Scientific Reports
+- 出版年：2016
+- 卷：6
+- 期：1
+- 起止页码：
+- 文章号：25727
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1038/srep25727
+- URL：https://doi.org/10.1038/srep25727
+- 发表或更新日期：2016-05-12
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：BAREKET L, INZELBERG L, RAND D, 等. Temporary-tattoo for long-term high fidelity biopotential recordings[J/OL]. Scientific Reports, 2016, 6(1): 25727. DOI:10.1038/srep25727.
 
 ## 核心摘要
 

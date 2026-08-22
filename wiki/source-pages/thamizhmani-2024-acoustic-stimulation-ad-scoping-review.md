@@ -2,7 +2,7 @@
 type: source
 aliases: ["Thamizhmani 2024 scoping review"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/thamizhmani-2024-acoustic-stimulation-ad-scoping-review.pdf"]
 review_sections: ["3.4", "6.4"]
 status: active
@@ -18,6 +18,33 @@ review_due: 2027-08-18
 - 英文原题：Efficacy of acoustic stimulation techniques on cognitive functions in individuals with Alzheimer’s disease—a scoping review
 - DOI：10.1186/s13195-024-01544-2
 - review_sections：["3.4", "6.4"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1186/s13195-024-01544-2），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Leelavathi Thamizhmani; Kanaka Ganapathy; Hari Prakash Palaniswamy; Divya Sussana Patil; Suzanne Carolyn Purdy
+- 原始题名：Efficacy of acoustic stimulation techniques on cognitive functions in individuals with Alzheimer’s disease—a scoping review
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Alzheimer's Research & Therapy
+- 出版年：2024
+- 卷：16
+- 期：1
+- 起止页码：
+- 文章号：174
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1186/s13195-024-01544-2
+- URL：https://doi.org/10.1186/s13195-024-01544-2
+- 发表或更新日期：2024-08-01
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：THAMIZHMANI L, GANAPATHY K, PALANISWAMY H P, 等. Efficacy of acoustic stimulation techniques on cognitive functions in individuals with Alzheimer’s disease—a scoping review[J/OL]. Alzheimer's Research & Therapy, 2024, 16(1): 174. DOI:10.1186/s13195-024-01544-2.
 
 ## 核心摘要
 范围综述纳入 14 项 AD/MCI 声刺激研究，其中 7 项为主动训练、7 项为被动刺激；干预从单次 8 小时至一年不等，异质性很高。[[concept/阿尔茨海默病]]（PDF 第 1、4–8 页）

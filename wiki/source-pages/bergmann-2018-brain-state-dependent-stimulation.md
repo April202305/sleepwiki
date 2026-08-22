@@ -2,7 +2,7 @@
 type: source
 aliases: ["Bergmann 2018", "brain state-dependent stimulation"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/bergmann-2018-brain-state-dependent-stimulation.pdf"]
 review_sections: ["1.3"]
 status: active
@@ -20,6 +20,33 @@ review_due: 2027-08-18
 - 英文原题：Brain State-Dependent Brain Stimulation
 - DOI：10.3389/fpsyg.2018.02108
 - review_sections：["1.3"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.3389/fpsyg.2018.02108），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Til O. Bergmann
+- 原始题名：Brain State-Dependent Brain Stimulation
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Frontiers in Psychology
+- 出版年：2018
+- 卷：9
+- 期：
+- 起止页码：
+- 文章号：2108
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.3389/fpsyg.2018.02108
+- URL：https://doi.org/10.3389/fpsyg.2018.02108
+- 发表或更新日期：2018-11-01
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：BERGMANN T O. Brain State-Dependent Brain Stimulation[J/OL]. Frontiers in Psychology, 2018, 9: 2108. DOI:10.3389/fpsyg.2018.02108.
 
 ## 核心摘要
 

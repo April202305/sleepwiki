@@ -2,7 +2,7 @@
 type: source
 aliases: []
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-08-22
 sources: ["raw/inbox/fattinger-2019-epilepsy-clas.pdf"]
 review_sections: ["2.3", "3.4", "6.4"]
 status: active
@@ -18,6 +18,33 @@ review_due: 2026-09-20
 - 作者/年份：Sara Fattinger 等，2019
 - 英文原题：Closed-Loop Acoustic Stimulation During Sleep in Children With Epilepsy: A Hypothesis-Driven Novel Approach to Interact With Spike-Wave Activity and Pilot Data Assessing Feasibility
 - DOI：10.3389/fnhum.2019.00166
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.3389/fnhum.2019.00166），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Sara Fattinger; Bigna Bölsterli Heinzle; Georgia Ramantani; Lucia Abela; Bernhard Schmitt; Reto Huber
+- 原始题名：Closed-Loop Acoustic Stimulation During Sleep in Children With Epilepsy: A Hypothesis-Driven Novel Approach to Interact With Spike-Wave Activity and Pilot Data Assessing Feasibility
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Frontiers in Human Neuroscience
+- 出版年：2019
+- 卷：13
+- 期：
+- 起止页码：
+- 文章号：166
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.3389/fnhum.2019.00166
+- URL：https://doi.org/10.3389/fnhum.2019.00166
+- 发表或更新日期：2019-05-21
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：FATTINGER S, HEINZLE B B, RAMANTANI G, 等. Closed-Loop Acoustic Stimulation During Sleep in Children With Epilepsy: A Hypothesis-Driven Novel Approach to Interact With Spike-Wave Activity and Pilot Data Assessing Feasibility[J/OL]. Frontiers in Human Neuroscience, 2019, 13: 166. DOI:10.3389/fnhum.2019.00166.
 
 ## 核心摘要
 5名儿童患者接受整夜hdEEG和实时慢波检测，以3×5分钟无刺激—刺激—无刺激区块交替实施上/下相位声音。[[source-pages/fattinger-2019-epilepsy-clas]]（摘要、Methods）

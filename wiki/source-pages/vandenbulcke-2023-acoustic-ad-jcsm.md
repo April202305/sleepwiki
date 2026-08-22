@@ -2,7 +2,7 @@
 type: source
 aliases: ["Van den Bulcke 2023", "AD DREEM pilot"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/vandenbulcke-2023-acoustic-ad-jcsm.pdf"]
 review_sections: ["3.4", "5.4", "6.4"]
 status: active
@@ -19,6 +19,33 @@ review_due: 2027-08-18
 - 英文原题：Acoustic stimulation as a promising technique to enhance slow-wave sleep in Alzheimer’s disease: results of a pilot study
 - DOI：10.5664/jcsm.10778
 - review_sections：["3.4", "5.4", "6.4"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.5664/jcsm.10778），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Laura Van den Bulcke; Anne-Marie Peeters; Elisabeth Heremans; Hannah Davidoff; Pascal Borzée; Maarten De Vos; Louise Emsell; Jan Van den Stock; Maaike De Roo; Jos Tournoy; Bertien Buyse; Mathieu Vandenbulcke; Chantal Van Audenhove; Dries Testelmans; Maarten Van Den Bossche
+- 原始题名：Acoustic stimulation as a promising technique to enhance slow-wave sleep in Alzheimer’s disease: results of a pilot study
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Clinical Sleep Medicine
+- 出版年：2023
+- 卷：19
+- 期：12
+- 起止页码：2107-2112
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.5664/jcsm.10778
+- URL：https://doi.org/10.5664/jcsm.10778
+- 发表或更新日期：2023-12
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：VAN DEN BULCKE L, PEETERS A, HEREMANS E, 等. Acoustic stimulation as a promising technique to enhance slow-wave sleep in Alzheimer’s disease: results of a pilot study[J/OL]. Journal of Clinical Sleep Medicine, 2023, 19(12): 2107-2112. DOI:10.5664/jcsm.10778.
 
 ## 核心摘要
 

@@ -2,7 +2,7 @@
 type: source
 aliases: ["Navarrete 2022 NeuroImage formal"]
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-08-22
 sources: ["raw/inbox/1-s2.0-S1053811922001847-main.pdf"]
 review_sections: ["3.2", "4.5"]
 status: active
@@ -19,6 +19,33 @@ review_due: 2027-08-20
 - DOI：10.1016/j.neuroimage.2022.119055
 - 期刊：NeuroImage 253 (2022) 119055
 - 版本关系：正式出版版；替代[[source-pages/navarrete-2022-ongoing-oscillations-outcome]]的预印本引用
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1016/j.neuroimage.2022.119055），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Miguel Navarrete; Steven Arthur; Matthias S. Treder; Penelope A. Lewis
+- 原始题名：Ongoing neural oscillations predict the post-stimulus outcome of closed loop auditory stimulation during slow-wave sleep
+- 文献类型标识：[J/OL]
+- 载体或容器题名：NeuroImage
+- 出版年：2022
+- 卷：253
+- 期：
+- 起止页码：
+- 文章号：119055
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1016/j.neuroimage.2022.119055
+- URL：https://doi.org/10.1016/j.neuroimage.2022.119055
+- 发表或更新日期：2022-06
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：NAVARRETE M, ARTHUR S, TREDER M S, 等. Ongoing neural oscillations predict the post-stimulus outcome of closed loop auditory stimulation during slow-wave sleep[J/OL]. NeuroImage, 2022, 253: 119055. DOI:10.1016/j.neuroimage.2022.119055.
 
 ## 核心摘要
 研究分析21名健康青年两夜STIM/SHAM数据，以刺激前SO形态预测刺激后SO trough、峰峰值及SO锁定纺锤包络振幅的高/低类别。SO预测accuracy约0.71和0.83–0.84，纺锤振幅约0.59–0.60。（PDF第1–7页，Figures 1–2）

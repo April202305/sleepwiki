@@ -2,7 +2,7 @@
 type: source
 aliases: ["Besedovsky 2017"]
 created: 2026-08-18
-updated: 2026-08-20
+updated: 2026-08-22
 sources: ["raw/inbox/besedovsky-2017-auditory-clas-immune.pdf"]
 review_sections: ["3.2", "6.1"]
 status: active
@@ -19,6 +19,33 @@ review_due: 2027-08-18
 - 英文原题：Auditory closed-loop stimulation of EEG slow oscillations strengthens sleep and signs of its immune-supportive function
 - DOI：10.1038/s41467-017-02170-3
 - review_sections：["3.2", "6.1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1038/s41467-017-02170-3），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Luciana Besedovsky; Hong-Viet V. Ngo; Stoyan Dimitrov; Christoph Gassenmaier; Rainer Lehmann; Jan Born
+- 原始题名：Auditory closed-loop stimulation of EEG slow oscillations strengthens sleep and signs of its immune-supportive function
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Nature Communications
+- 出版年：2017
+- 卷：8
+- 期：1
+- 起止页码：
+- 文章号：1984
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1038/s41467-017-02170-3
+- URL：https://doi.org/10.1038/s41467-017-02170-3
+- 发表或更新日期：2017-12-07
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：BESEDOVSKY L, NGO H V, DIMITROV S, 等. Auditory closed-loop stimulation of EEG slow oscillations strengthens sleep and signs of its immune-supportive function[J/OL]. Nature Communications, 2017, 8(1): 1984. DOI:10.1038/s41467-017-02170-3.
 
 ## 核心摘要
 

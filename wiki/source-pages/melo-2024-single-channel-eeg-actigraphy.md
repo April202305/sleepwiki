@@ -2,7 +2,7 @@
 type: source
 aliases: ["Melo 等（2024）单通道 EEG 与体动睡眠分期"]
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-22
 sources: []
 review_sections: ["2.1", "2.2", "6.5"]
 status: active
@@ -22,6 +22,33 @@ review_due: 2027-08-19
 - DOI：10.5664/jcsm.11082
 - 录入日期：2026-08-19
 - review_sections：["2.1", "2.2", "6.5"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.5664/jcsm.11082），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Mariana Cardoso Melo; Julia Ribeiro da Silva Vallim; Silvério Garbuio; Leticia Azevedo Soster; Ksdy Maiara Moura Sousa; Renata Redondo Bonaldi; Gabriel Natan Pires
+- 原始题名：Validation of a sleep staging classification model for healthy adults based on two combinations of a single-channel EEG headband and wrist actigraphy
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Clinical Sleep Medicine
+- 出版年：2024
+- 卷：20
+- 期：6
+- 起止页码：983-990
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.5664/jcsm.11082
+- URL：https://doi.org/10.5664/jcsm.11082
+- 发表或更新日期：2024-06
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：MELO M C, DA SILVA VALLIM J R, GARBUIO S, 等. Validation of a sleep staging classification model for healthy adults based on two combinations of a single-channel EEG headband and wrist actigraphy[J/OL]. Journal of Clinical Sleep Medicine, 2024, 20(6): 983-990. DOI:10.5664/jcsm.11082.
 
 ## 核心摘要
 

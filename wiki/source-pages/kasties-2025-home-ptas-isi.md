@@ -2,7 +2,7 @@
 type: source
 aliases: ["Ferster 2025 PTAS", "Kasties 2025 PTAS"]
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-08-22
 sources: ["raw/inbox/ferster-2025-phase-targeted-optimization.pdf"]
 review_sections: ["2.3", "3.1", "5.1", "5.4"]
 status: active
@@ -18,6 +18,33 @@ review_due: 2026-09-20
 - 作者/年份：Vanessa Kasties 等，2025
 - 英文原题：Optimizing automated phase-targeted auditory stimulation protocols for procedural memory consolidation during sleep in a home setting
 - DOI：10.1093/sleepadvances/zpaf073
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1093/sleepadvances/zpaf073），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Vanessa Kasties; Nicole Meier; Nora-Hjördis Moser; Renske Sassenburg; Walter Karlen; Maria Laura Ferster; Sara Fattinger; Angelina Maric; Reto Huber
+- 原始题名：Optimizing automated phase-targeted auditory stimulation protocols for procedural memory consolidation during sleep in a home setting
+- 文献类型标识：[J/OL]
+- 载体或容器题名：SLEEP Advances
+- 出版年：2025
+- 卷：6
+- 期：4
+- 起止页码：
+- 文章号：zpaf073
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1093/sleepadvances/zpaf073
+- URL：https://doi.org/10.1093/sleepadvances/zpaf073
+- 发表或更新日期：2025
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：KASTIES V, MEIER N, MOSER N, 等. Optimizing automated phase-targeted auditory stimulation protocols for procedural memory consolidation during sleep in a home setting[J/OL]. SLEEP Advances, 2025, 6(4): zpaf073. DOI:10.1093/sleepadvances/zpaf073.
 
 ## 核心摘要
 研究使用TSB Axo移动PTAS设备和集成耳机，在居家环境比较不同刺激间隔协议；实时算法在稳定NREM后检测慢波并以45°为目标触发50 ms粉红噪声。[[source-pages/kasties-2025-home-ptas-isi]]（Abstract、Methods）

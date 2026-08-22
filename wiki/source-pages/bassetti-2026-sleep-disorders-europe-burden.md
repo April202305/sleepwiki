@@ -2,7 +2,7 @@
 type: source
 aliases: ["Bassetti 2026", "欧洲睡眠障碍负担"]
 created: 2026-08-17
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/bassetti-2026-sleep-disorders-europe-burden.pdf"]
 review_sections: ["1.1"]
 status: active
@@ -22,6 +22,33 @@ review_due: 2027-08-17
 - DOI：10.1111/ene.70463
 - 录入日期：2026-08-17
 - review_sections：["1.1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1111/ene.70463），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Claudio L. A. Bassetti; Luisa S. Welter; Mateo Montes-Martinez; Nikolai Mühlberger; Paul Boon; Thomas Berger; Günther Deuschl; Marjan Arvandi; Maria Konti; Maria Lolich; Evelina Pajediene; Rolf Fronczek; Elena Moro; Uwe Siebert; Richard Dodel
+- 原始题名：Epidemiology and Economic Burden of Sleep Disorders in Europe
+- 文献类型标识：[J/OL]
+- 载体或容器题名：European Journal of Neurology
+- 出版年：2026
+- 卷：33
+- 期：2
+- 起止页码：
+- 文章号：e70463
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1111/ene.70463
+- URL：https://doi.org/10.1111/ene.70463
+- 发表或更新日期：2026-02
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：BASSETTI C L A, WELTER L S, MONTES-MARTINEZ M, 等. Epidemiology and Economic Burden of Sleep Disorders in Europe[J/OL]. European Journal of Neurology, 2026, 33(2): e70463. DOI:10.1111/ene.70463.
 
 ## 核心摘要
 

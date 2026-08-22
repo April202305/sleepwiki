@@ -2,7 +2,7 @@
 type: source
 aliases: ["Hsieh 2021 eye-mask real-time staging"]
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-22
 sources: []
 review_sections: ["2.1", "2.2", "2.3"]
 status: active
@@ -20,6 +20,33 @@ review_due: 2026-09-19
 - 英文原题：Home-Use and Real-Time Sleep-Staging System Based on Eye Masks and Mobile Devices with a Deep Learning Model
 - 录入日期：2026-08-19
 - review_sections：[`2.1`, `2.2`, `2.3`]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1007/s40846-021-00649-5），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Tsung-Hao Hsieh; Meng-Hsuan Liu; Chin-En Kuo; Yung-Hung Wang; Sheng-Fu Liang
+- 原始题名：Home-Use and Real-Time Sleep-Staging System Based on Eye Masks and Mobile Devices with a Deep Learning Model
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Medical and Biological Engineering
+- 出版年：2021
+- 卷：41
+- 期：5
+- 起止页码：659-668
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1007/s40846-021-00649-5
+- URL：https://doi.org/10.1007/s40846-021-00649-5
+- 发表或更新日期：2021-09-04
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：HSIEH T, LIU M, KUO C, 等. Home-Use and Real-Time Sleep-Staging System Based on Eye Masks and Mobile Devices with a Deep Learning Model[J/OL]. Journal of Medical and Biological Engineering, 2021, 41(5): 659-668. DOI:10.1007/s40846-021-00649-5.
 
 ## 核心摘要
 

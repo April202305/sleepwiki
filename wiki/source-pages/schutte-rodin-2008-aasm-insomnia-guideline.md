@@ -2,7 +2,7 @@
 type: source
 aliases: ["Schutte-Rodin 2008", "AASM chronic insomnia guideline"]
 created: 2026-08-17
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/schutte-rodin-2008-aasm-insomnia-guideline.pdf"]
 review_sections: ["1"]
 status: active
@@ -21,6 +21,33 @@ review_due: 2027-08-17
 - 英文原题：Clinical Guideline for the Evaluation and Management of Chronic Insomnia in Adults
 - 录入日期：2026-08-17
 - review_sections：["1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.5664/jcsm.27286），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Sharon Schutte-Rodin; Lauren Broch; Daniel Buysse; Cynthia Dorsey; Michael Sateia
+- 原始题名：Clinical Guideline for the Evaluation and Management of Chronic Insomnia in Adults
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Clinical Sleep Medicine
+- 出版年：2008
+- 卷：4
+- 期：5
+- 起止页码：487-504
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.5664/jcsm.27286
+- URL：https://doi.org/10.5664/jcsm.27286
+- 发表或更新日期：2008-10-15
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：SCHUTTE-RODIN S, BROCH L, BUYSSE D, 等. Clinical Guideline for the Evaluation and Management of Chronic Insomnia in Adults[J/OL]. Journal of Clinical Sleep Medicine, 2008, 4(5): 487-504. DOI:10.5664/jcsm.27286.
 
 ## 核心摘要
 

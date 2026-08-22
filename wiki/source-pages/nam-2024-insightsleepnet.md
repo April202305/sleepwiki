@@ -2,7 +2,7 @@
 type: source
 aliases: ["InsightSleepNet 2024"]
 created: 2026-08-19
-updated: 2026-08-20
+updated: 2026-08-22
 sources: []
 review_sections: ["2.2", "6.2"]
 status: active
@@ -20,6 +20,33 @@ review_due: 2026-09-19
 - 英文原题：InsightSleepNet: the interpretable and uncertainty-aware deep learning network for sleep staging using continuous Photoplethysmography
 - 录入日期：2026-08-19
 - review_sections：[`2.2`, `6.2`]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1186/s12911-024-02437-y），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Borum Nam; Beomjun Bark; Jeyeon Lee; In Young Kim
+- 原始题名：InsightSleepNet: the interpretable and uncertainty-aware deep learning network for sleep staging using continuous Photoplethysmography
+- 文献类型标识：[J/OL]
+- 载体或容器题名：BMC Medical Informatics and Decision Making
+- 出版年：2024
+- 卷：24
+- 期：1
+- 起止页码：
+- 文章号：50
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1186/s12911-024-02437-y
+- URL：https://doi.org/10.1186/s12911-024-02437-y
+- 发表或更新日期：2024-02-14
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：NAM B, BARK B, LEE J, 等. InsightSleepNet: the interpretable and uncertainty-aware deep learning network for sleep staging using continuous Photoplethysmography[J/OL]. BMC Medical Informatics and Decision Making, 2024, 24(1): 50. DOI:10.1186/s12911-024-02437-y.
 
 ## 核心摘要
 

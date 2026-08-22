@@ -2,7 +2,7 @@
 type: source
 aliases: ["Riemann 2017", "European insomnia guideline"]
 created: 2026-08-17
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/Journal of Sleep Research - 2017 - Riemann - European guideline for the diagnosis and treatment of insomnia.pdf"]
 review_sections: ["1"]
 status: active
@@ -22,6 +22,33 @@ review_due: 2027-08-17
 - DOI：10.1111/jsr.12594
 - 录入日期：2026-08-17
 - review_sections：["1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1111/jsr.12594），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Dieter Riemann; Chiara Baglioni; Claudio Bassetti; Bjørn Bjorvatn; Leja Dolenc Groselj; Jason G. Ellis; Colin A. Espie; Diego Garcia-Borreguero; Michaela Gjerstad; Marta Gonçalves; Elisabeth Hertenstein; Markus Jansson-Fröjmark; Poul J. Jennum; Damien Leger; Christoph Nissen; Liborio Parrino; Tiina Paunio; Dirk Pevernagie; Johan Verbraecken; Hans-Günter Weeß; Adam Wichniak; Irina Zavalko; Erna S. Arnardottir; Oana-Claudia Deleanu; Barbara Strazisar; Marielle Zoetmulder; Kai Spiegelhalder
+- 原始题名：European guideline for the diagnosis and treatment of insomnia
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Sleep Research
+- 出版年：2017
+- 卷：26
+- 期：6
+- 起止页码：675-700
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1111/jsr.12594
+- URL：https://doi.org/10.1111/jsr.12594
+- 发表或更新日期：2017-09-05
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：RIEMANN D, BAGLIONI C, BASSETTI C, 等. European guideline for the diagnosis and treatment of insomnia[J/OL]. Journal of Sleep Research, 2017, 26(6): 675-700. DOI:10.1111/jsr.12594.
 
 ## 核心摘要
 

@@ -2,7 +2,7 @@
 type: source
 aliases: ["Clark 2024 CLAS learning"]
 created: 2026-08-18
-updated: 2026-08-20
+updated: 2026-08-22
 sources: ["raw/inbox/clark-2024-clas-language-discovery-learning.pdf"]
 review_sections: ["3.2", "3.3", "5.1", "6.1"]
 status: active
@@ -18,6 +18,33 @@ review_due: 2027-08-18
 - 英文原题：Closed-Loop Auditory Stimulation (CLAS) During Sleep Augments Language and Discovery Learning
 - DOI：10.3390/brainsci14111138
 - review_sections：["3.2", "3.3", "5.1", "6.1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.3390/brainsci14111138），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Vincent P. Clark; Hector P. Valverde; Mason S. Briggs; Teagan Mullins; Jacqueline Ortiz; Christopher J. H. Pirrung; Olivia S. O’Keeffe; Madeline Hwang; Sidney Crowley; Marko Šarlija; Panagiotis Matsangas
+- 原始题名：Closed-Loop Auditory Stimulation (CLAS) During Sleep Augments Language and Discovery Learning
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Brain Sciences
+- 出版年：2024
+- 卷：14
+- 期：11
+- 起止页码：
+- 文章号：1138
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.3390/brainsci14111138
+- URL：https://doi.org/10.3390/brainsci14111138
+- 发表或更新日期：2024-11-13
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：CLARK V P, VALVERDE H P, BRIGGS M S, 等. Closed-Loop Auditory Stimulation (CLAS) During Sleep Augments Language and Discovery Learning[J/OL]. Brain Sciences, 2024, 14(11): 1138. DOI:10.3390/brainsci14111138.
 
 ## 核心摘要
 28 名健康参与者按交叉随机双盲方案完成两周、每周连续三夜 verum/control CLAS；最终 20 人进入分析。作者报告三夜 CLAS 后词汇回忆提高 35%（p=0.048）、发现学习提高 26%（p<0.001），并伴随慢振荡、夹带和慢振荡—纺锤耦合变化。[[intervention/闭环听觉刺激]]（PDF 第 1、3–8 页）

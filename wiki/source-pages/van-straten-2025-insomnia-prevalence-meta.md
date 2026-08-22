@@ -2,7 +2,7 @@
 type: source
 aliases: ["van Straten 2025", "insomnia prevalence meta-analysis"]
 created: 2026-08-17
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/vanstraten-2025-insomnia-prevalence-meta.pdf"]
 review_sections: ["1"]
 status: active
@@ -22,6 +22,33 @@ review_due: 2027-08-17
 - DOI：10.1111/jsr.70089
 - 录入日期：2026-08-17
 - review_sections：["1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1111/jsr.70089），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Annemieke van Straten; Karl Juri Weinreich; Bernát Fábián; Joyce Reesen; Sarah Grigori; Annemarie I. Luik; Mathias Harrer; Jaap Lancee
+- 原始题名：The Prevalence of Insomnia Disorder in the General Population: A Meta-Analysis
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Sleep Research
+- 出版年：2025
+- 卷：34
+- 期：5
+- 起止页码：
+- 文章号：e70089
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1111/jsr.70089
+- URL：https://doi.org/10.1111/jsr.70089
+- 发表或更新日期：2025-05-14
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：VAN STRATEN A, WEINREICH K J, FÁBIÁN B, 等. The Prevalence of Insomnia Disorder in the General Population: A Meta-Analysis[J/OL]. Journal of Sleep Research, 2025, 34(5): e70089. DOI:10.1111/jsr.70089.
 
 ## 核心摘要
 

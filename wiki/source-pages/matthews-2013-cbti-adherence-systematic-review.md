@@ -2,7 +2,7 @@
 type: source
 aliases: ["Matthews 2013", "CBT-I adherence systematic review"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/依从性不足.pdf"]
 review_sections: ["1.1"]
 status: active
@@ -22,6 +22,33 @@ review_due: 2027-08-18
 - DOI：10.1016/j.smrv.2013.01.001
 - 录入日期：2026-08-18
 - review_sections：["1.1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1016/j.smrv.2013.01.001），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Ellyn E. Matthews; J. Todd Arnedt; Michaela S. McCarthy; Leisha J. Cuddihy; Mark S. Aloia
+- 原始题名：Adherence to cognitive behavioral therapy for insomnia: A systematic review
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Sleep Medicine Reviews
+- 出版年：2013
+- 卷：17
+- 期：6
+- 起止页码：453-464
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1016/j.smrv.2013.01.001
+- URL：https://doi.org/10.1016/j.smrv.2013.01.001
+- 发表或更新日期：2013-12
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：MATTHEWS E E, ARNEDT J T, MCCARTHY M S, 等. Adherence to cognitive behavioral therapy for insomnia: A systematic review[J/OL]. Sleep Medicine Reviews, 2013, 17(6): 453-464. DOI:10.1016/j.smrv.2013.01.001.
 
 ## 核心摘要
 

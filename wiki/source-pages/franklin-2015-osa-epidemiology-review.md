@@ -2,7 +2,7 @@
 type: source
 aliases: ["Franklin 2015", "OSA epidemiology review"]
 created: 2026-08-17
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/franklin-2015-osa-epidemiology-review.pdf"]
 review_sections: ["1.1"]
 status: active
@@ -21,6 +21,33 @@ review_due: 2027-08-17
 - 英文原题：Obstructive sleep apnea is a common disorder in the population—a review on the epidemiology of sleep apnea
 - DOI：10.3978/j.issn.2072-1439.2015.06.11
 - review_sections：["1.1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：PubMed（PMID 26380759），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Karl A. Franklin; Eva Lindberg
+- 原始题名：Obstructive sleep apnea is a common disorder in the population—a review on the epidemiology of sleep apnea
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Thoracic Disease
+- 出版年：2015
+- 卷：7
+- 期：8
+- 起止页码：1311-1322
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.3978/j.issn.2072-1439.2015.06.11
+- URL：https://doi.org/10.3978/j.issn.2072-1439.2015.06.11
+- 发表或更新日期：
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：DOI 未注册于 Crossref（中国 DOI/ISTIC），经 PubMed 核验。
+- Word 成稿引用：FRANKLIN K A, LINDBERG E. Obstructive sleep apnea is a common disorder in the population—a review on the epidemiology of sleep apnea[J/OL]. Journal of Thoracic Disease, 2015, 7(8): 1311-1322. DOI:10.3978/j.issn.2072-1439.2015.06.11.
 
 ## 核心摘要
 

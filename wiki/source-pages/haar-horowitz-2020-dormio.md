@@ -2,7 +2,7 @@
 type: source
 aliases: ["Dormio 2020"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/haar-horowitz-2020-dormio.pdf"]
 review_sections: ["4.4", "5.4"]
 status: active
@@ -18,6 +18,33 @@ review_due: 2027-08-18
 - 英文原题：Dormio: A Targeted Dream Incubation Device
 - DOI：10.1016/j.concog.2020.102938
 - review_sections：["4.4", "5.4"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1016/j.concog.2020.102938），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Adam Haar Horowitz; Tony J. Cunningham; Pattie Maes; Robert Stickgold
+- 原始题名：Dormio: A targeted dream incubation device
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Consciousness and Cognition
+- 出版年：2020
+- 卷：83
+- 期：
+- 起止页码：
+- 文章号：102938
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1016/j.concog.2020.102938
+- URL：https://doi.org/10.1016/j.concog.2020.102938
+- 发表或更新日期：2020-08
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：HAAR HOROWITZ A, CUNNINGHAM T J, MAES P, 等. Dormio: A targeted dream incubation device[J/OL]. Consciousness and Cognition, 2020, 83: 102938. DOI:10.1016/j.concog.2020.102938.
 
 ## 核心摘要
 Dormio 依据心率、皮电和屈肌信号阈值估计入睡并触发提示/唤醒循环；正式实验招募 50 人，排除 1 人后分析 n=49，比较睡眠/清醒与树主题提示条件。[[device/Dozer]]（PDF 第 10–14 页）

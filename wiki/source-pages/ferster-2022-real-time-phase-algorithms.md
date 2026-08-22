@@ -2,7 +2,7 @@
 type: source
 aliases: ["Ferster 2022", "SleepLoop phase vocoder", "arXiv:2203.02354"]
 created: 2026-08-17
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/ferster-2022-benchmarking-real-time-algorithms.pdf"]
 review_sections: ["1.2", "2.2", "2.3", "3.1", "6.3"]
 status: active
@@ -21,6 +21,33 @@ review_due: 2027-08-17
 - DOI：10.1109/TBME.2022.3157468
 - 预印本：arXiv:2203.02354v1
 - review_sections：["1.2", "2.2", "2.3", "3.1", "6.3"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1109/tbme.2022.3157468），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Maria Laura Ferster; Giulia Da Poian; Kiran Menachery; Simon J. Schreiner; Caroline Lustenberger; Angelina Maric; Reto Huber; Christian R. Baumann; Walter Karlen
+- 原始题名：Benchmarking Real-Time Algorithms for In-Phase Auditory Stimulation of Low Amplitude Slow Waves With Wearable EEG Devices During Sleep
+- 文献类型标识：[J/OL]
+- 载体或容器题名：IEEE Transactions on Biomedical Engineering
+- 出版年：2022
+- 卷：69
+- 期：9
+- 起止页码：2916-2925
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1109/tbme.2022.3157468
+- URL：https://doi.org/10.1109/tbme.2022.3157468
+- 发表或更新日期：2022-09
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：FERSTER M L, DA POIAN G, MENACHERY K, 等. Benchmarking Real-Time Algorithms for In-Phase Auditory Stimulation of Low Amplitude Slow Waves With Wearable EEG Devices During Sleep[J/OL]. IEEE Transactions on Biomedical Engineering, 2022, 69(9): 2916-2925. DOI:10.1109/tbme.2022.3157468.
 
 ## 核心摘要
 

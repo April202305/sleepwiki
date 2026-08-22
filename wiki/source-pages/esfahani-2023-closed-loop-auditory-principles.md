@@ -2,7 +2,7 @@
 type: source
 aliases: ["Esfahani 2023", "CLAS best practices"]
 created: 2026-08-17
-updated: 2026-08-20
+updated: 2026-08-22
 sources: ["raw/inbox/esfahani-2023-closed-loop-auditory-principles.pdf"]
 review_sections: ["1.2", "2.2", "2.3", "3.1", "6.3", "6.4"]
 status: active
@@ -20,6 +20,33 @@ review_due: 2027-08-17
 - 英文原题：Closed-loop auditory stimulation of sleep slow oscillations: Basic principles and best practices
 - DOI：10.1016/j.neubiorev.2023.105379
 - review_sections：["1.2", "2.2", "2.3", "3.1", "6.3", "6.4"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1016/j.neubiorev.2023.105379），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Mahdad Jafarzadeh Esfahani; Soha Farboud; Hong-Viet V. Ngo; Jules Schneider; Frederik D. Weber; Lucia M. Talamini; Martin Dresler
+- 原始题名：Closed-loop auditory stimulation of sleep slow oscillations: Basic principles and best practices
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Neuroscience & Biobehavioral Reviews
+- 出版年：2023
+- 卷：153
+- 期：
+- 起止页码：
+- 文章号：105379
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1016/j.neubiorev.2023.105379
+- URL：https://doi.org/10.1016/j.neubiorev.2023.105379
+- 发表或更新日期：2023-10
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：ESFAHANI M J, FARBOUD S, NGO H V, 等. Closed-loop auditory stimulation of sleep slow oscillations: Basic principles and best practices[J/OL]. Neuroscience & Biobehavioral Reviews, 2023, 153: 105379. DOI:10.1016/j.neubiorev.2023.105379.
 
 ## 核心摘要
 

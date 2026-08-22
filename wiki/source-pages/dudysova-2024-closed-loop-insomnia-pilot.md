@@ -2,7 +2,7 @@
 type: source
 aliases: ["Dudysová 2024", "closed-loop insomnia pilot"]
 created: 2026-08-17
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/jsr-2024-closed-loop-insomnia-pilot.pdf"]
 review_sections: ["1", "3"]
 status: active
@@ -22,6 +22,33 @@ review_due: 2027-08-17
 - DOI：10.1111/jsr.14179
 - 录入日期：2026-08-17
 - review_sections：["1", "3"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1111/jsr.14179），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Daniela Dudysová; Karolina Janků; Marek Piorecký; Veronika Hantáková; Mária Orendáčová; Václava Piorecká; Jan Štrobl; Monika Kliková; Hong-Viet V. Ngo; Jana Kopřivová
+- 原始题名：Closed-loop auditory stimulation of slow-wave sleep in chronic insomnia: a pilot study
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Sleep Research
+- 出版年：2024
+- 卷：33
+- 期：6
+- 起止页码：
+- 文章号：e14179
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1111/jsr.14179
+- URL：https://doi.org/10.1111/jsr.14179
+- 发表或更新日期：2024-03-11
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：DUDYSOVÁ D, JANKŮ K, PIORECKÝ M, 等. Closed-loop auditory stimulation of slow-wave sleep in chronic insomnia: a pilot study[J/OL]. Journal of Sleep Research, 2024, 33(6): e14179. DOI:10.1111/jsr.14179.
 
 ## 核心摘要
 

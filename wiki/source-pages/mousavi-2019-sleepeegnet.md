@@ -2,7 +2,7 @@
 type: source
 aliases: ["Mousavi 2019 SleepEEGNet"]
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-22
 sources: []
 review_sections: ["2.2"]
 status: active
@@ -20,6 +20,33 @@ review_due: 2027-08-19
 - 英文原题：SleepEEGNet: Automated sleep stage scoring with sequence to sequence deep learning approach
 - 录入日期：2026-08-19
 - review_sections：["2.2"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1371/journal.pone.0216456），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Sajad Mousavi; Fatemeh Afghah; U. Rajendra Acharya
+- 原始题名：SleepEEGNet: Automated sleep stage scoring with sequence to sequence deep learning approach
+- 文献类型标识：[J/OL]
+- 载体或容器题名：PLOS ONE
+- 出版年：2019
+- 卷：14
+- 期：5
+- 起止页码：
+- 文章号：e0216456
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1371/journal.pone.0216456
+- URL：https://doi.org/10.1371/journal.pone.0216456
+- 发表或更新日期：2019-05-07
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：MOUSAVI S, AFGHAH F, ACHARYA U R. SleepEEGNet: Automated sleep stage scoring with sequence to sequence deep learning approach[J/OL]. PLOS ONE, 2019, 14(5): e0216456. DOI:10.1371/journal.pone.0216456.
 
 ## 核心摘要
 

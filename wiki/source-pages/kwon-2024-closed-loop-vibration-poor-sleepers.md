@@ -2,7 +2,7 @@
 type: source
 aliases: ["Kwon 2024 CLVS"]
 created: 2026-08-18
-updated: 2026-08-20
+updated: 2026-08-22
 sources: ["raw/inbox/kwon-2024-closed-loop-vibration-poor-sleepers.pdf"]
 review_sections: ["5.3"]
 status: active
@@ -18,6 +18,33 @@ review_due: 2027-08-18
 - 英文原题：Effect of closed-loop vibration stimulation on sleep quality for poor sleepers
 - DOI：10.3389/fnins.2024.1456237
 - review_sections：["5.3"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.3389/fnins.2024.1456237），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Hyun Bin Kwon; Jonghyeok Jeong; Byunghun Choi; Kwang Suk Park; Eun Yeon Joo; Heenam Yoon
+- 原始题名：Effect of closed-loop vibration stimulation on sleep quality for poor sleepers
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Frontiers in Neuroscience
+- 出版年：2024
+- 卷：18
+- 期：
+- 起止页码：
+- 文章号：1456237
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.3389/fnins.2024.1456237
+- URL：https://doi.org/10.3389/fnins.2024.1456237
+- 发表或更新日期：2024-10-07
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：KWON H B, JEONG J, CHOI B, 等. Effect of closed-loop vibration stimulation on sleep quality for poor sleepers[J/OL]. Frontiers in Neuroscience, 2024, 18: 1456237. DOI:10.3389/fnins.2024.1456237.
 
 ## 核心摘要
 27 名 PSQI>5 的参与者完成 CLVS 与 SHAM 两次 PSG。CLVS 减少入睡后清醒时间、比例和平均持续时间，提高主观睡眠质量，并增加 N3 期 nHF 与 EEG delta 相对功率及二者耦合。[[intervention/闭环振动刺激]]（PDF 第 1、4–9 页）

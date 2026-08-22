@@ -2,7 +2,7 @@
 type: source
 aliases: ["Cao 2017", "China insomnia prevalence meta-analysis"]
 created: 2026-08-17
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/cao-2017-insomnia-prevalence-china.pdf"]
 review_sections: ["1"]
 status: active
@@ -22,6 +22,33 @@ review_due: 2027-08-17
 - DOI：10.1371/journal.pone.0170772
 - 录入日期：2026-08-17
 - review_sections：["1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1371/journal.pone.0170772），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Xiao-Lan Cao; Shi-Bin Wang; Bao-Liang Zhong; Ling Zhang; Gabor S. Ungvari; Chee H. Ng; Lu Li; Helen F. K. Chiu; Grace K. I. Lok; Jian-Ping Lu; Fu-Jun Jia; Yu-Tao Xiang
+- 原始题名：The prevalence of insomnia in the general population in China: A meta-analysis
+- 文献类型标识：[J/OL]
+- 载体或容器题名：PLOS ONE
+- 出版年：2017
+- 卷：12
+- 期：2
+- 起止页码：
+- 文章号：e0170772
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1371/journal.pone.0170772
+- URL：https://doi.org/10.1371/journal.pone.0170772
+- 发表或更新日期：2017-02-24
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：CAO X, WANG S, ZHONG B, 等. The prevalence of insomnia in the general population in China: A meta-analysis[J/OL]. PLOS ONE, 2017, 12(2): e0170772. DOI:10.1371/journal.pone.0170772.
 
 ## 核心摘要
 

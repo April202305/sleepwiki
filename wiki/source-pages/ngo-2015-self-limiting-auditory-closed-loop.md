@@ -2,7 +2,7 @@
 type: source
 aliases: ["Ngo 2015", "Driving stimulation"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/ngo-2015-self-limiting-auditory-closed-loop.pdf"]
 review_sections: ["3.1", "3.2", "3.3"]
 status: active
@@ -19,6 +19,33 @@ review_due: 2027-08-18
 - 英文原题：Driving Sleep Slow Oscillations by Auditory Closed-Loop Stimulation—A Self-Limiting Process
 - DOI：10.1523/JNEUROSCI.3133-14.2015
 - review_sections：["3.1", "3.2", "3.3"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1523/jneurosci.3133-14.2015），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Hong-Viet V. Ngo; Arjan Miedema; Isabel Faude; Thomas Martinetz; Matthias Mölle; Jan Born
+- 原始题名：Driving Sleep Slow Oscillations by Auditory Closed-Loop Stimulation—A Self-Limiting Process
+- 文献类型标识：[J/OL]
+- 载体或容器题名：The Journal of Neuroscience
+- 出版年：2015
+- 卷：35
+- 期：17
+- 起止页码：6630-6638
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1523/jneurosci.3133-14.2015
+- URL：https://doi.org/10.1523/jneurosci.3133-14.2015
+- 发表或更新日期：2015-04-29
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：NGO H V, MIEDEMA A, FAUDE I, 等. Driving Sleep Slow Oscillations by Auditory Closed-Loop Stimulation—A Self-Limiting Process[J/OL]. The Journal of Neuroscience, 2015, 35(17): 6630-6638. DOI:10.1523/jneurosci.3133-14.2015.
 
 ## 核心摘要
 

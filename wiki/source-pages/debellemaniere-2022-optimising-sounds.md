@@ -2,7 +2,7 @@
 type: source
 aliases: ["Debellemanière 2022", "Optimising sounds for CLAS"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/debellemaniere-2022-optimising-sounds.pdf"]
 review_sections: ["3.1", "3.2"]
 status: active
@@ -19,6 +19,33 @@ review_due: 2027-08-18
 - 英文原题：Optimising sounds for the driving of sleep oscillations by closed-loop auditory stimulation
 - DOI：10.1111/jsr.13676
 - review_sections：["3.1", "3.2"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1111/jsr.13676），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Eden Debellemanière; Clémence Pinaud; Jules Schneider; Pierrick J. Arnal; Alexander J. Casson; Mounir Chennaoui; Mathieu Galtier; Miguel Navarrete; Penelope A. Lewis
+- 原始题名：Optimising sounds for the driving of sleep oscillations by closed-loop auditory stimulation
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Sleep Research
+- 出版年：2022
+- 卷：31
+- 期：6
+- 起止页码：
+- 文章号：e13676
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1111/jsr.13676
+- URL：https://doi.org/10.1111/jsr.13676
+- 发表或更新日期：2022-06-27
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：DEBELLEMANIÈRE E, PINAUD C, SCHNEIDER J, 等. Optimising sounds for the driving of sleep oscillations by closed-loop auditory stimulation[J/OL]. Journal of Sleep Research, 2022, 31(6): e13676. DOI:10.1111/jsr.13676.
 
 ## 核心摘要
 

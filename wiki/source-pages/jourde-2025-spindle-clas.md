@@ -2,7 +2,7 @@
 type: source
 aliases: ["Jourde 2025 spindle CLAS"]
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-08-22
 sources: ["raw/inbox/jourde-2025-spindle-clas.pdf"]
 review_sections: ["2.3", "3.2", "4.2", "5.4", "6.4"]
 status: active
@@ -17,6 +17,33 @@ review_due: 2027-08-20
 - 作者/年份：Hugo R. Jourde 等；2025
 - 英文原题：Neurophysiological effects of targeting sleep spindles with closed-loop auditory stimulation
 - DOI：10.1093/sleepadvances/zpaf007
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1093/sleepadvances/zpaf007），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Hugo R Jourde; Milo Sobral; Giovanni Beltrame; Emily B J Coffey
+- 原始题名：Neurophysiological effects of targeting sleep spindles with closed-loop auditory stimulation
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Sleep Advances
+- 出版年：2025
+- 卷：6
+- 期：2
+- 起止页码：
+- 文章号：zpaf007
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1093/sleepadvances/zpaf007
+- URL：https://doi.org/10.1093/sleepadvances/zpaf007
+- 发表或更新日期：2025-04
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：JOURDE H R, SOBRAL M, BELTRAME G, 等. Neurophysiological effects of targeting sleep spindles with closed-loop auditory stimulation[J/OL]. Sleep Advances, 2025, 6(2): zpaf007. DOI:10.1093/sleepadvances/zpaf007.
 
 ## 核心摘要
 10 名健康成人各安排 6 个居家夜，使用 Portiloop v2 进行纺锤在线检测与声音/假刺激；平均保留刺激 2.6±0.5 夜和假刺激 2.2±0.6 夜。[[device/Portiloop]]（PDF 第 1–5 页）

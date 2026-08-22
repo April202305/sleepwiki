@@ -2,7 +2,7 @@
 type: source
 aliases: ["Guo 2024 FlexSleepTransformer"]
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-22
 sources: []
 review_sections: ["2.2", "6.2"]
 status: active
@@ -20,6 +20,33 @@ review_due: 2027-08-19
 - 英文原题：FlexSleepTransformer: a transformer-based sleep staging model with flexible input channel configurations
 - 录入日期：2026-08-19
 - review_sections：["2.2", "6.2"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1038/s41598-024-76197-0），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Yanchen Guo; Maciej Nowakowski; Weiying Dai
+- 原始题名：FlexSleepTransformer: a transformer-based sleep staging model with flexible input channel configurations
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Scientific Reports
+- 出版年：2024
+- 卷：14
+- 期：1
+- 起止页码：
+- 文章号：26312
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1038/s41598-024-76197-0
+- URL：https://doi.org/10.1038/s41598-024-76197-0
+- 发表或更新日期：2024-11-01
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：GUO Y, NOWAKOWSKI M, DAI W. FlexSleepTransformer: a transformer-based sleep staging model with flexible input channel configurations[J/OL]. Scientific Reports, 2024, 14(1): 26312. DOI:10.1038/s41598-024-76197-0.
 
 ## 核心摘要
 

@@ -2,7 +2,7 @@
 type: source
 aliases: ["Phan 2022 SleepTransformer"]
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-22
 sources: []
 review_sections: ["2.2"]
 status: active
@@ -20,6 +20,33 @@ review_due: 2027-08-19
 - 英文原题：SleepTransformer: Automatic Sleep Staging with Interpretability and Uncertainty Quantification
 - 录入日期：2026-08-19
 - review_sections：["2.2"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1109/tbme.2022.3147187），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Huy Phan; Kaare Mikkelsen; Oliver Y. Chen; Philipp Koch; Alfred Mertins; Maarten De Vos
+- 原始题名：SleepTransformer: Automatic Sleep Staging With Interpretability and Uncertainty Quantification
+- 文献类型标识：[J/OL]
+- 载体或容器题名：IEEE Transactions on Biomedical Engineering
+- 出版年：2022
+- 卷：69
+- 期：8
+- 起止页码：2456-2467
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1109/tbme.2022.3147187
+- URL：https://doi.org/10.1109/tbme.2022.3147187
+- 发表或更新日期：2022-08
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：PHAN H, MIKKELSEN K, CHEN O Y, 等. SleepTransformer: Automatic Sleep Staging With Interpretability and Uncertainty Quantification[J/OL]. IEEE Transactions on Biomedical Engineering, 2022, 69(8): 2456-2467. DOI:10.1109/tbme.2022.3147187.
 
 ## 核心摘要
 

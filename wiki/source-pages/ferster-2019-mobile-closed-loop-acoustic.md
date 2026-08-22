@@ -2,7 +2,7 @@
 type: source
 aliases: ["Ferster 2019 MHSL-SB"]
 created: 2026-08-18
-updated: 2026-08-20
+updated: 2026-08-22
 sources: []
 review_sections: ["2.1", "2.3", "3.1", "5.4"]
 status: active
@@ -21,6 +21,33 @@ review_due: 2027-08-18
 - DOI：10.1109/LSENS.2019.2914425
 - 录入日期：2026-08-18
 - review_sections：["2.1", "2.3", "3.1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1109/lsens.2019.2914425），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Maria Laura Ferster; Caroline Lustenberger; Walter Karlen
+- 原始题名：Configurable Mobile System for Autonomous High-Quality Sleep Monitoring and Closed-Loop Acoustic Stimulation
+- 文献类型标识：[J/OL]
+- 载体或容器题名：IEEE Sensors Letters
+- 出版年：2019
+- 卷：3
+- 期：5
+- 起止页码：1-4
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1109/lsens.2019.2914425
+- URL：https://doi.org/10.1109/lsens.2019.2914425
+- 发表或更新日期：2019-05
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：FERSTER M L, LUSTENBERGER C, KARLEN W. Configurable Mobile System for Autonomous High-Quality Sleep Monitoring and Closed-Loop Acoustic Stimulation[J/OL]. IEEE Sensors Letters, 2019, 3(5): 1-4. DOI:10.1109/lsens.2019.2914425.
 
 ## 核心摘要
 [[device/MHSL-SB]] 是 8 通道、24 位、250 Hz 的电池供电移动系统，以 Fpz-M2 实时执行 NREM、慢波活动、beta 功率和 PLL 相位联合门控。7 名健康老年人完成 98 个居家夜晚，其中 93 夜纳入触发分析、14 夜有专家评分。[[source-pages/ferster-2019-mobile-closed-loop-acoustic|本来源]]（PDF 第 1–3 页）

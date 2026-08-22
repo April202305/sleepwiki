@@ -2,7 +2,7 @@
 type: source
 aliases: ["Debellemaniere 2018", "WDD closed-loop study"]
 created: 2026-08-17
-updated: 2026-08-20
+updated: 2026-08-22
 sources: ["raw/inbox/debellemaniere-2018-ambulatory-dry-eeg-closed-loop.pdf"]
 review_sections: ["1.2", "2.3", "3.1", "5.4"]
 status: active
@@ -18,6 +18,33 @@ review_due: 2027-08-17
 - DOI：10.3389/fnhum.2018.00088
 - 英文原题：Performance of an Ambulatory Dry-EEG Device for Auditory Closed-Loop Stimulation of Sleep Slow Oscillations in the Home Environment
 - review_sections：["1.2", "2.3", "3.1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.3389/fnhum.2018.00088），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Eden Debellemaniere; Stanislas Chambon; Clemence Pinaud; Valentin Thorey; David Dehaene; Damien Léger; Mounir Chennaoui; Pierrick J. Arnal; Mathieu N. Galtier
+- 原始题名：Performance of an Ambulatory Dry-EEG Device for Auditory Closed-Loop Stimulation of Sleep Slow Oscillations in the Home Environment
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Frontiers in Human Neuroscience
+- 出版年：2018
+- 卷：12
+- 期：
+- 起止页码：
+- 文章号：88
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.3389/fnhum.2018.00088
+- URL：https://doi.org/10.3389/fnhum.2018.00088
+- 发表或更新日期：2018-03-08
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：DEBELLEMANIERE E, CHAMBON S, PINAUD C, 等. Performance of an Ambulatory Dry-EEG Device for Auditory Closed-Loop Stimulation of Sleep Slow Oscillations in the Home Environment[J/OL]. Frontiers in Human Neuroscience, 2018, 12: 88. DOI:10.3389/fnhum.2018.00088.
 
 ## 核心摘要
 该研究验证无线干电极 [[device/Wireless Dreem Device]] 的居家链路：实时 N3 检测→慢振荡上升相声音触发。20 名健康青年在迷你 PSG 配对、随机双盲交叉条件下进行验证；实时 N3 检测灵敏度/特异度为 0.70/0.90，上升相靶向准确性为 45±52°。另有 90 名中年人的居家观察性试点。[[intervention/闭环听觉刺激]]（PDF 第 1 页）

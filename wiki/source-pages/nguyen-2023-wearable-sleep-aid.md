@@ -2,7 +2,7 @@
 type: source
 aliases: ["Nguyen 2023", "Earable"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/nguyen-2023-wearable-sleep-aid.pdf"]
 review_sections: ["4.1", "5.4", "6.5"]
 status: active
@@ -19,6 +19,33 @@ review_due: 2027-08-18
 - 英文原题：A comprehensive study on the efficacy of a wearable sleep aid device featuring closed-loop real-time acoustic stimulation
 - DOI：10.1038/s41598-023-43975-1
 - review_sections：["4.1", "5.4", "6.5"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1038/s41598-023-43975-1），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Anh Nguyen; Galen Pogoncheff; Ban Xuan Dong; Nam Bui; Hoang Truong; Nhat Pham; Linh Nguyen; Hoang Nguyen-Huu; Khue Bui-Diem; Quan Vu-Tran-Thien; Sy Duong-Quy; Sangtae Ha; Tam Vu
+- 原始题名：A comprehensive study on the efficacy of a wearable sleep aid device featuring closed-loop real-time acoustic stimulation
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Scientific Reports
+- 出版年：2023
+- 卷：13
+- 期：1
+- 起止页码：
+- 文章号：17515
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1038/s41598-023-43975-1
+- URL：https://doi.org/10.1038/s41598-023-43975-1
+- 发表或更新日期：2023-10-16
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：NGUYEN A, POGONCHEFF G, DONG B X, 等. A comprehensive study on the efficacy of a wearable sleep aid device featuring closed-loop real-time acoustic stimulation[J/OL]. Scientific Reports, 2023, 13(1): 17515. DOI:10.1038/s41598-023-43975-1.
 
 ## 核心摘要
 Earable 集成 8 个干式生物电电极、加速度、PPG 与双骨传导扬声器，并在 377 名受试者、883 次睡眠会话的多个协议中评估信号、实时睡眠监测与入睡促进。[[device/Earable]]（PDF 第 1–3、8–16 页）

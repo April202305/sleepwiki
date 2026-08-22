@@ -2,7 +2,7 @@
 type: source
 aliases: ["Mikkelsen 2019", "dry-contact ear-EEG sleep monitoring"]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/mikkelsen-2019-ear-eeg-whole-night-sleep.pdf"]
 review_sections: ["2.1", "5.4"]
 status: active
@@ -20,6 +20,33 @@ review_due: 2027-08-18
 - 英文原题：Accurate whole-night sleep monitoring with dry-contact ear-EEG
 - DOI：10.1038/s41598-019-53115-3
 - review_sections：["2.1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1038/s41598-019-53115-3），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Kaare B. Mikkelsen; Yousef R. Tabar; Simon L. Kappel; Christian B. Christensen; Hans O. Toft; Martin C. Hemmsen; Mike L. Rank; Marit Otto; Preben Kidmose
+- 原始题名：Accurate whole-night sleep monitoring with dry-contact ear-EEG
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Scientific Reports
+- 出版年：2019
+- 卷：9
+- 期：1
+- 起止页码：
+- 文章号：16824
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1038/s41598-019-53115-3
+- URL：https://doi.org/10.1038/s41598-019-53115-3
+- 发表或更新日期：2019-11-14
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：MIKKELSEN K B, TABAR Y R, KAPPEL S L, 等. Accurate whole-night sleep monitoring with dry-contact ear-EEG[J/OL]. Scientific Reports, 2019, 9(1): 16824. DOI:10.1038/s41598-019-53115-3.
 
 ## 核心摘要
 

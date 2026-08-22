@@ -2,7 +2,7 @@
 type: source
 aliases: ["Benjafield 2025", "global insomnia burden"]
 created: 2026-08-17
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/benjafield-2025-global-insomnia-burden.pdf"]
 review_sections: ["1"]
 status: active
@@ -22,6 +22,33 @@ review_due: 2027-08-17
 - DOI：10.1016/j.smrv.2025.102121
 - 录入日期：2026-08-17
 - review_sections：["1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1016/j.smrv.2025.102121），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Adam V. Benjafield; Fatima H Sert Kuniyoshi; Atul Malhotra; Jennifer L. Martin; Charles M. Morin; Leonie F. Maurer; Peter A. Cistulli; Jean-Louis Pépin; Emerson M. Wickwire
+- 原始题名：Estimation of the global prevalence and burden of insomnia: a systematic literature review-based analysis
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Sleep Medicine Reviews
+- 出版年：2025
+- 卷：82
+- 期：
+- 起止页码：
+- 文章号：102121
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1016/j.smrv.2025.102121
+- URL：https://doi.org/10.1016/j.smrv.2025.102121
+- 发表或更新日期：2025-08
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：BENJAFIELD A V, SERT KUNIYOSHI F H, MALHOTRA A, 等. Estimation of the global prevalence and burden of insomnia: a systematic literature review-based analysis[J/OL]. Sleep Medicine Reviews, 2025, 82: 102121. DOI:10.1016/j.smrv.2025.102121.
 
 ## 核心摘要
 

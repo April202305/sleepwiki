@@ -2,7 +2,7 @@
 type: source
 aliases: ["Song 2024", "global RLS prevalence"]
 created: 2026-08-17
-updated: 2026-08-18
+updated: 2026-08-22
 sources: ["raw/inbox/song-2024-global-rls-prevalence.pdf"]
 review_sections: ["1.1"]
 status: active
@@ -21,6 +21,33 @@ review_due: 2027-08-17
 - 英文原题：The global and regional prevalence of restless legs syndrome among adults: A systematic review and modelling analysis
 - DOI：10.7189/jogh.14.04113
 - review_sections：["1.1"]
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.7189/jogh.14.04113），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Peige Song; Jing Wu; Jin Cao; Weidi Sun; Xiaoyu Li; Tianjing Zhou; Yaojia Shen; Xiao Tan; Xinxin Ye; Changzheng Yuan; Yajie Zhu; Igor Rudan
+- 原始题名：The global and regional prevalence of restless legs syndrome among adults: A systematic review and modelling analysis
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Global Health
+- 出版年：2024
+- 卷：14
+- 期：
+- 起止页码：
+- 文章号：04113
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.7189/jogh.14.04113
+- URL：https://doi.org/10.7189/jogh.14.04113
+- 发表或更新日期：2024-06-07
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：SONG P, WU J, CAO J, 等. The global and regional prevalence of restless legs syndrome among adults: A systematic review and modelling analysis[J/OL]. Journal of Global Health, 2024, 14: 04113. DOI:10.7189/jogh.14.04113.
 
 ## 核心摘要
 

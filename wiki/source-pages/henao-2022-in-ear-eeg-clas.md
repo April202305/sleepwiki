@@ -2,7 +2,7 @@
 type: source
 aliases: ["Henao 2022 in-ear CLAS"]
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-08-22
 sources: ["raw/inbox/henao-2022-in-ear-eeg-clas.pdf"]
 review_sections: ["2.1", "2.3", "3.2", "5.4", "6.3"]
 status: active
@@ -17,6 +17,33 @@ review_due: 2027-08-20
 - 作者/年份：David Henao 等；2022
 - 英文原题：Auditory closed-loop stimulation on sleep slow oscillations using in-ear EEG sensors
 - DOI：10.1111/jsr.13555
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1111/jsr.13555），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：David Henao; Miguel Navarrete; José Yesith Juez; Hugo Dinh; Rodrigo Gómez; Mario Valderrama; Michel Le Van Quyen
+- 原始题名：Auditory closed-loop stimulation on sleep slow oscillations using in-ear EEG sensors
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Sleep Research
+- 出版年：2022
+- 卷：31
+- 期：6
+- 起止页码：
+- 文章号：e13555
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1111/jsr.13555
+- URL：https://doi.org/10.1111/jsr.13555
+- 发表或更新日期：2022-02-06
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：HENAO D, NAVARRETE M, JUEZ J Y, 等. Auditory closed-loop stimulation on sleep slow oscillations using in-ear EEG sensors[J/OL]. Journal of Sleep Research, 2022, 31(6): e13555. DOI:10.1111/jsr.13555.
 
 ## 核心摘要
 研究以跨耳双极耳内 EEG 在线检测慢振荡并实际播放 50 ms 粉噪，构成“耳内采集—在线检测—声音刺激—头皮生理响应”的人体实验室闭环。24 名健康参与者分为比较实验 13 人和刺激实验 11 人。[[device/耳内EEG慢波闭环刺激系统（Henao）]]（PDF 第 1–6 页）

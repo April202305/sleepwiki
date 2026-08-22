@@ -2,7 +2,7 @@
 type: source
 aliases: ["Ngo 2019 spindle up-state CLAS"]
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-08-22
 sources: ["raw/inbox/1-s2.0-S0165027018302723-main.pdf"]
 review_sections: ["3.2", "3.3", "5.1"]
 status: active
@@ -18,6 +18,33 @@ review_due: 2027-08-20
 - 英文原题：Insights on auditory closed-loop stimulation targeting sleep spindles in slow oscillation up-states
 - DOI：10.1016/j.jneumeth.2018.09.006
 - 期刊：Journal of Neuroscience Methods 316 (2019) 117–124
+
+## 题录与引用字段
+- 题录状态：已核验
+- 核验来源：Crossref（DOI 10.1016/j.jneumeth.2018.09.006），核验日 2026-08-22
+- 文献语种：英文
+- 作者（原始顺序）：Hong-Viet V. Ngo; Mitja Seibold; Désirée C. Boche; Matthias Mölle; Jan Born
+- 原始题名：Insights on auditory closed-loop stimulation targeting sleep spindles in slow oscillation up-states
+- 文献类型标识：[J/OL]
+- 载体或容器题名：Journal of Neuroscience Methods
+- 出版年：2019
+- 卷：316
+- 期：
+- 起止页码：117-124
+- 文章号：
+- 出版地：
+- 出版者：
+- 编辑：
+- 会议名称：
+- 会议地点：
+- 会议日期：
+- DOI：10.1016/j.jneumeth.2018.09.006
+- URL：https://doi.org/10.1016/j.jneumeth.2018.09.006
+- 发表或更新日期：2019-03
+- 引用日期：2026-08-22
+- 补充标识：
+- 核验备注：
+- Word 成稿引用：NGO H V, SEIBOLD M, BOCHE D C, 等. Insights on auditory closed-loop stimulation targeting sleep spindles in slow oscillation up-states[J/OL]. Journal of Neuroscience Methods, 2019, 316: 117-124. DOI:10.1016/j.jneumeth.2018.09.006.
 
 ## 核心摘要
 研究包含两个各12人的交叉实验：实验I比较个体快纺锤频率的七声节律刺激与非节律七声刺激，实验II比较节律刺激与sham。刺激均锁定SO上状态。节律刺激未能选择性即时夹带内源纺锤；节律和非节律声音均在结束后约0.5 s诱发慢振荡及相位锁定纺锤响应，记忆保持未改善。（PDF第1–6页，Figures 1–2）
