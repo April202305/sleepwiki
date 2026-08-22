@@ -24,7 +24,7 @@ review_due: 2027-08-18
 
 ## 题录与引用字段
 - 题录状态：已核验
-- 核验来源：Crossref（DOI 10.1093/sleep/zsy041），核验日 2026-08-22
+- 核验来源：Oxford Academic官方推荐引用（Sleep, Volume 41, Issue 5, May 2018, zsy041）；Crossref（DOI 10.1093/sleep/zsy041）；核验日2026-08-22
 - 文献语种：英文
 - 作者（原始顺序）：Amiya Patanaik; Ju Lynn Ong; Joshua J Gooley; Sonia Ancoli-Israel; Michael W L Chee
 - 原始题名：An end-to-end framework for real-time automatic sleep stage classification
@@ -34,7 +34,7 @@ review_due: 2027-08-18
 - 卷：41
 - 期：5
 - 起止页码：
-- 文章号：
+- 文章号：zsy041
 - 出版地：
 - 出版者：
 - 编辑：
@@ -45,9 +45,9 @@ review_due: 2027-08-18
 - URL：https://doi.org/10.1093/sleep/zsy041
 - 发表或更新日期：2018-03-26
 - 引用日期：2026-08-22
-- 补充标识：
-- 核验备注：
-- Word 成稿引用：PATANAIK A, ONG J L, GOOLEY J J, 等. An end-to-end framework for real-time automatic sleep stage classification[J/OL]. Sleep, 2018, 41(5). DOI:10.1093/sleep/zsy041.
+- 补充标识：Oxford Academic官方题录：Volume 41, Issue 5, May 2018, zsy041
+- 核验备注：zsy041由Oxford Academic官方推荐引用确认为文章号，并非依据DOI尾段推断。
+- Word 成稿引用：PATANAIK A, ONG J L, GOOLEY J J, 等. An end-to-end framework for real-time automatic sleep stage classification[J/OL]. Sleep, 2018, 41(5): zsy041. DOI:10.1093/sleep/zsy041.
 
 ## 核心摘要
 

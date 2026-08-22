@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.19)  22 AUG 2026 12:16
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.19)  22 AUG 2026 18:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1282,199 +1282,261 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 ] [2] [3] [4] [5]
-[6] [7] [8] [9] [10] [11]
+[6] [7] [8] [9] [10]
+Overfull \vbox (4.54669pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (5.34674pt too high) has occurred while \output is active []
+
+
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 412--412
 \TU/SongtiSC(1)/m/n/10 状 态 触 发”|  两 条 轴 线 组 织。| \TU/TimesNewRoman(0)/m/n/10 Kwo
 n \TU/SongtiSC(1)/m/n/10 的 智 能 床 垫 用
  []
 
 [12] [13] [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 563--563
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
 []\TU/TimesNewRoman(0)/m/n/9 [12] WEIGENAND A, MÖLLE M, WERNER F, \TU/SongtiSC(
 1)/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 .
  []
 
 
-Underfull \hbox (badness 7433) in paragraph at lines 564--564
+Underfull \hbox (badness 7433) in paragraph at lines 563--563
 []\TU/TimesNewRoman(0)/m/n/9 [13] ESFAHANI M J, FARBOUD S, NGO H V, \TU/SongtiS
 C(1)/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--564
+Underfull \hbox (badness 10000) in paragraph at lines 563--563
 \TU/TimesNewRoman(0)/m/n/9 Closed-loop auditory stimulation of sleep slow oscil
 la-
  []
 
 
-Underfull \hbox (badness 6047) in paragraph at lines 564--564
+Underfull \hbox (badness 6047) in paragraph at lines 563--563
 \TU/TimesNewRoman(0)/m/n/9 tions: Basic principles and best practices[J/OL]. Ne
 uro-
  []
 
 
-Underfull \hbox (badness 6758) in paragraph at lines 564--564
+Underfull \hbox (badness 6758) in paragraph at lines 563--563
 \TU/TimesNewRoman(0)/m/n/9 science & Biobehavioral Reviews, 2023, 153: 105379.
  []
 
-
-Underfull \hbox (badness 5637) in paragraph at lines 566--566
+[16]
+Underfull \hbox (badness 5637) in paragraph at lines 565--565
 \TU/TimesNewRoman(0)/m/n/9 ditory Stimulation of Low Amplitude Slow Waves With
  []
 
-[16]
-Underfull \hbox (badness 7558) in paragraph at lines 569--569
+
+Underfull \hbox (badness 7558) in paragraph at lines 568--568
 \TU/TimesNewRoman(0)/m/n/9 ulation[J/OL]. Frontiers in Psychology, 2018, 9: 210
 8.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 574--574
+Underfull \hbox (badness 10000) in paragraph at lines 573--573
 \TU/TimesNewRoman(0)/m/n/9 ear-EEG[J/OL]. Scientific Reports, 2019, 9(1): 16824
 .
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 583--583
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 582--582
 \TU/TimesNewRoman(0)/m/n/9 ity and Uncertainty Quantification[J/OL]. IEEE Trans
 ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--585
+Underfull \hbox (badness 10000) in paragraph at lines 584--584
 []\TU/TimesNewRoman(0)/m/n/9 [33] BRESCH E, GROSSEKATHÖFER U, GARCIA-
  []
 
-[17]
-Underfull \hbox (badness 5316) in paragraph at lines 603--603
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
+[]\TU/TimesNewRoman(0)/m/n/9 [39] SUPRATAK A, GUO Y. TinySleepNet: An Ef-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
+\TU/TimesNewRoman(0)/m/n/9 ficient Deep Learning Model for Sleep Stage Scoring
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
+\TU/TimesNewRoman(0)/m/n/9 based on Raw Single-Channel EEG[C/OL]//2020 42nd
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
+\TU/TimesNewRoman(0)/m/n/9 Annual International Conference of the IEEE Engineer
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
+\TU/TimesNewRoman(0)/m/n/9 ing in Medicine & Biology Society (EMBC). Mon-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
+\TU/TimesNewRoman(0)/m/n/9 treal, QC, Canada: IEEE, 2020: 641–644[2026-08-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
+\TU/TimesNewRoman(0)/m/n/9 22]. https://doi.org/10.1109/EMBC44109.2020.9176741.
+
+ []
+
+[18]
+Underfull \hbox (badness 5316) in paragraph at lines 602--602
 []\TU/TimesNewRoman(0)/m/n/9 [51] ZRENNER B, ZRENNER C, GORDON P C, \TU/SongtiS
 C(1)/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 .
  []
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 607--607
+
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
+[]\TU/TimesNewRoman(0)/m/n/9 [52] PATANAIK A, ONG J L, GOOLEY J J, \TU/SongtiSC
+(1)/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
+\TU/TimesNewRoman(0)/m/n/9 An end-to-end framework for real-time automatic slee
+p
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
+\TU/TimesNewRoman(0)/m/n/9 stage classification[J/OL]. Sleep, 2018, 41(5): zsy0
+41.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 606--606
 []\TU/TimesNewRoman(0)/m/n/9 [55] ESPARZA-IAIZZO M, SIERRA-TORRALBA M,
  []
 
 
-Underfull \hbox (badness 5519) in paragraph at lines 612--612
+Underfull \hbox (badness 5519) in paragraph at lines 611--611
 []\TU/TimesNewRoman(0)/m/n/9 [60] VAN GORP H, HUIJBEN I A M, FONSECA P,
  []
 
 
-Underfull \hbox (badness 7925) in paragraph at lines 612--612
+Underfull \hbox (badness 7925) in paragraph at lines 611--611
 \TU/TimesNewRoman(0)/m/n/9 oretical framework[J/OL]. Sleep, 2022, 45(8): zsac13
 4.
  []
 
-
-Underfull \hbox (badness 6173) in paragraph at lines 616--616
+[19]
+Underfull \hbox (badness 6173) in paragraph at lines 615--615
 []\TU/TimesNewRoman(0)/m/n/9 [64] KASTIES V, MEIER N, MOSER N, \TU/SongtiSC(1)/
 m/n/9 等\TU/TimesNewRoman(0)/m/n/9 . Opti-
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 618--618
+Underfull \hbox (badness 7081) in paragraph at lines 617--617
 \TU/TimesNewRoman(0)/m/n/9 lab streaming layer for synchronized multimodal reco
 rd-
  []
 
 
-Underfull \hbox (badness 5711) in paragraph at lines 619--619
+Underfull \hbox (badness 5711) in paragraph at lines 618--618
 \TU/TimesNewRoman(0)/m/n/9 Thalamus: a real-time system for synchronized, close
 d-
  []
 
-[19]
-Underfull \hbox (badness 7344) in paragraph at lines 625--625
+
+Underfull \hbox (badness 7344) in paragraph at lines 624--624
 \TU/TimesNewRoman(0)/m/n/9 R G, \TU/SongtiSC(1)/m/n/9 等\TU/TimesNewRoman(0)/m/n
 /9 . Acoustic Enhancement of Sleep Slow Os-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 628--628
+Underfull \hbox (badness 10000) in paragraph at lines 627--627
 \TU/TimesNewRoman(0)/m/n/9 come of closed loop auditory stimulation during slow
 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 628--628
+Underfull \hbox (badness 10000) in paragraph at lines 627--627
 \TU/TimesNewRoman(0)/m/n/9 wave sleep[J/OL]. NeuroImage, 2022, 253: 119055.
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 636--636
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 635--635
 \TU/TimesNewRoman(0)/m/n/9 mans[J/OL]. PLOS Biology, 2024, 22(6): e3002651.
  []
 
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 642--642
+
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
 []\TU/TimesNewRoman(0)/m/n/9 [90] JARAMILLO V, HEBRON H, WONG S, \TU/SongtiSC(1
 )/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 642--642
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
 \TU/TimesNewRoman(0)/m/n/9 Closed-loop auditory stimulation targeting alpha and
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 642--642
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
 \TU/TimesNewRoman(0)/m/n/9 theta oscillations during REM sleep induces phase-
  []
 
 
-Underfull \hbox (badness 7064) in paragraph at lines 642--642
+Underfull \hbox (badness 7064) in paragraph at lines 641--641
 \TU/TimesNewRoman(0)/m/n/9 dependent power and frequency changes[A/OL]. bioRxiv
 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 643--643
+Underfull \hbox (badness 10000) in paragraph at lines 642--642
 []\TU/TimesNewRoman(0)/m/n/9 [91] HAAR HOROWITZ A, CUNNINGHAM T J,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--645
+Underfull \hbox (badness 10000) in paragraph at lines 644--644
 []\TU/TimesNewRoman(0)/m/n/9 [93] NAVARRETE M, ARTHUR S, TREDER M S,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--645
+Underfull \hbox (badness 10000) in paragraph at lines 644--644
 \TU/SongtiSC(1)/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 . Ongoing neural oscillations
  predict the post-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--645
+Underfull \hbox (badness 10000) in paragraph at lines 644--644
 \TU/TimesNewRoman(0)/m/n/9 stimulus outcome of closed loop auditory stimulation
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--645
+Underfull \hbox (badness 10000) in paragraph at lines 644--644
 \TU/TimesNewRoman(0)/m/n/9 during slow-wave sleep[A/OL]. bioRxiv, 2021[2026-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--645
+Underfull \hbox (badness 10000) in paragraph at lines 644--644
 \TU/TimesNewRoman(0)/m/n/9 08-22]. https://doi.org/10.1101/2021.05.06.443016.
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 646--646
+Underfull \hbox (badness 6412) in paragraph at lines 645--645
 []\TU/TimesNewRoman(0)/m/n/9 [94] PATHAK V, JUAN E, VAN DER GOOT R, \TU/SongtiS
 C(1)/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 .
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 651--651
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 650--650
 \TU/TimesNewRoman(0)/m/n/9 Mattress Cover on Sleep and Perceptual Measures in
  []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 658--658
+
+Underfull \hbox (badness 10000) in paragraph at lines 657--657
 []\TU/TimesNewRoman(0)/m/n/9 [106] KJAER T W, RANK M L, HEMMSEN M C,
  []
 
@@ -1489,7 +1551,7 @@ Package rerunfilecheck Info: File `20140521141822tgmb.out' has not changed.
 Here is how much of TeX's memory you used:
  26476 strings out of 468168
  610096 string characters out of 5432815
- 1027188 words of memory out of 5000000
+ 1036188 words of memory out of 5000000
  54751 multiletter control sequences out of 15000+600000
  634844 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

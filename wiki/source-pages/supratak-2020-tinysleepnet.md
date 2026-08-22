@@ -20,7 +20,7 @@ review_due: 2026-09-19
 - review_sections：[`2.2`]
 ## 题录与引用字段
 - 题录状态：已核验
-- 核验来源：Crossref（DOI 10.1109/embc44109.2020.9176741），核验日 2026-08-22
+- 核验来源：IEEE官方推荐引用（A. Supratak and Y. Guo；EMBC；Montreal, QC, Canada；2020；pp. 641-644）；Crossref（DOI 10.1109/EMBC44109.2020.9176741）；核验日2026-08-22
 - 文献语种：英文
 - 作者（原始顺序）：Akara Supratak; Yike Guo
 - 原始题名：TinySleepNet: An Efficient Deep Learning Model for Sleep Stage Scoring based on Raw Single-Channel EEG
@@ -34,16 +34,16 @@ review_due: 2026-09-19
 - 出版地：Montreal, QC, Canada
 - 出版者：IEEE
 - 编辑：
-- 会议名称：2020 42nd Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) in conjunction with the 43rd Annual Conference of the Canadian Medical and Biological Engineering Society
+- 会议名称：2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)
 - 会议地点：Montreal, QC, Canada
 - 会议日期：2020-7-20 至 2020-7-24
 - DOI：10.1109/embc44109.2020.9176741
 - URL：https://doi.org/10.1109/embc44109.2020.9176741
 - 发表或更新日期：2020-07
 - 引用日期：2026-08-22
-- 补充标识：
-- 核验备注：
-- Word 成稿引用：SUPRATAK A, GUO Y. TinySleepNet: An Efficient Deep Learning Model for Sleep Stage Scoring based on Raw Single-Channel EEG[C/OL]//2020 42nd Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) in conjunction with the 43rd Annual Conference of the Canadian Medical and Biological Engineering Society. 2020: 641-644. DOI:10.1109/embc44109.2020.9176741.
+- 补充标识：IEEE官方推荐引用含会议地点Montreal, QC, Canada
+- 核验备注：会议名称、地点、年份及页码按IEEE官方推荐引用核验；在线访问字段按参考Word的[C/OL]结构保留。
+- Word 成稿引用：SUPRATAK A, GUO Y. TinySleepNet: An Efficient Deep Learning Model for Sleep Stage Scoring based on Raw Single-Channel EEG[C/OL]//2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC). Montreal, QC, Canada: IEEE, 2020: 641-644[2026-08-22]. https://doi.org/10.1109/EMBC44109.2020.9176741. DOI:10.1109/EMBC44109.2020.9176741.
 
 ## 核心摘要
 TinySleepNet以原始单通道EEG为输入，通过轻量CNN与时序模块减少参数和训练需求，并采用序列训练与受试者级验证。[[source-pages/supratak-2020-tinysleepnet]]（PDF第1–4页）

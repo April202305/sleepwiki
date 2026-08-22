@@ -23,15 +23,15 @@ review_due: 2027-08-19
 
 ## 题录与引用字段
 - 题录状态：已核验
-- 核验来源：Crossref（DOI 10.1111/jsr.12786），核验日 2026-08-22
+- 核验来源：Wiley官方推荐引用（Mikkelsen KB, Ebajemito JK, Bonmati-Carrion MA, et al. J Sleep Res. 2019; 28:e12786）；Crossref（DOI 10.1111/jsr.12786）；核验日2026-08-22
 - 文献语种：英文
 - 作者（原始顺序）：Kaare B. Mikkelsen; James K. Ebajemito; Maria A. Bonmati-Carrion; Nayantara Santhi; Victoria L. Revell; Giuseppe Atzori; Ciro della Monica; Stefan Debener; Derk-Jan Dijk; Annette Sterr; Maarten de Vos
 - 原始题名：Machine-learning-derived sleep–wake staging from around-the-ear electroencephalogram outperforms manual scoring and actigraphy
 - 文献类型标识：[J/OL]
 - 载体或容器题名：Journal of Sleep Research
-- 出版年：2018
+- 出版年：2019
 - 卷：28
-- 期：2
+- 期：
 - 起止页码：
 - 文章号：e12786
 - 出版地：
@@ -44,9 +44,9 @@ review_due: 2027-08-19
 - URL：https://doi.org/10.1111/jsr.12786
 - 发表或更新日期：2018-11-13
 - 引用日期：2026-08-22
-- 补充标识：
-- 核验备注：
-- Word 成稿引用：MIKKELSEN K B, EBAJEMITO J K, BONMATI-CARRION M A, 等. Machine-learning-derived sleep–wake staging from around-the-ear electroencephalogram outperforms manual scoring and actigraphy[J/OL]. Journal of Sleep Research, 2018, 28(2): e12786. DOI:10.1111/jsr.12786.
+- 补充标识：Wiley官方推荐引用：2019; 28:e12786
+- 核验备注：Wiley官方推荐引用采用2019年且未著录期号；2018-11-13保留为在线发表日期，成稿采用正式引用年份2019。
+- Word 成稿引用：MIKKELSEN K B, EBAJEMITO J K, BONMATI-CARRION M A, 等. Machine-learning-derived sleep–wake staging from around-the-ear electroencephalogram outperforms manual scoring and actigraphy[J/OL]. Journal of Sleep Research, 2019, 28: e12786. DOI:10.1111/jsr.12786.
 
 ## 核心摘要
 

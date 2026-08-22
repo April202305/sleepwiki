@@ -20,7 +20,7 @@ review_due: 2027-08-20
 
 ## 题录与引用字段
 - 题录状态：已核验
-- 核验来源：Crossref（DOI 10.3389/fnhum.2017.00109），核验日 2026-08-22
+- 核验来源：Frontiers官方推荐引用（2017, Front. Hum. Neurosci. 11:109）；Crossref（DOI 10.3389/fnhum.2017.00109）；核验日2026-08-22
 - 文献语种：英文
 - 作者（原始顺序）：Nelly A. Papalambros; Giovanni Santostasi; Roneil G. Malkani; Rosemary Braun; Sandra Weintraub; Ken A. Paller; Phyllis C. Zee
 - 原始题名：Acoustic Enhancement of Sleep Slow Oscillations and Concomitant Memory Improvement in Older Adults
@@ -30,7 +30,7 @@ review_due: 2027-08-20
 - 卷：11
 - 期：
 - 起止页码：
-- 文章号：
+- 文章号：109
 - 出版地：
 - 出版者：
 - 编辑：
@@ -41,9 +41,9 @@ review_due: 2027-08-20
 - URL：https://doi.org/10.3389/fnhum.2017.00109
 - 发表或更新日期：2017-03-08
 - 引用日期：2026-08-22
-- 补充标识：
-- 核验备注：
-- Word 成稿引用：PAPALAMBROS N A, SANTOSTASI G, MALKANI R G, 等. Acoustic Enhancement of Sleep Slow Oscillations and Concomitant Memory Improvement in Older Adults[J/OL]. Frontiers in Human Neuroscience, 2017, 11. DOI:10.3389/fnhum.2017.00109.
+- 补充标识：Frontiers官方推荐引用：Front. Hum. Neurosci. 11:109
+- 核验备注：文章号109由Frontiers官方推荐引用确认。
+- Word 成稿引用：PAPALAMBROS N A, SANTOSTASI G, MALKANI R G, 等. Acoustic Enhancement of Sleep Slow Oscillations and Concomitant Memory Improvement in Older Adults[J/OL]. Frontiers in Human Neuroscience, 2017, 11: 109. DOI:10.3389/fnhum.2017.00109.
 
 ## 核心摘要
 13 名 60–84 岁健康老年人各完成一夜刺激和一夜假刺激。自适应 PLL 以 50 ms 粉噪瞄准上升相位，并在觉醒或阶段改变时停止；刺激增强慢振荡/纺锤活动并伴随记忆改善。（PDF 第 1–8 页）

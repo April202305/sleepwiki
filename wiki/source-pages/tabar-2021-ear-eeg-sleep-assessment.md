@@ -25,13 +25,13 @@ review_due: 2027-08-19
 
 ## 题录与引用字段
 - 题录状态：已核验
-- 核验来源：Crossref（DOI 10.1007/s11325-020-02248-1），核验日 2026-08-22
+- 核验来源：Springer正式文章页（DOI 10.1007/s11325-020-02248-1：Published及Version of record均为2020-11-21，Issue date为2021-09）；Crossref；核验日2026-08-22
 - 文献语种：英文
 - 作者（原始顺序）：Yousef Rezaei Tabar; Kaare B. Mikkelsen; Mike Lind Rank; Martin Christian Hemmsen; Marit Otto; Preben Kidmose
 - 原始题名：Ear-EEG for sleep assessment: a comparison with actigraphy and PSG
 - 文献类型标识：[J/OL]
 - 载体或容器题名：Sleep and Breathing
-- 出版年：2020
+- 出版年：2021
 - 卷：25
 - 期：3
 - 起止页码：1693-1705
@@ -46,9 +46,9 @@ review_due: 2027-08-19
 - URL：https://doi.org/10.1007/s11325-020-02248-1
 - 发表或更新日期：2020-11-21
 - 引用日期：2026-08-22
-- 补充标识：
-- 核验备注：
-- Word 成稿引用：TABAR Y R, MIKKELSEN K B, RANK M L, 等. Ear-EEG for sleep assessment: a comparison with actigraphy and PSG[J/OL]. Sleep and Breathing, 2020, 25(3): 1693-1705. DOI:10.1007/s11325-020-02248-1.
+- 补充标识：Version of record：2020-11-21；Issue date：2021-09
+- 核验备注：在线正式发表日期为2020-11-21；成稿采用与卷25期3对应的卷期年份2021。
+- Word 成稿引用：TABAR Y R, MIKKELSEN K B, RANK M L, 等. Ear-EEG for sleep assessment: a comparison with actigraphy and PSG[J/OL]. Sleep and Breathing, 2021, 25(3): 1693-1705. DOI:10.1007/s11325-020-02248-1.
 
 ## 核心摘要
 
