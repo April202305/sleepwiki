@@ -1,0 +1,664 @@
+% !TEX program = xelatex
+% 版式参照20260008-潘家辉-AI-final_temp.docx；使用 XeLaTeX 编译。
+\documentclass[UTF8,zihao=5,fontset=none]{ctexart}
+\usepackage[a4paper,top=2.20cm,bottom=2.20cm,left=1.951cm,right=1.951cm,
+  headheight=0pt,headsep=0pt,footskip=1.25cm]{geometry}
+\usepackage{fontspec,array,tabularx,graphicx,multicol,tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\usepackage[normalem]{ulem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
+\usepackage{setspace}
+\pagestyle{plain}
+\setmainfont{Times New Roman}
+\setCJKmainfont[BoldFont=Songti SC Bold]{Songti SC}
+\setCJKfamilyfont{song}{Songti SC}
+\setCJKfamilyfont{hei}{Heiti SC}
+\setCJKfamilyfont{kai}[Path=/System/Library/AssetsV2/com_apple_MobileAsset_Font7/54a2ad3dac6cac875ad675d7d273dc425010a877.asset/AssetData/]{Kaiti.ttc}
+\setCJKfamilyfont{fs}[Path=/System/Library/AssetsV2/com_apple_MobileAsset_Font7/1821952872c81043711aab6910052b65da8edf2c.asset/AssetData/]{STFANGSO.ttf}
+\newcommand{\song}{\CJKfamily{song}}
+\newcommand{\hei}{\CJKfamily{hei}}
+\newcommand{\kai}{\CJKfamily{kai}}
+\newcommand{\fs}{\CJKfamily{fs}}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{4pt}
+\setlength{\columnsep}{0.80cm}
+\AtBeginDocument{\fontsize{10pt}{16pt}\selectfont\song}
+\newcommand{\levelone}[1]{%
+  \par\vspace{8pt}\noindent{\hei\fontsize{12pt}{16pt}\selectfont\bfseries #1\par}\vspace{4pt}}
+\newcommand{\leveltwo}[1]{%
+  \par\vspace{6pt}\noindent{\hei\fontsize{10pt}{16pt}\selectfont\bfseries #1\par}\vspace{2pt}}
+\newcommand{\levelthree}[1]{%
+  \par\vspace{2pt}\noindent{\hei\fontsize{10pt}{16pt}\selectfont\bfseries #1}}
+\newcommand{\figcaption}[2]{%
+  \refstepcounter{figure}\par\vspace{4pt}
+  {\centering\song\fontsize{10pt}{14pt}\selectfont 图\thefigure\quad #1\par
+   \fontsize{10pt}{14pt}\selectfont Figure \thefigure\quad #2\par}}
+\newcommand{\tabcaption}[2]{%
+  \refstepcounter{table}\par\vspace{4pt}
+  {\centering\song\fontsize{10pt}{14pt}\selectfont 表\thetable\quad #1\par
+   \fontsize{10pt}{14pt}\selectfont Table \thetable\quad #2\par}\vspace{3pt}}
+\newcommand{\refcite}[1]{\nolinebreak[4]\textsuperscript{[#1]}}
+\newcommand{\journalhead}{}
+\newcommand{\titleblock}{%
+  \begin{center}
+  {\song\fontsize{16pt}{22pt}\selectfont 从监测到调控——闭环睡眠干预技术的研究进展与挑战\par}
+  \vspace{7pt}
+  {\song\fontsize{12pt}{18pt}\selectfont 【作者姓名】\textsuperscript{*}，【作者姓名】\par}
+  \vspace{2pt}
+  {\song\fontsize{9pt}{14pt}\selectfont（【作者单位】，【城市】 【邮政编码】）\par}
+  \end{center}\vspace{6pt}}
+\newcommand{\cnabstract}{%
+  {\song\fontsize{9pt}{15pt}\selectfont
+  \noindent{\hei\bfseries 摘要：}可穿戴传感、人工智能与神经调控技术的发展，正在推动睡眠研究由离线监测向实时闭环干预转变。然而，现有研究在信号质量、在线识别、刺激定时与临床效应验证之间仍缺少完整且可比较的证据链。本文围绕感知—识别/决策—刺激—反馈—验证框架，综述可穿戴脑电采集、实时睡眠分期、事件检测、相位估计与系统时延等关键技术，并梳理慢波睡眠、全睡眠周期以及听觉、电/磁和多模态刺激的研究进展。综合现有证据，闭环系统已可实现睡眠阶段门控、目标事件定位和相位依赖刺激，部分方案能够诱发短时神经生理响应；但离线识别性能、在线刺激命中、生理调制、行为改善与临床获益属于不同验证层级，尚不能相互替代。当前瓶颈主要包括跨设备与跨个体泛化不足、端到端时延口径不统一、疗效个体差异、长期安全证据有限，以及居家失败夜和患者重要结局报告不足。未来需推进因果评测、个体化自适应、物理刺激到达时间标定与真实世界标准化验证，促进闭环睡眠干预由实验室原型走向可靠的居家和临床应用。\par
+  \noindent{\hei\bfseries 关键词：}闭环睡眠干预；可穿戴脑电；睡眠分期；相位估计；听觉刺激；实时系统\par
+  \vspace{2pt}\noindent{\hei\bfseries 中图分类号：}【待填写】\hfill
+  {\hei\bfseries 文献标识码：}【待填写】\hfill
+  {\hei\bfseries 文章编号：}【待填写】\par}
+  \vspace{8pt}
+  \begin{center}
+  {\bfseries\fontsize{14pt}{19pt}\selectfont From Monitoring to Modulation: Advances and Challenges in Closed-Loop Sleep Intervention Technologies\par}
+  \vspace{5pt}
+  {\fontsize{9pt}{14pt}\selectfont [AUTHOR NAME]\textsuperscript{*}, [AUTHOR NAME]\par}
+  {\fontsize{9pt}{14pt}\selectfont ([AFFILIATION], [CITY] [POSTAL CODE], China)\par}
+  \end{center}\vspace{3pt}
+  {\fontsize{9pt}{15pt}\selectfont
+  \noindent\textbf{Abstract:} Advances in wearable sensing, artificial intelligence, and neuromodulation are shifting sleep research from offline monitoring toward real-time closed-loop intervention. However, current studies still lack a complete and comparable chain of evidence linking signal quality, online recognition, stimulation timing, and clinical-effect validation. Organized around a sensing--recognition/decision--stimulation--feedback--validation framework, this review examines wearable electroencephalographic acquisition, real-time sleep staging, event detection, phase estimation, and system latency, and summarizes progress in slow-wave, whole-sleep-cycle, auditory, electrical/magnetic, and multimodal interventions. Available evidence indicates that closed-loop systems can perform sleep-stage gating, target-event localization, and phase-dependent stimulation, and that some approaches elicit short-term neurophysiological responses. Nevertheless, offline recognition performance, online stimulation accuracy, physiological modulation, behavioral improvement, and clinical benefit represent distinct levels of validation and cannot substitute for one another. Major limitations include insufficient cross-device and cross-individual generalization, inconsistent definitions of end-to-end latency, heterogeneous treatment responses, limited long-term safety evidence, and inadequate reporting of failed home nights and patient-important outcomes. Future work should advance causal evaluation, individualized adaptation, calibration of physical stimulus-arrival timing, and standardized real-world validation to move closed-loop sleep intervention from laboratory prototypes toward reliable home and clinical applications.\par
+  \noindent\textbf{Keywords:} closed-loop sleep intervention; wearable EEG; sleep staging; phase estimation; auditory stimulation; real-time system\par}
+  \vspace{10pt}}
+\begin{document}
+\journalhead
+\titleblock
+\cnabstract
+
+% BEGIN REVIEW BODY
+\begin{multicols}{2}
+\levelone{1 引言}
+
+\leveltwo{1.1 睡眠障碍的疾病负担与睡眠干预的临床需求}
+
+睡眠障碍是具有公共健康意义的系统性社会健康挑战。欧洲47 国整合分析显示，成人阻塞性睡眠呼吸暂停（obstructive sleep apnea，OSA）、失眠、不宁腿综合征（restless legs syndrome，RLS）、发作性睡病和快速眼动（rapid eye movement，REM）睡眠行为障碍患病率分别为18\%、10\%、3\%、0.03\% 和0.009\%\refcite{1}。失眠的诊断级负担随判定口径而变化：面对面《精神障碍诊断与统计手册》（Diagnostic and Statistical Manual of Mental Disorders，DSM）访谈下合并患病率为12.4\%，成人临床相关慢性失眠全球估计为16.2\%、约8.52 亿人\refcite{2--3}。中国 OSA 按呼吸暂停低通气指数（apnea-hypopnea index，AHI）$\geq 5$ 的汇总患病率为11.8\%，全球20--79 岁成人 RLS 模型化患病率为7.12\%\refcite{4--5}。这些结果共同说明，睡眠干预需求受疾病类别、地区范围和诊断口径共同塑造，不能被合并为单一负担数值。
+
+在可穿戴人工智能睡眠技术领域，现有研究主要集中于筛查与诊断；一项纳入46 项研究的范围综述没有发现将可穿戴人工智能用于治疗的研究，表明从状态监测与识别到治疗性干预的转化链条仍缺少直接研究证据\refcite{6}。在成人慢性失眠的规范治疗方面，欧洲指南将失眠认知行为治疗（cognitive behavioral therapy for insomnia，CBT-I）列为一线治疗，美国睡眠医学会（American Academy of Sleep Medicine，AASM）指南也强推荐多组分 CBT-I\refcite{7--8}。尽管 CBT-I 已被指南确立为循证治疗，其现实应用仍受到服务可及性有限以及部分患者退出或依从性不足的制约\refcite{8--10}。这些实施障碍与技术转化缺口并不等同于闭环干预已具疗效：慢性失眠闭环听觉刺激试点虽观察到慢振荡即时增强，却未改善记忆巩固、宏观睡眠结构、觉醒次数或主观睡眠质量\refcite{11}。这一结果表明，实现特定神经生理靶点的实时调控，并不意味着其能够稳定转化为具有临床意义的睡眠改善或日间获益。因此，整合连续感知、状态识别、即时干预与反馈调整的闭环系统，更适合被视为改善监测与治疗衔接的重要候选技术路径之一；其临床价值仍有赖于刺激算法个体化、长期疗效及患者重要结局的进一步验证。
+
+\leveltwo{1.2 从睡眠监测到睡眠调控：闭环范式的提出}
+
+从“睡眠监测”向“睡眠调控”的过渡，核心在于将连续状态感知实时转化为可更新的干预决策。离线监测主要回答整夜睡眠结构与事件分布，实时识别进一步判断当前睡眠状态，而闭环调控还需依据当前脑状态决定是否实施刺激，并根据刺激后的生理响应更新后续决策。与从随机慢振荡相位启动、随后按预设间隔递送刺激的开放环方案相比，闭环系统强调干预时机与目标神经生理状态的匹配\refcite{12}。在严格的术语边界下，只有持续监测目标状态，并利用反馈信息维持或调节该状态的方案，才可称为闭环状态依赖刺激；因此，并非所有依据睡眠阶段触发的刺激均构成完整闭环\refcite{13}。
+
+这一范式转变相应拓展了睡眠脑机接口的算法任务边界。算法所面向的控制对象既包括睡眠阶段，也包括慢振荡、睡眠纺锤波等瞬态事件及更精细的振荡相位信息；因此，相关算法的功能需从离线睡眠分期扩展至在线状态识别、瞬态事件检测、相位预测、刺激时机决策及闭环反馈控制。Wireless Dreem Device（WDD）将非快速眼动第3 期（N3）门控、慢振荡相位估计和声音刺激递送串联起来，并在与多导睡眠监测（polysomnography，PSG）同步记录的健康青年样本中，实现了灵敏度为0.70、特异度为0.90 的实时N3检测；同时，该系统能够将声音刺激定位于慢振荡上升相附近，刺激相位为 $45\pm52^{\circ}$。这一结果初步表明，可穿戴脑电图（electroencephalography，EEG）设备具备在居家环境中实施状态依赖性睡眠刺激的技术可行性\refcite{14}。
+
+由此，闭环系统的评价标准也由离线识别性能转向端到端调控性能。Ferster 等将非快速眼动睡眠（non-rapid eye movement，NREM）、慢波活动（slow-wave activity，SWA）、beta 功率和目标相位纳入联合门控；Portiloop 则进一步将采集、滤波、推理、决策和刺激执行的累计时延以及误触发、漏触发纳入工程评价\refcite{15--16}。因此，离线准确率不能单独代表闭环性能，还需综合考察端到端时延、触发可靠性、目标相位门控和扰动保护等实时约束。现有研究在目标事件、设备平台、研究人群和时延口径方面仍存在明显异质性，尚不足以进行直接的系统间比较。可穿戴EEG为长期居家闭环调控提供了技术条件，但系统可执行性和靶点调控能力并不等同于临床疗效，这也构成后续分析闭环系统架构及其临床验证路径的基本前提。
+
+\leveltwo{1.3 闭环睡眠干预系统的基本架构}
+
+闭环睡眠干预的基本架构可理解为由感知、识别/决策、刺激执行、反馈与失败保护共同组成的在线系统；在闭环听觉刺激（closed-loop auditory stimulation，CLAS）框架中，其最小实现包括实时脑活动访问、目标振荡检测和刺激系统\refcite{13}。感知层首先要保证输入信号可用，例如 ENMod 以5 秒均方根（root mean square，RMS）选择额区干EEG通道，但其居家研究中约30\% 数据集仍无可用EEG，提示电极接触与质量控制会直接限制后续识别和干预环节\refcite{17}。在识别/决策层，系统可联合NREM、SWA、beta 功率和目标相位进行门控，并在运动、睡眠阶段变化或觉醒时拒绝或停止触发\refcite{14--15}。执行层则需同时评估采集、滤波、推理、决策和输出延迟，以及误触发与漏触发；Portiloop 的纺锤波工程案例报告64 ms 常数延迟\refcite{16}。从控制系统的严格定义看，依据当前脑状态触发预设刺激主要属于事件触发式闭环；只有在刺激后继续测量生理或行为响应，并利用该反馈动态调整后续刺激的时机、强度或其他参数，才构成具有在线自适应能力的完整反馈控制。上述术语边界借鉴自非睡眠脑电图触发经颅磁刺激（electroencephalography-triggered transcranial magnetic stimulation，EEG-TMS）闭环研究。就现有睡眠研究证据而言，上述系统证据主要支持“检测—触发”意义上的闭环运行；“刺激—反馈—参数更新”这一自适应控制链条仍需在睡眠场景中得到完整实现和充分验证\refcite{18--19}。
+
+\leveltwo{1.4 本文综述范围与结构安排}
+
+基于上述临床需求、范式边界与系统架构，本文将闭环睡眠干预界定为一种以睡眠相关状态或事件的实时感知为前提，并将识别结果用于干预触发、参数调节或效果评估的技术体系。后文将首先讨论可穿戴传感、实时信号处理、睡眠分期、事件/相位估计以及端到端时延等关键技术环节；随后围绕慢波睡眠和全睡眠周期两类应用场景，梳理听觉刺激、电/磁刺激及多模态刺激系统的实现方式、神经生理效应、行为或功能终点与验证层级；最后总结该领域在从生理增强走向临床获益、个体化参数设定、长期安全性以及居家真实世界评测等方面面临的挑战。本文不纳入缺乏实时触发逻辑、未设置睡眠相关终点，或仅有产品宣称而缺少可核验证据支持的研究。
+
+\levelone{2 闭环睡眠干预的技术基础}
+
+\leveltwo{2.1 可穿戴传感与实时信号处理}
+
+本节进一步讨论可穿戴EEG如何在低通道、干电极和家庭环境约束下形成可供在线识别使用的输入。本节证据所支持的范围主要是在线算法的数据准入与质量控制；具体状态、事件和相位输出的性能将在2.2 节进一步讨论，检测与刺激执行形成的端到端时延则归入2.3 节。
+
+\levelthree{2.1.1 单/双通道EEG与PSG的差异}
+
+PSG通过多导EEG描述脑电活动的空间分布，EOG和颏肌EMG分别辅助识别REM、N1、觉醒及肌张力变化，呼吸与血氧信号则用于判定睡眠呼吸事件。单/双通道EEG将上述多源信息压缩为局部脑电输入，适合宏观睡眠分期、慢波或纺锤波检测等特定任务；其主要信息缺口体现为空间可见性降低、N1与REM边界更易混淆，以及呼吸事件和周期性肢体运动等临床事件缺少直接观测信号。现有设备涵盖头带式、耳内式和柔性贴附式等形态，比较时需同时说明电极位置与数量、材料、接触方式、参考导联及同步PSG方案\refcite{20}。de Gans 等纳入60 篇论文和34 种设备的系统综述进一步显示，设备配置、评价指标与验证场景具有较高异质性\refcite{21}。电极配置本身也会改变低通道系统所保留的信息。在20 名健康参与者的80 次整夜同步PSG记录中，Tabar 等比较了单耳、单耳联合同侧乳突及双耳交叉三种耳内EEG配置，其五分类 Cohen's $\kappa$ 分别为0.36、0.63 和0.72，说明跨耳参考能够显著提高分期一致性\refcite{22}。因此，低通道EEG的适用性应在具体设备、导联配置、目标人群与任务范围内评价，并同时报告逐期性能与整夜指标，使临床诊断能力和闭环控制信号的可用性得到分层解释。
+
+\levelthree{2.1.2 干电极与可穿戴EEG信号质量}
+
+干电极和耳内电极减少了涂胶及专业操作需求，为自主佩戴和多夜记录提供了工程基础；相应的信号质量则受到接触阻抗、睡姿、枕压、出汗、毛发和电极微移等因素共同影响。Mikkelsen 等在20 名22～36 岁健康参与者中完成了80 次、累计657 小时的整夜双耳干接触EEG记录，不同电极的逐样本纳入比例为0.80～0.98，耳甲腔连接状态和耳道湿度是影响数据纳入的主要因素\refcite{23}。Pazuelo 等进一步发现，眼部、面部及头部运动会改变耳内EEG与头皮EEG的相关性，提示清醒伪影测试和睡眠PSG对照分别反映抗干扰能力与整夜记录一致性\refcite{24}。信号质量宜拆分为接触状态或阻抗、功率谱一致性、与湿电极或PSG的相关性、有效数据比例、掉线或饱和率、伪影率及整夜佩戴成功率等若干维度。舒适度和皮肤耐受性则应与信号指标同步报告，以评价设备从单夜可行性向重复居家使用延伸的条件。
+
+\levelthree{2.1.3 伪影处理与实时预处理}
+
+闭环系统需要将质量控制前移至在线处理链。典型流程包括因果滤波或去趋势、信号质量判断、明显伪影拒绝、在线标准化、滑动窗口分段以及模型输入生成。双向零相位滤波和整夜全局标准化依赖未来样本或完整记录，更适合离线分析；在线系统则需明确滤波因果性、窗口长度与步长、缓冲策略、计算平台及每窗运算时间。前述 ENMod 系统采用 Fp1、Fpz 和 Fp2 三个额区干电极，以250 Hz 采样，并根据5 秒 RMS 窗口选择可用通道；其居家数据中约30\% 被判定为不可用，主要相关因素为电极接触状态和材料性能退化\refcite{17}。Debellemaniere 等则将干电极EEG接入实时N3识别和相位检测链路，并通过同步PSG与无人值守场景评价系统入口\refcite{14}。这些研究共同提示，低质量片段可通过“拒绝触发”进入安全处置路径，并同步报告被拒绝数据比例及其对应的刺激机会损失。由此，数据保留、运算时延和误触发风险构成需要联合优化的输入层指标。
+
+\levelthree{2.1.4 辅助模态}
+
+辅助模态的选择应对应低通道EEG的具体信息缺口：EOG有助于识别快速眼动，EMG提供肌张力与觉醒信息，光电容积描记（photoplethysmography，PPG）反映脉搏及自主神经变化，加速度计（accelerometer，ACC）用于识别体动和姿势。Shustak 等开发的柔性临时纹身电极阵列能够同步采集EEG、EOG和EMG，并在医院及家庭环境获得稳定记录；其6 小时睡眠记录呈现出可区分的睡眠阶段，但研究定位仍属于多模态居家监测的可行性验证\refcite{25}。多模态的增益还需结合具体任务判断。Melo 等在23 名健康参与者的同步PSG研究中比较单通道EEG头带单独使用及联合腕部体动记录的结果：加入体动信息后，两种设备组合的N1错误率分别由15.7\% 降至9.8\%、由27.7\% 降至17.0\%，但研究者认为体动信息对整体模型的贡献较小\refcite{26}。因此，多模态方案应报告其对难分阶段、伪影拒绝和觉醒保护的边际贡献，并同时评价同步误差、功耗、佩戴负担和模态缺失成本。对于闭环系统而言，多模态的核心价值在于提高高风险状态下的拒绝触发能力，并在局部EEG质量下降时维持更稳健的安全状态估计。
+
+% BEGIN V14 BODY
+\leveltwo{2.2 实时睡眠分期与瞬时相位估计技术}
+
+\levelthree{2.2.1 阶段、事件与相位任务边界}
+
+闭环睡眠干预的识别层可按阶段、事件和相位三个时间尺度组织，形成从状态门控到局部事件定位再到周期内定时的递进链条。阶段级输出决定系统是否进入刺激候选窗口，事件级输出定位纺锤波或慢波等局部波形，相位级输出进一步确定单个振荡周期内的刺激时点。相应地，阶段分期以人工PSG标签为参考，事件检测关注事件匹配规则与假阳性率，相位估计则需要离线参考相位、圆周统计和刺激到达时间共同描述。\refcite{13,27,15}\par
+
+如图1所示，本节后续内容沿“信号采集—阶段门控—事件定位—相位定时—在线决策”的链条展开，并将分期、事件、相位和部署指标分别对应到不同识别层级。\par
+
+\end{multicols}
+
+\begin{figure}[htbp]
+
+\centering
+
+\begin{tikzpicture}[node distance=7mm and 5mm,>=Latex,every node/.style={draw,rounded corners,align=center,font=\small,minimum height=7mm}]
+
+\node (a) {信号采集}; \node[right=of a] (b) {阶段门控}; \node[right=of b] (c) {事件定位};
+
+\node[right=of c] (d) {相位定时}; \node[right=of d] (e) {在线决策};
+
+\draw[->] (a)--(b); \draw[->] (b)--(c); \draw[->] (c)--(d); \draw[->] (d)--(e);
+
+\end{tikzpicture}
+
+\figcaption{实时睡眠识别任务链}{Real-Time Sleep Recognition Task Pipeline}
+
+\end{figure}
+
+\begin{multicols}{2}
+
+阶段标签是由评分规则、信号导联和人工一致性共同塑造的约定参考。R\&K与AASM在阶段定义和S3/S4合并上存在差异，人工评分还会呈现跨评分者、跨实验室和逐阶段差异，N1等过渡阶段通常更难取得一致。AASM评分体系随手册版本和应用场景更新而调整，算法研究中的阶段标签由此带有明确的规则版本和评分流程属性。\refcite{28,29,30}\par
+
+\levelthree{2.2.2 公开数据集、标签体系与验证协议}
+
+数据集来源、标注体系和验证划分共同决定算法结果的可解释范围。阶段分期资源主要包括Sleep-EDF、SHHS、MESA和ISRUC-Sleep；MASS也包含阶段任务，本节直接证据主要涉及其纺锤子集。微结构资源包括CAP Sleep、DREAMS、MASS和MODA。闭环刺激研究多依赖各研究自有数据，统一公开基准的关键字段包括真实可穿戴原始EEG、精确刺激到达时间戳、设备分项延迟和刺激后响应。\par
+
+\end{multicols}
+
+\begin{table}[htbp]
+
+\centering
+
+\tabcaption{公开睡眠数据资源、标签体系与在线因果评测适用性}{Public Sleep Data Resources, Labeling Systems, and Applicability to Online Causal Evaluation}
+
+\scriptsize
+
+\setlength{\tabcolsep}{2.5pt}
+
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+
+\hline
+
+数据资源 & 证据用途 & 标签与协议特征 & 在线因果评测适用性 \\
+
+\hline
+
+Sleep-EDF & 单导五分类、subject-wise与跨库测试 & R\&K及N3/N4映射；版本和清醒截取方案影响样本构成 & 适合时序回放和离线泛化分析 \\
+
+SHHS & 大规模PSG和外部验证 & 应用筛选样本与全量队列分开 & 适合多中心PSG域外部验证 \\
+
+MESA & 多民族/跨人群与多模态候选 & 直接应用证据以PPG为主，EEG闭环需连接额外证据 & 适合跨人群与多模态候选分析 \\
+
+ISRUC-Sleep & 临床多模态五分类候选 & 已核验应用集中于ISRUC-S3 & 适合离线双向模型验证 \\
+
+MASS、DREAMS、MODA & 纺锤事件检测、外部测试和专家共识 & 标注者、OR/AND起点、片段长度和共识规则影响事件标签 & 适合事件检测回放 \\
+
+CAP Sleep & 病理人群与微结构候选 & 已纳入应用为24人PPG子集 & 适合病理人群与微结构邻近回放 \\
+
+\hline
+
+\end{tabularx}
+
+\end{table}
+
+\begin{multicols}{2}
+
+Sleep-EDF上的模型结果受20人/78人版本、R\&K映射、清醒期截取和epoch-wise或subject-wise划分影响；SHHS上的大样本结果主要反映多中心PSG域表现。SleepTransformer分别在SHHS和Sleep-EDF-78报告结果，两库结果展示了同一模型在不同数据条件下的实例化表现，也提示跨库比较需要同时交代数据构成、标签和划分方式。\refcite{31,32}\par
+
+验证协议的核心差异在于划分单位。随机epoch划分考察片段级识别，subject-wise、LOSO和跨数据集测试更接近新受试者泛化；使用未标注目标域数据训练的UDA则反映目标域可接触条件下的适配能力。Bresch采用按受试者三折并进行SIESTA跨库测试，Mikkelsen采用LOSO，Gao比较跨数据集UDA。这些协议共同构成从片段识别、跨受试者泛化到跨域适配的验证梯度。\refcite{33,34,35,36}\par
+
+\levelthree{2.2.3 阶段级表征与上下文模型}
+
+阶段级算法可沿“epoch内表征—epoch间上下文—输出后处理”比较。手工特征路线把频谱和特征波形交给浅层分类器，变量含义较清楚，同时也把设备频响、特征提取和个体校准纳入结果解释。Mikkelsen在耳周EEG上使用随机森林并按LOSO验证；中文Sleep-EDF研究提取K复合波及多个频段功率谱密度，最高accuracy为91.94\%，macro-F1为73.2\%。两项研究共同说明，手工特征模型仍是可解释、低复杂度分期路线的重要参照。\refcite{34,37}\par
+
+深度模型可从原始波形或时频图学习epoch内表征。SleepEEGNet以CNN编码后接双向RNN与注意力，TinySleepNet以原始单导EEG和轻量时序结构控制复杂度；中文迁移研究把EEG转换为二维时频图，中文单导DCNN-BiLSTM则联合时频表征与序列建模。原始波形、手工特征和时频图分别对应不同的归一化、增强和计算成本设置，使阶段级模型比较同时涉及输入表征、架构和部署条件。\refcite{38,39,40,41}\par
+
+epoch间上下文用于刻画睡眠阶段转移结构，上下文方向则决定模型面向离线评分还是在线控制。SeqSleepNet、SleepEEGNet以及中文BiGRU/BiLSTM模型使用双向序列结构，展示了未来epoch信息对离线上下文建模的价值。SleepTransformer使用完整序列注意力，FlexSleepTransformer支持不同通道组合和混合数据训练；中文混合注意力模型融合片段内时间、通道和片段间上下文。这些研究共同呈现了上下文建模、通道适配和混合数据训练三条阶段级表征路线。\refcite{42,43,41,31,44,45}\par
+
+状态空间模型为有限状态更新和长序列效率提供候选。MultiSEss把多尺度卷积、SE注意力和SSM用于EEG五分类，现有证据集中在离线性能与消融分析；面向闭环部署时，还需要把因果配置、状态缓存、端侧内存、功耗和真实流式时延纳入同一评价框架。无EEG双向Mamba仅作为第5.4节登记的邻近技术证据；它不能进入因果EEG模型排名，也不承担EEG事件或相位控制结论。\refcite{46,47}\par
+
+\levelthree{2.2.4 事件检测与相位预测算法}
+
+事件检测以稀疏波形为对象，评价体系由sample-wise与event-wise口径、事件重叠阈值和时间容差共同构成。Warby等以110名健康受试者的N2期C3-M2数据和24名专家建立群体共识，展示了专家共识、OR/AND起点规则和事件边界对算法评价的影响。SpindleNet以250 ms移动窗输出纺锤概率，专家OR/AND起点规则会改变检测延迟；Portiloop将FIR、ANN概率、阈值和声音控制器连接为端侧工程链。事件检测的核心指标包括event-wise precision、recall、F1、假阳性/小时、起点/峰值/终点误差，以及波形形成等待对检测延迟的贡献。\refcite{27,48,16}\par
+
+实时相位估计是在未来信号未知时推断当前振荡位置，核心问题是因果滤波、相位预测和刺激延迟补偿。Ferster在同一慢波基准内比较幅度阈值、PLL和相位声码器；Santostasi验证PLL探索性人体刺激，Piorecky比较固定补偿与PLL。这些研究把参考相位、导联、人群、幅度门控和圆周统计共同纳入相位算法评价。\refcite{15,49,50}\par
+
+预测型路线通过外推补偿处理和刺激延迟。Zrenner的实时EEG触发TMS提供AR相位预测的邻近方法证据；Bressler的可穿戴系统以逐样本ecHT追踪入睡前alpha相位，并依据生理潜伏期设置声音起始相位。二者分别为相位预测和可穿戴相位控制提供方法参照，完整评价还涉及统一设备时钟下的采集、滤波、预测、通信和刺激实际到达时间。\refcite{51,17}\par
+
+\levelthree{2.2.5 在线因果性、跨域泛化与个体化}
+
+严格在线性涉及预处理、网络结构、后处理和运行系统等多个层级。Patanaik可以在线返回阶段，离线修正使用未来输出，在线版本以历史替代，声音示例还采用时间正反向滤波；Bresch明确使用单向CNN-LSTM因果架构，主要结果来自离线实验。这些研究把“因果架构”“在线回放”“设备端推理”和“真实人体在线系统”区分为不同证据层级。\refcite{52,33}\par
+
+DistillSleep、Hsieh和Esparza-Iaizzo分别补充单导端侧蒸馏、眼罩—BLE—移动端链路以及OSA/非OSA实时监测用途；中文双通道系统和无线可穿戴EEG研究补充本土在线工程路径。这些研究共同描绘了从模型压缩、可穿戴采集、无线通信到移动端推理的部署链条。Micro SleepNet在Android上报告约100 KB和约2.8 ms单条输入推理；闭环整链评价还需连接30 s窗口形成、采集、预处理、通信、决策和刺激执行。\refcite{53,54,55,56,57,32}\par
+
+跨域与个体化研究包含训练时接触目标域、少量校准和完全外部测试等不同设置。跨数据集UDA说明域适应价值，可穿戴系统则进一步引入跨导联、跨设备、跨夜和个体校准问题。现有证据已经覆盖跨被试、跨数据集与部分端侧实现，后续关键环节是跨设备稳定性和多夜个体化。\refcite{35}\par
+
+输出层可以从概率校准、错误排序、选择性拒绝和人工复核四个角度组织。Hong复核最低置信度20\%的epoch后总体accuracy由约76\%提高至87\%，展示了置信度排序与人工协作的潜在价值；U-PASS与van Gorp进一步提供不确定性和专家协作框架。SwSleepNet的online calibration通过短片段不一致后的上下文重判改善输出一致性，与ECE、Brier score或可靠性图所描述的概率校准构成不同层面的输出后处理。\refcite{58,59,60,61}\par
+
+面向闭环应用的识别评价可由四组指标构成：分期accuracy、balanced accuracy、macro-F1、逐期precision/recall/F1、Cohen's kappa和混淆矩阵；校准Brier score、ECE及可靠性曲线；拒绝输出coverage、selective risk和拒绝触发率；泛化subject-wise、LOSO、cross-dataset、cross-center和cross-device。统计上宜以受试者为基本汇总单位并报告置信区间和最差亚组，以补充全epoch池化结果。事件和相位任务还需分别报告event-wise误差、假阳性/小时、圆周误差、离散度和目标窗命中。这些指标构成闭环识别研究的理想报告框架；Brier/ECE、selective risk、cross-device及按被试置信区间是后续证据补齐的重点。\par
+
+综上，2.2节将实时睡眠识别技术概括为阶段门控、事件定位、相位定时、在线部署和跨域个体化五个相互衔接的层级。同一数据、同一标签、同一划分和同一运行模式内的方法结果具有较强可比性；跨数据集比较的解释重点在于标签、设备、人群和协议差异。后续证据补齐可集中于随机epoch与subject-wise的同模型直接定量比较、跨设备稳定概率校准、整夜功耗/续航与采集至刺激总时延，以及不同评分手册版本下成人分期规则差异对算法可比性的系统整理。\par
+
+\leveltwo{2.3 闭环系统的延迟与精度}
+
+闭环系统的实时性可以拆解为一条明确起止点的时间链。本文将总时延表述为窗口或生理事件形成时间、采集、缓冲、预处理、推理、决策、通信、刺激设备执行和刺激物理到达的组合；编程补偿间隔和听觉诱发反应等生理潜伏期作为独立时间变量登记。在这一框架下，“模型运行5 ms”“检测后等待350 ms”和“约62 ms生理补偿”分别对应局部计算、控制参数和生理响应时标，可共同用于描述闭环链路的不同环节。\refcite{13,50,17}\par
+
+阶段级门控的时间结构由输入窗口、状态确认和在线更新节律共同决定。Patanaik的系统需要形成30 s epoch并按1 s节律更新，在线上下文和滤波因果性还会影响首次可触发时刻；Bresch等因果架构的证据层级已在2.2中归入在线分期模型。阶段门控系统的报告字段宜包括窗口长度、步长、历史和未来访问、滤波群延迟、连续若干epoch确认规则以及低置信度拒绝，从而把状态确认时间与分类器执行时间分开呈现。\refcite{52}\par
+
+事件级研究展示了执行耗时、检测等待和事件真值口径之间的关系。SpindleNet平均执行约6 ms，相对专家标注起点的检测延迟约150--350 ms，专家OR/AND起点规则会改变这一估计。Portiloop在MODA工程案例中将40 ms FIR、20 ms ANN和4 ms声音控制器组成64 ms常数链路，另估计约250$\pm$100 ms的可变检测等待，总计约314 ms；阈值0.84时，按刺激是否落入标注纺锤波定义的precision和recall均为0.71。这些结果适合在各自研究内部分析阈值、等待时间和事件命中精度的权衡。\refcite{48,16}\par
+
+相位级系统的时间戳需要同时描述算法相位、刺激命令和物理到达。CLAS-hdEEG在14名健康参与者N3睡眠中报告20.03$\pm$0.5 ms的“检测至刺激”时延和0.913的90°目标窗命中率，同步依据是EGI记录的DIN硬件标记。Wong等的儿童临床系统也使用向临床EEG写入的触发接口完成时间锁定；这类硬件标记支持检测—触发链路和神经反应分析。若进一步加入麦克风、人工耳或刺激器回读，便可把声音从命令形成到实际到耳的物理链路纳入同一时间轴。低幅慢波对相位算法表现的影响见2.2的相位算法讨论。\refcite{62,63,15}\par
+
+精度评价还可以落实到每个刺激机会。较完整的机会级结局包括合格机会、成功到达、漏失、安全拒绝、无目标误触发、命令形成后的执行失败，以及刺激虽到达但落在目标窗外的时机失败；分母可按事件、刺激、夜晚或受试者登记。现有居家研究已经提供刺激数、静音保留触发、阶段分布或部分暂停规则等字段，为机会级评估提供了基础。刺激间隔和每夜刺激数属于剂量变量；居家PTAS与hdEEG再分析提示ISI会改变生理和行为响应，因而剂量、精度和时延适合在同一框架下联合解释。\refcite{14,63,64,65}\par
+
+综上，2.3将闭环系统的延迟与精度概括为时间链、同步链和机会级结局三类对象。同一研究、同一时间零点和同一真值下，可以讨论局部精度—延迟或剂量权衡；跨研究解释则需要同时呈现均值、中位数、IQR、P90/P95/P99、最大值及抖动，并说明采集、算法和刺激设备的主时钟、固定偏移、漂移与校正残差。LSL和Thalamus提供同步、设备偏移测量和失效保护的邻近工程方法，可作为后续标准化睡眠刺激链路的工程参照。\refcite{66,67}\par
+
+\levelone{3 慢波睡眠闭环干预}
+
+\leveltwo{3.1 锁相听觉刺激的原理与范式演进}
+
+慢波锁相听觉刺激将第2 章的阶段门控、振荡检测和刺激执行汇集为一条可检验链路。开放环方案按固定时刻或预设间隔播放声音，首次刺激与当下慢振荡相位缺少实时匹配；闭环方案则先确认NREM候选状态，再检测目标波形、预测相位，并在觉醒或阶段改变时暂停。其优势来自时机控制，同时受检测误差、听觉通路潜伏期和个体慢波形态约束。\refcite{12,13}\par
+
+早期范式常在慢振荡上升相附近递送成对短音，以第二个声音强化随后出现的慢波。范式随后扩展为事件响应驱动：Ngo 等的 Driving 协议只有在再次检测到负半波时才递送后续声音，但增加刺激次数未超过2-Click 的效果，纺锤反应还随重复刺激衰减。这项结果提示，闭环的价值不仅在于增加刺激次数，还在于识别有效反应、不应期和停止时机；固定序列容易在生理响应已经衰减时继续累积剂量。\refcite{68}\par
+
+相位策略也由固定延迟逐步发展为在线预测。Santostasi 的锁相环在人体现有慢波时将目标240°的平均刺激相位控制在243.15$\pm$3.06°，但生理验证样本仅5 人，且未提供完整系统总时延。Ferster 对幅度阈值、锁相环和相位声码器的比较显示，低振幅慢波条件会显著改变算法优劣。算法参数因此需围绕导联、振幅分布、个体频率和声音通路重新校准。\refcite{49,15}\par
+
+刺激范式还包括频谱、声压、包络、脉冲数与间隔。Debellemanière 等比较声音优化方案时使用十声协议，其中仅第一声由闭环触发，后续声音依据预设时序播放；这类“闭环启动—开放序列”与逐声响应闭环应分开表述。跨年龄分析进一步显示，较强反应通常接近慢振荡峰值，中老年人的有效窗口更窄。综上，范式演进体现为状态门控、单次锁相、序列刺激和响应依赖控制的逐步组合；现有系统多停留在一级触发，能够依据即时反应与跨夜历史自主调整相位和剂量的方案仍待验证。\refcite{69,70}\par
+
+\leveltwo{3.2 慢波与纺锤活动调制及其耦合的生理证据}
+
+慢波效应首先要区分刺激锁定的秒级或刺激期响应与整段睡眠改变。Besedovsky等在14名健康男性的交叉研究中发现，120 min刺激期内0.8--1.1 Hz功率相对sham增加（p=0.006，Cohen's d=0.71），SO振幅亦增加（p=0.047，d=0.42），但变化未延续到刺激后时段，整夜睡眠结构也未改变。Henin等同样观察到刺激锁定的慢波响应，而午睡整段及整夜SO数量、振幅或斜率未显示一致差异。因此，“能够诱发慢波”与“提高整夜慢波负荷”是不同结论，短窗功率不能直接替代整夜SWA、事件数量或睡眠结构。\refcite{71,72}\par
+
+纺锤效应也必须按事件和功率指标拆分。Papalambros等在健康老年人的刺激夜中报告纺锤密度由5.5增至5.8次/min（p=0.001），振幅由12.9增至14.1 μV（p<0.001）；同一研究的整段NREM SWA却无差异（p=0.80），整段fast-spindle功率增加2.2\%亦未达显著（p=0.14）。Henin、Henao和Jourde的研究还在刺激后约1 s观察到快/慢纺锤或sigma短窗响应，。但Jourde居家研究的整夜纺锤检测数为1050.8$\pm$677.1与939.0$\pm$492.5，差异不显著（p=0.557，r=0.236）。这些结果不能合并成单一“纺锤增强率”：密度、振幅、发生概率和sigma功率描述的是不同终点。\refcite{73,72,74,75}\par
+
+SO—纺锤关系呈明显的相位与状态依赖。Navarrete等报告，青年在−54°至133.2°相位窗内刺激后的纺锤概率为20.8\%（95\% CI 15.9\%--25.6\%），sham时间点为8.2\%（6.7\%--9.8\%）；青年主要受点击相位解释，中老年人的响应则更受距上一纺锤时间影响。对同一青年数据的正式版再分析进一步显示，刺激前慢振荡和纺锤状态能够预测刺激后短窗响应，但这属于响应预测，而不是独立的干预效应。因此，现有证据支持“刺激效应依赖SO相位、既有纺锤状态和事件间隔”，但相位—概率、SO锁定纺锤功率和峰周sigma幅度不能统一称为跨研究可比的耦合强度。\refcite{70,76}\par
+
+对照设计进一步限定了“调制”的含义。Ngo等比较个体快纺锤频率的七声节律刺激、非节律七声和sham：节律与非节律声音均在结束后0.5--1.5 s诱发SO及相位锁定纺锤响应，却未实现选择性即时夹带；180 min纺锤数的研究内比较p=0.170和p=0.900，整夜比较p=0.821和p=0.107，SO—纺锤事件数相对sham亦无差异（p=0.335）。Jourde等对SO、即时纺锤和检测后450 ms的延迟纺锤刺激进行比较，显示不同靶向时机可产生不同短窗响应，即时刺激还可能截断正在发生的纺锤。综合来看，人体证据支持条件依赖的慢波、纺锤与宽义耦合调制，而不是跨方案普遍、持续的增强；sham、非节律对照、不同靶向时机及阴性整夜结果必须与短窗阳性并列报告。\refcite{77,78}\par
+
+\leveltwo{3.3 记忆巩固与认知收益的疗效证据及争议}
+
+闭环刺激研究常以记忆保持、词汇学习或发现学习检验慢波和纺锤变化能否转化为行为收益，现有结果呈现任务、方案和样本依赖性。Henin 等观察到慢振荡和纺锤增强，同时记忆表现未随之改善，展示了生理响应与行为收益之间可分层评估的关系。这类结果能够支持把刺激命中、功率变化与任务表现拆解为连续证据链上的不同环节，并逐层说明各环节的贡献。\refcite{72}\par
+
+Harlow 等汇总12 项研究、14 个效应量和206 名受试者，发现记忆效应随发表年份下降，模型预测由2013 年的 dδ=0.99 转为2021 年的 dδ=-0.39；约34\% 的受试者可能因听见声音而未保持盲法，记忆保持分数的重测可靠性接近零。这些结果能够把效应衰减、盲法维持和结局测量噪声纳入同一解释框架，也提示小样本阳性发现适合结合任务选择、分析弹性和重复测量可靠性共同解读。\refcite{79}\par
+
+正向证据仍能提供重要边界。Clark 等的多夜随机双盲交叉研究在最终20 人中报告词汇回忆提高35\%、发现学习提高26\%，并观察到慢振荡—纺锤耦合变化。该结果说明复杂学习任务可能对多夜干预敏感，也为后续研究选择任务类型、干预夜数和机制指标提供了依据；样本量、设备关联和特定任务则适合作为外推范围的限定条件。Jourde 等在102 人五组实验中分别靶向慢振荡、即时纺锤及延迟450 ms 的纺锤，生理指标得到调节，行为结果呈现方向差异。\refcite{80,78}\par
+
+争议的核心集中在因果链和试验设计。未来研究需预注册主要认知终点，采用可维持盲法的sham，报告任务可靠性，并将刺激相位、剂量、生理响应和行为变化进行中介分析。多任务、多时间点结果还需控制多重比较。现有证据能够支持“部分方案和任务中可见行为获益信号”这一较稳妥结论；更强的普遍认知增强或长期临床价值判断，需要由更大样本、多夜随机对照、稳定任务测量和生理—行为中介证据共同支撑。\par
+
+\leveltwo{3.4 慢性失眠、阿尔茨海默病等临床队列研究进展}
+
+临床队列将研究目标由健康人的短期振荡增强推进到症状、功能和疾病相关指标，但当前证据仍以小样本可行性为主。慢性失眠试点共纳入27 人，初步分析17 人，其中足量刺激仅7 人；研究观察到即时慢振荡增强，却未发现记忆、宏观睡眠结构、觉醒或主观睡眠质量改善。有效刺激人数的进一步减少说明，患者佩戴、信号质量和算法门控本身会塑造最终可分析样本。\refcite{11}\par
+
+在轻度认知损害人群中，Papalambros 等的随机交叉研究仅9 人，组水平记忆差异不显著，但慢波变化与记忆变化相关。这一关联可支持机制假设，却不能替代组间疗效。阿尔茨海默病一期居家研究中仅7 人进入主要分析，并出现疼痛、激越、头带松动以及算法与共识评分差异。这些问题显示疾病人群中的耐受性、照护协作和自动评分偏差需要与刺激效果同时记录。\refcite{81,82}\par
+
+多夜方案提供了进一步线索。Zeller 等在18 名健康老年人与16 名认知受损老年人中设置一夜sham基线和三夜相位锁定刺激，观察到电生理响应及其与记忆、Aβ42/Aβ40 变化的关联。由于缺少平行随机的多夜sham，其生物标志物与行为关联适合作为后续试验假设。临床转化下一步需扩大样本，预注册患者相关结局，采用多夜随机对照与足够随访，并如实纳入失败夜和不耐受病例。现阶段可确认的是居家实施及人群反应差异；延缓认知衰退、改善慢性失眠和长期疾病获益尚未得到充分证明。\refcite{83}\par
+
+\levelone{4 全睡眠周期闭环干预}
+
+\leveltwo{4.1 入睡期干预与入睡潜伏期缩短}
+
+入睡期闭环的控制目标是识别清醒向N1、N2过渡时的可干预状态，并在维持低警觉水平的条件下缩短入睡潜伏期。与慢波刺激相比，入睡阶段的EEG更易受动作、睁闭眼和节律波动影响，刺激相位和声音时机也会改变睡眠变浅或加深的方向。Hebron 等的alpha-CLAS研究显示干预具有相位依赖性，在部分相位下施加刺激会延长N2+潜伏期，提示入睡期干预需要把α节律检测、相位方向和后续睡眠深度变化放在同一控制框架内解释。\refcite{84}\par
+
+Bressler 等在21 名成人的居家随机交叉试验中，于夜初30 分钟递送反相 α 声音，客观入睡潜伏期平均减少10.5$\pm$15.9 分钟（p=0.0019）。这一结果为短期居家相位控制提供证据，同时也显示个体差异较大。后续研究可围绕入睡定义、算法置信度、刺激引起的短暂觉醒、主观感受和慢性失眠患者多夜重复性补齐证据。\refcite{85}\par
+
+\leveltwo{4.2 纺锤波闭环调控与运动记忆巩固}
+
+纺锤波闭环调控以短时事件为靶点，通常需在NREM期预先完成纺锤波检测，以指导刺激定位，即选择刺激作用于纺锤波的发生期、上升段或特定相位。Lustenberger 等使用12 Hz、1 mA、持续1.5秒的反馈tACS靶向NREM纺锤，结果显示运动速度改善，运动准确率和词对记忆未改善。该研究提示，纺锤靶向的行为收益具有任务维度差异，运动速度、准确率和词对记忆应作为不同终点分别呈现。\refcite{86}\par
+
+电刺激闭环系统中的反馈测量主要受限于刺激伪影和控制盲区。伪影影响下，脑电信号的实时解释面临两难抉择：系统需决定是在检测到纺锤波后即刻启动刺激，还是在刺激发放期间仍持续追踪纺锤波。对于存在盲区的情形，后续的刺激停止或剂量调整往往需要借助刺激前基线或刺激后恢复指标作为判断依据。值得关注的是，持续学习框架下的纺锤检测模型已显示出跨夜数据驱动的识别性能提升，为事件检测模型的长期自适应更新提供了可行路径。\refcite{87}\par
+
+纺锤闭环的评价链可按事件检测性能、刺激命中、生理变化和行为结局逐层组织，并同步报告个体峰频、刺激波形、伪影处理和sham设计。现有证据主要支持工程检测、刺激触发和部分运动速度信号。后续关键字段包括最优刺激相位、跨任务记忆终点、患者人群和刺激期间可解释信号。\par
+
+\leveltwo{4.3 REM实时检测与相位刺激的探索性研究}
+
+REM闭环首先需要可靠判断当前是否处于REM，再决定是否开放阶段内刺激。REM的低幅混合频率EEG、快速眼动与低肌张力共同构成判定依据；单额极或可穿戴系统减少EOG、EMG等辅助信息后，清醒、N1与REM之间的混淆风险更突出，在REM睡眠行为障碍等疾病人群中还可能受到异常运动和病理波形影响。Jung 等在310 份五中心PSG上进行回顾性自动REM检测，总体 AUC 为0.90$\pm$0.14，RBD 组表现低于非 RBD 组，Wijesinghe 等的轻量单额极模型最高 accuracy 为85.4\%、κ=0.79。两项研究共同说明，REM识别可作为阶段门控模块发展，但在线触发、错误阶段刺激和采集至输出时延仍需在闭环系统中单独登记。\refcite{88,89}\par
+
+阶段门控之后，相位刺激进一步要求在线估计REM期 α/θ 节律、预测目标相位，并把刺激物理到达时间纳入命中判定。Jaramillo 等在18 名健康青年预印本中探索REM α/θ 相位声音刺激，提供了阶段内相位干预和生理响应的初步证据。后续研究可同时报告REM判定置信度、目标相位与圆周误差、刺激剂量、错误阶段触发、微觉醒或完全觉醒以及停止规则，并明确系统运行层级是实际在线、实时回放还是离线分析。\refcite{90}\par
+
+REM靶向记忆再激活（TMR）是一条比REM检测或REM相位刺激更长的证据链，至少包括睡前学习材料与线索配对、在线REM识别、睡眠中重新递送对应线索、觉醒保护，以及醒后提示与未提示材料的记忆终点。因此，现阶段REM检测和REM相位刺激更适合作为阶段门控与相位定时的探索性技术基础。在缺少学习线索、REM判定、提示递送与醒后记忆终点之间同一实验链路的情况下，相关研究尚不能直接支持REM-TMR的行为效应结论。\par
+
+\leveltwo{4.4 梦境调控}
+
+梦境相关闭环可分为睡眠起始期内容引导、REM梦境调控与噩梦治疗等不同方向。Dormio 以外周信号估计入睡并通过醒后报告形成反馈，为睡眠起始内容引导和人机交互提供邻近技术参照；持续追踪EEG的睡眠内闭环则更强调客观状态识别、刺激时机和刺激后睡眠结构。\refcite{91}\par
+
+后续研究将N1靶向梦境孵化与主题相关报告及创造性表现联系起来。这些结果支持睡眠起始内容引导的可行性，同时受到主观报告、需求特征和状态判定误差影响。该方向的关键报告字段包括客观状态、提示命中、梦境编码盲法、报告一致性、次日功能和频繁唤醒对睡眠结构的代价。\refcite{92}\par
+
+\leveltwo{4.5 觉醒保护与干预时机自适应策略}
+
+闭环安全决策需要在“存在目标波形”之外判断当前刺激收益和觉醒风险。Ngo 等发现重复声音引起的慢波和纺锤反应具有自限性，继续增加刺激次数未超过较短序列。Navarrete 等显示，刺激前慢振荡形态可预测后续慢波约70\%、纺锤响应约60\%。二者共同支持把即时波形、上一刺激后的反应和事件间隔纳入门控。\refcite{68,93}\par
+
+觉醒保护可形成多层规则：先以阶段和信号质量排除清醒或低可信片段，再判断事件与相位；刺激后监测微觉醒、振幅衰减或节律改变，必要时延长间隔、降低剂量或停止。噪声保护研究还表明闭环声音可能改变睡眠者对环境噪声的敏感性，其目标与慢波增强不同。因此，觉醒保护可概括为“检测—刺激—响应评估—暂停/调整”的闭环安全框架；拒绝触发、连续觉醒停止、累计剂量上限和恢复条件应作为多夜系统中的预设报告字段，使安全逻辑成为可核验的系统组成。\refcite{94}\par
+
+\levelone{5 干预手段与系统形态}
+
+\leveltwo{5.1 听觉刺激}
+
+相较于第3章对听觉CLAS生理与行为结果的讨论，本节将声音视为闭环系统的执行器，重点比较其传导路径、物理标定、剂量控制、共置伪影、佩戴舒适性与觉醒保护。气传导耳机或扬声器在实验室中便于快速更换，并支持声压级标定，其使用同时涉及线缆连接、耳部佩戴方式以及空气传播路径等影响因素。骨传导可与头带集成，物理输出则需要结合接触压力、头型和听阈进行校准。WDD、ENMod和Earable说明骨传导适合一体化居家系统，但声音从命令形成到实际到耳的时延仍需要通过人工耳或麦克风回环实测。\refcite{14,17,95}在此基础上，表5-1比较不同听觉执行路径在标定、剂量、伪影和觉醒保护上的差异。\par
+
+\end{multicols}
+
+\begin{table}[htbp]
+
+\centering
+
+\tabcaption{听觉刺激执行路径与闭环适配要素}{Auditory Stimulation Paths and Closed-Loop Adaptation Factors}
+
+\scriptsize
+
+\setlength{\tabcolsep}{2.5pt}
+
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+
+\hline
+
+执行路径 & 物理标定 & 剂量与包络 & 共置伪影 & 舒适与个体化 & 觉醒保护 \\
+
+\hline
+
+气传导耳机/扬声器 & 命令、声卡、换能器与声音到耳均可标定 & SPL、频谱、起落沿、脉冲宽度、次数、间隔与累计剂量 & 与EEG通常分离；声学诱发响应进入信号 & 耳部压力、线缆、听阈与年龄校准 & 阶段、觉醒、运动、剂量和间隔门控 \\
+
+骨传导头带 & 个体物理输出、ERP潜伏期和系统链路需分别测量 & 等效SPL、接触压力和包络需设备级标定 & 振子与干EEG共置，机械耦合需定量 & 集成度高；头型、压力和听力差异需校准 & 依设备报告阶段、觉醒和剂量停止 \\
+
+耳内EEG检测+外部声音 & Henao记录命令时间戳，耳旁物理到达仍需进一步实测 & 双声参数可复现，声压仍需进一步测量 & 耳内发声器—耳内电极共置伪影需单独实验 & 实验室午睡提供初步佩戴场景 & 两声后暂停；觉醒停止规则可扩展 \\
+
+\hline
+
+\end{tabularx}
+
+\end{table}
+
+\begin{multicols}{2}
+
+听觉刺激适合毫秒至秒级控制，可复现性取决于物理输出和软件触发的共同标定。Papalambros的数据包和声卡补偿、CLAS-hdEEG的检测至DIN标记均展示了局部链路标定方式。声音到耳可通过麦克风或人工耳回环进一步连接到完整时间链。\refcite{73,62}在跨系统比较中，听觉执行器的可比性不只取决于声音类型，还取决于听阈、年龄、佩戴压力、侧睡姿势、机械/电学共置伪影和觉醒风险是否与SPL、包络及累计剂量共同校准。\par
+
+\leveltwo{5.2 电刺激与磁刺激}
+
+“闭环电/磁刺激”包含多种反馈关系：EEG脑状态或事件触发刺激、持续依据内源EEG更新的反馈控制tACS、锁定外加电刺激波形的相位同步，以及预设波形或时程的开放环刺激。四者的反馈变量、相位基准和重新触发时点不同，适合按控制关系而非刺激模态统一归类。因此，电/磁刺激不宜仅按刺激模态合并比较，而应首先区分实时EEG是否参与决策、相位基准来自内源脑活动还是外加波形，以及刺激期间是否存在反馈盲区。表5-2据此从实时EEG进入决策、相位基准、伪影盲区和重新触发条件等方面比较不同控制关系。\par
+
+\end{multicols}
+
+\begin{table}[htbp]
+
+\centering
+
+\tabcaption{电/磁刺激的闭环控制关系比较}{Closed-Loop Control Relationships for Electrical and Magnetic Stimulation}
+
+\scriptsize
+
+\setlength{\tabcolsep}{2.5pt}
+
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+
+\hline
+
+控制类型 & 实时EEG进入决策 & 基准 & 伪影/盲区 & 重新触发 & 证据定位 \\
+
+\hline
+
+EEG状态/事件触发 & 是 & NREM、纺锤或慢波事件 & 刺激期间EEG可出现解释盲区 & timeout后重新检测；规则依研究报告 & Lustenberger等；直接闭环 \\
+
+反馈控制tACS & 是 & 内源慢波相位/频率 & 在线伪影抑制和盲区需逐篇核验 & 刺激后重判条件依研究报告 & Ketz/Jones；控制关系直接 \\
+
+外加波形相位同步 & 否 & 外加tACS相位 & 组合刺激伪影 & 依预设波形推进 & Takahashi；邻近技术证据 \\
+
+开放环刺激 & 否 & 预设波形/时程 & 同步记录可能受刺激伪影影响 & 依方案预设 & 机制或对照证据 \\
+
+\hline
+
+\end{tabularx}
+
+\end{table}
+
+\begin{multicols}{2}
+
+Lustenberger的反馈tACS显示，刺激期间伪影会造成EEG盲区，刺激后指标应归入刺激后响应而非刺激期间持续追踪。\refcite{86}因此，电/磁刺激研究需要明确盲区起止、信号质量恢复判据、timeout、重新触发所需的阶段/事件条件、连续刺激上限，以及sham如何控制感觉和声音。Takahashi的rTMS锁定外加tACS负峰，提供睡眠期外加波形相位同步的邻近证据，但其反馈变量和相位基准不同于依据内源EEG即时更新的闭环刺激。\refcite{96}\par
+
+\leveltwo{5.3 光、振动、温度等多模态刺激}
+
+非听觉模态可按“实时反馈变量”和“实时睡眠状态触发”两条轴线组织。Kwon的智能床垫用PVDF/BCG检测心率，并以前一时间段的平均心率更新随后振动频率，因此其实时闭环变量是自主神经信号，而非睡眠阶段。研究中的PSG主要用于事后判定睡眠结构和评估干预结果。\refcite{97}Danilenko的红光/声音实验在NREM内依据EEG幅度阈值触发，属于实时睡眠波形触发。\refcite{98}据此，表5-3按这两条轴线概括光、振动和温度控制在闭环属性及集成风险上的差别。\par
+
+\end{multicols}
+
+\begin{table}[htbp]
+
+\centering
+
+\tabcaption{非听觉刺激模态的反馈方式与集成风险}{Feedback Modes and Integration Risks of Non-Auditory Stimulation}
+
+\scriptsize
+
+\setlength{\tabcolsep}{2.5pt}
+
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+
+\hline
+
+模态 & 实时反馈 & 实时睡眠状态触发 & 控制分类 & 主要集成风险 & 证据角色 \\
+
+\hline
+
+振动 & BCG心率 & PSG阶段用于事后分析 & 生理反馈闭环 & 机械伪影、体位与觉醒 & 直接反馈控制证据 \\
+
+红光 & EEG阈值 & 是 & EEG波形触发闭环 & 眼罩、光漏与觉醒 & 直接状态触发证据 \\
+
+温控床罩 & 预设/人工调温；Fitbit事后评价 & 尚未形成睡眠内状态触发证据 & 开放环环境控制 & 热惯性、舒适与停止规则 & 邻近对照 \\
+
+\hline
+
+\end{tabularx}
+
+\end{table}
+
+\begin{multicols}{2}
+
+温控床罩研究提供了环境温度控制的协议和舒适性参照，其控制方式以预设和人工调温为主。\refcite{99}这一类研究提示，非听觉模态的比较重点不应放在生理效果大小的简单排序上，而应回到反馈变量、状态触发、执行惯性、伪影和觉醒保护这些决定闭环属性的系统条件。\par
+
+\leveltwo{5.4 典型闭环系统对比与居家化、产品化现状}
+
+系统级比较回答各平台把“感知—识别—决策—刺激—验证”推进到了哪一步。判断成熟度时，需要同时考察系统分期、居家分母、失败数据、时延边界和安全停止；第2章已经讨论的算法性能以及第3/4章已经讨论的生理、行为结果，在本节主要用于说明系统验证推进到哪个层级，而不再作为跨系统排行依据。表5-4据此把典型系统放在同一验证链上比较，强调系统链路是否闭合，而非单项指标高低。\par
+
+\end{multicols}
+
+\begin{table}[htbp]
+
+\centering
+
+\tabcaption{典型闭环睡眠干预系统的验证链比较}{Validation-Chain Comparison of Representative Closed-Loop Sleep Intervention Systems}
+
+\scriptsize
+
+\setlength{\tabcolsep}{2.5pt}
+
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+
+\hline
+
+典型系统 & 识别/门控 & 刺激或相位控制 & 时间链 & 生理/行为证据 & 居家与失败数据 & 安全停止 \\
+
+\hline
+
+WDD & N3门控和慢波检测 & 慢波相位骨传导声音 & 独立时钟事后重同步；声音到耳仍未实测 & 有短窗响应 & 青年配对及中年居家试点；失败夜分母仍未充分报告 & 阶段、运动、觉醒、时间和间隔门控 \\
+
+Portiloop系统族 & 纺锤事件闭环 & 声音触发 & 工程链路已拆分；人体声音到耳仍未实测 & 有短窗响应 & 多夜居家人体研究；约20\%数据损失 & 停止规则仍需充分报告 \\
+
+ENMod/Bressler & 因果alpha相位估计 & 骨传导相位控制 & 总时延仍未充分报告；ERP潜伏期单独测量 & 有相位/ERP验证 & 多实验夜；可用EEG失败比例已报告 & 质量通道与限时刺激 \\
+
+Earable & 独立分期测试与入睡概率/阶段门控 & 声音控制 & 时延仍未充分报告 & 有系统验证 & 有居家多夜子协议；通道失败有报告 & 检测入睡后停声；其他规则仍需充分报告 \\
+
+MHSL-SB系统族 & NREM触发、状态/慢波门控 & 声音控制 & 时延仍未充分报告 & 有多夜响应 & 工程与多夜人体配对；纳入夜与完成者分母部分报告 & NREM、beta/觉醒门控 \\
+
+TSB Axo & 实时NREM门控与慢波检测 & 目标相位与个体音量 & 时延仍未充分报告 & 有事件响应和功能终点 & 居家干预夜；失败夜仍需充分报告 & 稳定NREM、觉醒、ON/OFF和个体音量 \\
+
+CLAS-hdEEG & N3实验条件和慢波检测 & 90°目标窗命中 & 检测至DIN；声音到耳仍未实测 & 有短窗响应 & 实验室系统 & 阈值/波形门控；觉醒停止仍需充分报告 \\
+
+Henao耳内EEG闭环 & 耳内慢振荡检测 & 两声目标窗命中 & 局部滤波延迟；声音到耳仍未实测 & 有短窗响应 & 实验室午睡 & 双声后暂停；觉醒停止仍需充分报告 \\
+
+耳内EEG监测候选 & PSG/信号质量验证 & 监测候选 & 采集同步 & 监测证据 & 有居家采集和电极可用性 & 刺激控制待接入 \\
+
+\hline
+
+\end{tabularx}
+
+\end{table}
+
+\begin{multicols}{2}
+
+WDD、ENMod和Earable把可穿戴感知与声音输出集成到居家设备，体现了头带式系统从监测到干预的一体化方向。未来比较应重点考察时钟同步、声音物理到达、失败夜和协议分母。Portiloop、MHSL-SB及TSB Axo则展示了从端侧事件检测、工程链路拆分到多夜居家干预的不同推进路径。由于相关研究可能对应不同硬件版本、实验场景和验证终点，其工程时延、居家夜数和生理结果不宜直接合并为单一系统性能。\refcite{14,75,100,64}\par
+
+耳内EEG可分为实验室闭环和居家监测候选两个层级。Henao建立了“耳内检测—实际声音刺激”的实验室人体链路，Mikkelsen和Naox则支持居家采集、PSG同步与信号质量候选价值。\refcite{74,23,24}居家多夜、失败夜、临床终点和声音到耳物理时延，是耳内闭环向产品化推进时仍需解决的关键问题。\par
+
+系统成熟度由验证链闭合程度决定，可沿实验室原型、工程回放、多夜居家、失败夜分母、物理时延和临床终点逐层判断。居家多夜耳内EEG闭环、Portiloop同一版本工程—人体配对、声音真正到耳及尾部时延，以及统一的计划夜—有效夜—失败夜—退出分母，仍需要进一步验证。\par
+
+此外，无EEG双向Mamba、非睡眠Thalamus、开放环温控床罩、外加tACS锁相rTMS和以醒后报告反馈的Dormio可作为局部技术参照，分别服务多模态可穿戴分期、统一时钟与失效保护、环境控制、组合刺激同步和梦境交互等问题。将这些研究用于解释闭环睡眠干预系统时，应区分其能够支撑的环节、适用条件和尚未覆盖的睡眠内反馈链路。\par
+
+\levelone{6 关键挑战与展望}
+
+\leveltwo{6.1 生理增强与行为学获益之间的因果链未夯实}
+
+闭环干预证据可拆分为信号质量、在线识别、刺激命中、神经生理响应、行为或临床终点以及长期安全六层。目前，诸多研究仅局限于观察刺激后慢波功率及耦合的瞬态改变，而未对这些生理效应的临床或行为学意义进行深入验证。这类瞬态变化仅表征了短期的神经响应，但并不足以证明受试者睡眠质量的改善、记忆的稳定性提升或患者症状的减轻。\par
+
+综合多项研究，慢振荡或纺锤波相关生理指标的调控并不总是与行为任务表现的改善相一致；居家研究也常观察到生理响应未能同步转化为记忆或警觉性水平的提升。这些差异可能来自任务、人群、剂量、盲法、设备和测量可靠性。\refcite{78,101,80}\par
+
+研究提示，发表年代、盲法严格性及结局测量可靠性等因素均可能调节记忆效应的解释效力；作为邻近技术例证，外加tACS锁相rTMS也呈现生理变化与行为阴性分离，但不与EEG反馈闭环研究合并效应量。基于此，未来研究应预先注册主要终点指标，设置有效的假刺激对照及相位/剂量对照组，并预先将慢波活动、纺锤波耦合、记忆表现与主观睡眠质量等变量纳入分层分析。同时，建议采用中介分析检验刺激靶点、生理响应与行为变化之间的因果路径；个体内多夜动态模型则可进一步考察生理响应者与行为响应者的一致性。只有整条因果链能够在独立样本或跨研究中重复验证，才可将神经生理调节确立为临床获益的可靠证据。\refcite{79,96}\par
+
+\leveltwo{6.2 疗效个体差异大，参数缺乏个体化适配}
+
+闭环睡眠干预中的个体差异源于多重因素的协同作用，具体涉及信号采集质量、受试者即时生理状态、既定临床背景特征以及跨夜间的动态波动变化，单一参数无法充分解释该差异。头型、电极接触、设备噪声会改变在线识别质量；年龄、慢波幅度、纺锤峰频和听阈会影响可刺激窗口与神经响应；疾病、药物、共病和同一人不同夜的睡眠压力又会改变刺激可达性。因此，“平均有效”不能直接推导为“个体稳定有效”，年龄相关易感性和反应者异质性应作为个体化设计的前提，而不是事后解释。\refcite{102}\par
+
+个体化适配也应区分模型适配与刺激适配。前者包括分期模型、慢波或纺锤事件模型的设备域、个人域和跨夜更新；后者包括触发阈值、目标相位、声音或电刺激强度、刺激间隔和累计剂量的再校准。持续学习和跨设备微调支持识别模型更新的可行性，但现有证据更多停留在离线模型或设备域迁移层面，尚未证明识别模型和刺激控制器可以在睡眠中同步、稳定、可解释地在线更新。\refcite{87,103}\par
+
+邻近证据可用于提示域偏移和多模态可穿戴分期的发展方向，但不应上调为EEG闭环刺激适配的直接证据。纯加速度分期缺少EEG靶信号和刺激链路，无EEG多模态模型也不能替代EEG在线相位或事件控制。未来研究应把一次性校准、少样本微调、域适应和持续学习放在同一验证框架内比较，并采用个体内 crossover、多夜基线、置信度校准和失败夜分析。双自适应系统还需预设拒绝触发规则、剂量上限和漂移监测，防止模型探索与刺激控制共同放大风险。\refcite{104,47,44}\par
+
+\leveltwo{6.3 实时相位估计的精度与延迟瓶颈}
+
+实时相位估计的瓶颈可归因于慢波生理特性、因果计算约束与硬件链路延迟在闭环时序误差中的协同作用，单一算法指标无法充分涵盖该问题的决定性因素。低振幅、非平稳频率和波形不对称使瞬时相位本身难以稳定定义；因果滤波只能利用历史数据，难以保留离线双向算法的相位特性；采集缓冲、无线传输、操作系统调度、音频驱动与换能器又会把算法输出推迟到不同生理时点。若只报告模型计算时间或事后重建相位，就无法判断刺激真正抵达受试者时是否仍处于目标相位。\par
+
+现有相位算法研究共同提示，目标相位、慢波振幅、圆周误差、补偿间隔和端到端时延必须联合解释；低幅慢波表现、误触发、漏触发和相位命中也应与刺激后EEG响应及觉醒风险关联。\refcite{49,15,50}\par
+
+鉴于上述多因素协同作用，目标相位、振幅、滤波延迟与刺激落点的时间错配必须在同一框架下联合解析，因此任何单一算法指标或孤立的事后分析都不足以指导闭环系统的优化。为此，开放benchmark应从硬件—算法协同出发，提供原始EEG、统一刺激时间戳、模块级延迟、端到端刺激抵达时间和失败触发日志，并在相同因果约束下比较算法。指标至少包括圆周误差、目标窗命中、低幅慢波表现、误触发和漏触发、端到端时延、时延抖动、功耗和热管理，并按人群、导联、设备、振幅与频率分层。非睡眠Thalamus仅作为统一时钟、负载测试和失效保护的邻近工程参照，不能替代完整睡眠采集—计算—刺激链路的人体基准。未来系统可结合本地推理、逐模块标定、预测性补偿、低功耗流式模型和刺激器实测回读；而当前的主要缺口仍在于缺乏一个包含完整人体睡眠刺激链路时间戳的开放基准。\refcite{67}\par
+
+\leveltwo{6.4 长期干预的安全性与睡眠结构扰动风险}
+
+现有关于闭环慢波增强干预的安全性数据主要来自单夜实验室研究或短期居家试点，这些研究通常以未发生严重不良事件作为耐受性结论的依据。但单夜未发生严重不良事件只能支持短期耐受，无法代表长期家庭安全。即时风险包括微觉醒、完全觉醒、自主神经变化、皮肤感觉、疼痛或听觉不适。累积风险包括睡眠结构重分配、习惯化、反应衰减、长期刺激副作用与依赖性使用。增强目标慢波的同时也可能改变纺锤、涟漪或其他阶段，因此安全评价需覆盖整夜结构和次日功能。\par
+
+现有长期安全证据总体仍偏短时、偏健康样本或偏机制提示。多夜居家研究可提供初步耐受性线索，但不足以外推至数月使用、疾病人群、共病用药或高频依从使用。重复刺激的人体和动物研究提示，慢波增强之外的纺锤、涟漪、阶段转换和次日功能都应纳入风险窗口；外加tACS锁相rTMS只作为短期暴露不足以回答长期安全的邻近例证，不用于补齐EEG反馈闭环安全证据。鉴于上述证据在人群覆盖和暴露时长上的双重局限，未来的长期干预不仅需要在方案设计中预设安全边界，还应在数据报告中建立统一的风险量化标准。具体而言，协议应预设每夜剂量上限、连续觉醒停止、设备故障保护、次日嗜睡和认知监测，并在停用后随访。安全报告不应只记录“是否出现不良事件”，还应报告暴露分母和剂量分布，例如每1000次刺激的微觉醒或觉醒次数、每人夜不良事件、每人夜设备相关不适、累计刺激次数、累计声压或电荷剂量、达到停止规则的夜数，以及按刺激模态和人群分层的事件率。声音、电、磁及振动应分别登记听觉、皮肤、肌肉或机械不适，不能以“非侵入”概括安全。这些报告指标和协议约束的落实，将使安全性评价从被动的事后记录转变为主动的风险管理框架。\refcite{100,105,96}\par
+
+\leveltwo{6.5 居家真实世界证据与标准化评测缺失}
+
+真实世界评价需要区分效能、效果和实施：实验室效能回答受控条件下能否产生目标反应；居家效果回答患者多夜是否持续获益；实施则考察佩戴、依从性、故障、数据完整性和临床工作流。现有设备研究在PSG配置、人群来源、阶段定义、评分流程、有效夜筛选和失败夜处理上差异较大，使汇总准确率难以直接比较，也容易把设备可用性、算法偏差和临床效果混在同一个数字中。\par
+
+可穿戴EEG与PSG的居家验证总体提示，单一总体准确率不足以代表真实世界表现。逐期偏差、评分者差异、电极配置、夜间重复测量、低质量信号和剔除失败夜的规则都会改变结论；N1、REM和阶段转换附近的误差尤其可能被整夜平均指标掩盖。因此，居家证据不应只报告“有效夜后的平均性能”，还应说明未成功采集、无法评分、无法触发刺激和用户中途退出的比例。\refcite{106,107}\par
+
+最小报告集应包括设备、电极、固件、代码仓库、模型版本和运行环境，同步PSG与时钟方案，因果性和分项时延，训练/验证/测试或外部验证的数据划分，有效数据比例、缺失夜定义、失败夜处理和敏感性分析，逐期指标、置信区间、效应量、评分者一致性、概率校准度、最差亚组性能、刺激命中、觉醒、剂量、患者报告结局、不良事件及隐私措施。外部验证应跨中心、疾病、年龄和设备，并报告总体表现之外的亚组漂移、校准漂移和低质量夜表现。临床试验宜采用多夜随机设计、有效盲法、预注册主要终点和充分随访。未来标准化工作应着眼于建立可共享的时间戳数据资源、实时算法基准测试体系及分层监管评价框架，从而将设备层面的性能验证真正转化为临床适用性证据。\par
+% END V14 BODY
+
+\vspace{8pt}\noindent{\hei\fontsize{10pt}{16pt}\selectfont\bfseries 参考文献}\par\vspace{2pt}
+{\song\fontsize{9pt}{15pt}\selectfont\setlength{\parindent}{0pt}\setlength{\parskip}{1pt}
+[1]\quad BASSETTI C L A, WELTER L S, MONTES-MARTINEZ M, 等. Epidemiology and Economic Burden of Sleep Disorders in Europe[J/OL]. European Journal of Neurology, 2026, 33(2): e70463. DOI:10.1111/ene.70463.\par
+[2]\quad VAN STRATEN A, WEINREICH K J, FÁBIÁN B, 等. The Prevalence of Insomnia Disorder in the General Population: A Meta-Analysis[J/OL]. Journal of Sleep Research, 2025, 34(5): e70089. DOI:10.1111/jsr.70089.\par
+[3]\quad BENJAFIELD A V, SERT KUNIYOSHI F H, MALHOTRA A, 等. Estimation of the global prevalence and burden of insomnia: a systematic literature review-based analysis[J/OL]. Sleep Medicine Reviews, 2025, 82: 102121. DOI:10.1016/j.smrv.2025.102121.\par
+[4]\quad NIU Y, SUN S, WANG Y, 等. Spatiotemporal Trends in the Prevalence of Obstructive Sleep Apnoea Across China: A Multilevel Meta-Analysis Incorporating Geographic and Demographic Stratification (2000-2024)[J/OL]. Nature and Science of Sleep, 2025, 17: 879--903. DOI:10.2147/nss.s525547.\par
+[5]\quad SONG P, WU J, CAO J, 等. The global and regional prevalence of restless legs syndrome among adults: A systematic review and modelling analysis[J/OL]. Journal of Global Health, 2024, 14: 04113. DOI:10.7189/jogh.14.04113.\par
+[6]\quad AZIZ S, A M ALI A, ASLAM H, 等. Wearable Artificial Intelligence for Sleep Disorders: Scoping Review[J/OL]. Journal of Medical Internet Research, 2025, 27: e65272. DOI:10.2196/65272.\par
+[7]\quad RIEMANN D, BAGLIONI C, BASSETTI C, 等. European guideline for the diagnosis and treatment of insomnia[J/OL]. Journal of Sleep Research, 2017, 26(6): 675--700. DOI:10.1111/jsr.12594.\par
+[8]\quad EDINGER J D, ARNEDT J T, BERTISCH S M, 等. Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline[J/OL]. Journal of Clinical Sleep Medicine, 2021, 17(2): 255--262. DOI:10.5664/jcsm.8986.\par
+[9]\quad KOFFEL E, BRAMOWETH A D, ULMER C S. Increasing access to and utilization of cognitive behavioral therapy for insomnia (CBT-I): a narrative review[J/OL]. Journal of General Internal Medicine, 2018, 33(6): 955--962. DOI:10.1007/s11606-018-4390-1.\par
+[10]\quad MATTHEWS E E, ARNEDT J T, MCCARTHY M S, 等. Adherence to cognitive behavioral therapy for insomnia: A systematic review[J/OL]. Sleep Medicine Reviews, 2013, 17(6): 453--464. DOI:10.1016/j.smrv.2013.01.001.\par
+[11]\quad DUDYSOVÁ D, JANKŮ K, PIORECKÝ M, 等. Closed-loop auditory stimulation of slow-wave sleep in chronic insomnia: a pilot study[J/OL]. Journal of Sleep Research, 2024, 33(6): e14179. DOI:10.1111/jsr.14179.\par
+[12]\quad WEIGENAND A, MÖLLE M, WERNER F, 等. Timing matters: open-loop stimulation does not improve overnight consolidation of word pairs in humans[J/OL]. European Journal of Neuroscience, 2016, 44(6): 2357--2368. DOI:10.1111/ejn.13334.\par
+[13]\quad ESFAHANI M J, FARBOUD S, NGO H V, 等. Closed-loop auditory stimulation of sleep slow oscillations: Basic principles and best practices[J/OL]. Neuroscience \& Biobehavioral Reviews, 2023, 153: 105379. DOI:10.1016/j.neubiorev.2023.105379.\par
+[14]\quad DEBELLEMANIERE E, CHAMBON S, PINAUD C, 等. Performance of an Ambulatory Dry-EEG Device for Auditory Closed-Loop Stimulation of Sleep Slow Oscillations in the Home Environment[J/OL]. Frontiers in Human Neuroscience, 2018, 12: 88. DOI:10.3389/fnhum.2018.00088.\par
+[15]\quad FERSTER M L, DA POIAN G, MENACHERY K, 等. Benchmarking Real-Time Algorithms for In-Phase Auditory Stimulation of Low Amplitude Slow Waves With Wearable EEG Devices During Sleep[J/OL]. IEEE Transactions on Biomedical Engineering, 2022, 69(9): 2916--2925. DOI:10.1109/tbme.2022.3157468.\par
+[16]\quad VALENCHON N, BOUTEILLER Y, JOURDE H R, 等. The Portiloop: A deep learning-based open science tool for closed-loop brain stimulation[J/OL]. PLOS ONE, 2022, 17(8): e0270696. DOI:10.1371/journal.pone.0270696.\par
+[17]\quad BRESSLER S, NEELY R, YOST R M, 等. A wearable EEG system for closed-loop neuromodulation of sleep-related oscillations[J/OL]. Journal of Neural Engineering, 2023, 20(5): 056030. DOI:10.1088/1741-2552/acfb3b.\par
+[18]\quad BERGMANN T O. Brain State-Dependent Brain Stimulation[J/OL]. Frontiers in Psychology, 2018, 9: 2108. DOI:10.3389/fpsyg.2018.02108.\par
+[19]\quad ZRENNER C, ZIEMANN U. Closed-Loop Brain Stimulation[J/OL]. Biological Psychiatry, 2024, 95(6): 545--552. DOI:10.1016/j.biopsych.2023.09.014.\par
+[20]\quad MOHAMED M, MOHAMED N, KIM J G. Advancements in Wearable EEG Technology for Improved Home-Based Sleep Monitoring and Assessment: A Review[J/OL]. Biosensors, 2023, 13(12): 1019. DOI:10.3390/bios13121019.\par
+[21]\quad DE GANS C, BURGER P, VAN DEN ENDE E, 等. Sleep assessment using EEG-based wearables – A systematic review[J/OL]. Sleep Medicine Reviews, 2024, 76: 101951. DOI:10.1016/j.smrv.2024.101951.\par
+[22]\quad TABAR Y R, MIKKELSEN K B, RANK M L, 等. Ear-EEG for sleep assessment: a comparison with actigraphy and PSG[J/OL]. Sleep and Breathing, 2021, 25(3): 1693--1705. DOI:10.1007/s11325-020-02248-1.\par
+[23]\quad MIKKELSEN K B, TABAR Y R, KAPPEL S L, 等. Accurate whole-night sleep monitoring with dry-contact ear-EEG[J/OL]. Scientific Reports, 2019, 9(1): 16824. DOI:10.1038/s41598-019-53115-3.\par
+[24]\quad PAZUELO J, JUEZ J Y, MOUMANE H, 等. Evaluating the Electroencephalographic Signal Quality of an In-Ear Wearable Device[J/OL]. Sensors, 2024, 24(12): 3973. DOI:10.3390/s24123973.\par
+[25]\quad SHUSTAK S, INZELBERG L, STEINBERG S, 等. Home monitoring of sleep with a temporary-tattoo EEG, EOG and EMG electrode array: a feasibility study[J/OL]. Journal of Neural Engineering, 2019, 16(2): 026024. DOI:10.1088/1741-2552/aafa05.\par
+[26]\quad MELO M C, DA SILVA VALLIM J R, GARBUIO S, 等. Validation of a sleep staging classification model for healthy adults based on two combinations of a single-channel EEG headband and wrist actigraphy[J/OL]. Journal of Clinical Sleep Medicine, 2024, 20(6): 983--990. DOI:10.5664/jcsm.11082.\par
+% BEGIN V14 REFERENCES
+[27]\quad WARBY S C, WENDT S L, WELINDER P, 等. Sleep-spindle detection: crowdsourcing and evaluating performance of experts, non-experts and automated methods[J/OL]. Nature Methods, 2014, 11(4): 385--392. DOI:10.1038/nmeth.2855.\par
+[28]\quad DANKER-HOPFE H, ANDERER P, ZEITLHOFER J, 等. Interrater reliability for sleep scoring according to the Rechtschaffen \& Kales and the new AASM standard[J/OL]. Journal of Sleep Research, 2009, 18(1): 74--84. DOI:10.1111/j.1365-2869.2008.00700.x.\par
+[29]\quad DANKER-HOPFE H, KUNZ D, GRUBER G, 等. Interrater reliability between scorers from eight European sleep laboratories in subjects with different sleep disorders[J/OL]. Journal of Sleep Research, 2004, 13(1): 63--69. DOI:10.1046/j.1365-2869.2003.00375.x.\par
+[30]\quad BERRY R B, GAMALDO C E, HARDING S M, 等. AASM Scoring Manual Version 2.2 Updates: New Chapters for Scoring Infant Sleep Staging and Home Sleep Apnea Testing[J/OL]. Journal of Clinical Sleep Medicine, 2015, 11(11): 1253--1254. DOI:10.5664/jcsm.5176.\par
+[31]\quad PHAN H, MIKKELSEN K, CHEN O Y, 等. SleepTransformer: Automatic Sleep Staging With Interpretability and Uncertainty Quantification[J/OL]. IEEE Transactions on Biomedical Engineering, 2022, 69(8): 2456--2467. DOI:10.1109/tbme.2022.3147187.\par
+[32]\quad LIU G, WEI G, SUN S, 等. Micro SleepNet: efficient deep learning model for mobile terminal real-time sleep staging[J/OL]. Frontiers in Neuroscience, 2023, 17: 1218072. DOI:10.3389/fnins.2023.1218072.\par
+[33]\quad BRESCH E, GROSSEKATHÖFER U, GARCIA-MOLINA G. Recurrent Deep Neural Networks for Real-Time Sleep Stage Classification From Single Channel EEG[J/OL]. Frontiers in Computational Neuroscience, 2018, 12: 85. DOI:10.3389/fncom.2018.00085.\par
+[34]\quad MIKKELSEN K B, EBAJEMITO J K, BONMATI-CARRION M A, 等. Machine-learning-derived sleep–wake staging from around-the-ear electroencephalogram outperforms manual scoring and actigraphy[J/OL]. Journal of Sleep Research, 2019, 28: e12786. DOI:10.1111/jsr.12786.\par
+[35]\quad GAO D, LI J, WANG M, 等. Automatic sleep staging of single-channel EEG based on domain adversarial neural networks and domain self-attention[J/OL]. Frontiers in Neuroscience, 2023, 17: 1143495. DOI:10.3389/fnins.2023.1143495.\par
+[36]\quad VAN DER DONCKT J, VAN DER DONCKT J, DEPROST E, 等. Do not sleep on traditional machine learning: Simple and interpretable techniques are competitive to deep learning for sleep scoring[J/OL]. Biomedical Signal Processing and Control, 2023, 81: 104429. DOI:10.1016/j.bspc.2022.104429.\par
+[37]\quad 高群霞, 吴凯. 基于脑电功率谱密度和随机森林的自动睡眠分期方法[J/OL]. 生物医学工程学杂志, 2023, 40(2): 280--285. DOI:10.7507/1001-5515.202207047.\par
+[38]\quad MOUSAVI S, AFGHAH F, ACHARYA U R. SleepEEGNet: Automated sleep stage scoring with sequence to sequence deep learning approach[J/OL]. PLOS ONE, 2019, 14(5): e0216456. DOI:10.1371/journal.pone.0216456.\par
+[39]\quad SUPRATAK A, GUO Y. TinySleepNet: An Efficient Deep Learning Model for Sleep Stage Scoring based on Raw Single-Channel EEG[C/OL]//2020 42nd Annual International Conference of the IEEE Engineering in Medicine \& Biology Society (EMBC). Montreal, QC, Canada: IEEE, 2020: 641--644[2026-08-22]. https://doi.org/10.1109/EMBC44109.2020.9176741. DOI:10.1109/EMBC44109.2020.9176741.\par
+[40]\quad 田蕴郅, 周强, 李婉. 基于迁移学习的随机深度残差网络自动睡眠分期算法[J/OL]. 生物医学工程学杂志, 2023, 40(2): 286--294. DOI:10.7507/1001-5515.202211021.\par
+[41]\quad 章浩伟, 许哲, 苑成梅, 等. 基于单通道脑电信号的自动睡眠分期模型研究[J/OL]. 生物医学工程学杂志, 2023, 40(3): 458--464. DOI:10.7507/1001-5515.202210072.\par
+[42]\quad PHAN H, ANDREOTTI F, COORAY N, 等. SeqSleepNet: End-to-End Hierarchical Recurrent Neural Network for Sequence-to-Sequence Automatic Sleep Staging[J/OL]. IEEE Transactions on Neural Systems and Rehabilitation Engineering, 2019, 27(3): 400--410. DOI:10.1109/tnsre.2019.2896659.\par
+[43]\quad 刘颖, 何长乐, 苑成梅, 等. 基于注意力机制与双向门控循环单元的多导睡眠图睡眠阶段分期方法研究[J/OL]. 生物医学工程学杂志, 2023, 40(1): 35--43. DOI:10.7507/1001-5515.202208017.\par
+[44]\quad GUO Y, NOWAKOWSKI M, DAI W. FlexSleepTransformer: a transformer-based sleep staging model with flexible input channel configurations[J/OL]. Scientific Reports, 2024, 14(1): 26312. DOI:10.1038/s41598-024-76197-0.\par
+[45]\quad 金峥, 贾克斌, 袁野. 基于混合注意力时序网络的睡眠分期算法研究[J/OL]. 生物医学工程学杂志, 2021, 38(2): 241--248. DOI:10.7507/1001-5515.202008006.\par
+[46]\quad HUANG Z, YANG Y, WANG Z, 等. MultiSEss: Automatic Sleep Staging Model Based on SE Attention Mechanism and State Space Model[J/OL]. Biomimetics, 2025, 10(5): 288. DOI:10.3390/biomimetics10050288.\par
+[47]\quad ZHANG A H, HE-MO A, YIN R F, 等. Mamba-based deep learning approach for sleep staging on a wireless multimodal wearable system without electroencephalography[J/OL]. SLEEP, 2026, 49(4): zsag022. DOI:10.1093/sleep/zsag022.\par
+[48]\quad KULKARNI P M, XIAO Z, ROBINSON E J, 等. A deep learning approach for real-time detection of sleep spindles[J/OL]. Journal of Neural Engineering, 2019, 16(3): 036004. DOI:10.1088/1741-2552/ab0933.\par
+[49]\quad SANTOSTASI G, MALKANI R, RIEDNER B, 等. Phase-locked loop for precisely timed acoustic stimulation during sleep[J/OL]. Journal of Neuroscience Methods, 2016, 259: 101--114. DOI:10.1016/j.jneumeth.2015.11.007.\par
+[50]\quad PIORECKY M, KOUDELKA V, PIORECKA V, 等. Real-Time Excitation of Slow Oscillations during Deep Sleep Using Acoustic Stimulation[J/OL]. Sensors, 2021, 21(15): 5169. DOI:10.3390/s21155169.\par
+[51]\quad ZRENNER B, ZRENNER C, GORDON P C, 等. Brain oscillation-synchronized stimulation of the left dorsolateral prefrontal cortex in depression using real-time EEG-triggered TMS[J/OL]. Brain Stimulation, 2020, 13(1): 197--205. DOI:10.1016/j.brs.2019.10.007.\par
+[52]\quad PATANAIK A, ONG J L, GOOLEY J J, 等. An end-to-end framework for real-time automatic sleep stage classification[J/OL]. Sleep, 2018, 41(5): zsy041. DOI:10.1093/sleep/zsy041.\par
+[53]\quad PARK K, HONG J, LEE W, 等. DistillSleep: real-time, on-device, interpretable sleep staging from single-channel electroencephalogram[J/OL]. SLEEP, 2025, 48(12): zsaf240. DOI:10.1093/sleep/zsaf240.\par
+[54]\quad HSIEH T, LIU M, KUO C, 等. Home-Use and Real-Time Sleep-Staging System Based on Eye Masks and Mobile Devices with a Deep Learning Model[J/OL]. Journal of Medical and Biological Engineering, 2021, 41(5): 659--668. DOI:10.1007/s40846-021-00649-5.\par
+[55]\quad ESPARZA-IAIZZO M, SIERRA-TORRALBA M, KLINZING J G, 等. Automatic sleep scoring for real-time monitoring and stimulation in individuals with and without sleep apnea[J/OL]. Computers in Biology and Medicine, 2026, 205: 111560. DOI:10.1016/j.compbiomed.2026.111560.\par
+[56]\quad 吴礼祝, 卢伊虹, 郑梓烨, 等. 基于双通道脑电信号的在线实时睡眠分期系统[J/OL]. 计算机系统应用, 2023, 32(1): 87--98. DOI:10.15888/j.cnki.csa.008905.\par
+[57]\quad 康富豪, 单洁滢, 李泽熙, 等. 基于脑电信号的无线可穿戴睡眠监测系统的研制[J]. 中国医疗器械杂志, 2024, 48(2): 173--178.\par
+[58]\quad HONG J K, LEE T, DELOS REYES R D, 等. Confidence-Based Framework Using Deep Learning for Automated Sleep Stage Scoring[J/OL]. Nature and Science of Sleep, 2021, 13: 2239--2250. DOI:10.2147/nss.s333566.\par
+[59]\quad HEREMANS E R, SEEDAT N, BUYSE B, 等. U-PASS: An uncertainty-guided deep learning pipeline for automated sleep staging[J/OL]. Computers in Biology and Medicine, 2024, 171: 108205. DOI:10.1016/j.compbiomed.2024.108205.\par
+[60]\quad VAN GORP H, HUIJBEN I A M, FONSECA P, 等. Certainty about uncertainty in sleep staging: a theoretical framework[J/OL]. Sleep, 2022, 45(8): zsac134. DOI:10.1093/sleep/zsac134.\par
+[61]\quad ZHU H, WU Y, GUO Y, 等. Towards Real-Time Sleep Stage Prediction and Online Calibration Based on Architecturally Switchable Deep Learning Models[J/OL]. IEEE Journal of Biomedical and Health Informatics, 2024, 28(1): 470--481. DOI:10.1109/jbhi.2023.3327470.\par
+[62]\quad BAZREGARZADEH H, PIC ROCA C, MARTIN A, 等. CLAS-hdEEG: high-density EEG software platform for real-time delta wave detection and closed-loop auditory stimulation[J/OL]. Journal of Neural Engineering, 2026, 23(2): 026010. DOI:10.1088/1741-2552/ae4e5b.\par
+[63]\quad WONG S M, LI V, MITHANI K, 等. Closed-loop modulation of sleep in children undergoing intracranial recordings[J/OL]. Cell Reports Medicine, 2026, 7(1): 102538. DOI:10.1016/j.xcrm.2025.102538.\par
+[64]\quad KASTIES V, MEIER N, MOSER N, 等. Optimizing automated phase-targeted auditory stimulation protocols for procedural memory consolidation during sleep in a home setting[J/OL]. SLEEP Advances, 2025, 6(4): zpaf073. DOI:10.1093/sleepadvances/zpaf073.\par
+[65]\quad LEACH S, FATTINGER S, KRUGLIAKOVA E, 等. Local modulation of sleep slow waves depends on timing between auditory stimuli[J/OL]. NeuroImage, 2025, 322: 121561. DOI:10.1016/j.neuroimage.2025.121561.\par
+[66]\quad KOTHE C, SHIRAZI S Y, STENNER T, 等. The lab streaming layer for synchronized multimodal recording[J/OL]. Imaging Neuroscience, 2025, 3: IMAG.a.136. DOI:10.1162/imag.a.136.\par
+[67]\quad HAGGERTY J, QURESHI Q, GABRIEL E D, 等. Thalamus: a real-time system for synchronized, closed-loop multimodal behavioral and electrophysiological data capture[J/OL]. Communications Engineering, 2026, 5(1): 93. DOI:10.1038/s44172-026-00646-z.\par
+[68]\quad NGO H V, MIEDEMA A, FAUDE I, 等. Driving Sleep Slow Oscillations by Auditory Closed-Loop Stimulation—A Self-Limiting Process[J/OL]. The Journal of Neuroscience, 2015, 35(17): 6630--6638. DOI:10.1523/jneurosci.3133-14.2015.\par
+[69]\quad DEBELLEMANIÈRE E, PINAUD C, SCHNEIDER J, 等. Optimising sounds for the driving of sleep oscillations by closed-loop auditory stimulation[J/OL]. Journal of Sleep Research, 2022, 31(6): e13676. DOI:10.1111/jsr.13676.\par
+[70]\quad NAVARRETE M, SCHNEIDER J, NGO H V, 等. Examining the optimal timing for closed-loop auditory stimulation of slow-wave sleep in young and older adults[J/OL]. Sleep, 2019, 43(6): zsz315. DOI:10.1093/sleep/zsz315.\par
+[71]\quad BESEDOVSKY L, NGO H V, DIMITROV S, 等. Auditory closed-loop stimulation of EEG slow oscillations strengthens sleep and signs of its immune-supportive function[J/OL]. Nature Communications, 2017, 8(1): 1984. DOI:10.1038/s41467-017-02170-3.\par
+[72]\quad HENIN S, BORGES H, SHANKAR A, 等. Closed-Loop Acoustic Stimulation Enhances Sleep Oscillations But Not Memory Performance[J/OL]. eneuro, 2019, 6(6): ENEURO.0306-19.2019. DOI:10.1523/eneuro.0306-19.2019.\par
+[73]\quad PAPALAMBROS N A, SANTOSTASI G, MALKANI R G, 等. Acoustic Enhancement of Sleep Slow Oscillations and Concomitant Memory Improvement in Older Adults[J/OL]. Frontiers in Human Neuroscience, 2017, 11: 109. DOI:10.3389/fnhum.2017.00109.\par
+[74]\quad HENAO D, NAVARRETE M, JUEZ J Y, 等. Auditory closed-loop stimulation on sleep slow oscillations using in-ear EEG sensors[J/OL]. Journal of Sleep Research, 2022, 31(6): e13555. DOI:10.1111/jsr.13555.\par
+[75]\quad JOURDE H R, SOBRAL M, BELTRAME G, 等. Neurophysiological effects of targeting sleep spindles with closed-loop auditory stimulation[J/OL]. Sleep Advances, 2025, 6(2): zpaf007. DOI:10.1093/sleepadvances/zpaf007.\par
+[76]\quad NAVARRETE M, ARTHUR S, TREDER M S, 等. Ongoing neural oscillations predict the post-stimulus outcome of closed loop auditory stimulation during slow-wave sleep[J/OL]. NeuroImage, 2022, 253: 119055. DOI:10.1016/j.neuroimage.2022.119055.\par
+[77]\quad NGO H V, SEIBOLD M, BOCHE D C, 等. Insights on auditory closed-loop stimulation targeting sleep spindles in slow oscillation up-states[J/OL]. Journal of Neuroscience Methods, 2019, 316: 117--124. DOI:10.1016/j.jneumeth.2018.09.006.\par
+[78]\quad JOURDE H R, SITA K Z, EYQVELLE Z, 等. Modulating sleep: slow oscillation and spindle stimulation effects on physiology and memory[J/OL]. npj Science of Learning, 2026, 11(1): 14. DOI:10.1038/s41539-025-00383-6.\par
+[79]\quad HARLOW T J, JANÉ M B, READ H L, 等. Memory retention following acoustic stimulation in slow-wave sleep: a meta-analytic review of replicability and measurement quality[J/OL]. Frontiers in Sleep, 2023, 2: 1082253. DOI:10.3389/frsle.2023.1082253.\par
+[80]\quad CLARK V P, VALVERDE H P, BRIGGS M S, 等. Closed-Loop Auditory Stimulation (CLAS) During Sleep Augments Language and Discovery Learning[J/OL]. Brain Sciences, 2024, 14(11): 1138. DOI:10.3390/brainsci14111138.\par
+[81]\quad PAPALAMBROS N A, WEINTRAUB S, CHEN T, 等. Acoustic enhancement of sleep slow oscillations in mild cognitive impairment[J/OL]. Annals of Clinical and Translational Neurology, 2019, 6(7): 1191--1201. DOI:10.1002/acn3.796.\par
+[82]\quad VAN DEN BULCKE L, PEETERS A, HEREMANS E, 等. Acoustic stimulation as a promising technique to enhance slow-wave sleep in Alzheimer’s disease: results of a pilot study[J/OL]. Journal of Clinical Sleep Medicine, 2023, 19(12): 2107--2112. DOI:10.5664/jcsm.10778.\par
+[83]\quad ZELLER C J, WUNDERLIN M, WICKI K, 等. Multi-night acoustic stimulation is associated with better sleep, amyloid dynamics, and memory in older adults with cognitive impairment[J/OL]. GeroScience, 2024, 46(6): 6157--6172. DOI:10.1007/s11357-024-01195-z.\par
+[84]\quad HEBRON H, LUGLI B, DIMITROVA R, 等. A closed-loop auditory stimulation approach selectively modulates alpha oscillations and sleep onset dynamics in humans[J/OL]. PLOS Biology, 2024, 22(6): e3002651. DOI:10.1371/journal.pbio.3002651.\par
+[85]\quad BRESSLER S, NEELY R, YOST R M, 等. A randomized controlled trial of alpha phase-locked auditory stimulation to treat symptoms of sleep onset insomnia[J/OL]. Scientific Reports, 2024, 14(1): 13039. DOI:10.1038/s41598-024-63385-1.\par
+[86]\quad LUSTENBERGER C, BOYLE M R, ALAGAPAN S, 等. Feedback-Controlled Transcranial Alternating Current Stimulation Reveals a Functional Role of Sleep Spindles in Motor Memory Consolidation[J/OL]. Current Biology, 2016, 26(16): 2127--2136. DOI:10.1016/j.cub.2016.06.044.\par
+[87]\quad SOBRAL M, JOURDE H R, BAJESTANI S E M, 等. Personalizing brain stimulation: continual learning for sleep spindle detection[J/OL]. Journal of Neural Engineering, 2025, 22(4): 046016. DOI:10.1088/1741-2552/adebb1.\par
+[88]\quad JUNG Y J, KIM S, CHOI Y H, 等. Deep-Learning-Based Automated REM Sleep Detection in Patients With REM Sleep Behavior Disorder: Is It Reliable?[J/OL]. Journal of Clinical Neurology, 2025, 21(5): 415--423. DOI:10.3988/jcn.2025.0053.\par
+[89]\quad WIJESINGHE D, LIMA I. A Lightweight Neural Network Based on Memory and Transition Probability for Accurate Real-Time Sleep Stage Classification[J/OL]. Brain Sciences, 2025, 15(8): 789. DOI:10.3390/brainsci15080789.\par
+[90]\quad JARAMILLO V, HEBRON H, WONG S, 等. Closed-loop auditory stimulation targeting alpha and theta oscillations during REM sleep induces phase-dependent power and frequency changes[A/OL]. bioRxiv, 2024[2026-08-22]. https://doi.org/10.1101/2024.03.03.582907. DOI:10.1101/2024.03.03.582907.\par
+[91]\quad HAAR HOROWITZ A, CUNNINGHAM T J, MAES P, 等. Dormio: A targeted dream incubation device[J/OL]. Consciousness and Cognition, 2020, 83: 102938. DOI:10.1016/j.concog.2020.102938.\par
+[92]\quad HOROWITZ A H, ESFAHANY K, GÁLVEZ T V, 等. Targeted dream incubation at sleep onset increases post-sleep creative performance[J/OL]. Scientific Reports, 2023, 13(1): 7319. DOI:10.1038/s41598-023-31361-w.\par
+[93]\quad NAVARRETE M, ARTHUR S, TREDER M S, 等. Ongoing neural oscillations predict the post-stimulus outcome of closed loop auditory stimulation during slow-wave sleep[A/OL]. bioRxiv, 2021[2026-08-22]. https://doi.org/10.1101/2021.05.06.443016. DOI:10.1101/2021.05.06.443016.\par
+[94]\quad PATHAK V, JUAN E, VAN DER GOOT R, 等. The looping lullaby: closed-loop neurostimulation decreases sleepers’ sensitivity to environmental noise[A/OL]. bioRxiv, 2021[2026-08-22]. https://doi.org/10.1101/2021.08.07.455505. DOI:10.1101/2021.08.07.455505.\par
+[95]\quad NGUYEN A, POGONCHEFF G, DONG B X, 等. A comprehensive study on the efficacy of a wearable sleep aid device featuring closed-loop real-time acoustic stimulation[J/OL]. Scientific Reports, 2023, 13(1): 17515. DOI:10.1038/s41598-023-43975-1.\par
+[96]\quad TAKAHASHI K, KUO M, NITSCHE M A. Sleep stage-specific effects of 0.75 Hz phase-synchronized rTMS and tACS on delta frequency activity during sleep[A/OL]. bioRxiv, 2025[2026-08-22]. https://doi.org/10.1101/2025.05.09.653171. DOI:10.1101/2025.05.09.653171.\par
+[97]\quad KWON H B, JEONG J, CHOI B, 等. Effect of closed-loop vibration stimulation on sleep quality for poor sleepers[J/OL]. Frontiers in Neuroscience, 2024, 18: 1456237. DOI:10.3389/fnins.2024.1456237.\par
+[98]\quad DANILENKO K V, KOBELEV E, YAROSH S V, 等. Effectiveness of Visual vs. Acoustic Closed-Loop Stimulation on EEG Power Density during NREM Sleep in Humans[J/OL]. Clocks \& Sleep, 2020, 2(2): 172--181. DOI:10.3390/clockssleep2020014.\par
+[99]\quad STEVENSON S, SUPPIAH H, MÜNDEL T, 等. Under the Covers: The Effect of a Temperature-Controlled Mattress Cover on Sleep and Perceptual Measures in Healthy Adults[J/OL]. Clocks \& Sleep, 2025, 7(4): 55. DOI:10.3390/clockssleep7040055.\par
+[100]\quad LUSTENBERGER C, FERSTER M L, HUWILER S, 等. Auditory deep sleep stimulation in older adults at home: a randomized crossover trial[J/OL]. Communications Medicine, 2022, 2(1): 30. DOI:10.1038/s43856-022-00096-6.\par
+[101]\quad BALDASSARRI A, BERGAMO D, SALFI F, 等. The Effect of Closed-Loop Auditory Stimulation on Memory Consolidation and Sleep Physiology in an Ecological Setting[J/OL]. Journal of Sleep Research, 2026, 35(3): e70247. DOI:10.1111/jsr.70247.\par
+[102]\quad SCHNEIDER J, LEWIS P A, KOESTER D, 等. Susceptibility to auditory closed-loop stimulation of sleep slow oscillations changes with age[J/OL]. Sleep, 2020, 43(12): zsaa111. DOI:10.1093/sleep/zsaa111.\par
+[103]\quad RADKE F A, DA SILVA SOUTO C F, PÄTZOLD W, 等. Transfer Learning for Automatic Sleep Staging Using a Pre-Gelled Electrode Grid[J/OL]. Diagnostics, 2024, 14(9): 909. DOI:10.3390/diagnostics14090909.\par
+[104]\quad CANTON E, TAVELLA F, DRAKE C, 等. What matters beyond model choice for wearable sleep staging? How personalization, evaluation choices, and easy-to-classify wake impact performance[J/OL]. SLEEP Advances, 2026, 7(2): zpag051. DOI:10.1093/sleepadvances/zpag051.\par
+[105]\quad AKSAMAZ S, MÖLLE M, AKINOLA E O, 等. Single closed-loop acoustic stimulation targeting memory consolidation suppressed hippocampal ripple and thalamo-cortical spindle activity in mice[J/OL]. European Journal of Neuroscience, 2023, 59(4): 595--612. DOI:10.1111/ejn.16116.\par
+[106]\quad KJAER T W, RANK M L, HEMMSEN M C, 等. Repeated automatic sleep scoring based on ear-EEG is a valuable alternative to manually scored polysomnography[J/OL]. PLOS Digital Health, 2022, 1(10): e0000134. DOI:10.1371/journal.pdig.0000134.\par
+[107]\quad MARKOV K, ELGENDI M, MENON C. Evaluating the performance of wearable EEG sleep monitoring devices: a meta-analysis approach[J/OL]. npj Biomedical Innovations, 2025, 2(1): 33. DOI:10.1038/s44385-025-00034-w.\par
+% END V14 REFERENCES
+}
+\end{multicols}
+% END REVIEW BODY
+
+\end{document}
