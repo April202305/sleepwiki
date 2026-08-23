@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.19)  23 AUG 2026 17:57
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.19)  23 AUG 2026 21:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1283,13 +1283,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 81.
  [2] [3] [4] [5] [6] [7] [8]
-[9] [10] [11] [12] [13]
+[9] [10] [11] [12] [13] [14]
 Underfull \hbox (badness 10000) in paragraph at lines 430--430
 \TU/SongtiSC(1)/m/n/10 状 态 触 发”|  两 条 轴 线 组 织。| \TU/TimesNewRoman(0)/m/n/10 Kwo
 n \TU/SongtiSC(1)/m/n/10 的 智 能 床 垫 用
  []
 
-[14] [15] [16] [17]
+[15] [16] [17] [18]
 Underfull \hbox (badness 10000) in paragraph at lines 575--575
 []\TU/TimesNewRoman(0)/m/n/9 [7] ESFAHANI M J, FARBOUD S, NGO H V, \TU/SongtiSC
 (1)/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 .
@@ -1312,7 +1312,7 @@ Underfull \hbox (badness 6758) in paragraph at lines 575--575
 \TU/TimesNewRoman(0)/m/n/9 science & Biobehavioral Reviews, 2023, 153: 105379.
  []
 
-[18]
+
 Underfull \hbox (badness 10000) in paragraph at lines 581--581
 []\TU/TimesNewRoman(0)/m/n/9 [13] WEIGENAND A, MÖLLE M, WERNER F, \TU/SongtiSC(
 1)/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 .
@@ -1412,7 +1412,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 622--622
 []\TU/TimesNewRoman(0)/m/n/9 [54] ESPARZA-IAIZZO M, SIERRA-TORRALBA M,
  []
 
-
+[21]
 Underfull \hbox (badness 5519) in paragraph at lines 627--627
 []\TU/TimesNewRoman(0)/m/n/9 [59] VAN GORP H, HUIJBEN I A M, FONSECA P,
  []
@@ -1423,7 +1423,7 @@ Underfull \hbox (badness 7925) in paragraph at lines 627--627
 4.
  []
 
-[21]
+
 Underfull \hbox (badness 6173) in paragraph at lines 631--631
 []\TU/TimesNewRoman(0)/m/n/9 [63] KASTIES V, MEIER N, MOSER N, \TU/SongtiSC(1)/
 m/n/9 等\TU/TimesNewRoman(0)/m/n/9 . Opti-
@@ -1447,7 +1447,7 @@ Underfull \hbox (badness 7344) in paragraph at lines 640--640
 /9 . Acoustic Enhancement of Sleep Slow Os-
  []
 
-
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 643--643
 \TU/TimesNewRoman(0)/m/n/9 come of closed loop auditory stimulation during slow
 -
@@ -1458,7 +1458,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 643--643
 \TU/TimesNewRoman(0)/m/n/9 wave sleep[J/OL]. NeuroImage, 2022, 253: 119055.
  []
 
-[22]
+
 Underfull \hbox (badness 10000) in paragraph at lines 651--651
 \TU/TimesNewRoman(0)/m/n/9 mans[J/OL]. PLOS Biology, 2024, 22(6): e3002651.
  []
@@ -1486,7 +1486,7 @@ Underfull \hbox (badness 7064) in paragraph at lines 657--657
 ,
  []
 
-
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 658--658
 []\TU/TimesNewRoman(0)/m/n/9 [90] HAAR HOROWITZ A, CUNNINGHAM T J,
  []
@@ -1524,17 +1524,17 @@ Underfull \hbox (badness 6412) in paragraph at lines 661--661
 C(1)/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 .
  []
 
-[23]
+
 Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \TU/TimesNewRoman(0)/m/n/9 Mattress Cover on Sleep and Perceptual Measures in
  []
 
-
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 673--673
 []\TU/TimesNewRoman(0)/m/n/9 [105] KJAER T W, RANK M L, HEMMSEN M C,
  []
 
-[24] (./闭环睡眠干预综述-v15.aux)
+[25] (./闭环睡眠干预综述-v15.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/07/14>
@@ -1551,4 +1551,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  93i,10n,104p,1764b,783s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 闭环睡眠干预综述-v15.pdf (24 pages).
+Output written on 闭环睡眠干预综述-v15.pdf (25 pages).
