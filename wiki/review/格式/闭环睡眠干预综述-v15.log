@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.19)  23 AUG 2026 16:10
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.19)  23 AUG 2026 17:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1283,13 +1283,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 81.
  [2] [3] [4] [5] [6] [7] [8]
-[9] [10] [11] [12]
+[9] [10] [11] [12] [13]
 Underfull \hbox (badness 10000) in paragraph at lines 430--430
 \TU/SongtiSC(1)/m/n/10 状 态 触 发”|  两 条 轴 线 组 织。| \TU/TimesNewRoman(0)/m/n/10 Kwo
 n \TU/SongtiSC(1)/m/n/10 的 智 能 床 垫 用
  []
 
-[13] [14] [15] [16]
+[14] [15] [16] [17]
 Underfull \hbox (badness 10000) in paragraph at lines 575--575
 []\TU/TimesNewRoman(0)/m/n/9 [7] ESFAHANI M J, FARBOUD S, NGO H V, \TU/SongtiSC
 (1)/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 .
@@ -1312,13 +1312,13 @@ Underfull \hbox (badness 6758) in paragraph at lines 575--575
 \TU/TimesNewRoman(0)/m/n/9 science & Biobehavioral Reviews, 2023, 153: 105379.
  []
 
-
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 581--581
 []\TU/TimesNewRoman(0)/m/n/9 [13] WEIGENAND A, MÖLLE M, WERNER F, \TU/SongtiSC(
 1)/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 .
  []
 
-[17]
+
 Underfull \hbox (badness 5637) in paragraph at lines 583--583
 \TU/TimesNewRoman(0)/m/n/9 ditory Stimulation of Low Amplitude Slow Waves With
  []
@@ -1335,13 +1335,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 590--590
 .
  []
 
-
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 598--598
 \TU/TimesNewRoman(0)/m/n/9 ity and Uncertainty Quantification[J/OL]. IEEE Trans
 ac-
  []
 
-[18]
+
 Underfull \hbox (badness 10000) in paragraph at lines 600--600
 []\TU/TimesNewRoman(0)/m/n/9 [32] BRESCH E, GROSSEKATHÖFER U, GARCIA-
  []
@@ -1383,7 +1383,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 606--606
 
  []
 
-[19]
+[20]
 Underfull \hbox (badness 5316) in paragraph at lines 618--618
 []\TU/TimesNewRoman(0)/m/n/9 [50] ZRENNER B, ZRENNER C, GORDON P C, \TU/SongtiS
 C(1)/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 .
@@ -1423,13 +1423,13 @@ Underfull \hbox (badness 7925) in paragraph at lines 627--627
 4.
  []
 
-
+[21]
 Underfull \hbox (badness 6173) in paragraph at lines 631--631
 []\TU/TimesNewRoman(0)/m/n/9 [63] KASTIES V, MEIER N, MOSER N, \TU/SongtiSC(1)/
 m/n/9 等\TU/TimesNewRoman(0)/m/n/9 . Opti-
  []
 
-[20]
+
 Underfull \hbox (badness 7081) in paragraph at lines 633--633
 \TU/TimesNewRoman(0)/m/n/9 lab streaming layer for synchronized multimodal reco
 rd-
@@ -1458,7 +1458,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 643--643
 \TU/TimesNewRoman(0)/m/n/9 wave sleep[J/OL]. NeuroImage, 2022, 253: 119055.
  []
 
-[21]
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 651--651
 \TU/TimesNewRoman(0)/m/n/9 mans[J/OL]. PLOS Biology, 2024, 22(6): e3002651.
  []
@@ -1524,7 +1524,7 @@ Underfull \hbox (badness 6412) in paragraph at lines 661--661
 C(1)/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 .
  []
 
-[22]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \TU/TimesNewRoman(0)/m/n/9 Mattress Cover on Sleep and Perceptual Measures in
  []
@@ -1534,7 +1534,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 673--673
 []\TU/TimesNewRoman(0)/m/n/9 [105] KJAER T W, RANK M L, HEMMSEN M C,
  []
 
-[23] (./闭环睡眠干预综述-v15.aux)
+[24] (./闭环睡眠干预综述-v15.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/07/14>
@@ -1543,12 +1543,12 @@ Package rerunfilecheck Info: File `闭环睡眠干预综述-v15.out' has not cha
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26476 strings out of 468168
- 609982 string characters out of 5432815
- 1020999 words of memory out of 5000000
- 54751 multiletter control sequences out of 15000+600000
+ 26467 strings out of 468168
+ 609401 string characters out of 5432815
+ 1023999 words of memory out of 5000000
+ 54742 multiletter control sequences out of 15000+600000
  634844 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,10n,104p,1764b,783s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 闭环睡眠干预综述-v15.pdf (23 pages).
+Output written on 闭环睡眠干预综述-v15.pdf (24 pages).
