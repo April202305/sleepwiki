@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.19)  23 AUG 2026 21:11
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.19)  23 AUG 2026 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1293,17 +1293,13 @@ Overfull \vbox (26.62163pt too high) has occurred while \output is active []
 Overfull \vbox (5.82158pt too high) has occurred while \output is active []
 
 
-[6] [7] [8] [9] [10] [11] [12] [13]
-Overfull \vbox (4.54669pt too high) has occurred while \output is active []
-
-
-[14]
+[6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
 Underfull \hbox (badness 10000) in paragraph at lines 442--442
 \TU/SongtiSC(1)/m/n/10 状 态 触 发”|  两 条 轴 线 组 织。| \TU/TimesNewRoman(0)/m/n/10 Kwo
 n \TU/SongtiSC(1)/m/n/10 的 智 能 床 垫 用
  []
 
-[15] [16] [17] [18]
+[16] [17] [18] [19]
 Underfull \hbox (badness 10000) in paragraph at lines 587--587
 []\TU/TimesNewRoman(0)/m/n/9 [7] ESFAHANI M J, FARBOUD S, NGO H V, \TU/SongtiSC
 (1)/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 .
@@ -1332,7 +1328,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 593--593
 1)/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 .
  []
 
-[19]
+
 Underfull \hbox (badness 5637) in paragraph at lines 595--595
 \TU/TimesNewRoman(0)/m/n/9 ditory Stimulation of Low Amplitude Slow Waves With
  []
@@ -1343,13 +1339,13 @@ Underfull \hbox (badness 7558) in paragraph at lines 598--598
 8.
  []
 
-
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 602--602
 \TU/TimesNewRoman(0)/m/n/9 ear-EEG[J/OL]. Scientific Reports, 2019, 9(1): 16824
 .
  []
 
-[20]
+
 Underfull \hbox (badness 10000) in paragraph at lines 610--610
 \TU/TimesNewRoman(0)/m/n/9 ity and Uncertainty Quantification[J/OL]. IEEE Trans
 ac-
@@ -1360,7 +1356,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 612--612
 []\TU/TimesNewRoman(0)/m/n/9 [32] BRESCH E, GROSSEKATHÖFER U, GARCIA-
  []
 
-
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 618--618
 []\TU/TimesNewRoman(0)/m/n/9 [38] SUPRATAK A, GUO Y. TinySleepNet: An Ef-
  []
@@ -1397,7 +1393,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 618--618
 
  []
 
-[21]
+
 Underfull \hbox (badness 5316) in paragraph at lines 630--630
 []\TU/TimesNewRoman(0)/m/n/9 [50] ZRENNER B, ZRENNER C, GORDON P C, \TU/SongtiS
 C(1)/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 .
@@ -1421,7 +1417,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 631--631
 41.
  []
 
-
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 634--634
 []\TU/TimesNewRoman(0)/m/n/9 [54] ESPARZA-IAIZZO M, SIERRA-TORRALBA M,
  []
@@ -1443,7 +1439,7 @@ Underfull \hbox (badness 6173) in paragraph at lines 643--643
 m/n/9 等\TU/TimesNewRoman(0)/m/n/9 . Opti-
  []
 
-[22]
+
 Underfull \hbox (badness 7081) in paragraph at lines 645--645
 \TU/TimesNewRoman(0)/m/n/9 lab streaming layer for synchronized multimodal reco
 rd-
@@ -1455,7 +1451,7 @@ Underfull \hbox (badness 5711) in paragraph at lines 646--646
 d-
  []
 
-
+[23]
 Underfull \hbox (badness 7344) in paragraph at lines 652--652
 \TU/TimesNewRoman(0)/m/n/9 R G, \TU/SongtiSC(1)/m/n/9 等\TU/TimesNewRoman(0)/m/n
 /9 . Acoustic Enhancement of Sleep Slow Os-
@@ -1472,12 +1468,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 655--655
 \TU/TimesNewRoman(0)/m/n/9 wave sleep[J/OL]. NeuroImage, 2022, 253: 119055.
  []
 
-[23]
+
 Underfull \hbox (badness 10000) in paragraph at lines 663--663
 \TU/TimesNewRoman(0)/m/n/9 mans[J/OL]. PLOS Biology, 2024, 22(6): e3002651.
  []
 
-
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 669--669
 []\TU/TimesNewRoman(0)/m/n/9 [89] JARAMILLO V, HEBRON H, WONG S, \TU/SongtiSC(1
 )/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 .
@@ -1538,17 +1534,17 @@ Underfull \hbox (badness 6412) in paragraph at lines 673--673
 C(1)/m/n/9 等\TU/TimesNewRoman(0)/m/n/9 .
  []
 
-[24]
+
 Underfull \hbox (badness 10000) in paragraph at lines 678--678
 \TU/TimesNewRoman(0)/m/n/9 Mattress Cover on Sleep and Perceptual Measures in
  []
 
-
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 685--685
 []\TU/TimesNewRoman(0)/m/n/9 [105] KJAER T W, RANK M L, HEMMSEN M C,
  []
 
-[25] (./闭环睡眠干预综述-v15.aux)
+[26] (./闭环睡眠干预综述-v15.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/07/14>
@@ -1559,10 +1555,10 @@ Package rerunfilecheck Info: File `闭环睡眠干预综述-v15.out' has not cha
 Here is how much of TeX's memory you used:
  26478 strings out of 468168
  610065 string characters out of 5432815
- 1035999 words of memory out of 5000000
+ 1014999 words of memory out of 5000000
  54750 multiletter control sequences out of 15000+600000
  634844 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,10n,104p,1764b,783s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 闭环睡眠干预综述-v15.pdf (25 pages).
+Output written on 闭环睡眠干预综述-v15.pdf (26 pages).
