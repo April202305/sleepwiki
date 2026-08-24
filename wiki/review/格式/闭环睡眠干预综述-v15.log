@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.19)  24 AUG 2026 16:30
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.19)  24 AUG 2026 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1489,7 +1489,7 @@ Package rerunfilecheck Info: File `闭环睡眠干预综述-v15.out' has not cha
 Here is how much of TeX's memory you used:
  26423 strings out of 468168
  606658 string characters out of 5432815
- 1024360 words of memory out of 5000000
+ 1028360 words of memory out of 5000000
  54690 multiletter control sequences out of 15000+600000
  634021 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
