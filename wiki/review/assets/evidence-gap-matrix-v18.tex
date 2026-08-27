@@ -1,0 +1,85 @@
+% !TEX program = xelatex
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage{fontspec,xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont[Path=/Users/april/Library/Fonts/,FontIndex=0,AutoFakeBold=2]{宋体.ttc}
+\setCJKfamilyfont{hei}[Path=/Users/april/Library/Fonts/,AutoFakeBold=2]{黑体.ttf}
+\newcommand{\hei}{\CJKfamily{hei}}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \def\leftw{3.15}
+  \def\cellw{2.02}
+  \def\cellh{1.18}
+  \def\top{0}
+
+  \fill[gray!12] (0,-1.20) rectangle (\leftw,-4.74);
+  \draw[gray!65,line width=0.55pt] (0,0) rectangle (19.31,-4.74);
+
+  \node[font=\hei\bfseries\fontsize{9.5}{11}\selectfont,align=center] at (1.575,-0.58) {证据层级};
+  \foreach \i/\lab in {
+    0/{信号采集\\质量},
+    1/{在线阶段/\\事件识别},
+    2/{相位与\\刺激命中},
+    3/{物理到达/\\全链路时延},
+    4/{短时间窗\\生理响应},
+    5/{整夜效应/\\行为获益},
+    6/{临床\\终点},
+    7/{长期安全/\\真实世界}}
+  {
+    \node[font=\hei\bfseries\fontsize{8.5}{10}\selectfont,align=center]
+      at (\leftw+\i*\cellw+1.01,-0.58) {\lab};
+  }
+
+  \foreach \r/\lab/\sub in {
+    0/{W1 直接可穿戴证据}/{用于形成可穿戴结论},
+    1/{W2 人体实验室证据}/{用于解释可迁移规律},
+    2/{W3 邻近证据}/{仅作工程或机制参照}}
+  {
+    \node[font=\hei\bfseries\fontsize{9}{10.5}\selectfont,align=center]
+      at (1.575,-1.20-\r*\cellh-0.42) {\lab};
+    \node[font=\fontsize{7.4}{8.6}\selectfont,text=gray!70,align=center]
+      at (1.575,-1.20-\r*\cellh-0.82) {\sub};
+  }
+
+  % 1=直接证据存在，2=有限/不一致，3=缺口，4=邻近参照
+  \foreach \r/\vals in {0/{1,2,2,3,2,2,3,3},1/{4,1,1,2,1,2,2,3},2/{4,4,4,4,4,4,4,4}}
+  {
+    \foreach \v [count=\c from 0] in \vals
+    {
+      \pgfmathsetmacro{\x}{\leftw+\c*\cellw}
+      \pgfmathsetmacro{\yt}{-1.20-\r*\cellh}
+      \ifnum\v=1
+        \fill[gray!82] (\x,\yt) rectangle +(\cellw,-\cellh);
+        \node[font=\hei\bfseries\fontsize{8.5}{10}\selectfont,text=white]
+          at (\x+1.01,\yt-0.59) {直接证据};
+      \fi
+      \ifnum\v=2
+        \fill[gray!43] (\x,\yt) rectangle +(\cellw,-\cellh);
+        \node[font=\hei\bfseries\fontsize{8.5}{10}\selectfont]
+          at (\x+1.01,\yt-0.59) {有限/不一致};
+      \fi
+      \ifnum\v=3
+        \fill[white] (\x,\yt) rectangle +(\cellw,-\cellh);
+        \node[font=\hei\bfseries\fontsize{8.5}{10}\selectfont]
+          at (\x+1.01,\yt-0.59) {直接证据缺口};
+      \fi
+      \ifnum\v=4
+        \fill[gray!13] (\x,\yt) rectangle +(\cellw,-\cellh);
+        \node[font=\hei\bfseries\fontsize{8.5}{10}\selectfont,text=gray!72]
+          at (\x+1.01,\yt-0.59) {邻近参照};
+      \fi
+      \draw[gray!60,line width=0.45pt] (\x,\yt) rectangle +(\cellw,-\cellh);
+    }
+  }
+
+  \draw[gray!65,line width=0.55pt] (0,-1.20) -- (19.31,-1.20);
+  \foreach \r in {1,2,3} \draw[gray!60,line width=0.45pt]
+    (0,-1.20-\r*\cellh) -- (19.31,-1.20-\r*\cellh);
+  \draw[gray!65,line width=0.55pt] (\leftw,0) -- (\leftw,-4.74);
+  \foreach \c in {1,...,8} \draw[gray!60,line width=0.45pt]
+    (\leftw+\c*\cellw,0) -- (\leftw+\c*\cellw,-4.74);
+
+  \node[anchor=west,font=\fontsize{7.8}{9.5}\selectfont,text=gray!75]
+    at (0,-5.12) {注：矩阵依据本文纳入研究及W1—W3定义形成，表示证据用途与缺口，不代表Meta分析、研究质量评分或精确文献数量。};
+\end{tikzpicture}
+\end{document}
