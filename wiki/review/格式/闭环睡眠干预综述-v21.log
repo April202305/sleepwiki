@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.8.28)  28 AUG 2026 16:16
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.8.28)  30 AUG 2026 21:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**__v19_rebuild_local.tex
-(./__v19_rebuild_local.tex
+**闭环睡眠干预综述-v21.tex
+(./闭环睡眠干预综述-v21.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (d:/texlive/2026/texmf-dist/tex/latex/ctex/ctexart.cls
@@ -1113,29 +1113,29 @@ age=dflt;"
 age=dflt;"
 
 
-(./闭环睡眠干预综述-v19.aux)
-\openout1 = `闭环睡眠干预综述-v19.aux'.
+(./闭环睡眠干预综述-v21.aux)
+\openout1 = `闭环睡眠干预综述-v21.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1143,64 +1143,64 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 77.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 77.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 77.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 77.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 77.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 77.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 77.
-LaTeX Font Info:    Redeclaring math accent \check on input line 77.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 77.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 77.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 77.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 77.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 78.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 78.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 78.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 78.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 78.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 78.
+LaTeX Font Info:    Redeclaring math accent \check on input line 78.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 78.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 78.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 78.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 77.
+(Font)              `operators' in the math version `normal' on input line 78.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 7
-7.
+8.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 77.
+(Font)              `operators' in the math version `bold' on input line 78.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-77.
+78.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 77.
+input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 77.
+ 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-77.
+78.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 77.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 77.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 78.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
-input line 77.
+input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
-e 77.
+e 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 77.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 77.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 78.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1236,40 +1236,10 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 77.
-(./闭环睡眠干预综述-v19.out) (./闭环睡眠干预综述-v19.out)
+Package hyperref Info: Link coloring OFF on input line 78.
+(./闭环睡眠干预综述-v21.out) (./闭环睡眠干预综述-v21.out)
 \@outlinefile=\write4
-\openout4 = `闭环睡眠干预综述-v19.out'.
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'simhei.ttf(0)' created for font
-(fontspec)             'simhei.ttf' with options
-(fontspec)             [Script={CJK},Path={C:/Windows/Fonts/},AutoFakeBold={2}]
-.
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[C:/Windows/Fonts/simhei.ttf]/OT:script=hani;languag
-e=dflt;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[C:/Windows/Fonts/simhei.ttf]/OT:script=hani;languag
-e=dflt;embolden=2;"
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'simfang.ttf(0)' created for font
-(fontspec)             'simfang.ttf' with options
-(fontspec)             [Script={CJK},Path={C:/Windows/Fonts/}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[C:/Windows/Fonts/simfang.ttf]/OT:script=hani;langua
-ge=dflt;"
+\openout4 = `闭环睡眠干预综述-v21.out'.
 
 
 Package fontspec Info: 
@@ -1298,140 +1268,180 @@ Package fontspec Info:
 (fontspec)             <->"Times New
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;"
 
-LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 88.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.5> on input line 88.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.34996> on input line 88.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.25> on input line 88.
  [1
 
-] [2] [3]
+]
+
+Package fontspec Info: 
+(fontspec)             Font family 'simhei.ttf(0)' created for font
+(fontspec)             'simhei.ttf' with options
+(fontspec)             [Script={CJK},Path={C:/Windows/Fonts/},AutoFakeBold={2}]
+.
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[C:/Windows/Fonts/simhei.ttf]/OT:script=hani;languag
+e=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[C:/Windows/Fonts/simhei.ttf]/OT:script=hani;languag
+e=dflt;embolden=2;"
+
+ [2
+
+]
+
+Package fontspec Info: 
+(fontspec)             Font family 'simfang.ttf(0)' created for font
+(fontspec)             'simfang.ttf' with options
+(fontspec)             [Script={CJK},Path={C:/Windows/Fonts/}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[C:/Windows/Fonts/simfang.ttf]/OT:script=hani;langua
+ge=dflt;"
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.52812> on input line 130.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 130.
+ [1
+
+]
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 140.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.5> on input line 140.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.34996> on input line 140.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5.25> on input line 140.
+ [2]
 File: ../assets/wearable-sleep-closed-loop-bci-architecture-v18.pdf Graphic fil
 e (type pdf)
 <use ../assets/wearable-sleep-closed-loop-bci-architecture-v18.pdf>
- [4] [5] [6] [7] [8]
-[9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
+ [3] [4] [5] [6]
+[7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
 File: ../assets/evidence-gap-matrix-v18.pdf Graphic file (type pdf)
 <use ../assets/evidence-gap-matrix-v18.pdf>
- [21] [22] [23]
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 686--686
+ [18] [19] [20]
+Underfull \hbox (badness 10000) in paragraph at lines 749--749
 \TU/TimesNewRoman(0)/m/n/7.5 view[J/OL]. Sleep Medicine Reviews, 2024, 76: 1019
 51.
  []
 
-[25]
-Underfull \hbox (badness 6157) in paragraph at lines 710--710
+[21]
+Underfull \hbox (badness 6157) in paragraph at lines 773--773
 [][]\TU/TimesNewRoman(0)/m/n/7.5 SUPRATAK A, GUO Y. TinySleepNet: An Efficient 
 Deep
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 710--710
+Underfull \hbox (badness 10000) in paragraph at lines 773--773
 \TU/TimesNewRoman(0)/m/n/7.5 08-22]. https://doi.org/10.1109/EMBC44109.2020.917
 6741.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 714--714
+Underfull \hbox (badness 10000) in paragraph at lines 777--777
 \TU/TimesNewRoman(0)/m/n/7.5 locked loop for precisely timed acoustic stimulati
 on during
  []
 
-
-Underfull \hbox (badness 5331) in paragraph at lines 717--717
+[22]
+Underfull \hbox (badness 5331) in paragraph at lines 780--780
 [][]\TU/TimesNewRoman(0)/m/n/7.5 PARK K, HONG J, LEE W, \TU/simsun.ttc(0)/m/n/7
 .5 等\TU/TimesNewRoman(0)/m/n/7.5 . DistillSleep: real-time,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 717--717
+Underfull \hbox (badness 10000) in paragraph at lines 780--780
 \TU/TimesNewRoman(0)/m/n/7.5 on-device, interpretable sleep staging from single
 -channel
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 717--717
+Underfull \hbox (badness 10000) in paragraph at lines 780--780
 \TU/TimesNewRoman(0)/m/n/7.5 electroencephalogram[J/OL]. SLEEP, 2025, 48(12): z
 saf240.
  []
 
 
-Underfull \hbox (badness 6188) in paragraph at lines 719--719
+Underfull \hbox (badness 6188) in paragraph at lines 782--782
 [][]\TU/TimesNewRoman(0)/m/n/7.5 ZHU H, WU Y, GUO Y, \TU/simsun.ttc(0)/m/n/7.5 
 等\TU/TimesNewRoman(0)/m/n/7.5 . Towards Real-Time Sleep
  []
 
 
-Underfull \hbox (badness 6380) in paragraph at lines 719--719
+Underfull \hbox (badness 6380) in paragraph at lines 782--782
 \TU/TimesNewRoman(0)/m/n/7.5 Stage Prediction and Online Calibration Based on A
 rchitec-
  []
 
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 746--746
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 809--809
 [][]\TU/TimesNewRoman(0)/m/n/7.5 JARAMILLO V, HEBRON H, WONG S, \TU/simsun.ttc(
 0)/m/n/7.5 等\TU/TimesNewRoman(0)/m/n/7.5 . Closed-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 746--746
+Underfull \hbox (badness 10000) in paragraph at lines 809--809
 \TU/TimesNewRoman(0)/m/n/7.5 loop auditory stimulation targeting alpha and thet
 a os-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 746--746
+Underfull \hbox (badness 10000) in paragraph at lines 809--809
 \TU/TimesNewRoman(0)/m/n/7.5 cillations during REM sleep induces phase-dependen
 t
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 746--746
+Underfull \hbox (badness 10000) in paragraph at lines 809--809
 \TU/TimesNewRoman(0)/m/n/7.5 power and frequency changes[A/OL]. bioRxiv, 2024[2
 026-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 746--746
+Underfull \hbox (badness 10000) in paragraph at lines 809--809
 \TU/TimesNewRoman(0)/m/n/7.5 08-22]. https://doi.org/10.1101/2024.03.03.582907.
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 750--750
+Underfull \hbox (badness 10000) in paragraph at lines 813--813
 [][]\TU/TimesNewRoman(0)/m/n/7.5 TAKAHASHI K, KUO M, NITSCHE M A. Sleep stage-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 750--750
+Underfull \hbox (badness 10000) in paragraph at lines 813--813
 \TU/TimesNewRoman(0)/m/n/7.5 specific effects of 0.75 Hz phase-synchronized rTM
 S and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 750--750
+Underfull \hbox (badness 10000) in paragraph at lines 813--813
 \TU/TimesNewRoman(0)/m/n/7.5 2025[2026-08-22]. https://doi.org/10.1101/2025.05.
 09.653171.
  []
 
-[27] [28] (./闭环睡眠干预综述-v19.aux)
+[24] (./闭环睡眠干预综述-v21.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026/07/13>
  ***********
-Package rerunfilecheck Info: File `闭环睡眠干预综述-v19.out' has not changed.
+Package rerunfilecheck Info: File `闭环睡眠干预综述-v21.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27219 strings out of 468168
- 634644 string characters out of 5436524
- 1043936 words of memory out of 5000000
- 55478 multiletter control sequences out of 15000+600000
- 637659 words of font info for 142 fonts, out of 8000000 for 9000
+ 27513 strings out of 468168
+ 652678 string characters out of 5436524
+ 1072465 words of memory out of 5000000
+ 55764 multiletter control sequences out of 15000+600000
+ 638647 words of font info for 154 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,11n,104p,1374b,674s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,11n,104p,1721b,674s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 闭环睡眠干预综述-v19.pdf (28 pages).
+Output written on 闭环睡眠干预综述-v21.pdf (26 pages).

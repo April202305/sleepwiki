@@ -11,10 +11,17 @@
 \usepackage{setspace}
 \pagestyle{plain}
 \setmainfont{Times New Roman}
-\setCJKmainfont[Path=/Users/april/Library/Fonts/,FontIndex=0,AutoFakeBold=2]{宋体.ttc}
-\setCJKfamilyfont{song}[Path=/Users/april/Library/Fonts/,FontIndex=0,AutoFakeBold=2]{宋体.ttc}
-\setCJKfamilyfont{hei}[Path=/Users/april/Library/Fonts/,AutoFakeBold=2]{黑体.ttf}
-\setCJKfamilyfont{fs}[Path=/Users/april/Library/Fonts/]{方正仿宋_GB2312.ttf}
+\IfFontExistsTF{/Users/april/Library/Fonts/宋体.ttc}{%
+  \setCJKmainfont[Path=/Users/april/Library/Fonts/,FontIndex=0,AutoFakeBold=2]{宋体.ttc}
+  \setCJKfamilyfont{song}[Path=/Users/april/Library/Fonts/,FontIndex=0,AutoFakeBold=2]{宋体.ttc}
+  \setCJKfamilyfont{hei}[Path=/Users/april/Library/Fonts/,AutoFakeBold=2]{黑体.ttf}
+  \setCJKfamilyfont{fs}[Path=/Users/april/Library/Fonts/]{方正仿宋_GB2312.ttf}
+}{%
+  \setCJKmainfont[Path=C:/Windows/Fonts/,FontIndex=0,AutoFakeBold=2]{simsun.ttc}
+  \setCJKfamilyfont{song}[Path=C:/Windows/Fonts/,FontIndex=0,AutoFakeBold=2]{simsun.ttc}
+  \setCJKfamilyfont{hei}[Path=C:/Windows/Fonts/,AutoFakeBold=2]{simhei.ttf}
+  \setCJKfamilyfont{fs}[Path=C:/Windows/Fonts/]{simfang.ttf}
+}
 \newcommand{\song}{\CJKfamily{song}}
 \newcommand{\hei}{\CJKfamily{hei}}
 \newcommand{\fs}{\CJKfamily{fs}}
@@ -22,13 +29,13 @@
 \setlength{\parskip}{0pt}
 \setlength{\tabcolsep}{4pt}
 \setlength{\columnsep}{0.75cm}
-\AtBeginDocument{\fontsize{10.5pt}{15.6pt}\selectfont\song}
+\AtBeginDocument{\fontsize{10.5pt}{12.6pt}\selectfont\song}
 \newcommand{\levelone}[1]{%
-  \par\noindent{\hei\fontsize{12pt}{15.6pt}\selectfont\bfseries #1\par}}
+  \par\noindent{\hei\fontsize{12pt}{14.4pt}\selectfont\mdseries #1\par}}
 \newcommand{\leveltwo}[1]{%
-  \par\noindent{\hei\fontsize{10.5pt}{15.6pt}\selectfont\bfseries #1\par}}
+  \par\noindent{\hei\fontsize{10.5pt}{12.6pt}\selectfont\mdseries #1\par}}
 \newcommand{\levelthree}[1]{%
-  \par\noindent{\song\fontsize{10.5pt}{15.6pt}\selectfont #1}}
+  \par\noindent{\song\fontsize{10.5pt}{12.6pt}\selectfont #1}}
 \newcommand{\figcaption}[2]{%
   \refstepcounter{figure}\par\vspace{4pt}
   {\centering\hei\fontsize{9pt}{10.8pt}\selectfont 图\thefigure\quad #1\par
@@ -39,12 +46,13 @@
    \fontspec{Times New Roman}\bfseries\fontsize{9pt}{10.8pt}\selectfont Table \thetable\quad #2\par}\vspace{3pt}}
 \newcommand{\refcite}[1]{\nolinebreak[4]\textsuperscript{[#1]}}
 \newcommand{\journalhead}{}
+\newcommand{\fillblank}[1]{\rule{#1}{0.4pt}}
 \newcommand{\titleblock}{%
   \begin{adjustwidth}{0.8cm}{0.8cm}
   \begin{center}
-  {\hei\fontsize{16pt}{19.2pt}\selectfont 从睡眠监测到闭环干预：可穿戴EEG-BCI的\\算法路径与临床验证\par}
+  {\hei\fontsize{16pt}{19.2pt}\selectfont 从睡眠监测到闭环干预：可穿戴脑电图-脑机接口（EEG-BCI）的\\算法路径与临床验证\par}
   \vspace{7pt}
-  {\song\fontsize{12pt}{16.7pt}\selectfont 潘家辉，郑滋乐，林奕菲\par}
+  {\fs\fontsize{12pt}{14.4pt}\selectfont 潘家辉，郑滋乐，林奕菲\par}
   \vspace{2pt}
   {\song\fontsize{7.5pt}{9pt}\selectfont (华南师范大学人工智能学院, 佛山 528225)\par}
   \end{center}
@@ -52,25 +60,76 @@
 \newcommand{\cnabstract}{%
   \begin{adjustwidth}{0.8cm}{0.8cm}
   {\song\fontsize{9pt}{10.8pt}\selectfont
-  {\fs\noindent{\hei\bfseries 摘要：}可穿戴传感与智能算法推动睡眠研究由离线监测转向实时闭环干预。本文围绕“感知—识别与决策—刺激—反馈—验证”链路，综述可穿戴脑电采集、在线分期、事件检测、相位估计、系统时延及多模态刺激进展，并将证据分为直接可穿戴证据、可迁移的人体睡眠闭环证据和邻近工程或机制证据。现有研究支持居家信号采集、阶段或事件门控和相位锁定刺激的技术可行性，但离线识别、刺激命中、生理调制、行为改善与临床获益仍缺乏连续验证。跨设备泛化、端到端时延、个体化适配、长期安全及失败夜报告是主要瓶颈。未来应加强因果评测、刺激物理到达标定和标准化真实世界验证，推动可穿戴EEG-BCI由监测工具向可靠闭环干预系统转化。\par}
+  {\song\noindent{\hei\bfseries 摘要：}可穿戴传感与智能算法的发展正推动睡眠研究由离线监测向实时闭环干预转变。本文提出面向可穿戴睡眠闭环系统的三级证据分级框架与多维评价体系。依据研究证据与目标应用场景的距离，将其划分为直接可穿戴证据、可迁移的人体睡眠闭环证据和邻近工程或机制证据；同时围绕“感知—识别与决策—刺激—反馈—验证”闭环链路，从信号与在线识别性能、刺激命中与端到端时延、生理与行为效应，以及长期安全性和真实世界验证等方面进行评价。基于该框架，本文系统梳理可穿戴脑电采集、在线睡眠分期与事件检测、相位估计与系统时延以及多模态刺激等关键技术。现有证据表明，居家信号采集、阶段或事件门控及相位锁定刺激已具备一定技术可行性，但离线识别性能、刺激命中、生理调制、行为改善与临床获益之间尚未形成完整的连续证据链。未来研究应加强因果效应评估、刺激物理到达标定与标准化真实世界验证，推动可穿戴脑电图-脑机接口（EEG-BCI）由睡眠监测工具向可靠闭环干预系统转化。\par}
   \noindent{\hei\bfseries 关键词：}{\song\mdseries 闭环睡眠干预；可穿戴脑电；睡眠分期；相位估计；听觉刺激；实时系统}\par
   }
   \vspace{8pt}
   \begin{center}
-  {\fontspec{Times New Roman}\bfseries\fontsize{14pt}{19.5pt}\selectfont From Sleep Monitoring to Closed-Loop Intervention: Algorithmic Pathways and Clinical Validation of Wearable EEG-BCI\par}
+  {\fontspec{Times New Roman}\mdseries\fontsize{14pt}{16.8pt}\selectfont From Sleep Monitoring to Closed-Loop Intervention: Algorithmic Pathways and Clinical Validation of Wearable Electroencephalography-Brain-Computer Interface (EEG-BCI)\par}
   \vspace{5pt}
   {\fontspec{Times New Roman}\fontsize{10.5pt}{12.6pt}\selectfont PAN Jiahui, ZHENG Zile, LIN Yifei\par}
   {\fontspec{Times New Roman}\itshape\fontsize{7.5pt}{9pt}\selectfont (School of Artificial Intelligence, South China Normal University, Foshan 528225, China)\par}
   \end{center}\vspace{3pt}
   {\fontspec{Times New Roman}\fontsize{9pt}{10.8pt}\selectfont
-  \noindent{\fontsize{9pt}{10.8pt}\selectfont\bfseries Abstract:}{\fontsize{9pt}{10.8pt}\selectfont\mdseries\ }Wearable sensing and intelligent algorithms are moving sleep research from offline monitoring toward real-time closed-loop intervention. Following a sensing--recognition and decision--stimulation--feedback--validation pathway, this review examines wearable EEG acquisition, online sleep staging, event detection, phase estimation, system latency, and multimodal stimulation. Evidence is stratified into direct wearable evidence, transferable human sleep closed-loop evidence, and adjacent engineering or mechanistic evidence. Current studies support the technical feasibility of home signal acquisition, stage or event gating, and phase-locked stimulation. However, offline recognition, stimulus targeting, physiological modulation, behavioral improvement, and clinical benefit have not yet formed a continuous chain of validation. Major barriers include cross-device generalization, end-to-end latency, individualized adaptation, long-term safety, and inadequate reporting of failed nights. Future studies should strengthen causal evaluation, calibrate the physical arrival time of stimulation, and standardize real-world validation to advance wearable EEG-BCI from monitoring tools toward reliable closed-loop intervention systems.\par
+  \noindent{\fontsize{9pt}{10.8pt}\selectfont\bfseries Abstract:}{\fontsize{9pt}{10.8pt}\selectfont\mdseries\ }Advances in wearable sensing and intelligent algorithms are driving sleep research from offline monitoring toward real-time closed-loop intervention. This review proposes a three-tier evidence framework and a multidimensional evaluation scheme for wearable closed-loop sleep systems. According to the proximity of available evidence to the target application scenario, studies are categorized into direct wearable evidence, transferable evidence from human closed-loop sleep studies, and adjacent engineering or mechanistic evidence. Meanwhile, the closed-loop pathway of \textquotedblleft sensing--recognition and decision-making--stimulation--feedback--validation\textquotedblright{} is evaluated in terms of signal and online recognition performance, stimulation targeting and end-to-end latency, physiological and behavioral effects, as well as long-term safety and real-world validation. Within this framework, we systematically review key technologies including wearable electroencephalography (EEG) acquisition, online sleep staging and event detection, phase estimation and system latency, and multimodal stimulation. Current evidence supports the technical feasibility of home-based signal acquisition, stage- or event-based gating, and phase-locked stimulation. However, a complete and continuous evidence chain linking offline recognition performance, successful stimulation delivery, physiological modulation, behavioral improvement, and clinical benefit has yet to be established. Future research should strengthen causal evaluation, calibration of the physical delivery of stimulation, and standardized real-world validation to facilitate the transition of wearable EEG-based brain--computer interfaces (EEG-BCIs) from sleep monitoring tools to reliable closed-loop intervention systems.\par
   \noindent{\fontsize{9pt}{10.8pt}\selectfont\bfseries Key words:}{\fontsize{9pt}{10.8pt}\selectfont\mdseries\ }closed-loop sleep intervention; wearable EEG; sleep staging; phase estimation; auditory stimulation; real-time system\par}
   \vspace{10pt}
   \end{adjustwidth}}
 \begin{document}
+\thispagestyle{empty}
+\begin{center}
+  {\song\fontsize{22pt}{33pt}\selectfont 投稿函（{\fontspec{Times New Roman}Cover Letter}）\par}
+  {\color{red}\song\fontsize{16pt}{24pt}\selectfont （除论文正文外必包括的内容，独立成一页）\par}
+\end{center}
+\vspace{48pt}
+{\song\fontsize{14pt}{16.8pt}\selectfont
+\noindent 投稿函内容为对所投稿件的学术价值和创新性说明\par}
+
+\clearpage
+\thispagestyle{empty}
+\begin{center}
+  {\hei\fontsize{16pt}{16pt}\selectfont 作者信息\par}
+  {\color{red}\song\fontsize{14pt}{16pt}\selectfont （除论文正文外必包括内容，独立成一页）\par}
+\end{center}
+\vspace{32pt}
+{\song\fontsize{12pt}{18pt}\selectfont
+\setlength{\parindent}{0pt}
+\noindent\bfseries 第一作者\mdseries\par
+\noindent 姓名：\hspace{3.0cm}性别：\hspace{1.5cm}学历：\hspace{1.5cm}职称：\par
+\noindent 单位：\par
+\noindent 联系地址：\par
+\noindent 邮政编码：\par
+\noindent E-mail：\par
+\noindent 固定电话：\par
+\noindent 手机：\par
+\vspace{13pt}
+\noindent\bfseries 通讯作者\mdseries\par
+\noindent 姓名：\hspace{3.0cm}性别：\hspace{1.5cm}学历：\hspace{1.5cm}职称：\par
+\noindent 单位：\par
+\noindent 联系地址：\par
+\noindent 邮政编码：\par
+\noindent E-mail：\par
+\noindent 固定电话：\par
+\noindent 手机（自愿填，主要为方便联络）：\par
+\noindent 专业方向：\par
+}
+
+\clearpage
+\setcounter{page}{1}
 \journalhead
 \titleblock
 \cnabstract
+\begingroup
+\renewcommand{\thefootnote}{}
+\footnotetext{%
+  \song\fontsize{7.5pt}{9pt}\selectfont
+  \noindent doi：\fillblank{5.2cm}\par
+  \noindent 收稿日期：\fillblank{2.3cm}，录用日期：\fillblank{2.3cm}\par
+  \noindent 基金项目：\fillblank{10.8cm}\par
+  \noindent \#中国生物医学工程学会会员（Member, Chinese Society of Biomedical Engineering）：\fillblank{3.2cm}\par
+  \noindent *通信作者（Corresponding author）：\fillblank{2.8cm}，E-mail：\fillblank{4.6cm}\par}
+\addtocounter{footnote}{-1}
+\endgroup
 
 % BEGIN V18 BODY
 \begin{multicols}{2}
@@ -80,7 +139,7 @@
 
 睡眠障碍具有广泛的公共健康影响。欧洲47国整合分析显示，成人阻塞性睡眠呼吸暂停、失眠、不宁腿综合征、发作性睡病和快速眼动睡眠行为障碍的患病负担存在明显差异\refcite{1}。不同疾病、地区和诊断口径形成的需求不能合并为单一数值，但持续的睡眠监测与干预需求共同推动了可穿戴睡眠技术的发展。
 
-在可穿戴睡眠技术领域，监测与干预呈现不同的证据成熟度：一项系统综述纳入60篇论文和34种可穿戴EEG设备，显示睡眠监测与评估已形成一定研究基础；闭环听觉刺激综述则指出，现有干预证据仍多集中于短期效应，长期睡眠、情绪和行为影响尚缺少充分验证\refcite{2--3}。成人慢性失眠的规范治疗仍以多组分失眠认知行为治疗为重要循证方案\refcite{4}，而闭环技术是否能够形成独立临床获益尚未确定：慢性失眠闭环听觉刺激试点虽观察到慢振荡即时增强，却未改善记忆巩固、宏观睡眠结构、觉醒次数或主观睡眠质量\refcite{5}。因此，闭环系统更适合被视为连接持续感知与即时干预的候选技术路径，其临床价值仍需通过个体化算法、长期疗效和患者重要结局加以验证。
+在可穿戴睡眠技术领域，监测与干预呈现不同的证据成熟度：一项系统综述纳入60篇论文和34种可穿戴脑电图（electroencephalography，EEG）设备，显示睡眠监测与评估已形成一定研究基础；闭环听觉刺激综述则指出，现有干预证据仍多集中于短期效应，长期睡眠、情绪和行为影响尚缺少充分验证\refcite{2--3}。成人慢性失眠的规范治疗仍以多组分失眠认知行为治疗为重要循证方案\refcite{4}，而闭环技术是否能够形成独立临床获益尚未确定：慢性失眠闭环听觉刺激试点虽观察到慢振荡即时增强，却未改善记忆巩固、宏观睡眠结构、觉醒次数或主观睡眠质量\refcite{5}。因此，闭环系统更适合被视为连接持续感知与即时干预的候选技术路径，其临床价值仍需通过个体化算法、长期疗效和患者重要结局加以验证。
 
 \leveltwo{1.2 从睡眠监测到睡眠调控：闭环范式的提出}
 
@@ -88,11 +147,11 @@
 
 这一范式转变相应拓展了睡眠脑机接口的算法任务边界。算法所面向的控制对象既包括睡眠阶段，也包括慢振荡、睡眠纺锤波等瞬态事件及更精细的振荡相位信息；因此，相关算法的功能需从离线睡眠分期扩展至在线状态识别、瞬态事件检测、相位预测、刺激时机决策及闭环反馈控制。Wireless Dreem Device（WDD）将非快速眼动睡眠第3期（N3期）门控、慢振荡相位估计和声音刺激递送串联起来，并在与多导睡眠监测（polysomnography，PSG）同步记录的健康青年样本中，实现了灵敏度为0.70、特异度为0.90的实时N3检测；同时，该系统能够将声音刺激定位于慢振荡上升相附近，按该研究的相位零点与计算定义，报告的刺激相位为 $45\pm52^{\circ}$\refcite{7}。这一结果初步表明，可穿戴脑电图（electroencephalography，EEG）设备具备在居家环境中实施状态依赖性睡眠刺激的技术可行性。
 
-由此，闭环系统的评价标准也由离线识别性能转向端到端调控性能。Ferster 等将非快速眼动睡眠（non-rapid eye movement，NREM）、慢波活动（slow-wave activity，SWA）、beta 功率和目标相位纳入联合门控；Portiloop 则进一步将采集、滤波、推理、决策和刺激执行的累计时延以及误触发、漏触发纳入工程评价\refcite{8--9}。因此，离线准确率不能单独代表闭环性能，还需综合考察端到端时延、触发可靠性、目标相位门控和扰动保护等实时约束。现有研究在目标事件、设备平台、研究人群和时延口径方面仍存在明显异质性，尚不足以进行直接的系统间比较。可穿戴EEG为长期居家闭环调控提供了技术条件，但系统可执行性和靶点调控能力并不等同于临床疗效，这也构成后续分析闭环系统架构及其临床验证路径的基本前提。
+由此，闭环系统的评价标准也由离线识别性能转向端到端调控性能。Ferster 等将非快速眼动睡眠（non-rapid eye movement，NREM）、慢波活动（slow-wave activity，SWA）、beta 功率和目标相位纳入联合门控；Portiloop 则进一步将采集、滤波、推理、决策和刺激执行的累计时延以及误触发、漏触发纳入工程评价\refcite{8--9}。因此，离线准确率不能单独代表闭环性能，还需综合考察端到端时延、触发可靠性、目标相位门控和扰动保护等实时约束。现有研究在目标事件、设备平台、研究人群和时延口径方面仍存在明显异质性，尚不足以进行直接的系统间比较。可穿戴脑电图为长期居家闭环调控提供了技术条件，但系统可执行性和靶点调控能力并不等同于临床疗效，这也构成后续分析闭环系统架构及其临床验证路径的基本前提。
 
 \leveltwo{1.3 闭环睡眠干预系统的基本架构}
 
-闭环睡眠干预的基本架构可理解为由感知、识别/决策、刺激执行、反馈与失败保护共同组成的在线系统；在闭环听觉刺激框架中，其最小实现包括实时脑活动访问、目标振荡检测和刺激系统\refcite{3}。感知层首先要保证输入信号可用，例如ENMod以5秒均方根选择额区干EEG通道，但其居家研究中约30\%数据集仍无可用EEG，提示电极接触与质量控制会直接限制后续环节\refcite{10}。识别/决策层可联合NREM、SWA、beta功率和目标相位进行门控，并在运动、阶段变化或觉醒时拒绝触发\refcite{7--8}；执行层则需评估采集至输出时延以及误触发与漏触发，Portiloop工程案例报告64 ms常数延迟\refcite{9}。沿用1.2节连续谱，阶段信息仅决定准入时属于阶段门控刺激，目标事件逐次决定是否刺激时属于事件触发闭环，预测目标振荡相位时属于相位锁定闭环，只有刺激后响应继续更新参数时才属于自适应闭环。现有睡眠研究主要支持前三种运行层级，自适应闭环仍需完整验证\refcite{3,7--10}。
+闭环睡眠干预的基本架构可理解为由感知、识别/决策、刺激执行、反馈与失败保护共同组成的在线系统；在闭环听觉刺激框架中，其最小实现包括实时脑活动访问、目标振荡检测和刺激系统\refcite{3}。感知层首先要保证输入信号可用，例如Elemind Neuromodulation Device（ENMod）以5秒均方根选择额区干EEG通道，但其居家研究中约30\%数据集仍无可用EEG，提示电极接触与质量控制会直接限制后续环节\refcite{10}。识别/决策层可联合NREM、SWA、beta功率和目标相位进行门控，并在运动、阶段变化或觉醒时拒绝触发\refcite{7--8}；执行层则需评估采集至输出时延以及误触发与漏触发，Portiloop工程案例报告64 ms常数延迟\refcite{9}。沿用1.2节连续谱，阶段信息仅决定准入时属于阶段门控刺激，目标事件逐次决定是否刺激时属于事件触发闭环，预测目标振荡相位时属于相位锁定闭环，只有刺激后响应继续更新参数时才属于自适应闭环。现有睡眠研究主要支持前三种运行层级，自适应闭环仍需完整验证\refcite{3,7--10}。
 
 如图1所示，可穿戴睡眠闭环干预系统可进一步被概括为“多模态采集—实时处理与识别—闭环决策控制—刺激执行—响应与证据评估”的主链路，并通过失败夜、风险信号、剂量日志和时间同步记录回流至控制策略与验证体系。该结构有助于区分后文讨论的输入信号质量、在线识别性能、端到端时延、刺激执行路径和临床验证层级。本文将其中直接利用脑信号进行状态、事件或相位判定并控制外部刺激的系统视为广义睡眠脑机接口，但对不使用脑信号的生理反馈系统仍采用“闭环睡眠干预系统”这一上位概念。\par
 
@@ -132,7 +191,7 @@
 本节进一步讨论可穿戴EEG如何在低通道、干电极和家庭环境约束下形成可供在线识别使用的输入。本节证据所支持的范围主要是在线算法的数据准入与质量控制；具体状态、事件和相位输出的性能将在2.2 节进一步讨论，检测与刺激执行形成的端到端时延则归入2.3 节。
 
 \levelthree{2.1.1 单/双通道EEG与PSG的差异}
-多导睡眠监测（PSG）是临床睡眠分期和多类睡眠障碍客观评估的标准参考方法。PSG利用多通道脑电信号表征不同导联下的脑电活动，并结合眼电（EOG）与颏肌肌电（EMG）辅助判定N1期、REM期、觉醒及肌张力变化，还可通过呼吸和血氧等指标识别睡眠呼吸事件。相比PSG的多源信号体系，单/双通道低通道脑电仅保留局部脑电信息；部分研究已将其用于睡眠分期以及慢波、纺锤波检测，但其表现取决于导联位置、参考方式、受试人群、信号质量和具体任务，不能直接视为与临床PSG等效。其主要信息限制包括缺乏多导联空间信息、N1与REM等阶段更易混淆，并且单靠脑电不能直接识别呼吸事件或周期性肢体运动等临床指标\refcite{2,11}。
+多导睡眠监测（polysomnography，PSG）是临床睡眠分期和多类睡眠障碍客观评估的标准参考方法。PSG利用多通道脑电信号表征不同导联下的脑电活动，并结合眼电（electrooculography，EOG）与颏肌肌电（electromyography，EMG）辅助判定非快速眼动睡眠第1期（N1期）、快速眼动睡眠（rapid eye movement，REM）期、觉醒及肌张力变化，还可通过呼吸和血氧等指标识别睡眠呼吸事件。相比PSG的多源信号体系，单/双通道低通道脑电仅保留局部脑电信息；部分研究已将其用于睡眠分期以及慢波、纺锤波检测，但其表现取决于导联位置、参考方式、受试人群、信号质量和具体任务，不能直接视为与临床PSG等效。其主要信息限制包括缺乏多导联空间信息、N1与REM等阶段更易混淆，并且单靠脑电不能直接识别呼吸事件或周期性肢体运动等临床指标\refcite{2,11}。
 
 当前主流可穿戴脑电设备主要包括头带式、耳内式、柔性贴附式三类，设备性能对比需要统一考量电极数量与位置、电极材料、接触形式、参考导联方式以及与PSG的同步验证方案等关键参数，才能保证评价结果客观可信\refcite{11}。但现有研究尚未形成统一规范，存在明显的研究异质性。一项涵盖60篇研究、34种可穿戴脑电设备的系统综述指出，目前各类研究的设备配置、评价指标、验证场景差异较大，难以开展横向对比\refcite{2}。
 
@@ -169,10 +228,10 @@ Mikkelsen 等人针对健康受试者开展整夜耳内干电极脑电研究：2
 
 在图1所示系统架构中，实时识别依次承担阶段门控、事件定位和相位定时等任务。本节据此区分阶段、事件与相位三个时间尺度，并分别讨论其评价指标和在线运行约束。\par
 
-睡眠分期的PSG人工评分参考标签并非绝对客观的物理测量结果，而是由评分规则、信号导联方案和人工判读共同形成的规范化参考。传统R\&K与AASM标准的阶段定义并不完全一致，即使采用同一体系，评分者间仍可能出现差异，其中N1等过渡性阶段更容易产生分歧。因此，算法标签具有评分规则、导联配置和判读流程依赖性，不宜被视为跨研究完全统一的绝对标签\refcite{18}。\par
+睡眠分期的PSG人工评分参考标签并非绝对客观的物理测量结果，而是由评分规则、信号导联方案和人工判读共同形成的规范化参考。传统Rechtschaffen and Kales（R\&K）与American Academy of Sleep Medicine（AASM，美国睡眠医学会）标准的阶段定义并不完全一致，即使采用同一体系，评分者间仍可能出现差异，其中N1等过渡性阶段更容易产生分歧。因此，算法标签具有评分规则、导联配置和判读流程依赖性，不宜被视为跨研究完全统一的绝对标签\refcite{18}。\par
 
 \levelthree{2.2.2 公开数据集、标签体系与验证协议}
-算法评估具有较强的场景依赖性。常用睡眠分期资源包括Sleep-EDF、SHHS、MESA和ISRUC-Sleep；MASS、DREAMS和MODA等还支持微结构或事件任务\refcite{9,19--20}。不同于常规监测，闭环刺激还依赖真实可穿戴原始EEG、刺激到达时间戳、分项时延和刺激后响应等字段，但现有研究尚缺少被广泛采用的统一公开基准\refcite{3,8--9}。\par
+算法评估具有较强的场景依赖性。常用睡眠分期资源包括Sleep-EDF、Sleep Heart Health Study（SHHS，睡眠心脏健康研究）、Multi-Ethnic Study of Atherosclerosis（MESA，多民族动脉粥样硬化研究）和ISRUC-Sleep；Montreal Archive of Sleep Studies（MASS，蒙特利尔睡眠研究档案）、DREAMS Sleep Spindles Database（DREAMS，DREAMS睡眠纺锤波数据库）和Massive Online Data Annotation（MODA，大规模在线数据标注）等还支持微结构或事件任务\refcite{9,19--20}。不同于常规监测，闭环刺激还依赖真实可穿戴原始EEG、刺激到达时间戳、分项时延和刺激后响应等字段，但现有研究尚缺少被广泛采用的统一公开基准\refcite{3,8--9}。\par
 
 \end{multicols}
 
@@ -218,7 +277,7 @@ CAP Sleep & 病理人群与微结构候选 & 已纳入应用为24人PPG子集 & 
 
 不同公开数据集的版本、标注规则和样本处理方式可能改变模型评测结果。以Sleep-EDF为例，20人和78人版本具有不同样本构成，R\&K标签向AASM五分类的映射、清醒期片段截取方式以及epoch-wise与subject-wise划分策略都会影响最终指标。SleepTransformer在Sleep-EDF-78和SHHS上报告的结果也提示，同一模型在不同数据条件下可能呈现不同性能。因此，跨研究比较必须同时说明数据集版本、标签体系、样本处理方式和验证划分方案\refcite{21}。\par
 
-验证协议差异是研究异质性的另一重要来源。随机epoch划分主要评价片段级识别，subject-wise划分和留一受试者交叉验证用于评价跨受试者泛化，跨数据集测试及无监督域适应则进一步引入人群、设备和采集协议变化。上述方案构成由片段识别到跨域适配的验证梯度，但均不能替代真实居家闭环环境中的在线验证。Bresch、Mikkelsen和Gao等分别采用受试者级交叉验证、LOSO及跨数据集域适应方案，反映出现有验证协议尚不一致\refcite{22--24}。\par
+验证协议差异是研究异质性的另一重要来源。随机epoch划分主要评价片段级识别，subject-wise划分和留一受试者交叉验证（leave-one-subject-out，LOSO）用于评价跨受试者泛化，跨数据集测试及无监督域适应则进一步引入人群、设备和采集协议变化。上述方案构成由片段识别到跨域适配的验证梯度，但均不能替代真实居家闭环环境中的在线验证。Bresch、Mikkelsen和Gao等分别采用受试者级交叉验证、LOSO及跨数据集域适应方案，反映出现有验证协议尚不一致\refcite{22--24}。\par
 
 \levelthree{2.2.3 阶段级表征与上下文模型}
 阶段级模型在闭环系统中的主要作用不是完成事后整夜评分，而是及时、可靠地开放或关闭刺激窗口。因此，模型比较应优先考察是否仅使用当前及历史信号、首次判定时间与更新周期、端侧内存和功耗、跨设备泛化能力，以及低置信度输出能否被安全拒绝，而不能只依据离线准确率排序。手工频谱或时域特征结合随机森林等浅层分类器，具有计算复杂度较低和特征含义相对明确的优势；Mikkelsen等在耳周可穿戴脑电上采用随机森林并进行LOSO验证，可作为低通道设备的可解释基线。TinySleepNet等单通道端到端模型减少了人工特征设计，并为资源受限部署提供候选结构，但其离线数据集结果仍不能直接证明完整系统具备在线闭环能力\refcite{23,26}。\par
@@ -228,7 +287,7 @@ CAP Sleep & 病理人群与微结构候选 & 已纳入应用为24人PPG子集 & 
 状态空间模型为长时序信号的递推更新和有限缓存提供了潜在路径，但现有无EEG双向Mamba模型仅属于多模态可穿戴分期的邻近技术证据；由于其不使用EEG且依赖双向信息，不能用于支持因果EEG分期、事件检测或相位控制。阶段级模型进入闭环系统的关键不在于网络结构是否新颖，而在于能否同时满足因果访问、端侧运行、跨设备稳定性和安全拒绝要求\refcite{29}。\par
 
 \levelthree{2.2.4 事件检测与相位预测算法}
-相较于粗粒度的睡眠阶段分期，睡眠微结构事件检测以睡眠纺锤波、慢波等稀疏瞬态波形为识别对象，其性能评价需结合逐样本（sample-wise）与逐事件（event-wise）统计口径、事件重叠阈值和时间容差规则。事件标注标准与共识规则的差异会影响算法评测结果。Warby等基于110名健康受试者的N2期脑电数据和24名专家标注建立群体共识，显示专家共识基准、OR/AND组合规则和事件边界定义会改变算法评价结果\refcite{17}。SpindleNet采用250 ms移动窗口输出纺锤波概率，不同专家共识起点会改变计算得到的检测延迟；Portiloop则将FIR滤波、人工神经网络概率输出、阈值判断和声音控制器连接为端侧事件检测工程链。因此，闭环场景中的事件检测除precision、recall和F1外，还应报告每小时假阳性数量、事件起点、峰值和终点误差，以及波形形成等待产生的检测延迟\refcite{9,20}。\par
+相较于粗粒度的睡眠阶段分期，睡眠微结构事件检测以睡眠纺锤波、慢波等稀疏瞬态波形为识别对象，其性能评价需结合逐样本（sample-wise）与逐事件（event-wise）统计口径、事件重叠阈值和时间容差规则。事件标注标准与共识规则的差异会影响算法评测结果。Warby等基于110名健康受试者的N2期脑电数据和24名专家标注建立群体共识，显示专家共识基准、OR/AND组合规则和事件边界定义会改变算法评价结果\refcite{17}。SpindleNet采用250 ms移动窗口输出纺锤波概率，不同专家共识起点会改变计算得到的检测延迟；Portiloop则将有限冲激响应（finite impulse response，FIR）滤波、人工神经网络（artificial neural network，ANN）概率输出、阈值判断和声音控制器连接为端侧事件检测工程链。因此，闭环场景中的事件检测除precision、recall和F1外，还应报告每小时假阳性数量、事件起点、峰值和终点误差，以及波形形成等待产生的检测延迟\refcite{9,20}。\par
 
 实时相位估计旨在未来信号未知的因果约束下估计当前脑电振荡相位，其主要技术问题包括因果滤波、相位预测和刺激延迟补偿。Ferster等在同一慢波基准下比较幅度阈值、锁相环（phase-locked loop，PLL）和相位声码器三类方案；Santostasi等通过探索性人体听觉刺激实验评价PLL的实时应用；Piorecky等进一步比较固定延迟补偿与PLL方案。这些研究表明，相位算法评价需要同时说明离线参考相位、导联配置、受试人群、幅度门控规则、目标相位和圆周统计误差，以避免直接比较实验条件不同的结果\refcite{8,30--31}。\par
 
@@ -239,7 +298,7 @@ CAP Sleep & 病理人群与微结构候选 & 已纳入应用为24人PPG子集 & 
 
 模型压缩能够降低单通道脑电的端侧计算负担。DistillSleep提供了模型蒸馏和设备端评价实例，但局部推理结果不能单独证明完整系统满足实时闭环要求；评价仍需计入输入窗口形成、采集、预处理、通信、决策和刺激执行等环节\refcite{33}。\par
 
-跨域泛化与个体化适配涉及训练阶段能否接触目标域、是否使用少量个体校准数据以及是否开展独立外部测试等不同设置。UDA可以在训练阶段利用未标注目标域数据开展适配，但不能等同于完全独立的外部验证。实际部署还会引入跨导联、跨设备、跨夜和个体生理差异；现有研究虽提供跨受试者和跨数据集证据，跨设备稳定性与长期多夜个体化仍缺少充分验证\refcite{22--24}。\par
+跨域泛化与个体化适配涉及训练阶段能否接触目标域、是否使用少量个体校准数据以及是否开展独立外部测试等不同设置。无监督域适应（unsupervised domain adaptation，UDA）可以在训练阶段利用未标注目标域数据开展适配，但不能等同于完全独立的外部验证。实际部署还会引入跨导联、跨设备、跨夜和个体生理差异；现有研究虽提供跨受试者和跨数据集证据，跨设备稳定性与长期多夜个体化仍缺少充分验证\refcite{22--24}。\par
 
 模型输出可靠性可从概率校准、选择性拒绝和人工复核等维度评价。Hong等将模型置信度最低的20\% epoch交由人工复核后，总体准确率由约76\%提高至87\%，展示了置信度排序和人机协作修正低置信输出的潜在价值\refcite{34}。SwSleepNet所称的“在线校准”主要指利用长序列上下文对短片段预测进行重判，与采用期望校准误差、Brier分数或可靠性曲线评价概率真实性的静态校准并不相同\refcite{35}。\par
 
@@ -255,11 +314,11 @@ CAP Sleep & 病理人群与微结构候选 & 已纳入应用为24人PPG子集 & 
 
 事件级检测需要联合解释运算耗时、策略等待和标注口径。SpindleNet的单次平均执行时间约为6 ms；根据多位专家标注采用OR或AND共识组合后确定的不同事件起点，其相对人工参考的检测延迟约为150--350 ms，说明真值定义会改变时延估计\refcite{20}。Portiloop在MODA工程案例中将40 ms FIR、20 ms ANN和4 ms声音控制器组成64 ms常数链路，另估计约250$\pm$100 ms的可变检测等待，总计约314 ms；阈值设为0.84时，按照刺激是否落入标注纺锤波的研究内定义，precision和recall均为0.71\refcite{9}。这些结果适合用于分析单项研究内部的阈值、等待时间和事件命中精度权衡，不宜脱离真值定义进行跨系统比较。\par
 
-相位级系统需要区分算法相位时间戳、刺激命令时间戳和刺激物理到达时间戳。CLAS-hdEEG在14名健康参与者的N3期记录中报告20.03$\pm$0.5 ms的“检测至刺激”时延和0.913的90°目标窗口命中率，其时间锁定依据为EGI记录的DIN硬件标记；该标记能够记录触发事件，但不能替代声音实际到达受试者的物理测量\refcite{36}。若需测量刺激实际到达时间，可使用麦克风、人工耳或刺激器回读，将命令生成至物理到达纳入同一时间轴。慢波振幅条件对相位算法表现的影响见2.2节\refcite{8}。\par
+相位级系统需要区分算法相位时间戳、刺激命令时间戳和刺激物理到达时间戳。CLAS-hdEEG（高密度脑电闭环听觉刺激平台）在14名健康参与者的N3期记录中报告20.03$\pm$0.5 ms的“检测至刺激”时延和0.913的90°目标窗口命中率，其时间锁定依据为Electrical Geodesics, Inc.（EGI）记录的数字输入（digital input，DIN）硬件标记；该标记能够记录触发事件，但不能替代声音实际到达受试者的物理测量\refcite{36}。若需测量刺激实际到达时间，可使用麦克风、人工耳或刺激器回读，将命令生成至物理到达纳入同一时间轴。慢波振幅条件对相位算法表现的影响见2.2节\refcite{8}。\par
 
-除整体精度外，本文建议按单次刺激机会登记合格机会、成功送达、机会漏失、安全拒绝、误触发、执行失败和时机失败，并明确统计分母。Debellemaniere等的居家研究已报告刺激数量、阶段分布和暂停规则等部分字段，可为机会级评价提供实例\refcite{7}。刺激间隔和每夜刺激数还属于剂量变量；居家PTAS研究提示刺激间隔可能影响生理或行为响应，因此剂量、精度和时延宜在同一框架下联合解释\refcite{37}。\par
+除整体精度外，本文建议按单次刺激机会登记合格机会、成功送达、机会漏失、安全拒绝、误触发、执行失败和时机失败，并明确统计分母。Debellemaniere等的居家研究已报告刺激数量、阶段分布和暂停规则等部分字段，可为机会级评价提供实例\refcite{7}。刺激间隔和每夜刺激数还属于剂量变量；居家相位靶向听觉刺激（phase-targeted auditory stimulation，PTAS）研究提示刺激间隔可能影响生理或行为响应，因此剂量、精度和时延宜在同一框架下联合解释\refcite{37}。\par
 
-综上，本文将闭环系统的时延与精度归纳为时延链路、同步链路和机会级结局三类评价对象。在同一研究、同一时间零点和同一真值定义下，可以分析精度、时延和剂量之间的内部权衡；跨研究解释则应至少说明时延统计口径、主时钟、固定偏移、漂移和校正残差。在样本量允许时，本文建议除均值外进一步报告中位数、四分位距、P90、P95、P99、最大值和时序抖动，以识别、降低并解释设备及校准方案造成的系统偏差。LSL与Thalamus提供多设备同步、时钟偏移测量和失效保护等邻近工程方法，可作为睡眠闭环刺激链路时序标准化的工程参照\refcite{38--39}。\par
+综上，本文将闭环系统的时延与精度归纳为时延链路、同步链路和机会级结局三类评价对象。在同一研究、同一时间零点和同一真值定义下，可以分析精度、时延和剂量之间的内部权衡；跨研究解释则应至少说明时延统计口径、主时钟、固定偏移、漂移和校正残差。在样本量允许时，本文建议除均值外进一步报告中位数、四分位距、P90、P95、P99、最大值和时序抖动，以识别、降低并解释设备及校准方案造成的系统偏差。实验室流式传输层（Lab Streaming Layer，LSL）与Thalamus提供多设备同步、时钟偏移测量和失效保护等邻近工程方法，可作为睡眠闭环刺激链路时序标准化的工程参照\refcite{38--39}。\par
 
 \levelone{3 慢波睡眠闭环干预}
 
@@ -319,7 +378,7 @@ Bressler等针对21名客观入睡潜伏期延长的成年人开展居家随机�
 
 Lustenberger等采用反馈控制经颅交流电刺激（feedback-controlled transcranial alternating current stimulation，FB-tACS）靶向NREM期纺锤波。当个体化纺锤波检测阈值满足时，系统递送12 Hz、1 mA、持续1.5 s的双额刺激，并设置6.5 s暂停期。16名男性受试者的随机、平衡交叉、假刺激对照实验显示，刺激后N2期sigma活动增加，运动序列反应速度得到改善，但运动准确率和词对记忆未见显著变化\refcite{58}。该结果提示，纺锤波靶向干预的行为效应具有终点依赖性，运动速度、运动准确率和陈述性记忆应分别报告，不能合并概括为整体认知增强。\par
 
-电刺激闭环系统中的实时反馈主要受到刺激伪影和监测盲区限制。在Lustenberger等的系统中，tACS伪影使刺激期间的EEG无法用于生理分析，因此相关结果主要来自刺激结束后的无伪影时间窗\refcite{58}。这意味着系统虽然能够根据刺激前检测结果启动刺激，但在刺激施加期间无法持续确认纺锤波是否仍然存在，也难以依据即时脑电响应动态决定停止时机或调整剂量。后续系统需要明确报告刺激期间信号是否可解释、伪影抑制方法、反馈盲区长度，以及刺激前触发与刺激后响应评价之间的控制关系。\par
+电刺激闭环系统中的实时反馈主要受到刺激伪影和监测盲区限制。在Lustenberger等的系统中，经颅交流电刺激（transcranial alternating current stimulation，tACS）伪影使刺激期间的EEG无法用于生理分析，因此相关结果主要来自刺激结束后的无伪影时间窗\refcite{58}。这意味着系统虽然能够根据刺激前检测结果启动刺激，但在刺激施加期间无法持续确认纺锤波是否仍然存在，也难以依据即时脑电响应动态决定停止时机或调整剂量。后续系统需要明确报告刺激期间信号是否可解释、伪影抑制方法、反馈盲区长度，以及刺激前触发与刺激后响应评价之间的控制关系。\par
 
 持续学习为纺锤波检测的跨夜个体化提供了另一条技术路径。Sobral等在预训练的在线睡眠阶段与纺锤波检测模型上加入无需人工干预的持续学习。结果显示，单夜微调收益有限，而结合权重平均的多夜更新能够改善个体化检测并减轻灾难性遗忘\refcite{59}。需要说明的是，该研究验证的是检测模型适配，没有实施人体刺激，也不能直接证明持续学习已在真实闭环干预系统中改善刺激效果。\par
 
@@ -327,7 +386,7 @@ Lustenberger等采用反馈控制经颅交流电刺激（feedback-controlled tra
 
 \leveltwo{4.3 REM检测与相位刺激：证据与可穿戴缺口}
 
-目前本文纳入的研究尚未提供REM期可穿戴闭环刺激的W1直接证据，现有结果主要属于阶段识别和实验室刺激的模块级证据。Jung等基于五家医院310份PSG数据，采用EEG和EOG开展回顾性REM检测，总体AUC为0.90$\pm$0.14，且RBD人群的识别性能低于非RBD人群（0.88$\pm$0.13比0.93$\pm$0.14）\refcite{60}；Wijesinghe等提出的轻量化单额极分期模型，在公开数据集上的最高整体准确率为85.4\%，Cohen's κ为0.79\refcite{61}。这些结果说明REM阶段门控具有离线算法基础，但不能替代可穿戴环境中的在线触发验证，尤其不能说明错阶段刺激率、低置信拒绝率和端到端时延。\par
+目前本文纳入的研究尚未提供REM期可穿戴闭环刺激的W1直接证据，现有结果主要属于阶段识别和实验室刺激的模块级证据。Jung等基于五家医院310份PSG数据，采用EEG和EOG开展回顾性REM检测，总体受试者工作特征曲线下面积（area under the curve，AUC）为0.90$\pm$0.14，且快速眼动睡眠行为障碍（REM sleep behavior disorder，RBD）人群的识别性能低于非RBD人群（0.88$\pm$0.13比0.93$\pm$0.14）\refcite{60}；Wijesinghe等提出的轻量化单额极分期模型，在公开数据集上的最高整体准确率为85.4\%，Cohen's κ为0.79\refcite{61}。这些结果说明REM阶段门控具有离线算法基础，但不能替代可穿戴环境中的在线触发验证，尤其不能说明错阶段刺激率、低置信拒绝率和端到端时延。\par
 
 在刺激环节，Jaramillo等仅在一项包含18名健康年轻成人的预印本研究中，探索了REM期α或θ节律的四正交相位声音刺激，并观察到局部功率和频率变化具有相位依赖性\refcite{62}。该研究属于W2探索性生理证据，尚未验证记忆、情绪、梦境或临床终点，也没有完成REM靶向记忆再激活所需的“学习线索配对—在线REM识别—线索递送—醒后记忆比较”证据链。因此，现阶段不宜将REM相位刺激表述为已经形成的可穿戴应用方向。后续W1研究需在同一系统中验证可穿戴REM门控、相位误差、刺激物理到达时延、错阶段触发、诱发觉醒和安全停止规则。\par
 
@@ -380,7 +439,7 @@ Navarrete等进一步分析刺激前脑电状态对后续响应的预测价值�
 
 \hline
 
-气传导耳机/扬声器 & 软件命令、声卡、换能器与耳部物理输出宜分环节标定 & SPL、频谱、起落沿、脉冲宽度、次数、间隔与累计剂量 & 换能器通常与EEG电极分离；声学诱发响应仍会进入信号 & 耳部压力、线缆、听阈与年龄差异需校准 & 阶段、觉醒、运动、剂量和间隔门控 \\
+气传导耳机/扬声器 & 软件命令、声卡、换能器与耳部物理输出宜分环节标定 & 声压级（sound pressure level，SPL）、频谱、起落沿、脉冲宽度、次数、间隔与累计剂量 & 换能器通常与EEG电极分离；声学诱发响应仍会进入信号 & 耳部压力、线缆、听阈与年龄差异需校准 & 阶段、觉醒、运动、剂量和间隔门控 \\
 
 骨传导头带 & 接触压力、设备物理输出、生理潜伏期和系统时延需分别测量 & 等效输出、接触压力、频谱和包络需设备级标定 & 振子与干电极共置，机械耦合伪影需单独量化 & 集成度较高；头型、安装压力和听力差异需校准 & 按设备报告阶段、觉醒、运动和剂量停止规则 \\
 
@@ -445,11 +504,11 @@ Navarrete等进一步分析刺激前脑电状态对后续响应的预测价值�
 
 Lustenberger等的系统在NREM状态及个体化纺锤波阈值满足后触发12 Hz、1 mA、持续1.5 s的tACS，并在刺激后设置6.5 s暂停期。由于tACS伪影使刺激期间的EEG无法用于分析，相关生理指标只能表示刺激结束后的脑电响应，不能解释为刺激期间持续追踪或持续调节纺锤波\refcite{58}。因此，电、磁刺激研究需要报告监测盲区的起止时间、信号质量恢复判据、暂停期、重新触发所需的睡眠阶段或脑电事件、连续刺激上限，以及假刺激对体感和声音线索的控制方式。\par
 
-Takahashi等采用0.75 Hz tACS作为外加相位基准，并在tACS负峰递送rTMS，形成睡眠阶段内的外加波形相位同步组合刺激\refcite{66}。该方案能够评价外源波形相位同步对睡眠期生理活动的影响，但其刺激相位由外加tACS预设，并未根据实时EEG慢波动态更新，因此不同于依据自发脑活动进行实时决策的EEG反馈闭环刺激，只适合作为邻近技术证据。\par
+Takahashi等采用0.75 Hz tACS作为外加相位基准，并在tACS负峰递送重复经颅磁刺激（repetitive transcranial magnetic stimulation，rTMS），形成睡眠阶段内的外加波形相位同步组合刺激\refcite{66}。该方案能够评价外源波形相位同步对睡眠期生理活动的影响，但其刺激相位由外加tACS预设，并未根据实时EEG慢波动态更新，因此不同于依据自发脑活动进行实时决策的EEG反馈闭环刺激，只适合作为邻近技术证据。\par
 
 \leveltwo{5.3 光、振动、温度等多模态刺激}
 
-非听觉睡眠刺激可依据实时反馈变量和睡眠状态是否进入触发决策两个维度进行比较。Kwon等研发的智能床垫使用PVDF/BCG信号估计心率，并根据前一时段的平均心率更新后续振动频率，因此其实时反馈变量是自主神经信号，而不是睡眠阶段；PSG主要用于事后评价睡眠结构和干预结果\refcite{67}。Danilenko等开展的红光与声音对照实验则在NREM睡眠中依据EEG幅度阈值触发刺激，提供了睡眠脑电波形触发的实例\refcite{68}。\par
+非听觉睡眠刺激可依据实时反馈变量和睡眠状态是否进入触发决策两个维度进行比较。Kwon等研发的智能床垫使用聚偏二氟乙烯（polyvinylidene fluoride，PVDF）/心冲击图（ballistocardiography，BCG）信号估计心率，并根据前一时段的平均心率更新后续振动频率，因此其实时反馈变量是自主神经信号，而不是睡眠阶段；PSG主要用于事后评价睡眠结构和干预结果\refcite{67}。Danilenko等开展的红光与声音对照实验则在NREM睡眠中依据EEG幅度阈值触发刺激，提供了睡眠脑电波形触发的实例\refcite{68}。\par
 
 \end{multicols}
 
@@ -538,7 +597,18 @@ Henao耳内EEG闭环 & W1/相位锁定闭环 & 跨耳双极耳内EEG & 耳内慢
 
 \end{tabularx}
 
-\vspace{5pt}
+\end{minipage}
+\end{center}
+
+\begin{center}
+\begin{minipage}{\textwidth}
+\centering
+
+\fontsize{7.5pt}{9pt}\selectfont
+
+\setlength{\tabcolsep}{1.8pt}
+
+\vspace{2pt}
 
 {\bfseries 续表5\quad 典型闭环睡眠干预系统的验证链比较}\par
 
@@ -556,7 +626,7 @@ WDD & 独立时钟事后重同步；声音到耳仍未实测 & 有短窗响应 &
 
 Portiloop系统族 & 工程链路已拆分；人体声音到耳仍未实测 & 有短窗响应 & 多夜居家人体研究；约20\%数据损失 & 停止规则仍需充分报告 \\
 
-ENMod/Bressler & 总时延仍未充分报告；ERP潜伏期单独测量 & 有相位/ERP验证 & 多实验夜；可用EEG失败比例已报告 & 质量通道与限时刺激 \\
+ENMod/Bressler & 总时延仍未充分报告；ERP潜伏期单独测量 & 有相位/事件相关电位（event-related potential，ERP）验证 & 多实验夜；可用EEG失败比例已报告 & 质量通道与限时刺激 \\
 
 Earable & 时延仍未充分报告 & 有系统验证 & 有居家多夜子协议；通道失败有报告 & 检测入睡后停声；其他规则仍需充分报告 \\
 
@@ -671,7 +741,7 @@ Harlow等的元分析显示，记忆效应量随发表年份呈下降关联，�
 
 % END V18 BODY
 
-\vspace{15.6pt}\noindent{\hei\fontsize{12pt}{15.6pt}\selectfont\bfseries 参考文献}\par\vspace{8pt}
+\vspace{15.6pt}\noindent{\hei\fontsize{12pt}{14.4pt}\selectfont\bfseries 参考文献}\par\vspace{8pt}
 {\song\fontsize{7.5pt}{9pt}\selectfont\setlength{\parindent}{0pt}\setlength{\parskip}{0pt}%
 \sloppy
 \everypar{\hangindent=25.2pt\hangafter=1}
