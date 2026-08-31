@@ -1,0 +1,39 @@
+{
+  "file": "wiki/review/assets/closed-loop-framework-v22/sleep-closed-loop.drawio",
+  "summary": {
+    "total_findings": 1,
+    "fail": 0,
+    "warn": 1,
+    "passed": true,
+    "clean": false
+  },
+  "fails": [],
+  "warns": [
+    {
+      "rule": "spacing-inconsistent-v",
+      "element_id": "a0",
+      "message": "Column at x≈40: vertical gaps vary (gaps=['80', '30', '230', '85'], mean=106, cv=0.70). Use uniform spacing.",
+      "detail": {
+        "col_x": 40,
+        "gaps": [
+          80.0,
+          30.0,
+          230.0,
+          85.0
+        ],
+        "mean": 106.2,
+        "cv": 0.7,
+        "element_ids": [
+          "a0",
+          "evaltitle",
+          "eval0",
+          "b0",
+          "reject"
+        ]
+      }
+    }
+  ],
+  "vertex_count": 25,
+  "edge_count": 27,
+  "canvas": "1700x1330"
+}

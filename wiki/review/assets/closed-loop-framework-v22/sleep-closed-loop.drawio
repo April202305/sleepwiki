@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="26.0.9">
+  <diagram id="sleep-framework" name="闭环系统与安全决策">
+    <mxGraphModel page="1" pageWidth="1700" pageHeight="1330" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a_title" value="(a) 可穿戴睡眠闭环系统架构" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=42;fontColor=#263238;fillColor=none;strokeColor=none;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="15" width="1620" height="60" />
+        </mxCell>
+        <mxCell id="a0" value="采集与质控&#10;EEG主信号&#10;因果处理与质控" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=28;fontColor=#263238;fillColor=#EAF0F6;strokeColor=#63758A;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="210" width="260" height="145" />
+        </mxCell>
+        <mxCell id="a1" value="在线识别&#10;阶段／事件／相位&#10;按任务选用" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=28;fontColor=#263238;fillColor=#EAF0F6;strokeColor=#63758A;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="210" width="260" height="145" />
+        </mxCell>
+        <mxCell id="a2" value="决策与安全门控&#10;触发、拒绝或暂停&#10;条件详见(b)" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=28;fontColor=#263238;fillColor=#EAF0F6;strokeColor=#63758A;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="720" y="210" width="260" height="145" />
+        </mxCell>
+        <mxCell id="a3" value="刺激执行&#10;物理输出作用于&#10;睡眠中的受试者" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=28;fontColor=#263238;fillColor=#E5F1E3;strokeColor=#63758A;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1060" y="210" width="260" height="145" />
+        </mxCell>
+        <mxCell id="a4" value="响应监测&#10;持续采集信号&#10;脑电响应／觉醒" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=28;fontColor=#263238;fillColor=#E5F1E3;strokeColor=#63758A;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1400" y="210" width="260" height="145" />
+        </mxCell>
+        <mxCell id="a_flow0" source="a0" target="a1" value="信号" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#263238;strokeWidth=2.2;endArrow=block;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.5172413793103449;entryX=0.0;entryY=0.5172413793103449;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="300" y="285" />
+            <mxPoint as="targetPoint" x="380" y="285" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_flow1" source="a1" target="a2" value="估计" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#263238;strokeWidth=2.2;endArrow=block;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.5172413793103449;entryX=0.0;entryY=0.5172413793103449;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="640" y="285" />
+            <mxPoint as="targetPoint" x="720" y="285" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_flow2" source="a2" target="a3" value="指令" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#263238;strokeWidth=2.2;endArrow=block;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.5172413793103449;entryX=0.0;entryY=0.5172413793103449;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="980" y="285" />
+            <mxPoint as="targetPoint" x="1060" y="285" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_flow3" source="a3" target="a4" value="响应" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#263238;strokeWidth=2.2;endArrow=block;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.5172413793103449;entryX=0.0;entryY=0.5172413793103449;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1320" y="285" />
+            <mxPoint as="targetPoint" x="1400" y="285" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_safety" source="a4" target="a2" value="安全反馈：暂停／拒绝／恢复判断" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#6B7280;strokeWidth=2.2;endArrow=block;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=12 3;exitX=0.34615384615384615;exitY=0.0;entryX=0.7692307692307693;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1490" y="210" />
+            <mxPoint as="targetPoint" x="920" y="210" />
+            <Array as="points">
+              <mxPoint x="1490" y="155" />
+              <mxPoint x="920" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_adapt" source="a4" target="a2" value="可选自适应更新：需系统级验证" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#6B7280;strokeWidth=2.2;endArrow=block;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=4 5;exitX=0.7692307692307693;exitY=0.0;entryX=0.25;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1600" y="210" />
+            <mxPoint as="targetPoint" x="785" y="210" />
+            <Array as="points">
+              <mxPoint x="1600" y="95" />
+              <mxPoint x="785" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="optional" value="可选辅助信号&#10;EOG、EMG、PPG、加速度" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=26;fontColor=#263238;fillColor=none;strokeColor=none;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="110" width="620" height="80" />
+        </mxCell>
+        <mxCell id="evaltitle" value="独立记录与验证层：本文组织的评价维度" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=30;fontColor=#263238;fillColor=#F1D7D4;strokeColor=#B44948;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="435" width="1620" height="55" />
+        </mxCell>
+        <mxCell id="eval0" value="信号质量&#10;有效数据／伪影" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=27;fontColor=#263238;fillColor=#F2F3F5;strokeColor=#9AA1A8;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="520" width="260" height="105" />
+        </mxCell>
+        <mxCell id="eval1" value="在线识别&#10;任务性能／置信度" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=27;fontColor=#263238;fillColor=#F2F3F5;strokeColor=#9AA1A8;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="520" width="260" height="105" />
+        </mxCell>
+        <mxCell id="eval2" value="命中与时延&#10;物理到达／时延" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=27;fontColor=#263238;fillColor=#F2F3F5;strokeColor=#9AA1A8;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="720" y="520" width="260" height="105" />
+        </mxCell>
+        <mxCell id="eval3" value="运行与安全&#10;失败夜／拒绝／停机" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=27;fontColor=#263238;fillColor=#F2F3F5;strokeColor=#9AA1A8;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1060" y="520" width="260" height="105" />
+        </mxCell>
+        <mxCell id="eval4" value="生理与功能结局&#10;短窗／整夜／长期" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=27;fontColor=#263238;fillColor=#F2F3F5;strokeColor=#9AA1A8;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1400" y="520" width="260" height="105" />
+        </mxCell>
+        <mxCell id="log_in0" source="a0" target="evaltitle" value="日志" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#6B7280;strokeWidth=2.2;endArrow=none;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=2 5;exitX=0.5;exitY=1.0;entryX=0.08024691358024691;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="170" y="355" />
+            <mxPoint as="targetPoint" x="170" y="435" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_out0" source="evaltitle" target="eval0" value="" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#6B7280;strokeWidth=2.2;endArrow=none;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=2 5;exitX=0.08024691358024691;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="170" y="490" />
+            <mxPoint as="targetPoint" x="170" y="520" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_in1" source="a1" target="evaltitle" value="" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#6B7280;strokeWidth=2.2;endArrow=none;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=2 5;exitX=0.5;exitY=1.0;entryX=0.29012345679012347;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="510" y="355" />
+            <mxPoint as="targetPoint" x="510" y="435" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_out1" source="evaltitle" target="eval1" value="" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#6B7280;strokeWidth=2.2;endArrow=none;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=2 5;exitX=0.29012345679012347;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="510" y="490" />
+            <mxPoint as="targetPoint" x="510" y="520" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_in2" source="a2" target="evaltitle" value="" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#6B7280;strokeWidth=2.2;endArrow=none;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=2 5;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="850" y="355" />
+            <mxPoint as="targetPoint" x="850" y="435" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_out2" source="evaltitle" target="eval2" value="" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#6B7280;strokeWidth=2.2;endArrow=none;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=2 5;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="850" y="490" />
+            <mxPoint as="targetPoint" x="850" y="520" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_in3" source="a3" target="evaltitle" value="" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#6B7280;strokeWidth=2.2;endArrow=none;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=2 5;exitX=0.5;exitY=1.0;entryX=0.7098765432098766;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1190" y="355" />
+            <mxPoint as="targetPoint" x="1190" y="435" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_out3" source="evaltitle" target="eval3" value="" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#6B7280;strokeWidth=2.2;endArrow=none;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=2 5;exitX=0.7098765432098766;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1190" y="490" />
+            <mxPoint as="targetPoint" x="1190" y="520" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_in4" source="a4" target="evaltitle" value="" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#6B7280;strokeWidth=2.2;endArrow=none;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=2 5;exitX=0.5;exitY=1.0;entryX=0.9197530864197531;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1530" y="355" />
+            <mxPoint as="targetPoint" x="1530" y="435" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="log_out4" source="evaltitle" target="eval4" value="" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#6B7280;strokeWidth=2.2;endArrow=none;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=2 5;exitX=0.9197530864197531;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1530" y="490" />
+            <mxPoint as="targetPoint" x="1530" y="520" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="evalnote" value="结合运行日志与独立结局测量；评价不等于实时反馈，各维度不代表均已验证。" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=27;fontColor=#263238;fillColor=none;strokeColor=none;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="635" width="1620" height="48" />
+        </mxCell>
+        <mxCell id="b_title" value="(b) 闭环决策与安全反馈" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=42;fontColor=#263238;fillColor=none;strokeColor=none;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="705" width="1620" height="60" />
+        </mxCell>
+        <mxCell id="b_input" value="输入：信号质量、睡眠阶段、事件或相位、置信度、既往刺激与剂量记录" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=27;fontColor=#263238;fillColor=none;strokeColor=none;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="770" width="1620" height="45" />
+        </mxCell>
+        <mxCell id="b0" value="准入检查&#10;质量与状态&#10;是否满足条件？" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=28;fontColor=#263238;fillColor=#EAF0F6;strokeColor=#63758A;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="855" width="260" height="145" />
+        </mxCell>
+        <mxCell id="b1" value="目标条件检查&#10;按范式选用&#10;阶段／事件／相位" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=28;fontColor=#263238;fillColor=#EAF0F6;strokeColor=#63758A;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="855" width="260" height="145" />
+        </mxCell>
+        <mxCell id="b2" value="时机与剂量检查&#10;预设时机、间隔&#10;及剂量限制" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=28;fontColor=#263238;fillColor=#EAF0F6;strokeColor=#63758A;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="720" y="855" width="260" height="145" />
+        </mxCell>
+        <mxCell id="b3" value="生成刺激指令&#10;执行刺激&#10;持续监测响应" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=28;fontColor=#263238;fillColor=#E5F1E3;strokeColor=#63758A;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1060" y="855" width="260" height="145" />
+        </mxCell>
+        <mxCell id="b4" value="刺激后检查&#10;觉醒与信号状态&#10;决定暂停或重判" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=28;fontColor=#263238;fillColor=#E5F1E3;strokeColor=#63758A;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1400" y="855" width="260" height="145" />
+        </mxCell>
+        <mxCell id="b_flow0" source="b0" target="b1" value="通过" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#263238;strokeWidth=2.2;endArrow=block;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.4827586206896552;entryX=0.0;entryY=0.4827586206896552;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="300" y="925" />
+            <mxPoint as="targetPoint" x="380" y="925" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b_flow1" source="b1" target="b2" value="通过" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#263238;strokeWidth=2.2;endArrow=block;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.4827586206896552;entryX=0.0;entryY=0.4827586206896552;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="640" y="925" />
+            <mxPoint as="targetPoint" x="720" y="925" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b_flow2" source="b2" target="b3" value="通过" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#263238;strokeWidth=2.2;endArrow=block;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.4827586206896552;entryX=0.0;entryY=0.4827586206896552;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="980" y="925" />
+            <mxPoint as="targetPoint" x="1060" y="925" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b_flow3" source="b3" target="b4" value="响应" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#263238;strokeWidth=2.2;endArrow=block;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.4827586206896552;entryX=0.0;entryY=0.4827586206896552;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1320" y="925" />
+            <mxPoint as="targetPoint" x="1400" y="925" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="next_cycle" source="b4" target="b0" value="未触发暂停：下一轮重新判断" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#6B7280;strokeWidth=2.2;endArrow=block;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=12 3;exitX=0.5;exitY=0.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1530" y="855" />
+            <mxPoint as="targetPoint" x="170" y="855" />
+            <Array as="points">
+              <mxPoint x="1530" y="835" />
+              <mxPoint x="170" y="835" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reject" value="不满足条件：拒绝／等待 → 获取更新信息后重新判断" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=28;fontColor=#263238;fillColor=#F2F3F5;strokeColor=#9AA1A8;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1085" width="940" height="80" />
+        </mxCell>
+        <mxCell id="reject0" source="b0" target="reject" value="否" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#263238;strokeWidth=2.2;endArrow=block;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1.0;entryX=0.13829787234042554;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="170" y="1000" />
+            <mxPoint as="targetPoint" x="170" y="1085" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reject1" source="b1" target="reject" value="否" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#263238;strokeWidth=2.2;endArrow=block;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="510" y="1000" />
+            <mxPoint as="targetPoint" x="510" y="1085" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reject2" source="b2" target="reject" value="否" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#263238;strokeWidth=2.2;endArrow=block;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1.0;entryX=0.8617021276595744;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="850" y="1000" />
+            <mxPoint as="targetPoint" x="850" y="1085" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pause" value="风险触发：暂停&#10;满足恢复条件后重新判断" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=28;fontColor=#263238;fillColor=#F2F3F5;strokeColor=#9AA1A8;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1120" y="1085" width="540" height="80" />
+        </mxCell>
+        <mxCell id="pause_e" source="b4" target="pause" value="风险" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#6B7280;strokeWidth=2.2;endArrow=block;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=12 3;exitX=0.5;exitY=1.0;entryX=0.7592592592592593;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1530" y="1000" />
+            <mxPoint as="targetPoint" x="1530" y="1085" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recheck" source="reject" target="b0" value="" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#6B7280;strokeWidth=2.2;endArrow=block;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=12 3;exitX=0.0;exitY=0.5;entryX=0.0;entryY=0.4827586206896552;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="40" y="1125" />
+            <mxPoint as="targetPoint" x="40" y="925" />
+            <Array as="points">
+              <mxPoint x="15" y="1125" />
+              <mxPoint x="15" y="925" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="resume" source="pause" target="reject" value="满足恢复条件后重新判断" style="html=0;rounded=0;noEdgeStyle=1;fontFamily=SimHei;fontSize=26;strokeColor=#6B7280;strokeWidth=2.2;endArrow=block;endSize=9;endFill=1;labelBackgroundColor=#FFFFFF;dashed=1;dashPattern=12 3;exitX=0.5;exitY=1.0;entryX=0.1383;entryY=1;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1390" y="1165" />
+            <mxPoint as="targetPoint" x="170" y="1165" />
+            <Array as="points">
+              <mxPoint x="1390" y="1205" />
+              <mxPoint x="170" y="1205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnote" value="综合控制框架，非单一系统算法；响应驱动的参数更新见(a)虚线路径。" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=26;fontColor=#263238;fillColor=none;strokeColor=none;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1230" width="1620" height="45" />
+        </mxCell>
+        <mxCell id="legend" value="图例：实线＝主流程   长虚线＝安全反馈   短虚线＝可选更新   点线＝日志关联" style="rounded=1;arcSize=8;whiteSpace=wrap;html=0;fontFamily=SimHei;fontSize=26;fontColor=#263238;fillColor=none;strokeColor=none;strokeWidth=2.2;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1280" width="1620" height="40" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

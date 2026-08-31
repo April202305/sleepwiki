@@ -179,7 +179,7 @@
 
 闭环睡眠干预的基本架构可理解为由感知、识别/决策、刺激执行、反馈与失败保护共同组成的在线系统；在闭环听觉刺激框架中，其最小实现包括实时脑活动访问、目标振荡检测和刺激系统\refcite{3}。感知层首先要保证输入信号可用，例如Elemind Neuromodulation Device（ENMod）以5秒均方根选择额区干EEG通道，但其居家研究中约30\%数据集仍无可用EEG，提示电极接触与质量控制会直接限制后续环节\refcite{10}。识别/决策层可联合NREM、SWA、beta功率和目标相位进行门控，并在运动、阶段变化或觉醒时拒绝触发\refcite{7--8}；执行层则需评估采集至输出时延以及误触发与漏触发，Portiloop工程案例报告64 ms常数延迟\refcite{9}。沿用1.2节连续谱，阶段信息仅决定准入时属于阶段门控刺激，目标事件逐次决定是否刺激时属于事件触发闭环，预测目标振荡相位时属于相位锁定闭环，只有刺激后响应继续更新参数时才属于自适应闭环。现有睡眠研究主要支持前三种运行层级，自适应闭环仍需完整验证\refcite{3,7--10}。
 
-如图1(a)所示，系统以脑电采集与质控、在线识别、刺激决策、执行及响应监测为主链路，辅助模态与识别任务按范式选用。安全反馈支持暂停、拒绝或恢复判断，响应驱动的参数更新则是需系统级验证的可选路径。图1(b)细化准入、目标条件及时机与剂量检查。失败夜、时延及生理和功能结局等归入独立记录与验证层，不表示均实时参与控制。该图为本文综合框架，并非单一系统的既有算法\refcite{3,7--10}。本文将直接利用脑信号进行状态、事件或相位判定并控制外部刺激的系统视为广义睡眠脑机接口，对不使用脑信号的生理反馈系统仍采用“闭环睡眠干预系统”这一上位概念。\par
+如图1所示，可穿戴睡眠闭环干预系统可进一步被概括为“多模态采集—实时处理与识别—闭环决策控制—刺激执行—响应与证据评估”的主链路，并通过失败夜、风险信号、剂量日志和时间同步记录回流至控制策略与验证体系。该结构有助于区分后文讨论的输入信号质量、在线识别性能、端到端时延、刺激执行路径和临床验证层级。本文将其中直接利用脑信号进行状态、事件或相位判定并控制外部刺激的系统视为广义睡眠脑机接口，但对不使用脑信号的生理反馈系统仍采用“闭环睡眠干预系统”这一上位概念。\par
 
 \leveltwo{1.4 本文综述范围与结构安排}
 
@@ -194,8 +194,8 @@
 \end{multicols}
 
 \begin{center}
-\includegraphics[width=\textwidth]{../assets/closed-loop-framework-v22/sleep-closed-loop.pdf}
-\figcaption{可穿戴睡眠闭环系统架构、决策逻辑与评价维度}{Wearable Sleep Closed-Loop System Architecture, Decision Logic, and Evaluation Dimensions}
+\includegraphics[width=0.96\textwidth]{../assets/wearable-sleep-closed-loop-bci-architecture-v18.pdf}
+\figcaption{可穿戴睡眠闭环干预系统架构与控制层级连续谱}{Architecture and Control-Level Continuum of Wearable Closed-Loop Sleep Intervention Systems}
 \end{center}
 
 \begin{multicols}{2}

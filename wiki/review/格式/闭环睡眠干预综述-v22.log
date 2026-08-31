@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.19)  31 AUG 2026 11:34
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.19)  31 AUG 2026 12:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1277,9 +1277,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5.25> on input line 166.
  [2]
-File: ../assets/wearable-sleep-closed-loop-bci-architecture-v18.pdf Graphic fil
-e (type pdf)
-<use ../assets/wearable-sleep-closed-loop-bci-architecture-v18.pdf>
+File: ../assets/closed-loop-framework-v22/sleep-closed-loop.pdf Graphic file (t
+ype pdf)
+<use ../assets/closed-loop-framework-v22/sleep-closed-loop.pdf>
  [3] [4] [5] [6]
 [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
 File: ../assets/evidence-gap-matrix-v18.pdf Graphic file (type pdf)
@@ -1394,8 +1394,8 @@ Package rerunfilecheck Info: File `闭环睡眠干预综述-v22.out' has not cha
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26764 strings out of 468168
- 626816 string characters out of 5432815
+ 26765 strings out of 468168
+ 626790 string characters out of 5432815
  1044399 words of memory out of 5000000
  55014 multiletter control sequences out of 15000+600000
  638647 words of font info for 154 fonts, out of 8000000 for 9000
