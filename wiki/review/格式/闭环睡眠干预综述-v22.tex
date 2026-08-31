@@ -266,31 +266,31 @@ Mikkelsen 等人针对健康受试者开展整夜耳内干电极脑电研究：2
 \begin{minipage}{\textwidth}
 \centering
 
-\tabcaption{公开睡眠数据资源、标签体系与在线因果评测适用性}{Public Sleep Data Resources, Labeling Systems, and Applicability to Online Causal Evaluation}
+\tabcaption{公开睡眠数据资源的可核验用途与闭环评价边界}{Verifiable Uses of Public Sleep Data Resources and Boundaries for Closed-Loop Evaluation}
 
 \fontsize{8pt}{9.6pt}\selectfont
 
 \setlength{\tabcolsep}{2.5pt}
 
-\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.16\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
 
 \hline
 
-数据资源 & 证据用途 & 标签与协议特征 & 在线因果评测适用性 \\
+数据资源 & 可核验用途 & 标签/协议要点 & 可用于闭环评价的部分 & 不能直接支持的结论 \\
 
 \hline
 
-Sleep-EDF & 单导五分类、subject-wise与跨库测试 & R\&K及N3/N4映射；版本和清醒截取方案影响样本构成 & 适合时序回放和离线泛化分析 \\
+Sleep-EDF & 单导睡眠分期、跨库泛化 & R\&K标签，常需映射为AASM五分类；版本和清醒截取影响结果 & 离线时序回放、分期算法比较 & 不能证明真实可穿戴在线闭环性能 \\
 
-SHHS & 大规模PSG和外部验证 & 应用筛选样本与全量队列分开 & 适合多中心PSG域外部验证 \\
+SHHS & 大规模PSG外部验证 & 样本筛选、疾病构成和通道选择影响指标 & 多中心PSG域验证 & 不能代表消费级或头带EEG闭环 \\
 
-MESA & 多民族/跨人群与多模态候选 & 直接应用证据以PPG为主，EEG闭环需连接额外证据 & 适合跨人群与多模态候选分析 \\
+MESA & 跨人群、多模态候选验证 & 常见应用以PPG或PSG派生信号为主 & 跨人群泛化分析 & 不能单独证明EEG闭环干预 \\
 
-ISRUC-Sleep & 临床多模态五分类候选 & 已核验应用集中于ISRUC-S3 & 适合离线双向模型验证 \\
+ISRUC-Sleep & 临床多模态分期候选 & 子集、通道和评分协议需说明 & 离线多模态模型验证 & 不能替代在线因果评测 \\
 
-MASS、DREAMS、MODA & 纺锤事件检测、外部测试和专家共识 & 标注者、OR/AND起点、片段长度和共识规则影响事件标签 & 适合事件检测回放 \\
+MASS、DREAMS、MODA & 纺锤等事件检测 & 标注者、OR/AND规则、事件起点影响真值 & 事件检测回放 & 不能证明刺激递送和疗效 \\
 
-CAP Sleep & 病理人群与微结构候选 & 已纳入应用为24人PPG子集 & 适合病理人群与微结构邻近回放 \\
+CAP Sleep & 病理人群和微结构候选 & 子集使用差异较大 & 病理人群或微结构邻近分析 & 不能直接证明睡眠闭环干预有效 \\
 
 \hline
 
@@ -442,7 +442,7 @@ Navarrete等进一步分析刺激前脑电状态对后续响应的预测价值�
 
 气传导耳机与扬声器在实验室场景中便于更换，也便于使用声级计或人工耳进行声压级标定，但实际输出仍会受到声卡、换能器、耳部佩戴方式、空气传播距离和线缆连接等因素影响。骨传导驱动器可以与脑电头带集成，更适合构建居家一体化系统，但其输出还受到接触压力、头型、安装位置和个体听阈影响，需要进行设备级与个体级校准。WDD、ENMod和Earable均将骨传导刺激与可穿戴传感系统结合，并提供了实验室或居家运行证据\refcite{7,10,65}。但这些研究没有统一报告从刺激命令生成到骨传导物理输出的端到端时延，因此后续评价还需使用适配骨传导的耦合器、人工乳突或其他物理回读装置进行测量。\par
 
-表5-1从物理标定、刺激剂量、共置伪影、佩戴个体化和觉醒保护五个方面比较气传导、骨传导以及耳内EEG检测与外部声音组合三类执行路径。表中各项代表系统评价时需要披露的关键字段，并不意味着所有现有设备均已完整报告或达到相同标定水平。\par
+表2从代表研究、已报告内容、未报告字段和证据边界四个方面比较气传导、骨传导以及耳内EEG检测与外部声音组合三类执行路径。表中NR表示原文未充分报告，不等于系统不具备相应能力。\par
 
 \end{multicols}
 
@@ -451,25 +451,25 @@ Navarrete等进一步分析刺激前脑电状态对后续响应的预测价值�
 \begin{minipage}{\textwidth}
 \centering
 
-\tabcaption{听觉刺激执行路径与闭环适配要素}{Auditory Stimulation Paths and Closed-Loop Adaptation Factors}
+\tabcaption{听觉刺激执行路径的已报告证据与评价边界}{Reported Evidence and Evaluation Boundaries for Auditory Stimulation Paths}
 
 \fontsize{8pt}{9.6pt}\selectfont
 
 \setlength{\tabcolsep}{2.5pt}
 
-\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.16\textwidth}>{\raggedright\arraybackslash}p{0.19\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
 
 \hline
 
-执行路径 & 物理标定 & 剂量与包络 & 共置伪影 & 舒适与个体化 & 觉醒保护 \\
+执行路径 & 代表研究/系统 & 已报告内容 & NR或不足 & 建议保留的准确表述 \\
 
 \hline
 
-气传导耳机/扬声器 & 软件命令、声卡、换能器与耳部物理输出宜分环节标定 & 声压级（sound pressure level，SPL）、频谱、起落沿、脉冲宽度、次数、间隔与累计剂量 & 换能器通常与EEG电极分离；声学诱发响应仍会进入信号 & 耳部压力、线缆、听阈与年龄差异需校准 & 阶段、觉醒、运动、剂量和间隔门控 \\
+气传导耳机/扬声器 & Papalambros、CLAS-hdEEG等实验室系统 & 声音参数、目标相位或检测至触发标记 & 声音真实到耳时间常未完整物理回读 & 适合实验室时序控制，但需另行标定声卡、换能器和耳旁物理输出 \\
 
-骨传导头带 & 接触压力、设备物理输出、生理潜伏期和系统时延需分别测量 & 等效输出、接触压力、频谱和包络需设备级标定 & 振子与干电极共置，机械耦合伪影需单独量化 & 集成度较高；头型、安装压力和听力差异需校准 & 按设备报告阶段、觉醒、运动和剂量停止规则 \\
+骨传导头带 & WDD、ENMod、Earable & 可穿戴集成、阶段/相位或入睡相关控制 & 等效声压、接触压力、骨传导物理到达时延多为NR & 支持一体化可穿戴方向，但不能默认与气传导声压或时延等价 \\
 
-耳内EEG检测＋外部声音 & 应分别记录刺激命令和耳部物理到达时间 & 双声时序参数可重复设置，物理声压仍需测量 & 耳内电极与耳部发声装置的共置影响需单独验证 & 现有证据主要来自短时实验场景 & 应报告刺激间隔、觉醒停止和恢复条件 \\
+耳内EEG检测＋外部声音 & Henao耳内EEG闭环 & 耳内EEG检测、两次短声刺激、实验室午睡相位结果 & 居家多夜、耳内发声器共置伪影、声音到耳总时延仍不足 & 只能称为实验室耳内感知—声音刺激闭环证据 \\
 
 \hline
 
@@ -488,7 +488,7 @@ Navarrete等进一步分析刺激前脑电状态对后续响应的预测价值�
 
 睡眠电、磁刺激同样按照1.2节的控制连续谱归类：仅由睡眠阶段开放刺激窗口时属于阶段门控刺激，由实时脑电事件逐次触发时属于事件触发闭环，依据内源振荡相位控制刺激落点时属于相位锁定闭环；只有刺激后响应继续更新后续刺激参数时，才属于自适应闭环。使一种外加刺激锁定另一种外加波形的方案不使用内源睡眠信号参与决策，因而不进入上述睡眠闭环连续谱，仅作为相位同步的邻近技术证据。固定波形或时程的刺激则归为开环刺激。\par
 
-电、磁刺激研究的比较首先需要区分三个问题：实时EEG是否进入刺激决策，相位基准来自内源脑活动还是外加波形，以及刺激期间是否存在无法解释脑电信号的监测盲区。表5-2据此从统一控制层级、实时EEG决策、相位基准、刺激伪影或信号盲区、重新触发条件和研究角色等方面比较不同方案。表中的外加波形相位同步和开环刺激均不作为内源睡眠信号闭环证据。\par
+电、磁刺激研究的比较首先需要区分三个问题：实时EEG是否进入刺激决策，相位基准来自内源脑活动还是外加波形，以及刺激期间是否存在无法解释脑电信号的监测盲区。表3据此从实时睡眠EEG决策、相位或状态基准、代表研究角色和关键限制等方面比较不同方案。表中的外加波形相位同步和开环刺激均不作为内源睡眠信号闭环证据。\par
 
 \end{multicols}
 
@@ -497,27 +497,27 @@ Navarrete等进一步分析刺激前脑电状态对后续响应的预测价值�
 \begin{minipage}{\textwidth}
 \centering
 
-\tabcaption{电/磁刺激的闭环控制关系比较}{Closed-Loop Control Relationships for Electrical and Magnetic Stimulation}
+\tabcaption{电/磁刺激控制关系的证据边界}{Evidence Boundaries of Closed-Loop Control Relationships for Electrical and Magnetic Stimulation}
 
 \fontsize{8pt}{9.6pt}\selectfont
 
 \setlength{\tabcolsep}{2.5pt}
 
-\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.17\textwidth}>{\centering\arraybackslash}p{0.13\textwidth}>{\raggedright\arraybackslash}p{0.18\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
 
 \hline
 
-控制类型 & 实时EEG进入决策 & 相位或状态基准 & 伪影/盲区 & 重新触发 & 研究角色 \\
+类型 & EEG决策 & 相位/状态基准 & 代表研究角色 & 关键限制 \\
 
 \hline
 
-事件触发闭环 & 是 & 纺锤波或慢波事件 & 刺激期间EEG可能形成解释盲区 & 暂停期结束后重新检测；规则依研究报告 & Lustenberger等；直接闭环证据 \\
+事件触发tACS & 是 & NREM及纺锤/慢波事件 & 人体睡眠闭环电刺激证据 & 刺激期EEG常受伪影影响，刺激后响应不能写成刺激期持续追踪 \\
 
-相位锁定闭环tACS & 是 & 内源慢波相位或频率 & 在线伪影抑制和反馈盲区需逐项核验 & 依据恢复后的脑电状态重新判断 & Ketz/Jones；相位锁定证据 \\
+内源相位锁定tACS & 是 & 自发慢波相位/频率 & 相位锁定闭环证据 & 在线伪影抑制、重新触发和安全停止需逐项报告 \\
 
-外加波形相位同步（连续谱外） & 否 & 外加tACS等预设波形相位 & 存在组合刺激伪影 & 依外加波形和预设协议推进 & Takahashi等；邻近技术证据 \\
+外加波形相位同步 & 否 & 外加tACS等预设波形 & 邻近相位同步证据 & 不属于内源睡眠EEG反馈闭环 \\
 
-开放环刺激 & 否 & 预设波形或时程 & 同步记录可能受刺激伪影影响 & 依方案预设 & 机制或对照证据 \\
+开放环电/磁刺激 & 否 & 预设波形或时程 & 机制或对照证据 & 不能作为闭环控制证据 \\
 
 \hline
 
@@ -543,25 +543,25 @@ Takahashi等采用0.75 Hz tACS作为外加相位基准，并在tACS负峰递送�
 \begin{minipage}{\textwidth}
 \centering
 
-\tabcaption{非听觉刺激模态的反馈方式与集成风险}{Feedback Modes and Integration Risks of Non-Auditory Stimulation}
+\tabcaption{非听觉刺激模态的反馈变量与证据边界}{Feedback Variables and Evidence Boundaries of Non-Auditory Stimulation Modalities}
 
 \fontsize{8pt}{9.6pt}\selectfont
 
 \setlength{\tabcolsep}{2.5pt}
 
-\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.12\textwidth}>{\raggedright\arraybackslash}p{0.16\textwidth}>{\raggedright\arraybackslash}X>{\centering\arraybackslash}p{0.15\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
 
 \hline
 
-模态 & 实时反馈 & 实时睡眠状态触发 & 控制分类 & 主要集成风险 & 证据角色 \\
+模态 & 代表研究 & 实时反馈变量 & 状态触发 & 更准确分类 & 不应外推为 \\
 
 \hline
 
-振动 & BCG心率 & PSG阶段用于事后分析 & 生理反馈闭环 & 机械伪影、体位与觉醒 & 直接反馈控制证据 \\
+振动 & Kwon等 & BCG/心率相关反馈 & 否，PSG主要用于事后分析 & 自主神经反馈闭环 & EEG睡眠阶段闭环 \\
 
-红光 & EEG阈值 & 是 & EEG波形触发闭环 & 眼罩、光漏与觉醒 & 直接状态触发证据 \\
+红光 & Danilenko等 & EEG幅度阈值 & 是，NREM内触发 & EEG波形触发刺激 & 视觉刺激普遍有效 \\
 
-温控床罩 & 预设/人工调温；Fitbit事后评价 & 尚未形成睡眠内状态触发证据 & 开放环环境控制 & 热惯性、舒适与停止规则 & 邻近对照 \\
+温控床罩 & Stevenson等 & 预设/人工调温，Fitbit事后评价 & 否 & 开放环环境控制参照 & 睡眠内闭环温控干预 \\
 
 \hline
 
@@ -572,13 +572,13 @@ Takahashi等采用0.75 Hz tACS作为外加相位基准，并在tACS负峰递送�
 
 \begin{multicols}{2}
 
-表5-3从实时反馈变量、睡眠状态触发、控制类型和系统集成风险等方面比较振动、红光和温控方案。表中的振动与红光研究提供不同形式的直接反馈或状态触发证据；温控床罩则主要采用预设或人工调节，Fitbit用于事后效果评价，因此应归为开放环环境控制参照，而不是睡眠内闭环系统\refcite{69}。\par
+表4从实时反馈变量、睡眠状态触发、控制类型和证据边界等方面比较振动、红光和温控方案。表中的振动与红光研究提供不同形式的反馈或状态触发证据；温控床罩则主要采用预设或人工调节，Fitbit用于事后效果评价，因此应归为开放环环境控制参照，而不是睡眠内闭环系统\refcite{69}。\par
 
 非听觉模态不宜仅依据生理效应大小进行排序，还需要联合考察反馈变量、睡眠状态触发、执行惯性、机械或光学伪影、佩戴负担和觉醒保护。从系统控制角度看，本文将振动执行器的机械响应和温控设备的热惯性作为需要单独评价的执行特征；停止指令与物理作用终止之间是否存在时间差及其大小，仍需在具体设备中实测，不宜直接套用声音或电刺激的时延和安全评价口径\refcite{67,69}。\par
 
 \leveltwo{5.4 典型闭环系统对比与居家化、产品化现状}
 
-系统级横向比较旨在判断各类睡眠闭环平台在“信号感知—状态或事件识别—刺激决策—物理输出—效果验证”链路中已经完成哪些环节。系统验证不能由单一准确率或生理效应决定，而需同时考察运行层级、居家研究分母、失败数据、时延边界、安全停止和功能或临床终点。第二章讨论的算法性能以及第三、第四章讨论的生理和行为结果，在本节主要用于标记系统验证范围，不再作为跨系统优劣排序的单一依据。表5-4据此比较典型系统的验证链完整性，并沿用1.4节的W1—W3证据分级；表中未报告的字段表示证据缺失，不代表系统一定不具备相应能力。\par
+系统级横向比较旨在判断各类睡眠闭环平台在“信号感知—状态或事件识别—刺激决策—物理输出—效果验证”链路中已经完成哪些环节。系统验证不能由单一准确率或生理效应决定，而需同时考察运行层级、居家研究分母、失败数据、时延边界、安全停止和功能或临床终点。第二章讨论的算法性能以及第三、第四章讨论的生理和行为结果，在本节主要用于标记系统验证范围，不再作为跨系统优劣排序的单一依据。表5据此比较典型系统的验证链完整性，并沿用1.4节的W1—W3证据分级；表中NR表示原文未充分报告，不代表系统一定不具备相应能力。\par
 
 \end{multicols}
 
@@ -587,37 +587,37 @@ Takahashi等采用0.75 Hz tACS作为外加相位基准，并在tACS负峰递送�
 \begin{minipage}{\textwidth}
 \centering
 
-\tabcaption{典型闭环睡眠干预系统的验证链比较}{Validation-Chain Comparison of Representative Closed-Loop Sleep Intervention Systems}
+\tabcaption{典型闭环睡眠干预系统的已报告链路与证据边界}{Reported Validation Links and Evidence Boundaries of Representative Closed-Loop Sleep Intervention Systems}
 
-\fontsize{7.5pt}{9pt}\selectfont
+\fontsize{7.2pt}{8.6pt}\selectfont
 
-\setlength{\tabcolsep}{1.8pt}
+\setlength{\tabcolsep}{1.6pt}
 
-\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.12\textwidth}>{\centering\arraybackslash}p{0.10\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.18\textwidth}>{\raggedright\arraybackslash}p{0.22\textwidth}}
-
-\hline
-
-典型系统 & 证据/控制层级 & EEG输入、通道与电极 & 识别/门控 & 刺激模态与控制 \\
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.15\textwidth}>{\raggedright\arraybackslash}p{0.18\textwidth}>{\raggedright\arraybackslash}p{0.16\textwidth}>{\raggedright\arraybackslash}X}
 
 \hline
 
-WDD & W1/相位锁定闭环 & 干电极头带；具体通道/导联未充分报告 & N3门控和慢波检测 & 双次50 ms骨传导声音；慢波相位控制 \\
+系统/研究 & 研究身份 & 场景 & 已报告链路 \\
 
-Portiloop系统族 & W1/事件触发闭环 & EEG采集；具体电极/导联未充分报告 & 纺锤事件闭环 & 声音触发；换能器未统一报告 \\
+\hline
 
-ENMod/Bressler & W1/相位锁定闭环 & Fp1、Fpz、Fp2柔性干电极；耳上联接参考 & 因果alpha相位估计 & 骨传导粉噪相位控制 \\
+WDD & 可穿戴头带闭环 & PSG配对和居家试点 & N3门控、慢波相位、骨传导声音、短窗响应 \\
 
-Earable & W1/阶段门控刺激 & 8个干式生物电电极，并结合PPG和加速度 & 独立分期测试与入睡概率/阶段门控 & 双骨传导扬声器；声音控制 \\
+Portiloop系统族 & 工程系统和后续人体版本 & 工程回放和居家人体 & 事件检测、刺激控制、多夜居家纺锤靶向 \\
 
-MHSL-SB系统族 & W1/相位锁定闭环 & 8通道移动系统；在线Fpz-M2，另含双EOG和颏EMG & NREM触发、状态/慢波门控 & 声音相位控制 \\
+ENMod/Bressler & 可穿戴神经调制设备 & 多实验夜 & 干电极、alpha相位估计、骨传导刺激、ERP验证 \\
 
-TSB Axo & W1/相位锁定闭环 & 移动PTAS设备；在线电极配置未充分报告 & 实时NREM门控与慢波检测 & 集成耳机递送50 ms粉红噪声；目标相位与个体音量 \\
+Earable & 一体化可穿戴设备 & 多协议居家/实验 & 干电极、PPG、加速度、入睡或阶段相关声音控制 \\
 
-CLAS-hdEEG & W2/相位锁定闭环 & 128通道EGI系统；在线使用Fz检测 & N3实验条件和慢波检测 & 短粉红噪声；90°目标窗命中 \\
+MHSL-SB系统族 & 移动居家声音刺激系统 & 工程和多夜居家 & NREM、beta、觉醒门控与居家声音刺激 \\
 
-Henao耳内EEG闭环 & W1/相位锁定闭环 & 跨耳双极耳内EEG & 耳内慢振荡检测 & 两次50 ms粉红噪声；目标窗控制 \\
+TSB Axo & 家庭相位靶向声音系统 & 居家干预 & NREM门控、慢波检测、个体音量和间隔协议 \\
 
-耳内EEG监测候选 & W1/未形成刺激控制 & 每只耳塞6个干接触电极 & PSG与信号质量验证 & 尚未接入刺激控制 \\
+CLAS-hdEEG & 实验室高密度EEG平台 & 实验室 & Fz在线检测、DIN标记、目标窗命中 \\
+
+Henao耳内EEG闭环 & 耳内EEG实验室闭环 & 实验室午睡 & 耳内慢振荡检测、双声刺激、相位窗结果 \\
+
+耳内EEG监测候选 & 监测验证 & 居家/PSG采集 & 信号质量、PSG一致性和电极可用性 \\
 
 \hline
 
@@ -630,45 +630,48 @@ Henao耳内EEG闭环 & W1/相位锁定闭环 & 跨耳双极耳内EEG & 耳内慢
 \begin{minipage}{\textwidth}
 \centering
 
-\fontsize{7.5pt}{9pt}\selectfont
+\fontsize{7.2pt}{8.6pt}\selectfont
 
 \setlength{\tabcolsep}{1.8pt}
 
 \vspace{2pt}
 
-{\bfseries 续表5\quad 典型闭环睡眠干预系统的验证链比较}\par
+{\bfseries 续表5\quad 典型闭环睡眠干预系统的已报告链路与证据边界}\par
 
 \vspace{2pt}
 
-\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.14\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.18\textwidth}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.20\textwidth}}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.18\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
 
 \hline
 
-典型系统 & 时间链 & 生理/行为证据 & 居家与失败数据 & 安全停止 \\
+系统/研究 & NR或不足 & 准确结论 \\
 
 \hline
 
-WDD & 独立时钟事后重同步；声音到耳仍未实测 & 有短窗响应 & 青年配对及中年居家试点；失败夜分母仍未充分报告 & 阶段、运动、觉醒、时间和间隔门控 \\
+WDD & 声音到耳时延、失败夜分母和长期临床终点不足 & W1可穿戴相位锁定证据，但临床疗效未闭合 \\
 
-Portiloop系统族 & 工程链路已拆分；人体声音到耳仍未实测 & 有短窗响应 & 多夜居家人体研究；约20\%数据损失 & 停止规则仍需充分报告 \\
+Portiloop系统族 & 工程版本和人体版本不能拼成同一硬件总性能；人体声音到耳时延NR & 可称系统族证据，不能称同版本完整链路 \\
 
-ENMod/Bressler & 总时延仍未充分报告；ERP潜伏期单独测量 & 有相位/事件相关电位（event-related potential，ERP）验证 & 多实验夜；可用EEG失败比例已报告 & 质量通道与限时刺激 \\
+ENMod/Bressler & 总时延和长期疗效不足 & W1相位锁定可穿戴证据，主要支持技术可行性 \\
 
-Earable & 时延仍未充分报告 & 有系统验证 & 有居家多夜子协议；通道失败有报告 & 检测入睡后停声；其他规则仍需充分报告 \\
+Earable & 干预链路、失败分母和临床终点需分开核验 & 可作为可穿戴系统验证，不宜写成成熟临床闭环 \\
 
-MHSL-SB系统族 & 时延仍未充分报告 & 有多夜响应 & 工程与多夜人体配对；纳入夜与完成者分母部分报告 & NREM、beta与觉醒门控 \\
+MHSL-SB系统族 & 工程与人体研究字段需分列；时延边界仍不完整 & 支持居家CLAS系统证据，不能只用单项指标排名 \\
 
-TSB Axo & 时延仍未充分报告 & 有事件响应和功能终点 & 居家干预夜；失败夜仍需充分报告 & 稳定NREM、觉醒、ON/OFF和个体音量 \\
+TSB Axo & 与MHSL-SB是否同硬件版本未证实；失败夜和时延字段仍不足 & 可列独立系统，不并入其他系统族 \\
 
-CLAS-hdEEG & 检测至DIN；声音到耳仍未实测 & 有短窗响应 & 实验室系统 & 阈值/波形门控；觉醒停止仍需充分报告 \\
+CLAS-hdEEG & DIN不等于声音到耳；非可穿戴居家 & W2人体实验室闭环证据 \\
 
-Henao耳内EEG闭环 & 局部滤波延迟；声音到耳仍未实测 & 有短窗响应 & 实验室午睡 & 双声后暂停；觉醒停止仍需充分报告 \\
+Henao耳内EEG闭环 & 居家多夜、物理到耳时延和完整觉醒停止不足 & 关闭实验室耳内闭环缺口，不关闭居家耳内闭环缺口 \\
 
-耳内EEG监测候选 & 采集同步 & 监测证据 & 有居家采集和电极可用性 & 刺激控制待接入 \\
+耳内EEG监测候选 & 尚未接入刺激控制 & 只能作为闭环输入端候选 \\
 
 \hline
 
 \end{tabularx}
+
+\vspace{2pt}
+{\raggedright\fontsize{7.2pt}{8.6pt}\selectfont 注：W1/W2表示本文证据距离分级；NR表示原文未充分报告，不代表系统不具备相应能力。系统族行仅表示相关研究可共同说明技术路径，不表示不同版本的工程时延、人体结果和安全字段可合并为同一设备性能。\par}
 
 \end{minipage}
 \end{center}
