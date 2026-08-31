@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.19)  31 AUG 2026 11:29
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.19)  31 AUG 2026 11:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**闭环睡眠干预综述-v20.tex
-(./闭环睡眠干预综述-v20.tex
+**闭环睡眠干预综述-v22.tex
+(./闭环睡眠干预综述-v22.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/local/texlive/2026/texmf-dist/tex/latex/ctex/ctexart.cls
@@ -1081,8 +1081,8 @@ ex={0},AutoFakeBold={2}].
 ;language=dflt;"
 
 
-(./闭环睡眠干预综述-v20.aux)
-\openout1 = `闭环睡眠干预综述-v20.aux'.
+(./闭环睡眠干预综述-v22.aux)
+\openout1 = `闭环睡眠干预综述-v22.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
@@ -1205,9 +1205,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 78.
-(./闭环睡眠干预综述-v20.out) (./闭环睡眠干预综述-v20.out)
+(./闭环睡眠干预综述-v22.out) (./闭环睡眠干预综述-v22.out)
 \@outlinefile=\write4
-\openout4 = `闭环睡眠干预综述-v20.out'.
+\openout4 = `闭环睡眠干预综述-v22.out'.
 
 
 Package fontspec Info: 
@@ -1266,6 +1266,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7.52812> on input line 156.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 156.
+ [1
+
+]
 LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 166.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.5> on input line 166.
@@ -1273,35 +1276,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7.34996> on input line 166.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5.25> on input line 166.
-
-
-Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 1 might be wrong on input line 169.
-
-
-[1
-
-] [2]
+ [2]
 File: ../assets/wearable-sleep-closed-loop-bci-architecture-v18.pdf Graphic fil
 e (type pdf)
 <use ../assets/wearable-sleep-closed-loop-bci-architecture-v18.pdf>
- [3] [4] [5]
-Overfull \vbox (9.40479pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (9.40479pt too high) has occurred while \output is active []
-
-
-[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
+ [3] [4] [5] [6]
+[7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
 File: ../assets/evidence-gap-matrix-v18.pdf Graphic file (type pdf)
 <use ../assets/evidence-gap-matrix-v18.pdf>
- [18] [19]
+ [18] [19] [20]
 Underfull \hbox (badness 10000) in paragraph at lines 754--754
 \TU/TimesNewRoman(0)/m/n/7.5 view[J/OL]. Sleep Medicine Reviews, 2024, 76: 1019
 51.
  []
 
-[20]
+
 Underfull \hbox (badness 6157) in paragraph at lines 778--778
 [][]\TU/TimesNewRoman(0)/m/n/7.5 SUPRATAK A, GUO Y. TinySleepNet: An Efficient 
 Deep
@@ -1313,13 +1302,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 778--778
 6741.
  []
 
-
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 782--782
 \TU/TimesNewRoman(0)/m/n/7.5 locked loop for precisely timed acoustic stimulati
 on during
  []
 
-[21]
+
 Underfull \hbox (badness 5331) in paragraph at lines 785--785
 [][]\TU/TimesNewRoman(0)/m/n/7.5 PARK K, HONG J, LEE W, \TU/宋体.ttc(0)/m/n/7.5 等
 \TU/TimesNewRoman(0)/m/n/7.5 . DistillSleep: real-time,
@@ -1396,21 +1385,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 818--818
 09.653171.
  []
 
-[23] (./闭环睡眠干预综述-v20.aux)
+[23] (./闭环睡眠干预综述-v22.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/07/14>
  ***********
-Package rerunfilecheck Info: File `闭环睡眠干预综述-v20.out' has not changed.
+Package rerunfilecheck Info: File `闭环睡眠干预综述-v22.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26683 strings out of 468168
- 621936 string characters out of 5432815
- 1054685 words of memory out of 5000000
- 54933 multiletter control sequences out of 15000+600000
+ 26764 strings out of 468168
+ 626816 string characters out of 5432815
+ 1044399 words of memory out of 5000000
+ 55014 multiletter control sequences out of 15000+600000
  638647 words of font info for 154 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,10n,104p,1367b,636s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,10n,104p,1935b,636s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 闭环睡眠干预综述-v20.pdf (25 pages).
+Output written on 闭环睡眠干预综述-v22.pdf (25 pages).
